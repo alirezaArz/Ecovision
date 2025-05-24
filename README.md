@@ -12,3 +12,9 @@ for preparing you pc to setup the project run this command in your terminal:</p>
 
 <p>
 this makes kind of HOT Reload or LIVE preview in the django and updates the htm in the browser while the file is being edited.</p>
+
+
+
+# NOTES
+
+-the limitations should be proccesed in every mini app due to the api provider's limits.
