@@ -5,6 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.keys import Keys
 import time
+import random
 options = Options()
 options.add_argument("--headless")
 
@@ -13,7 +14,8 @@ def search(inp_arg):
     dic = {}
     driver = webdriver.Firefox()
     driver.get("https://donya-e-eqtesad.com/newsstudios/search")
-    time.sleep(3)
+    time.sleep(random.randint(5, 20))
+    driver.implicitly_wait(5)
 
     try:
         var = WebDriverWait(driver, 10).until(
@@ -45,7 +47,8 @@ def main():
     driver = webdriver.Firefox()
     driver.get("https://donya-e-eqtesad.com/%D8%A8%D8%AE%D8%B4-%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF-183")
 
-    time.sleep(3)
+    time.sleep(random.randint(5, 20))
+    driver.implicitly_wait(5)
     
     try:
         paras = WebDriverWait(driver, 10).until(
