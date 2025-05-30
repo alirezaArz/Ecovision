@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.keys import Keys
 import time
-
+import random
 options = Options()
 options.add_argument("--headless")
 
@@ -15,9 +15,10 @@ def main():
 	dic = {}
 	driver = webdriver.Firefox()
 	driver.get("https://www.nytimes.com/section/business/economy")
+	time.sleep(random.randint(5, 20))
+	driver.implicitly_wait(5)
+      
 
-
-	time.sleep(3)
 	try:
 		var = WebDriverWait(driver, 10).until(
 			EC.presence_of_all_elements_located((By.CSS_SELECTOR, '.e15t083i0'))
@@ -37,8 +38,10 @@ def search(inp_arg):
     dic = {}
     driver = webdriver.Firefox()
     driver.get("https://www.nytimes.com/")
-    
-    time.sleep(3)
+    time.sleep(random.randint(5, 20))
+    driver.implicitly_wait(15)
+
+
     try:
         btn = WebDriverWait(driver, 10).until(
 			EC.presence_of_element_located((By.CSS_SELECTOR, '.css-tkwi90.e1iflr850'))
