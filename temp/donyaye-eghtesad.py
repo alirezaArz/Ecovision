@@ -4,13 +4,16 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.keys import Keys
-
+import time
 options = Options()
 options.add_argument("--headless")
-def func(inp_arg):
+
+
+def search(inp_arg):
+    dic = {}
     driver = webdriver.Firefox()
     driver.get("https://donya-e-eqtesad.com/newsstudios/search")
-
+    time.sleep(3)
 
     try:
         var = WebDriverWait(driver, 10).until(
@@ -20,9 +23,40 @@ def func(inp_arg):
         var.send_keys(str(inp_arg))
         var.send_keys(Keys.RETURN)
     except Exception as e:
-	    print(f"{e}")
+        print(f"{e}")
+    time.sleep(2)
+    try:
+        titles = WebDriverWait(driver, 10).until(
+		EC.presence_of_all_elements_located((By.CLASS_NAME, 'ng-binding'))
+        )
+
+    except Exception as e:
+         print(f"error at part 2 of the code::: {e}")
+
+    for i in range(len(titles)):
+        dic[i] = titles[i].text
+    
+    return (dic)
 
 
 
+def main():
+    dic = {}
+    driver = webdriver.Firefox()
+    driver.get("https://donya-e-eqtesad.com/%D8%A8%D8%AE%D8%B4-%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF-183")
 
-func("ارز")
+    time.sleep(3)
+    
+    try:
+        paras = WebDriverWait(driver, 10).until(
+		EC.presence_of_all_elements_located((By.CSS_SELECTOR, '.lead'))
+        )
+    except Exception as e:
+        print(f"personal error at search--------------{e}")
+    
+    
+    for i in range(len(paras)):
+        dic[i] = paras[i].text
+    
+    return(dic)
+
