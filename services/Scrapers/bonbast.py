@@ -47,4 +47,3 @@ def getcurrency():
 
 	return result
 
-

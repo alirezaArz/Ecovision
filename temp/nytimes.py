@@ -81,5 +81,3 @@ def search(inp_arg):
                 dic[i] = titles[i].text + ",," + paras[i].text
     
     return(dic)
-
-
