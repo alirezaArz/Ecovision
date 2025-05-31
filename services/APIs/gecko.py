@@ -5,7 +5,7 @@ import os
 from halo import Halo 
 import sys
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_PATH = os.path.join(BASE_DIR, 'geckoDATA')
+DATA_PATH = os.path.join(BASE_DIR, 'geckoData')
 
 spinner = Halo(text='', spinner={
 		"interval": 120,
