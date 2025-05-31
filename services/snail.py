@@ -76,8 +76,7 @@ class Snail():
 						elif item == "yahoo":
 							yahoo.main()
 						elif item == "gecko":
-							#---------------------------alireza add this one, i don't know how gecko works. too many functions
-							pass
+							gecko.price({'bitcoin', 'ethereum', 'tether'}, {'usd'})
 						self.durations[item] = self.durationsBackup[item]
 
 				print(f" remaining times: {self.durations}")
