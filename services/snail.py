@@ -35,14 +35,21 @@ class Snail():
 	})
 		
 		self.durationsBackup = {
-			'gecko' : 60,
-			'bonbast': 35,
-			'dnsd': 50,
-			'nytimes':70,
-			'yahoo' : 60
+			'gecko' : 3600,
+			'bonbast': 3600,
+			'dnsd': 3600,
+			'nytimes':3600,
+			'yahoo' : 3600
 		}
 		self.durations = self.durationsBackup.copy()
 		print(self.durations)
+
+	def instantrun(self):
+		bonbast.getcurrency()
+		dnsd.main()
+		nytimes.main()
+		yahoo.main()
+		gecko.price({'bitcoin', 'ethereum', 'tether'}, {'usd'})
 
 	def runserver(self):
 		try:
@@ -50,7 +57,7 @@ class Snail():
 	
 				self.next_process_name = min(self.durations, key=lambda k: self.durations[k])
 				self.CurrentWaitTime = self.durations[self.next_process_name]
-				print(f"\n next procces in {min(self.durations.values())} minutres! for {self.next_process_name}")
+				print(f"\n next process in {int(min(self.durations.values()) / 60)} minutres! for {self.next_process_name}")
 				self.spinner.start()
 
 #---------------------------------------------------------- code space
