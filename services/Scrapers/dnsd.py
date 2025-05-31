@@ -1,3 +1,4 @@
+# donyayae - eghtesaad
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
@@ -6,11 +7,29 @@ from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.keys import Keys
 import time
 import random
+from halo import Halo 
+import sys
+
 options = Options()
 options.add_argument("--headless")
 
 
+spinner = Halo(text='', spinner={
+		"interval": 80,
+		"frames": [
+			"[    ]",
+			"[   =]",
+			"[  ==]",
+			"[ ===]",
+			"[====]",
+			"[=== ]",
+			"[==  ]",
+			"[=   ]"
+		]
+	})
+
 def search(inp_arg):
+    spinner.start()
     dic = {}
     driver = webdriver.Firefox()
     driver.get("https://donya-e-eqtesad.com/newsstudios/search")
@@ -37,12 +56,13 @@ def search(inp_arg):
 
     for i in range(len(titles)):
         dic[i] = titles[i].text
-    
+    spinner.stop()
     return (dic)
 
 
 
 def main():
+    spinner.start()
     dic = {}
     driver = webdriver.Firefox()
     driver.get("https://donya-e-eqtesad.com/%D8%A8%D8%AE%D8%B4-%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF-183")
@@ -60,6 +80,6 @@ def main():
     
     for i in range(len(paras)):
         dic[i] = paras[i].text
-    
+    spinner.stop()
     return(dic)
 

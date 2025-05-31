@@ -2,18 +2,33 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
+from halo import Halo 
+import sys
 from selenium.webdriver.firefox.options import Options
 import random
 import time
-
+spinner = Halo(text='', spinner={
+		"interval": 80,
+		"frames": [
+			"[    ]",
+			"[   =]",
+			"[  ==]",
+			"[ ===]",
+			"[====]",
+			"[=== ]",
+			"[==  ]",
+			"[=   ]"
+		]
+	})
 
 def getcurrency():
+	spinner.start()
 	driver = webdriver.Firefox()
 	driver.get("https://www.bon-bast.com/")
 	time.sleep(random.randint(5, 20))
 	driver.implicitly_wait(5)
 	memo = []
-
+	
 	try:
 		var = WebDriverWait(driver, 10).until(
 			EC.presence_of_all_elements_located((By.CSS_SELECTOR, "table.table-condensed"))
@@ -45,5 +60,7 @@ def getcurrency():
 
 		result[code] = {'name': name, 'buy': buy, 'sell': sell}
 
+	spinner.stop()
 	return result
 
+print(getcurrency())

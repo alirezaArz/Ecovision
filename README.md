@@ -18,3 +18,8 @@ this makes kind of HOT Reload or LIVE preview in the django and updates the htm 
 # NOTES
 
 -the limitations should be proccesed in every mini app due to the api provider's limits.
+
+
+#Resources:
+    spinners:
+      https://github.com/sindresorhus/cli-spinners/blob/dac4fc6571059bb9e9bc204711e9dfe8f72e5c6f/spinners.json
