@@ -14,6 +14,7 @@ from services.APIs import gecko as gecko
 from services.Scrapers import bonbast as bonbast
 from services.Scrapers import dnsd as dnsd
 from services.Scrapers import nytimes as nytimes
+from services.Scrapers import yahoo
 
 
 
@@ -37,7 +38,8 @@ class Snail():
 			'gecko' : 60,
 			'bonbast': 35,
 			'dnsd': 50,
-			'nytimes':70
+			'nytimes':70,
+			'yahoo' : 60
 		}
 		self.durations = self.durationsBackup.copy()
 		print(self.durations)
@@ -50,20 +52,32 @@ class Snail():
 				self.CurrentWaitTime = self.durations[self.next_process_name]
 				print(f"\n next procces in {min(self.durations.values())} minutres! for {self.next_process_name}")
 				self.spinner.start()
+
+#---------------------------------------------------------- code space
+#code that runs here, runs every time a timer hits 0
+#------------------------------------------------------------
+
+
 				time.sleep(self.CurrentWaitTime)
 
-				#we can do the main processes here---------
 				print('\nbbbooommm')
-
-
-
-				#/-----------------------------------------
 
 				for item in self.durations:
 					val = self.durations[item]
 
 					self.durations[item] -= self.CurrentWaitTime
 					if self.durations[item] == 0:
+						if item == "bonbast":
+							bonbast.getcurrency()
+						elif item == "dnsd":
+							dnsd.main()
+						elif item == "nytimes":
+							nytimes.main()
+						elif item == "yahoo":
+							yahoo.main()
+						elif item == "gecko":
+							#---------------------------alireza add this one, i don't know how gecko works. too many functions
+							pass
 						self.durations[item] = self.durationsBackup[item]
 
 				print(f" remaining times: {self.durations}")
