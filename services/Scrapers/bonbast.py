@@ -62,5 +62,3 @@ def getcurrency():
 
 	spinner.stop()
 	return result
-
-print(getcurrency())
