@@ -13,6 +13,11 @@ for preparing you pc to setup the project run this command in your terminal:</p>
 <p>
 this makes kind of HOT Reload or LIVE preview in the django and updates the htm in the browser while the file is being edited.</p>
 
+<h2>
+to run the react + nextjs   run this two  inside T:\JAVASCRIPT\VGAnalyzer\VGAnalyzer\frontend
+
+  pnpm install   and   pnpm dev
+</h2>
 
 
 # NOTES
@@ -20,6 +25,12 @@ this makes kind of HOT Reload or LIVE preview in the django and updates the htm 
 -the limitations should be proccesed in every mini app due to the api provider's limits.
 
 
+
+
 #Resources:
     spinners:
       https://github.com/sindresorhus/cli-spinners/blob/dac4fc6571059bb9e9bc204711e9dfe8f72e5c6f/spinners.json
+
+
+
+  
