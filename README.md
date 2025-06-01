@@ -16,7 +16,7 @@ this makes kind of HOT Reload or LIVE preview in the django and updates the htm 
 <h2>
 to run the react + nextjs   run this two  inside T:\JAVASCRIPT\VGAnalyzer\VGAnalyzer\frontend
 
-  pnpm install   and   pnpm dev
+  npm install   and   npm run dev
 </h2>
 
 
