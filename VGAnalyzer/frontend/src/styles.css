@@ -176,13 +176,20 @@ body {
 
 .search-button {
   color: var(--search-icon);
-  transition: color 0.3s ease;
-}
-.search-button:hover {
-  color: var(--keppel);
+  transition: color 0.3s ease;   
+
+  background-color: transparent;
+  border: none;                  
+  padding: 8px;                  
+  cursor: pointer;              
+
 }
 
-/* Navigation Styles */
+.search-button:hover {
+  color: var(--keppel); 
+}
+
+
 .navigation {
   display: flex;
 }
