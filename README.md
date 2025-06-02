@@ -20,6 +20,7 @@ to run the react + nextjs   run this two  inside T:\JAVASCRIPT\VGAnalyzer\VGAnal
 </h2>
 
 
+
 # NOTES
 
 -the limitations should be proccesed in every mini app due to the api provider's limits.
