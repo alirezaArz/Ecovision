@@ -47,7 +47,7 @@ class Sidebar extends Component {
     ]
 
     return (
-      <aside className="sidebar">
+      <aside className="sidebar unified-scroll full-height" style={{ backgroundColor: "#0d1117" }}>
         <div className="sidebar-content">
           {/* Sidebar Search - Fixed icon position */}
           <div className="sidebar-search">
