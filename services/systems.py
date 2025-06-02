@@ -7,7 +7,7 @@ if project_root not in sys.path:
 from services.APIs import gecko as gecko
 from services.Scrapers import bonbast as bonbast
 
-DATA_PATH = r"\VGAnalyzer\services\APIs\geckoData"
+DATA_PATH = os.path.join(project_root, 'services', 'APIs', 'geckoData')
 
 class System():
     def __init__(self):
