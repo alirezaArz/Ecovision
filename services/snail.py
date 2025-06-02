@@ -51,7 +51,7 @@ class Snail():
 		dnsd.main()
 		nytimes.main()
 		yahoo.main()
-		gecko.price({'bitcoin', 'ethereum', 'tether'}, {'usd'})
+		gecko.price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'Polygon'}, {'usd'})
 		esdn.main()
 
 	def runserver(self):
