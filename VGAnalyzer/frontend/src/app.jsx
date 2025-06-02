@@ -1,16 +1,17 @@
-import { Component } from "react"
-import Header from "./components/header"
-import Sidebar from "./components/sidebar"
-import HomePage from "./components/home-page"
-import "./styles.css"
+import { Component } from "react";
+import Header from "./components/header";
+import Sidebar from "./components/sidebar";
+import HomePage from "./components/home-page";
+import "./styles.css";
 
 class App extends Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       searchQuery: "",
       selectedCategory: "all",
       newsData: [
+        // ... (داده‌های اخبار شما بدون تغییر باقی می‌مانند)
         {
           id: 1,
           title: "Federal Reserve Signals Potential Rate Cut in 2025",
@@ -86,32 +87,44 @@ class App extends Component {
           date: "2025-01-31",
         },
       ],
-      cryptoData: [
-        { symbol: "BTC", name: "Bitcoin", price: "$43,250", change: "+2.4%", positive: true },
-        { symbol: "ETH", name: "Ethereum", price: "$2,580", change: "+1.8%", positive: true },
-        { symbol: "ADA", name: "Cardano", price: "$0.52", change: "-0.9%", positive: false },
-        { symbol: "SOL", name: "Solana", price: "$98.40", change: "+3.2%", positive: true },
-        { symbol: "DOT", name: "Polkadot", price: "$7.85", change: "-1.2%", positive: false },
-        { symbol: "MATIC", name: "Polygon", price: "$0.89", change: "+0.7%", positive: true },
-      ],
-      theme: "dark",
-    }
+      cryptoData: [], // مقدار اولیه را خالی یا null بگذارید
+      theme: "dark", // مقدار theme را می‌توانید همچنان از اینجا یا از API بگیرید
+    };
+  }
+
+  componentDidMount() {
+    // درخواست برای دریافت داده‌های cryptoData
+    fetch("http://127.0.0.1:8000/crypto-data/") // آدرس API جنگو
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        return response.json();
+      })
+      .then((data) => {
+        this.setState({ cryptoData: data });
+        // اگر theme را هم از API می‌گیرید:
+        // this.setState({ cryptoData: data.cryptoData, theme: data.theme });
+      })
+      .catch((error) => {
+        console.error("There has been a problem with your fetch operation:", error);
+      });
   }
 
   handleSearch = (query) => {
-    this.setState({ searchQuery: query })
-  }
+    this.setState({ searchQuery: query });
+  };
 
   handleCategorySelect = (category) => {
-    this.setState({ selectedCategory: category })
-  }
+    this.setState({ selectedCategory: category });
+  };
 
   getFilteredNews = () => {
-    const { newsData, searchQuery, selectedCategory } = this.state
-    let filtered = newsData
+    const { newsData, searchQuery, selectedCategory } = this.state;
+    let filtered = newsData;
 
     if (selectedCategory !== "all") {
-      filtered = filtered.filter((news) => news.category.toLowerCase() === selectedCategory.toLowerCase())
+      filtered = filtered.filter((news) => news.category.toLowerCase() === selectedCategory.toLowerCase());
     }
 
     if (searchQuery) {
@@ -119,15 +132,20 @@ class App extends Component {
         (news) =>
           news.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
           news.summary.toLowerCase().includes(searchQuery.toLowerCase()) ||
-          news.category.toLowerCase().includes(searchQuery.toLowerCase()),
-      )
+          news.category.toLowerCase().includes(searchQuery.toLowerCase())
+      );
     }
 
-    return filtered
-  }
+    return filtered;
+  };
 
   render() {
-    const { theme } = this.state
+    const { theme } = this.state;
+    // نمایش یک پیام "در حال بارگذاری" تا زمانی که داده‌ها دریافت شوند
+    if (this.state.cryptoData.length === 0) {
+        return <div>Loading crypto data...</div>;
+    }
+
     return (
       <div className={`app ${theme}`}>
         <Header onSearch={this.handleSearch} />
@@ -135,15 +153,15 @@ class App extends Component {
           <Sidebar
             onCategorySelect={this.handleCategorySelect}
             onSearch={this.handleSearch}
-            cryptoData={this.state.cryptoData}
+            cryptoData={this.state.cryptoData} // استفاده از داده‌های دریافت شده
           />
           <main className="main-content">
             <HomePage newsData={this.getFilteredNews()} />
           </main>
         </div>
       </div>
-    )
+    );
   }
 }
 
-export default App
+export default App;
