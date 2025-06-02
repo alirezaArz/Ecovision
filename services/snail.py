@@ -15,6 +15,7 @@ from services.Scrapers import bonbast as bonbast
 from services.Scrapers import dnsd as dnsd
 from services.Scrapers import nytimes as nytimes
 from services.Scrapers import yahoo
+from services.Scrapers import esdn
 
 
 
@@ -39,7 +40,8 @@ class Snail():
 			'bonbast': 3600,
 			'dnsd': 3600,
 			'nytimes':3600,
-			'yahoo' : 3600
+			'yahoo' : 3600,
+			"esdn": 3600
 		}
 		self.durations = self.durationsBackup.copy()
 		print(self.durations)
@@ -50,6 +52,7 @@ class Snail():
 		nytimes.main()
 		yahoo.main()
 		gecko.price({'bitcoin', 'ethereum', 'tether'}, {'usd'})
+		esdn.main()
 
 	def runserver(self):
 		try:
@@ -84,6 +87,8 @@ class Snail():
 							yahoo.main()
 						elif item == "gecko":
 							gecko.price({'bitcoin', 'ethereum', 'tether'}, {'usd'})
+						elif item == "esdn":
+							esdn.main()
 						self.durations[item] = self.durationsBackup[item]
 
 				print(f" remaining times: {self.durations}")
