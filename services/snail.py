@@ -126,7 +126,7 @@ class Snail():
 			self.spinner.stop()
 			print('server is shuted down')
 
-	def snailread(self):
+	def lead(self):
 		with open(os.path.join(snailpath, f"Snaildata.json"), 'r', encoding='utf-8') as file:
 			self.data = json.load(file)
 			return(self.data)
@@ -144,7 +144,7 @@ class Snail():
 			json.dump(parsed_json, file, indent=4, ensure_ascii=False)
 
 	def get_news_data(self):
-		with open(os.path.join(DATA_PATH, f"nytimes_main_data.json"), 'r', encoding='utf-8') as file:
+		with open(os.path.join(DATA_PATH, f"nyt.json"), 'r', encoding='utf-8') as file:
 			data = json.load(file)
 			return(data)
 

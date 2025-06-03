@@ -16,5 +16,5 @@ def get_crypto_data(request):
     return JsonResponse(crypto_data, safe=False)
 
 def get_main_news(request):
-    news_data = systems.vgsy.get_news_data()
+    news_data = systems.vgsy.get_snail_data()
     return JsonResponse(news_data, safe=False)

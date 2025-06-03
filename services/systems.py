@@ -6,6 +6,7 @@ if project_root not in sys.path:
     sys.path.insert(0, project_root)
 from services.APIs import gecko as gecko
 from services.Scrapers import bonbast as bonbast
+from services import snail as snail
 
 GECKO_PATH = os.path.join(project_root, 'services', 'APIs', 'geckoData')
 NYTIME_PATH = os.path.join(project_root, 'services', 'scrapers', 'nytimesDATA')
@@ -32,7 +33,12 @@ class System():
         return self.result
 
 
-
+    def get_snail_data(self):
+        snailData = snail.snail.lead()
+        for item in snailData.keys():
+            snailData[item]["id"] = item
+            snailData[item]["image"] = "placeholder.svg"
+        return(snailData)
     
         
         
@@ -41,3 +47,4 @@ vgsy = System()
 
 
 
+print(vgsy.get_snail_data())
