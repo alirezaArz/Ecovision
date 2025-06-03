@@ -6,10 +6,14 @@ from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.keys import Keys
 import time
 import random
+import os
+import json
 options = Options()
 options.add_argument("--headless")
 
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_PATH= os.path.join(BASE_DIR , "yahoo")
 
 def main():
 	dic = {}
@@ -31,7 +35,7 @@ def main():
 		dic[i] = var[i].text
 	driver.quit()
 	
-	return (dic)
+	save(dic)
 
 
 def search(inp_arg):
@@ -83,4 +87,21 @@ def search(inp_arg):
           for i in range(len(titles)):
                 dic[i] = titles[i].text + ",," + paras[i].text
     
-    return(dic)
+    save(dic)
+
+
+def save(data):
+    with open(os.path.join(DATA_PATH ,"nyt.json") , "w" , encoding="utf-8") as s:
+        json.dump(data , s , ensure_ascii= False , indent=4)
+
+def load(filename= "nyt.json"):
+    if os.path.exists(filename):
+        try :
+            with open( os.path.join(DATA_PATH ,"nyt.json") , "r" , encoding="usf-8") as l:
+                data = json.load(l)
+        except Exception as e :
+            data= {}
+    else :
+        data = {}
+    
+    return (data)

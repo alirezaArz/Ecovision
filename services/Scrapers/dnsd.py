@@ -9,24 +9,31 @@ import time
 import random
 from halo import Halo 
 import sys
+import os 
+import json
+
+
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_PATH= os.path.join(BASE_DIR , "dnsd")
 
 options = Options()
 options.add_argument("--headless")
 
 
 spinner = Halo(text='', spinner={
-		"interval": 80,
-		"frames": [
-			"[    ]",
-			"[   =]",
-			"[  ==]",
-			"[ ===]",
-			"[====]",
-			"[=== ]",
-			"[==  ]",
-			"[=   ]"
-		]
-	})
+    "interval": 80,
+    "frames": [
+      "[    ]",
+      "[   =]",
+      "[  ==]",
+      "[ ===]",
+      "[====]",
+      "[=== ]",
+      "[==  ]",
+      "[=   ]"
+    ]
+  })
 
 def search(inp_arg):
     spinner.start()
@@ -38,7 +45,7 @@ def search(inp_arg):
 
     try:
         var = WebDriverWait(driver, 10).until(
-		EC.presence_of_element_located((By.NAME, 'query'))
+    EC.presence_of_element_located((By.NAME, 'query'))
         )
         var.click()
         var.send_keys(str(inp_arg))
@@ -48,7 +55,7 @@ def search(inp_arg):
     time.sleep(2)
     try:
         titles = WebDriverWait(driver, 10).until(
-		EC.presence_of_all_elements_located((By.CLASS_NAME, 'ng-binding'))
+    EC.presence_of_all_elements_located((By.CLASS_NAME, 'ng-binding'))
         )
 
     except Exception as e:
@@ -57,7 +64,7 @@ def search(inp_arg):
     for i in range(len(titles)):
         dic[i] = titles[i].text
     spinner.stop()
-    return (dic)
+    save(dic)
 
 
 
@@ -72,7 +79,7 @@ def main():
     
     try:
         paras = WebDriverWait(driver, 10).until(
-		EC.presence_of_all_elements_located((By.CSS_SELECTOR, '.lead'))
+    EC.presence_of_all_elements_located((By.CSS_SELECTOR, '.lead'))
         )
     except Exception as e:
         print(f"personal error at search--------------{e}")
@@ -81,5 +88,20 @@ def main():
     for i in range(len(paras)):
         dic[i] = paras[i].text
     spinner.stop()
-    return(dic)
+    save(dic)
 
+
+def save(data):
+    with open(os.path.join(DATA_PATH , "Dnsd.json") , "w" , encoding="utf-8") as s:
+        json.dump(data , s , ensure_ascii= False , indent=4)
+
+def load(filename= "Dnsd.json"):
+    if os.path.exists(filename):
+        try :
+            with open( os.path.join(DATA_PATH , "Dnsd.json") , "r" , encoding="usf-8") as l:
+                data = json.load(l)
+        except Exception as e :
+            data= {}
+    else :
+        data = {}
+    return(data)
