@@ -47,4 +47,3 @@ vgsy = System()
 
 
 
-print(vgsy.get_snail_data())
