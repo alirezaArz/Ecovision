@@ -15,7 +15,7 @@ import json
 
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_PATH= os.path.join(BASE_DIR , "dnsd")
+DATA_PATH= os.path.join(BASE_DIR , "scraped")
 
 options = Options()
 options.add_argument("--headless")
@@ -64,6 +64,7 @@ def search(inp_arg):
     for i in range(len(titles)):
         dic[i] = titles[i].text
     spinner.stop()
+    driver.quit()
     save(dic)
 
 
@@ -88,6 +89,7 @@ def main():
     for i in range(len(paras)):
         dic[i] = paras[i].text
     spinner.stop()
+    driver.quit()
     save(dic)
 
 

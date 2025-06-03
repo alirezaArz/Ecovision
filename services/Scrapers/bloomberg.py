@@ -13,7 +13,7 @@ options = Options()
 options.add_argument("--headless")
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_PATH= os.path.join(BASE_DIR , "bonbast")
+DATA_PATH= os.path.join(BASE_DIR , "scraped")
 
 
 
@@ -76,13 +76,17 @@ def main():
 
 	titles = sect.find_elements(By.TAG_NAME, "span")
 	titles = titles[:-4]
+	titles2 = []
+	for title in titles:
+		if len(title.text) > 20:
+			titles2.append(title)
 												
 
 
 
 
-	for i in range(len(titles)):
-		dic[i] = titles[i].text
+	for i in range(len(titles2)):
+		dic[i] = titles2[i].text
 
 	driver.quit()
 	

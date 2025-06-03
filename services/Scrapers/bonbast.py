@@ -11,7 +11,7 @@ import json
 import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_PATH= os.path.join(BASE_DIR , "bonbast")
+DATA_PATH= os.path.join(BASE_DIR , "scraped")
 
 
 spinner = Halo(text='', spinner={
@@ -28,7 +28,7 @@ spinner = Halo(text='', spinner={
     ]
   })
 
-def getcurrency():
+def main():
   spinner.start()
   driver = webdriver.Firefox()
   driver.get("https://www.bon-bast.com/")
