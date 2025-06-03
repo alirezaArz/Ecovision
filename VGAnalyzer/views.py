@@ -14,3 +14,7 @@ from services import systems
 def get_crypto_data(request):
     crypto_data = systems.vgsy.getStatGeckoPrice()
     return JsonResponse(crypto_data, safe=False)
+
+def get_main_news(request):
+    news_data = systems.vgsy.get_news_data()
+    return JsonResponse(news_data, safe=False)

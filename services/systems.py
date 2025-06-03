@@ -7,19 +7,20 @@ if project_root not in sys.path:
 from services.APIs import gecko as gecko
 from services.Scrapers import bonbast as bonbast
 
-DATA_PATH = os.path.join(project_root, 'services', 'APIs', 'geckoData')
+GECKO_PATH = os.path.join(project_root, 'services', 'APIs', 'geckoData')
+NYTIME_PATH = os.path.join(project_root, 'services', 'scrapers', 'nytimesDATA')
 
 class System():
     def __init__(self):
         pass
 
-    def read(self,name):
-        with open(os.path.join(DATA_PATH, f"gecko{name}.json"), 'r', encoding='utf-8') as file:
+    def gecko_read(self,name):
+        with open(os.path.join(GECKO_PATH, f"gecko{name}.json"), 'r', encoding='utf-8') as file:
             data = json.load(file)
             return(data)
         
     def getStatGeckoPrice(self):
-        self.priceData = self.read('price')
+        self.priceData = self.gecko_read('price')
         self.result = [
         { "symbol": "BTC", "name": "Bitcoin", "price": self.priceData['bitcoin']['usd'] , "change": "+2.4%", "positive": True },
         { "symbol": "ETH", "name": "Ethereum", "price": self.priceData['ethereum']['usd'], "change": "+1.8%", "positive": True },
@@ -30,6 +31,15 @@ class System():
         ]
         return self.result
 
+
+    def get_news_data(self):
+        with open(os.path.join(NYTIME_PATH, f"nytimes_main_data.json"), 'r', encoding='utf-8') as file:
+            data = json.load(file)
+            return(data)
+        
+    
+        
+        
 
 vgsy = System()
 
