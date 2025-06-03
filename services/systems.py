@@ -34,7 +34,7 @@ class System():
 
 
     def get_snail_data(self):
-        snailData = snail.snail.lead()
+        snailData = snail.snail.snailread()
         for item in snailData.keys():
             snailData[item]["id"] = item
             snailData[item]["image"] = "placeholder.svg"
