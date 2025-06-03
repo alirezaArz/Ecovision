@@ -8,6 +8,7 @@ from services.APIs import gecko as gecko
 from services.Scrapers import bonbast as bonbast
 
 GECKO_PATH = os.path.join(project_root, 'services', 'APIs', 'geckoData')
+snailpath = os.path.join(project_root,'services', 'SnailData')
 NYTIME_PATH = os.path.join(project_root, 'services', 'scrapers', 'nytimesDATA')
 
 class System():
@@ -32,11 +33,10 @@ class System():
         return self.result
 
 
-    def get_news_data(self):
-        with open(os.path.join(NYTIME_PATH, f"nytimes_main_data.json"), 'r', encoding='utf-8') as file:
-            data = json.load(file)
-            return(data)
-        
+    def snailread(self):
+          with open(os.path.join(snailpath, f"Snaildata.json"), 'r', encoding='utf-8') as file:
+            self.data = json.load(file)
+            return(self.data)
     
         
         
