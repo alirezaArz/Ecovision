@@ -1,6 +1,7 @@
 import sys
 import os
 import json
+import random
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
@@ -34,10 +35,11 @@ class System():
 
 
     def get_snail_data(self):
+        images = ["im1.jpg", "im2.jpg", "im3.jpg", "im4.jpg", "im5.jpg"]
         snailData = snail.snail.snailread()
         for item in snailData.keys():
             snailData[item]["id"] = item
-            snailData[item]["image"] = "placeholder.svg"
+            snailData[item]["image"] = random.choices(images, k=1)
         return(snailData)
     
         
@@ -45,6 +47,3 @@ class System():
 
 vgsy = System()
 
-
-
-print(vgsy.get_snail_data())
