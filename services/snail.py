@@ -18,6 +18,7 @@ from services.Scrapers import dnsd as dnsd
 from services.Scrapers import nytimes as nytimes
 from services.Scrapers import yahoo
 from services.Scrapers import esdn
+from services.Scrapers import bloomberg
 from services.AI import gemeni as gemeni
 
 
@@ -44,21 +45,23 @@ class Snail():
 			'dnsd': 3600,
 			'nytimes':3600,
 			'yahoo' : 3600,
+			"bloomberg": 3600,
 			"esdn": 3600
 		}
 		self.durations = self.durationsBackup.copy()
 
 	def instantrun(self, names = []):
 		if names == []:
-			bonbast.getcurrency()
+			bonbast.main()
 			dnsd.main()
 			nytimes.main()
 			yahoo.main()
 			gecko.price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'Polygon'}, {'usd'})
 			esdn.main()
+			bloomberg.main()
 		else:
 			if 'bonbast' in names:
-				bonbast.getcurrency()
+				bonbast.main()
 			if 'dnsd' in names:
 				dnsd.main()
 			if 'nytimes' in names:
@@ -69,6 +72,8 @@ class Snail():
 				gecko.price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'Polygon'}, {'usd'})
 			if 'esdn' in names:
 				esdn.main()
+			if "bloomberg" in names:
+				bloomberg.main()
 
 
 
@@ -108,6 +113,8 @@ class Snail():
 							gecko.price({'bitcoin', 'ethereum', 'tether'}, {'usd'})
 						elif item == "esdn":
 							esdn.main()
+						elif item == "bloomberg":
+							bloomberg.main()
 						self.durations[item] = self.durationsBackup[item]
 
 				print(f" remaining times: {self.durations}")
