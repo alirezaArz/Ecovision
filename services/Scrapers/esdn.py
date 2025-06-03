@@ -6,6 +6,12 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.keys import Keys
 import time
+import json
+import os
+
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_PATH= os.path.join(BASE_DIR , "eghtesat news")
 
 options = Options()
 options.add_argument("--headless")
@@ -13,68 +19,82 @@ options.add_argument("--headless")
 
 
 def main():
-	dic = {}
-	driver = webdriver.Firefox()
-	driver.get("https://www.eghtesadnews.com/")
+  dic = {}
+  driver = webdriver.Firefox()
+  driver.get("https://www.eghtesadnews.com/")
 
 
-	time.sleep(3)
-	try:
-		div = WebDriverWait(driver, 10).until(
-			EC.presence_of_element_located((By.CSS_SELECTOR, '.content.webgardi-box'))
-		)
+  time.sleep(3)
+  try:
+    div = WebDriverWait(driver, 10).until(
+      EC.presence_of_element_located((By.CSS_SELECTOR, '.content.webgardi-box'))
+    )
 
-	except Exception as e:
-		print(f"{e}")
+  except Exception as e:
+    print(f"{e}")
 
-	titles = div.find_elements(By.TAG_NAME, "a")
-	titles = titles[1:-1]
+  titles = div.find_elements(By.TAG_NAME, "a")
+  titles = titles[1:-1]
 
-	for i in range(len(titles)):
-		titles[i] = titles[i].text
+  for i in range(len(titles)):
+    titles[i] = titles[i].text
 
-	titles = [i.replace("\u200c", " ") for i in titles]
+  titles = [i.replace("\u200c", " ") for i in titles]
 
 
-	for i in range(len(titles)):
-		dic[i] = titles[i]
+  for i in range(len(titles)):
+    dic[i] = titles[i]
 
-	driver.quit()
-	
-	return (dic)
+  driver.quit()
+  
+  save(dic)
 
 
 
 def search(inp_arg):
-	dic = {}
-	driver = webdriver.Firefox()
-	driver.get("https://www.eghtesadnews.com/newsstudios/search")
+  dic = {}
+  driver = webdriver.Firefox()
+  driver.get("https://www.eghtesadnews.com/newsstudios/search")
 
 
-	time.sleep(3)
-	try:
-		inp = WebDriverWait(driver, 10).until(
-			EC.visibility_of_element_located((By.NAME, 'query'))
-		)
+  time.sleep(3)
+  try:
+    inp = WebDriverWait(driver, 10).until(
+      EC.visibility_of_element_located((By.NAME, 'query'))
+    )
 
-	except Exception as e:
-		print(f"{e}")
-	
-	inp.click()
-	inp.send_keys(inp_arg)
-	inp.send_keys(Keys.RETURN)
+  except Exception as e:
+    print(f"{e}")
+  
+  inp.click()
+  inp.send_keys(inp_arg)
+  inp.send_keys(Keys.RETURN)
 
-	try:
-		titles = WebDriverWait(driver, 10).until(
-			EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".fnb.fn15.clr04.ng-binding"))
-		)
-	except Exception as e:
-		print(f"exception at part 2two::::  {e}")
-	
-	for i in range(len(titles)):
-		dic[i] = titles[i].text
+  try:
+    titles = WebDriverWait(driver, 10).until(
+      EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".fnb.fn15.clr04.ng-binding"))
+    )
+  except Exception as e:
+    print(f"exception at part 2two::::  {e}")
+  
+  for i in range(len(titles)):
+    dic[i] = titles[i].text
 
-	driver.quit()
+  driver.quit()
 
-	return(dic)
+  save(dic)
 
+def save(data):
+    with open(os.path.join(DATA_PATH ,"Eghtesat_news.json") , "w" , encoding="utf-8") as s:
+        json.dump(data , s , ensure_ascii= False , indent=4)
+
+def load(filename= "Eghtesat_news.json"):
+    if os.path.exists(filename):
+        try :
+            with open( os.path.join(DATA_PATH , "Eghtesat_news.json") , "r" , encoding="usf-8") as l:
+                data = json.load(l)
+        except Exception as e :
+            data= {}
+    else :
+        data = {}
+    return data
