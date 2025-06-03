@@ -37,6 +37,7 @@ def is_online(test_url="https://www.google.com"):
         return False
 
 def connect(url, params, id:str):
+    print("Gecko is running")
     spinner.start()
     try:
         if params != {}:
@@ -72,6 +73,7 @@ def price(ids:set, vs_currencies:set):
     'vs_currencies': ','.join(vs_currencies),
     }
     return connect(url, params, 'geckoprice.json')
+
 
 
 def market_chart(vs_currency:set, days:int):
@@ -110,7 +112,7 @@ def globals():
     return connect(url, params, 'geckoglobals.json')
 
 
-#print(price({'bitcoin', 'ethereum', 'tether'}, {'usd'}))
+#price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
 #print(market_chart({'usd'}, 2))
 #print(is_online())
 #print(ticker({'bitcoin'}))

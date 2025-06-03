@@ -13,30 +13,53 @@ options.add_argument("--headless")
 
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_PATH= os.path.join(BASE_DIR , "yahoo")
+DATA_PATH= os.path.join(BASE_DIR , "scraped")
+from datetime import datetime
+
 
 def main():
-	dic = {}
-	driver = webdriver.Firefox()
-	driver.get("https://www.nytimes.com/section/business/economy")
-	time.sleep(random.randint(5, 20))
-	driver.implicitly_wait(5)
-      
+    dic = {}
+    driver = webdriver.Firefox()
+    driver.get("https://www.nytimes.com/section/business/economy")
+    time.sleep(random.randint(5, 20))
+    driver.implicitly_wait(5)
+    
+    titles_elements = []
+    descript_elements = []
 
-	try:
-		var = WebDriverWait(driver, 10).until(
-			EC.presence_of_all_elements_located((By.CSS_SELECTOR, '.e15t083i0'))
-		)
+    try:
+        titles_elements = WebDriverWait(driver, 10).until(
+            EC.presence_of_all_elements_located((By.CSS_SELECTOR, '.e15t083i0'))
+        )
+        descript_elements = WebDriverWait(driver, 10).until(
+            EC.presence_of_all_elements_located((By.CSS_SELECTOR, '.css-1pga48a.e15t083i1'))
+        )
+    except Exception as e:
+        print(f"Error fetching elements: {e}")
 
-	except Exception as e:
-		print(f"{e}")
-
-	for i in range(len(var)):
-		dic[i] = var[i].text
-	driver.quit()
-	
-	save(dic)
-
+    if titles_elements and descript_elements:
+        current_time = datetime.now().isoformat()
+        num_items = min(len(titles_elements), len(descript_elements))
+        
+        processed_data_list = []
+        for i in range(num_items):
+            item_data = {
+                "id": i + 1,
+                "title": titles_elements[i].text,
+                "summary": descript_elements[i].text,
+                "image": 'placeholder.svg',
+                "category": 'news',
+                "importance": 'medium',
+                "date": current_time
+            }
+            processed_data_list.append(item_data)
+        
+        if processed_data_list:
+            dic = {"newsData": processed_data_list}
+            save(dic)
+            
+    driver.quit()
+    return (dic)
 
 def search(inp_arg):
     dic = {}
@@ -45,23 +68,26 @@ def search(inp_arg):
     time.sleep(random.randint(5, 20))
     driver.implicitly_wait(15)
 
-
     try:
         btn = WebDriverWait(driver, 10).until(
-			EC.presence_of_element_located((By.CSS_SELECTOR, '.css-tkwi90.e1iflr850'))
-		)
+            EC.presence_of_element_located((By.CSS_SELECTOR, '.css-tkwi90.e1iflr850'))
+        )
     except Exception as e:
         print(f"personal exception--------------------{e}")
-		
+        driver.quit()
+        return dic
+        
     btn.click()
-	
+    
     time.sleep(1)
     try:
         inp = WebDriverWait(driver, 10).until(
-			EC.presence_of_element_located((By.NAME, 'query'))
-		)
+            EC.presence_of_element_located((By.NAME, 'query'))
+        )
     except Exception as e:
         print(f"personal exception2--------------------{e}")
+        driver.quit()
+        return dic
     
     inp.click()
     inp.send_keys(f"{inp_arg}")
@@ -69,23 +95,26 @@ def search(inp_arg):
 
     time.sleep(3)
     
+    titles = []
+    paras = []
     try:
-            titles = WebDriverWait(driver, 10).until(
-			EC.presence_of_all_elements_located((By.CSS_SELECTOR, '.css-nsjm9t'))
-            
-		)
-            
-            paras = WebDriverWait(driver, 10).until(
-			EC.presence_of_all_elements_located((By.CSS_SELECTOR, '.css-e5tzus'))
+        titles = WebDriverWait(driver, 10).until(
+            EC.presence_of_all_elements_located((By.CSS_SELECTOR, '.css-nsjm9t'))
+        )
+        
+        paras = WebDriverWait(driver, 10).until(
+            EC.presence_of_all_elements_located((By.CSS_SELECTOR, '.css-e5tzus'))
         )
     except Exception as e:
-          print(f"personal exception3--------------------{e}")
+        print(f"personal exception3--------------------{e}")
 
-    if len(titles) != len(paras):
-          print("yaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
-    else:
-          for i in range(len(titles)):
-                dic[i] = titles[i].text + ",," + paras[i].text
+    if titles and paras:
+        num_results = min(len(titles), len(paras))
+        temp_results = []
+        for i in range(num_results):
+            temp_results.append(titles[i].text + ",," + paras[i].text)
+        if temp_results:
+            dic = {"search_results": temp_results} 
     
     save(dic)
 
@@ -105,3 +134,4 @@ def load(filename= "nyt.json"):
         data = {}
     
     return (data)
+main()
