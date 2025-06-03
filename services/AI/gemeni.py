@@ -13,7 +13,7 @@ def analyze(data:str):
 
     client = genai.Client(api_key=key['key'])
     response = client.models.generate_content(
-        model="gemini-2.0-flash", contents = f'''تحلیل کن این دیتا را و نتیجه را به صورت یک دیکشنری با این فرمت JSON بده: {{ "0": {{ "title": "TITLE_HERE", "summary": "SUMMARY_HERE" }} }} اطلاعات ورودی: {data}'''
+        model="gemini-2.0-flash", contents = f'''این اطلاعات رو تحلیل کن اون هایی که ارزش تحلیل ندارن رو کنار بزار و باقی مونده ها رو درنظر بگیر و تحلیل کن  میتونی اونهایی که به هم مرتبط هستن رو بکی کنی (برای من مهم کیفیته نه کمیت ) . درنهایت مانند جیسونی که فرستادم خروجی بده: {{ "0": {{ "title": "TITLE_HERE", "summary": "SUMMARY_HERE" }} }} اطلاعات ورودی: {data}'''
     )
     return response
 
