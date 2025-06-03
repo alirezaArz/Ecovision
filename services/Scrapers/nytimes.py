@@ -133,14 +133,4 @@ def load(filename= "nyt.json"):
     else :
         data = {}
     
-<<<<<<< HEAD
     return (data)
-main()
-=======
-    try:
-        with open(filepath, 'w', encoding='utf-8') as file:
-            json.dump(list_of_news_articles, file, indent=4, ensure_ascii=False)
-        print(f"Data formatted for React API saved to {filepath}")
-    except Exception as e:
-        print(f"Error saving data for React API to {filepath}: {e}")
->>>>>>> a573aa899ffdbf9f8fbf66a470166d78bf35d997
