@@ -126,7 +126,7 @@ class Snail():
 			self.spinner.stop()
 			print('server is shuted down')
 
-	def lead(self):
+	def snailread(self):
 		with open(os.path.join(snailpath, f"Snaildata.json"), 'r', encoding='utf-8') as file:
 			self.data = json.load(file)
 			return(self.data)
@@ -149,6 +149,8 @@ class Snail():
 			for file in files:
 				for content in file.load():
 					data += str(content)
+			print(data)
+			print("booooooooooooooooooooooooooooooo" * 66)
 			return(data)
 
 	def analyze(self):
