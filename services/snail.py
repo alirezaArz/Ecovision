@@ -144,8 +144,11 @@ class Snail():
 			json.dump(parsed_json, file, indent=4, ensure_ascii=False)
 
 	def get_news_data(self):
-		with open(os.path.join(DATA_PATH, f"nyt.json"), 'r', encoding='utf-8') as file:
-			data = json.load(file)
+			data = ""
+			files = [ bloomberg, dnsd, esdn, nytimes, yahoo ]
+			for file in files:
+				for content in file.load():
+					data += str(content)
 			return(data)
 
 	def analyze(self):
