@@ -90,6 +90,6 @@ def save(data):
         json.dump(data , s , ensure_ascii= False , indent=4)
 
 def load(filename= "Eghtesad_news.json"):
-    with open( os.path.join(DATA_PATH , "Eghtesad_news.json") , "r" , encoding="utf-8") as l:
+    with open( os.path.join(DATA_PATH , "Eghtesat_news.json") , "r" , encoding="utf-8") as l:
         data = json.load(l)
     return(data)
