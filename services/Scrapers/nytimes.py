@@ -128,5 +128,3 @@ def save_data(list_of_news_articles, filename):
         print(f"Data formatted for React API saved to {filepath}")
     except Exception as e:
         print(f"Error saving data for React API to {filepath}: {e}")
-
-print(main())
