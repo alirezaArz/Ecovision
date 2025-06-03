@@ -13,7 +13,7 @@ def analyze(data:str):
 
     client = genai.Client(api_key=key['key'])
     response = client.models.generate_content(
-        model="gemini-2.0-flash", contents=f"analyze this: {data}"
+        model="gemini-2.0-flash", contents = f'''تحلیل کن این دیتا را و نتیجه را به صورت یک دیکشنری با این فرمت JSON بده: {{ "0": {{ "title": "TITLE_HERE", "summary": "SUMMARY_HERE" }} }} اطلاعات ورودی: {data}'''
     )
     return response
 

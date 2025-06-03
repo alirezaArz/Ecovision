@@ -3,8 +3,10 @@ from halo import Halo
 import os
 import sys
 import json
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_PATH = os.path.join(BASE_DIR, 'SnailData')
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+DATA_PATH = os.path.join(project_root,'services', 'SnailData')
+NYTIME_PATH = os.path.join(project_root, 'services', 'scrapers', 'nytimesDATA')
+
 
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 if project_root not in sys.path:
@@ -16,6 +18,7 @@ from services.Scrapers import dnsd as dnsd
 from services.Scrapers import nytimes as nytimes
 from services.Scrapers import yahoo
 from services.Scrapers import esdn
+from services.AI import gemeni as gemeni
 
 
 
@@ -44,17 +47,33 @@ class Snail():
 			"esdn": 3600
 		}
 		self.durations = self.durationsBackup.copy()
-		print(self.durations)
 
-	def instantrun(self):
-		bonbast.getcurrency()
-		dnsd.main()
-		nytimes.main()
-		yahoo.main()
-		gecko.price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'Polygon'}, {'usd'})
-		esdn.main()
+	def instantrun(self, names = []):
+		if names == []:
+			bonbast.getcurrency()
+			dnsd.main()
+			nytimes.main()
+			yahoo.main()
+			gecko.price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'Polygon'}, {'usd'})
+			esdn.main()
+		else:
+			if 'bonbast' in names:
+				bonbast.getcurrency()
+			if 'dnsd' in names:
+				dnsd.main()
+			if 'nytimes' in names:
+				nytimes.main()
+			if 'yahoo' in names:
+				yahoo.main()
+			if 'gecko' in names:
+				gecko.price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'Polygon'}, {'usd'})
+			if 'esdn' in names:
+				esdn.main()
+
+
 
 	def runserver(self):
+		self.instantrun()
 		try:
 			while True:
 	
@@ -101,15 +120,35 @@ class Snail():
 			print('server is shuted down')
 
 
-	def save(self):
-		with open(os.path.join(DATA_PATH, f"Snaildata.json"), 'w', encoding='utf-8') as file:
-			json.dump('', file, indent=4, ensure_ascii=False)
+	def snailsave(self, sfile):
+		print("save")
+		text_content = sfile.candidates[0].content.parts[0].text
+		if text_content.startswith("```json"):
+			text_content = text_content[len("```json"):].strip()
+		if text_content.endswith("```"):
+			text_content = text_content[:-len("```")].strip()
 
-	def read(self):
+		parsed_json = json.loads(text_content)
+
+		with open(os.path.join(DATA_PATH, f"Snaildata.json"), 'w', encoding='utf-8') as file:
+			json.dump(parsed_json, file, indent=4, ensure_ascii=False)
+
+	def snailread(self):
 		with open(os.path.join(DATA_PATH, f"Snaildata.json"), 'r', encoding='utf-8') as file:
 			self.data = json.load(file)
 			return(self.data)
+
+	def get_news_data(self):
+		with open(os.path.join(NYTIME_PATH, f"nytimes_main_data.json"), 'r', encoding='utf-8') as file:
+			data = json.load(file)
+			return(data)
+
+	def analyze(self):
+		self.entry = self.get_news_data()
+		self.result = gemeni.analyze(self.entry)
+		print(self.result)
+		self.snailsave(self.result)
 		
 snail = Snail()		
-if __name__ == '__main__':
-	snail.runserver()
+
+
