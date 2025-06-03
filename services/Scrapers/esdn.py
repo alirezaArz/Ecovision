@@ -84,17 +84,15 @@ def search(inp_arg):
 
   save(dic)
 
+
 def save(data):
-    with open(os.path.join(DATA_PATH ,"Eghtesat_news.json") , "w" , encoding="utf-8") as s:
+    with open(os.path.join(DATA_PATH , "Eghtesad_news.json") , "w" , encoding="utf-8") as s:
         json.dump(data , s , ensure_ascii= False , indent=4)
 
-def load(filename= "Eghtesat_news.json"):
-    if os.path.exists(filename):
-        try :
-            with open( os.path.join(DATA_PATH , "Eghtesat_news.json") , "r" , encoding="usf-8") as l:
-                data = json.load(l)
-        except Exception as e :
-            data= {}
-    else :
-        data = {}
-    return data
+def load(filename= "Eghtesad_news.json"):
+    try :
+        with open( os.path.join(DATA_PATH , "Eghtesad_news.json") , "r" , encoding="usf-8") as l:
+            data = json.load(l)
+    except Exception as e :
+        data= {}
+    return(data)

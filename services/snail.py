@@ -150,7 +150,6 @@ class Snail():
 				for content in file.load():
 					data += str(content)
 			print(data)
-			print("booooooooooooooooooooooooooooooo" * 66)
 			return(data)
 
 	def analyze(self):
