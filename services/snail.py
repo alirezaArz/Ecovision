@@ -119,6 +119,10 @@ class Snail():
 			self.spinner.stop()
 			print('server is shuted down')
 
+	def snailread(self):
+		with open(os.path.join(snailpath, f"Snaildata.json"), 'r', encoding='utf-8') as file:
+			self.data = json.load(file)
+			return(self.data)
 
 	def snailsave(self, sfile):
 		text_content = sfile.candidates[0].content.parts[0].text
