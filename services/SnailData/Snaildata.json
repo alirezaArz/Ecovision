@@ -1,18 +1,32 @@
 {
     "0": {
-        "title": "Trump's Trade Policies: Impact and Consequences",
-        "summary": "This cluster examines the wide-ranging effects of President Trump's trade policies, focusing on tariffs, trade disputes with China, and the potential impact on the global economy. Key aspects include economic slowdown, legal challenges to tariffs, trade crime, effects on small businesses, and criticisms from companies. This also includes possible decoupling of US from china. Specific news points highlight the Organization for Economic Cooperation and Development's assessment of economic impact, legal challenges to tariffs, renewed attacks on China, companies' challenges and the increasing possibility of trade crime due to increased tariffs."
+        "title": "Trump's Trade War: Impact and Repercussions",
+        "summary": "A series of articles highlight the significant impact of President Trump's trade policies, particularly tariffs, on the global economy and US businesses. These policies lead to economic slowdown, trade crime, and strained relationships with countries like China. The articles also discuss potential consequences such as price increases for consumers and challenges for small businesses.",
+        "category": "Economy/Trade",
+        "importance": "high"
     },
     "1": {
-        "title": "Trump Administration's Budget Cuts and Economic Policies",
-        "summary": "This focuses on the Trump administration's broader economic agenda. It includes details of budget cuts to education, health, housing, and labor programs. The link also includes the approach that Trump takes ignoring the economic warning signs. These policies will likely have profound impacts on small businesses."
+        "title": "US-China Trade Conflict: Escalation and Decoupling Efforts",
+        "summary": "This group of articles focuses on the escalating trade tensions between the US and China. The Trump administration is actively trying to 'decouple' the US economy from China through tariffs, export controls, and restrictions on technology. This has led to pauses in technology exports, criticism from China, and potential long-term consequences for both countries' economies.",
+        "category": "Geopolitics/Trade",
+        "importance": "high"
     },
     "2": {
-        "title": "US - China Technological Relationship Under Trump Administration",
-        "summary": "This cluster focuses on the technological side of the US - China relationship under the Trump Administration. This includes pausing exports of airplane and semiconductor technologies to China. Also, the discussion of selling chips to countries such as U.A.E and Saudi Arabia. "
+        "title": "Trump's Economic Policies: Criticism and Internal Conflicts",
+        "summary": "Several articles point to criticism of President Trump's economic policies. This includes his tariffs being questioned in courts, berating companies for tariff price increases, questioning whether U.S. gold is missing, ignoring economic warning signs, and criticizing the Fed. These actions reflect a pattern of unconventional economic policy and potential internal conflicts within the government.",
+        "category": "Politics/Economy",
+        "importance": "medium"
     },
     "3": {
-        "title": "The gold conspiracies of Trump Administration",
-        "summary": "This clusters focuses on the gold conspiracies that Trump administration implies. There is a unclear reason as to why President Trump implies the conspiracies of US gold being stolen. But gold investment companies endorse the idea to cash in."
+        "title": "Challenges for Small Businesses Under Trump's Administration",
+        "summary": "Two articles highlight the difficulties faced by small businesses under the Trump administration.  The Small Business Administration faces staffing cuts and stricter loan terms, making it harder for entrepreneurs to access resources. Additionally, the impact of tariffs is making it difficult for some companies to do business.",
+        "category": "Business/Economy",
+        "importance": "medium"
+    },
+    "4": {
+        "title": "Other News",
+        "summary": "Article 5 and 19 are not about Trumps Economic policies so they are separated from the rest.",
+        "category": "Other",
+        "importance": "low"
     }
 }

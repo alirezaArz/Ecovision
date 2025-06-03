@@ -4,8 +4,8 @@ import os
 import sys
 import json
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-DATA_PATH = os.path.join(project_root,'services', 'SnailData')
-NYTIME_PATH = os.path.join(project_root, 'services', 'scrapers', 'nytimesDATA')
+snailpath = os.path.join(project_root,'services', 'SnailData')
+DATA_PATH= os.path.join(project_root , "scraped")
 
 
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
@@ -50,7 +50,7 @@ class Snail():
 
 	def instantrun(self, names = []):
 		if names == []:
-			bonbast.getcurrency()
+			bonbast.main()
 			dnsd.main()
 			nytimes.main()
 			yahoo.main()
@@ -58,7 +58,7 @@ class Snail():
 			esdn.main()
 		else:
 			if 'bonbast' in names:
-				bonbast.getcurrency()
+				bonbast.main()
 			if 'dnsd' in names:
 				dnsd.main()
 			if 'nytimes' in names:
@@ -97,7 +97,7 @@ class Snail():
 					self.durations[item] -= self.CurrentWaitTime
 					if self.durations[item] == 0:
 						if item == "bonbast":
-							bonbast.getcurrency()
+							bonbast.main()
 						elif item == "dnsd":
 							dnsd.main()
 						elif item == "nytimes":
@@ -121,7 +121,6 @@ class Snail():
 
 
 	def snailsave(self, sfile):
-		print("save")
 		text_content = sfile.candidates[0].content.parts[0].text
 		if text_content.startswith("```json"):
 			text_content = text_content[len("```json"):].strip()
@@ -130,16 +129,11 @@ class Snail():
 
 		parsed_json = json.loads(text_content)
 
-		with open(os.path.join(DATA_PATH, f"Snaildata.json"), 'w', encoding='utf-8') as file:
+		with open(os.path.join(snailpath, f"Snaildata.json"), 'w', encoding='utf-8') as file:
 			json.dump(parsed_json, file, indent=4, ensure_ascii=False)
 
-	def snailread(self):
-		with open(os.path.join(DATA_PATH, f"Snaildata.json"), 'r', encoding='utf-8') as file:
-			self.data = json.load(file)
-			return(self.data)
-
 	def get_news_data(self):
-		with open(os.path.join(NYTIME_PATH, f"nytimes_main_data.json"), 'r', encoding='utf-8') as file:
+		with open(os.path.join(DATA_PATH, f"nytimes_main_data.json"), 'r', encoding='utf-8') as file:
 			data = json.load(file)
 			return(data)
 
