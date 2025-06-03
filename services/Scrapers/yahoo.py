@@ -54,9 +54,6 @@ def save(data):
         json.dump(data , s , ensure_ascii= False , indent=4)
 
 def load(filename= "yahoo.json"):
-    try :
-        with open( os.path.join(DATA_PATH , "yahoo.json") , "r" , encoding="usf-8") as l:
-            data = json.load(l)
-    except Exception as e :
-        data= {}
+    with open( os.path.join(DATA_PATH , "yahoo.json") , "r" , encoding="utf-8") as l:
+        data = json.load(l)
     return(data)
