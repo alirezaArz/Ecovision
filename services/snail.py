@@ -146,9 +146,12 @@ class Snail():
 	def get_news_data(self):
 			data = ""
 			files = [ bloomberg, dnsd, esdn, nytimes, yahoo ]
-			for file in files:
-				for content in file.load():
-					data += str(content)
+			data += str(bloomberg.load())
+			data += str(dnsd.load())
+			data += str(esdn.load())
+			data += str(nytimes.load())
+			data += str(yahoo.load())
+			
 			print(data)
 			return(data)
 
