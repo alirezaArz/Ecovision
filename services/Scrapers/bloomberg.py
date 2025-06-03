@@ -163,12 +163,9 @@ def save(data):
         json.dump(data , s , ensure_ascii= False , indent=4)
 
 def load(filename= "bloomb.json"):
-    if os.path.exists(filename):
-        try :
-            with open( os.path.join(DATA_PATH , "Bonbast.json") , "r" , encoding="usf-8") as l:
-                data = json.load(l)
-        except Exception as e :
-            data= {}
-    else :
-        data = {}
-        return(data)
+    try :
+        with open( os.path.join(DATA_PATH , "bloomb.json") , "r" , encoding="usf-8") as l:
+            data = json.load(l)
+    except Exception as e :
+        data= {}
+    return(data)
