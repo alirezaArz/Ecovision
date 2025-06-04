@@ -1,158 +1,472 @@
 {
-    "0": {
-        "title": "نرخ رشد اقتصادی ایران در سال ۱۴۰۳ کاهش یافت",
-        "summary": "نرخ رشد اقتصادی ایران در سال ۱۴۰۳ به ۳ درصد رسیده که نسبت به سال ۱۴۰۲ و میانگین سه سال قبل از آن کاهش یافته است. بخش اعظم رشد سال گذشته از مخارج دولتی و صادرات، به‌ویژه در بخش نفت، حاصل شده و مصرف نهایی خصوصی نقشی در رشد نداشته است.",
-        "category": "اقتصاد ایران",
-        "importance": "بالا"
-    },
-    "1": {
-        "title": "نرخ مشارکت اقتصادی زنان در ایران پایین‌ترین در منطقه",
-        "summary": "بر اساس آمارهای بانک جهانی، ایران پس از افغانستان و عراق، پایین‌ترین نرخ مشارکت اقتصادی زنان را در بین همسایگان خود دارد. عملکرد ضعیف ایران در این شاخص‌ها، بیشتر به سدهای قانونی و نهادی و محدودیت‌های ساختاری اقتصاد بازمی‌گردد.",
-        "category": "اقتصاد ایران",
-        "importance": "بالا"
-    },
-    "2": {
-        "title": "مرکز اطلاعات مالی به ادعاهای نادرست درباره کنوانسیون CFT پاسخ داد",
-        "summary": "مرکز اطلاعات مالی کشور با انتشار بیانیه‌ای، به ادعاهای نادرست و فاقد مبنای فنی و حقوقی برخی مخالفان تصویب کنوانسیون CFT در مجمع تشخیص مصلحت نظام پاسخ داد.",
-        "category": "سیاست اقتصادی",
-        "importance": "متوسط"
-    },
-    "3": {
-        "title": "راهکارهای اصلاح نظام بانکی از سوی بازوی پژوهشی وزارت اقتصاد",
-        "summary": "بازوی پژوهشی وزارت اقتصاد با بررسی خلق اعتبار بی‌رویه بانکها و تعیین دستوری نرخ سود، راهکارهای جدیدی برای اصلاح نظام بانکی مطرح کرده است.",
-        "category": "اقتصاد ایران",
-        "importance": "متوسط"
-    },
-    "4": {
-        "title": "کاهش نرخ بیکاری در ایران گمراه کننده است",
-        "summary": "نرخ بیکاری در سال ۱۴۰۳ کاهش یافته، اما نرخ مشارکت اقتصادی نیز کاهش داشته است. تاکید صرف بر نرخ بیکاری و عدم توجه به نرخ مشارکت اقتصادی می‌تواند فریب‌دهنده باشد.",
-        "category": "اقتصاد ایران",
-        "importance": "بالا"
-    },
-    "5": {
-        "title": "طرح مجلس برای به‌کارگیری بازنشستگان مشاغل سخت و زیان‌آور",
-        "summary": "طرح جدیدی در مجلس اعلام وصول شده که برمبنای آن به‌کارگیری بازنشستگان مشاغل سخت و زیان‌آور در واحدهای تولیدی امکان‌پذیر می‌شود. این طرح می‌تواند باعث افزایش بازنشستگی‌های زودرس و فشار مالی بیشتر بر صندوق‌های بازنشستگی شود.",
-        "category": "اقتصاد ایران",
-        "importance": "متوسط"
-    },
-    "6": {
-        "title": "هدف بانک مرکزی برای تورم دست یافتنی نیست؟",
-        "summary": "در اردیبهشت ۱۴۰۴، تورم نقطه‌به‌نقطه خانوارهای ایرانی به ۳۸.۷ درصد رسید. محاسبات نشان می‌دهد برای تحقق هدف بانک مرکزی برای سال ۱۴۰۴، میانگین رشد ماهانه شاخص قیمت مصرف‌کننده باید ۲.۲درصد باشد.",
-        "category": "اقتصاد ایران",
-        "importance": "بالا"
-    },
-    "7": {
-        "title": "«سندروم ناتوانی در تصمیم‌گیری» ابربحران حکمرانی در ایران",
-        "summary": "حکمرانی دستوری به برهم‌انباشته شدن بحران‌های مختلف اجتماعی، اقتصادی و زیست‌محیطی در کشور منجر شده است.",
-        "category": "سیاست اقتصادی",
-        "importance": "بالا"
-    },
-    "8": {
-        "title": "مالیات جدید ترامپ بر حواله‌های ارزی مهاجران",
-        "summary": "در طرح جدید مالیاتی دونالد ترامپ، مالیاتی ۳.۵ درصدی بر ارسال حواله‌های ارزی از سوی افرادی که شهروند یا ملیت آمریکایی ندارند، وضع شده است.",
-        "category": "اقتصاد بین الملل",
-        "importance": "متوسط"
-    },
-    "9": {
-        "title": "تاثیر تعرفه‌های ترامپ بر تورم آمریکا",
-        "summary": "فدرال‌رزرو نسبت به تورم ملایم ماه آوریل دیدگاهی آرام دارد و قصد ندارد به این زودی‌ها نرخ بهره را تغییر دهد. بسیاری از اقتصاددانان بر این باورند که آثار سیاست‌های تعرفه‌ای ترامپ از ماه آینده بیشتر در داده‌ها مشهود خواهند شد.",
-        "category": "اقتصاد بین الملل",
-        "importance": "متوسط"
-    },
-    "10": {
-        "title": "تردیدها درباره سلطه دلار آمریکا",
-        "summary": "در پی تحولات اخیر اقتصادی و مالی در ایالات‌متحده، به‌ویژه سیاست‌های دولت ترامپ، سلطه سنتی دلار آمریکا به عنوان ارز ذخیره جهانی با تردیدهایی مواجه شده است.",
-        "category": "اقتصاد بین الملل",
-        "importance": "متوسط"
-    },
-    "11": {
-        "title": "انتقاد از نظام بانکی در ایران",
-        "summary": "دو اقتصاددان برجسته، موسی غنی‌نژاد و داوود سوری، با انتقاد از سیاست‌های تکلیفی، مداخلات گسترده دولت و ساختار معیوب نظام بانکی تاکید کردند که بانک‌ها در ایران از نقش اصلی خود فاصله گرفته‌اند.",
-        "category": "اقتصاد ایران",
-        "importance": "متوسط"
-    },
-    "12": {
-        "title": "بحران فزاینده انرژی در ایران",
-        "summary": "در سال‌های گذشته بحران فزاینده انرژی و تسری یافتن قطعی برق از صنایع به بخش خانگی و تداوم کسری برق در تمام فصول سال موجب شده که دولت‌ها وعده‌های متعددی در زمینه حل بحران بدهند.",
-        "category": "اقتصاد ایران",
-        "importance": "بالا"
-    },
-    "13": {
-        "title": "حمله ترامپ به زیرساخت علمی آمریکا",
-        "summary": "در ماه‌های اخیر، دولت ترامپ با سرعتی بی‌سابقه به زیرساخت علمی آمریکا حمله کرده است.",
-        "category": "سیاست بین الملل",
-        "importance": "متوسط"
-    },
-    "14": {
-        "title": "تداوم تخصیص ارز ترجیحی در سال ۱۴۰۴",
-        "summary": "در سال ۱۴۰۴، برخلاف انتظار، نرخ ارز ترجیحی برای کالاهای اساسی همچنان ۲۸۵۰۰تومان باقی خواهد ماند. هزینه‌کرد حدود ۶۶میلیارد دلار ۴۲۰۰تومانی در فاصله سال‌های ۱۳۹۷ تا ۱۴۰۰ از جمله تجربه‌های تلخی بود که نشان داد سیاست تخصیص ارز ترجیحی نه تنها نمی‌تواند در کنترل تورم موثر باشد، بلکه با دامن زدن به انگیزه‌های فساد و انحراف منابع به سمت گروه‌های ذی‌نفع، کارآمدی اقتصاد را بیش از پیش در تنگنا قرار می‌دهد.",
-        "category": "اقتصاد ایران",
-        "importance": "بالا"
-    },
-    "15": {
-        "title": "مشکل بازار کار ایران بهره‌وری است",
-        "summary": "میانگین رشد بهره‌وری نیروی کار در ایران بین سال‌های ۱۳۹۱ تا ۱۴۰۲ حدود منفی ۱.۸درصد بوده است.",
-        "category": "اقتصاد ایران",
-        "importance": "متوسط"
-    },
-    "16": {
-        "title": "Trump’s Tariffs Expected to Drag Down the Global Economy",
-        "summary": "Economic growth will slow this year and next as the trade war hampers development in the United States and around the world, the Organization for Economic Cooperation and Development said.",
-        "category": "اقتصاد جهانی",
-        "importance": "متوسط"
-    },
-    "17": {
-        "title": "As Courts Call Tariffs Into Question, Trump Again Turns to His Favorite Tool",
-        "summary": "The president is set to raise tariffs on steel and aluminum this week, even as the courts are challenging the legitimacy of other levies.",
-        "category": "تجارت بین الملل",
-        "importance": "متوسط"
-    },
-    "18": {
-        "title": "White House Unveils New Details of Stark Budget Cuts",
-        "summary": "The new blueprint shows that a vast array of education, health, housing and labor programs would be hit, including aid for college and cancer research.",
-        "category": "سیاست",
-        "importance": "متوسط"
-    },
-    "19": {
-        "title": "White House Revives Trade Spat With Fresh Attacks on China",
-        "summary": "President Trump said that Beijing was not honoring the terms of a temporary agreement and warned of further confrontation.",
-        "category": "تجارت بین الملل",
-        "importance": "متوسط"
-    },
-    "20": {
-        "title": "Tariff Ruling Gives Businesses Hope, but They’re Soon Unmoored Again",
-        "summary": "Companies welcomed a court decision striking down President Trump’s tariffs. Then a stay of that ruling left no one breathing easy.",
-        "category": "تجارت بین الملل",
-        "importance": "متوسط"
-    },
-    "21": {
-        "title": "Trump Makes a New Push to ‘Decouple’ U.S. From China",
-        "summary": "Trump administration officials are getting a second chance to try to sever ties with China by starting a trade war, imposing export controls and revoking student visas.",
-        "category": "روابط بین الملل",
-        "importance": "متوسط"
-    },
-    "22": {
-        "title": "Trump Criticizes the Fed in a Private Meeting With Powell",
-        "summary": "Jerome H. Powell stressed in his first meeting since the president returned to the White House that policy decisions would be “based solely on careful, objective and nonpolitical analysis.”",
-        "category": "سیاست پولی",
-        "importance": "متوسط"
-    },
-    "23": {
-        "title": "U.S. Pauses Exports of Airplane and Semiconductor Technology to China",
-        "summary": "President Trump has stopped some critical products and technologies made only in the United States from flowing to China, flexing the government’s power over global supply chains.",
-        "category": "تجارت بین الملل",
-        "importance": "متوسط"
-    },
-    "24": {
-        "title": "Trade Crime Is Soaring, U.S. Firms Say, as Trump’s Tariffs Incentivize Fraud",
-        "summary": "President Trump’s steep global tariffs have supercharged efforts to evade them. Some U.S. companies say the government is ill equipped to keep up.",
-        "category": "تجارت بین الملل",
-        "importance": "متوسط"
-    },
-    "25": {
-        "title": "Trump promises are starting to have a familiar refrain",
-        "summary": "The president recently attacked Walmart, saying it should “eat” the costs rather than pass them on to customers.",
-        "category": "تجارت بین الملل",
-        "importance": "متوسط"
-    }
+    "newsData": [
+        {
+            "id": 1,
+            "title": "UK Builders Still Able to Hire From Abroad Under Visa Clampdown",
+            "summary": "Construction companies in the UK can continue to hire workers from overseas despite stricter visa rules.",
+            "image": "images/im3.jpg",
+            "category": "Economy",
+            "importance": "Medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 2,
+            "title": "Mexico Vote Count for Top Court Shows Majority With Morena Ties",
+            "summary": "The vote count for Mexico's top court indicates a majority of justices have ties to the Morena party.",
+            "image": "images/im1.jpg",
+            "category": "Politics",
+            "importance": "Medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 3,
+            "title": "Bank of Ghana Plans to Cap Non-Performing Loan Ratio at 10% by December 2026",
+            "summary": "The Bank of Ghana intends to limit the ratio of non-performing loans to 10% by the end of 2026.",
+            "image": "images/im3.jpg",
+            "category": "Finance",
+            "importance": "Medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 4,
+            "title": "Dutch Government Falls After Far Right Quit Coalition",
+            "summary": "The Dutch government collapsed after the far-right party withdrew from the coalition.",
+            "image": "images/im1.jpg",
+            "category": "Politics",
+            "importance": "High",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 5,
+            "title": "Starmer Weighs UK Military Request to Back 3.5% NATO Spend Goal",
+            "summary": "Keir Starmer is considering a request from the UK military to support a 3.5% of GDP spending target for NATO.",
+            "image": "images/im2.jpg",
+            "category": "Politics",
+            "importance": "Medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 6,
+            "title": "Kirchner’s Return Risks Dividing Opposition in Boon for Milei",
+            "summary": "The return of Kirchner could divide the opposition, potentially benefiting Milei.",
+            "image": "images/im1.jpg",
+            "category": "Politics",
+            "importance": "Medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 7,
+            "title": "Carney’s Budget Delay Adds to Economic Uncertainty in Canada, Analysts Say",
+            "summary": "The delay of Carney’s budget is increasing economic uncertainty in Canada, according to analysts.",
+            "image": "images/im3.jpg",
+            "category": "Economy",
+            "importance": "Medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 8,
+            "title": "Kuwait Wealth Fund Joins Microsoft, MGX’s $30 Billion AI Venture",
+            "summary": "The Kuwait Wealth Fund is participating in a $30 billion artificial intelligence venture with Microsoft and MGX.",
+            "image": "images/im2.jpg",
+            "category": "Business",
+            "importance": "Medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 9,
+            "title": "نرخ رشد اقتصادی ایران در سال ۱۴۰۳ کاهش یافت",
+            "summary": "نرخ رشد اقتصادی ایران در سال ۱۴۰۳ به ۳ درصد رسیده که نسبت به سال قبل کاهش یافته است. بخش اعظم رشد از مخارج دولتی و صادرات نفت بوده و مصرف نهایی خصوصی نقشی نداشته است.",
+            "image": "images/im1.jpg",
+            "category": "Economy",
+            "importance": "High",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 10,
+            "title": "پایین‌ترین نرخ مشارکت اقتصادی زنان در بین همسایگان",
+            "summary": "ایران پس از افغانستان و عراق، پایین‌ترین نرخ مشارکت اقتصادی زنان را در بین همسایگان دارد. این وضعیت به سدهای قانونی، نهادی و محدودیت‌های ساختاری اقتصاد بازمی‌گردد.",
+            "image": "images/im1.jpg",
+            "category": "Social",
+            "importance": "High",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 11,
+            "title": "کاهش نرخ بیکاری با کاهش نرخ مشارکت اقتصادی",
+            "summary": "نرخ بیکاری در سال ۱۴۰۳ کاهش یافته، اما نرخ مشارکت اقتصادی نیز کاهش یافته است. این نشان می‌دهد تاکید صرف بر نرخ بیکاری می‌تواند فریب‌دهنده باشد.",
+            "image": "images/im2.jpg",
+            "category": "Economy",
+            "importance": "Medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 12,
+            "title": "هشدار درباره طرح به‌کارگیری بازنشستگان مشاغل سخت",
+            "summary": "طرح جدید مجلس برای به‌کارگیری بازنشستگان مشاغل سخت می‌تواند باعث افزایش بازنشستگی‌های زودرس و فشار مالی بیشتر بر صندوق‌های بازنشستگی شود.",
+            "image": "images/im5.jpg",
+            "category": "Economy",
+            "importance": "Medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 13,
+            "title": "تورم نقطه‌به‌نقطه خانوارهای ایرانی",
+            "summary": "در اردیبهشت ۱۴۰۴، تورم نقطه‌به‌نقطه خانوارهای ایرانی به ۳۸.۷ درصد رسید. کاهش تورم ناشی از ثبات نسبی بازار ارز و تعدیل «انتظارات تورمی» است.",
+            "image": "images/im1.jpg",
+            "category": "Economy",
+            "importance": "Medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 14,
+            "title": "ابر بحران حکمرانی و بحران اجتماعی بی اعتمادی به دولت",
+            "summary": "حکمرانی دستوری به انباشته شدن بحران‌های مختلف منجر شده و سندروم ناتوانی در تصمیم‌گیری موجب بی‌اعتمادی به دولت شده است.",
+            "image": "images/im4.jpg",
+            "category": "Politics",
+            "importance": "High",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 15,
+            "title": "طرح جدید مالیاتی ترامپ و مالیات بر حواله‌های ارزی",
+            "summary": "در طرح جدید مالیاتی ترامپ، مالیاتی ۳.۵ درصدی بر ارسال حواله‌های ارزی از سوی افرادی که شهروند یا ملیت آمریکایی ندارند، وضع شده است.",
+            "image": "images/im5.jpg",
+            "category": "Economy",
+            "importance": "Medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 16,
+            "title": "سلطه سنتی دلار آمریکا با تردیدهایی مواجه شده است",
+            "summary": "کاهش رتبه اعتباری دولت آمریکا توسط موسسه مودیز نشانه‌ای روشن از نگرانی‌ها نسبت به پایداری مالی واشنگتن است و سلطه سنتی دلار با تردید مواجه شده.",
+            "image": "images/im4.jpg",
+            "category": "Economy",
+            "importance": "Medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 17,
+            "title": "بحران فزاینده انرژی و قطعی برق",
+            "summary": "تداوم کسری برق در تمام فصول سال موجب شده که دولت‌ها وعده‌های متعددی در زمینه حل بحران بدهند. این در حالی است که زنگ خطر بحران فزاینده انرژی به صدا درآمده است.",
+            "image": "images/im4.jpg",
+            "category": "Energy",
+            "importance": "Medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 18,
+            "title": "حمله دولت ترامپ به زیرساخت علمی آمریکا",
+            "summary": "دولت ترامپ با سرعتی بی‌سابقه به زیرساخت علمی آمریکا حمله کرده است. هزاران کمک‌هزینه پژوهشی لغو شده و پروژه‌ها متوقف شده‌اند.",
+            "image": "images/im1.jpg",
+            "category": "Science",
+            "importance": "Medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 19,
+            "title": "تداوم نرخ ارز ترجیحی در سال ۱۴۰۴",
+            "summary": "در سال ۱۴۰۴، برخلاف انتظار، نرخ ارز ترجیحی برای کالاهای اساسی همچنان ۲۸۵۰۰تومان باقی خواهد ماند. به‌نظر می‌رسد که دولت چهاردهم به سرکوب نرخ ارز متمایل شده.",
+            "image": "images/im1.jpg",
+            "category": "Economy",
+            "importance": "Medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 20,
+            "title": "مشکل بازار نیروی کار در ایران مساله‌ بهره‌وری است",
+            "summary": "مشکل بازار نیروی کار در ایران مساله‌ بهره‌وری و تکنولوژی است که با افزایش ساعات کار حل نخواهد شد.",
+            "image": "images/im1.jpg",
+            "category": "Economy",
+            "importance": "Medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 21,
+            "title": "اسرائیل خاک سوریه را هدف قرار داد",
+            "summary": "نیروهای اسرائیلی مواضعی را در خاک سوریه هدف حمله قرار دادند.",
+            "image": "images/im2.jpg",
+            "category": "Politics",
+            "importance": "High",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 22,
+            "title": "آمریکا: ایران حق غنی سازی اورانیوم نخواهد داشت",
+            "summary": "دولت آمریکا اعلام کرده که ایران اجازه غنی سازی اورانیوم را ندارد.",
+            "image": "images/im3.jpg",
+            "category": "Politics",
+            "importance": "High",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 23,
+            "title": "توقف ۵ ساعته پروازهای فرودگاه امام خمینی",
+            "summary": "پروازهای فرودگاه امام خمینی به مدت ۵ ساعت متوقف شد.",
+            "image": "images/im1.jpg",
+            "category": "Other",
+            "importance": "Low",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 24,
+            "title": "آژیر خطر در مرکز اسرائیل به صدا درآمد",
+            "summary": "در پی حمله احتمالی راکتی، آژیر خطر در مرکز اسرائیل به صدا درآمد.",
+            "image": "images/im4.jpg",
+            "category": "Politics",
+            "importance": "High",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 25,
+            "title": "هشدار ارتش یمن به اسرائیل",
+            "summary": "ارتش یمن به اسرائیل هشدار داد که برای تشدید حملات آماده باشد.",
+            "image": "images/im3.jpg",
+            "category": "Politics",
+            "importance": "High",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 26,
+            "title": "ترکیه: مذاکرات روسیه و اوکراین بدون نتیجه منفی پایان یافت",
+            "summary": "دولت ترکیه اعلام کرد که مذاکرات بین روسیه و اوکراین بدون نتیجه منفی به پایان رسیده است.",
+            "image": "images/im3.jpg",
+            "category": "Politics",
+            "importance": "Medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 27,
+            "title": "پیام هشدارآمیز کاخ سفید برای ایران",
+            "summary": "کاخ سفید پیامی هشدارآمیز برای ایران منتشر کرد.",
+            "image": "images/im5.jpg",
+            "category": "Politics",
+            "importance": "High",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 28,
+            "title": "Trump’s Tariffs Expected to Drag Down the Global Economy",
+            "summary": "Economic growth will slow this year and next as the trade war hampers development in the United States and around the world, the Organization for Economic Cooperation and Development said.",
+            "image": "images/im5.jpg",
+            "category": "news",
+            "importance": "medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 29,
+            "title": "As Courts Call Tariffs Into Question, Trump Again Turns to His Favorite Tool",
+            "summary": "The president is set to raise tariffs on steel and aluminum this week, even as the courts are challenging the legitimacy of other levies.",
+            "image": "images/im5.jpg",
+            "category": "news",
+            "importance": "medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 30,
+            "title": "White House Unveils New Details of Stark Budget Cuts",
+            "summary": "The new blueprint shows that a vast array of education, health, housing and labor programs would be hit, including aid for college and cancer research.",
+            "image": "images/im1.jpg",
+            "category": "news",
+            "importance": "medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 31,
+            "title": "White House Revives Trade Spat With Fresh Attacks on China",
+            "summary": "President Trump said that Beijing was not honoring the terms of a temporary agreement and warned of further confrontation.",
+            "image": "images/im2.jpg",
+            "category": "news",
+            "importance": "medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 32,
+            "title": "Tariff Ruling Gives Businesses Hope, but They’re Soon Unmoored Again",
+            "summary": "Companies welcomed a court decision striking down President Trump’s tariffs. Then a stay of that ruling left no one breathing easy.",
+            "image": "images/im1.jpg",
+            "category": "news",
+            "importance": "medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 33,
+            "title": "Trump Makes a New Push to ‘Decouple’ U.S. From China",
+            "summary": "Trump administration officials are getting a second chance to try to sever ties with China by starting a trade war, imposing export controls and revoking student visas.",
+            "image": "images/im5.jpg",
+            "category": "news",
+            "importance": "medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 34,
+            "title": "Trump Criticizes the Fed in a Private Meeting With Powell",
+            "summary": "Jerome H. Powell stressed in his first meeting since the president returned to the White House that policy decisions would be “based solely on careful, objective and nonpolitical analysis.”",
+            "image": "images/im5.jpg",
+            "category": "news",
+            "importance": "medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 35,
+            "title": "U.S. Pauses Exports of Airplane and Semiconductor Technology to China",
+            "summary": "President Trump has stopped some critical products and technologies made only in the United States from flowing to China, flexing the government’s power over global supply chains.",
+            "image": "images/im3.jpg",
+            "category": "news",
+            "importance": "medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 36,
+            "title": "Trade Crime Is Soaring, U.S. Firms Say, as Trump’s Tariffs Incentivize Fraud",
+            "summary": "President Trump’s steep global tariffs have supercharged efforts to evade them. Some U.S. companies say the government is ill equipped to keep up.",
+            "image": "images/im4.jpg",
+            "category": "news",
+            "importance": "medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 37,
+            "title": "Pivoting From Tax Cuts to Tariffs, Trump Ignores Economic Warning Signs",
+            "summary": "The president’s economic policy approach is so far rattling markets, businesses and consumers.",
+            "image": "images/im2.jpg",
+            "category": "news",
+            "importance": "medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 38,
+            "title": "Under Trump, a Mainstay for Small Businesses Clamps Down",
+            "summary": "At the Small Business Administration, deep staffing cuts and stricter loan terms are making it harder for entrepreneurs to get access to capital, contracts and technical assistance.",
+            "image": "images/im2.jpg",
+            "category": "news",
+            "importance": "medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 39,
+            "title": "Global Economic Officials Gather Amid Headwinds From Trump’s Trade War",
+            "summary": "Treasury Secretary Scott Bessent will meet his international counterparts at a G7 finance ministers meeting in Canada.",
+            "image": "images/im5.jpg",
+            "category": "news",
+            "importance": "medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 40,
+            "title": "Trump Berates Companies for Warning About Tariff Price Increases",
+            "summary": "The president recently attacked Walmart, saying it should “eat” the costs rather than pass them on to customers.",
+            "image": "images/im1.jpg",
+            "category": "news",
+            "importance": "medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 41,
+            "title": "185% Tariffs: How the Trade War Hit One Shipment of T-Shirts",
+            "summary": "Even with a temporary reprieve, tariffs have begun to squeeze importers. See how.",
+            "image": "images/im2.jpg",
+            "category": "news",
+            "importance": "medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 42,
+            "title": "Fed lifts Wells Fargo's asset cap, citing progress from sales scandal",
+            "summary": "The Federal Reserve has lifted Wells Fargo's asset cap, citing progress in addressing the sales scandal.",
+            "image": "images/im3.jpg",
+            "category": "Finance",
+            "importance": "Medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 43,
+            "title": "Nvidia reclaims title of world's most valuable company amid $1T rally",
+            "summary": "Nvidia has regained its position as the world's most valuable company after a $1 trillion rally.",
+            "image": "images/im5.jpg",
+            "category": "Finance",
+            "importance": "High",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 44,
+            "title": "Stocks keep riding higher, led by Nvidia's latest jump",
+            "summary": "Stock markets continue to rise, driven by Nvidia's recent surge.",
+            "image": "images/im4.jpg",
+            "category": "Finance",
+            "importance": "Medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 45,
+            "title": "Trump's tariff promises are starting to have a familiar refrain",
+            "summary": "Trump's tariff promises are reminiscent of past policies and patterns.",
+            "image": "images/im4.jpg",
+            "category": "Politics",
+            "importance": "Medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 46,
+            "title": "Trump pushes for deals as steel, aluminum tariffs set to jump",
+            "summary": "Trump is advocating for deals as tariffs on steel and aluminum are scheduled to increase.",
+            "image": "images/im3.jpg",
+            "category": "Politics",
+            "importance": "Medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 47,
+            "title": "Opinion: What America's default risk costs you",
+            "summary": "An opinion piece discussing the costs and implications of America's default risk.",
+            "image": "images/im5.jpg",
+            "category": "Finance",
+            "importance": "Medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 48,
+            "title": "CrowdStrike shares dive after revenue forecast miss",
+            "summary": "CrowdStrike's stock price declines after missing revenue forecasts.",
+            "image": "images/im2.jpg",
+            "category": "Finance",
+            "importance": "Medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 49,
+            "title": "Hewlett Packard Enterprise shares jump after revenue beat",
+            "summary": "Hewlett Packard Enterprise's stock price increases after exceeding revenue expectations.",
+            "image": "images/im2.jpg",
+            "category": "Finance",
+            "importance": "Medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 50,
+            "title": "Dimon is getting louder about his US debt worries",
+            "summary": "Jamie Dimon is increasingly vocal about his concerns regarding US debt.",
+            "image": "images/im2.jpg",
+            "category": "Finance",
+            "importance": "Medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 51,
+            "title": "Elon Musk Blasts Trump Tax Bill as Budget-Busting ‘Abomination’",
+            "summary": "Elon Musk criticizes Trump's tax bill, calling it a budget-busting abomination.",
+            "image": "images/im3.jpg",
+            "category": "Politics",
+            "importance": "Medium",
+            "date": "2025-06-04T18:54:13.767014"
+        },
+        {
+            "id": 52,
+            "title": "Ray Dalio: ‘We should be afraid of the bond market’",
+            "summary": "Ray Dalio expresses concerns and warns about the bond market.",
+            "image": "images/im4.jpg",
+            "category": "Finance",
+            "importance": "Medium",
+            "date": "2025-06-04T18:54:13.767014"
+        }
+    ]
 }

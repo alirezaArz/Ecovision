@@ -3,6 +3,8 @@ from halo import Halo
 import os
 import sys
 import json
+from datetime import datetime
+import random
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 snailpath = os.path.join(project_root,'services', 'SnailData')
 DATA_PATH= os.path.join(project_root , "scraped")
@@ -137,11 +139,30 @@ class Snail():
 			text_content = text_content[len("```json"):].strip()
 		if text_content.endswith("```"):
 			text_content = text_content[:-len("```")].strip()
+		snaildata = json.loads(text_content)
 
-		parsed_json = json.loads(text_content)
-
+		images = ["images/im1.jpg", "images/im2.jpg", "images/im3.jpg", "images/im4.jpg", "images/im5.jpg"]
+		output_dict = {}
+		output_dict["newsData"] = []	
+		current_iso_date = datetime.now().isoformat()
+		
+		for item_key_str, original_item_data in snaildata.items():
+			transformed_item = {}
+			
+			try:
+				transformed_item["id"] = int(item_key_str) + 1
+			except ValueError:
+				transformed_item["id"] = item_key_str 
+            
+			transformed_item["title"] = original_item_data.get("title", "")
+			transformed_item["summary"] = original_item_data.get("summary", "")
+			transformed_item["image"] = random.choice(images)
+			transformed_item["category"] = original_item_data.get("category", "news")
+			transformed_item["importance"] = original_item_data.get("importance", "medium")
+			transformed_item["date"] = current_iso_date
+			output_dict["newsData"].append(transformed_item)
 		with open(os.path.join(snailpath, f"Snaildata.json"), 'w', encoding='utf-8') as file:
-			json.dump(parsed_json, file, indent=4, ensure_ascii=False)
+			json.dump(output_dict, file, indent=4, ensure_ascii=False)
 
 	def get_news_data(self):
 			data = ""
