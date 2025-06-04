@@ -1,32 +1,158 @@
 {
     "0": {
-        "title": "Trump's Trade War: Impact and Repercussions",
-        "summary": "A series of articles highlight the significant impact of President Trump's trade policies, particularly tariffs, on the global economy and US businesses. These policies lead to economic slowdown, trade crime, and strained relationships with countries like China. The articles also discuss potential consequences such as price increases for consumers and challenges for small businesses.",
-        "category": "Economy/Trade",
-        "importance": "high"
+        "title": "نرخ رشد اقتصادی ایران در سال ۱۴۰۳ کاهش یافت",
+        "summary": "نرخ رشد اقتصادی ایران در سال ۱۴۰۳ به ۳ درصد رسیده که نسبت به سال ۱۴۰۲ و میانگین سه سال قبل از آن کاهش یافته است. بخش اعظم رشد سال گذشته از مخارج دولتی و صادرات، به‌ویژه در بخش نفت، حاصل شده و مصرف نهایی خصوصی نقشی در رشد نداشته است.",
+        "category": "اقتصاد ایران",
+        "importance": "بالا"
     },
     "1": {
-        "title": "US-China Trade Conflict: Escalation and Decoupling Efforts",
-        "summary": "This group of articles focuses on the escalating trade tensions between the US and China. The Trump administration is actively trying to 'decouple' the US economy from China through tariffs, export controls, and restrictions on technology. This has led to pauses in technology exports, criticism from China, and potential long-term consequences for both countries' economies.",
-        "category": "Geopolitics/Trade",
-        "importance": "high"
+        "title": "نرخ مشارکت اقتصادی زنان در ایران پایین‌ترین در منطقه",
+        "summary": "بر اساس آمارهای بانک جهانی، ایران پس از افغانستان و عراق، پایین‌ترین نرخ مشارکت اقتصادی زنان را در بین همسایگان خود دارد. عملکرد ضعیف ایران در این شاخص‌ها، بیشتر به سدهای قانونی و نهادی و محدودیت‌های ساختاری اقتصاد بازمی‌گردد.",
+        "category": "اقتصاد ایران",
+        "importance": "بالا"
     },
     "2": {
-        "title": "Trump's Economic Policies: Criticism and Internal Conflicts",
-        "summary": "Several articles point to criticism of President Trump's economic policies. This includes his tariffs being questioned in courts, berating companies for tariff price increases, questioning whether U.S. gold is missing, ignoring economic warning signs, and criticizing the Fed. These actions reflect a pattern of unconventional economic policy and potential internal conflicts within the government.",
-        "category": "Politics/Economy",
-        "importance": "medium"
+        "title": "مرکز اطلاعات مالی به ادعاهای نادرست درباره کنوانسیون CFT پاسخ داد",
+        "summary": "مرکز اطلاعات مالی کشور با انتشار بیانیه‌ای، به ادعاهای نادرست و فاقد مبنای فنی و حقوقی برخی مخالفان تصویب کنوانسیون CFT در مجمع تشخیص مصلحت نظام پاسخ داد.",
+        "category": "سیاست اقتصادی",
+        "importance": "متوسط"
     },
     "3": {
-        "title": "Challenges for Small Businesses Under Trump's Administration",
-        "summary": "Two articles highlight the difficulties faced by small businesses under the Trump administration.  The Small Business Administration faces staffing cuts and stricter loan terms, making it harder for entrepreneurs to access resources. Additionally, the impact of tariffs is making it difficult for some companies to do business.",
-        "category": "Business/Economy",
-        "importance": "medium"
+        "title": "راهکارهای اصلاح نظام بانکی از سوی بازوی پژوهشی وزارت اقتصاد",
+        "summary": "بازوی پژوهشی وزارت اقتصاد با بررسی خلق اعتبار بی‌رویه بانکها و تعیین دستوری نرخ سود، راهکارهای جدیدی برای اصلاح نظام بانکی مطرح کرده است.",
+        "category": "اقتصاد ایران",
+        "importance": "متوسط"
     },
     "4": {
-        "title": "Other News",
-        "summary": "Article 5 and 19 are not about Trumps Economic policies so they are separated from the rest.",
-        "category": "Other",
-        "importance": "low"
+        "title": "کاهش نرخ بیکاری در ایران گمراه کننده است",
+        "summary": "نرخ بیکاری در سال ۱۴۰۳ کاهش یافته، اما نرخ مشارکت اقتصادی نیز کاهش داشته است. تاکید صرف بر نرخ بیکاری و عدم توجه به نرخ مشارکت اقتصادی می‌تواند فریب‌دهنده باشد.",
+        "category": "اقتصاد ایران",
+        "importance": "بالا"
+    },
+    "5": {
+        "title": "طرح مجلس برای به‌کارگیری بازنشستگان مشاغل سخت و زیان‌آور",
+        "summary": "طرح جدیدی در مجلس اعلام وصول شده که برمبنای آن به‌کارگیری بازنشستگان مشاغل سخت و زیان‌آور در واحدهای تولیدی امکان‌پذیر می‌شود. این طرح می‌تواند باعث افزایش بازنشستگی‌های زودرس و فشار مالی بیشتر بر صندوق‌های بازنشستگی شود.",
+        "category": "اقتصاد ایران",
+        "importance": "متوسط"
+    },
+    "6": {
+        "title": "هدف بانک مرکزی برای تورم دست یافتنی نیست؟",
+        "summary": "در اردیبهشت ۱۴۰۴، تورم نقطه‌به‌نقطه خانوارهای ایرانی به ۳۸.۷ درصد رسید. محاسبات نشان می‌دهد برای تحقق هدف بانک مرکزی برای سال ۱۴۰۴، میانگین رشد ماهانه شاخص قیمت مصرف‌کننده باید ۲.۲درصد باشد.",
+        "category": "اقتصاد ایران",
+        "importance": "بالا"
+    },
+    "7": {
+        "title": "«سندروم ناتوانی در تصمیم‌گیری» ابربحران حکمرانی در ایران",
+        "summary": "حکمرانی دستوری به برهم‌انباشته شدن بحران‌های مختلف اجتماعی، اقتصادی و زیست‌محیطی در کشور منجر شده است.",
+        "category": "سیاست اقتصادی",
+        "importance": "بالا"
+    },
+    "8": {
+        "title": "مالیات جدید ترامپ بر حواله‌های ارزی مهاجران",
+        "summary": "در طرح جدید مالیاتی دونالد ترامپ، مالیاتی ۳.۵ درصدی بر ارسال حواله‌های ارزی از سوی افرادی که شهروند یا ملیت آمریکایی ندارند، وضع شده است.",
+        "category": "اقتصاد بین الملل",
+        "importance": "متوسط"
+    },
+    "9": {
+        "title": "تاثیر تعرفه‌های ترامپ بر تورم آمریکا",
+        "summary": "فدرال‌رزرو نسبت به تورم ملایم ماه آوریل دیدگاهی آرام دارد و قصد ندارد به این زودی‌ها نرخ بهره را تغییر دهد. بسیاری از اقتصاددانان بر این باورند که آثار سیاست‌های تعرفه‌ای ترامپ از ماه آینده بیشتر در داده‌ها مشهود خواهند شد.",
+        "category": "اقتصاد بین الملل",
+        "importance": "متوسط"
+    },
+    "10": {
+        "title": "تردیدها درباره سلطه دلار آمریکا",
+        "summary": "در پی تحولات اخیر اقتصادی و مالی در ایالات‌متحده، به‌ویژه سیاست‌های دولت ترامپ، سلطه سنتی دلار آمریکا به عنوان ارز ذخیره جهانی با تردیدهایی مواجه شده است.",
+        "category": "اقتصاد بین الملل",
+        "importance": "متوسط"
+    },
+    "11": {
+        "title": "انتقاد از نظام بانکی در ایران",
+        "summary": "دو اقتصاددان برجسته، موسی غنی‌نژاد و داوود سوری، با انتقاد از سیاست‌های تکلیفی، مداخلات گسترده دولت و ساختار معیوب نظام بانکی تاکید کردند که بانک‌ها در ایران از نقش اصلی خود فاصله گرفته‌اند.",
+        "category": "اقتصاد ایران",
+        "importance": "متوسط"
+    },
+    "12": {
+        "title": "بحران فزاینده انرژی در ایران",
+        "summary": "در سال‌های گذشته بحران فزاینده انرژی و تسری یافتن قطعی برق از صنایع به بخش خانگی و تداوم کسری برق در تمام فصول سال موجب شده که دولت‌ها وعده‌های متعددی در زمینه حل بحران بدهند.",
+        "category": "اقتصاد ایران",
+        "importance": "بالا"
+    },
+    "13": {
+        "title": "حمله ترامپ به زیرساخت علمی آمریکا",
+        "summary": "در ماه‌های اخیر، دولت ترامپ با سرعتی بی‌سابقه به زیرساخت علمی آمریکا حمله کرده است.",
+        "category": "سیاست بین الملل",
+        "importance": "متوسط"
+    },
+    "14": {
+        "title": "تداوم تخصیص ارز ترجیحی در سال ۱۴۰۴",
+        "summary": "در سال ۱۴۰۴، برخلاف انتظار، نرخ ارز ترجیحی برای کالاهای اساسی همچنان ۲۸۵۰۰تومان باقی خواهد ماند. هزینه‌کرد حدود ۶۶میلیارد دلار ۴۲۰۰تومانی در فاصله سال‌های ۱۳۹۷ تا ۱۴۰۰ از جمله تجربه‌های تلخی بود که نشان داد سیاست تخصیص ارز ترجیحی نه تنها نمی‌تواند در کنترل تورم موثر باشد، بلکه با دامن زدن به انگیزه‌های فساد و انحراف منابع به سمت گروه‌های ذی‌نفع، کارآمدی اقتصاد را بیش از پیش در تنگنا قرار می‌دهد.",
+        "category": "اقتصاد ایران",
+        "importance": "بالا"
+    },
+    "15": {
+        "title": "مشکل بازار کار ایران بهره‌وری است",
+        "summary": "میانگین رشد بهره‌وری نیروی کار در ایران بین سال‌های ۱۳۹۱ تا ۱۴۰۲ حدود منفی ۱.۸درصد بوده است.",
+        "category": "اقتصاد ایران",
+        "importance": "متوسط"
+    },
+    "16": {
+        "title": "Trump’s Tariffs Expected to Drag Down the Global Economy",
+        "summary": "Economic growth will slow this year and next as the trade war hampers development in the United States and around the world, the Organization for Economic Cooperation and Development said.",
+        "category": "اقتصاد جهانی",
+        "importance": "متوسط"
+    },
+    "17": {
+        "title": "As Courts Call Tariffs Into Question, Trump Again Turns to His Favorite Tool",
+        "summary": "The president is set to raise tariffs on steel and aluminum this week, even as the courts are challenging the legitimacy of other levies.",
+        "category": "تجارت بین الملل",
+        "importance": "متوسط"
+    },
+    "18": {
+        "title": "White House Unveils New Details of Stark Budget Cuts",
+        "summary": "The new blueprint shows that a vast array of education, health, housing and labor programs would be hit, including aid for college and cancer research.",
+        "category": "سیاست",
+        "importance": "متوسط"
+    },
+    "19": {
+        "title": "White House Revives Trade Spat With Fresh Attacks on China",
+        "summary": "President Trump said that Beijing was not honoring the terms of a temporary agreement and warned of further confrontation.",
+        "category": "تجارت بین الملل",
+        "importance": "متوسط"
+    },
+    "20": {
+        "title": "Tariff Ruling Gives Businesses Hope, but They’re Soon Unmoored Again",
+        "summary": "Companies welcomed a court decision striking down President Trump’s tariffs. Then a stay of that ruling left no one breathing easy.",
+        "category": "تجارت بین الملل",
+        "importance": "متوسط"
+    },
+    "21": {
+        "title": "Trump Makes a New Push to ‘Decouple’ U.S. From China",
+        "summary": "Trump administration officials are getting a second chance to try to sever ties with China by starting a trade war, imposing export controls and revoking student visas.",
+        "category": "روابط بین الملل",
+        "importance": "متوسط"
+    },
+    "22": {
+        "title": "Trump Criticizes the Fed in a Private Meeting With Powell",
+        "summary": "Jerome H. Powell stressed in his first meeting since the president returned to the White House that policy decisions would be “based solely on careful, objective and nonpolitical analysis.”",
+        "category": "سیاست پولی",
+        "importance": "متوسط"
+    },
+    "23": {
+        "title": "U.S. Pauses Exports of Airplane and Semiconductor Technology to China",
+        "summary": "President Trump has stopped some critical products and technologies made only in the United States from flowing to China, flexing the government’s power over global supply chains.",
+        "category": "تجارت بین الملل",
+        "importance": "متوسط"
+    },
+    "24": {
+        "title": "Trade Crime Is Soaring, U.S. Firms Say, as Trump’s Tariffs Incentivize Fraud",
+        "summary": "President Trump’s steep global tariffs have supercharged efforts to evade them. Some U.S. companies say the government is ill equipped to keep up.",
+        "category": "تجارت بین الملل",
+        "importance": "متوسط"
+    },
+    "25": {
+        "title": "Trump promises are starting to have a familiar refrain",
+        "summary": "The president recently attacked Walmart, saying it should “eat” the costs rather than pass them on to customers.",
+        "category": "تجارت بین الملل",
+        "importance": "متوسط"
     }
 }

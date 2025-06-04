@@ -163,5 +163,3 @@ class Snail():
 		
 snail = Snail()		
 
-
-snail.analyze()

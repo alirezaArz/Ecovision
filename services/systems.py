@@ -1,6 +1,7 @@
 import sys
 import os
 import json
+from datetime import datetime
 import random
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 if project_root not in sys.path:
@@ -35,14 +36,34 @@ class System():
 
 
     def get_snail_data(self):
-        images = ["im1.jpg", "im2.jpg", "im3.jpg", "im4.jpg", "im5.jpg"]
-        snailData = snail.snail.snailread()
-        for item in snailData.keys():
-            snailData[item]["id"] = item
-            snailData[item]["image"] = random.choices(images, k=1)
-        return(snailData)
-    
+        images = ["images/im1.jpg", "images/im2.jpg", "images/im3.jpg", "images/im4.jpg", "images/im5.jpg"]
+        snailData_from_read = snail.snail.snailread()
         
+        output_dict = {}
+        output_dict["newsData"] = []
+        
+        current_iso_date = datetime.now().isoformat()
+
+        for item_key_str, original_item_data in snailData_from_read.items():
+            transformed_item = {}
+            
+            try:
+                transformed_item["id"] = int(item_key_str) + 1
+            except ValueError:
+                transformed_item["id"] = item_key_str 
+            
+            transformed_item["title"] = original_item_data.get("title", "")
+            transformed_item["summary"] = original_item_data.get("summary", "")
+            transformed_item["image"] = "images/im1.jpg"
+            transformed_item["category"] = original_item_data.get("category", "news")
+            transformed_item["importance"] = original_item_data.get("importance", "medium")
+            transformed_item["date"] = current_iso_date
+            
+            output_dict["newsData"].append(transformed_item)
+                
+        return output_dict
+        
+            
 
 
 vgsy = System()
