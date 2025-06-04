@@ -36,7 +36,7 @@ class System():
 
 
     def get_snail_data(self):
-        images = ["images/im1.jpg", "images/im2.jpg", "images/im3.jpg", "images/im4.jpg", "images/im5.jpg"]
+        images = ["images/im2.jpg", "images/im3.jpg", "images/im4.jpg", "images/im5.jpg"]
         snailData_from_read = snail.snail.snailread()
         
         output_dict = {}
@@ -54,7 +54,7 @@ class System():
             
             transformed_item["title"] = original_item_data.get("title", "")
             transformed_item["summary"] = original_item_data.get("summary", "")
-            transformed_item["image"] = "images/im1.jpg"
+            transformed_item["image"] = "images/im3.jpg"
             transformed_item["category"] = original_item_data.get("category", "news")
             transformed_item["importance"] = original_item_data.get("importance", "medium")
             transformed_item["date"] = current_iso_date
