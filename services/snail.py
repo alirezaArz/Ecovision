@@ -59,6 +59,7 @@ class Snail():
 			nytimes.main()
 			yahoo.main()
 			gecko.price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'Polygon'}, {'usd'})
+			gecko.percentage()
 			esdn.main()
 			bloomberg.main()
 		else:
@@ -76,6 +77,8 @@ class Snail():
 				esdn.main()
 			if "bloomberg" in names:
 				bloomberg.main()
+		snail.analyze()
+		
 
 
 
