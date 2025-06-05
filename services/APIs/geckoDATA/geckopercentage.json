@@ -6,9 +6,9 @@
     "dogecoin": -0.731,
     "pos3": false,
     "ethereum": 0.237,
-    "pos4": false,
+    "pos4": true,
     "solana": 0.248,
-    "pos5": false,
+    "pos5": true,
     "tether": 0.0,
-    "pos6": false
+    "pos6": true
 }

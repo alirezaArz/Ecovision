@@ -134,22 +134,22 @@ def percentage():
     else : 
         pos2 = True
     num3 = round(((Data[-1]['dogecoin']['usd'] - Data[0]['dogecoin']['usd'])/Data[0]['dogecoin']['usd'])*100, 3)
-    if num1 < 0 :
+    if num3 < 0 :
         pos3 = False
     else : 
         pos3 = True    
     num4 = round(((Data[-1]['ethereum']['usd'] - Data[0]['ethereum']['usd'])/Data[0]['ethereum']['usd'])*100, 3)
-    if num1 < 0 :
+    if num4 < 0 :
         pos4 = False
     else : 
         pos4 = True
     num5 = round(((Data[-1]['solana']['usd'] - Data[0]['solana']['usd'])/Data[0]['solana']['usd'])*100, 3)
-    if num1 < 0 :
+    if num5 < 0 :
         pos5 = False
     else : 
         pos5 = True
     num6 = round(((Data[-1]['tether']['usd'] - Data[0]['tether']['usd'])/Data[0]['tether']['usd'])*100, 3)
-    if num1 < 0 :
+    if num6 < 0 :
         pos6 = False
     else : 
         pos6 = True
@@ -173,7 +173,7 @@ def percentage():
   
 
 #price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
-#percentage()
+# percentage()
 #print(market_chart({'usd'}, 2))
 #print(is_online())
 #print(ticker({'bitcoin'}))
@@ -182,20 +182,3 @@ def percentage():
 #print(globals())
 #print(read('price'))
 
-
-# _________________________________________
-# def percentage(ids:set, vs_currencies:set):
-#     url = "https://api.coingecko.com/api/v3/simple/price"
-#     params = {
-#         'ids': ','.join(ids),
-#         'vs_currencies': ','.join(vs_currencies),
-#         'include_24hr_change': 'true'
-        
-#     }
-#     return connect(url, params, 'geckopercentage.json')
-# percentage({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
-#__________________________________________
-# with open(os.path.join(DATA_PATH, 'geckoprice.json'), 'r', encoding='utf-8') as file:
-#     answer = file.read([0],[1],[2],[3],[4],[5],[-1],[-2],[-3],[-4],[-5],[-6])
-# with open(os.path.join(DATA_PATH, 'geckoglobals.json'), 'w', encoding='utf-8') as file:
-#     save('geckopercentage.json', answer)
