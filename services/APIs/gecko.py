@@ -19,9 +19,11 @@ spinner = Halo(text='', spinner={
 		]
 	})
 
-def save(name:str, params):
-    with open(os.path.join(DATA_PATH, f"{name}"), 'w', encoding='utf-8') as file:
-        json.dump(params, file, indent=4, ensure_ascii=False)
+def save(name:str, response):
+    response.update({"time" : datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")})
+    with open(os.path.join(DATA_PATH, f"{name}"), 'a', encoding='utf-8') as file:
+        json.dump(response, file, indent=4, ensure_ascii=False)
+        file.write(",\n")
 
 def read(name):
     with open(os.path.join(DATA_PATH, f"gecko{name}.json"), 'r', encoding='utf-8') as file:
@@ -110,9 +112,30 @@ def globals():
     url = "https://api.coingecko.com/api/v3/global"
     params = {}
     return connect(url, params, 'geckoglobals.json')
+def percentage():
+    read("geckoprice.json")
+    Data = read.data
+    num1 = (Data[0] - Data[-6])/100
+    num2 = (Data[1] - Data[-5])/100
+    num3 = (Data[2] - Data[-4])/100
+    num4 = (Data[3] - Data[-3])/100
+    num5 = (Data[4] - Data[-2])/100
+    num6 = (Data[5] - Data[-1])/100
+    answer = {
+        'bitcoin': num1,
+        'cardano': num2,
+        'dogecoin': num3,
+        'ethereum': num4,  
+        'solana': num5,
+        'tether': num6
+    }
+    with open (os.path.join(DATA_PATH, 'geckopercentage.json'), 'w', encoding='utf-8') as file:
+        json.dump(answer, file, indent=4, ensure_ascii=False)
+    
+  
 
-
-#price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
+price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
+percentage()
 #print(market_chart({'usd'}, 2))
 #print(is_online())
 #print(ticker({'bitcoin'}))
@@ -120,3 +143,21 @@ def globals():
 #print(trends())
 #print(globals())
 #print(read('price'))
+
+
+# _________________________________________
+# def percentage(ids:set, vs_currencies:set):
+#     url = "https://api.coingecko.com/api/v3/simple/price"
+#     params = {
+#         'ids': ','.join(ids),
+#         'vs_currencies': ','.join(vs_currencies),
+#         'include_24hr_change': 'true'
+        
+#     }
+#     return connect(url, params, 'geckopercentage.json')
+# percentage({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
+#__________________________________________
+# with open(os.path.join(DATA_PATH, 'geckoprice.json'), 'r', encoding='utf-8') as file:
+#     answer = file.read([0],[1],[2],[3],[4],[5],[-1],[-2],[-3],[-4],[-5],[-6])
+# with open(os.path.join(DATA_PATH, 'geckoglobals.json'), 'w', encoding='utf-8') as file:
+#     save('geckopercentage.json', answer)
