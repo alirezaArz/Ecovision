@@ -113,7 +113,7 @@ def globals():
     params = {}
     return connect(url, params, 'geckoglobals.json')
 def percentage():
-    read("geckoprice.json")
+    read("price")
     Data = read.data
     num1 = (Data[0] - Data[-6])/100
     num2 = (Data[1] - Data[-5])/100
@@ -135,7 +135,7 @@ def percentage():
   
 
 price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
-percentage()
+# percentage()
 #print(market_chart({'usd'}, 2))
 #print(is_online())
 #print(ticker({'bitcoin'}))
