@@ -122,21 +122,50 @@ def globals():
     params = {}
     return connect(url, params, 'geckoglobals.json')
 def percentage():
-    Data = []
-    Data.append(read("price"))
-    num1 = (Data[0] - Data[-6])/100
-    num2 = (Data[1] - Data[-5])/100
-    num3 = (Data[2] - Data[-4])/100
-    num4 = (Data[3] - Data[-3])/100
-    num5 = (Data[4] - Data[-2])/100
-    num6 = (Data[5] - Data[-1])/100
+    Data = read('price')
+    num1 = round(((Data[-1]['bitcoin']['usd'] - Data[0]['bitcoin']['usd'])/Data[0]['bitcoin']['usd'])*100, 3)
+    if num1 < 0 :
+        pos1 = False
+    else : 
+        pos1 = True
+    num2 = round(((Data[-1]['cardano']['usd'] - Data[0]['cardano']['usd'])/Data[0]['cardano']['usd'])*100, 3)
+    if num2 < 0 :
+        pos2 = False
+    else : 
+        pos2 = True
+    num3 = round(((Data[-1]['dogecoin']['usd'] - Data[0]['dogecoin']['usd'])/Data[0]['dogecoin']['usd'])*100, 3)
+    if num1 < 0 :
+        pos3 = False
+    else : 
+        pos3 = True    
+    num4 = round(((Data[-1]['ethereum']['usd'] - Data[0]['ethereum']['usd'])/Data[0]['ethereum']['usd'])*100, 3)
+    if num1 < 0 :
+        pos4 = False
+    else : 
+        pos4 = True
+    num5 = round(((Data[-1]['solana']['usd'] - Data[0]['solana']['usd'])/Data[0]['solana']['usd'])*100, 3)
+    if num1 < 0 :
+        pos5 = False
+    else : 
+        pos5 = True
+    num6 = round(((Data[-1]['tether']['usd'] - Data[0]['tether']['usd'])/Data[0]['tether']['usd'])*100, 3)
+    if num1 < 0 :
+        pos6 = False
+    else : 
+        pos6 = True
     answer = {
         'bitcoin': num1,
+        "pos1" : pos1 ,
         'cardano': num2,
+        "pos2" : pos2 ,
         'dogecoin': num3,
+        "pos3" : pos3 ,
         'ethereum': num4,  
+        "pos4" : pos4 ,
         'solana': num5,
-        'tether': num6
+        "pos5" : pos5 , 
+        'tether': num6 ,
+        "pos6" : pos6
     }
     with open (os.path.join(DATA_PATH, 'geckopercentage.json'), 'w', encoding='utf-8') as file:
         json.dump(answer, file, indent=4, ensure_ascii=False)
@@ -144,7 +173,7 @@ def percentage():
   
 
 price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
-# percentage()
+percentage()
 #print(market_chart({'usd'}, 2))
 #print(is_online())
 #print(ticker({'bitcoin'}))

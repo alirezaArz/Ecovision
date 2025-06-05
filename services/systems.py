@@ -9,28 +9,26 @@ if project_root not in sys.path:
 from services.APIs import gecko as gecko
 from services.Scrapers import bonbast as bonbast
 from services import snail as snail
-
 GECKO_PATH = os.path.join(project_root, 'services', 'APIs', 'geckoData')
 NYTIME_PATH = os.path.join(project_root, 'services', 'scrapers', 'nytimesDATA')
 
 class System():
     def __init__(self):
-        pass
+        self.percentage = gecko.read('percentage')
 
     def gecko_read(self,name):
         with open(os.path.join(GECKO_PATH, f"gecko{name}.json"), 'r', encoding='utf-8') as file:
             data = json.load(file)
             return(data)
-        
     def getStatGeckoPrice(self):
         self.priceData = self.gecko_read('price')
         self.result = [
-        { "symbol": "BTC", "name": "Bitcoin", "price": self.priceData['bitcoin']['usd'] , "change": "+2.4%", "positive": True },
-        { "symbol": "ETH", "name": "Ethereum", "price": self.priceData['ethereum']['usd'], "change": "+1.8%", "positive": True },
-        { "symbol": "ADA", "name": "Cardano", "price": self.priceData['cardano']['usd'], "change": "-0.9%", "positive": False },
-        { "symbol": "SOL", "name": "Solana", "price": self.priceData['solana']['usd'], "change": "+3.2%", "positive": True },
-        { "symbol": "USDT", "name": "Tether", "price": self.priceData['tether']['usd'], "change": "-1.2%", "positive": False },
-        { "symbol": "DOGE", "name": "Dogecoin", "price": self.priceData['dogecoin']['usd'], "change": "+0.7%", "positive": True },
+        { "symbol": "BTC", "name": "Bitcoin", "price": self.priceData['bitcoin']['usd'] , "change": f"{self.percentage['bitcoin']}%", "positive": self.percentage['pos1'] },
+        { "symbol": "ETH", "name": "Ethereum", "price": self.priceData['ethereum']['usd'], "change": f"{self.percentage['ethereum']}%", "positive": self.percentage['pos4'] },
+        { "symbol": "ADA", "name": "Cardano", "price": self.priceData['cardano']['usd'], "change": f"{self.percentage['cardano']}%", "positive": self.percentage['pos2'] },
+        { "symbol": "SOL", "name": "Solana", "price": self.priceData['solana']['usd'], "change": f"{self.percentage['solana']}%", "positive": self.percentage['pos5'] },
+        { "symbol": "USDT", "name": "Tether", "price": self.priceData['tether']['usd'], "change": f"{self.percentage['tether']}%", "positive": self.percentage['pos6'] },
+        { "symbol": "DOGE", "name": "Dogecoin", "price": self.priceData['dogecoin']['usd'], "change": f"{self.percentage['dogecoin']}%", "positive": self.percentage['pos2'] },
         ]
         return self.result
 
