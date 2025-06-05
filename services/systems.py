@@ -28,7 +28,7 @@ class System():
         { "symbol": "ADA", "name": "Cardano", "price": self.priceData[-1]['cardano']['usd'], "change": f"{self.percentage['cardano']}%", "positive": self.percentage['pos2'] },
         { "symbol": "SOL", "name": "Solana", "price": self.priceData[-1]['solana']['usd'], "change": f"{self.percentage['solana']}%", "positive": self.percentage['pos5'] },
         { "symbol": "USDT", "name": "Tether", "price": self.priceData[-1]['tether']['usd'], "change": f"{self.percentage['tether']}%", "positive": self.percentage['pos6'] },
-        { "symbol": "DOGE", "name": "Dogecoin", "price": self.priceData[-1]['dogecoin']['usd'], "change": f"{self.percentage['dogecoin']}%", "positive": self.percentage['pos2'] },
+        { "symbol": "DOGE", "name": "Dogecoin", "price": self.priceData[-1]['dogecoin']['usd'], "change": f"{self.percentage['dogecoin']}%", "positive": self.percentage['pos3'] },
         ]
         return self.result
 
