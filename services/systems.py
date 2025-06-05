@@ -22,13 +22,14 @@ class System():
             return(data)
     def getStatGeckoPrice(self):
         self.priceData = self.gecko_read('price')
+        print(self.priceData)
         self.result = [
-        { "symbol": "BTC", "name": "Bitcoin", "price": self.priceData['bitcoin']['usd'] , "change": f"{self.percentage['bitcoin']}%", "positive": self.percentage['pos1'] },
-        { "symbol": "ETH", "name": "Ethereum", "price": self.priceData['ethereum']['usd'], "change": f"{self.percentage['ethereum']}%", "positive": self.percentage['pos4'] },
-        { "symbol": "ADA", "name": "Cardano", "price": self.priceData['cardano']['usd'], "change": f"{self.percentage['cardano']}%", "positive": self.percentage['pos2'] },
-        { "symbol": "SOL", "name": "Solana", "price": self.priceData['solana']['usd'], "change": f"{self.percentage['solana']}%", "positive": self.percentage['pos5'] },
-        { "symbol": "USDT", "name": "Tether", "price": self.priceData['tether']['usd'], "change": f"{self.percentage['tether']}%", "positive": self.percentage['pos6'] },
-        { "symbol": "DOGE", "name": "Dogecoin", "price": self.priceData['dogecoin']['usd'], "change": f"{self.percentage['dogecoin']}%", "positive": self.percentage['pos2'] },
+        { "symbol": "BTC", "name": "Bitcoin", "price": self.priceData[-1]['bitcoin']['usd'] , "change": f"{self.percentage['bitcoin']}%", "positive": self.percentage['pos1'] },
+        { "symbol": "ETH", "name": "Ethereum", "price": self.priceData[-1]['ethereum']['usd'], "change": f"{self.percentage['ethereum']}%", "positive": self.percentage['pos4'] },
+        { "symbol": "ADA", "name": "Cardano", "price": self.priceData[-1]['cardano']['usd'], "change": f"{self.percentage['cardano']}%", "positive": self.percentage['pos2'] },
+        { "symbol": "SOL", "name": "Solana", "price": self.priceData[-1]['solana']['usd'], "change": f"{self.percentage['solana']}%", "positive": self.percentage['pos5'] },
+        { "symbol": "USDT", "name": "Tether", "price": self.priceData[-1]['tether']['usd'], "change": f"{self.percentage['tether']}%", "positive": self.percentage['pos6'] },
+        { "symbol": "DOGE", "name": "Dogecoin", "price": self.priceData[-1]['dogecoin']['usd'], "change": f"{self.percentage['dogecoin']}%", "positive": self.percentage['pos2'] },
         ]
         return self.result
 

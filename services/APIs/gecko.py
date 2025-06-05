@@ -172,8 +172,8 @@ def percentage():
     
   
 
-price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
-percentage()
+#price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
+#percentage()
 #print(market_chart({'usd'}, 2))
 #print(is_online())
 #print(ticker({'bitcoin'}))
