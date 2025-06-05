@@ -20,10 +20,13 @@ spinner = Halo(text='', spinner={
 	})
 
 def save(name:str, response):
+    last_result = read("price")
     response.update({"time" : datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")})
-    with open(os.path.join(DATA_PATH, f"{name}"), 'a', encoding='utf-8') as file:
-        json.dump(response, file, indent=4, ensure_ascii=False)
-        file.write(",\n")
+    last_result.append(response)
+    
+    with open(os.path.join(DATA_PATH, f"{name}"), 'w', encoding='utf-8') as file:
+        json.dump(last_result, file, indent=4, ensure_ascii=False)
+        file.write("\n")
 
 def read(name):
     with open(os.path.join(DATA_PATH, f"gecko{name}.json"), 'r', encoding='utf-8') as file:
