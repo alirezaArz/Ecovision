@@ -20,12 +20,18 @@ spinner = Halo(text='', spinner={
 	})
 
 def save(name:str, response):
-    last_result = read("price")
-    response.update({"time" : datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")})
-    last_result.append(response)
+    try:
+        last_result = read("price")
+        last_result.append(response)
+        sendingData = last_result
+    except:
+        print("no previous save!")
+        sendingData = []
+        response.update({"time" : datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")})
+        sendingData.append(response)
     
     with open(os.path.join(DATA_PATH, f"{name}"), 'w', encoding='utf-8') as file:
-        json.dump(last_result, file, indent=4, ensure_ascii=False)
+        json.dump(sendingData, file, indent=4, ensure_ascii=False)
         file.write("\n")
 
 def read(name):
