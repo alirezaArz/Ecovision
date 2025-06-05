@@ -58,7 +58,7 @@ class Snail():
 			dnsd.main()
 			nytimes.main()
 			yahoo.main()
-			gecko.price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'Polygon'}, {'usd'})
+			gecko.price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
 			gecko.percentage()
 			esdn.main()
 			bloomberg.main()
@@ -72,7 +72,7 @@ class Snail():
 			if 'yahoo' in names:
 				yahoo.main()
 			if 'gecko' in names:
-				gecko.price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'Polygon'}, {'usd'})
+				gecko.price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
 			if 'esdn' in names:
 				esdn.main()
 			if "bloomberg" in names:
@@ -82,8 +82,10 @@ class Snail():
 
 
 
-	def runserver(self):
-		self.instantrun()
+	def runserver(self , instantrun = False):
+		if instantrun == True :
+  			self.instantrun()
+		
 		try:
 			while True:
 	
@@ -115,7 +117,7 @@ class Snail():
 						elif item == "yahoo":
 							yahoo.main()
 						elif item == "gecko":
-							gecko.price({'bitcoin', 'ethereum', 'tether'}, {'usd'})
+							gecko.price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
 						elif item == "esdn":
 							esdn.main()
 						elif item == "bloomberg":
@@ -185,5 +187,7 @@ class Snail():
 		print(self.result)
 		self.snailsave(self.result)
 		
-snail = Snail()		
+snail = Snail()
+snail.runserver(True)
+# snail.instantrun(['gecko'])		
 

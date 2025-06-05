@@ -1,142 +1,142 @@
 {
     "USD": {
         "name": "US Dollar",
-        "buy": "81,910",
-        "sell": "82,400"
+        "buy": "83,150",
+        "sell": "83,650"
     },
     "EUR": {
         "name": "Euro",
-        "buy": "93,450",
-        "sell": "94,010"
+        "buy": "95,110",
+        "sell": "95,680"
     },
     "GBP": {
         "name": "British Pound",
-        "buy": "110,300",
-        "sell": "111,390"
+        "buy": "112,500",
+        "sell": "113,610"
     },
     "CHF": {
         "name": "Swiss Franc",
-        "buy": "99,560",
-        "sell": "100,560"
+        "buy": "101,000",
+        "sell": "101,990"
     },
     "CAD": {
         "name": "Canadian Dollar",
-        "buy": "59,430",
-        "sell": "60,030"
+        "buy": "60,600",
+        "sell": "61,210"
     },
     "AUD": {
         "name": "Australian Dollar",
-        "buy": "52,730",
-        "sell": "53,260"
+        "buy": "53,950",
+        "sell": "54,490"
     },
     "SEK": {
         "name": "Swedish Krona",
-        "buy": "8,440",
-        "sell": "8,600"
+        "buy": "8,575",
+        "sell": "8,740"
     },
     "NOK": {
         "name": "Norwegian Krone",
-        "buy": "7,960",
-        "sell": "8,140"
+        "buy": "8,130",
+        "sell": "8,310"
     },
     "RUB": {
         "name": "Russian Ruble",
-        "buy": "1,025",
-        "sell": "1,045"
+        "buy": "1,035",
+        "sell": "1,055"
     },
     "THB": {
         "name": "Thai Baht",
-        "buy": "2,480",
-        "sell": "2,530"
+        "buy": "2,515",
+        "sell": "2,565"
     },
     "SGD": {
         "name": "Singapore Dollar",
-        "buy": "63,050",
-        "sell": "64,010"
+        "buy": "64,050",
+        "sell": "65,020"
     },
     "HKD": {
         "name": "Hong Kong Dollar",
-        "buy": "10,290",
-        "sell": "10,500"
+        "buy": "10,450",
+        "sell": "10,660"
     },
     "AZN": {
         "name": "Azerbaijani Manat",
-        "buy": "48,050",
-        "sell": "48,780"
+        "buy": "48,400",
+        "sell": "49,130"
     },
     "AMD": {
         "name": "10Armenian Dram",
-        "buy": "2,110",
-        "sell": "2,150"
+        "buy": "2,140",
+        "sell": "2,180"
     },
     "DKK": {
         "name": "Danish Krone",
-        "buy": "12,290",
-        "sell": "12,600"
+        "buy": "12,510",
+        "sell": "12,830"
     },
     "AED": {
         "name": "UAE Dirham",
-        "buy": "22,460",
-        "sell": "22,680"
+        "buy": "22,740",
+        "sell": "22,970"
     },
     "JPY": {
         "name": "10Japanese Yen",
-        "buy": "5,635",
-        "sell": "5,750"
+        "buy": "5,685",
+        "sell": "5,800"
     },
     "TRY": {
         "name": "Turkish Lira",
-        "buy": "2,085",
-        "sell": "2,105"
+        "buy": "2,110",
+        "sell": "2,130"
     },
     "CNY": {
         "name": "Chinese Yuan",
-        "buy": "11,220",
-        "sell": "11,440"
+        "buy": "11,420",
+        "sell": "11,650"
     },
     "SAR": {
         "name": "KSA Riyal",
-        "buy": "21,530",
-        "sell": "21,970"
+        "buy": "21,860",
+        "sell": "22,300"
     },
     "INR": {
         "name": "Indian Rupee",
-        "buy": "950",
-        "sell": "965"
+        "buy": "960",
+        "sell": "975"
     },
     "MYR": {
         "name": "Ringgit",
-        "buy": "19,220",
-        "sell": "19,410"
+        "buy": "19,590",
+        "sell": "19,780"
     },
     "AFN": {
         "name": "Afghan Afghani",
-        "buy": "1,170",
-        "sell": "1,190"
+        "buy": "1,175",
+        "sell": "1,195"
     },
     "KWD": {
         "name": "Kuwaiti Dinar",
-        "buy": "263,500",
-        "sell": "268,800"
+        "buy": "267,500",
+        "sell": "272,880"
     },
     "IQD": {
         "name": "100Iraqi Dinar",
-        "buy": "6,175",
-        "sell": "6,300"
+        "buy": "6,275",
+        "sell": "6,400"
     },
     "BHD": {
         "name": "Bahraini Dinar",
-        "buy": "215,400",
-        "sell": "218,590"
+        "buy": "218,600",
+        "sell": "221,900"
     },
     "OMR": {
         "name": "Omani Rial",
-        "buy": "210,500",
-        "sell": "214,310"
+        "buy": "213,700",
+        "sell": "217,560"
     },
     "QAR": {
         "name": "Qatari Riyal",
-        "buy": "22,150",
-        "sell": "22,600"
+        "buy": "22,490",
+        "sell": "22,940"
     }
 }
