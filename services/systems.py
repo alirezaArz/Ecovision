@@ -22,7 +22,6 @@ class System():
             return(data)
     def getStatGeckoPrice(self):
         self.priceData = self.gecko_read('price')
-        print(self.priceData)
         self.result = [
         { "symbol": "BTC", "name": "Bitcoin", "price": self.priceData[-1]['bitcoin']['usd'] , "change": f"{self.percentage['bitcoin']}%", "positive": self.percentage['pos1'] },
         { "symbol": "ETH", "name": "Ethereum", "price": self.priceData[-1]['ethereum']['usd'], "change": f"{self.percentage['ethereum']}%", "positive": self.percentage['pos4'] },
