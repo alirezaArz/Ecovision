@@ -116,8 +116,7 @@ def globals():
     params = {}
     return connect(url, params, 'geckoglobals.json')
 def percentage():
-    read("price")
-    Data = read.data
+    Data = read("price")
     num1 = (Data[0] - Data[-6])/100
     num2 = (Data[1] - Data[-5])/100
     num3 = (Data[2] - Data[-4])/100
