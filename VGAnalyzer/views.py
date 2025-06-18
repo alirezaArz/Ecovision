@@ -118,8 +118,10 @@ def control_view(request):
             elif code == '501': # Analyze Toggle
                 if status == "on":
                     snail.snail.analyze_active = True
+                    print("analyze activated")
                 elif status == "off":
                     snail.snail.analyze_active = False
+                    print("analyze deactivated")
             elif code == '502': # Gemini AI Toggle
                 gemini_ai_enabled = (status == 'on')
                 response_message = f"Gemini AI module is now: {'Enabled' if gemini_ai_enabled else 'Disabled'}."
@@ -150,8 +152,7 @@ def control_view(request):
                 snail.snail.instantrun('yahoo')
 
             elif code == '501-run': # Analyze Run
-                response_message = "Analyze run initiated."
-                print(f"DEBUG: Executing Analyze run logic. Module Enabled: {analyze_enabled}")
+                snail.snail.instantrun('analyze')
             elif code == '502-run': # Gemini AI Run
                 response_message = "Gemini AI run initiated."
                 print(f"DEBUG: Executing Gemini AI run logic. Module Enabled: {gemini_ai_enabled}")
