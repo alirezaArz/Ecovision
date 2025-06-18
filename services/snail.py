@@ -318,7 +318,10 @@ class Snail():
 	def analyze(self, core='none'):
 		self.entry = self.get_news_data()
 		if core == 'gemini':
-			self.result = gemeni.analyze(self.entry)
+			try:
+				self.result = gemeni.analyze(self.entry)
+			except:
+				self.result = ollama.answer(self.entry)
 			self.snailsave(self.result)
 		elif core == 'localai':
 			print(12345)
@@ -329,7 +332,10 @@ class Snail():
 				self.result = gemeni.analyze(self.entry)
 				self.snailsave(self.result)
 			elif self.gemeni_active:
-				self.result = gemeni.analyze(self.entry)
+				try:
+					self.result = gemeni.analyze(self.entry)
+				except:
+					self.result = ollama.answer(self.entry)
 				self.snailsave(self.result)
 			elif self.localai_active:
 				self.result = ollama.answer(self.entry)
