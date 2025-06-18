@@ -1,0 +1,153 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پنل مدیریت Snail Crawler</title>
+    <link rel="stylesheet" href="{% static 'admin_style.css' %}">
+</head>
+<body>
+    <div class="container">
+        <header class="main-header">
+            <div class="header-left">
+                <h1>VGanalyzer-Admin</h1>
+            </div>
+            <div class="header-right">
+                <div class="global-control">
+                    <label class="toggle-switch large-toggle">
+                        <input type="checkbox" id="toggleSnailGlobal" data-code="100">
+                        <span class="slider round"></span>
+                    </label>
+                    <span class="toggle-label large-label">Snail</span>
+                </div>
+                <button class="action-button large-button" id="instantRunBtn" data-code="400">instant run</button>
+            </div>
+        </header>
+
+        <div class="cards-wrapper">
+            <div class="card">
+                <h3>Sources (APIs & Scrapers)</h3>
+                <div class="card-content">
+                    <div class="toggle-and-run-group">
+                        <div class="toggle-group">
+                            <label class="toggle-switch">
+                                <input type="checkbox" id="toggleGeckocoin" data-code="201">
+                                <span class="slider round"></span>
+                            </label>
+                            <span class="toggle-label">GeckoCoin</span>
+                        </div>
+                        <button class="run-button" data-code="201-run">run</button>
+                    </div>
+
+                    <div class="toggle-and-run-group">
+                        <div class="toggle-group">
+                            <label class="toggle-switch">
+                                <input type="checkbox" id="toggleBloomberg" data-code="301">
+                                <span class="slider round"></span>
+                            </label>
+                            <span class="toggle-label">Bloomberg</span>
+                        </div>
+                        <button class="run-button" data-code="301-run">run</button>
+                    </div>
+
+                    <div class="toggle-and-run-group">
+                        <div class="toggle-group">
+                            <label class="toggle-switch">
+                                <input type="checkbox" id="toggleBonbast" data-code="302">
+                                <span class="slider round"></span>
+                            </label>
+                            <span class="toggle-label">Bonbast</span>
+                        </div>
+                        <button class="run-button" data-code="302-run">run</button>
+                    </div>
+
+                    <div class="toggle-and-run-group">
+                        <div class="toggle-group">
+                            <label class="toggle-switch">
+                                <input type="checkbox" id="toggleDnsd" data-code="303">
+                                <span class="slider round"></span>
+                            </label>
+                            <span class="toggle-label">DNSD</span>
+                        </div>
+                        <button class="run-button" data-code="303-run">run</button>
+                    </div>
+
+                    <div class="toggle-and-run-group">
+                        <div class="toggle-group">
+                            <label class="toggle-switch">
+                                <input type="checkbox" id="toggleEsdn" data-code="304">
+                                <span class="slider round"></span>
+                            </label>
+                            <span class="toggle-label">ESDN</span>
+                        </div>
+                        <button class="run-button" data-code="304-run">run</button>
+                    </div>
+
+                    <div class="toggle-and-run-group">
+                        <div class="toggle-group">
+                            <label class="toggle-switch">
+                                <input type="checkbox" id="toggleNytimes" data-code="305">
+                                <span class="slider round"></span>
+                            </label>
+                            <span class="toggle-label">NYTimes</span>
+                        </div>
+                        <button class="run-button" data-code="305-run">run</button>
+                    </div>
+
+                    <div class="toggle-and-run-group">
+                        <div class="toggle-group">
+                            <label class="toggle-switch">
+                                <input type="checkbox" id="toggleYahoo" data-code="306">
+                                <span class="slider round"></span>
+                            </label>
+                            <span class="toggle-label">Yahoo</span>
+                        </div>
+                        <button class="run-button" data-code="306-run">run</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Analyze (AI & Processing)</h3>
+                <div class="card-content">
+                    <div class="toggle-and-run-group">
+                        <div class="toggle-group">
+                            <label class="toggle-switch">
+                                <input type="checkbox" id="toggleAnalyze" data-code="501">
+                                <span class="slider round"></span>
+                            </label>
+                            <span class="toggle-label">Analyze</span>
+                        </div>
+                        <button class="run-button" data-code="501-run">run</button>
+                    </div>
+
+                    <div class="toggle-and-run-group">
+                        <div class="toggle-group">
+                            <label class="toggle-switch">
+                                <input type="checkbox" id="toggleGemini" data-code="502">
+                                <span class="slider round"></span>
+                            </label>
+                            <span class="toggle-label">Gemini AI</span>
+                        </div>
+                        <button class="run-button" data-code="502-run">run</button>
+                    </div>
+
+                    <div class="toggle-and-run-group">
+                        <div class="toggle-group">
+                            <label class="toggle-switch">
+                                <input type="checkbox" id="toggleLocalAI" data-code="503">
+                                <span class="slider round"></span>
+                            </label>
+                            <span class="toggle-label">Local AI</span>
+                        </div>
+                        <button class="run-button" data-code="503-run">run</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{% static 'js/admin_script.js' %}"></script>
+</body>
+</html>

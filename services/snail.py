@@ -27,6 +27,7 @@ from services.AI import gemeni as gemeni
 
 class Snail():
 	def __init__(self):
+
 		self.spinner = Halo(text='', spinner={
 		"interval": 80,
 		"frames": [
@@ -40,72 +41,54 @@ class Snail():
 			"[=   ]"
 		]
 	})
-		
+		self.active = True
 		self.durationsBackup = {
-			'gecko' : 3600,
-			'bonbast': 3600,
-			'dnsd': 3600,
-			'nytimes':3600,
-			'yahoo' : 3600,
-			"bloomberg": 3600,
-			"esdn": 3600
 		}
+
+	def activate(self, name):
+		if name == 'bonbast' and name not in self.durationsBackup:
+			self.durationsBackup['bonbast'] = 30	
+		elif name == 'dnsd' and name not in self.durationsBackup:
+			self.durationsBackup['dnsd'] = 3600
+		elif name == 'nytimes' and name not in self.durationsBackup:
+			self.durationsBackup['nytimes'] = 3600
+		elif name == 'yahoo' and name not in self.durationsBackup:
+			self.durationsBackup['yahoo'] = 3600
+		elif name == 'gecko' and name not in self.durationsBackup:
+			self.durationsBackup['gecko'] = 10
+		elif name == 'esdn' and name not in self.durationsBackup:
+			self.durationsBackup['esdn'] = 3600
+		elif name == 'bloomberg' and name not in self.durationsBackup:
+			self.durationsBackup['bloomberg'] = 3600
 		self.durations = self.durationsBackup.copy()
+		print(f"activated {name} service")
+		print(f"current durations: {self.durations}")
+		print(f"current backup durations: {self.durationsBackup}")
+	
+	def deactivate(self, name):
+		if name == 'bonbast' and name in self.durationsBackup:
+			del self.durationsBackup['bonbast']
+		elif name == 'dnsd' and name in self.durationsBackup:
+			del self.durationsBackup['dnsd']
+		elif name == 'nytimes' and name in self.durationsBackup:
+			del self.durationsBackup['nytimes']
+		elif name == 'yahoo' and name in self.durationsBackup:
+			del self.durationsBackup['yahoo']
+		elif name == 'gecko' and name in self.durationsBackup:
+			del self.durationsBackup['gecko']
+		elif name == 'esdn' and name in self.durationsBackup:
+			del self.durationsBackup['esdn']
+		elif name == 'bloomberg' and name in self.durationsBackup:
+			del self.durationsBackup['bloomberg']
+		self.durations = self.durationsBackup.copy()
+		print(f"deactivated {name} service")
+		print(f"current durations: {self.durations}")
+		print(f"current backup durations: {self.durationsBackup}")
+		
+		
 
-	def instantrun(self, names = []):
-		if names == []:
-			try:
-				print("starting bonbast")
-				bonbast.main()
-				print("bonbast done successfully")
-			except:
-				print("bonbast failed")
-
-			try:
-				print("starting dnsd")
-				dnsd.main()
-				print("dnsd done successfully")
-			except:
-				print("dnsd failed")
-
-			try:
-				print("starting nytimes")
-				nytimes.main()
-				print("nytimes done successfully")
-			except:
-				print("nytimes failed")
-
-			try:
-				print("starting yahoo")
-				yahoo.main()
-				print("yahoo done successfully")
-			except:
-				print("yahoo failed")
-
-			try:
-				print("starting gecko")
-				gecko.price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
-				gecko.percentage()
-				print("gecko done successfully")
-			except:
-				print("gecko failed")
-
-			try:
-				print("starting esdn")
-				esdn.main()
-				print("esdn done successfully")
-			except:
-				print("esdn failed")
-
-			try:
-				print("starting bloomberg")
-				bloomberg.main()
-				print("bloomberg done successfully")
-			except:
-				print("bloomberg failed")
-
-		else:
-			if 'bonbast' in names:
+	def instantrun(self, name = ''):
+			if name == 'bonbast':
 				try:
 					print("starting bonbast")
 					bonbast.main()
@@ -113,7 +96,7 @@ class Snail():
 				except:
 					print("bonbast failed")
 
-			if 'dnsd' in names:
+			if name == 'dnsd':
 				try:
 					print("starting dnsd")
 					dnsd.main()
@@ -121,7 +104,7 @@ class Snail():
 				except:
 					print("dnsd failed")
 
-			if 'nytimes' in names:
+			if name == 'nytimes':
 				try:
 					print("starting nytimes")
 					nytimes.main()
@@ -129,7 +112,7 @@ class Snail():
 				except:
 					print("nytimes failed")
 
-			if 'yahoo' in names:
+			if name == 'yahoo':
 				try:
 					print("starting yahoo")
 					yahoo.main()
@@ -137,7 +120,7 @@ class Snail():
 				except:
 					print("yahoo failed")
 
-			if 'gecko' in names:
+			if name == 'gecko':
 				try:
 					print("starting gecko")
 					gecko.price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
@@ -146,7 +129,7 @@ class Snail():
 				except:
 					print("gecko failed")
 
-			if 'esdn' in names:
+			if name == 'esdn':
 				try:
 					print("starting esdn")
 					esdn.main()
@@ -154,7 +137,7 @@ class Snail():
 				except:
 					print("esdn failed")
 
-			if "bloomberg" in names:
+			if name == "bloomberg":
 				try:
 					print("starting bloomberg")
 					bloomberg.main()
@@ -162,19 +145,18 @@ class Snail():
 				except:
 					print("bloomberg failed")
 
-			try:
-				print("starting snail")
-				self.analyze()
-				print("snail done successfully")
-			except:
-				print("snail failed")
+			if name == 'analyze':
+				try:
+					print("starting snail")
+					self.analyze()
+					print("analyze done successfully")
+				except:
+					print("analyze failed")
 
 
-	def runserver(self , instantrun = False):
-		if instantrun:
-  			self.instantrun()
+	def runserver(self):
 		try:
-			while True:
+			while self.active and self.durations:
 	
 				self.next_process_name = min(self.durations, key=lambda k: self.durations[k])
 				self.CurrentWaitTime = self.durations[self.next_process_name]
@@ -185,10 +167,7 @@ class Snail():
 #code that runs here, runs every time a timer hits 0
 #------------------------------------------------------------
 
-
 				time.sleep(self.CurrentWaitTime)
-
-				print('\nbbbooommm')
 
 				for item in self.durations:
 					val = self.durations[item]
@@ -218,7 +197,7 @@ class Snail():
 			print('cut in process')
 		finally:
 			self.spinner.stop()
-			print('server is shuted down')
+			print('snail has been deactivated')
 
 	def snailread(self):
 		with open(os.path.join(snailpath, f"Snaildata.json"), 'r', encoding='utf-8') as file:
@@ -275,7 +254,7 @@ class Snail():
 		self.snailsave(self.result)
 		
 snail = Snail()
-#snail.runserver(True)
+#snail.runserver()
 #snail.instantrun(['yahoo','gecko', 'esdn', 'bloomberg'])		
 
 

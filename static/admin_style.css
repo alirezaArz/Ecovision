@@ -1,0 +1,329 @@
+:root {
+    --bg-primary: #9EC8B9; /* Dark Gray (Charcoal) */
+    --bg-secondary: #5C8374; /* Slightly lighter gray-blue for cards */
+    --text-color: #1B4242; /* Light Gray */
+    --text-light: #1B4242; /* Pure White for headings */
+    --accent-color: #14987e; /* DarkCyan */
+    --accent-hover: #158977; /* MediumTurquoise - lighter DarkCyan */
+    --border-color: #2b83b6; /* Slightly darker border */
+    --shadow-color: rgba(10, 138, 173, 0.4);
+
+    --button-primary: var(--accent-color);
+    --button-hover: var(--accent-hover);
+    --button-text: var(--text-light);
+
+    --run-button-bg: #129c8e; /* SaddleBrown / Potato-ish */
+    --run-button-hover: #118886; /* Sienne - lighter Potato */
+    --run-button-active-feedback: #2783cf; /* SlateBlue - different accent color for click feedback */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-primary);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: flex-start; /* Align to top vertically */
+    min-height: 100vh;
+    direction: rtl; /* For RTL support */
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px; /* Reduced max-width for more central focus */
+    border-radius: 12px; /* Slightly more rounded corners */
+    overflow: hidden;
+    box-shadow: 0 15px 40px var(--shadow-color); /* Stronger shadow */
+    background-color: var(--bg-secondary); /* Container background is now secondary */
+    display: flex; /* Flex container for header and cards wrapper */
+    flex-direction: column;
+}
+
+/* Main Header Styling */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 30px;
+    background-color: var(--bg-primary); /* Header uses primary background */
+    border-bottom: 1px solid var(--border-color);
+    color: var(--text-light);
+}
+
+.main-header h1 {
+    font-size: 2.5em; /* Larger heading */
+    font-weight: 700;
+    color: var(--text-light);
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 30px; /* More space between global controls */
+}
+
+.global-control {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.action-button {
+    background-color: var(--button-primary);
+    color: var(--button-text);
+    border: none;
+    padding: 12px 28px; /* Slightly more padding */
+    border-radius: 8px; /* More rounded buttons */
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 600;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    min-width: 120px; /* Minimum width for consistency */
+    text-align: center;
+}
+
+.action-button:hover {
+    background-color: var(--button-hover);
+}
+
+.action-button:active {
+    transform: translateY(1px);
+}
+
+/* Cards Wrapper - For centering and arrangement */
+.cards-wrapper {
+    padding: 30px;
+    display: flex; /* Use flexbox for cards */
+    flex-wrap: wrap; /* Allow cards to wrap */
+    gap: 25px; /* Space between cards */
+    justify-content: center; /* Center cards horizontally */
+    align-items: flex-start; /* Align cards to top */
+}
+
+.card {
+    background-color: var(--bg-primary); /* Card background is now primary */
+    border-radius: 10px; /* Slightly more rounded cards */
+    padding: 30px;
+    box-shadow: 0 6px 15px var(--shadow-color); /* Stronger shadow */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    flex: 1 1 450px; /* Flex for consistent size, allows wrap */
+    min-width: 300px; /* Minimum width */
+    max-width: 45%; /* Max width to allow two columns on larger screens */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(10, 97, 118, 0.5);
+}
+
+.card h3 {
+    color: var(--text-light);
+    font-size: 1.8em;
+    margin-bottom: 25px;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 12px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* More space between toggle groups */
+}
+
+/* Toggle Switch Styling */
+.toggle-group {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 65px; /* Slightly wider toggle */
+    height: 36px; /* Slightly taller toggle */
+}
+
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0b7a6d; /* Darker gray for off state */
+    transition: .4s;
+    border-radius: 36px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 28px;
+    width: 28px;
+    left: 4px;
+    bottom: 4px;
+    background-color: rgb(255, 255, 255);
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: var(--accent-color);
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px var(--accent-color);
+}
+
+input:checked + .slider:before {
+    transform: translateX(29px); /* Adjusted for wider toggle */
+}
+
+.toggle-label {
+    color: var(--text-color);
+    font-size: 1.1em;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+/* Large Toggle for Global Control */
+.large-toggle {
+    width: 80px;
+    height: 44px;
+}
+
+.large-toggle .slider:before {
+    height: 36px;
+    width: 36px;
+    left: 4px;
+    bottom: 4px;
+}
+
+.large-toggle input:checked + .slider:before {
+    transform: translateX(36px);
+}
+
+.large-label {
+    font-size: 1.3em;
+    font-weight: 600;
+    color: var(--text-light);
+}
+
+/* Run Button Styling (Text-based) */
+.toggle-and-run-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed var(--border-color);
+}
+
+.toggle-and-run-group:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.run-button {
+    background-color: var(--run-button-bg);
+    color: var(--button-text);
+    border: none;
+    padding: 8px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.95em;
+    font-weight: 500;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    flex-shrink: 0;
+    min-width: 70px; /* Minimum width for run buttons */
+    text-align: center;
+}
+
+.run-button:hover {
+    background-color: var(--run-button-hover);
+}
+
+.run-button:active {
+    transform: translateY(1px);
+}
+
+/* Active state for run button (visual feedback) */
+.run-button.active-feedback {
+    background-color: var(--run-button-active-feedback); /* Different color for feedback */
+}
+
+/* Responsive Design */
+@media (max-width: 1050px) {
+    .container {
+        max-width: 95%;
+    }
+    .card {
+        max-width: 100%; /* Stack cards vertically on smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    .container {
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .main-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 15px 20px;
+    }
+    .main-header h1 {
+        font-size: 2em;
+    }
+    .header-right {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        width: 100%; /* Full width for global controls */
+    }
+    .action-button {
+        width: 100%;
+    }
+    .cards-wrapper {
+        padding: 20px;
+        gap: 20px;
+    }
+    .card {
+        padding: 20px;
+    }
+    .card h3 {
+        font-size: 1.6em;
+        margin-bottom: 15px;
+    }
+    .toggle-group {
+        flex-direction: row; /* Ensure they stay in a row if possible */
+        align-items: center;
+    }
+    .toggle-and-run-group {
+        flex-direction: column; /* Stack toggle and run button on very small screens */
+        align-items: flex-start; /* Align left */
+        gap: 10px;
+    }
+    .run-button {
+        width: 100%; /* Full width for run button */
+        min-width: unset;
+    }
+}

@@ -39,5 +39,245 @@
         "tether": {
             "usd": 1.0
         }
+    },
+    {
+        "bitcoin": {
+            "usd": 102292
+        },
+        "cardano": {
+            "usd": 0.646008
+        },
+        "dogecoin": {
+            "usd": 0.175401
+        },
+        "ethereum": {
+            "usd": 2544.26
+        },
+        "solana": {
+            "usd": 146.94
+        },
+        "tether": {
+            "usd": 1.0
+        }
+    },
+    {
+        "bitcoin": {
+            "usd": 104573
+        },
+        "cardano": {
+            "usd": 0.608094
+        },
+        "dogecoin": {
+            "usd": 0.16959
+        },
+        "ethereum": {
+            "usd": 2510.0
+        },
+        "solana": {
+            "usd": 147.25
+        },
+        "tether": {
+            "usd": 1.0
+        }
+    },
+    {
+        "bitcoin": {
+            "usd": 104365
+        },
+        "cardano": {
+            "usd": 0.607198
+        },
+        "dogecoin": {
+            "usd": 0.169143
+        },
+        "ethereum": {
+            "usd": 2502.25
+        },
+        "solana": {
+            "usd": 146.83
+        },
+        "tether": {
+            "usd": 1.0
+        }
+    },
+    {
+        "bitcoin": {
+            "usd": 104669
+        },
+        "cardano": {
+            "usd": 0.611311
+        },
+        "dogecoin": {
+            "usd": 0.170021
+        },
+        "ethereum": {
+            "usd": 2515.46
+        },
+        "solana": {
+            "usd": 148.04
+        },
+        "tether": {
+            "usd": 1.0
+        }
+    },
+    {
+        "bitcoin": {
+            "usd": 104668
+        },
+        "cardano": {
+            "usd": 0.611622
+        },
+        "dogecoin": {
+            "usd": 0.170092
+        },
+        "ethereum": {
+            "usd": 2516.18
+        },
+        "solana": {
+            "usd": 148.17
+        },
+        "tether": {
+            "usd": 1.0
+        }
+    },
+    {
+        "bitcoin": {
+            "usd": 104668
+        },
+        "cardano": {
+            "usd": 0.611622
+        },
+        "dogecoin": {
+            "usd": 0.170092
+        },
+        "ethereum": {
+            "usd": 2516.18
+        },
+        "solana": {
+            "usd": 148.17
+        },
+        "tether": {
+            "usd": 1.0
+        }
+    },
+    {
+        "bitcoin": {
+            "usd": 104697
+        },
+        "cardano": {
+            "usd": 0.61205
+        },
+        "dogecoin": {
+            "usd": 0.170126
+        },
+        "ethereum": {
+            "usd": 2516.54
+        },
+        "solana": {
+            "usd": 148.21
+        },
+        "tether": {
+            "usd": 1.0
+        }
+    },
+    {
+        "bitcoin": {
+            "usd": 104697
+        },
+        "cardano": {
+            "usd": 0.61205
+        },
+        "dogecoin": {
+            "usd": 0.170126
+        },
+        "ethereum": {
+            "usd": 2516.54
+        },
+        "solana": {
+            "usd": 148.21
+        },
+        "tether": {
+            "usd": 1.0
+        }
+    },
+    {
+        "bitcoin": {
+            "usd": 104697
+        },
+        "cardano": {
+            "usd": 0.61205
+        },
+        "dogecoin": {
+            "usd": 0.170126
+        },
+        "ethereum": {
+            "usd": 2516.54
+        },
+        "solana": {
+            "usd": 148.21
+        },
+        "tether": {
+            "usd": 1.0
+        }
+    },
+    {
+        "bitcoin": {
+            "usd": 104697
+        },
+        "cardano": {
+            "usd": 0.61205
+        },
+        "dogecoin": {
+            "usd": 0.170126
+        },
+        "ethereum": {
+            "usd": 2516.54
+        },
+        "solana": {
+            "usd": 148.21
+        },
+        "tether": {
+            "usd": 1.0
+        }
+    },
+    {
+        "bitcoin": {
+            "usd": 104646
+        },
+        "cardano": {
+            "usd": 0.611186
+        },
+        "dogecoin": {
+            "usd": 0.169915
+        },
+        "ethereum": {
+            "usd": 2514.81
+        },
+        "solana": {
+            "usd": 147.95
+        },
+        "tether": {
+            "usd": 1.0
+        }
+    },
+    {
+        "bitcoin": {
+            "usd": 104585
+        },
+        "cardano": {
+            "usd": 0.611246
+        },
+        "dogecoin": {
+            "usd": 0.169919
+        },
+        "ethereum": {
+            "usd": 2518.3
+        },
+        "solana": {
+            "usd": 147.65
+        },
+        "tether": {
+            "usd": 1.0
+        }
     }
 ]

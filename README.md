@@ -1,3 +1,5 @@
+
+<a href="http://127.0.0.1:8000/admin/"><h2>admin avalble in here</h2></a>
 <p>
 for preparing you pc to setup the project run this command in your terminal:</p>
 <h2>

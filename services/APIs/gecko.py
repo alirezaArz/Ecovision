@@ -2,22 +2,9 @@ import requests
 import json
 from datetime import datetime, timedelta, timezone
 import os
-from halo import Halo 
 import sys
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_PATH = os.path.join(BASE_DIR, 'geckoData')
-
-spinner = Halo(text='', spinner={
-		"interval": 120,
-		"frames": [
-			"▹▹▹▹▹",
-			"▸▹▹▹▹",
-			"▹▸▹▹▹",
-			"▹▹▸▹▹",
-			"▹▹▹▸▹",
-			"▹▹▹▹▸"
-		]
-	})
 
 def save(name:str, response):
     try:
@@ -49,7 +36,6 @@ def is_online(test_url="https://www.google.com"):
 
 def connect(url, params, id:str):
     print("Gecko is running")
-    spinner.start()
     try:
         if params != {}:
             response = requests.get(url, params=params)
@@ -59,21 +45,20 @@ def connect(url, params, id:str):
 
         if response.status_code == 200:
             save(id, response.json())
-            spinner.stop()
+
             return response.json()
         
         elif response.status_code == 429:
-            spinner.stop()
+
             return 'to many requests'
         elif response.status_code == 404:
-            spinner.stop()
+
             return 'wrong url or params'
         else:
-            spinner.stop()
+
             return ("unknown error", response.status_code)
     
     except requests.exceptions.RequestException:
-        spinner.stop()
         return "unable to connect to the coingecko , check your connection and try again"
     
 

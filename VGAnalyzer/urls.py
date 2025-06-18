@@ -21,9 +21,9 @@ from . import views
 
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('admin/', views.admin_panel_view, name='admin_panel'),
+    path('admin/control/', views.control_view, name='control_commands'),
     path("__reload__/", include("django_browser_reload.urls")),
     path('crypto/', views.get_crypto_data, name='crypto_data'),
     path('news/', views.get_main_news, name='news_data'),
 ]
-
