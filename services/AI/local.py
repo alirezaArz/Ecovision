@@ -11,4 +11,5 @@ def answer(data):
 
 
     response = response.message.content
+    print(25)
     return(response)

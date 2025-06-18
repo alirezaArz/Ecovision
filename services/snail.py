@@ -273,6 +273,7 @@ class Snail():
 			return(self.data)
 
 	def snailsave(self, sfile):
+		
 		text_content = sfile.candidates[0].content.parts[0].text
 		if text_content.startswith("```json"):
 			text_content = text_content[len("```json"):].strip()
@@ -302,6 +303,7 @@ class Snail():
 			output_dict["newsData"].append(transformed_item)
 		with open(os.path.join(snailpath, f"Snaildata.json"), 'w', encoding='utf-8') as file:
 			json.dump(output_dict, file, indent=4, ensure_ascii=False)
+		print("snail data saved successfully")
 
 	def get_news_data(self):
 			data = ""
@@ -311,17 +313,16 @@ class Snail():
 			data += str(esdn.load())
 			data += str(nytimes.load())
 			data += str(yahoo.load())
-			
-			print(data)
 			return(data)
 
 	def analyze(self, core='none'):
 		self.entry = self.get_news_data()
-		if core == 'gemeni':
+		if core == 'gemini':
 			self.result = gemeni.analyze(self.entry)
 			self.snailsave(self.result)
-		elif core == 'local':
-			ollama.answer(self.entry)
+		elif core == 'localai':
+			print(12345)
+			self.result = ollama.answer(self.entry)
 			self.snailsave(self.result)
 		elif core == 'none':
 			if self.gemeni_active and self.localai_active:
@@ -331,7 +332,7 @@ class Snail():
 				self.result = gemeni.analyze(self.entry)
 				self.snailsave(self.result)
 			elif self.localai_active:
-				ollama.answer(self.entry)
+				self.result = ollama.answer(self.entry)
 				self.snailsave(self.result)
 			else:
 				print("no AI core is active, please activate one")
