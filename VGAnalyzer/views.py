@@ -118,8 +118,10 @@ def control_view(request):
                     snail.snail.deactivate('yahoo')
             # --- Analyze Toggles ---
             elif code == '501': # Analyze Toggle
-                analyze_enabled = (status == 'on')
-                response_message = f"Analyze module is now: {'Enabled' if analyze_enabled else 'Disabled'}."
+                if status == "on":
+                    snail.snail.analyze_active = True
+                elif status == "off":
+                    snail.snail.analyze_active = False
             elif code == '502': # Gemini AI Toggle
                 gemini_ai_enabled = (status == 'on')
                 response_message = f"Gemini AI module is now: {'Enabled' if gemini_ai_enabled else 'Disabled'}."

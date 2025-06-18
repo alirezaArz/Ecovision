@@ -42,6 +42,7 @@ class Snail():
 		]
 	})
 		self.active = True
+		self.analyze_active = False
 		self.durationsBackup = {
 		}
 
@@ -188,7 +189,10 @@ class Snail():
 							esdn.main()
 						elif item == "bloomberg":
 							bloomberg.main()
+						if self.analyze_active == True:
+							self.analyze()
 						self.durations[item] = self.durationsBackup[item]
+						
 
 				print(f" remaining times: {self.durations}")
 				self.spinner.stop()
