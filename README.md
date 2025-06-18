@@ -1,5 +1,4 @@
-
-<a href="http://127.0.0.1:8000/admin/">admin avalble in here</a>
+run the django and then <a href="http://127.0.0.1:8000/admin/">click here</a>
 <p>
 for preparing you pc to setup the project run this command in your terminal:</p>
 <h2>
