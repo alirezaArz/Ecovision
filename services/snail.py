@@ -22,6 +22,7 @@ from services.Scrapers import yahoo
 from services.Scrapers import esdn
 from services.Scrapers import bloomberg
 from services.AI import gemeni as gemeni
+from services.AI import local as ollama
 
 
 
@@ -319,18 +320,18 @@ class Snail():
 		if core == 'gemeni':
 			self.result = gemeni.analyze(self.entry)
 		elif core == 'local':
-			pass
+			ollama.answer(self.entry)
 		elif core == 'none':
 			if self.gemeni_active and self.localai_active:
 				self.result = gemeni.analyze(self.entry)
 			elif self.gemeni_active:
 				self.result = gemeni.analyze(self.entry)
 			elif self.localai_active:
-				pass
+				ollama.answer(self.entry)
 			else:
 				print("no AI core is active, please activate one")
 				return
-
+		print("data analyzed successfully")
 		self.snailsave(self.result)
 		
 snail = Snail()
