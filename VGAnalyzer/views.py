@@ -60,7 +60,7 @@ def control_view(request):
             # Global Toggle (Snail)
             if code == '100':
                 if status == 'on':
-                    snail.snail.active = False
+                    snail.snail.active = True
                     snail.snail.runserver()
                 elif status == 'off':
                     if snail.snail.active and snail.snail.durationsBackup:

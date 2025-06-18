@@ -1,10 +1,12 @@
-import time
-from halo import Halo 
-import os
-import sys
 import json
-from datetime import datetime
+import os
 import random
+import sys
+import time
+from datetime import datetime
+
+from halo import Halo
+
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 snailpath = os.path.join(project_root,'services', 'SnailData')
 DATA_PATH= os.path.join(project_root , "scraped")
@@ -14,16 +16,15 @@ project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
-from services.APIs import gecko as gecko
-from services.Scrapers import bonbast as bonbast
-from services.Scrapers import dnsd as dnsd
-from services.Scrapers import nytimes as nytimes
-from services.Scrapers import yahoo
-from services.Scrapers import esdn
-from services.Scrapers import bloomberg
 from services.AI import gemeni as gemeni
 from services.AI import local as ollama
-
+from services.APIs import gecko as gecko
+from services.Scrapers import bloomberg
+from services.Scrapers import bonbast as bonbast
+from services.Scrapers import dnsd as dnsd
+from services.Scrapers import esdn
+from services.Scrapers import nytimes as nytimes
+from services.Scrapers import yahoo
 
 
 class Snail():
@@ -51,7 +52,7 @@ class Snail():
 
 	def activate(self, name):
 		if name == 'bonbast' and name not in self.durationsBackup:
-			self.durationsBackup['bonbast'] = 30	
+			self.durationsBackup['bonbast'] = 1600	
 		elif name == 'dnsd' and name not in self.durationsBackup:
 			self.durationsBackup['dnsd'] = 3600
 		elif name == 'nytimes' and name not in self.durationsBackup:
@@ -59,7 +60,7 @@ class Snail():
 		elif name == 'yahoo' and name not in self.durationsBackup:
 			self.durationsBackup['yahoo'] = 3600
 		elif name == 'gecko' and name not in self.durationsBackup:
-			self.durationsBackup['gecko'] = 10
+			self.durationsBackup['gecko'] = 100
 		elif name == 'esdn' and name not in self.durationsBackup:
 			self.durationsBackup['esdn'] = 3600
 		elif name == 'bloomberg' and name not in self.durationsBackup:
