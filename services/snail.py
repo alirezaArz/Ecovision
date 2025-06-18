@@ -319,20 +319,25 @@ class Snail():
 		self.entry = self.get_news_data()
 		if core == 'gemeni':
 			self.result = gemeni.analyze(self.entry)
+			self.snailsave(self.result)
 		elif core == 'local':
 			ollama.answer(self.entry)
+			self.snailsave(self.result)
 		elif core == 'none':
 			if self.gemeni_active and self.localai_active:
 				self.result = gemeni.analyze(self.entry)
+				self.snailsave(self.result)
 			elif self.gemeni_active:
 				self.result = gemeni.analyze(self.entry)
+				self.snailsave(self.result)
 			elif self.localai_active:
 				ollama.answer(self.entry)
+				self.snailsave(self.result)
 			else:
 				print("no AI core is active, please activate one")
 				return
 		print("data analyzed successfully")
-		self.snailsave(self.result)
+		
 		
 snail = Snail()
 #snail.runserver()
