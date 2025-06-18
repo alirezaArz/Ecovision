@@ -88,7 +88,67 @@ class Snail():
 		
 		
 
-	def instantrun(self, name = ''):
+	def instantrun(self, name = 'all'):
+			self.spinner.start()
+			if name == 'all':
+					try:
+						print("starting bonbast")
+						bonbast.main()
+						print("bonbast done successfully")
+					except:
+						print("bonbast failed")
+
+					try:
+						print("starting dnsd")
+						dnsd.main()
+						print("dnsd done successfully")
+					except:
+						print("dnsd failed")
+
+					try:
+						print("starting nytimes")
+						nytimes.main()
+						print("nytimes done successfully")
+					except:
+						print("nytimes failed")
+
+					try:
+						print("starting yahoo")
+						yahoo.main()
+						print("yahoo done successfully")
+					except:
+						print("yahoo failed")
+
+					try:
+						print("starting gecko")
+						gecko.price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
+						gecko.percentage()
+						print("gecko done successfully")
+					except:
+						print("gecko failed")
+
+					try:
+						print("starting esdn")
+						esdn.main()
+						print("esdn done successfully")
+					except:
+						print("esdn failed")
+
+					try:
+						print("starting bloomberg")
+						bloomberg.main()
+						print("bloomberg done successfully")
+					except:
+						print("bloomberg failed")
+
+					try:
+						print("starting snail")
+						self.analyze()
+						print("analyze done successfully")
+					except:
+						print("analyze failed")
+
+
 			if name == 'bonbast':
 				try:
 					print("starting bonbast")
@@ -153,6 +213,7 @@ class Snail():
 					print("analyze done successfully")
 				except:
 					print("analyze failed")
+			self.spinner.stop()
 
 
 	def runserver(self):
