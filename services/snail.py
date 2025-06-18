@@ -54,38 +54,125 @@ class Snail():
 
 	def instantrun(self, names = []):
 		if names == []:
-			bonbast.main()
-			dnsd.main()
-			nytimes.main()
-			yahoo.main()
-			gecko.price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
-			gecko.percentage()
-			esdn.main()
-			bloomberg.main()
+			try:
+				print("starting bonbast")
+				bonbast.main()
+				print("bonbast done successfully")
+			except:
+				print("bonbast failed")
+
+			try:
+				print("starting dnsd")
+				dnsd.main()
+				print("dnsd done successfully")
+			except:
+				print("dnsd failed")
+
+			try:
+				print("starting nytimes")
+				nytimes.main()
+				print("nytimes done successfully")
+			except:
+				print("nytimes failed")
+
+			try:
+				print("starting yahoo")
+				yahoo.main()
+				print("yahoo done successfully")
+			except:
+				print("yahoo failed")
+
+			try:
+				print("starting gecko")
+				gecko.price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
+				gecko.percentage()
+				print("gecko done successfully")
+			except:
+				print("gecko failed")
+
+			try:
+				print("starting esdn")
+				esdn.main()
+				print("esdn done successfully")
+			except:
+				print("esdn failed")
+
+			try:
+				print("starting bloomberg")
+				bloomberg.main()
+				print("bloomberg done successfully")
+			except:
+				print("bloomberg failed")
+
 		else:
 			if 'bonbast' in names:
-				bonbast.main()
-			if 'dnsd' in names:
-				dnsd.main()
-			if 'nytimes' in names:
-				nytimes.main()
-			if 'yahoo' in names:
-				yahoo.main()
-			if 'gecko' in names:
-				gecko.price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
-			if 'esdn' in names:
-				esdn.main()
-			if "bloomberg" in names:
-				bloomberg.main()
-		snail.analyze()
-		
+				try:
+					print("starting bonbast")
+					bonbast.main()
+					print("bonbast done successfully")
+				except:
+					print("bonbast failed")
 
+			if 'dnsd' in names:
+				try:
+					print("starting dnsd")
+					dnsd.main()
+					print("dnsd done successfully")
+				except:
+					print("dnsd failed")
+
+			if 'nytimes' in names:
+				try:
+					print("starting nytimes")
+					nytimes.main()
+					print("nytimes done successfully")
+				except:
+					print("nytimes failed")
+
+			if 'yahoo' in names:
+				try:
+					print("starting yahoo")
+					yahoo.main()
+					print("yahoo done successfully")
+				except:
+					print("yahoo failed")
+
+			if 'gecko' in names:
+				try:
+					print("starting gecko")
+					gecko.price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
+					gecko.percentage()
+					print("gecko done successfully")
+				except:
+					print("gecko failed")
+
+			if 'esdn' in names:
+				try:
+					print("starting esdn")
+					esdn.main()
+					print("esdn done successfully")
+				except:
+					print("esdn failed")
+
+			if "bloomberg" in names:
+				try:
+					print("starting bloomberg")
+					bloomberg.main()
+					print("bloomberg done successfully")
+				except:
+					print("bloomberg failed")
+
+			try:
+				print("starting snail")
+				self.analyze()
+				print("snail done successfully")
+			except:
+				print("snail failed")
 
 
 	def runserver(self , instantrun = False):
-		if instantrun == True :
+		if instantrun:
   			self.instantrun()
-		
 		try:
 			while True:
 	
@@ -188,6 +275,7 @@ class Snail():
 		self.snailsave(self.result)
 		
 snail = Snail()
-snail.runserver(True)
-# snail.instantrun(['gecko'])		
+#snail.runserver(True)
+#snail.instantrun(['yahoo','gecko', 'esdn', 'bloomberg'])		
+
 
