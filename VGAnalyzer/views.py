@@ -121,12 +121,17 @@ def control_view(request):
                 elif status == "off":
                     snail.snail.analyze_active = False
             elif code == '502': # Gemini AI Toggle
-                gemini_ai_enabled = (status == 'on')
-                response_message = f"Gemini AI module is now: {'Enabled' if gemini_ai_enabled else 'Disabled'}."
+                if status == 'on':
+                    snail.snail.gemeni_active = True
+                elif status == 'off':
+                    snail.snail.gemeni_active = False
+    
             elif code == '503': # Local AI Toggle
-                local_ai_enabled = (status == 'on')
-                response_message = f"Local AI module is now: {'Enabled' if local_ai_enabled else 'Disabled'}."
-
+                if status == 'on':
+                    snail.snail.localai_active = True
+                elif status == 'off':
+                    snail.snail.localai_active = False
+                    
             # --- Individual Run Buttons (No more checks for 'enabled' status here) ---
             elif code == '201-run': # GeckoCoin Run
                 snail.snail.instantrun('gecko')

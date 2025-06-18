@@ -41,8 +41,10 @@ class Snail():
 			"[=   ]"
 		]
 	})
-		self.active = True
+		self.active = False
 		self.analyze_active = False
+		self.gemeni_active = False
+		self.localai_active = False
 		self.durationsBackup = {
 		}
 
@@ -312,10 +314,23 @@ class Snail():
 			print(data)
 			return(data)
 
-	def analyze(self):
+	def analyze(self, core='none'):
 		self.entry = self.get_news_data()
-		self.result = gemeni.analyze(self.entry)
-		print(self.result)
+		if core == 'gemeni':
+			self.result = gemeni.analyze(self.entry)
+		elif core == 'local':
+			pass
+		elif core == 'none':
+			if self.gemeni_active and self.localai_active:
+				self.result = gemeni.analyze(self.entry)
+			elif self.gemeni_active:
+				self.result = gemeni.analyze(self.entry)
+			elif self.localai_active:
+				pass
+			else:
+				print("no AI core is active, please activate one")
+				return
+
 		self.snailsave(self.result)
 		
 snail = Snail()
