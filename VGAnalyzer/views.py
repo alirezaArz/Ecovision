@@ -124,14 +124,18 @@ def control_view(request):
                     print("analyze deactivated")
             elif code == '502': # Gemini AI Toggle
                 if status == 'on':
+                    print("gemeni activated")
                     snail.snail.gemeni_active = True
                 elif status == 'off':
+                    print("gemeni deactivated")
                     snail.snail.gemeni_active = False
     
             elif code == '503': # Local AI Toggle
                 if status == 'on':
+                    print("local-ai activated")
                     snail.snail.localai_active = True
                 elif status == 'off':
+                    print("local-ai deactivated")
                     snail.snail.localai_active = False
                     
             # --- Individual Run Buttons (No more checks for 'enabled' status here) ---
@@ -157,10 +161,13 @@ def control_view(request):
                 snail.snail.instantrun('yahoo')
 
             elif code == '501-run': # Analyze Run
+                print('running analyze')
                 snail.snail.instantrun('analyze')
             elif code == '502-run': # Gemini AI Run
+                print('running gemini')
                 snail.snail.analyze('gemini')
             elif code == '503-run': # Local AI Run
+                print('running local-ai')
                 snail.snail.analyze('localai')
             else:
                 return JsonResponse({'status': 'error', 'message': f"Unknown command code: {code}"}, status=400)

@@ -324,7 +324,6 @@ class Snail():
 				self.result = ollama.answer(self.entry)
 			self.snailsave(self.result)
 		elif core == 'localai':
-			print(12345)
 			self.result = ollama.answer(self.entry)
 			self.snailsave(self.result)
 		elif core == 'none':
