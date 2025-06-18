@@ -279,5 +279,25 @@
         "tether": {
             "usd": 1.0
         }
+    },
+    {
+        "bitcoin": {
+            "usd": 104642
+        },
+        "cardano": {
+            "usd": 0.612427
+        },
+        "dogecoin": {
+            "usd": 0.170114
+        },
+        "ethereum": {
+            "usd": 2518.24
+        },
+        "solana": {
+            "usd": 147.73
+        },
+        "tether": {
+            "usd": 1.0
+        }
     }
 ]

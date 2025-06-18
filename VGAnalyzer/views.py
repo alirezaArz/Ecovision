@@ -60,7 +60,7 @@ def control_view(request):
             # Global Toggle (Snail)
             if code == '100':
                 if status == 'on':
-                    snail.snail.active = True
+                    snail.snail.active = False
                     snail.snail.runserver()
                 elif status == 'off':
                     if snail.snail.active and snail.snail.durationsBackup:
@@ -69,9 +69,7 @@ def control_view(request):
                 # You can add logic here to start/stop the main Snail service
             # Instant Run Button
             elif code == '400':
-                response_message = "Instant Run command received. Initiating quick task."
-                # Trigger your quick task here, regardless of Snail's global state
-                print("DEBUG: Executing Instant Run logic...")
+                snail.snail.instantrun('all')
 
             # --- API Toggles ---
             elif code == '201': # GeckoCoin Toggle
