@@ -2,7 +2,6 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-from halo import Halo 
 import sys
 from selenium.webdriver.firefox.options import Options
 import random
@@ -14,22 +13,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_PATH= os.path.join(BASE_DIR , "scraped")
 
 
-spinner = Halo(text='', spinner={
-    "interval": 80,
-    "frames": [
-      "[    ]",
-      "[   =]",
-      "[  ==]",
-      "[ ===]",
-      "[====]",
-      "[=== ]",
-      "[==  ]",
-      "[=   ]"
-    ]
-  })
-
 def main():
-  spinner.start()
   driver = webdriver.Firefox()
   driver.get("https://www.bon-bast.com/")
   time.sleep(random.randint(5, 20))
@@ -67,16 +51,29 @@ def main():
 
     result[code] = {'name': name, 'buy': buy, 'sell': sell}
 
-  spinner.stop()
   save(result)
 
 
 
 def save(data):
-    with open(os.path.join(DATA_PATH , "Bonbast.json") , "w" , encoding="utf-8") as s:
-        json.dump(data , s , ensure_ascii= False , indent=4)
+    if data:
+      try:
+        with open(os.path.join(DATA_PATH , "Bonbast.json") , "w" , encoding="utf-8") as s:
+          json.dump(data , s , ensure_ascii= False , indent=4)
+        print("bonbast done successfully")
+      except:
+        print("bonbast: file failed at saving")
+        print("bonbast faled")
+    else:
+      print('bonbast: data is empty, saving canceled')
+      print("bonbast failed")
+        
 
 def load(filename= "Bonbast.json"):
-    with open( os.path.join(DATA_PATH , "Bonbast.json") , "r" , encoding="utf-8") as l:
+    try:
+      with open( os.path.join(DATA_PATH , "Bonbast.json") , "r" , encoding="utf-8") as l:
         data = json.load(l)
-    return(data)
+        return(data)
+    except:
+      print(f"bonbast : Bonbast.json is not where it sould be at {DATA_PATH}")
+    

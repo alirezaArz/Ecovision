@@ -7,25 +7,34 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_PATH = os.path.join(BASE_DIR, 'geckoData')
 
 def save(name:str, response):
-    try:
-        last_result = read("price")
-        last_result.append(response)
-        sendingData = last_result
-    except:
-        print("no previous save!")
-        sendingData = []
-        response.update({"time" : datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")})
-        sendingData.append(response)
-    
-    with open(os.path.join(DATA_PATH, f"{name}"), 'w', encoding='utf-8') as file:
-        json.dump(sendingData, file, indent=4, ensure_ascii=False)
-        file.write("\n")
+    print('saving gecko')
+    if response:
+        try:
+            last_result = read("price")
+            last_result.append(response)
+            sendingData = last_result
+        except:
+            print("gecko : no previous save!")
+            sendingData = []
+            response.update({"time" : datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")})
+            sendingData.append(response)
+        
+        with open(os.path.join(DATA_PATH, f"{name}"), 'w', encoding='utf-8') as file:
+            json.dump(sendingData, file, indent=4, ensure_ascii=False)
+            file.write("\n")
+            print("gecko done successfully")
+    else:
+        print('gecko save: response was empty!')
 
 def read(name):
-    with open(os.path.join(DATA_PATH, f"gecko{name}.json"), 'r', encoding='utf-8') as file:
-        data = json.load(file)
-        return(data)
+    try:
+        with open(os.path.join(DATA_PATH, f"gecko{name}.json"), 'r', encoding='utf-8') as file:
+            data = json.load(file)
+            return(data)
+    except:
+        print(f"gecko : gecko{name}.json is not where it sould be at {DATA_PATH}")
     
+        
 
 def is_online(test_url="https://www.google.com"):
     try:
@@ -35,7 +44,7 @@ def is_online(test_url="https://www.google.com"):
         return False
 
 def connect(url, params, id:str):
-    print("Gecko is running")
+    print(" gecko: sending request...")
     try:
         if params != {}:
             response = requests.get(url, params=params)
@@ -44,22 +53,21 @@ def connect(url, params, id:str):
             response = requests.get(url)
 
         if response.status_code == 200:
+            print(22)
             save(id, response.json())
 
-            return response.json()
-        
         elif response.status_code == 429:
 
-            return 'to many requests'
+            print('gecko: to many requests')
         elif response.status_code == 404:
 
-            return 'wrong url or params'
+            print('gecko: wrong url or params')
         else:
 
-            return ("unknown error", response.status_code)
+            print(f"gecko had an unknown error: {response.status_code}")
     
     except requests.exceptions.RequestException:
-        return "unable to connect to the coingecko , check your connection and try again"
+        print("unable to connect to the coingecko , check your connection and try again")
     
 
 def price(ids:set, vs_currencies:set):

@@ -37,8 +37,5 @@ class System():
         snaildata = snail.snail.snailread()
         return snaildata
         
-            
-
-
 vgsy = System()
 

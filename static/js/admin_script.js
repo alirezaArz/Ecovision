@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (status !== null && triggerElement && triggerElement.type === 'checkbox') {
                 triggerElement.checked = !status; // Revert the specific checkbox that triggered the event
             }
-            alert(`خطا در ارسال درخواست با کد ${code}: ${error.message}`); // Keep error alerts for other types of errors
+            alert(`failed to send request with the error of :${code}: ${error.message}`); // Keep error alerts for other types of errors
         });
     }
 

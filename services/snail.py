@@ -52,7 +52,7 @@ class Snail():
 
 	def activate(self, name):
 		if name == 'bonbast' and name not in self.durationsBackup:
-			self.durationsBackup['bonbast'] = 1600	
+			self.durationsBackup['bonbast'] = 3000	
 		elif name == 'dnsd' and name not in self.durationsBackup:
 			self.durationsBackup['dnsd'] = 3600
 		elif name == 'nytimes' and name not in self.durationsBackup:
@@ -60,15 +60,14 @@ class Snail():
 		elif name == 'yahoo' and name not in self.durationsBackup:
 			self.durationsBackup['yahoo'] = 3600
 		elif name == 'gecko' and name not in self.durationsBackup:
-			self.durationsBackup['gecko'] = 100
+			self.durationsBackup['gecko'] = 3000
 		elif name == 'esdn' and name not in self.durationsBackup:
 			self.durationsBackup['esdn'] = 3600
 		elif name == 'bloomberg' and name not in self.durationsBackup:
 			self.durationsBackup['bloomberg'] = 3600
 		self.durations = self.durationsBackup.copy()
-		print(f"activated {name} service")
-		print(f"current durations: {self.durations}")
-		print(f"current backup durations: {self.durationsBackup}")
+		print(f"{name} has been added to active services")
+
 	
 	def deactivate(self, name):
 		if name == 'bonbast' and name in self.durationsBackup:
@@ -86,11 +85,8 @@ class Snail():
 		elif name == 'bloomberg' and name in self.durationsBackup:
 			del self.durationsBackup['bloomberg']
 		self.durations = self.durationsBackup.copy()
-		print(f"deactivated {name} service")
-		print(f"current durations: {self.durations}")
-		print(f"current backup durations: {self.durationsBackup}")
-		
-		
+		print(f"{name} has been removed from active services")
+
 
 	def instantrun(self, name = 'all'):
 			self.spinner.start()
@@ -98,28 +94,24 @@ class Snail():
 					try:
 						print("starting bonbast")
 						bonbast.main()
-						print("bonbast done successfully")
 					except:
 						print("bonbast failed")
 
 					try:
 						print("starting dnsd")
 						dnsd.main()
-						print("dnsd done successfully")
 					except:
 						print("dnsd failed")
 
 					try:
 						print("starting nytimes")
 						nytimes.main()
-						print("nytimes done successfully")
 					except:
 						print("nytimes failed")
 
 					try:
 						print("starting yahoo")
 						yahoo.main()
-						print("yahoo done successfully")
 					except:
 						print("yahoo failed")
 
@@ -127,37 +119,31 @@ class Snail():
 						print("starting gecko")
 						gecko.price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
 						gecko.percentage()
-						print("gecko done successfully")
 					except:
 						print("gecko failed")
 
 					try:
 						print("starting esdn")
 						esdn.main()
-						print("esdn done successfully")
 					except:
 						print("esdn failed")
 
 					try:
 						print("starting bloomberg")
 						bloomberg.main()
-						print("bloomberg done successfully")
 					except:
 						print("bloomberg failed")
 
 					try:
 						print("starting snail")
 						self.analyze()
-						print("analyze done successfully")
 					except:
 						print("analyze failed")
-
 
 			if name == 'bonbast':
 				try:
 					print("starting bonbast")
 					bonbast.main()
-					print("bonbast done successfully")
 				except:
 					print("bonbast failed")
 
@@ -165,7 +151,6 @@ class Snail():
 				try:
 					print("starting dnsd")
 					dnsd.main()
-					print("dnsd done successfully")
 				except:
 					print("dnsd failed")
 
@@ -173,32 +158,26 @@ class Snail():
 				try:
 					print("starting nytimes")
 					nytimes.main()
-					print("nytimes done successfully")
 				except:
 					print("nytimes failed")
-
 			if name == 'yahoo':
 				try:
 					print("starting yahoo")
 					yahoo.main()
-					print("yahoo done successfully")
 				except:
 					print("yahoo failed")
-
 			if name == 'gecko':
 				try:
 					print("starting gecko")
 					gecko.price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
 					gecko.percentage()
-					print("gecko done successfully")
 				except:
 					print("gecko failed")
-
 			if name == 'esdn':
 				try:
 					print("starting esdn")
 					esdn.main()
-					print("esdn done successfully")
+
 				except:
 					print("esdn failed")
 
@@ -206,15 +185,12 @@ class Snail():
 				try:
 					print("starting bloomberg")
 					bloomberg.main()
-					print("bloomberg done successfully")
 				except:
 					print("bloomberg failed")
-
 			if name == 'analyze':
 				try:
 					print("starting snail")
 					self.analyze()
-					print("analyze done successfully")
 				except:
 					print("analyze failed")
 			self.spinner.stop()
@@ -226,7 +202,7 @@ class Snail():
 	
 				self.next_process_name = min(self.durations, key=lambda k: self.durations[k])
 				self.CurrentWaitTime = self.durations[self.next_process_name]
-				print(f"\n next process in {int(min(self.durations.values()) / 60)} minutres! for {self.next_process_name}")
+				print(f"\n next process in {int(min(self.durations.values()) / 60)} minutres! > {self.next_process_name}")
 				self.spinner.start()
 
 #---------------------------------------------------------- code space
@@ -263,52 +239,62 @@ class Snail():
 				self.spinner.stop()
 		except:
 			self.spinner.stop()
-			print('cut in process')
+			print('There was no active service in the list, server is shutting down...')
+			time.sleep(random.randint(0,3))
 		finally:
 			self.spinner.stop()
 			print('snail has been deactivated')
 
 	def snailread(self):
-		with open(os.path.join(snailpath, f"Snaildata.json"), 'r', encoding='utf-8') as file:
-			self.data = json.load(file)
-			return(self.data)
+		try:
+			with open(os.path.join(snailpath, f"Snaildata.json"), 'r', encoding='utf-8') as file:
+				self.data = json.load(file)
+				return(self.data)
+		except:
+			print(f"snail : Snaildata.json is not where it sould be at {snailpath}")
 
 	def snailsave(self, sfile):
-		
-		text_content = sfile.candidates[0].content.parts[0].text
-		if text_content.startswith("```json"):
-			text_content = text_content[len("```json"):].strip()
-		if text_content.endswith("```"):
-			text_content = text_content[:-len("```")].strip()
-		snaildata = json.loads(text_content)
-
-		images = ["images/im1.jpg", "images/im2.jpg", "images/im3.jpg", "images/im4.jpg", "images/im5.jpg"]
-		output_dict = {}
-		output_dict["newsData"] = []	
-		current_iso_date = datetime.now().isoformat()
-		
-		for item_key_str, original_item_data in snaildata.items():
-			transformed_item = {}
-			
+		try:
 			try:
-				transformed_item["id"] = int(item_key_str) + 1
-			except ValueError:
-				transformed_item["id"] = item_key_str 
-            
-			transformed_item["title"] = original_item_data.get("title", "")
-			transformed_item["summary"] = original_item_data.get("summary", "")
-			transformed_item["image"] = random.choice(images)
-			transformed_item["category"] = original_item_data.get("category", "news")
-			transformed_item["importance"] = original_item_data.get("importance", "medium")
-			transformed_item["date"] = current_iso_date
-			output_dict["newsData"].append(transformed_item)
-		with open(os.path.join(snailpath, f"Snaildata.json"), 'w', encoding='utf-8') as file:
-			json.dump(output_dict, file, indent=4, ensure_ascii=False)
-		print("snail data saved successfully")
+				text_content = sfile.candidates[0].content.parts[0].text
+				if text_content.startswith("```json"):
+					text_content = text_content[len("```json"):].strip()
+				if text_content.endswith("```"):
+					text_content = text_content[:-len("```")].strip()
+				snaildata = json.loads(text_content)
+
+				images = ["images/im1.jpg", "images/im2.jpg", "images/im3.jpg", "images/im4.jpg", "images/im5.jpg"]
+				output_dict = {}
+				output_dict["newsData"] = []	
+				current_iso_date = datetime.now().isoformat()
+				
+				for item_key_str, original_item_data in snaildata.items():
+					transformed_item = {}
+					
+					try:
+						transformed_item["id"] = int(item_key_str) + 1
+					except ValueError:
+						transformed_item["id"] = item_key_str 
+					
+					transformed_item["title"] = original_item_data.get("title", "")
+					transformed_item["summary"] = original_item_data.get("summary", "")
+					transformed_item["image"] = random.choice(images)
+					transformed_item["category"] = original_item_data.get("category", "news")
+					transformed_item["importance"] = original_item_data.get("importance", "medium")
+					transformed_item["date"] = current_iso_date
+					output_dict["newsData"].append(transformed_item)
+			except:
+				print("gemeni's result was not in form of needed structure; saving process has been canceled!")
+				return
+			with open(os.path.join(snailpath, f"Snaildata.json"), 'w', encoding='utf-8') as file:
+				json.dump(output_dict, file, indent=4, ensure_ascii=False)
+				print("snaildata saved successfully")
+		except:
+			print("snail: failed at saving file")
 
 	def get_news_data(self):
 			data = ""
-			files = [ bloomberg, dnsd, esdn, nytimes, yahoo ]
+			#files = [ bloomberg, dnsd, esdn, nytimes, yahoo ]
 			data += str(bloomberg.load())
 			data += str(dnsd.load())
 			data += str(esdn.load())
@@ -321,29 +307,53 @@ class Snail():
 		if core == 'gemini':
 			try:
 				self.result = gemeni.analyze(self.entry)
+				if self.result != None:
+					self.snailsave(self.result)
+				else:
+					print("analyzed failed, canceled saving")
 			except:
-				self.result = ollama.answer(self.entry)
-			self.snailsave(self.result)
+				print('analyze failed')
+
 		elif core == 'localai':
-			self.result = ollama.answer(self.entry)
-			self.snailsave(self.result)
+			try:
+				self.result = ollama.answer(self.entry)
+				#self.snailsave(self.result)
+			except:
+				print("analyze failed")
+
 		elif core == 'none':
 			if self.gemeni_active and self.localai_active:
-				self.result = gemeni.analyze(self.entry)
-				self.snailsave(self.result)
+				try:
+					self.result = gemeni.analyze(self.entry)
+					if self.result != None:
+						self.snailsave(self.result)
+					else:
+						print("analyzed failed, canceled saving")
+				except:
+					self.result = ollama.answer(self.entry)
+					#self.snailsave(self.result)  // snail save doesnt work for this... thats customized for gemini only
+				else:
+					print('analyze failed')
+
 			elif self.gemeni_active:
 				try:
 					self.result = gemeni.analyze(self.entry)
+					if self.result != None:
+						self.snailsave(self.result)
+					else:
+						print("analyzed failed, canceled saving")
 				except:
-					self.result = ollama.answer(self.entry)
-				self.snailsave(self.result)
+					print('analyze failed')
+
 			elif self.localai_active:
-				self.result = ollama.answer(self.entry)
-				self.snailsave(self.result)
+				try:
+					self.result = ollama.answer(self.entry)
+					#self.snailsave(self.result)
+				except:
+					print("analyze failed")
 			else:
 				print("no AI core is active, please activate one")
 				return
-		print("data analyzed successfully")
 		
 		
 snail = Snail()

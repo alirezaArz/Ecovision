@@ -20,22 +20,6 @@ def get_main_news(request):
     news_data = systems.vgsy.get_snail_data()
     return JsonResponse(news_data, safe=False)
 
-
-# --- Global state for demonstration (Simplified - no more complex process simulation) ---
-# In a real app, use a database or proper state management.
-# These variables will now ONLY store the state of the toggles, not guard run actions.
-snail_is_on = False
-geckocoin_api_enabled = False
-bloomberg_scraper_enabled = False
-bonbast_scraper_enabled = False
-dnsd_scraper_enabled = False
-esdn_scraper_enabled = False
-nytimes_scraper_enabled = False
-yahoo_scraper_enabled = False
-analyze_enabled = False
-gemini_ai_enabled = False
-local_ai_enabled = False
-
 @csrf_exempt # REMINDER: Use proper CSRF protection in production!
 def admin_panel_view(request):
     """Renders the main admin panel HTML page."""
@@ -50,12 +34,6 @@ def control_view(request):
             code = data.get('code')
             status = data.get('status') # 'on' or 'off' (for toggles)
             response_message = f"Command for code {code} processed."
-
-            # --- Process Commands Based on Code ---
-            global snail_is_on, geckocoin_api_enabled, bloomberg_scraper_enabled, \
-                   bonbast_scraper_enabled, dnsd_scraper_enabled, esdn_scraper_enabled, \
-                   nytimes_scraper_enabled, yahoo_scraper_enabled, analyze_enabled, \
-                   gemini_ai_enabled, local_ai_enabled
 
             # Global Toggle (Snail)
             if code == '100':

@@ -27,10 +27,10 @@ def main():
 		iframe_element = WebDriverWait(driver, 20).until(
             EC.presence_of_element_located((By.ID, "sp_message_iframe_1135992"))
         )
-		print("fuckframe found. Switching to iframe...")
+		print("bloomberg : frame found. Switching to iframe...")
 
 		driver.switch_to.frame(iframe_element)
-		print("Successfully switched to iframe.")
+		print("bloomberg : Successfully switched to iframe.")
 	
 
 		
@@ -38,17 +38,17 @@ def main():
             EC.element_to_be_clickable((By.XPATH, "//button[@title='No, I Do Not Accept' and @aria-label='No, I Do Not Accept']"))
         )
 		refusal_button.click()
-		print("pressed the fuckbutton")
+		print("bloomberg : pressed the button")
 		
 		driver.switch_to.default_content()
-		print("Switched back to default content.")
+		print("bloomberg : Switched back to default content.")
         
-		print("switched back from the fuckframe.")
+		print("bloomberg : switched back from the fuckframe.")
 		WebDriverWait(driver, 10).until(
             EC.invisibility_of_element_located((By.ID, "sp_message_iframe_1135992"))
         )
 	except Exception as e:
-		print(f"god damn error as::::: {e}")
+		print(f"bloomberg had an error : {e}")
 
 
 
@@ -65,7 +65,7 @@ def main():
 		)
 
 	except Exception as e:
-		print(f"{e}")
+		print(f"bloomberg had an error : {e}")
 
 	btn = sect.find_element(By.NAME, "outlined-button")
 	btn.click()
@@ -111,10 +111,10 @@ def search(inp_arg:str):
 		iframe_element = WebDriverWait(driver, 5).until(
             EC.presence_of_element_located((By.ID, "sp_message_iframe_1135992"))
         )
-		print("fuckframe found. Switching to iframe...")
+		print("bloomberg : frame found. Switching to iframe...")
 
 		driver.switch_to.frame(iframe_element)
-		print("Successfully switched to iframe.")
+		print("bloomberg : Successfully switched to iframe.")
 	
 
 		
@@ -122,17 +122,17 @@ def search(inp_arg:str):
             EC.element_to_be_clickable((By.XPATH, "//button[@title='No, I Do Not Accept' and @aria-label='No, I Do Not Accept']"))
         )
 		refusal_button.click()
-		print("pressed the fuckbutton")
+		print("bloomberg : pressed the button")
 		
 		driver.switch_to.default_content()
-		print("Switched back to default content.")
+		print("bloomberg : Switched back to default content.")
         
-		print("switched back from the fuckframe.")
+		print("bloomberg : switched back from the fuckframe.")
 		WebDriverWait(driver, 10).until(
             EC.invisibility_of_element_located((By.ID, "sp_message_iframe_1135992"))
         )
 	except Exception as e:
-		print(f"god damn error as::::: {e}")
+		print(f"bloomberg had an error : {e}")
 
 
 
@@ -159,10 +159,22 @@ def search(inp_arg:str):
 
 
 def save(data):
-    with open(os.path.join(DATA_PATH , "bloomb.json") , "w" , encoding="utf-8") as s:
-        json.dump(data , s , ensure_ascii= False , indent=4)
+	if data:
+		try:
+			with open(os.path.join(DATA_PATH , "bloomb.json") , "w" , encoding="utf-8") as s:
+				json.dump(data , s , ensure_ascii= False , indent=4)
+			print("bloomberg done successfully")
+		except:
+			print("bloomberg: file failed at saving")
+			print("bloomberg faled")
+	else:
+		print('bloomberg: data is empty, saving canceled')
+		print("bloomberg failed")
 
 def load(filename= "bloomb.json"):
-    with open( os.path.join(DATA_PATH , "bloomb.json") , "r" , encoding="utf-8") as l:
-        data = json.load(l)
-    return(data)
+	try:
+		with open( os.path.join(DATA_PATH , "bloomb.json") , "r" , encoding="utf-8") as l:
+			data = json.load(l)
+		return(data)
+	except:
+		print(f"bloomberg : bloomb.json is not where it sould be at {DATA_PATH}")

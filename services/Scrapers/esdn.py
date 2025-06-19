@@ -75,7 +75,7 @@ def search(inp_arg):
       EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".fnb.fn15.clr04.ng-binding"))
     )
   except Exception as e:
-    print(f"exception at part 2two::::  {e}")
+    print(f"esdn had an error at : {e}")
   
   for i in range(len(titles)):
     dic[i] = titles[i].text
@@ -86,10 +86,22 @@ def search(inp_arg):
 
 
 def save(data):
-    with open(os.path.join(DATA_PATH , "Eghtesad_news.json") , "w" , encoding="utf-8") as s:
-        json.dump(data , s , ensure_ascii= False , indent=4)
+    if data:
+      try:
+        with open(os.path.join(DATA_PATH , "Eghtesad_news.json") , "w" , encoding="utf-8") as s:
+            json.dump(data , s , ensure_ascii= False , indent=4)
+        print("esdn done successfully")
+      except:
+            print("esdn: file failed at saving")
+            print("esdn faled")
+    else:
+        print('esdn: data is empty, saving canceled')
+        print("esdn failed")
 
 def load(filename= "Eghtesad_news.json"):
-    with open( os.path.join(DATA_PATH , "Eghtesat_news.json") , "r" , encoding="utf-8") as l:
-        data = json.load(l)
-    return(data)
+    try:
+        with open( os.path.join(DATA_PATH , "Eghtesat_news.json") , "r" , encoding="utf-8") as l:
+            data = json.load(l)
+        return(data)
+    except:
+      print(f"esdn : Eghtesat_news.json is not where it sould be at {DATA_PATH}")

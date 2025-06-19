@@ -35,7 +35,7 @@ def main():
             EC.presence_of_all_elements_located((By.CSS_SELECTOR, '.css-1pga48a.e15t083i1'))
         )
     except Exception as e:
-        print(f"Error fetching elements: {e}")
+        print(f"nytimes had an error fetching elements : {e}")
 
     if titles_elements and descript_elements:
         current_time = datetime.now().isoformat()
@@ -73,7 +73,7 @@ def search(inp_arg):
             EC.presence_of_element_located((By.CSS_SELECTOR, '.css-tkwi90.e1iflr850'))
         )
     except Exception as e:
-        print(f"personal exception--------------------{e}")
+        print(f"nytimes had an error : {e}")
         driver.quit()
         return dic
         
@@ -85,7 +85,7 @@ def search(inp_arg):
             EC.presence_of_element_located((By.NAME, 'query'))
         )
     except Exception as e:
-        print(f"personal exception2--------------------{e}")
+        print(f"nytimes had an error : {e}")
         driver.quit()
         return dic
     
@@ -106,7 +106,7 @@ def search(inp_arg):
             EC.presence_of_all_elements_located((By.CSS_SELECTOR, '.css-e5tzus'))
         )
     except Exception as e:
-        print(f"personal exception3--------------------{e}")
+        print(f"nytimes had an error : {e}")
 
     if titles and paras:
         num_results = min(len(titles), len(paras))
@@ -120,10 +120,22 @@ def search(inp_arg):
 
 
 def save(data):
-    with open(os.path.join(DATA_PATH , "nyt.json") , "w" , encoding="utf-8") as s:
-        json.dump(data , s , ensure_ascii= False , indent=4)
-
+    if data:
+        try:
+            with open(os.path.join(DATA_PATH , "nyt.json") , "w" , encoding="utf-8") as s:
+                json.dump(data , s , ensure_ascii= False , indent=4)
+            print("nytimes done successfully")
+        except:
+            print("nytimes: file failed at saving")
+            print("nytimes faled")
+    else:
+        print('nytimes: data is empty, saving canceled')
+        print("nytimes failed")
+        
 def load(filename= "nyt.json"):
-    with open( os.path.join(DATA_PATH , "nyt.json") , "r" , encoding="utf-8") as l:
-        data = json.load(l)
-    return(data)
+    try:
+        with open( os.path.join(DATA_PATH , "nyt.json") , "r" , encoding="utf-8") as l:
+            data = json.load(l)
+        return(data)
+    except:
+        print(f"nytimes : nyt.json is not where it sould be at {DATA_PATH}")
