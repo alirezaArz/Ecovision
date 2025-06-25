@@ -6,34 +6,54 @@ import sys
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_PATH = os.path.join(BASE_DIR, 'geckoData')
 
-def save(name:str, response):
-    print('saving gecko')
-    if response:
-        try:
-            last_result = read("price")
-            last_result.append(response)
-            sendingData = last_result
-        except:
-            print("gecko : no previous save!")
-            sendingData = []
-            response.update({"time" : datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")})
-            sendingData.append(response)
-        
-        with open(os.path.join(DATA_PATH, f"{name}"), 'w', encoding='utf-8') as file:
-            json.dump(sendingData, file, indent=4, ensure_ascii=False)
-            file.write("\n")
-            print("gecko done successfully")
-    else:
-        print('gecko save: response was empty!')
+def save(name:str, response:json):
+    try:
+        last_result = read("price")
+        response.update({"time" : datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")})
+        last_result.append(response)
+        sendingData = last_result
+    except:
+        print("no previous save!")
+        sendingData = []
+        response.update({"time" : datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")})
+        sendingData.append(response)
+    
+    with open(os.path.join(DATA_PATH, f"{name}"), 'w', encoding='utf-8') as file:
+        json.dump(sendingData, file, indent=4, ensure_ascii=False)
+        file.write("\n")
+        print("saved, haha")
+
+    old_clean(name)
 
 def read(name):
-    try:
-        with open(os.path.join(DATA_PATH, f"gecko{name}.json"), 'r', encoding='utf-8') as file:
-            data = json.load(file)
-            return(data)
-    except:
-        print(f"gecko : gecko{name}.json is not where it sould be at {DATA_PATH}")
+    with open(os.path.join(DATA_PATH, f"gecko{name}.json"), 'r', encoding='utf-8') as file:
+        data = json.load(file)
+        return(data)
     
+def old_clean(name:str):
+    to_be_deleted = []
+    nowww_time = datetime.now()
+
+    with open(os.path.join(DATA_PATH, f"{name}"), 'r', encoding='utf-8') as file:
+        list_of_dicts = json.load(file)
+        
+        for data_dict in list_of_dicts:
+
+            time_str = str(data_dict["time"])
+            timestamp_dt = datetime.strptime(time_str, "%Y-%m-%d %H:%M:%S")
+            delta = nowww_time - timestamp_dt
+            if delta > timedelta(hours=24):
+                to_be_deleted.append(data_dict)
+                
+        
+
+        for trash in to_be_deleted:
+            list_of_dicts.remove(trash)
+        
+        with open(os.path.join(DATA_PATH, f"{name}"), 'w', encoding='utf-8') as file:
+            json.dump(list_of_dicts, file, indent=4, ensure_ascii=False)
+
+
         
 
 def is_online(test_url="https://www.google.com"):
@@ -44,7 +64,7 @@ def is_online(test_url="https://www.google.com"):
         return False
 
 def connect(url, params, id:str):
-    print(" gecko: sending request...")
+    print("Gecko is running")
     try:
         if params != {}:
             response = requests.get(url, params=params)
@@ -53,21 +73,22 @@ def connect(url, params, id:str):
             response = requests.get(url)
 
         if response.status_code == 200:
-            print(22)
             save(id, response.json())
 
+            return response.json()
+        
         elif response.status_code == 429:
 
-            print('gecko: to many requests')
+            return 'to many requests'
         elif response.status_code == 404:
 
-            print('gecko: wrong url or params')
+            return 'wrong url or params'
         else:
 
-            print(f"gecko had an unknown error: {response.status_code}")
+            return ("unknown error", response.status_code)
     
     except requests.exceptions.RequestException:
-        print("unable to connect to the coingecko , check your connection and try again")
+        return "unable to connect to the coingecko , check your connection and try again"
     
 
 def price(ids:set, vs_currencies:set):
@@ -165,7 +186,7 @@ def percentage():
     
   
 
-# price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
+price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
 # percentage()
 #print(market_chart({'usd'}, 2))
 #print(is_online())
