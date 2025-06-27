@@ -1,19 +1,19 @@
 :root {
     --bg-primary: #9EC8B9; /* Dark Gray (Charcoal) */
     --bg-secondary: #5C8374; /* Slightly lighter gray-blue for cards */
-    --text-color: #1B4242; /* Light Gray */
-    --text-light: #1B4242; /* Pure White for headings */
-    --accent-color: #14987e; /* DarkCyan */
+    --text-color: #9cdfe0; /* Light Gray */
+    --text-light: #42d6d6; /* Pure White for headings */
+    --accent-color: #094c7e; /* DarkCyan */
     --accent-hover: #158977; /* MediumTurquoise - lighter DarkCyan */
     --border-color: #2b83b6; /* Slightly darker border */
-    --shadow-color: rgba(10, 138, 173, 0.4);
+    --shadow-color: rgba(10, 138, 173, 0.447);
 
     --button-primary: var(--accent-color);
     --button-hover: var(--accent-hover);
     --button-text: var(--text-light);
 
-    --run-button-bg: #129c8e; /* SaddleBrown / Potato-ish */
-    --run-button-hover: #118886; /* Sienne - lighter Potato */
+    --run-button-bg: #0f438e; /* SaddleBrown / Potato-ish */
+    --run-button-hover: #053760; /* Sienne - lighter Potato */
     --run-button-active-feedback: #2783cf; /* SlateBlue - different accent color for click feedback */
 }
 
@@ -25,7 +25,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: var(--bg-primary);
+    background: linear-gradient(to top left, #05004d, #00816b);
     color: var(--text-color);
     display: flex;
     justify-content: center; /* Center horizontally */
@@ -41,7 +41,6 @@ body {
     border-radius: 12px; /* Slightly more rounded corners */
     overflow: hidden;
     box-shadow: 0 15px 40px var(--shadow-color); /* Stronger shadow */
-    background-color: var(--bg-secondary); /* Container background is now secondary */
     display: flex; /* Flex container for header and cards wrapper */
     flex-direction: column;
 }
@@ -52,7 +51,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 25px 30px;
-    background-color: var(--bg-primary); /* Header uses primary background */
     border-bottom: 1px solid var(--border-color);
     color: var(--text-light);
 }
@@ -108,7 +106,7 @@ body {
 }
 
 .card {
-    background-color: var(--bg-primary); /* Card background is now primary */
+    background: linear-gradient(to top left, #24c585, #0e2d9b); /* Card background is now primary */
     border-radius: 10px; /* Slightly more rounded cards */
     padding: 30px;
     box-shadow: 0 6px 15px var(--shadow-color); /* Stronger shadow */
