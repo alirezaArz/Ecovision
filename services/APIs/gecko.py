@@ -21,7 +21,7 @@ def save(name:str, response:json):
     with open(os.path.join(DATA_PATH, f"{name}"), 'w', encoding='utf-8') as file:
         json.dump(sendingData, file, indent=4, ensure_ascii=False)
         file.write("\n")
-        print("saved, haha")
+        print("saved")
 
     old_clean(name)
 
@@ -44,6 +44,7 @@ def old_clean(name:str):
             delta = nowww_time - timestamp_dt
             if delta > timedelta(hours=24):
                 to_be_deleted.append(data_dict)
+            
                 
         
 
@@ -52,6 +53,7 @@ def old_clean(name:str):
         
         with open(os.path.join(DATA_PATH, f"{name}"), 'w', encoding='utf-8') as file:
             json.dump(list_of_dicts, file, indent=4, ensure_ascii=False)
+        percentage()
 
 
         

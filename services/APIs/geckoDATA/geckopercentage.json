@@ -1,14 +1,14 @@
 {
-    "bitcoin": 0.836,
-    "pos1": true,
-    "cardano": -9.947,
-    "pos2": false,
-    "dogecoin": -8.054,
+    "bitcoin": -0.036,
+    "pos1": false,
+    "cardano": 0.021,
+    "pos2": true,
+    "dogecoin": -0.025,
     "pos3": false,
-    "ethereum": -3.808,
+    "ethereum": -0.176,
     "pos4": false,
-    "solana": -3.466,
+    "solana": -0.197,
     "pos5": false,
-    "tether": 0.001,
+    "tether": 0.0,
     "pos6": true
 }
