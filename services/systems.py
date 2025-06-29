@@ -15,11 +15,7 @@ NYTIME_PATH = os.path.join(project_root, 'services', 'scrapers', 'nytimesDATA')
 class System():
     def __init__(self):
         self.percentage = gecko.read('percentage')
-
-    def gecko_read(self,name):
-        with open(os.path.join(GECKO_PATH, f"gecko{name}.json"), 'r', encoding='utf-8') as file:
-            data = json.load(file)
-            return(data)
+    #                            ***Gecko_PErsentage_management***
     def getStatGeckoPrice(self):
         self.priceData = self.gecko_read('price')
         self.result = [
@@ -32,10 +28,19 @@ class System():
         ]
         return self.result
 
+    def gecko_read(self,name):
+        with open(os.path.join(GECKO_PATH, f"gecko{name}.json"), 'r', encoding='utf-8') as file:
+            data = json.load(file)
+            return(data)
 
     def get_snail_data(self):
         snaildata = snail.snail.snailread()
         return snaildata
+
+    def api_response(self,type,id):
+        pass
+    
+    
         
 vgsy = System()
 

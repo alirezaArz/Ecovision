@@ -11,21 +11,37 @@ if project_root not in sys.path:
 from services import systems
 from services import snail as snail
 
-
+@csrf_exempt
 def get_crypto_data(request):
     crypto_data = systems.vgsy.getStatGeckoPrice()
     return JsonResponse(crypto_data, safe=False)
 
+@csrf_exempt
 def get_main_news(request):
     news_data = systems.vgsy.get_snail_data()
     return JsonResponse(news_data, safe=False)
 
-@csrf_exempt # REMINDER: Use proper CSRF protection in production!
+#           -------------------------***API Navigation***------------------------
+def api_nav(request,id):
+    print(f"this is the request:{request} and id:{id}")
+    key = request.GET.get('key', None)
+
+    if key == 'admin':
+        if id in ['crypto', 'news']:
+            if id == 'crypto':
+                return get_crypto_data(request)
+            elif id == 'news':
+                return get_main_news(request)
+    else:
+        return JsonResponse('bad request', safe=False)
+#           -------------------------***Admin Panel***------------------------
+
+@csrf_exempt
 def admin_panel_view(request):
     """Renders the main admin panel HTML page."""
     return render(request, 'admin_panel.html')
 
-@csrf_exempt # REMINDER: Use proper CSRF protection in production!
+@csrf_exempt
 def control_view(request):
     """Handles POST requests from toggle buttons and run buttons."""
     if request.method == 'POST':
@@ -44,7 +60,6 @@ def control_view(request):
                     if snail.snail.active and snail.snail.durationsBackup:
                         print(f'snail will be deactivated in {int(min(snail.snail.durations.values()) / 60)} minutres! after {snail.snail.next_process_name}!')
                     snail.snail.active = False
-                # You can add logic here to start/stop the main Snail service
             # Instant Run Button
             elif code == '400':
                 snail.snail.instantrun('all')
