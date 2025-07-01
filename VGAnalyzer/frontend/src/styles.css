@@ -34,8 +34,8 @@
   --gradient-secondary: linear-gradient(135deg, var(--veronica), var(--medium-slate-blue));
   --gradient-tertiary: linear-gradient(45deg, var(--keppel), var(--veronica));
 
-  /* Layout */
-  --header-height: 80px;
+  /* Layout - --header-height is now effectively 0 as it's not used for margin-top */
+  --header-height: 0px; /* این متغیر دیگر برای margin-top استفاده نمی‌شود */
   --sidebar-width: 320px;
 
   /* Shadows */
@@ -64,6 +64,9 @@ body {
   background-color: var(--bg-primary);
   color: var(--text-primary);
   overflow-x: hidden;
+  /* مطمئن می‌شویم که هیچ margin/padding اضافی در بالای body وجود ندارد */
+  margin: 0;
+  padding: 0;
 }
 
 .app {
@@ -72,9 +75,14 @@ body {
   color: var(--text-primary);
   width: 100%;
   overflow-x: hidden;
+  display: flex; /* اضافه شده برای اینکه App به عنوان یک فلکس کانتینر عمل کند */
+  flex-direction: column; /* چیدمان ستونی برای اینکه محتوا از بالا به پایین قرار بگیرد */
 }
 
-/* Enhanced Header with JetBrains-style animations */
+/* ------------------------------------------------ */
+/* CSS مربوط به Header که باید حذف شود یا حذف شده است */
+/* ------------------------------------------------ */
+/*
 .header {
   position: fixed;
   top: 0;
@@ -121,7 +129,6 @@ body {
   z-index: 2;
 }
 
-/* Enhanced Logo with animation */
 .logo {
   display: flex;
   align-items: center;
@@ -188,7 +195,6 @@ body {
   }
 }
 
-/* Enhanced Navigation */
 .main-navigation {
   display: flex;
   position: relative;
@@ -248,7 +254,6 @@ body {
   text-shadow: 0 0 10px var(--accent-primary);
 }
 
-/* Enhanced Header Right Section */
 .header-right {
   display: flex;
   align-items: center;
@@ -351,14 +356,20 @@ body {
   transform: translateY(-2px);
   box-shadow: var(--shadow-lg);
 }
+*/
+/* ------------------------------------------------ */
+/* پایان CSS مربوط به Header */
+/* ------------------------------------------------ */
 
-/* App Body Layout */
+/* App Body Layout - تغییرات مهم اینجا اعمال می‌شوند */
 .app-body {
   display: flex;
-  margin-top: var(--header-height);
-  min-height: calc(100vh - var(--header-height));
+  /* margin-top: var(--header-height);  این خط را حذف یا کامنت کردیم */
+  /* min-height: calc(100vh - var(--header-height));  این خط را تغییر می‌دهیم */
+  min-height: 100vh; /* کل ارتفاع ویوپورت را پر کند */
   overflow-x: hidden;
   width: 100%;
+  flex-grow: 1; /* اطمینان حاصل شود که فضای باقی‌مانده App را پر می‌کند */
 }
 
 /* Enhanced Sidebar with unified scrolling */
@@ -368,8 +379,10 @@ body {
   border-right: 1px solid var(--border-primary);
   padding: 1rem 1.5rem;
   position: sticky;
-  top: var(--header-height);
-  height: calc(100vh - var(--header-height));
+  /* top: var(--header-height);  این خط را به 0 تغییر می‌دهیم */
+  top: 0; /* حالا به بالای صفحه بچسبد */
+  /* height: calc(100vh - var(--header-height));  این خط را تغییر می‌دهیم */
+  height: 100vh; /* کل ارتفاع ویوپورت را بگیرد */
   overflow: visible;
   backdrop-filter: blur(10px);
   flex-shrink: 0;
@@ -395,6 +408,9 @@ body {
   flex-direction: column;
   gap: 1.5rem;
   width: 100%;
+  /* اضافه شده: اگر sidebar-content داخلی اسکرول دارد */
+  height: 100%;
+  overflow-y: auto; /* برای اسکرول داخلی sidebar */
 }
 
 /* Enhanced Sidebar Search */
@@ -625,8 +641,12 @@ body {
   flex: 1;
   background: var(--bg-primary);
   padding: 2rem;
-  min-height: calc(100vh - var(--header-height));
+  /* min-height: calc(100vh - var(--header-height));  این خط را تغییر می‌دهیم */
+  min-height: 100vh; /* کل ارتفاع ویوپورت را پر کند */
   overflow-x: hidden;
+  width: 100%;
+  /* اضافه شده برای اینکه Main Content تمام فضای موجود را اشغال کند */
+  flex-grow: 1;
 }
 
 /* Home Page Styling */
@@ -832,26 +852,18 @@ body {
 }
 
 @media (max-width: 900px) {
-  .header-container {
-    padding: 0 1.5rem;
-  }
-
-  .header-left {
-    gap: 2rem;
-  }
-
-  .main-nav-list {
-    gap: 0.25rem;
-  }
-
-  .sidebar {
+  /* .header-container  - حذف شد */
+  /* .header-left  - حذف شد */
+  /* .main-nav-list  - حذف شد */
+  /* .sidebar {
     transform: translateX(-100%);
     transition: transform var(--transition-normal);
-  }
+  } */ /* اگر سایدبار ناپدید می‌شود، این خطوط را برای تنظیم دوباره نیاز دارید */
 
   .main-content {
     margin-left: 0;
     padding: 1.5rem;
+    min-height: 100vh; /* مطمئن می‌شویم که در موبایل هم کل ارتفاع را پر می‌کند */
   }
 
   .news-grid {
@@ -867,25 +879,14 @@ body {
 }
 
 @media (max-width: 600px) {
-  .header-container {
-    padding: 0 1rem;
-  }
-
-  .header-left {
-    gap: 1rem;
-  }
-
-  .main-nav-list {
-    gap: 0;
-  }
-
-  .main-nav-link {
-    padding: 0.5rem 0.75rem;
-    font-size: 0.85rem;
-  }
+  /* .header-container  - حذف شد */
+  /* .header-left  - حذف شد */
+  /* .main-nav-list  - حذف شد */
+  /* .main-nav-link  - حذف شد */
 
   .main-content {
     padding: 1rem;
+    min-height: 100vh; /* مطمئن می‌شویم که در موبایل هم کل ارتفاع را پر می‌کند */
   }
 
   .page-header h2 {

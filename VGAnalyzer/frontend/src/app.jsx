@@ -1,5 +1,4 @@
 import { Component } from "react";
-import Header from "./components/header";
 import Sidebar from "./components/sidebar";
 import HomePage from "./components/home-page";
 import "./styles.css";
@@ -110,7 +109,6 @@ class App extends Component {
 
     return (
       <div className={`app ${theme}`}>
-        <Header onSearch={this.handleSearch} />
         <div className="app-body">
           <Sidebar
             onCategorySelect={this.handleCategorySelect}
