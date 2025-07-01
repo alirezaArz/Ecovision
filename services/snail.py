@@ -251,7 +251,7 @@ class Snail():
 
         if name == 'analyze':
             try:
-                print("starting snail")
+                print("starting analyze")
                 self.analyze()
             except:
                 print("analyze failed")
@@ -327,13 +327,18 @@ class Snail():
                     text_content = text_content[:-len("```")].strip()
                 snaildata = json.loads(text_content)
 
-                
-                ecocat = ['images/economy/im1.jpg', 'images/economy/im2.jpg', 'images/economy/im3.jpg', 'images/economy/im4.jpg', 'images/economy/im5.jpg', 'images/economy/im6.jpg', 'images/economy/im7.jpg', 'images/economy/im8.jpg', 'images/economy/im9.jpg', 'images/economy/im10.jpg', 'images/economy/im11.jpg', 'images/economy/im12.jpg', 'images/economy/im13.jpg', 'images/economy/im14.jpg', 'images/economy/im15.jpg', 'images/economy/im16.jpg', 'images/economy/im17.jpg', 'images/economy/im18.jpg', 'images/economy/im19.jpg', 'images/economy/im20.jpg', 'images/economy/im21.jpg', 'images/economy/im22.jpg', 'images/economy/im23.jpg', 'images/economy/im24.jpg', 'images/economy/im25.jpg', 'images/economy/im26.jpg', 'images/economy/im27.jpg', 'images/economy/im28.jpg', 'images/economy/im29.jpg', 'images/economy/im30.jpg']
-                fincat = ['images/finance/im1.jpg', 'images/finance/im2.jpg', 'images/finance/im3.jpg', 'images/finance/im4.jpg', 'images/finance/im5.jpg', 'images/finance/im6.jpg', 'images/finance/im7.jpg', 'images/finance/im8.jpg', 'images/finance/im9.jpg', 'images/finance/im10.jpg', 'images/finance/im11.jpg', 'images/finance/im12.jpg', 'images/finance/im13.jpg', 'images/finance/im14.jpg', 'images/finance/im15.jpg']
-                invcat = ['images/investing/im1.jpg', 'images/investing/im2.jpg', 'images/investing/im3.jpg', 'images/investing/im4.jpg', 'images/investing/im5.jpg', 'images/investing/im6.jpg', 'images/investing/im7.jpg', 'images/investing/im8.jpg', 'images/investing/im9.jpg', 'images/investing/im10.jpg']
-                marcat = ['images/markets/im1.jpg', 'images/markets/im2.jpg', 'images/markets/im3.jpg', 'images/markets/im4.jpg', 'images/markets/im5.jpg', 'images/markets/im6.jpg', 'images/markets/im7.jpg', 'images/markets/im8.jpg', 'images/markets/im9.jpg', 'images/markets/im10.jpg']
-                scicat = ['images/science/im1.jpg', 'images/science/im2.jpg', 'images/science/im3.jpg', 'images/science/im4.jpg', 'images/science/im5.jpg', 'images/science/im6.jpg', 'images/science/im7.jpg', 'images/science/im8.jpg', 'images/science/im9.jpg', 'images/science/im10.jpg']
-                teccat = ['images/technology/im1.jpg', 'images/technology/im2.jpg', 'images/technology/im3.jpg', 'images/technology/im4.jpg', 'images/technology/im5.jpg', 'images/technology/im6.jpg', 'images/technology/im7.jpg', 'images/technology/im8.jpg', 'images/technology/im9.jpg', 'images/technology/im10.jpg']
+                ecocat = ['images/economy/im1.jpg', 'images/economy/im2.jpg', 'images/economy/im3.jpg', 'images/economy/im4.jpg', 'images/economy/im5.jpg', 'images/economy/im6.jpg', 'images/economy/im7.jpg', 'images/economy/im8.jpg', 'images/economy/im9.jpg', 'images/economy/im10.jpg', 'images/economy/im11.jpg', 'images/economy/im12.jpg', 'images/economy/im13.jpg', 'images/economy/im14.jpg', 'images/economy/im15.jpg',
+                          'images/economy/im16.jpg', 'images/economy/im17.jpg', 'images/economy/im18.jpg', 'images/economy/im19.jpg', 'images/economy/im20.jpg', 'images/economy/im21.jpg', 'images/economy/im22.jpg', 'images/economy/im23.jpg', 'images/economy/im24.jpg', 'images/economy/im25.jpg', 'images/economy/im26.jpg', 'images/economy/im27.jpg', 'images/economy/im28.jpg', 'images/economy/im29.jpg', 'images/economy/im30.jpg']
+                fincat = ['images/finance/im1.jpg', 'images/finance/im2.jpg', 'images/finance/im3.jpg', 'images/finance/im4.jpg', 'images/finance/im5.jpg', 'images/finance/im6.jpg', 'images/finance/im7.jpg',
+                          'images/finance/im8.jpg', 'images/finance/im9.jpg', 'images/finance/im10.jpg', 'images/finance/im11.jpg', 'images/finance/im12.jpg', 'images/finance/im13.jpg', 'images/finance/im14.jpg', 'images/finance/im15.jpg']
+                invcat = ['images/investing/im1.jpg', 'images/investing/im2.jpg', 'images/investing/im3.jpg', 'images/investing/im4.jpg', 'images/investing/im5.jpg',
+                          'images/investing/im6.jpg', 'images/investing/im7.jpg', 'images/investing/im8.jpg', 'images/investing/im9.jpg', 'images/investing/im10.jpg']
+                marcat = ['images/markets/im1.jpg', 'images/markets/im2.jpg', 'images/markets/im3.jpg', 'images/markets/im4.jpg', 'images/markets/im5.jpg',
+                          'images/markets/im6.jpg', 'images/markets/im7.jpg', 'images/markets/im8.jpg', 'images/markets/im9.jpg', 'images/markets/im10.jpg']
+                scicat = ['images/science/im1.jpg', 'images/science/im2.jpg', 'images/science/im3.jpg', 'images/science/im4.jpg', 'images/science/im5.jpg',
+                          'images/science/im6.jpg', 'images/science/im7.jpg', 'images/science/im8.jpg', 'images/science/im9.jpg', 'images/science/im10.jpg']
+                teccat = ['images/technology/im1.jpg', 'images/technology/im2.jpg', 'images/technology/im3.jpg', 'images/technology/im4.jpg', 'images/technology/im5.jpg',
+                          'images/technology/im6.jpg', 'images/technology/im7.jpg', 'images/technology/im8.jpg', 'images/technology/im9.jpg', 'images/technology/im10.jpg']
                 output_dict = {}
                 output_dict["newsData"] = []
                 current_iso_date = datetime.now().isoformat()
@@ -350,7 +355,7 @@ class Snail():
                         "title", "")
                     transformed_item["summary"] = original_item_data.get(
                         "summary", "")
-                    
+
                     transformed_item["category"] = original_item_data.get(
                         "category", "news")
                     if transformed_item["category"] == "Economy":
@@ -394,15 +399,14 @@ class Snail():
         self.entry = self.get_news_data()
         if core == 'gemini' and not self.gemeni_inprocess:
             try:
-                self.gemeni_active = True
-                self.result = gemeni.analyze(self.entry)
-                if self.result != None:
-                    self.snailsave(self.result)
-
-                else:
-                    print("analyze failed, canceled saving")
+                if not self.gemeni_inprocess:
+                    self.gemeni_inprocess = True
+                    self.result = gemeni.analyze(self.entry)
+                    if self.result != None:
+                        self.snailsave(self.result)
+                    else:
+                        print("analyze failed, canceled saving")
             except:
-                
                 print('analyze failed code:1')
             self.gemeni_inprocess = False
 
@@ -423,7 +427,6 @@ class Snail():
                         self.result = gemeni.analyze(self.entry)
                         if self.result != None:
                             self.snailsave(self.result)
-
                         else:
                             print("analyze failed, canceled saving")
                 except:
@@ -433,7 +436,6 @@ class Snail():
                         self.localai_inprocess = False
                     # self.snailsave(self.result)  // snail save doesnt work for this... thats customized for gemini only
                 else:
-                    self.gemeni_inprocess = False
                     print('analyze failed code:3')
                 self.gemeni_inprocess = False
                 self.localai_inprocess = False
@@ -448,7 +450,7 @@ class Snail():
                     else:
                         print("analyze failed, canceled saving")
                 except:
-                    
+
                     print('analyze failed code:4')
                 self.gemeni_inprocess = False
                 self.localai_inprocess = False
