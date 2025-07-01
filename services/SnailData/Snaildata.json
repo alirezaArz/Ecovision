@@ -2,264 +2,282 @@
     "newsData": [
         {
             "id": 1,
-            "title": "دولت در جنگ ۱۲روزه با اقداماتی نظیر تامین ارز برای واردات کالاهای اساسی، کاهش بوروکراسی ترخیص کالا، تدوین بسته حمایتی برای صنایع و بازگشت ارز ترجیحی برای برخی از کالاها موفق شد با سرعت قابل قبولی اختلالات مقطعی در زنجیره تامین را کنترل کند",
-            "summary": "دولت با ارائه تسهیلات و سیاست‌های حمایتی، موفق به کنترل اختلالات در زنجیره تامین کالاهای اساسی در دوران جنگ شد.",
-            "image": "images/im5.jpg",
-            "category": "اقتصاد",
-            "importance": "متوسط",
-            "date": "2025-06-28T03:46:13.979601"
+            "title": "Businesses Expect to Pass Along 50% of Tariffs, Fed Survey Finds",
+            "summary": "A survey by the Federal Reserve indicates that businesses anticipate passing on half of the costs associated with tariffs to consumers.",
+            "category": "Economy",
+            "image": "images/economy/im22.jpg",
+            "importance": "medium",
+            "date": "2025-07-01T17:46:01.314015"
         },
         {
             "id": 2,
-            "title": "بر اساس گزارش مرکز آمار ایران، تورم نقطه به نقطه در پایان خرداد باثبت نرخ ۳۹.۴درصد، به بیشترین سطح از آذرماه۱۴۰۲ رسیده است",
-            "summary": "نرخ تورم نقطه به نقطه در خرداد ماه به بالاترین سطح خود از آذر ۱۴۰۲ رسید و گروه خوراکی‌ها بیشترین تاثیر را در این افزایش داشت.",
-            "image": "images/im1.jpg",
-            "category": "اقتصاد",
-            "importance": "بالا",
-            "date": "2025-06-28T03:46:13.979601"
+            "title": "The Quiet Voices Questioning China’s AI Hype",
+            "summary": "Some individuals are quietly expressing doubts about the excessive promotion and expectations surrounding artificial intelligence in China.",
+            "category": "Technology",
+            "image": "images/technology/im1.jpg",
+            "importance": "medium",
+            "date": "2025-07-01T17:46:01.314015"
         },
         {
             "id": 3,
-            "title": "دولت ایران در دوران جنگ ۱۲روزه، اقدامات حمایتی مختلفی با تمرکز بر تامین کالاهای اساسی انجام داد",
-            "summary": "دولت با تمرکز بر تامین ارز، کاهش بوروکراسی و ارائه بسته‌های حمایتی، به سرعت اختلالات زنجیره تامین کالاهای اساسی ناشی از جنگ را برطرف کرد.",
-            "image": "images/im1.jpg",
-            "category": "اقتصاد",
-            "importance": "متوسط",
-            "date": "2025-06-28T03:46:13.979601"
+            "title": "Mauritius Plans Temporary Tax Hikes to Stabilize Public Finances",
+            "summary": "Mauritius intends to implement temporary tax increases as a measure to stabilize its public finances.",
+            "category": "Finance",
+            "image": "images/finance/im5.jpg",
+            "importance": "medium",
+            "date": "2025-07-01T17:46:01.314015"
         },
         {
             "id": 4,
-            "title": "قیمت دلار آزاد با افزایش همراه شد، با این حال همچنان روند باثبات خود را حفظ کرد",
-            "summary": "با وجود افزایش قیمت دلار، بازار ارز نسبتاً باثبات باقی ماند و اخبار مربوط به مذاکرات احتمالی ایران و آمریکا منتشر شد.",
-            "image": "images/im1.jpg",
-            "category": "اقتصاد",
-            "importance": "متوسط",
-            "date": "2025-06-28T03:46:13.979601"
+            "title": "Fed’s Harker Says Policymakers Need to Wait for More Clarity",
+            "summary": "A Federal Reserve policymaker, Harker, suggests that it is necessary for policymakers to wait for greater clarity before making decisions.",
+            "category": "Finance",
+            "image": "images/finance/im2.jpg",
+            "importance": "medium",
+            "date": "2025-07-01T17:46:01.314015"
         },
         {
             "id": 5,
-            "title": "با درگیری بی‌‌‌سابقه و تنش‌‌‌زای ۱۲ روزه میان اسرائیل و ایران که با حملات موشکی متقابل، خسارات گسترده زیرساختی و تعطیلی‌‌‌های سراسری در سرزمین‌‌‌های اشغالی همراه بود، مقامات اقتصادی اسرائیل از یک ضربه بی‌‌‌سابقه به پیکر اقتصاد سخن می‌گویند",
-            "summary": "جنگ ۱۲ روزه بین ایران و اسرائیل ضربه سنگینی به اقتصاد اسرائیل وارد کرد و منجر به کاهش تولید، افزایش کسری بودجه و خسارات گسترده شد.",
-            "image": "images/im5.jpg",
-            "category": "اقتصاد",
-            "importance": "بالا",
-            "date": "2025-06-28T03:46:13.979601"
+            "title": "Summers Says Debt Surge From Trump Plan Will Undermine US Power",
+            "summary": "Summers argues that a surge in debt resulting from the Trump administration's plan will weaken the power of the United States.",
+            "category": "Economy",
+            "image": "images/economy/im21.jpg",
+            "importance": "medium",
+            "date": "2025-07-01T17:46:01.314015"
         },
         {
             "id": 6,
-            "title": "با توجه به آخرین آمار منتشر شده از تورم در خرداد ماه ۱۴۰۴ می‌توان در پنج سناریو تورم را در پایان سال جاری پیش‌بینی کرد",
-            "summary": "با توجه به آمار تورم خرداد، امکان پیش‌بینی تورم پایان سال در پنج سناریو وجود دارد.",
-            "image": "images/im1.jpg",
-            "category": "اقتصاد",
-            "importance": "متوسط",
-            "date": "2025-06-28T03:46:13.979601"
+            "title": "Why the ‘TACO’ Trade Is Tempting Investors Amid US-China Talks",
+            "summary": "The 'TACO' trade is attracting investors due to ongoing US-China trade discussions.",
+            "category": "Investing",
+            "image": "images/investing/im7.jpg",
+            "importance": "medium",
+            "date": "2025-07-01T17:46:01.314015"
         },
         {
             "id": 7,
-            "title": "ماندگاری توافق‌های آتش‌بس به فضای سیاسی و اقتصادی حاکم بر روابط کشورهای درگیر وابسته است",
-            "summary": "پایداری آتش‌بس به عوامل سیاسی و اقتصادی مانند فرآیند حل‌وفصل اختلافات، نظارت بین‌المللی و ارتباط کشورها با قدرت‌های موثر جهانی بستگی دارد.",
-            "image": "images/im2.jpg",
-            "category": "سیاسی/اقتصاد",
-            "importance": "متوسط",
-            "date": "2025-06-28T03:46:13.979601"
+            "title": "Firms’ Less ‘Catastrophic’ Outlook Kept Canada Rates on Hold",
+            "summary": "The fact that companies have a less 'catastrophic' outlook has contributed to Canada keeping its interest rates on hold.",
+            "category": "Finance",
+            "image": "images/finance/im8.jpg",
+            "importance": "medium",
+            "date": "2025-07-01T17:46:01.314015"
         },
         {
             "id": 8,
-            "title": "سرمایه‌گذاران بین‌المللی به‌دنبال مقاصدی تازه، با ریسک کمتر و بازده بالاتر هستند. بازارهای نوظهور، که تا پیش از این در حاشیه تحولات مالی جهان قرار داشتند، اکنون به‌دلیل فضای باثبات اقتصادی و برخورداری از ظرفیت‌های رشد، دوباره در کانون توجه قرار گرفته‌اند.",
-            "summary": "با توجه به بی‌ثباتی‌های سیاسی و اقتصادی در آمریکا و جهان، سرمایه‌گذاران بین‌المللی به بازارهای نوظهور با ریسک کمتر و بازده بالاتر توجه نشان می‌دهند.",
-            "image": "images/im2.jpg",
-            "category": "اقتصاد",
-            "importance": "متوسط",
-            "date": "2025-06-28T03:46:13.979601"
+            "title": "Fed’s Kugler Says Her Main Focus Now Is Inflation",
+            "summary": "Fed's Kugler says her main focus is now on inflation",
+            "category": "Finance",
+            "image": "images/finance/im4.jpg",
+            "importance": "medium",
+            "date": "2025-07-01T17:46:01.314015"
         },
         {
             "id": 9,
-            "title": "جنگ ۱۲ روزه میان ایران و اسرائیل، چالش‌های اقتصادی کسب‌و‌کارها و خانوارها را بیش از پیش تشدید کرده است",
-            "summary": "جنگ ایران و اسرائیل، مشکلات اقتصادی کسب‌وکارها و خانوارها را تشدید کرده و نیازمند اصلاحات اقتصادی و تغییر نگرش در حکمرانی اقتصادی است.",
-            "image": "images/im3.jpg",
-            "category": "اقتصاد",
-            "importance": "متوسط",
-            "date": "2025-06-28T03:46:13.979601"
+            "title": "Stocks wobble with Trump-Xi call, Musk feud in focus",
+            "summary": "Stocks saw mixed performance as a call between Trump and Xi, along with a feud involving Musk, captured attention.",
+            "category": "Markets",
+            "image": "images/markets/im5.jpg",
+            "importance": "medium",
+            "date": "2025-07-01T17:46:01.314015"
         },
         {
             "id": 10,
-            "title": "رئیس کل بانک مرکزی درباره اقدامات دولت و بانک مرکزی در دوران جنگ گفت: در این مدت دولت ۴ کمیته تشکیل داد و اختیارات لازم را به مسئولان مختلف در وزارتخانه‌ها و بانک مرکزی و دیگر دستگاه‌ها تفویض کرد",
-            "summary": "بانک مرکزی اعلام کرد که در دوران جنگ ۱۲روزه با تشکیل کمیته‌های مختلف و تفویض اختیارات، توانست به سرعت به نیازهای کشور پاسخ دهد.",
-            "image": "images/im5.jpg",
-            "category": "اقتصاد",
-            "importance": "متوسط",
-            "date": "2025-06-28T03:46:13.979601"
+            "title": "US economy shows signs of 'paralysis' ahead of key jobs report",
+            "summary": "The US economy is exhibiting indications of 'paralysis' as the release of a crucial jobs report approaches.",
+            "category": "Economy",
+            "image": "images/economy/im30.jpg",
+            "importance": "medium",
+            "date": "2025-07-01T17:46:01.314015"
         },
         {
             "id": 11,
-            "title": "در صورت بر قراری آتش بس و پایان جنگ، دولت ایران باید با فوریت سیاست‌های رفاهی هدفمند و کوتاه‌مدت را برای کاهش فشار بر خانوارها اجرا کند",
-            "summary": "در صورت برقراری آتش‌بس، دولت باید سیاست‌های رفاهی فوری و هدفمند برای کاهش فشار بر خانوارها اجرا کند.",
-            "image": "images/im3.jpg",
-            "category": "اقتصاد",
-            "importance": "متوسط",
-            "date": "2025-06-28T03:46:13.979601"
+            "title": "Trump and Xi break the ice, pledge to restart talks",
+            "summary": "Trump and Xi have initiated a breakthrough in their relationship, pledging to resume discussions.",
+            "category": "Economy",
+            "image": "images/economy/im29.jpg",
+            "importance": "medium",
+            "date": "2025-07-01T17:46:01.314015"
         },
         {
             "id": 12,
-            "title": "با گذشت بیش از یک هفته از تجاوز اسرائیل به خاک ایران، سوالات جدی درباره تاب‌آوری اقتصاد اسرائیل به وجود آمده است",
-            "summary": "جنگ با ایران باعث ایجاد تردیدهایی جدی در مورد تاب‌آوری اقتصادی اسرائیل شده و فشار بر ساختارهای اقتصادی این رژیم را افزایش داده است.",
-            "image": "images/im3.jpg",
-            "category": "اقتصاد",
-            "importance": "متوسط",
-            "date": "2025-06-28T03:46:13.979601"
+            "title": "Apple's loses bid to halt court ruling that blocks app store fees",
+            "summary": "Apple's attempt to suspend a court ruling that restricts app store fees has been unsuccessful.",
+            "category": "Technology",
+            "image": "images/technology/im2.jpg",
+            "importance": "medium",
+            "date": "2025-07-01T17:46:01.314015"
         },
         {
             "id": 13,
-            "title": "اکنون سیستم‌های مبتنی بر هوش‌مصنوعی نیز به ابزاری بدل شده‌اند که می‌توانند در زمینه نظامی مزیتی قابل‌توجه برای استفاده‌کنندگان آن به وجود بیاورند",
-            "summary": "سیستم‌های هوش مصنوعی می‌توانند با شناسایی دقیق‌تر اهداف و تحلیل سریع‌تر داده‌ها، مزیت نظامی قابل توجهی ایجاد کنند.",
-            "image": "images/im2.jpg",
-            "category": "تکنولوژی/نظامی",
-            "importance": "متوسط",
-            "date": "2025-06-28T03:46:13.979601"
+            "title": "Trump-Musk Alliance Unravels Over ‘Big Beautiful Bill’",
+            "summary": "The alliance between Trump and Musk is disintegrating due to disagreements over a 'Big Beautiful Bill'.",
+            "category": "Economy",
+            "image": "images/economy/im30.jpg",
+            "importance": "medium",
+            "date": "2025-07-01T17:46:01.314015"
         },
         {
             "id": 14,
-            "title": "بانک مرکزی در راستای کمک به اشخاص متأثر از این وضعیت با هماهنگی دادستانی محترم کل کشور از آن مرجع درخواست نمود تا اعمال محدودیت‌های موضوع بندهای (الف) تا (د ) ماده ۵ مکرر قانون چک در خصوص چک‌های صادره عهده دو بانک مذکور با تاریخ سررسید و برگشت ۲۴ خرداد لغایت ۷ تیر ۱۴۰۴، به مدت یکماه از تاریخ سررسید تعلیق گردد.",
-            "summary": "بانک مرکزی با هماهنگی دادستانی، محدودیت‌های چک‌های برگشتی دو بانک سپه و پاسارگاد را به دلیل شرایط خاص کشور به مدت یک ماه تعلیق کرد.",
-            "image": "images/im4.jpg",
-            "category": "اقتصاد",
-            "importance": "متوسط",
-            "date": "2025-06-28T03:46:13.979601"
+            "title": "Fed's Harker says its time for caution on monetary policy amid uncertainty",
+            "summary": "Fed's Harker suggests that a cautious approach to monetary policy is warranted due to the prevailing uncertainty.",
+            "category": "Finance",
+            "image": "images/finance/im7.jpg",
+            "importance": "medium",
+            "date": "2025-07-01T17:46:01.314015"
         },
         {
             "id": 15,
-            "title": "تشدید نظامی‌گری آمریکا می‌تواند پس‌لرزه‌های مخربی را نه تنها در بازارهای جهانی بلکه در اقتصاد ایالات متحده ایجاد کند",
-            "summary": "تشدید نظامی‌گری آمریکا می‌تواند منجر به افزایش قیمت طلا و نفت، سقوط بازارهای سهام، افزایش کسری بودجه و تورم در اقتصاد آمریکا شود.",
-            "image": "images/im5.jpg",
-            "category": "اقتصاد/سیاسی",
-            "importance": "بالا",
-            "date": "2025-06-28T03:46:13.979601"
+            "title": "How small businesses are handling tariff uncertainty, pressures",
+            "summary": "Insights into the strategies and challenges that small businesses face when managing tariff uncertainty and related pressures.",
+            "category": "Economy",
+            "image": "images/economy/im25.jpg",
+            "importance": "medium",
+            "date": "2025-07-01T17:46:01.314015"
         },
         {
             "id": 16,
-            "title": "وزیر اقتصاد از رشد ۵۳درصدی واردات کالاهای اساسی در هفته گذشته خبر داد",
-            "summary": "واردات کالاهای اساسی در هفته گذشته ۵۳ درصد افزایش یافت.",
-            "image": "images/im1.jpg",
-            "category": "اقتصاد",
-            "importance": "متوسط",
-            "date": "2025-06-28T03:46:13.979601"
+            "title": "Why tariffs are expected to increase car insurance costs",
+            "summary": "The rationale behind the expectation that tariffs will contribute to an increase in car insurance costs.",
+            "category": "Finance",
+            "image": "images/finance/im3.jpg",
+            "importance": "medium",
+            "date": "2025-07-01T17:46:01.314015"
         },
         {
             "id": 17,
-            "title": "دونالد ترامپ، رئیس‌‌‌جمهور آمریکا، در پستی در شبکه اجتماعی خود مدعی شد که به تاسیسات هسته‌‌‌‌ای نطنز، فردو و اصفهان حمله کرده است",
-            "summary": "ترامپ مدعی حمله به تاسیسات هسته‌ای ایران شد که با واکنش‌های مختلفی از جمله انتقاد اعضای کنگره آمریکا روبرو شد.",
-            "image": "images/im2.jpg",
-            "category": "سیاسی",
-            "importance": "بالا",
-            "date": "2025-06-28T03:46:13.979601"
+            "title": "CBO warns Trump's tax bill could add $2.4T to deficit",
+            "summary": "The Congressional Budget Office (CBO) cautions that Trump's proposed tax bill has the potential to augment the deficit by $2.4 trillion.",
+            "category": "Finance",
+            "image": "images/finance/im2.jpg",
+            "importance": "medium",
+            "date": "2025-07-01T17:46:01.314015"
         },
         {
             "id": 18,
-            "title": "حجم واردات کالاهای اساسی در هفته آخر خرداد به ۹۸۰ هزار تن رسیده که نسبت به هفته قبل از آن ۵۳ درصد رشد نشان می‌دهد.",
-            "summary": "واردات کالاهای اساسی در هفته آخر خرداد نسبت به هفته قبل ۵۳ درصد افزایش یافت و به ۹۸۰ هزار تن رسید.",
-            "image": "images/im3.jpg",
-            "category": "اقتصاد",
-            "importance": "متوسط",
-            "date": "2025-06-28T03:46:13.979601"
+            "title": "China's rare earth export curbs hit the auto industry worldwide",
+            "summary": "China's limitations on the export of rare earth minerals are having a detrimental impact on the automotive industry across the globe.",
+            "category": "Economy",
+            "image": "images/economy/im10.jpg",
+            "importance": "medium",
+            "date": "2025-07-01T17:46:01.314015"
         },
         {
             "id": 19,
-            "title": "تداوم درگیری‌ها نگرانی‌هایی را نسبت به امنیت تامین کالاهای اساسی در جامعه برانگیخته است",
-            "summary": "با وجود آرامش در بازار مصرف، تداوم درگیری‌ها نگرانی‌ها در مورد امنیت تامین کالاهای اساسی را افزایش داده و سیاست‌های دستوری ممکن است با ایجاد انگیزه برای احتکار، روند تامین را مختل کنند.",
-            "image": "images/im4.jpg",
-            "category": "اقتصاد",
-            "importance": "متوسط",
-            "date": "2025-06-28T03:46:13.979601"
+            "title": "Analyst Report: Crowdstrike Holdings Inc",
+            "summary": "This is an analyst report Crowdstrike Holdings Inc. The analysts has given detailed information about the company. ",
+            "category": "Finance",
+            "image": "images/finance/im2.jpg",
+            "importance": "medium",
+            "date": "2025-07-01T17:46:01.314015"
         },
         {
             "id": 20,
-            "title": "حمله رژیم صهیونیستی به ایران، اثرات مختلفی بر قیمت نفت، تورم، رشد اقتصادی و وضعیت گردشگری دنیا و کشورهای منطقه می‌گذارد",
-            "summary": "حمله اسرائیل به ایران بر قیمت نفت، تورم، رشد اقتصادی و گردشگری در منطقه و جهان تاثیر می‌گذارد و کشورهای واردکننده نفت بیشتر آسیب خواهند دید.",
-            "image": "images/im3.jpg",
-            "category": "اقتصاد",
-            "importance": "بالا",
-            "date": "2025-06-28T03:46:13.979601"
+            "title": "Billionaires Are Selling Nvidia Stock and Buying a Stock-Split AI Stock Up 530% in 5 Years",
+            "summary": "Billionaires Are Selling Nvidia Stock and Buying a Stock-Split AI Stock Up 530% in 5 Years. the stock market is rapidly increasing.",
+            "category": "Finance",
+            "image": "images/finance/im3.jpg",
+            "importance": "medium",
+            "date": "2025-07-01T17:46:01.314015"
         },
         {
             "id": 21,
-            "title": "در شرایط بحرانی مانند تنش‌های ژئوپلیتیک، اولویت اصلی در رویکرد اقتصادی دولت‌ها باید حمایت از خانوارها و بنگاه‌ها باشد",
-            "summary": "در شرایط بحرانی، دولت‌ها باید از خانوارها و بنگاه‌ها حمایت کنند، حتی اگر منجر به افزایش کسری بودجه یا رشد پایه پولی شود و برای تامین مالی، افزایش انتشار اوراق قرضه یا استفاده از منابع بانک مرکزی را در نظر بگیرند.",
-            "image": "images/im3.jpg",
-            "category": "اقتصاد",
-            "importance": "متوسط",
-            "date": "2025-06-28T03:46:13.979601"
+            "title": "This Is Ground Zero in Trump’s Trade War",
+            "summary": "The nation’s largest ports, in Los Angeles County, are a bellwether for the economy. They are being whipsawed as President Trump reorders global trade.",
+            "category": "Economy",
+            "image": "images/economy/im7.jpg",
+            "importance": "medium",
+            "date": "2025-07-01T17:46:01.314015"
         },
         {
             "id": 22,
-            "title": "در شرایط بحرانی، کشور با چالش‌ها و تغییرات متعددی روبه‌رو می‌شود. به همین دلیل سیاستگذاران همواره به دنبال اعمال سیاست‌هایی جهت حمایت از مردم و فعالان اقتصادی هستند.",
-            "summary": "در شرایط بحرانی، سیاستگذاران تلاش می کنند تا سیاست‌هایی برای حمایت از مردم و فعالان اقتصادی اتخاذ کنند.",
-            "image": "images/im1.jpg",
-            "category": "اقتصاد",
-            "importance": "متوسط",
-            "date": "2025-06-28T03:46:13.979601"
+            "title": "House Policy Bill Would Add $3.4 Trillion to Debt, Swamping Economic Gains",
+            "summary": "The updated findings from the Congressional Budget Office amounted to the latest dour report card for the president’s signature legislation.",
+            "category": "Finance",
+            "image": "images/finance/im11.jpg",
+            "importance": "medium",
+            "date": "2025-07-01T17:46:01.314015"
         },
         {
             "id": 23,
-            "title": "با وجود حاکم شدن شرایط جنگی بر کشور، روند خدمات دهی به قوت خود باقی است.",
-            "summary": "با وجود شرایط جنگی، خدمات دهی در کشور ادامه دارد.",
-            "image": "images/im5.jpg",
-            "category": "اجتماعی",
-            "importance": "متوسط",
-            "date": "2025-06-28T03:46:13.979601"
+            "title": "Clock Ticks as U.S. and China Try to Undo Devastating Trade Curbs",
+            "summary": "Officials from the world’s largest economies will try to strike a deal Tuesday to relax painful export restrictions that they have imposed on each other.",
+            "category": "Economy",
+            "image": "images/economy/im8.jpg",
+            "importance": "medium",
+            "date": "2025-07-01T17:46:01.314015"
         },
         {
             "id": 24,
-            "title": "تجربه ۸ ساله جنگ ایران و عراق گرچه با هزینه‌های سنگینی همراه بود، اما در دل خود، درس‌های مهمی برای مدیریت اقتصاد در شرایط بحران به جا گذاشت.",
-            "summary": "جنگ ایران و عراق درس‌های مهمی برای مدیریت اقتصاد در شرایط بحران به جا گذاشت.",
-            "image": "images/im4.jpg",
-            "category": "اقتصاد/تاریخی",
-            "importance": "متوسط",
-            "date": "2025-06-28T03:46:13.979601"
+            "title": "دولت در جنگ ۱۲روزه با اقداماتی نظیر تامین ارز برای واردات کالاهای اساسی، کاهش بوروکراسی ترخیص کالا، تدوین بسته حمایتی برای صنایع و بازگشت ارز ترجیحی برای برخی از کالاها موفق شد با سرعت قابل قبولی اختلالات مقطعی در زنجیره تامین را کنترل کند.",
+            "summary": "The government successfully managed temporary disruptions in the supply chain during the 12-day war through measures such as providing currency for the import of essential goods, reducing customs clearance bureaucracy, developing support packages for industries, and restoring preferential currency for certain goods.",
+            "category": "Economy",
+            "image": "images/economy/im2.jpg",
+            "importance": "high",
+            "date": "2025-07-01T17:46:01.314015"
         },
         {
             "id": 25,
-            "title": "در شرایط جنگ و افزایش تنش‌های منطقه‌ای و بین‌المللی، اقتصاد هر کشوری با چالش‌های بی‌سابقه‌ای روبه‌رو می‌شود.",
-            "summary": "در شرایط جنگ و افزایش تنش‌ها، اقتصاد هر کشوری با چالش‌های بی‌سابقه‌ای روبرو می‌شود و اتخاذ تدابیر پیشگیرانه و حمایتی از سوی دولت حیاتی است.",
-            "image": "images/im5.jpg",
-            "category": "اقتصاد",
-            "importance": "متوسط",
-            "date": "2025-06-28T03:46:13.979601"
+            "title": "بر اساس گزارش مرکز آمار ایران، تورم نقطه به نقطه در پایان خرداد باثبت نرخ ۳۹.۴درصد، به بیشترین سطح از آذرماه۱۴۰۲ رسیده است.",
+            "summary": "According to the report of the Statistics Center of Iran, the point-to-point inflation rate at the end of Khordad reached its highest level since Azar 1402, with a rate of 39.4%.",
+            "category": "Economy",
+            "image": "images/economy/im8.jpg",
+            "importance": "high",
+            "date": "2025-07-01T17:46:01.314015"
         },
         {
             "id": 26,
-            "title": "در شرایط جنگی، کشور با چالش‌ها و تغییرات متعددی روبه‌رو می‌شود.",
-            "summary": "در شرایط جنگی، سیاستگذاران با چالش‌های جدی روبرو هستند و تصمیمات فوری برای مدیریت بحران و افزایش تاب آوری کشور اتخاذ می‌کنند.",
-            "image": "images/im5.jpg",
-            "category": "سیاسی/اقتصاد",
-            "importance": "متوسط",
-            "date": "2025-06-28T03:46:13.979601"
+            "title": "با درگیری بی‌‌‌سابقه و تنش‌‌‌زای ۱۲ روزه میان اسرائیل و ایران که با حملات موشکی متقابل، خسارات گسترده زیرساختی و تعطیلی‌‌‌های سراسری در سرزمین‌‌‌های اشغالی همراه بود، مقامات اقتصادی اسرائیل از یک ضربه بی‌‌‌سابقه به پیکر اقتصاد سخن می‌گویند.",
+            "summary": "Following the unprecedented and tense 12-day conflict between Israel and Iran, accompanied by mutual missile attacks, widespread infrastructure damage, and nationwide shutdowns in the occupied territories, Israeli economic officials speak of an unprecedented blow to the economy.",
+            "category": "Economy",
+            "image": "images/economy/im1.jpg",
+            "importance": "high",
+            "date": "2025-07-01T17:46:01.314015"
         },
         {
             "id": 27,
-            "title": "بانک مرکزی در این شرایط باید برای حفظ ثبات اقتصادی و اعتماد عمومی، سیاست‌های انقباضی را در دستور کار خود قرار دهد و به‌ جای تامین کسری بودجه دولت از طریق تحت فشار قرار دادن شبکه بانکی یا افزایش پایه پولی، با ابزارهایی نظیر مدیریت نرخ بهره و عملیات بازار باز، نقدینگی را به‌دقت کنترل کند.",
-            "summary": "در شرایط پرتنشی که کشور با آن مواجه است، بانک مرکزی باید سیاست‌های انقباضی را در دستور کار خود قرار دهد و با مدیریت نرخ بهره و عملیات بازار باز، نقدینگی را کنترل کند.",
-            "image": "images/im4.jpg",
-            "category": "اقتصاد",
-            "importance": "متوسط",
-            "date": "2025-06-28T03:46:13.979601"
+            "title": "جنگ ۱۲ روزه میان ایران و اسرائیل، چالش‌های اقتصادی کسب‌و‌کارها و خانوارها را بیش از پیش تشدید کرده است.",
+            "summary": "The 12-day war between Iran and Israel has further exacerbated the economic challenges of businesses and households.",
+            "category": "Economy",
+            "image": "images/economy/im22.jpg",
+            "importance": "high",
+            "date": "2025-07-01T17:46:01.314015"
         },
         {
             "id": 28,
-            "title": "بررسی‌‌‌ها نشان می‌دهد که در شرایط اضطراری مانند جنگ، خانوارهایی که کمترین درآمد را دارند (دهک اول و دوم) بیش از سایر خانوارها آسیب‌‌‌پذیر هستند.",
-            "summary": "در شرایط اضطراری مانند جنگ، خانوارهایی با کمترین درآمد بیشترین آسیب را می‌بینند و دولت موظف است با حمایت‌های نقدی و غیرنقدی و گسترش خدمات اجتماعی از گسترش فقر جلوگیری کند.",
-            "image": "images/im5.jpg",
-            "category": "اقتصاد/اجتماعی",
-            "importance": "بالا",
-            "date": "2025-06-28T03:46:13.979601"
+            "title": "دیروز در حالی که برخی منابع از آغاز آتش‌بس میان ایران و اسرائیل خبر دادند، وزیر امور خارجه اعلام کرد اگر حملات اسرائیل متوقف شود، ایران نیز عملیات نظامی خود را متوقف خواهد کرد. در صورت بر قراری آتش بس و پایان جنگ، دولت ایران باید با فوریت سیاست‌های رفاهی هدفمند و کوتاه‌مدت را برای کاهش فشار بر خانوارها اجرا کند.",
+            "summary": "Yesterday, while some sources reported the start of a ceasefire between Iran and Israel, the Minister of Foreign Affairs announced that if Israeli attacks cease, Iran will also stop its military operations. If a ceasefire is established and the war ends, the Iranian government must immediately implement targeted and short-term welfare policies to reduce pressure on households.",
+            "category": "Economy",
+            "image": "images/economy/im25.jpg",
+            "importance": "high",
+            "date": "2025-07-01T17:46:01.314015"
+        },
+        {
+            "id": 29,
+            "title": "با گذشت بیش از یک هفته از تجاوز اسرائیل به خاک ایران، سوالات جدی درباره تاب‌آوری اقتصاد اسرائیل به وجود آمده است. شدت گرفتن کسری بودجه از یکسو و هزینه‌های نظامی بالا فشار بر ساختارهای اقتصادی این رژیم را بیش از پیش افزایش داده است.",
+            "summary": "More than a week after Israel's aggression against Iranian territory, serious questions have arisen about the resilience of the Israeli economy. The intensification of the budget deficit on the one hand and high military expenditures have further increased the pressure on the economic structures of this regime.",
+            "category": "Economy",
+            "image": "images/economy/im28.jpg",
+            "importance": "high",
+            "date": "2025-07-01T17:46:01.314015"
         },
         {
             "id": 30,
-            "title": "تجاوز نظامی اسرائیل به ایران، معادلات بازارهای جهانی و داخلی را تغییر داد. درحالی‌که بسیاری از فعالان اقتصادی، با توجه به اخبار مثبت مذاکرات، روند دلار را کاهشی ارزیابی می‌کردند، این تجاوز نظامی معادلات بازار ارز تهران را نیز تغییر داد",
-            "summary": "حمله اسرائیل به ایران معادلات بازارهای جهانی و داخلی را تغییر داد و باعث نوسان مقطعی در بازار ارز تهران شد.",
-            "image": "images/im2.jpg",
-            "category": "اقتصاد/سیاسی",
-            "importance": "بالا",
-            "date": "2025-06-28T03:46:13.979601"
+            "title": "آمریکا در زمان تعطیلی بازارهای جهانی به ایران حمله کرد، تا شاید اقتصاد جهان و بازارهای مهمی مانند سهام، نفت و طلا از ترکش نظامی‌گری در امان باشند.",
+            "summary": "The United States attacked Iran during the closure of global markets, perhaps to protect the world economy and important markets such as stocks, oil, and gold from the impact of militarism.",
+            "category": "Economy",
+            "image": "images/economy/im2.jpg",
+            "importance": "high",
+            "date": "2025-07-01T17:46:01.314015"
+        },
+        {
+            "id": 31,
+            "title": "در شرایط جنگ و افزایش تنش‌های منطقه‌ای و بین‌المللی، اقتصاد هر کشوری با چالش‌های بی‌سابقه‌ای روبه‌رو می‌شود.",
+            "summary": "In times of war and increased regional and international tensions, the economy of every country faces unprecedented challenges.",
+            "category": "Economy",
+            "image": "images/economy/im26.jpg",
+            "importance": "high",
+            "date": "2025-07-01T17:46:01.314015"
         }
     ]
 }
