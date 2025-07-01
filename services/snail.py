@@ -1,12 +1,3 @@
-from services.Scrapers import yahoo
-from services.Scrapers import nytimes as nytimes
-from services.Scrapers import esdn
-from services.Scrapers import dnsd as dnsd
-from services.Scrapers import bonbast as bonbast
-from services.Scrapers import bloomberg
-from services.APIs import gecko as gecko
-from services.AI import local as ollama
-from services.AI import gemeni as gemeni
 import json
 import os
 import random
@@ -15,6 +6,16 @@ import time
 from datetime import datetime
 
 from halo import Halo
+
+from services.AI import gemeni as gemeni
+from services.AI import local as ollama
+from services.APIs import gecko as gecko
+from services.Scrapers import bloomberg
+from services.Scrapers import bonbast as bonbast
+from services.Scrapers import dnsd as dnsd
+from services.Scrapers import esdn
+from services.Scrapers import nytimes as nytimes
+from services.Scrapers import yahoo
 
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 snailpath = os.path.join(project_root, 'services', 'SnailData')
@@ -107,7 +108,6 @@ class Snail():
                 except:
                     print("bonbast failed")
                     self.bonbast_inprocess = False
-
 
             if not self.dnsd_inprocess:
                 try:
@@ -374,28 +374,27 @@ class Snail():
 
     def analyze(self, core='none'):
         self.entry = self.get_news_data()
-        if core == 'gemini' and not self.gemeni_active:
+        if core == 'gemini' and not self.gemeni_inprocess:
             try:
                 self.gemeni_active = True
                 self.result = gemeni.analyze(self.entry)
                 if self.result != None:
                     self.snailsave(self.result)
-                    self.gemeni_inprocess = False
 
                 else:
-                    print("analyzed failed, canceled saving")
+                    print("analyze failed, canceled saving")
             except:
-                print('analyze failed')
+                
+                print('analyze failed code:1')
             self.gemeni_inprocess = False
 
-        elif core == 'localai' and not self.localai_active:
+        elif core == 'localai' and not self.localai_inprocess:
             try:
                 self.localai_active = True
                 self.result = ollama.answer(self.entry)
-                self.localai_inprocess = False
                 # self.snailsave(self.result)
             except:
-                print("analyze failed")
+                print("analyze failed code:2")
             self.localai_inprocess = False
 
         elif core == 'none':
@@ -406,9 +405,9 @@ class Snail():
                         self.result = gemeni.analyze(self.entry)
                         if self.result != None:
                             self.snailsave(self.result)
-                            self.gemeni_inprocess = False
+
                         else:
-                            print("analyzed failed, canceled saving")
+                            print("analyze failed, canceled saving")
                 except:
                     if not self.localai_active:
                         self.localai_active = True
@@ -416,37 +415,39 @@ class Snail():
                         self.localai_inprocess = False
                     # self.snailsave(self.result)  // snail save doesnt work for this... thats customized for gemini only
                 else:
-                    print('analyze failed')
+                    self.gemeni_inprocess = False
+                    print('analyze failed code:3')
                 self.gemeni_inprocess = False
                 self.localai_inprocess = False
 
-            elif self.gemeni_active and not self.localai_active:
+            elif self.gemeni_active and not self.localai_inprocess:
                 try:
                     self.gemeni_active = True
                     self.result = gemeni.analyze(self.entry)
                     if self.result != None:
                         self.snailsave(self.result)
-                        self.gemeni_inprocess = False
+
                     else:
-                        print("analyzed failed, canceled saving")
+                        print("analyze failed, canceled saving")
                 except:
-                    print('analyze failed')
-                self.localai_inprocess = False
+                    
+                    print('analyze failed code:4')
                 self.gemeni_inprocess = False
+                self.localai_inprocess = False
 
             elif self.localai_active and not self.localai_active:
                 try:
                     self.localai_active = True
                     self.result = ollama.answer(self.entry)
                     # self.snailsave(self.result)
-                    self.localai_inprocess = False
                 except:
-                    print("analyze failed")
+                    print("analyze failed code:5")
                 self.gemeni_inprocess = False
                 self.localai_inprocess = False
             else:
+                self.gemeni_inprocess = False
+                self.localai_inprocess = False
                 print("no AI core is active, please activate one")
-                return
 
 
 snail = Snail()
