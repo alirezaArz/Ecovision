@@ -25,14 +25,6 @@ class Sidebar extends Component {
     const { selectedCategory, sidebarSearchValue } = this.state
     const { cryptoData } = this.props
 
-    const popularSearches = [
-      "Market Trends",
-      "Investment Strategies",
-      "Financial Analysis",
-      "Economic Forecasts",
-      "Global Economy",
-    ]
-
     const newsCategories = [
       "Economy",
       "Finance",
@@ -74,21 +66,6 @@ class Sidebar extends Component {
             </div>
           </div>
 
-          {/* Popular Searches */}
-          <div className="sidebar-section">
-            <h3 className="section-title">Popular Searches</h3>
-            <div className="topic-buttons">
-              {popularSearches.map((topic) => (
-                <button
-                  key={topic}
-                  className="topic-button"
-                  onClick={() => this.handleCategoryClick(topic.toLowerCase().replace(/\s+/g, "-"))}
-                >
-                  {topic}
-                </button>
-              ))}
-            </div>
-          </div>
 
           {/* News Categories */}
           <div className="sidebar-section">
