@@ -376,9 +376,7 @@ body {
 .sidebar {
   width: var(--sidebar-width);
   background: var(--bg-secondary);
-  border-right: 1px solid var(--border-primary);
   padding: 1rem 1.5rem;
-  position: sticky;
   /* top: var(--header-height);  این خط را به 0 تغییر می‌دهیم */
   top: 0; /* حالا به بالای صفحه بچسبد */
   /* height: calc(100vh - var(--header-height));  این خط را تغییر می‌دهیم */
@@ -410,7 +408,6 @@ body {
   width: 100%;
   /* اضافه شده: اگر sidebar-content داخلی اسکرول دارد */
   height: 100%;
-  overflow-y: auto; /* برای اسکرول داخلی sidebar */
 }
 
 /* Enhanced Sidebar Search */
