@@ -18,7 +18,7 @@ def get_crypto_data(request):
 
 @csrf_exempt
 def get_main_news(request):
-    news_data = systems.vgsy.get_snail_data()
+    news_data = systems.vgsy.Navread("SnOutsite")
     return JsonResponse(news_data, safe=False)
 
 #           -------------------------***API Navigation***------------------------

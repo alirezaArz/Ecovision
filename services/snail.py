@@ -6,7 +6,8 @@ import time
 from datetime import datetime
 
 from halo import Halo
-
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+print(project_root)
 from services.AI import gemeni as gemeni
 from services.AI import local as ollama
 from services.APIs import gecko as gecko
@@ -16,13 +17,12 @@ from services.Scrapers import dnsd as dnsd
 from services.Scrapers import esdn
 from services.Scrapers import nytimes as nytimes
 from services.Scrapers import yahoo
+from services import navigation as navigation
 
-project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-snailpath = os.path.join(project_root, 'services', 'SnailData')
+
+snailpath = os.path.join(project_root, 'services', 'LastAnalyze')
 DATA_PATH = os.path.join(project_root, "scraped")
 
-
-project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
@@ -308,14 +308,6 @@ class Snail():
             self.spinner.stop()
             print('snail has been deactivated')
 
-    def snailread(self):
-        try:
-            with open(os.path.join(snailpath, f"Snaildata.json"), 'r', encoding='utf-8') as file:
-                self.data = json.load(file)
-                return (self.data)
-        except:
-            print(
-                f"snail : Snaildata.json is not where it sould be at {snailpath}")
 
     def snailsave(self, sfile):
         print("saving")
@@ -326,13 +318,13 @@ class Snail():
                     text_content = text_content[len("```json"):].strip()
                 if text_content.endswith("```"):
                     text_content = text_content[:-len("```")].strip()
-                snaildata = json.loads(text_content)
+                LastAnalyze = json.loads(text_content)
 
                 output_dict = {}
                 output_dict["newsData"] = []
                 current_iso_date = datetime.now().isoformat()
 
-                for item_key_str, original_item_data in snaildata.items():
+                for item_key_str, original_item_data in LastAnalyze.items():
                     transformed_item = {}
 
                     try:
@@ -348,17 +340,23 @@ class Snail():
                     transformed_item["category"] = original_item_data.get(
                         "category", "news")
                     if transformed_item["category"] == "Economy":
-                        transformed_item["image"] = (f'images/economy/im{random.randint(1, 30)}.jpg')
+                        transformed_item["image"] = (
+                            f'images/economy/im{random.randint(1, 30)}.jpg')
                     elif transformed_item["category"] == "Finance":
-                        transformed_item["image"] = (f'images/finance/im{random.randint(1, 15)}.jpg')
+                        transformed_item["image"] = (
+                            f'images/finance/im{random.randint(1, 15)}.jpg')
                     elif transformed_item["category"] == "Investing":
-                        transformed_item["image"] = (f'images/investing/im{random.randint(1, 10)}.jpg')
+                        transformed_item["image"] = (
+                            f'images/investing/im{random.randint(1, 10)}.jpg')
                     elif transformed_item["category"] == "Markets":
-                        transformed_item["image"] = (f'images/markets/im{random.randint(1, 10)}.jpg')
+                        transformed_item["image"] = (
+                            f'images/markets/im{random.randint(1, 10)}.jpg')
                     elif transformed_item["category"] == "Science":
-                        transformed_item["image"] = (f'images/science/im{random.randint(1, 10)}.jpg')
+                        transformed_item["image"] = (
+                            f'images/science/im{random.randint(1, 10)}.jpg')
                     elif transformed_item["category"] == "Technology":
-                        transformed_item["image"] = (f'images/technology/im{random.randint(1, 10)}.jpg')
+                        transformed_item["image"] = (
+                            f'images/technology/im{random.randint(1, 10)}.jpg')
                     transformed_item["importance"] = original_item_data.get(
                         "importance", "medium")
                     transformed_item["date"] = current_iso_date
@@ -367,9 +365,10 @@ class Snail():
                 print(
                     "gemeni's result was not in form of needed structure; saving process has been canceled!")
                 return
-            with open(os.path.join(snailpath, f"Snaildata.json"), 'w', encoding='utf-8') as file:
+            with open(os.path.join(snailpath, f"LastAnalyze.json"), 'w', encoding='utf-8') as file:
                 json.dump(output_dict, file, indent=4, ensure_ascii=False)
-                print("snaildata saved successfully")
+                navigation.nav.separate()
+                print("LastAnalyze saved successfully")
         except:
             print("snail: failed at saving file")
 
