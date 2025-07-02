@@ -370,7 +370,9 @@ class Snail():
                 navigation.nav.separate()
                 print("LastAnalyze saved successfully")
         except:
-            print("snail: failed at saving file")
+            print(sfile)
+            print(transformed_item)
+            print("snail: failed at saving file, maybe the format is not right")
 
     def get_news_data(self):
         data = ""

@@ -89,7 +89,7 @@ class Nav():
 
     def mining(self, category=''):
         if category == '':
-            for item in ['SnEconomy', 'SnFinance', 'SnMarkets', 'SnMarkets', 'SnInvesting', 'SnTecnology', 'SnScience']:
+            for item in ['SnEconomy', 'SnFinance', 'SnMarkets', 'SnInvesting', 'SnTecnology', 'SnScience']:
                 adding_item = self.Navread(item)
                 for state in adding_item["newsData"]:
                     if state["importance"] == self.importance:
