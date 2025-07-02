@@ -21,6 +21,7 @@ from . import views
 
 
 urlpatterns = [
+    path('',views.mainPage, name='mainPage'),
     path('admin/', views.admin_panel_view, name='admin_panel'),
     path('admin/control/', views.control_view, name='control_commands'),
     path("__reload__/", include("django_browser_reload.urls")),

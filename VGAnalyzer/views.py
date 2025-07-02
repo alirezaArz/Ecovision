@@ -14,6 +14,9 @@ if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
 
+def mainPage(request):
+    return render(request, 'mainPage.html')
+
 @csrf_exempt
 def getCryptoData(request):
     crypto_data = systems.vgsy.getStatGeckoPrice()
@@ -57,7 +60,6 @@ def api_nav(request, id):
 
 @csrf_exempt
 def admin_panel_view(request):
-    """Renders the main admin panel HTML page."""
     return render(request, 'admin_panel.html')
 
 
