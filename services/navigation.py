@@ -21,52 +21,36 @@ class Nav():
                 f"Nav : {name}.json is not where it sould be at {Navpath}")
 
     def saveNavigation(self, data, adress):
-        self.lastdata:dict = self.Navread(adress)
-
-    # - THIS IS WHERE WE SHOULD DELETE THE UNUSED NEWS ONLY IF THEY ARE OLDER THAN (for example 3days)
-    # - AND WE START WITH 'LESS IMPORTANST' AND WILL CONTINU UNTILL THERE ARE 2 NEWS IN THE FILE
-    # - SO THE FILE SHOULDNT BE EMPTY AT ALL!!!
-
-
+        self.lastdata = self.Navread(adress)
     #-----------------------------------------------------------------------------------------
-
     # - here, i take the time of now, check for all of the older-than-3days data, save them in a dictionary, 
     # - then delete the old data, with the order starting from the less important data, only if there are 
     # - more than two data left
 
-
         timenow = datetime.datetime.now()
-        tobedeleted = []
+        print(timenow)
+        self.tobedeleted = []
 
         for newsdic in self.lastdata["newsData"]:
             if  timenow - newsdic["date"] > timedelta(days=3):
-                tobedeleted.append(newsdic)
+                self.tobedeleted.append(newsdic)
         
-        for willdelete in tobedeleted:
-            if willdelete["importance"] == "low":
-                if len(self.lastdata["newsData"]) > 2:        
-                    if willdelete in self.lastdata["newsData"]:
-                        self.lastdata["newsData"].remove(willdelete)
-
-        for willdelete in tobedeleted:
-            if willdelete["importance"] == "medium":
-                if len(self.lastdata["newsData"]) > 2:        
-                    if willdelete in self.lastdata["newsData"]:
-                        self.lastdata["newsData"].remove(willdelete)
-        
-        for willdelete in tobedeleted:
-            if willdelete["importance"] == "high":
-                if len(self.lastdata["newsData"]) > 2:        
-                    if willdelete in self.lastdata["newsData"]:
-                        self.lastdata["newsData"].remove(willdelete)
-        
-        
-        
-    #-------------------------------------------------------------------------------------------
-
+        for cy in ["low", "medium", "high"]:
+            self.deleteCycle(cy)
+    
         self.lastdata["newsData"].append(data)
         with open(os.path.join(Navpath, f"{adress}.json"), 'w', encoding='utf-8') as file:
             json.dump(self.lastdata, file, indent=4, ensure_ascii=False)
+
+
+    def deleteCycle(self, importance):
+        for willdelete in self.tobedeleted:
+            if willdelete["importance"] == importance:
+                if len(self.lastdata["newsData"]) > 2:        
+                    if willdelete in self.lastdata["newsData"]:
+                        self.lastdata["newsData"].remove(willdelete)
+
+
 
     def separate(self):
         print("navigating data")
@@ -155,4 +139,4 @@ class Nav():
         print("out site ready")
 
 nav = Nav()
-#nav.separate()
+nav.separate()
