@@ -36,7 +36,7 @@ def api_nav(request, id):
     key = request.GET.get('key', 'admin')
 
     if key == 'admin':
-        if id in ['crypto', 'economy','finance', 'investing', 'markets', 'science', 'tecnology']:
+        if id in ['crypto', 'economy','finance', 'investing', 'markets', 'science', 'tecnology', 'news']:
             if id == 'crypto':
                 return getCryptoData(request)
             elif id == 'economy':
