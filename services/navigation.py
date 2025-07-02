@@ -39,7 +39,8 @@ class Nav():
         tobedeleted = []
 
         for newsdic in self.lastdata["newsData"]:
-            if  timenow - newsdic["date"] > timedelta(days=3):
+            a = datetime.datetime.fromisoformat(newsdic["date"])
+            if  timenow - a > timedelta(days=3):
                 tobedeleted.append(newsdic)
         
         for willdelete in tobedeleted:
