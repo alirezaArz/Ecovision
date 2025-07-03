@@ -1,20 +1,21 @@
 :root {
-    --bg-primary: #9EC8B9; /* Dark Gray (Charcoal) */
-    --bg-secondary: #5C8374; /* Slightly lighter gray-blue for cards */
-    --text-color: #9cdfe0; /* Light Gray */
-    --text-light: #42d6d6; /* Pure White for headings */
-    --accent-color: #094c7e; /* DarkCyan */
-    --accent-hover: #158977; /* MediumTurquoise - lighter DarkCyan */
-    --border-color: #2b83b6; /* Slightly darker border */
+    --bg-primary: #9EC8B9;
+    --bg-secondary: #5C8374;
+    --text-color: #ffffff;
+    --text-light: #ffffff;
+    --accent-color: rgb(4, 173, 192);
+    --accent-hover: #6533faf5;
+    --border-color: #2b83b6;
     --shadow-color: rgba(10, 138, 173, 0.447);
+    --title-tag-bg: #2E2E2E;
 
     --button-primary: var(--accent-color);
     --button-hover: var(--accent-hover);
     --button-text: var(--text-light);
 
-    --run-button-bg: #0f438e; /* SaddleBrown / Potato-ish */
-    --run-button-hover: #053760; /* Sienne - lighter Potato */
-    --run-button-active-feedback: #2783cf; /* SlateBlue - different accent color for click feedback */
+    --run-button-bg: rgb(4, 173, 192);
+    --run-button-hover: rgb(7, 200, 221);
+    --run-button-active-feedback: #2783cf;
 }
 
 * {
@@ -24,39 +25,43 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to top left, #05004d, #00816b);
+    font-family: 'Comfortaa', sans-serif,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(10, 72, 86);
+    background-image: radial-gradient(circle,rgb(13, 128, 116) 1px, transparent 1px);
+    background-size: 25px 25px;
     color: var(--text-color);
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: flex-start; /* Align to top vertically */
+    justify-content: center;
+    align-items: flex-start;
     min-height: 100vh;
-    direction: rtl; /* For RTL support */
+    direction: rtl;
     padding: 20px;
 }
 
 .container {
     width: 100%;
-    max-width: 1000px; /* Reduced max-width for more central focus */
-    border-radius: 12px; /* Slightly more rounded corners */
-    overflow: hidden;
-    box-shadow: 0 15px 40px var(--shadow-color); /* Stronger shadow */
-    display: flex; /* Flex container for header and cards wrapper */
+    display: flex;
     flex-direction: column;
+    align-items: center; /* Center children horizontally */
+    gap: 25px;
 }
 
-/* Main Header Styling */
+/* Main Header Styling - Now constrained in width */
 .main-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 30px;
-    border-bottom: 1px solid var(--border-color);
     color: var(--text-light);
+    background: linear-gradient(to top left,rgb(15, 65, 94),rgb(12, 166, 177));
+    border-radius: 10px;
+    padding: 20px 30px;
+    box-shadow: 0 6px 15px var(--shadow-color);
+    width: 100%;
+    max-width: 925px; /* KEY CHANGE: Sets a max-width to match the cards below */
 }
 
 .main-header h1 {
-    font-size: 2.5em; /* Larger heading */
+    font-size: 2.2em;
     font-weight: 700;
     color: var(--text-light);
 }
@@ -64,7 +69,7 @@ body {
 .header-right {
     display: flex;
     align-items: center;
-    gap: 30px; /* More space between global controls */
+    gap: 30px;
 }
 
 .global-control {
@@ -75,15 +80,16 @@ body {
 
 .action-button {
     background-color: var(--button-primary);
+    font-family: 'Comfortaa', sans-serif,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--button-text);
     border: none;
-    padding: 12px 28px; /* Slightly more padding */
-    border-radius: 8px; /* More rounded buttons */
+    padding: 12px 28px;
+    border-radius: 8px;
     cursor: pointer;
     font-size: 1.1em;
     font-weight: 600;
     transition: background-color 0.2s ease, transform 0.1s ease;
-    min-width: 120px; /* Minimum width for consistency */
+    min-width: 120px;
     text-align: center;
 }
 
@@ -95,25 +101,26 @@ body {
     transform: translateY(1px);
 }
 
-/* Cards Wrapper - For centering and arrangement */
+/* Cards Wrapper - Also constrained in width */
 .cards-wrapper {
-    padding: 30px;
-    display: flex; /* Use flexbox for cards */
-    flex-wrap: wrap; /* Allow cards to wrap */
-    gap: 25px; /* Space between cards */
-    justify-content: center; /* Center cards horizontally */
-    align-items: flex-start; /* Align cards to top */
+    width: 100%;
+    max-width: 925px; /* KEY CHANGE: Matches the header's max-width */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    align-items: flex-start; /* Align cards to the top */
 }
 
 .card {
-    background: linear-gradient(to top left, #24c585, #0e2d9b); /* Card background is now primary */
-    border-radius: 10px; /* Slightly more rounded cards */
+    background: linear-gradient(to top left,rgb(15, 65, 94),rgb(12, 166, 177));
+    border-radius: 10px;
     padding: 30px;
-    box-shadow: 0 6px 15px var(--shadow-color); /* Stronger shadow */
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    flex: 1 1 450px; /* Flex for consistent size, allows wrap */
-    min-width: 300px; /* Minimum width */
-    max-width: 45%; /* Max width to allow two columns on larger screens */
+    box-shadow: 0 6px 15px var(--shadow-color);
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    flex: 1 1 400px; /* Allow cards to grow/shrink */
+    position: relative;
+    /* min-height property removed to allow natural height */
 }
 
 .card:hover {
@@ -121,18 +128,28 @@ body {
     box-shadow: 0 12px 25px rgba(10, 97, 118, 0.5);
 }
 
+/* Card Title Tag Styling */
 .card h3 {
+    position: absolute;
+    top: -15px;
+    right: 25px;
+    background-color: var(--title-tag-bg);
     color: var(--text-light);
-    font-size: 1.8em;
-    margin-bottom: 25px;
-    border-bottom: 1px solid var(--border-color);
-    padding-bottom: 12px;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    border-bottom: none;
+    margin-bottom: 0;
 }
 
 .card-content {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* More space between toggle groups */
+    gap: 20px;
+    margin-top: 20px;
 }
 
 /* Toggle Switch Styling */
@@ -145,8 +162,8 @@ body {
 .toggle-switch {
     position: relative;
     display: inline-block;
-    width: 65px; /* Slightly wider toggle */
-    height: 36px; /* Slightly taller toggle */
+    width: 65px;
+    height: 36px;
 }
 
 .toggle-switch input {
@@ -162,7 +179,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #6b8380; /* Darker gray for off state */
+    background-color: #6b8380;
     transition: .4s;
     border-radius: 36px;
 }
@@ -188,7 +205,7 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
-    transform: translateX(29px); /* Adjusted for wider toggle */
+    transform: translateX(29px);
 }
 
 .toggle-label {
@@ -221,7 +238,7 @@ input:checked + .slider:before {
     color: var(--text-light);
 }
 
-/* Run Button Styling (Text-based) */
+/* Run Button Styling */
 .toggle-and-run-group {
     display: flex;
     justify-content: space-between;
@@ -247,7 +264,7 @@ input:checked + .slider:before {
     font-weight: 500;
     transition: background-color 0.2s ease, transform 0.1s ease;
     flex-shrink: 0;
-    min-width: 70px; /* Minimum width for run buttons */
+    min-width: 70px;
     text-align: center;
 }
 
@@ -259,18 +276,25 @@ input:checked + .slider:before {
     transform: translateY(1px);
 }
 
-/* Active state for run button (visual feedback) */
 .run-button.active-feedback {
-    background-color: var(--run-button-active-feedback); /* Different color for feedback */
+    background-color: var(--run-button-active-feedback);
 }
 
 /* Responsive Design */
-@media (max-width: 1050px) {
-    .container {
-        max-width: 95%;
+@media (max-width: 940px) { /* Adjusted breakpoint */
+    .main-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
     }
-    .card {
-        max-width: 100%; /* Stack cards vertically on smaller screens */
+    .header-right {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        width: 100%;
+    }
+    .action-button {
+        width: 100%;
     }
 }
 
@@ -278,50 +302,13 @@ input:checked + .slider:before {
     body {
         padding: 10px;
     }
-    .container {
-        border-radius: 0;
-        box-shadow: none;
-    }
-    .main-header {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 20px;
-        padding: 15px 20px;
-    }
-    .main-header h1 {
-        font-size: 2em;
-    }
-    .header-right {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 15px;
-        width: 100%; /* Full width for global controls */
-    }
-    .action-button {
-        width: 100%;
-    }
-    .cards-wrapper {
-        padding: 20px;
-        gap: 20px;
-    }
-    .card {
-        padding: 20px;
-    }
-    .card h3 {
-        font-size: 1.6em;
-        margin-bottom: 15px;
-    }
-    .toggle-group {
-        flex-direction: row; /* Ensure they stay in a row if possible */
-        align-items: center;
-    }
     .toggle-and-run-group {
-        flex-direction: column; /* Stack toggle and run button on very small screens */
-        align-items: flex-start; /* Align left */
+        flex-direction: column;
+        align-items: flex-start;
         gap: 10px;
     }
     .run-button {
-        width: 100%; /* Full width for run button */
+        width: 100%;
         min-width: unset;
     }
 }

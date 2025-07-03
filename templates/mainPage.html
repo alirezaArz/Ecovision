@@ -37,10 +37,14 @@
             background: linear-gradient(to top left,rgb(15, 65, 94),rgb(12, 166, 177));
             border-radius: 12px;
             box-shadow: 0 4px 15px rgba(11, 88, 107, 0.81);
+            transition: background-color 0.4s ease, transform 0.3s ease;
             padding: 30px;
             position: relative; /* برای موقعیت‌دهی مطلق برچسب‌ها */
         }
-
+        .panel:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 25px rgba(10, 97, 118, 0.5);
+        }
         .panel-label {
             position: absolute;
             background-color: #333; /* خاکستری تیره‌تر برای برچسب‌ها */
