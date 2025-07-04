@@ -1,283 +1,157 @@
 {
     "newsData": [
         {
+            "image": "images/economy/im14.jpg",
             "id": 0,
-            "title": "تأثیر جنگ ۱۲ روزه بر اقتصاد اسرائیل",
-            "summary": "جنگ ۱۲ روزه بین اسرائیل و ایران خسارات گسترده‌ای به اقتصاد اسرائیل وارد کرده است، از جمله کاهش تولید صنعتی، افزایش کسری بودجه، تعطیلی مشاغل و کاهش رشد اقتصادی.",
+            "title": "در شرایط بحرانی مانند تنش\\u200cهای ژئوپلیتیک، اولویت اصلی در رویکرد اقتصادی دولت\\u200cها باید حمایت از خانوارها و بنگاه\\u200cها باشد، حتی اگر این حمایت منجر به افزایش کسری بودجه یا رشد پایه پولی شود.",
+            "summary": "در شرایط بحرانی، دولت‌ها باید از خانوارها و بنگاه‌ها حمایت کنند، حتی اگر منجر به افزایش کسری بودجه شود، و تامین مالی کسری بودجه می‌تواند از طریق افزایش مالیات، استقراض یا افزایش پایه پولی انجام شود.",
             "category": "Economy",
-            "image": "images/economy/im13.jpg",
             "importance": "high",
-            "date": "2025-07-01T20:54:31.882414"
+            "date": "2025-07-05T02:22:30.739365"
         },
         {
+            "image": "images/economy/im18.jpg",
             "id": 1,
-            "title": "تأثیر جنگ ۱۲ روزه بر اقتصاد اسرائیل",
-            "summary": "جنگ ۱۲ روزه بین اسرائیل و ایران خسارات گسترده‌ای به اقتصاد اسرائیل وارد کرده است، از جمله کاهش تولید صنعتی، افزایش کسری بودجه، تعطیلی مشاغل و کاهش رشد اقتصادی.",
+            "title": "بر اساس گزارش مرکز آمار ایران، تورم نقطه به نقطه در پایان خرداد باثبت نرخ ۳۹.۴درصد، به بیشترین سطح از آذرماه۱۴۰۲ رسیده است.",
+            "summary": "تورم نقطه به نقطه در پایان خرداد به بیشترین سطح از آذرماه ۱۴۰۲ رسیده و گروه خوراکی‌ها بیشترین اثرگذاری را در نرخ تورم داشته است.",
             "category": "Economy",
-            "image": "images/economy/im13.jpg",
-            "importance": "high",
-            "date": "2025-07-01T20:54:31.882414"
+            "importance": "medium",
+            "date": "2025-07-05T02:22:30.698727"
         },
         {
+            "image": "images/economy/im12.jpg",
             "id": 2,
-            "title": "دولت در جنگ ۱۲روزه با اقداماتی نظیر تامین ارز برای واردات کالاهای اساسی اختلالات مقطعی در زنجیره تامین را کنترل کرد",
-            "summary": "دولت با تامین ارز، کاهش بوروکراسی، بسته حمایتی و بازگشت ارز ترجیحی، اختلالات زنجیره تامین را کنترل کرد و بازسازی زیرساخت‌ها و حمایت از کسب‌وکارها باید در اولویت قرار گیرد و اصلاحات ساختاری برای مهار تورم، کاهش کسری بودجه و رفع تحریم‌ها ضروری است.",
+            "title": "با درگیری بی\\u200c\\u200c\\u200cسابقه و تنش\\u200c\\u200c\\u200cزای ۱۲ روزه میان اسرائیل و ایران که با حملات موشکی متقابل، خسارات گسترده زیرساختی و تعطیلی\\u200c\\u200c\\u200cهای سراسری در سرزمین\\u200c\\u200c\\u200cهای اشغالی همراه بود، مقامات اقتصادی اسرائیل از یک ضربه بی\\u200c\\u200c\\u200cسابقه به پیکر اقتصاد سخن می\\u200cگویند.",
+            "summary": "درگیری ۱۲ روزه بین اسرائیل و ایران ضربه بی‌سابقه‌ای به اقتصاد اسرائیل وارد کرده و منجر به کاهش تولید صنعتی، افزایش کسری بودجه و کاهش رشد اقتصادی شده است.",
             "category": "Economy",
-            "image": "images/economy/im9.jpg",
             "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
+            "date": "2025-07-05T02:22:30.699753"
         },
         {
-            "id": 3,
-            "title": "افزایش نرخ تورم نقطه به نقطه در خرداد ماه",
-            "summary": "بر اساس گزارش مرکز آمار ایران، تورم نقطه به نقطه در پایان خرداد به ۳۹.۴ درصد رسیده که بیشترین سطح از آذرماه ۱۴۰۲ است و نرخ تورم ماهانه ۳.۳ درصد بوده که نسبت به ماه قبل افزایش داشته و گروه خوراکی‌ها بیشترین تاثیر را داشته‌اند.",
-            "category": "Economy",
-            "image": "images/economy/im22.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 4,
-            "title": "اقدامات حمایتی دولت ایران در دوران جنگ ۱۲روزه",
-            "summary": "دولت ایران با تامین ارز برای کالاهای اساسی، کاهش بوروکراسی، تدوین بسته حمایتی، و لغو ممنوعیت واردات، اختلالات زنجیره تامین کالاهای اساسی را به سرعت از بین برد.",
-            "category": "Economy",
             "image": "images/economy/im10.jpg",
+            "id": 3,
+            "title": "جنگ ۱۲ روزه میان ایران و اسرائیل، چالش\\u200cهای اقتصادی کسب\\u200cو\\u200cکارها و خانوارها را بیش از پیش تشدید کرده است.",
+            "summary": "جنگ ۱۲ روزه بین ایران و اسرائیل، چالش‌های اقتصادی برای کسب‌وکارها و خانوارها را تشدید کرده و نیاز به اصلاحات اقتصادی را برجسته ساخته است.",
+            "category": "Economy",
             "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
+            "date": "2025-07-05T02:22:30.711938"
         },
         {
+            "image": "images/economy/im5.jpg",
+            "id": 4,
+            "title": "وزیر اقتصاد از رشد ۵۳درصدی واردات کالاهای اساسی در هفته گذشته خبر داد و گفت: تلاش شبانه\\u200cروزی گمرک منجر به ترخیص ۹۸۰هزار تن کالا شد.",
+            "summary": "واردات کالاهای اساسی در هفته گذشته ۵۳ درصد رشد داشته و ۹۸۰ هزار تن کالا ترخیص شده است.",
+            "category": "Economy",
+            "importance": "medium",
+            "date": "2025-07-05T02:22:30.721043"
+        },
+        {
+            "image": "images/economy/im21.jpg",
             "id": 5,
-            "title": "پیش‌بینی سناریوهای تورم در پایان سال ۱۴۰۴",
-            "summary": "با توجه به آخرین آمار منتشر شده از تورم در خرداد ماه ۱۴۰۴ می‌توان در پنج سناریو تورم را در پایان سال جاری پیش‌بینی کرد.",
+            "title": "حمله رژیم صهیونیستی به ایران، اثرات مختلفی بر قیمت نفت، تورم، رشد اقتصادی و وضعیت گردشگری دنیا و کشورهای منطقه می\\u200cگذارد.",
+            "summary": "حمله اسرائیل به ایران اثرات متعددی بر قیمت نفت، تورم، رشد اقتصادی و گردشگری در سطح جهانی و منطقه‌ای خواهد گذاشت.",
             "category": "Economy",
-            "image": "images/economy/im9.jpg",
             "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
+            "date": "2025-07-05T02:22:30.730718"
         },
         {
+            "image": "images/economy/im10.jpg",
             "id": 6,
-            "title": "عوامل موثر بر ماندگاری توافق آتش‌بس",
-            "summary": "ماندگاری توافق‌های آتش‌بس به عوامل سیاسی و اقتصادی وابسته است که شامل فرآیند حل‌وفصل خشونت، نظارت بین‌المللی، و ارتباط متقابل کشورها با قدرت‌های جهانی است.",
+            "title": "دولت در جنگ ۱۲روزه با اقداماتی نظیر تامین ارز برای واردات کالاهای اساسی، کاهش بوروکراسی ترخیص کالا، تدوین بسته حمایتی برای صنایع و بازگشت ارز ترجیحی برای برخی از کالاها موفق شد با سرعت قابل قبولی اختلالات مقطعی در زنجیره تامین را کنترل کند",
+            "summary": "دولت با اقداماتی نظیر تامین ارز برای واردات کالاهای اساسی و کاهش بوروکراسی ترخیص کالا، موفق به کنترل اختلالات زنجیره تامین در دوران جنگ شد، اما اصلاحات ساختاری برای مهار تورم و کاهش کسری بودجه ضروری است.",
             "category": "Economy",
-            "image": "images/economy/im27.jpg",
             "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
+            "date": "2025-07-05T02:22:30.759538"
         },
         {
             "id": 7,
-            "title": "تشدید چالش‌های اقتصادی کسب‌و‌کارها و خانوارها در پی جنگ ۱۲ روزه",
-            "summary": "جنگ ۱۲ روزه میان ایران و اسرائیل، چالش‌های اقتصادی کسب‌و‌کارها و خانوارها را تشدید کرده و نیازمند اصلاحات اقتصادی و تغییر نگرش در حکمرانی اقتصادی است.",
-            "category": "Economy",
-            "image": "images/economy/im25.jpg",
+            "title": "CrowdStrike forecasts downbeat second-quarter revenue, shares fall",
+            "summary": "CrowdStrike forecasts downbeat second-quarter revenue, shares fall",
+            "category": "Finance",
+            "image": "images/finance/im7.jpg",
             "importance": "medium",
             "date": "2025-07-01T20:54:31.882414"
         },
         {
             "id": 8,
-            "title": "لزوم اجرای سیاست‌های رفاهی هدفمند پس از آتش‌بس",
-            "summary": "پس از برقراری آتش‌بس، دولت ایران باید سیاست‌های رفاهی هدفمند و کوتاه‌مدت را برای کاهش فشار بر خانوارها اجرا کند.",
-            "category": "Economy",
-            "image": "images/economy/im30.jpg",
+            "title": "Billionaires Are Selling Nvidia Stock and Buying a Stock-Split AI Stock Up 530% in 5 Years",
+            "summary": "Billionaires Are Selling Nvidia Stock and Buying a Stock-Split AI Stock Up 530% in 5 Years",
+            "category": "Finance",
+            "image": "images/finance/im11.jpg",
             "importance": "medium",
             "date": "2025-07-01T20:54:31.882414"
         },
         {
+            "image": "images/finance/im4.jpg",
             "id": 9,
-            "title": "افزایش فشار بر اقتصاد اسرائیل در پی تجاوز به ایران",
-            "summary": "با گذشت بیش از یک هفته از تجاوز اسرائیل به خاک ایران، سوالات جدی درباره تاب‌آوری اقتصاد اسرائیل به وجود آمده و کسری بودجه و هزینه‌های نظامی فشار را افزایش داده است.",
-            "category": "Economy",
-            "image": "images/economy/im10.jpg",
+            "title": "کارشناسان تاکید دارند بانک مرکزی در این شرایط باید برای حفظ ثبات اقتصادی و اعتماد عمومی، سیاست\\u200cهای انقباضی را در دستور کار خود قرار دهد",
+            "summary": "کارشناسان توصیه می‌کنند بانک مرکزی برای حفظ ثبات اقتصادی و اعتماد عمومی سیاست‌های انقباضی را در پیش گیرد.",
+            "category": "Finance",
             "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
+            "date": "2025-07-05T02:22:30.749123"
         },
         {
             "id": 10,
-            "title": "پیامدهای نظامی‌گری آمریکا بر بازارهای جهانی و اقتصاد ایالات متحده",
-            "summary": "تشدید نظامی‌گری آمریکا می‌تواند پس‌لرزه‌های مخربی را در بازارهای جهانی و اقتصاد ایالات متحده ایجاد کند، از جمله افزایش قیمت طلا و نفت، و کاهش بازارهای سهام.",
-            "category": "Economy",
-            "image": "images/economy/im24.jpg",
+            "title": "تغییر معادلات بازارهای جهانی و داخلی در پی تجاوز نظامی اسرائیل به ایران",
+            "summary": "تجاوز نظامی اسرائیل به ایران، معادلات بازارهای جهانی و داخلی را تغییر داد و نوسان مقطعی در بازار ارز تهران غیرقابل اجتناب است.",
+            "category": "Markets",
+            "image": "images/markets/im8.jpg",
             "importance": "medium",
             "date": "2025-07-01T20:54:31.882414"
         },
         {
             "id": 11,
-            "title": "رشد واردات کالاهای اساسی در هفته گذشته",
-            "summary": "وزیر اقتصاد از رشد ۵۳درصدی واردات کالاهای اساسی در هفته گذشته خبر داد و گفت: تلاش شبانه‌روزی گمرک منجر به ترخیص ۹۸۰هزار تن کالا شد.",
-            "category": "Economy",
-            "image": "images/economy/im15.jpg",
+            "title": "Global Markets Rise, U.S. Futures Flat After Tech-Led Rally",
+            "summary": "Global Markets Rise, U.S. Futures Flat After Tech-Led Rally",
+            "category": "Markets",
+            "image": "images/markets/im10.jpg",
             "importance": "medium",
             "date": "2025-07-01T20:54:31.882414"
         },
         {
             "id": 12,
-            "title": "رشد واردات کالاهای اساسی در هفته آخر خرداد",
-            "summary": "حجم واردات کالاهای اساسی در هفته آخر خرداد به ۹۸۰ هزار تن رسیده که نسبت به هفته قبل از آن ۵۳ درصد رشد نشان می‌دهد.",
-            "category": "Economy",
-            "image": "images/economy/im8.jpg",
+            "title": "تغییر معادلات بازارهای جهانی و داخلی در پی تجاوز نظامی اسرائیل به ایران",
+            "summary": "تجاوز نظامی اسرائیل به ایران، معادلات بازارهای جهانی و داخلی را تغییر داد و نوسان مقطعی در بازار ارز تهران غیرقابل اجتناب است.",
+            "category": "Markets",
+            "image": "images/markets/im8.jpg",
             "importance": "medium",
             "date": "2025-07-01T20:54:31.882414"
         },
         {
             "id": 13,
-            "title": "نگرانی‌ها نسبت به امنیت تامین کالاهای اساسی در شرایط بحرانی",
-            "summary": "در شرایط بحرانی مانند جنگ، افزایش تقاضا برای کالاهای اساسی امری طبیعی است و سیاست‌های دستوری می‌توانند با دامن زدن به احتکار، روند تامین را مختل کنند.",
-            "category": "Economy",
-            "image": "images/economy/im7.jpg",
+            "title": "Global Markets Rise, U.S. Futures Flat After Tech-Led Rally",
+            "summary": "Global Markets Rise, U.S. Futures Flat After Tech-Led Rally",
+            "category": "Markets",
+            "image": "images/markets/im10.jpg",
             "importance": "medium",
             "date": "2025-07-01T20:54:31.882414"
         },
         {
             "id": 14,
-            "title": "تاثیر حمله رژیم صهیونیستی به ایران بر اقتصاد جهانی و منطقه",
-            "summary": "حمله رژیم صهیونیستی به ایران، اثرات مختلفی بر قیمت نفت، تورم، رشد اقتصادی و وضعیت گردشگری دنیا و کشورهای منطقه می‌گذارد.",
-            "category": "Economy",
-            "image": "images/economy/im17.jpg",
+            "title": "Hewlett Packard beats Q2 results estimates on AI demand; records $1.36 billion charge",
+            "summary": "Hewlett Packard beats Q2 results estimates on AI demand; records $1.36 billion charge",
+            "category": "Technology",
+            "image": "images/technology/im6.jpg",
             "importance": "medium",
             "date": "2025-07-01T20:54:31.882414"
         },
         {
             "id": 15,
-            "title": "اولویت حمایت از خانوارها و بنگاه‌ها در شرایط بحرانی",
-            "summary": "در شرایط بحرانی، اولویت اصلی باید حمایت از خانوارها و بنگاه‌ها باشد، حتی اگر این حمایت منجر به افزایش کسری بودجه شود.",
-            "category": "Economy",
-            "image": "images/economy/im6.jpg",
+            "title": "Top Artificial Intelligence (AI) to Buy Hand Over Fist Before It Is Too Late",
+            "summary": "Top Artificial Intelligence (AI) to Buy Hand Over Fist Before It Is Too Late",
+            "category": "Technology",
+            "image": "images/technology/im2.jpg",
             "importance": "medium",
             "date": "2025-07-01T20:54:31.882414"
         },
         {
+            "image": "images/technology/im9.jpg",
             "id": 16,
-            "title": "لزوم حمایت از مردم و فعالان اقتصادی در شرایط بحرانی",
-            "summary": "در شرایط بحرانی، سیاستگذاران همواره به دنبال اعمال سیاست‌هایی جهت حمایت از مردم و فعالان اقتصادی هستند.",
-            "category": "Economy",
-            "image": "images/economy/im24.jpg",
+            "title": "با پیشرفت تکنولوژی، اکنون سیستم\\u200cهای مبتنی بر هوش\\u200cمصنوعی نیز به ابزاری بدل شده\\u200cاند که می\\u200cتوانند در زمینه نظامی مزیتی قابل\\u200cتوجه برای استفاده\\u200cکنندگان آن به وجود بیاورند.",
+            "summary": "سیستم‌های هوش مصنوعی به ابزاری در زمینه نظامی تبدیل شده‌اند که می‌توانند مزایای قابل توجهی را در شناسایی اهداف و تحلیل داده‌ها ارائه دهند.",
+            "category": "Technology",
             "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 17,
-            "title": "درس‌های اقتصاد جنگ از تجربه ۸ ساله جنگ ایران و عراق",
-            "summary": "تجربه ۸ ساله جنگ ایران و عراق گرچه با هزینه‌های سنگینی همراه بود، اما در دل خود، درس‌های مهمی برای مدیریت اقتصاد در شرایط بحران به جا گذاشت.",
-            "category": "Economy",
-            "image": "images/economy/im26.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 18,
-            "title": "چالش‌های اقتصادی در شرایط جنگ و تنش‌های منطقه‌ای",
-            "summary": "در شرایط جنگ و افزایش تنش‌های منطقه‌ای و بین‌المللی، اقتصاد هر کشوری با چالش‌های بی‌سابقه‌ای روبه‌رو می‌شود و اتخاذ تدابیر پیشگیرانه و حمایتی از سوی دولت حیاتی است.",
-            "category": "Economy",
-            "image": "images/economy/im28.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 19,
-            "title": "تصمیمات فوری برای مدیریت بحران و افزایش تاب آوری کشور",
-            "summary": "در شرایط جنگی، سیاستگذاران با چالش‌های جدی روبه رو هستند و لازم است تصمیمات فوری برای مدیریت بحران و افزایش تاب آوری کشور اتخاذ کنند.",
-            "category": "Economy",
-            "image": "images/economy/im20.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 20,
-            "title": "آسیب‌پذیری بیشتر خانوارهای کم درآمد در شرایط اضطراری مانند جنگ",
-            "summary": "در شرایط اضطراری مانند جنگ، خانوارهایی که کمترین درآمد را دارند بیش از سایر خانوارها آسیب‌پذیر هستند و نیازمند حمایت‌های دولتی هستند.",
-            "category": "Economy",
-            "image": "images/economy/im14.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 21,
-            "title": "Trump Signals U.S. Is Nearing Trade Deals but Says Some Countries Will Face Tariffs",
-            "summary": "President Trump said the United States would send out letters telling other countries “what they have to pay,” even as other officials said negotiations could be extended past a July deadline.",
-            "category": "Economy",
-            "image": "images/economy/im19.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 22,
-            "title": "White House Faces Risk of Economic Fallout From Iran Strike",
-            "summary": "President Trump, aware of how high gas prices could affect his popularity, demanded on social media that the U.S. “KEEP OIL PRICES DOWN.”",
-            "category": "Economy",
-            "image": "images/economy/im27.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 23,
-            "title": "Companies Ask Supreme Court to Fast-Track Challenge to Tariffs",
-            "summary": "Two toy manufacturers asked the court to greatly expedite their case, in an unusual request.",
-            "category": "Economy",
-            "image": "images/economy/im6.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 24,
-            "title": "As Trump Returns to G7, Rift With Allies Is Even Deeper",
-            "summary": "In 2018, the president called for the group to embrace Russia and stormed out of the summit. Now he is seeking to shrink America’s military role abroad and embarking on a more expansive trade war.",
-            "category": "Economy",
-            "image": "images/economy/im30.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 25,
-            "title": "‘Golden Share’ in U.S. Steel Gives Trump Extraordinary Control",
-            "summary": "Administration officials secured a deal that will give the president unusual influence over a private company, and could serve as a model for other deals.",
-            "category": "Economy",
-            "image": "images/economy/im12.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 26,
-            "title": "Where’s the Inflation From Tariffs? Just Wait, Economists Say.",
-            "summary": "Are predictions for a jump in consumer prices too early, or just wrong?",
-            "category": "Economy",
-            "image": "images/economy/im14.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 27,
-            "title": "Trump Steel Tariffs Expanded to Hit Home Appliances",
-            "summary": "The move is one of the first times this year that consumer products were specifically targeted with higher import taxes.",
-            "category": "Economy",
-            "image": "images/economy/im12.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 28,
-            "title": "New China Trade ‘Deal’ Takes U.S. Back to Where It Started",
-            "summary": "If a handshake agreement holds, it will merely undo some of the damage from the trade war that President Trump started.",
-            "category": "Economy",
-            "image": "images/economy/im29.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 29,
-            "title": "U.S. Court Agrees to Keep Trump Tariffs Intact as Appeal Gets Underway",
-            "summary": "The appeals court’s decision delivered an important but interim victory for the Trump administration.",
-            "category": "Economy",
-            "image": "images/economy/im3.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 30,
-            "title": "Trump Hails Progress With China, but Details Are Sketchy",
-            "summary": "Two days of trade talks resulted in what leaders called a framework agreement meant to solidify terms of a truce that the superpowers reached in Geneva last month.",
-            "category": "Economy",
-            "image": "images/economy/im26.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
+            "date": "2025-07-05T02:22:30.768098"
         }
     ]
 }

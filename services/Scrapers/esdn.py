@@ -31,7 +31,7 @@ def main():
     )
 
   except Exception as e:
-    print(f"{e}")
+    print(f"esdn had an error at :{e}")
 
   titles = div.find_elements(By.TAG_NAME, "a")
   titles = titles[1:-1]
@@ -64,7 +64,7 @@ def search(inp_arg):
     )
 
   except Exception as e:
-    print(f"{e}")
+    print(f"esdn had an error at :{e}")
   
   inp.click()
   inp.send_keys(inp_arg)

@@ -7,6 +7,7 @@ from django.shortcuts import render
 from django.views.decorators.csrf import csrf_exempt
 
 from services import snail as snail
+from services import analyze as analyze
 from services import systems
 
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
@@ -141,18 +142,18 @@ def control_view(request):
             elif code == '502':  # Gemini AI Toggle
                 if status == 'on':
                     print("gemeni activated")
-                    snail.snail.gemeni_active = True
+                    analyze.az.gemeni_active = True
                 elif status == 'off':
                     print("gemeni deactivated")
-                    snail.snail.gemeni_active = False
+                    analyze.az.gemeni_active = False
 
             elif code == '503':  # Local AI Toggle
                 if status == 'on':
                     print("local-ai activated")
-                    snail.snail.localai_active = True
+                    analyze.az.localai_active = True
                 elif status == 'off':
                     print("local-ai deactivated")
-                    snail.snail.localai_active = False
+                    analyze.az.localai_active = False
 
             # --- Individual Run Buttons (No more checks for 'enabled' status here) ---
             elif code == '201-run':  # GeckoCoin Run
@@ -181,10 +182,10 @@ def control_view(request):
                 snail.snail.instantrun('analyze')
             elif code == '502-run':  # Gemini AI Run
                 print('running gemini')
-                snail.snail.analyze('gemini')
+                analyze.az.MainDataAnalyze('gemini')
             elif code == '503-run':  # Local AI Run
                 print('running local-ai')
-                snail.snail.analyze('localai')
+                analyze.az.MainDataAnalyze('localai')
             else:
                 return JsonResponse({'status': 'error', 'message': f"Unknown command code: {code}"}, status=400)
 

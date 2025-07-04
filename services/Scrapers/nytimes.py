@@ -125,8 +125,8 @@ def save(data):
             with open(os.path.join(DATA_PATH , "nyt.json") , "w" , encoding="utf-8") as s:
                 json.dump(data , s , ensure_ascii= False , indent=4)
             print("nytimes done successfully")
-        except:
-            print("nytimes: file failed at saving")
+        except Exception as e:
+            print(f"nytimes: file failed at saving {e}")
             print("nytimes faled")
     else:
         print('nytimes: data is empty, saving canceled')
@@ -137,5 +137,5 @@ def load(filename= "nyt.json"):
         with open( os.path.join(DATA_PATH , "nyt.json") , "r" , encoding="utf-8") as l:
             data = json.load(l)
         return(data)
-    except:
-        print(f"nytimes : nyt.json is not where it sould be at {DATA_PATH}")
+    except Exception as e:
+        print(f"nytimes : nyt.json is not where it sould be at {DATA_PATH} ,,, : {e}")

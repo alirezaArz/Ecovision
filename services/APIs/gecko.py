@@ -16,8 +16,8 @@ def save(name: str, response: json):
             timezone.utc).strftime("%Y-%m-%d %H:%M:%S")})
         last_result.append(response)
         sendingData = last_result
-    except:
-        print("no previous save!")
+    except FileNotFoundError as e:
+        print(f"no previous save! {e}")
         sendingData = []
         response.update({"time": datetime.now(
             timezone.utc).strftime("%Y-%m-%d %H:%M:%S")})
@@ -92,8 +92,8 @@ def connect(url, params, id: str):
 
             return ("unknown error", response.status_code)
 
-    except requests.exceptions.RequestException:
-        print("unable to connect to the coingecko , check your connection and try again")
+    except requests.exceptions.ConnectionError as e:
+        print(f"unable to connect to the coingecko , check your connection and try again {e}")
 
 
 def price(ids: set, vs_currencies: set):

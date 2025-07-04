@@ -1,3 +1,15 @@
+from services import systems as system
+from services import navigation as navigation
+from services.Scrapers import yahoo
+from services.Scrapers import nytimes as nytimes
+from services.Scrapers import esdn
+from services.Scrapers import dnsd as dnsd
+from services.Scrapers import bonbast as bonbast
+from services.Scrapers import bloomberg
+from services.APIs import gecko as gecko
+from services.AI import colab as ollama
+from services.AI import gemeni as gemeni
+from services import analyze as analyze
 import json
 import os
 import random
@@ -8,21 +20,9 @@ import re
 
 from halo import Halo
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-print(project_root)
-from services.AI import gemeni as gemeni
-from services.AI import colab as ollama
-from services.APIs import gecko as gecko
-from services.Scrapers import bloomberg
-from services.Scrapers import bonbast as bonbast
-from services.Scrapers import dnsd as dnsd
-from services.Scrapers import esdn
-from services.Scrapers import nytimes as nytimes
-from services.Scrapers import yahoo
-from services import navigation as navigation
-from services import systems as system
-
 Navpath = os.path.join(project_root, 'services', 'SnailData')
 DATA_PATH = os.path.join(project_root, "scraped")
+
 
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
@@ -46,8 +46,7 @@ class Snail():
         })
         self.active = False
         self.analyze_active = False
-        self.gemeni_active = False
-        self.localai_active = False
+        
 
         self.bonbast_inprocess = False
         self.dnsd_inprocess = False
@@ -56,8 +55,6 @@ class Snail():
         self.gecko_inprocess = False
         self.esdn_inprocess = False
         self.bloomberg_inprocess = False
-        self.gemeni_inprocess = False
-        self.localai_inprocess = False
         self.durationsBackup = {
         }
 
@@ -171,7 +168,7 @@ class Snail():
 
                 try:
                     print("starting snail")
-                    self.analyze()
+                    analyze.az.MainDataAnalyze()
                 except:
                     print("analyze failed")
 
@@ -253,7 +250,7 @@ class Snail():
         if name == 'analyze':
             try:
                 print("starting analyze")
-                self.analyze()
+                analyze.az.MainDataAnalyze()
             except:
                 print("analyze failed")
         self.spinner.stop()
@@ -296,12 +293,12 @@ class Snail():
                         elif item == "bloomberg":
                             bloomberg.main()
                         if self.analyze_active == True:
-                            self.analyze()
+                            analyze.az.MainDataAnalyze()
                         self.durations[item] = self.durationsBackup[item]
 
                 print(f" remaining times: {self.durations}")
                 self.spinner.stop()
-        except:
+        except KeyboardInterrupt:
             self.spinner.stop()
             print('There was no active service in the list, server is shutting down...')
             time.sleep(random.randint(0, 3))
@@ -309,159 +306,6 @@ class Snail():
             self.spinner.stop()
             print('snail has been deactivated')
 
-
-    
-    def snailsave(self, data):
-        print("saving")
-        result = []
-        memoId = []
-        pattern = r'"\d+":\s*\{.*?\}'
-        matches = re.findall(pattern, data, re.DOTALL)
-        if matches:
-            print('matched')
-            for item in matches:
-                id = r"\d+"
-                itemId = re.search(id, item)
-                title = r'"title": "(.*?)"'
-                itemTitle = re.search(title, item)
-                summary = r'"summary": "(.*?)"'
-                itemSummary = re.search(summary, item)
-                category = r'"category": "(.*?)"'
-                itemCategory = re.search(category, item)
-                importance = r'"importance": "(.*?)"'
-                itemImportance = re.search(importance, item)
-                if itemId and itemCategory and itemImportance and itemSummary and itemTitle:
-                    itemTitle = itemTitle.group(1)
-                    itemSummary = itemSummary.group(1)
-                    itemCategory = itemCategory.group(1)
-                    itemImportance = itemImportance.group(1)
-                    itemId = itemId.group(0)
-                    if itemId not in memoId:
-                        newElement = {}
-
-                        if itemCategory == "Economy":
-                            newElement["image"] = (
-                                f'images/economy/im{random.randint(1, 30)}.jpg')
-                        elif itemCategory == "Finance":
-                            newElement["image"] = (
-                                f'images/finance/im{random.randint(1, 15)}.jpg')
-                        elif itemCategory == "Investing":
-                            newElement["image"] = (
-                                f'images/investing/im{random.randint(1, 10)}.jpg')
-                        elif itemCategory == "Markets":
-                            newElement["image"] = (
-                                f'images/markets/im{random.randint(1, 10)}.jpg')
-                        elif itemCategory == "Science":
-                            newElement["image"] = (
-                                f'images/science/im{random.randint(1, 10)}.jpg')
-                        elif itemCategory == "Technology":
-                            newElement["image"] = (
-                                f'images/technology/im{random.randint(1, 10)}.jpg')
-                        newElement["id"] = itemId
-                        newElement["title"] = itemTitle
-                        newElement["summary"] = itemSummary
-                        newElement["category"] = itemCategory
-                        newElement["importance"] = itemImportance
-                        current_iso_date = datetime.now().isoformat()
-                        newElement["date"] = current_iso_date
-                        memoId.append(itemId)
-                        result.append(newElement)
-                lastResult = system.vgsy.Navread("LastAnalyze")
-                lastResult["newsData"][:] = result
-
-                with open(os.path.join(Navpath, f"LastAnalyze.json"), 'w', encoding='utf-8') as file:
-                    json.dump(lastResult, file, indent=4, ensure_ascii=False)
-            print("LastAnalyze saved successfully")
-        else:
-            print('didnt matched')
-
-
-    def get_news_data(self):
-        data = ""
-        # files = [ bloomberg, dnsd, esdn, nytimes, yahoo ]
-        data += str(bloomberg.load())
-        data += str(dnsd.load())
-        data += str(esdn.load())
-        data += str(nytimes.load())
-        data += str(yahoo.load())
-        return (data)
-
-    def analyze(self, core='none'):
-        self.entry = self.get_news_data()
-        if core == 'gemini' and not self.gemeni_inprocess:
-            try:
-                if not self.gemeni_inprocess:
-                    self.gemeni_inprocess = True
-                    self.result = gemeni.analyze(self.entry)
-                    if self.result != None:
-                        self.snailsave(self.result)
-                    else:
-                        print("analyze failed, canceled saving")
-            except Exception as e:
-                print(f'analyze failed code:1 {e}')
-            self.gemeni_inprocess = False
-
-        elif core == 'localai' and not self.localai_inprocess:
-            print(2)
-            try:
-                self.localai_active = True
-                self.result = ollama.get_ai_response(self.entry)
-                if self.result != None:
-                    self.snailsave(self.result)
-                else:
-                    print("analyze failed, canceled saving")
-            except Exception as e:
-                print(f"analyze failed code:2 {e}")
-            self.localai_inprocess = False
-
-        elif core == 'none':
-            if self.gemeni_active and self.localai_active:
-                try:
-                    if not self.gemeni_inprocess:
-                        self.gemeni_inprocess = True
-                        self.result = gemeni.analyze(self.entry)
-                        if self.result != None:
-                            self.snailsave(self.result)
-                        else:
-                            print("analyze failed, canceled saving")
-                except Exception as e:
-                    if not self.localai_active:
-                        self.localai_active = True
-                        self.result = ollama.get_ai_response(self.entry)
-                        self.localai_inprocess = False
-                    # self.snailsave(self.result)  // snail save doesnt work for this... thats customized for gemini only
-                else:
-                    print('analyze failed code:3')
-                self.gemeni_inprocess = False
-                self.localai_inprocess = False
-
-            elif self.gemeni_active and not self.localai_inprocess:
-                try:
-                    self.gemeni_active = True
-                    self.result = gemeni.analyze(self.entry)
-                    if self.result != None:
-                        self.snailsave(self.result)
-
-                    else:
-                        print("analyze failed, canceled saving")
-                except Exception as e:
-                    print(f"analyze failed code:4, {e}")
-                    self.gemeni_inprocess = False
-                    self.localai_inprocess = False
-
-            elif self.localai_active and not self.localai_active:
-                try:
-                    self.localai_active = True
-                    self.result = ollama.get_ai_response(self.entry)
-                    # self.snailsave(self.result)
-                except:
-                    print("analyze failed code:5")
-                self.gemeni_inprocess = False
-                self.localai_inprocess = False
-            else:
-                self.gemeni_inprocess = False
-                self.localai_inprocess = False
-                print("no AI core is active, please activate one")
 
 
 snail = Snail()

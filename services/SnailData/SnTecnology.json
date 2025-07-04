@@ -1,42 +1,6 @@
 {
     "newsData": [
         {
-            "id": 13,
-            "title": "نقش هوش مصنوعی در جنگاوری مدرن",
-            "summary": "سیستم‌های مبتنی بر هوش‌مصنوعی می‌توانند در زمینه نظامی با شناسایی دقیق‌تر اهداف و تحلیل سریع‌تر داده‌ها مزیتی قابل‌توجه ایجاد کنند.",
-            "category": "Technology",
-            "image": "images/technology/im8.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 51,
-            "title": "Apple's loses bid to halt court ruling that blocks app store fees",
-            "summary": "Apple's loses bid to halt court ruling that blocks app store fees",
-            "category": "Technology",
-            "image": "images/technology/im2.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 52,
-            "title": "Why Musk may be changing his tune on EV tax credits",
-            "summary": "Why Musk may be changing his tune on EV tax credits",
-            "category": "Technology",
-            "image": "images/technology/im7.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 59,
-            "title": "Elon Musk gets more time to respond to US SEC lawsuit over Twitter stake",
-            "summary": "Elon Musk gets more time to respond to US SEC lawsuit over Twitter stake",
-            "category": "Technology",
-            "image": "images/technology/im2.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
             "id": 69,
             "title": "Hewlett Packard beats Q2 results estimates on AI demand; records $1.36 billion charge",
             "summary": "Hewlett Packard beats Q2 results estimates on AI demand; records $1.36 billion charge",
@@ -55,58 +19,13 @@
             "date": "2025-07-01T20:54:31.882414"
         },
         {
-            "id": 13,
-            "title": "نقش هوش مصنوعی در جنگاوری مدرن",
-            "summary": "سیستم‌های مبتنی بر هوش‌مصنوعی می‌توانند در زمینه نظامی با شناسایی دقیق‌تر اهداف و تحلیل سریع‌تر داده‌ها مزیتی قابل‌توجه ایجاد کنند.",
+            "image": "images/technology/im9.jpg",
+            "id": "8",
+            "title": "با پیشرفت تکنولوژی، اکنون سیستم\\u200cهای مبتنی بر هوش\\u200cمصنوعی نیز به ابزاری بدل شده\\u200cاند که می\\u200cتوانند در زمینه نظامی مزیتی قابل\\u200cتوجه برای استفاده\\u200cکنندگان آن به وجود بیاورند.",
+            "summary": "سیستم‌های هوش مصنوعی به ابزاری در زمینه نظامی تبدیل شده‌اند که می‌توانند مزایای قابل توجهی را در شناسایی اهداف و تحلیل داده‌ها ارائه دهند.",
             "category": "Technology",
-            "image": "images/technology/im8.jpg",
             "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 51,
-            "title": "Apple's loses bid to halt court ruling that blocks app store fees",
-            "summary": "Apple's loses bid to halt court ruling that blocks app store fees",
-            "category": "Technology",
-            "image": "images/technology/im2.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 52,
-            "title": "Why Musk may be changing his tune on EV tax credits",
-            "summary": "Why Musk may be changing his tune on EV tax credits",
-            "category": "Technology",
-            "image": "images/technology/im7.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 59,
-            "title": "Elon Musk gets more time to respond to US SEC lawsuit over Twitter stake",
-            "summary": "Elon Musk gets more time to respond to US SEC lawsuit over Twitter stake",
-            "category": "Technology",
-            "image": "images/technology/im2.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 69,
-            "title": "Hewlett Packard beats Q2 results estimates on AI demand; records $1.36 billion charge",
-            "summary": "Hewlett Packard beats Q2 results estimates on AI demand; records $1.36 billion charge",
-            "category": "Technology",
-            "image": "images/technology/im6.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 74,
-            "title": "Top Artificial Intelligence (AI) to Buy Hand Over Fist Before It Is Too Late",
-            "summary": "Top Artificial Intelligence (AI) to Buy Hand Over Fist Before It Is Too Late",
-            "category": "Technology",
-            "image": "images/technology/im2.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
+            "date": "2025-07-05T02:22:30.768098"
         }
     ]
 }

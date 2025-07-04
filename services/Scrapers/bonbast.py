@@ -27,7 +27,7 @@ def main():
     for item in var:
       memo.append((item.text))
   except Exception as e:
-    print(f"{e}")
+    print(f"bonbast had an error :{e}")
   driver.quit()
   
   change = []
@@ -61,8 +61,8 @@ def save(data):
         with open(os.path.join(DATA_PATH , "Bonbast.json") , "w" , encoding="utf-8") as s:
           json.dump(data , s , ensure_ascii= False , indent=4)
         print("bonbast done successfully")
-      except:
-        print("bonbast: file failed at saving")
+      except Exception as e:
+        print(f"bonbast: file failed at saving {e}")
         print("bonbast faled")
     else:
       print('bonbast: data is empty, saving canceled')
@@ -74,6 +74,6 @@ def load(filename= "Bonbast.json"):
       with open( os.path.join(DATA_PATH , "Bonbast.json") , "r" , encoding="utf-8") as l:
         data = json.load(l)
         return(data)
-    except:
-      print(f"bonbast : Bonbast.json is not where it sould be at {DATA_PATH}")
+    except Exception as e:
+      print(f"bonbast : Bonbast.json is not where it sould be at {DATA_PATH}   ,,, : {e}")
     

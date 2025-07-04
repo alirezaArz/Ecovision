@@ -80,8 +80,8 @@ def save(data):
             with open(os.path.join(DATA_PATH , "Dnsd.json") , "w" , encoding="utf-8") as s:
                 json.dump(data , s , ensure_ascii= False , indent=4)
             print("dnsd done successfully")
-        except:
-            print("dnsd: file failed at saving")
+        except Exception as e:
+            print(f"dnsd: file failed at saving {e}")
             print("dnsd faled")
     else:
         print('dnsd: data is empty, saving canceled')
@@ -92,5 +92,5 @@ def load(filename= "Dnsd.json"):
         with open( os.path.join(DATA_PATH , "Dnsd.json") , "r" , encoding="utf-8") as l:
             data = json.load(l)
         return(data)
-    except:
-        print(f"dnsd : Dnsd.json is not where it sould be at {DATA_PATH}")
+    except Exception as e:
+        print(f"dnsd : Dnsd.json is not where it sould be at {DATA_PATH}: {e}")
