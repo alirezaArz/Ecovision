@@ -4,12 +4,13 @@ import random
 import sys
 import time
 from datetime import datetime
+import re
 
 from halo import Halo
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 print(project_root)
 from services.AI import gemeni as gemeni
-from services.AI import local as ollama
+from services.AI import colab as ollama
 from services.APIs import gecko as gecko
 from services.Scrapers import bloomberg
 from services.Scrapers import bonbast as bonbast
@@ -18,9 +19,9 @@ from services.Scrapers import esdn
 from services.Scrapers import nytimes as nytimes
 from services.Scrapers import yahoo
 from services import navigation as navigation
+from services import systems as system
 
-
-snailpath = os.path.join(project_root, 'services', 'LastAnalyze')
+Navpath = os.path.join(project_root, 'services', 'SnailData')
 DATA_PATH = os.path.join(project_root, "scraped")
 
 if project_root not in sys.path:
@@ -309,70 +310,71 @@ class Snail():
             print('snail has been deactivated')
 
 
-    def snailsave(self, sfile):
+    
+    def snailsave(self, data):
         print("saving")
-        try:
-            try:
-                text_content = sfile.candidates[0].content.parts[0].text
-                if text_content.startswith("```json"):
-                    text_content = text_content[len("```json"):].strip()
-                if text_content.endswith("```"):
-                    text_content = text_content[:-len("```")].strip()
-                LastAnalyze = json.loads(text_content)
+        result = []
+        memoId = []
+        pattern = r'"\d+":\s*\{.*?\}'
+        matches = re.findall(pattern, data, re.DOTALL)
+        if matches:
+            print('matched')
+            for item in matches:
+                id = r"\d+"
+                itemId = re.search(id, item)
+                title = r'"title": "(.*?)"'
+                itemTitle = re.search(title, item)
+                summary = r'"summary": "(.*?)"'
+                itemSummary = re.search(summary, item)
+                category = r'"category": "(.*?)"'
+                itemCategory = re.search(category, item)
+                importance = r'"importance": "(.*?)"'
+                itemImportance = re.search(importance, item)
+                if itemId and itemCategory and itemImportance and itemSummary and itemTitle:
+                    itemTitle = itemTitle.group(1)
+                    itemSummary = itemSummary.group(1)
+                    itemCategory = itemCategory.group(1)
+                    itemImportance = itemImportance.group(1)
+                    itemId = itemId.group(0)
+                    if itemId not in memoId:
+                        newElement = {}
 
-                output_dict = {}
-                output_dict["newsData"] = []
-                current_iso_date = datetime.now().isoformat()
+                        if itemCategory == "Economy":
+                            newElement["image"] = (
+                                f'images/economy/im{random.randint(1, 30)}.jpg')
+                        elif itemCategory == "Finance":
+                            newElement["image"] = (
+                                f'images/finance/im{random.randint(1, 15)}.jpg')
+                        elif itemCategory == "Investing":
+                            newElement["image"] = (
+                                f'images/investing/im{random.randint(1, 10)}.jpg')
+                        elif itemCategory == "Markets":
+                            newElement["image"] = (
+                                f'images/markets/im{random.randint(1, 10)}.jpg')
+                        elif itemCategory == "Science":
+                            newElement["image"] = (
+                                f'images/science/im{random.randint(1, 10)}.jpg')
+                        elif itemCategory == "Technology":
+                            newElement["image"] = (
+                                f'images/technology/im{random.randint(1, 10)}.jpg')
+                        newElement["id"] = itemId
+                        newElement["title"] = itemTitle
+                        newElement["summary"] = itemSummary
+                        newElement["category"] = itemCategory
+                        newElement["importance"] = itemImportance
+                        current_iso_date = datetime.now().isoformat()
+                        newElement["date"] = current_iso_date
+                        memoId.append(itemId)
+                        result.append(newElement)
+                lastResult = system.vgsy.Navread("LastAnalyze")
+                lastResult["newsData"][:] = result
 
-                for item_key_str, original_item_data in LastAnalyze.items():
-                    transformed_item = {}
+                with open(os.path.join(Navpath, f"LastAnalyze.json"), 'w', encoding='utf-8') as file:
+                    json.dump(lastResult, file, indent=4, ensure_ascii=False)
+            print("LastAnalyze saved successfully")
+        else:
+            print('didnt matched')
 
-                    try:
-                        transformed_item["id"] = int(item_key_str) + 1
-                    except ValueError:
-                        transformed_item["id"] = item_key_str
-
-                    transformed_item["title"] = original_item_data.get(
-                        "title", "")
-                    transformed_item["summary"] = original_item_data.get(
-                        "summary", "")
-
-                    transformed_item["category"] = original_item_data.get(
-                        "category", "news")
-                    if transformed_item["category"] == "Economy":
-                        transformed_item["image"] = (
-                            f'images/economy/im{random.randint(1, 30)}.jpg')
-                    elif transformed_item["category"] == "Finance":
-                        transformed_item["image"] = (
-                            f'images/finance/im{random.randint(1, 15)}.jpg')
-                    elif transformed_item["category"] == "Investing":
-                        transformed_item["image"] = (
-                            f'images/investing/im{random.randint(1, 10)}.jpg')
-                    elif transformed_item["category"] == "Markets":
-                        transformed_item["image"] = (
-                            f'images/markets/im{random.randint(1, 10)}.jpg')
-                    elif transformed_item["category"] == "Science":
-                        transformed_item["image"] = (
-                            f'images/science/im{random.randint(1, 10)}.jpg')
-                    elif transformed_item["category"] == "Technology":
-                        transformed_item["image"] = (
-                            f'images/technology/im{random.randint(1, 10)}.jpg')
-                    transformed_item["importance"] = original_item_data.get(
-                        "importance", "medium")
-                    transformed_item["date"] = current_iso_date
-                    output_dict["newsData"].append(transformed_item)
-            except:
-                print(
-                    "gemeni's result was not in form of needed structure; saving process has been canceled!")
-                return
-            with open(os.path.join(snailpath, f"LastAnalyze.json"), 'w', encoding='utf-8') as file:
-                json.dump(output_dict, file, indent=4, ensure_ascii=False)
-                navigation.nav.separate()
-                print("LastAnalyze saved successfully")
-        except:
-            print(sfile)
-            print(transformed_item)
-            print("snail: failed at saving file, maybe the format is not right")
 
     def get_news_data(self):
         data = ""
@@ -395,17 +397,21 @@ class Snail():
                         self.snailsave(self.result)
                     else:
                         print("analyze failed, canceled saving")
-            except:
-                print('analyze failed code:1')
+            except Exception as e:
+                print(f'analyze failed code:1 {e}')
             self.gemeni_inprocess = False
 
         elif core == 'localai' and not self.localai_inprocess:
+            print(2)
             try:
                 self.localai_active = True
-                self.result = ollama.answer(self.entry)
-                # self.snailsave(self.result)
-            except:
-                print("analyze failed code:2")
+                self.result = ollama.get_ai_response(self.entry)
+                if self.result != None:
+                    self.snailsave(self.result)
+                else:
+                    print("analyze failed, canceled saving")
+            except Exception as e:
+                print(f"analyze failed code:2 {e}")
             self.localai_inprocess = False
 
         elif core == 'none':
@@ -418,10 +424,10 @@ class Snail():
                             self.snailsave(self.result)
                         else:
                             print("analyze failed, canceled saving")
-                except:
+                except Exception as e:
                     if not self.localai_active:
                         self.localai_active = True
-                        self.result = ollama.answer(self.entry)
+                        self.result = ollama.get_ai_response(self.entry)
                         self.localai_inprocess = False
                     # self.snailsave(self.result)  // snail save doesnt work for this... thats customized for gemini only
                 else:
@@ -438,16 +444,15 @@ class Snail():
 
                     else:
                         print("analyze failed, canceled saving")
-                except:
-
-                    print('analyze failed code:4')
-                self.gemeni_inprocess = False
-                self.localai_inprocess = False
+                except Exception as e:
+                    print(f"analyze failed code:4, {e}")
+                    self.gemeni_inprocess = False
+                    self.localai_inprocess = False
 
             elif self.localai_active and not self.localai_active:
                 try:
                     self.localai_active = True
-                    self.result = ollama.answer(self.entry)
+                    self.result = ollama.get_ai_response(self.entry)
                     # self.snailsave(self.result)
                 except:
                     print("analyze failed code:5")

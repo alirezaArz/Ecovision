@@ -20,10 +20,9 @@ def analyze(data:str):
             "remember, these are the only categories that you can assign, and each answer can only have one category: [Economy, Finance, Markets, Investing, Technology, Science]"
 '''
         )
-        return response
+        return str(response)
         
     except:
-        print(response)
         print("couldn't get accessed to the gemini, check your network and try again")
         return None
         

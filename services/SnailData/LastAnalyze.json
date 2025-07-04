@@ -1,640 +1,436 @@
 {
     "newsData": [
         {
-            "id": 1,
-            "title": "دولت در جنگ ۱۲روزه با اقداماتی نظیر تامین ارز برای واردات کالاهای اساسی اختلالات مقطعی در زنجیره تامین را کنترل کرد",
-            "summary": "دولت با تامین ارز، کاهش بوروکراسی، بسته حمایتی و بازگشت ارز ترجیحی، اختلالات زنجیره تامین را کنترل کرد و بازسازی زیرساخت‌ها و حمایت از کسب‌وکارها باید در اولویت قرار گیرد و اصلاحات ساختاری برای مهار تورم، کاهش کسری بودجه و رفع تحریم‌ها ضروری است.",
+            "image": "images/economy/im20.jpg",
+            "id": "0",
+            "title": "Businesses Expect to Pass Along 50% of Tariffs, Fed Survey Finds",
+            "summary": "A Fed survey indicates that businesses anticipate passing on a significant portion of tariffs to consumers.",
             "category": "Economy",
-            "image": "images/economy/im9.jpg",
             "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
+            "date": "2025-07-04T23:42:27.614114"
         },
         {
-            "id": 2,
-            "title": "افزایش نرخ تورم نقطه به نقطه در خرداد ماه",
-            "summary": "بر اساس گزارش مرکز آمار ایران، تورم نقطه به نقطه در پایان خرداد به ۳۹.۴ درصد رسیده که بیشترین سطح از آذرماه ۱۴۰۲ است و نرخ تورم ماهانه ۳.۳ درصد بوده که نسبت به ماه قبل افزایش داشته و گروه خوراکی‌ها بیشترین تاثیر را داشته‌اند.",
+            "image": "images/economy/im26.jpg",
+            "id": "1",
+            "title": "Summers Says Debt Surge From Trump Plan Will Undermine US Power",
+            "summary": "Lawrence Summers warns that a surge in debt resulting from Trump's economic plan could weaken the United States' global standing.",
             "category": "Economy",
-            "image": "images/economy/im22.jpg",
             "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
+            "date": "2025-07-04T23:42:27.614871"
         },
         {
-            "id": 3,
-            "title": "اقدامات حمایتی دولت ایران در دوران جنگ ۱۲روزه",
-            "summary": "دولت ایران با تامین ارز برای کالاهای اساسی، کاهش بوروکراسی، تدوین بسته حمایتی، و لغو ممنوعیت واردات، اختلالات زنجیره تامین کالاهای اساسی را به سرعت از بین برد.",
+            "image": "images/economy/im20.jpg",
+            "id": "2",
+            "title": "Firms’ Less ‘Catastrophic’ Outlook Kept Canada Rates on Hold",
+            "summary": "A less pessimistic outlook from businesses allowed the Bank of Canada to maintain its current interest rates.",
             "category": "Economy",
+            "importance": "medium",
+            "date": "2025-07-04T23:42:27.626239"
+        },
+        {
             "image": "images/economy/im10.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 4,
-            "title": "ثبات نسبی قیمت دلار با وجود تلاش‌ها برای مذاکره با ایران",
-            "summary": "قیمت دلار آزاد با افزایش همراه شد، اما روند باثبات خود را حفظ کرد و مذاکره کنندگان آمریکایی در تلاش‌اند تا با ارائه امتیازاتی، ایران را به بازگشت به میز مذاکره ترغیب کنند اما مقامات ایرانی بیان کرده‌اند که فعلا در حال بررسی شرایط هستند.",
-            "category": "Finance",
-            "image": "images/finance/im6.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 5,
-            "title": "تأثیر جنگ ۱۲ روزه بر اقتصاد اسرائیل",
-            "summary": "جنگ ۱۲ روزه بین اسرائیل و ایران خسارات گسترده‌ای به اقتصاد اسرائیل وارد کرده است، از جمله کاهش تولید صنعتی، افزایش کسری بودجه، تعطیلی مشاغل و کاهش رشد اقتصادی.",
+            "id": "3",
+            "title": "Schmid Says Fed Needs Flexibility Given Great Tariff Uncertainty",
+            "summary": "A Federal Reserve official, Schmid, emphasizes the need for the Fed to maintain flexibility due to the uncertainty surrounding tariffs.",
             "category": "Economy",
+            "importance": "medium",
+            "date": "2025-07-04T23:42:27.637449"
+        },
+        {
+            "image": "images/economy/im24.jpg",
+            "id": "4",
+            "title": "Fed’s Harker Says Policymakers Need to Wait for More Clarity",
+            "summary": "Fed's Harker suggests that policymakers should delay action until there is greater clarity in the economy.",
+            "category": "Economy",
+            "importance": "medium",
+            "date": "2025-07-04T23:42:27.645485"
+        },
+        {
+            "image": "images/science/im8.jpg",
+            "id": "5",
+            "title": "Cutting Off Horns Is the Best Protection for Rhinos, Study Finds",
+            "summary": "A study suggests that removing the horns of rhinos is the most effective method for protecting them from poaching.",
+            "category": "Science",
+            "importance": "medium",
+            "date": "2025-07-04T23:42:27.655819"
+        },
+        {
+            "image": "images/finance/im12.jpg",
+            "id": "6",
+            "title": "Why the ‘TACO’ Trade Is Tempting Investors Amid US-China Talks",
+            "summary": "The 'TACO' trade is attracting investors amidst ongoing trade negotiations between the US and China.",
+            "category": "Finance",
+            "importance": "medium",
+            "date": "2025-07-04T23:42:27.667383"
+        },
+        {
             "image": "images/economy/im13.jpg",
-            "importance": "high",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 6,
-            "title": "پیش‌بینی سناریوهای تورم در پایان سال ۱۴۰۴",
-            "summary": "با توجه به آخرین آمار منتشر شده از تورم در خرداد ماه ۱۴۰۴ می‌توان در پنج سناریو تورم را در پایان سال جاری پیش‌بینی کرد.",
+            "id": "7",
+            "title": "Lutnick Urges Tougher Enforcement of US Export Curbs on China",
+            "summary": "Lutnick calls for stricter enforcement of US export restrictions targeting China.",
             "category": "Economy",
-            "image": "images/economy/im9.jpg",
             "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
+            "date": "2025-07-04T23:42:27.675880"
         },
         {
-            "id": 7,
-            "title": "عوامل موثر بر ماندگاری توافق آتش‌بس",
-            "summary": "ماندگاری توافق‌های آتش‌بس به عوامل سیاسی و اقتصادی وابسته است که شامل فرآیند حل‌وفصل خشونت، نظارت بین‌المللی، و ارتباط متقابل کشورها با قدرت‌های جهانی است.",
-            "category": "Economy",
-            "image": "images/economy/im27.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 8,
-            "title": "بازارهای نوظهور، مقصدی جذاب برای سرمایه‌گذاران بین‌المللی",
-            "summary": "در حالی که اقتصاد آمریکا با بی‌ثباتی مواجه است، سرمایه‌گذاران بین‌المللی به بازارهای نوظهور با ثبات اقتصادی و ظرفیت رشد بالا روی آورده‌اند.",
-            "category": "Finance",
-            "image": "images/finance/im10.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 9,
-            "title": "تشدید چالش‌های اقتصادی کسب‌و‌کارها و خانوارها در پی جنگ ۱۲ روزه",
-            "summary": "جنگ ۱۲ روزه میان ایران و اسرائیل، چالش‌های اقتصادی کسب‌و‌کارها و خانوارها را تشدید کرده و نیازمند اصلاحات اقتصادی و تغییر نگرش در حکمرانی اقتصادی است.",
-            "category": "Economy",
-            "image": "images/economy/im25.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 10,
-            "title": "تشریح اقدامات بانک مرکزی در دوران جنگ",
-            "summary": "رئیس کل بانک مرکزی اعلام کرد که شبکه بانکی کشور دارای پشتیبانی کامل است و دولت ۴ کمیته تشکیل داد و اختیارات لازم را به مسئولان تفویض کرد تا بدنه دولت انعطاف‌پذیر شود.",
-            "category": "Finance",
-            "image": "images/finance/im1.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 11,
-            "title": "لزوم اجرای سیاست‌های رفاهی هدفمند پس از آتش‌بس",
-            "summary": "پس از برقراری آتش‌بس، دولت ایران باید سیاست‌های رفاهی هدفمند و کوتاه‌مدت را برای کاهش فشار بر خانوارها اجرا کند.",
-            "category": "Economy",
-            "image": "images/economy/im30.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 12,
-            "title": "افزایش فشار بر اقتصاد اسرائیل در پی تجاوز به ایران",
-            "summary": "با گذشت بیش از یک هفته از تجاوز اسرائیل به خاک ایران، سوالات جدی درباره تاب‌آوری اقتصاد اسرائیل به وجود آمده و کسری بودجه و هزینه‌های نظامی فشار را افزایش داده است.",
-            "category": "Economy",
-            "image": "images/economy/im10.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 13,
-            "title": "نقش هوش مصنوعی در جنگاوری مدرن",
-            "summary": "سیستم‌های مبتنی بر هوش‌مصنوعی می‌توانند در زمینه نظامی با شناسایی دقیق‌تر اهداف و تحلیل سریع‌تر داده‌ها مزیتی قابل‌توجه ایجاد کنند.",
+            "image": "images/technology/im5.jpg",
+            "id": "8",
+            "title": "The Quiet Voices Questioning China’s AI Hype",
+            "summary": "There are emerging doubts about the widespread enthusiasm surrounding artificial intelligence in China.",
             "category": "Technology",
-            "image": "images/technology/im8.jpg",
             "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
+            "date": "2025-07-04T23:42:27.685271"
         },
         {
-            "id": 14,
-            "title": "تعلیق محدودیت‌های چک در بانک‌های سپه و پاسارگاد",
-            "summary": "بانک مرکزی با هماهنگی دادستانی، محدودیت‌های چک‌های صادره عهده بانک‌های سپه و پاسارگاد را به مدت یک ماه تعلیق کرد.",
+            "image": "images/finance/im15.jpg",
+            "id": "9",
+            "title": "Siemens Energy Ends Chapter on Germany’s €7.5 Billion Rescue",
+            "summary": "Siemens Energy concludes its involvement with a 7.5 billion euro rescue package from Germany.",
             "category": "Finance",
-            "image": "images/finance/im11.jpg",
             "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
+            "date": "2025-07-04T23:42:27.693625"
         },
         {
-            "id": 15,
-            "title": "پیامدهای نظامی‌گری آمریکا بر بازارهای جهانی و اقتصاد ایالات متحده",
-            "summary": "تشدید نظامی‌گری آمریکا می‌تواند پس‌لرزه‌های مخربی را در بازارهای جهانی و اقتصاد ایالات متحده ایجاد کند، از جمله افزایش قیمت طلا و نفت، و کاهش بازارهای سهام.",
-            "category": "Economy",
-            "image": "images/economy/im24.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 16,
-            "title": "رشد واردات کالاهای اساسی در هفته گذشته",
-            "summary": "وزیر اقتصاد از رشد ۵۳درصدی واردات کالاهای اساسی در هفته گذشته خبر داد و گفت: تلاش شبانه‌روزی گمرک منجر به ترخیص ۹۸۰هزار تن کالا شد.",
-            "category": "Economy",
-            "image": "images/economy/im15.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 18,
-            "title": "رشد واردات کالاهای اساسی در هفته آخر خرداد",
-            "summary": "حجم واردات کالاهای اساسی در هفته آخر خرداد به ۹۸۰ هزار تن رسیده که نسبت به هفته قبل از آن ۵۳ درصد رشد نشان می‌دهد.",
-            "category": "Economy",
-            "image": "images/economy/im8.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 19,
-            "title": "نگرانی‌ها نسبت به امنیت تامین کالاهای اساسی در شرایط بحرانی",
-            "summary": "در شرایط بحرانی مانند جنگ، افزایش تقاضا برای کالاهای اساسی امری طبیعی است و سیاست‌های دستوری می‌توانند با دامن زدن به احتکار، روند تامین را مختل کنند.",
-            "category": "Economy",
-            "image": "images/economy/im7.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 20,
-            "title": "تاثیر حمله رژیم صهیونیستی به ایران بر اقتصاد جهانی و منطقه",
-            "summary": "حمله رژیم صهیونیستی به ایران، اثرات مختلفی بر قیمت نفت، تورم، رشد اقتصادی و وضعیت گردشگری دنیا و کشورهای منطقه می‌گذارد.",
-            "category": "Economy",
-            "image": "images/economy/im17.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 21,
-            "title": "اولویت حمایت از خانوارها و بنگاه‌ها در شرایط بحرانی",
-            "summary": "در شرایط بحرانی، اولویت اصلی باید حمایت از خانوارها و بنگاه‌ها باشد، حتی اگر این حمایت منجر به افزایش کسری بودجه شود.",
-            "category": "Economy",
-            "image": "images/economy/im6.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 22,
-            "title": "لزوم حمایت از مردم و فعالان اقتصادی در شرایط بحرانی",
-            "summary": "در شرایط بحرانی، سیاستگذاران همواره به دنبال اعمال سیاست‌هایی جهت حمایت از مردم و فعالان اقتصادی هستند.",
-            "category": "Economy",
-            "image": "images/economy/im24.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 24,
-            "title": "درس‌های اقتصاد جنگ از تجربه ۸ ساله جنگ ایران و عراق",
-            "summary": "تجربه ۸ ساله جنگ ایران و عراق گرچه با هزینه‌های سنگینی همراه بود، اما در دل خود، درس‌های مهمی برای مدیریت اقتصاد در شرایط بحران به جا گذاشت.",
-            "category": "Economy",
-            "image": "images/economy/im26.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 25,
-            "title": "چالش‌های اقتصادی در شرایط جنگ و تنش‌های منطقه‌ای",
-            "summary": "در شرایط جنگ و افزایش تنش‌های منطقه‌ای و بین‌المللی، اقتصاد هر کشوری با چالش‌های بی‌سابقه‌ای روبه‌رو می‌شود و اتخاذ تدابیر پیشگیرانه و حمایتی از سوی دولت حیاتی است.",
-            "category": "Economy",
-            "image": "images/economy/im28.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 26,
-            "title": "تصمیمات فوری برای مدیریت بحران و افزایش تاب آوری کشور",
-            "summary": "در شرایط جنگی، سیاستگذاران با چالش‌های جدی روبه رو هستند و لازم است تصمیمات فوری برای مدیریت بحران و افزایش تاب آوری کشور اتخاذ کنند.",
-            "category": "Economy",
-            "image": "images/economy/im20.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 27,
-            "title": "اهمیت سیاستگذاری پولی در شرایط پر تنش",
-            "summary": "در شرایط پرتنشی که کشور با آن مواجه است، سیاستگذاری پولی از اهمیت خاصی برخوردار است و بانک مرکزی باید برای حفظ ثبات اقتصادی سیاست‌های انقباضی را در دستور کار خود قرار دهد.",
+            "image": "images/finance/im2.jpg",
+            "id": "10",
+            "title": "Fed’s Kugler Says Her Main Focus Now Is Inflation",
+            "summary": "Fed's Kugler indicates that her primary focus is now on managing inflation.",
             "category": "Finance",
-            "image": "images/finance/im8.jpg",
             "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
+            "date": "2025-07-04T23:42:27.703016"
         },
         {
-            "id": 28,
-            "title": "آسیب‌پذیری بیشتر خانوارهای کم درآمد در شرایط اضطراری مانند جنگ",
-            "summary": "در شرایط اضطراری مانند جنگ، خانوارهایی که کمترین درآمد را دارند بیش از سایر خانوارها آسیب‌پذیر هستند و نیازمند حمایت‌های دولتی هستند.",
-            "category": "Economy",
-            "image": "images/economy/im14.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 30,
-            "title": "تغییر معادلات بازارهای جهانی و داخلی در پی تجاوز نظامی اسرائیل به ایران",
-            "summary": "تجاوز نظامی اسرائیل به ایران، معادلات بازارهای جهانی و داخلی را تغییر داد و نوسان مقطعی در بازار ارز تهران غیرقابل اجتناب است.",
-            "category": "Markets",
-            "image": "images/markets/im8.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 31,
-            "title": "Trump Signals U.S. Is Nearing Trade Deals but Says Some Countries Will Face Tariffs",
-            "summary": "President Trump said the United States would send out letters telling other countries “what they have to pay,” even as other officials said negotiations could be extended past a July deadline.",
-            "category": "Economy",
             "image": "images/economy/im19.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 32,
-            "title": "White House Faces Risk of Economic Fallout From Iran Strike",
-            "summary": "President Trump, aware of how high gas prices could affect his popularity, demanded on social media that the U.S. “KEEP OIL PRICES DOWN.”",
+            "id": "11",
+            "title": "Trump Signals U.S. Is Nearing Trade Deals but Says Some Countries Will Face Tariffs",
+            "summary": "President Trump indicated that the U.S. is approaching trade deals but warns some countries will face tariffs.",
             "category": "Economy",
-            "image": "images/economy/im27.jpg",
             "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
+            "date": "2025-07-04T23:42:27.709751"
         },
         {
-            "id": 33,
-            "title": "House Policy Bill Would Add $3.4 Trillion to Debt, Swamping Economic Gains",
-            "summary": "The updated findings from the Congressional Budget Office amounted to the latest dour report card for the president’s signature legislation.",
-            "category": "Finance",
-            "image": "images/finance/im13.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 34,
-            "title": "Companies Ask Supreme Court to Fast-Track Challenge to Tariffs",
-            "summary": "Two toy manufacturers asked the court to greatly expedite their case, in an unusual request.",
-            "category": "Economy",
-            "image": "images/economy/im6.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 35,
-            "title": "Senate Republicans Propose Key Tax Tweaks to House Bill",
-            "summary": "Party lawmakers proposed changes to the tax code that could offer the greatest benefit to businesses.",
-            "category": "Finance",
-            "image": "images/finance/im13.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 36,
-            "title": "Fed’s ‘Wait and See’ Approach Is Intact as New Risks Cloud Economic Outlook",
-            "summary": "The central bank is set to hold interest rates steady for its fourth straight meeting, a pause that could be extended through the summer.",
-            "category": "Finance",
-            "image": "images/finance/im8.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 37,
-            "title": "As Trump Returns to G7, Rift With Allies Is Even Deeper",
-            "summary": "In 2018, the president called for the group to embrace Russia and stormed out of the summit. Now he is seeking to shrink America’s military role abroad and embarking on a more expansive trade war.",
-            "category": "Economy",
-            "image": "images/economy/im30.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 38,
-            "title": "‘Golden Share’ in U.S. Steel Gives Trump Extraordinary Control",
-            "summary": "Administration officials secured a deal that will give the president unusual influence over a private company, and could serve as a model for other deals.",
-            "category": "Economy",
-            "image": "images/economy/im12.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 39,
-            "title": "Where’s the Inflation From Tariffs? Just Wait, Economists Say.",
-            "summary": "Are predictions for a jump in consumer prices too early, or just wrong?",
-            "category": "Economy",
-            "image": "images/economy/im14.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 40,
-            "title": "Trump Steel Tariffs Expanded to Hit Home Appliances",
-            "summary": "The move is one of the first times this year that consumer products were specifically targeted with higher import taxes.",
-            "category": "Economy",
-            "image": "images/economy/im12.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 41,
-            "title": "New China Trade ‘Deal’ Takes U.S. Back to Where It Started",
-            "summary": "If a handshake agreement holds, it will merely undo some of the damage from the trade war that President Trump started.",
-            "category": "Economy",
-            "image": "images/economy/im29.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 42,
-            "title": "U.S. Court Agrees to Keep Trump Tariffs Intact as Appeal Gets Underway",
-            "summary": "The appeals court’s decision delivered an important but interim victory for the Trump administration.",
-            "category": "Economy",
-            "image": "images/economy/im3.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 43,
-            "title": "Trump Hails Progress With China, but Details Are Sketchy",
-            "summary": "Two days of trade talks resulted in what leaders called a framework agreement meant to solidify terms of a truce that the superpowers reached in Geneva last month.",
-            "category": "Economy",
-            "image": "images/economy/im26.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 44,
-            "title": "European Union Unveils Fresh Sanctions on Russia, Including a Nord Stream Ban",
-            "summary": "Ursula von der Leyen, president of the European Commission, announced a proposal meant to ramp up pressure on Moscow.",
-            "category": "Economy",
-            "image": "images/economy/im7.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 45,
-            "title": "Clock Ticks as U.S. and China Try to Undo Devastating Trade Curbs",
-            "summary": "Officials from the world’s largest economies will try to strike a deal Tuesday to relax painful export restrictions that they have imposed on each other.",
-            "category": "Economy",
-            "image": "images/economy/im9.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 46,
-            "title": "Circle stock soars after IPO as stablecoin giant makes market debut",
-            "summary": "Circle stock soars after IPO as stablecoin giant makes market debut",
-            "category": "Finance",
-            "image": "images/finance/im2.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 47,
-            "title": "US economy shows signs of 'paralysis' ahead of key jobs report",
-            "summary": "US economy shows signs of 'paralysis' ahead of key jobs report",
-            "category": "Economy",
-            "image": "images/economy/im27.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 48,
-            "title": "May jobs report expected to show hiring slowdown, flat unemployment",
-            "summary": "May jobs report expected to show hiring slowdown, flat unemployment",
-            "category": "Economy",
-            "image": "images/economy/im15.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 49,
-            "title": "Trump and Xi break the ice, pledge to restart talks",
-            "summary": "Trump and Xi break the ice, pledge to restart talks",
-            "category": "Economy",
             "image": "images/economy/im4.jpg",
+            "id": "12",
+            "title": "White House Faces Risk of Economic Fallout From Iran Strike",
+            "summary": "The White House is at risk of facing economic consequences as a result of a potential strike on Iran.",
+            "category": "Economy",
             "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
+            "date": "2025-07-04T23:42:27.716525"
         },
         {
-            "id": 50,
-            "title": "Fed's Kugler looks to hold rates steady and warns of higher inflation",
-            "summary": "Fed's Kugler looks to hold rates steady and warns of higher inflation",
-            "category": "Finance",
-            "image": "images/finance/im6.jpg",
+            "image": "images/economy/im21.jpg",
+            "id": "13",
+            "title": "Companies Ask Supreme Court to Fast-Track Challenge to Tariffs",
+            "summary": "Companies have requested the Supreme Court to expedite their challenge against tariffs.",
+            "category": "Economy",
             "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
+            "date": "2025-07-04T23:42:27.722495"
         },
         {
-            "id": 51,
-            "title": "Apple's loses bid to halt court ruling that blocks app store fees",
-            "summary": "Apple's loses bid to halt court ruling that blocks app store fees",
-            "category": "Technology",
-            "image": "images/technology/im2.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 52,
-            "title": "Why Musk may be changing his tune on EV tax credits",
-            "summary": "Why Musk may be changing his tune on EV tax credits",
-            "category": "Technology",
-            "image": "images/technology/im7.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 53,
-            "title": "Robinhood exec talks retail investor strength, overnight trading",
-            "summary": "Robinhood exec talks retail investor strength, overnight trading",
-            "category": "Finance",
             "image": "images/finance/im2.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 54,
-            "title": "Trump-Musk Alliance Unravels Over ‘Big Beautiful Bill’",
-            "summary": "Trump-Musk Alliance Unravels Over ‘Big Beautiful Bill’",
-            "category": "Politics",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 55,
-            "title": "Robinhood exec touts retail investor strength, says overnight trading the future",
-            "summary": "Robinhood exec touts retail investor strength, says overnight trading the future",
+            "id": "14",
+            "title": "Fed’s ‘Wait and See’ Approach Is Intact as New Risks Cloud Economic Outlook",
+            "summary": "The Federal Reserve is set to maintain its cautious 'wait and see' approach, considering the new risks impacting the economic outlook.",
             "category": "Finance",
-            "image": "images/finance/im5.jpg",
             "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
+            "date": "2025-07-04T23:42:27.728443"
         },
         {
-            "id": 56,
-            "title": "Fed's Harker says its time for caution on monetary policy amid uncertainty",
-            "summary": "Fed's Harker says its time for caution on monetary policy amid uncertainty",
-            "category": "Finance",
-            "image": "images/finance/im2.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 57,
-            "title": "Fed's Schmid: uncomfortable with looking through tariff-driven price push",
-            "summary": "Fed's Schmid: uncomfortable with looking through tariff-driven price push",
-            "category": "Finance",
-            "image": "images/finance/im12.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 58,
-            "title": "Is Official US Economic Data Getting Less Reliable?",
-            "summary": "Is Official US Economic Data Getting Less Reliable?",
+            "image": "images/economy/im18.jpg",
+            "id": "15",
+            "title": "Where’s the Inflation From Tariffs? Just Wait, Economists Say.",
+            "summary": "Economists are suggesting that the inflationary effects of tariffs are yet to be fully realized.",
             "category": "Economy",
-            "image": "images/economy/im15.jpg",
             "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
+            "date": "2025-07-04T23:42:27.735422"
         },
         {
-            "id": 59,
-            "title": "Elon Musk gets more time to respond to US SEC lawsuit over Twitter stake",
-            "summary": "Elon Musk gets more time to respond to US SEC lawsuit over Twitter stake",
-            "category": "Technology",
-            "image": "images/technology/im2.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 60,
-            "title": "Delta warns new tariffs could force it to stop buying foreign-made airplanes",
-            "summary": "Delta warns new tariffs could force it to stop buying foreign-made airplanes",
+            "image": "images/economy/im26.jpg",
+            "id": "16",
+            "title": "Trump Steel Tariffs Expanded to Hit Home Appliances",
+            "summary": "Trump's steel tariffs have been broadened to encompass home appliances.",
             "category": "Economy",
-            "image": "images/economy/im20.jpg",
             "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
+            "date": "2025-07-04T23:42:27.741878"
         },
         {
-            "id": 61,
-            "title": "Circle soars with IPO, Ciena sinks, Planet Labs Q1 beat",
-            "summary": "Circle soars with IPO, Ciena sinks, Planet Labs Q1 beat",
-            "category": "Finance",
-            "image": "images/finance/im10.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 62,
-            "title": "How small businesses are handling tariff uncertainty, pressures",
-            "summary": "How small businesses are handling tariff uncertainty, pressures",
+            "image": "images/economy/im2.jpg",
+            "id": "17",
+            "title": "U.S. Court Agrees to Keep Trump Tariffs Intact as Appeal Gets Underway",
+            "summary": "A U.S. court has decided to uphold Trump's tariffs while the appeal process proceeds.",
             "category": "Economy",
-            "image": "images/economy/im1.jpg",
             "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
+            "date": "2025-07-04T23:42:27.748357"
         },
         {
-            "id": 63,
-            "title": "CBO warns Trump's tax bill could add $2.4T to deficit",
-            "summary": "CBO warns Trump's tax bill could add $2.4T to deficit",
-            "category": "Finance",
-            "image": "images/finance/im11.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 64,
-            "title": "The GOP's 'big, beautiful bill' would leave 10.9 million more uninsured: CBO",
-            "summary": "The GOP's 'big, beautiful bill' would leave 10.9 million more uninsured: CBO",
+            "image": "images/economy/im30.jpg",
+            "id": "18",
+            "title": "Clock Ticks as U.S. and China Try to Undo Devastating Trade Curbs",
+            "summary": "The U.S. and China are under pressure to reverse the damaging trade restrictions they have imposed on each other.",
             "category": "Economy",
-            "image": "images/economy/im9.jpg",
             "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
+            "date": "2025-07-04T23:42:27.754747"
         },
         {
-            "id": 65,
-            "title": "Musk's 'KILL the BILL' screed hits Trump tax bill's progress",
-            "summary": "Musk's 'KILL the BILL' screed hits Trump tax bill's progress",
-            "category": "Politics",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 66,
-            "title": "Will Trump's tax bill actually incentivize corporate growth?",
-            "summary": "Will Trump's tax bill actually incentivize corporate growth?",
-            "category": "Finance",
-            "image": "images/finance/im12.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 67,
-            "title": "CrowdStrike forecasts downbeat second-quarter revenue, shares fall",
-            "summary": "CrowdStrike forecasts downbeat second-quarter revenue, shares fall",
-            "category": "Finance",
-            "image": "images/finance/im7.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 68,
-            "title": "China's rare earth export curbs hit the auto industry worldwide",
-            "summary": "China's rare earth export curbs hit the auto industry worldwide",
-            "category": "Economy",
-            "image": "images/economy/im24.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 69,
-            "title": "Hewlett Packard beats Q2 results estimates on AI demand; records $1.36 billion charge",
-            "summary": "Hewlett Packard beats Q2 results estimates on AI demand; records $1.36 billion charge",
-            "category": "Technology",
-            "image": "images/technology/im6.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 70,
-            "title": "Global Markets Rise, U.S. Futures Flat After Tech-Led Rally",
-            "summary": "Global Markets Rise, U.S. Futures Flat After Tech-Led Rally",
+            "image": "images/markets/im6.jpg",
+            "id": "19",
+            "title": "Stocks wobble with Trump-Xi call, Musk feud in focus",
+            "summary": "Stock markets show instability following a call between Trump and Xi, amid focus on the Musk dispute.",
             "category": "Markets",
-            "image": "images/markets/im10.jpg",
             "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
+            "date": "2025-07-04T23:42:27.761611"
         },
         {
-            "id": 71,
-            "title": "Billionaires Are Selling Nvidia Stock and Buying a Stock-Split AI Stock Up 530% in 5 Years",
-            "summary": "Billionaires Are Selling Nvidia Stock and Buying a Stock-Split AI Stock Up 530% in 5 Years",
-            "category": "Finance",
             "image": "images/finance/im11.jpg",
+            "id": "20",
+            "title": "Circle stock soars after IPO as stablecoin giant makes market debut",
+            "summary": "Shares of Circle surged after its IPO, as the stablecoin giant begins trading.",
+            "category": "Finance",
             "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
+            "date": "2025-07-04T23:42:27.768357"
         },
         {
-            "id": 72,
-            "title": "Tariff uncertainty is hammering one of America's favorite food escapes — snacks",
-            "summary": "Tariff uncertainty is hammering one of America's favorite food escapes — snacks",
+            "image": "images/economy/im13.jpg",
+            "id": "21",
+            "title": "US economy shows signs of 'paralysis' ahead of key jobs report",
+            "summary": "The US economy exhibits signs of 'paralysis' in anticipation of the critical jobs report.",
             "category": "Economy",
-            "image": "images/economy/im12.jpg",
             "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
+            "date": "2025-07-04T23:42:27.774560"
         },
         {
-            "id": 73,
-            "title": "Trump’s Fight With Regulators Is About Who Watches the Watchers",
-            "summary": "Trump’s Fight With Regulators Is About Who Watches the Watchers",
-            "category": "Politics",
+            "image": "images/economy/im25.jpg",
+            "id": "22",
+            "title": "May jobs report expected to show hiring slowdown, flat unemployment",
+            "summary": "The May jobs report is anticipated to indicate a deceleration in hiring and a stable unemployment rate.",
+            "category": "Economy",
             "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
+            "date": "2025-07-04T23:42:27.780963"
         },
         {
-            "id": 74,
-            "title": "Top Artificial Intelligence (AI) to Buy Hand Over Fist Before It Is Too Late",
-            "summary": "Top Artificial Intelligence (AI) to Buy Hand Over Fist Before It Is Too Late",
+            "image": "images/economy/im27.jpg",
+            "id": "23",
+            "title": "Trump and Xi break the ice, pledge to restart talks",
+            "summary": "Trump and Xi have initiated a reconciliation and pledged to resume negotiations.",
+            "category": "Economy",
+            "importance": "medium",
+            "date": "2025-07-04T23:42:27.787650"
+        },
+        {
+            "image": "images/finance/im13.jpg",
+            "id": "24",
+            "title": "Fed's Kugler looks to hold rates steady and warns of higher inflation",
+            "summary": "The Fed's Kugler is considering maintaining stable interest rates but cautions about potential inflation increases.",
+            "category": "Finance",
+            "importance": "medium",
+            "date": "2025-07-04T23:42:27.794126"
+        },
+        {
+            "image": "images/technology/im4.jpg",
+            "id": "25",
+            "title": "Apple's loses bid to halt court ruling that blocks app store fees",
+            "summary": "Apple's appeal to suspend a court order blocking app store fees has been denied.",
             "category": "Technology",
-            "image": "images/technology/im2.jpg",
             "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
+            "date": "2025-07-04T23:42:27.801252"
+        },
+        {
+            "image": "images/finance/im9.jpg",
+            "id": "26",
+            "title": "Why Musk may be changing his tune on EV tax credits",
+            "summary": "Musk might be reconsidering his stance on electric vehicle (EV) tax credits.",
+            "category": "Finance",
+            "importance": "medium",
+            "date": "2025-07-04T23:42:27.807586"
+        },
+        {
+            "image": "images/finance/im14.jpg",
+            "id": "27",
+            "title": "Robinhood exec talks retail investor strength, overnight trading",
+            "summary": "Robinhood executive discusses the resilience of retail investors and the rise of overnight trading.",
+            "category": "Finance",
+            "importance": "medium",
+            "date": "2025-07-04T23:42:27.815557"
+        },
+        {
+            "image": "images/finance/im12.jpg",
+            "id": "28",
+            "title": "Chilean business magnate Ponce exits firms with stakes in lithium miner SQM",
+            "summary": "Chilean business magnate Ponce divests from companies holding shares in lithium miner SQM.",
+            "category": "Finance",
+            "importance": "medium",
+            "date": "2025-07-04T23:42:27.822966"
+        },
+        {
+            "image": "images/finance/im13.jpg",
+            "id": "29",
+            "title": "Fed's Harker says its time for caution on monetary policy amid uncertainty",
+            "summary": "The Fed's Harker suggests caution is needed in monetary policy decisions due to current uncertainties.",
+            "category": "Finance",
+            "importance": "medium",
+            "date": "2025-07-04T23:42:27.829945"
+        },
+        {
+            "image": "images/finance/im5.jpg",
+            "id": "30",
+            "title": "Fed's Schmid: uncomfortable with looking through tariff-driven price push",
+            "summary": "The Fed's Schmid expresses concern about overlooking the impact of tariffs on price increases.",
+            "category": "Finance",
+            "importance": "medium",
+            "date": "2025-07-04T23:42:27.837259"
+        },
+        {
+            "image": "images/economy/im18.jpg",
+            "id": "31",
+            "title": "Delta warns new tariffs could force it to stop buying foreign-made airplanes",
+            "summary": "Delta Airlines cautions that new tariffs might compel it to cease purchasing foreign-made airplanes.",
+            "category": "Economy",
+            "importance": "medium",
+            "date": "2025-07-04T23:42:27.843594"
+        },
+        {
+            "image": "images/investing/im10.jpg",
+            "id": "32",
+            "title": "Undervalued Growth Stocks",
+            "summary": "Discussion of growth stocks that are currently considered undervalued.",
+            "category": "Investing",
+            "importance": "medium",
+            "date": "2025-07-04T23:42:27.850550"
+        },
+        {
+            "image": "images/finance/im2.jpg",
+            "id": "33",
+            "title": "Why tariffs are expected to increase car insurance costs",
+            "summary": "Explanation of how tariffs are expected to lead to higher car insurance expenses.",
+            "category": "Finance",
+            "importance": "medium",
+            "date": "2025-07-04T23:42:27.857109"
+        },
+        {
+            "image": "images/economy/im2.jpg",
+            "id": "34",
+            "title": "CBO warns Trump's tax bill could add $2.4T to deficit",
+            "summary": "The Congressional Budget Office (CBO) cautions that Trump's tax bill could increase the deficit by $2.4 trillion.",
+            "category": "Economy",
+            "importance": "medium",
+            "date": "2025-07-04T23:42:27.863969"
+        },
+        {
+            "image": "images/economy/im19.jpg",
+            "id": "35",
+            "title": "Musk's 'KILL the BILL' screed hits Trump tax bill's progress",
+            "summary": "Musk's strong opposition to the bill is impacting its progress.",
+            "category": "Economy",
+            "importance": "medium",
+            "date": "2025-07-04T23:42:27.870782"
+        },
+        {
+            "image": "images/economy/im18.jpg",
+            "id": "36",
+            "title": "Will Trump's tax bill actually incentivize corporate growth?",
+            "summary": "An analysis of whether Trump's tax bill will genuinely stimulate corporate expansion.",
+            "category": "Economy",
+            "importance": "medium",
+            "date": "2025-07-04T23:42:27.877133"
+        },
+        {
+            "image": "images/markets/im4.jpg",
+            "id": "37",
+            "title": "Global Markets Rise, U.S. Futures Flat After Tech-Led Rally",
+            "summary": "Global markets show growth, while U.S. futures remain stable following a technology-driven rally.",
+            "category": "Markets",
+            "importance": "medium",
+            "date": "2025-07-04T23:42:27.884799"
+        },
+        {
+            "image": "images/economy/im9.jpg",
+            "id": "38",
+            "title": "China's rare earth export curbs hit the auto industry worldwide",
+            "summary": "China's restrictions on rare earth exports are impacting the automotive industry globally.",
+            "category": "Economy",
+            "importance": "medium",
+            "date": "2025-07-04T23:42:27.897615"
+        },
+        {
+            "image": "images/technology/im5.jpg",
+            "id": "39",
+            "title": "Hewlett Packard beats Q2 results estimates on AI demand; records $1.36 billion charge",
+            "summary": "Hewlett Packard surpasses estimates for Q2 results driven by AI demand, recording a $1.36 billion charge.",
+            "category": "Technology",
+            "importance": "medium",
+            "date": "2025-07-04T23:42:27.913413"
+        },
+        {
+            "image": "images/economy/im21.jpg",
+            "id": "40",
+            "title": "Tariff uncertainty is hammering one of America's favorite food escapes — snacks",
+            "summary": "The uncertainty surrounding tariffs is negatively impacting the snack industry in America.",
+            "category": "Economy",
+            "importance": "medium",
+            "date": "2025-07-04T23:42:27.927170"
+        },
+        {
+            "image": "images/finance/im7.jpg",
+            "id": "41",
+            "title": "Billionaires Are Selling Nvidia Stock and Buying a Stock-Split AI Stock Up 530% in 5 Years",
+            "summary": "Reports that Billionaires Are Selling Nvidia Stock and Buying a Stock-Split AI Stock",
+            "category": "Finance",
+            "importance": "medium",
+            "date": "2025-07-04T23:42:27.941942"
+        },
+        {
+            "image": "images/investing/im7.jpg",
+            "id": "42",
+            "title": "1 Top Artificial Intelligence (AI) to Buy Hand Over Fist Before It Is Too Late",
+            "summary": "Discussion of 1 Top Artificial Intelligence (AI) to Buy Before It Is Too Late",
+            "category": "Investing",
+            "importance": "medium",
+            "date": "2025-07-04T23:42:27.957170"
+        },
+        {
+            "image": "images/economy/im5.jpg",
+            "id": "43",
+            "title": "دولت در جنگ ۱۲روزه با اقداماتی نظیر تامین ارز برای واردات کالاهای اساسی، کاهش بوروکراسی ترخیص کالا، تدوین بسته حمایتی برای صنایع و بازگشت ارز ترجیحی برای برخی از کالاها موفق شد با سرعت قابل قبولی اختلالات مقطعی در زنجیره تامین را کنترل کند.",
+            "summary": "دولت با اقداماتی نظیر تامین ارز، کاهش بوروکراسی، تدوین بسته حمایتی و بازگشت ارز ترجیحی، اختلالات مقطعی در زنجیره تامین را کنترل کرد.",
+            "category": "Economy",
+            "importance": "medium",
+            "date": "2025-07-04T23:42:27.971334"
+        },
+        {
+            "image": "images/economy/im16.jpg",
+            "id": "44",
+            "title": "بر اساس گزارش مرکز آمار ایران، تورم نقطه به نقطه در پایان خرداد باثبت نرخ ۳۹.۴درصد، به بیشترین سطح از آذرماه۱۴۰۲ رسیده است.",
+            "summary": "بر اساس گزارش مرکز آمار ایران، تورم نقطه به نقطه در پایان خرداد به بیشترین سطح از آذرماه ۱۴۰۲ رسیده است.",
+            "category": "Economy",
+            "importance": "medium",
+            "date": "2025-07-04T23:42:27.985342"
+        },
+        {
+            "image": "images/economy/im3.jpg",
+            "id": "45",
+            "title": "درگیری بی\\u200cسابقه و تنش\\u200cزای ۱۲ روزه میان اسرائیل و ایران که با حملات موشکی متقابل، خسارات گسترده زیرساختی و تعطیلی\\u200cهای سراسری در سرزمین\\u200cهای اشغالی همراه بود.",
+            "summary": "درگیری بی\\u200cسابقه و تنش\\u200cزای ۱۲ روزه میان اسرائیل و ایران با حملات موشکی متقابل و خسارات گسترده همراه بود.",
+            "category": "Economy",
+            "importance": "medium",
+            "date": "2025-07-04T23:42:27.997839"
+        },
+        {
+            "image": "images/economy/im29.jpg",
+            "id": "46",
+            "title": "جنگ ۱۲ روزه میان ایران و اسرائیل، چالش\\u200cهای اقتصادی کسب\\u200cو\\u200cکارها و خانوارها را بیش از پیش تشدید کرده است.",
+            "summary": "جنگ ۱۲ روزه میان ایران و اسرائیل، چالش\\u200cهای اقتصادی کسب\\u200cو\\u200cکارها و خانوارها را تشدید کرده است.",
+            "category": "Economy",
+            "importance": "medium",
+            "date": "2025-07-04T23:42:28.015074"
+        },
+        {
+            "image": "images/markets/im4.jpg",
+            "id": "47",
+            "title": "تجاوز نظامی اسرائیل به ایران، معادلات بازارهای جهانی و داخلی را تغییر داد.",
+            "summary": "تجاوز نظامی اسرائیل به ایران، معادلات بازارهای جهانی و داخلی را تغییر داد.",
+            "category": "Markets",
+            "importance": "medium",
+            "date": "2025-07-04T23:42:28.027635"
         }
     ]
 }
