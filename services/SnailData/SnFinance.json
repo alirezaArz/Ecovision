@@ -1,15 +1,6 @@
 {
     "newsData": [
         {
-            "id": 67,
-            "title": "CrowdStrike forecasts downbeat second-quarter revenue, shares fall",
-            "summary": "CrowdStrike forecasts downbeat second-quarter revenue, shares fall",
-            "category": "Finance",
-            "image": "images/finance/im7.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
             "id": 71,
             "title": "Billionaires Are Selling Nvidia Stock and Buying a Stock-Split AI Stock Up 530% in 5 Years",
             "summary": "Billionaires Are Selling Nvidia Stock and Buying a Stock-Split AI Stock Up 530% in 5 Years",
@@ -26,6 +17,15 @@
             "category": "Finance",
             "importance": "medium",
             "date": "2025-07-05T02:22:30.749123"
+        },
+        {
+            "image": "images/finance/im10.jpg",
+            "id": "6",
+            "title": "Circle stock soars after IPO as stablecoin giant makes market debut",
+            "summary": "Circle's stock price increases significantly following its IPO, marking the public debut of the stablecoin company.",
+            "category": "Finance",
+            "importance": "medium",
+            "date": "2025-07-05T02:44:12.088796"
         }
     ]
 }
