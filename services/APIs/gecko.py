@@ -22,13 +22,28 @@ def save(name: str, response: json):
         response.update({"time": datetime.now(
             timezone.utc).strftime("%Y-%m-%d %H:%M:%S")})
         sendingData.append(response)
-
+    addFullTime(response)
     with open(os.path.join(DATA_PATH, f"{name}"), 'w', encoding='utf-8') as file:
         json.dump(sendingData, file, indent=4, ensure_ascii=False)
         file.write("\n")
         print("saved")
 
     old_clean(name)
+
+
+def addFullTime(data):
+    LastData = read("FullTimeCrypto")
+    if LastData["CryptoData"]:
+        if LastData["CryptoData"][-1]["time"][:10] == data["time"][:10]:
+            LastData["CryptoData"][-1] = data
+        else:
+            LastData["CryptoData"].append(data)
+    else:
+        LastData["CryptoData"].append(data)
+        
+    with open(os.path.join(DATA_PATH, "geckoFullTimeCrypto.json"), 'w', encoding='utf-8') as file:
+        json.dump(LastData, file, indent=4, ensure_ascii=False)
+
 
 
 def read(name):
@@ -201,7 +216,7 @@ def percentage():
         json.dump(answer, file, indent=4, ensure_ascii=False)
 
 
-# price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
+#price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
 # percentage()
 # print(market_chart({'usd'}, 2))
 # print(is_online())

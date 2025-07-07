@@ -3,7 +3,7 @@ import os
 import random
 import sys
 import time
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 import re
 from services import systems as system
 from services import navigation as navigation
@@ -82,7 +82,7 @@ class Analyze():
                         self.localai_active = True
                         self.result = ollama.get_ai_response(self.entry)
                         self.localai_inprocess = False
-                    # extract.ex.geminiMx1(self.result)  // snail save doesnt work for this... thats customized for gemini only
+                        extract.ex.geminiMx1(self.result)
                 else:
                     print('analyze failed code:3')
                 self.gemeni_inprocess = False
@@ -106,7 +106,7 @@ class Analyze():
                 try:
                     self.localai_active = True
                     self.result = ollama.get_ai_response(self.entry)
-                    # extract.ex.geminiMx1(self.result)
+                    extract.ex.geminiMx1(self.result)
                 except Exception as e:
                     print(f"analyze failed code:5 {e}")
                 self.gemeni_inprocess = False
@@ -116,4 +116,39 @@ class Analyze():
                 self.localai_inprocess = False
                 print("no AI core is active, please activate one")
 
+
+    def priceAnalyze(self):
+        data = []
+        geckoData = gecko.read("FullTimeCrypto")["CryptoData"]
+        bonbastData = bonbast.load("FullTimeCurrency.json")["PriceData"]
+        
+        cryptoLast =geckoData[-1]
+        bonbastLast = geckoData[-1]
+
+        cryptoLastTime = datetime.strptime(geckoData[-1]["time"], "%Y-%m-%d %H:%M:%S")
+        bonbastLastTime = datetime.strptime(geckoData[-1]["time"], "%Y-%m-%d %H:%M:%S")
+        target_duration = timedelta(weeks=1)
+        
+        cryptoPast = min(geckoData[:-1], key=lambda item: abs((cryptoLastTime - datetime.strptime(item["time"], "%Y-%m-%d %H:%M:%S")) - target_duration))
+        bonbastPast = min(bonbastData[:-1], key=lambda item: abs((bonbastLastTime - datetime.strptime(item["time"], "%Y-%m-%d %H:%M:%S")) - target_duration))
+        
+        data.append(cryptoPast)
+        data.append(bonbastPast)
+        data.append(cryptoLast)
+        data.append(bonbastLast)
+
+
+        GeminiResponse = gemeni.priceDetermine(data)
+        newResult = {}
+        newResult["date"] = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+        newResult["opinion"] = GeminiResponse
+
+        lastResult = navigation.nav.Navread("PriceOpinion")["OpinionData"]
+        lastResult.appned(newResult)
+        print(lastResult)
+        #navigation.nav.saveNavigation(lastResult, "PriceOpinion")
+
+
 az = Analyze()
+
+

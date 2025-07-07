@@ -1,18 +1,5 @@
-
-import json
-import os
-import random
-import sys
-import time
-from datetime import datetime, timedelta, timezone
-import re
-
-
-
-def priceAnalyze():
-        data = []
-        cryptoDistances = []
-        geckoData = [
+{
+    "CryptoData": [
         {
             "bitcoin": {
                 "usd": 109419
@@ -54,16 +41,27 @@ def priceAnalyze():
                 "usd": 1.0
             },
             "time": "2025-07-06 21:54:50"
+        },
+        {
+            "bitcoin": {
+                "usd": 108766
+            },
+            "cardano": {
+                "usd": 0.58328
+            },
+            "dogecoin": {
+                "usd": 0.170776
+            },
+            "ethereum": {
+                "usd": 2557.8
+            },
+            "solana": {
+                "usd": 150.88
+            },
+            "tether": {
+                "usd": 1.0
+            },
+            "time": "2025-07-07 01:08:16"
         }
     ]
-        #bonbastData = bonbast.load("FullTimeCurrency.json")
-        
-        cryptoNew = geckoData[-1]
-        for item in (geckoData["CryptoData"][:-1]):
-            newDate = datetime.strptime(cryptoNew["time"], "%Y-%m-%d %H:%M:%S")
-            itDate = datetime.strptime(item["time"], "%Y-%m-%d %H:%M:%S")
-            cryptoDistances.append(itDate - newDate)
-
-        cryptoPast = geckoData[(cryptoDistances.index(min(cryptoDistances, key=lambda i: abs(i - timedelta(weeks=1)))))]
-
-        print(cryptoPast)
+}
