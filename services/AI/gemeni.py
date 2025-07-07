@@ -22,7 +22,7 @@ def analyze(data: str):
 '''
         )
         print("gemini response: ", response)
-        return str(response)
+        return response
 
     except:
         print("couldn't get accessed to the gemini, check your network and try again")
@@ -56,7 +56,7 @@ def priceDetermine(data:list):
 """'''
         )
         print("gemini response: ", response)
-        return str(response)
+        return response
 
     except:
         print("couldn't get accessed to the gemini, check your network and try again")

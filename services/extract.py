@@ -78,7 +78,7 @@ class Extract():
 
         except Exception as e:
             print(f"Unable to extract the AI's response with method Mx1: {e}, directing to Mx2...")
-            self.geminiMx2(data)
+            self.geminiMx2(str(data))
 
     def geminiMx2(self, data):
         try:

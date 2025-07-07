@@ -21,9 +21,12 @@ class Nav():
                 f"Nav : {name}.json is not where it sould be at {Navpath}")
 
     def saveNavigation(self, data, adress):
-        self.lastdata = self.Navread(adress)
-
-        self.lastdata["newsData"].append(data)
+        if adress != "PriceOpinion":
+            self.lastdata = self.Navread(adress)
+            self.lastdata["newsData"].append(data)
+        else:
+            self.lastdata = data
+            
         with open(os.path.join(Navpath, f"{adress}.json"), 'w', encoding='utf-8') as file:
             json.dump(self.lastdata, file, indent=4, ensure_ascii=False)
 

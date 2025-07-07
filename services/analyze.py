@@ -1,24 +1,23 @@
 import json
 import os
 import random
+import re
 import sys
 import time
 from datetime import datetime, timedelta, timezone
-import re
-from services import systems as system
+
+from services import extract as extract
 from services import navigation as navigation
-from services.Scrapers import yahoo
-from services.Scrapers import nytimes as nytimes
-from services.Scrapers import esdn
-from services.Scrapers import dnsd as dnsd
-from services.Scrapers import bonbast as bonbast
-from services.Scrapers import bloomberg
-from services.APIs import gecko as gecko
+from services import systems as system
 from services.AI import colab as ollama
 from services.AI import gemeni as gemeni
-from services import extract as extract
-
-
+from services.APIs import gecko as gecko
+from services.Scrapers import bloomberg
+from services.Scrapers import bonbast as bonbast
+from services.Scrapers import dnsd as dnsd
+from services.Scrapers import esdn
+from services.Scrapers import nytimes as nytimes
+from services.Scrapers import yahoo
 
 
 class Analyze():
@@ -37,7 +36,6 @@ class Analyze():
         data += str(nytimes.load())
         data += str(yahoo.load())
         return (data)
-
 
     def MainDataAnalyze(self, core='none'):
         self.entry = self.get_news_data()
@@ -116,39 +114,48 @@ class Analyze():
                 self.localai_inprocess = False
                 print("no AI core is active, please activate one")
 
-
     def priceAnalyze(self):
         data = []
         geckoData = gecko.read("FullTimeCrypto")["CryptoData"]
         bonbastData = bonbast.load("FullTimeCurrency.json")["PriceData"]
-        
-        cryptoLast =geckoData[-1]
+
+        cryptoLast = geckoData[-1]
         bonbastLast = geckoData[-1]
 
-        cryptoLastTime = datetime.strptime(geckoData[-1]["time"], "%Y-%m-%d %H:%M:%S")
-        bonbastLastTime = datetime.strptime(geckoData[-1]["time"], "%Y-%m-%d %H:%M:%S")
+        cryptoLastTime = datetime.strptime(
+            geckoData[-1]["time"], "%Y-%m-%d %H:%M:%S")
+        bonbastLastTime = datetime.strptime(
+            geckoData[-1]["time"], "%Y-%m-%d %H:%M:%S")
         target_duration = timedelta(weeks=1)
-        
-        cryptoPast = min(geckoData[:-1], key=lambda item: abs((cryptoLastTime - datetime.strptime(item["time"], "%Y-%m-%d %H:%M:%S")) - target_duration))
-        bonbastPast = min(bonbastData[:-1], key=lambda item: abs((bonbastLastTime - datetime.strptime(item["time"], "%Y-%m-%d %H:%M:%S")) - target_duration))
-        
+
+        cryptoPast = min(geckoData[:-1], key=lambda item: abs((cryptoLastTime -
+                         datetime.strptime(item["time"], "%Y-%m-%d %H:%M:%S")) - target_duration))
+        bonbastPast = min(bonbastData[:-1], key=lambda item: abs(
+            (bonbastLastTime - datetime.strptime(item["time"], "%Y-%m-%d %H:%M:%S")) - target_duration))
+
         data.append(cryptoPast)
         data.append(bonbastPast)
         data.append(cryptoLast)
         data.append(bonbastLast)
 
-
         GeminiResponse = gemeni.priceDetermine(data)
-        newResult = {}
-        newResult["date"] = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
-        newResult["opinion"] = GeminiResponse
+        if GeminiResponse and GeminiResponse.candidates:
+            try:
+                text_content = GeminiResponse.text
+                newResult = {
+                    "date": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S"),
+                    "opinion": text_content  # Storing the cleaned text
+                }
 
-        lastResult = navigation.nav.Navread("PriceOpinion")["OpinionData"]
-        lastResult.appned(newResult)
-        print(lastResult)
-        #navigation.nav.saveNavigation(lastResult, "PriceOpinion")
+                LastData = navigation.nav.Navread("PriceOpinion")
 
+                LastData["OpinionData"].append(newResult)  # Corrected from .appned
+
+                navigation.nav.saveNavigation(LastData, "PriceOpinion")
+                print("Successfully updated PriceOpinion.")
+
+            except Exception as e:
+                print(f"Failed to extract and save opinion: {e}")
 
 az = Analyze()
-
 
