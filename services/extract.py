@@ -101,11 +101,11 @@ class Extract():
                     importance = r'"importance": "(.*?)"'
                     itemImportance = re.search(importance, item)
                     if itemId and itemCategory and itemImportance and itemSummary and itemTitle:
-                        itemTitle = itemTitle.group(1)
-                        itemSummary = itemSummary.group(1)
-                        itemCategory = itemCategory.group(1)
-                        itemImportance = itemImportance.group(1)
-                        itemId = itemId.group(0)
+                        itemTitle = itemTitle.group(1).group(1).replace('\u200c', '')
+                        itemSummary = itemSummary.group(1).group(1).replace('\u200c', '')
+                        itemCategory = itemCategory.group(1).group(1).replace('\u200c', '')
+                        itemImportance = itemImportance.group(1).group(1).replace('\u200c', '')
+                        itemId = itemId.group(0).group(1).replace('\u200c', '')
                         if itemId not in memoId:
                             newElement = {}
 
