@@ -25,8 +25,8 @@ def analyze(data: str):
         print("gemini response: ", response)
         return response
 
-    except:
-        print("couldn't get accessed to the gemini, check your network and try again")
+    except Exception as e:
+        print(f"couldn't get accessed to the gemini, check your network and try again: {e}")
         return None
 
 
