@@ -98,7 +98,7 @@ def save(data):
 
 def load(filename="ScEghtsdNews.json"):
     try:
-        with open(os.path.join(DATA_PATH, "Eghtesat_news.json"), "r", encoding="utf-8") as l:
+        with open(os.path.join(DATA_PATH, "ScEghtsdNews.json"), "r", encoding="utf-8") as l:
             data = json.load(l)
         return (data)
     except:

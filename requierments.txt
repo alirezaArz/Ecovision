@@ -3,3 +3,4 @@ markdown
 django-browser-reload
 selenium
 halo
+openai

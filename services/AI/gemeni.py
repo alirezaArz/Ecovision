@@ -19,6 +19,7 @@ def analyze(data: str):
             : {{ "0": {{ "title": "TITLE_HERE", "summary": "SUMMARY_HERE", "category": "CATEGORY_HERE", "importance": "IMPORTANCE_HERE" }} }}
               اطلاعات ورودی: {data},
             "remember, these are the only categories that you can assign, and each answer can only have one category: [Economy, Finance, Markets, Investing, Technology, Science]"
+            و در نهایت یک 
 '''
         )
         print("gemini response: ", response)

@@ -1,14 +1,22 @@
 import ollama
-def answer(data):
+def answer():
     try:
-        response = ollama.chat(model='gemma3:1b', messages=[{
+        response = ollama.chat(model='gemma:2b', messages=[{
 
             'role': 'user', 
             
-            'content': f'''این اطلاعات رو تحلیل کن اون هایی که ارزش تحلیل ندارن رو کنار بزار و باقی مونده ها رو درنظر بگیر و تحلیل کن  میتونی اونهایی که به هم مرتبط هستن رو بکی کنی (برای من مهم کیفیته نه کمیت ) تمام این مقدار ها باید برابر همون جیزی باشن که در کلیدشون ذکر شده و هیج گونه پیام یا کامنتی نزار اگه یه موردی نصفه نیمه بود اون رو هم حساب نکن . درنهایت مانند جیسونی که فرستادم خروجی بده: {{ "0": {{ "title": "TITLE_HERE", "summary": "SUMMARY_HERE", "category": "CATEGORY_HERE", "importance": "IMPORTANCE_HERE" "respond in the format that is given only" }} }} اطلاعات ورودی: {data}'''
-            
+            'content': '''analyze this :             "title": "As a Nation’s Economy Slows, Some Say It’s No Time for a Free Lunch",
+            "summary": "Indonesia’s president promised free meals for every student in the country. But unemployment is rising, and some analysts say he’s making matters worse.",
+            "image": "placeholder.svg",
+            "category": "news",
+            "importance": "medium",
+            "date": "2025-07-05T02:15:08.852514"
+        }'''
             }])
         response = response.message.content
         return(response)
     except:
         print("couldn't get accessed to the local-ai, check ollama and try again")
+
+print(answer())
+
