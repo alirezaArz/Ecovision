@@ -2,7 +2,7 @@ import markdown
 import os
 
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-Navpath = os.path.join(project_root, 'markdowns', 'data', 'PriceOp')
+OpPath = os.path.join(project_root,'Data' ,'markdowns', 'PriceOp', '.html')
 
 
 def priceOp(ai_data, file_date):
@@ -118,7 +118,7 @@ def priceOp(ai_data, file_date):
     """
 
     output_filename = f"priceOp<{file_date}>.html"
-    with open(os.path.join(Navpath, output_filename), "w", encoding="utf-8") as f:
+    with open(os.path.join(OpPath, output_filename), "w", encoding="utf-8") as f:
         f.write(full_html_page)
 
     print(f"{output_filename} saved successfully!")

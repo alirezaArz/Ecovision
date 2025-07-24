@@ -4,7 +4,8 @@ from datetime import timedelta
 import os
 
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-Navpath = os.path.join(project_root, 'services', 'Data')
+Navpath = os.path.join(project_root, 'services', 'Data', 'Navigations')
+OpPath = os.path.join(project_root,'services','Data' ,'markdowns')
 
 
 class Nav():
@@ -128,6 +129,50 @@ class Nav():
         with open(os.path.join(Navpath, "SnOutsite.json"), 'w', encoding='utf-8') as file:
             json.dump(data, file, indent=4, ensure_ascii=False)
         print("out site ready")
+        
+    def OpRead(self, id):
+        # reading the items file for each opinions
+        try:
+            with open(os.path.join(OpPath,id, "items.json"), 'r', encoding='utf-8') as file:
+                self.data = json.load(file)
+                return (self.data)
+            
+        except:
+            print(
+                f"Nav : items.json is not where it sould be at {OpPath}/{id}")
+
+    def lastOP(self, id):
+        lastOp = self.OpRead(id)["dates"][-1]
+        return lastOp
+        
+        
+    def saveOpinion(self, id, name, file):
+        try:
+            lastOP = self.OpRead(id)
+            
+            try:
+                output_filename = f"{id}<{name}>.md"
+                with open(os.path.join(OpPath,id, '.md', output_filename), "w", encoding="utf-8") as f:
+                    f.write(file)
+                print('.md file saved successfully, going for saving the date...')
+                
+                lastOP["dates"].append(f"{id}<{name}>")
+                with open(os.path.join(OpPath,id, "items.json"), 'w', encoding='utf-8') as file:
+                    json.dump(lastOP, file, indent=4, ensure_ascii=False)
+                print(".md file's date saved successfully")
+
+            except Exception as e:
+                print(f"threre was an error while saving the .md file proccess: {e}")
+            
+        except Exception as e:
+            print(f"no valid value in {OpPath}/{id}/items.json['dates']")
+
+        
+        
+            
+            
+            
+            
         
         
 nav = Nav()

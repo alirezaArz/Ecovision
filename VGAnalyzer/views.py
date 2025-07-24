@@ -9,6 +9,8 @@ from django.views.decorators.csrf import csrf_exempt
 from services import snail as snail
 from services import analyze as analyze
 from services import systems
+from services import navigation as navigation
+
 
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 if project_root not in sys.path:
@@ -57,6 +59,19 @@ def api_nav(request, id):
     else:
         return JsonResponse('bad request', safe=False)
 #           -------------------------***Admin Panel***------------------------
+
+def showOpiniononTmp(request, id):
+    lastOp = navigation.nav.lastOP('PriceOp')
+    if id == '.html':
+        return render( request, f'{lastOp}.html')
+    else:
+        pass
+        # sending the .md file to the user
+        
+
+
+def getOpinion(request):
+    return render()
 
 
 @csrf_exempt

@@ -28,4 +28,5 @@ urlpatterns = [
     path('crypto/', views.getCryptoData, name='crypto_data'),
     path('news/', views.getNewsData, name='news_data'),
     path('api/<str:id>/',views.api_nav, name = 'api_nav'),
+    path('api/opinion<str:id>/price', views.showOpiniononTmp, name='show opinion'),
 ]

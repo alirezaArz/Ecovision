@@ -15,7 +15,7 @@ from services.APIs import gecko as gecko
 from services.AI import gemeni as gemeni
 
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-Navpath = os.path.join(project_root, 'services', 'Data')
+Navpath = os.path.join(project_root, 'services', 'Data', 'Navigations')
 
 class Extract():
     def __init__(self):
