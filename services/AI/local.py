@@ -12,4 +12,3 @@ def answer(data):
         return(response)
     except:
         print("couldn't get accessed to the local-ai, check ollama and try again")
-    

@@ -1,1 +1,5 @@
-pip install django-cors-headers
+django-cors-headers
+markdown
+django-browser-reload
+selenium
+halo

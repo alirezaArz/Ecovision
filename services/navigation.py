@@ -4,7 +4,7 @@ from datetime import timedelta
 import os
 
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-Navpath = os.path.join(project_root, 'services', 'SnailData')
+Navpath = os.path.join(project_root, 'services', 'Data')
 
 
 class Nav():

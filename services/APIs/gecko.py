@@ -8,7 +8,7 @@ import requests
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_PATH = os.path.join(BASE_DIR, 'geckoData')
 
-
+print(f"this is path {DATA_PATH}")
 def save(name: str, response: json):
     try:
         last_result = read("price")
@@ -74,14 +74,12 @@ def old_clean(name: str):
             json.dump(list_of_dicts, file, indent=4, ensure_ascii=False)
         percentage()
 
-
 def is_online(test_url="https://www.google.com"):
     try:
         response = requests.get(test_url, timeout=5)
         return response.status_code == 200
     except requests.exceptions.RequestException:
         return False
-
 
 def connect(url, params, id: str):
     print("Gecko is running")

@@ -18,7 +18,7 @@ from services.Scrapers import dnsd as dnsd
 from services.Scrapers import esdn
 from services.Scrapers import nytimes as nytimes
 from services.Scrapers import yahoo
-
+from services.markdowns import MkPriceOp as prcmarkdown
 
 class Analyze():
     def __init__(self):
@@ -146,14 +146,17 @@ class Analyze():
                     "date": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S"),
                     "opinion": text_content  # Storing the cleaned text
                 }
-
                 LastData = navigation.nav.Navread("PriceOpinion")
 
                 LastData["OpinionData"].append(newResult)  # Corrected from .appned
 
                 navigation.nav.saveNavigation(LastData, "PriceOpinion")
-                print("Successfully updated PriceOpinion.")
-
+                print("Successfully updated PriceOpinion. extracting markdown to .html file...")
+                try:
+                    prcmarkdown.priceOp(newResult["opinion"], newResult["date"])
+                except Exception as e:
+                    print(f"there was an error while executing markdown to .html file: {e}")
+            
             except Exception as e:
                 print(f"Failed to extract and save opinion: {e}")
 

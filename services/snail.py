@@ -20,7 +20,7 @@ import re
 
 from halo import Halo
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-Navpath = os.path.join(project_root, 'services', 'SnailData')
+Navpath = os.path.join(project_root, 'services', 'Data')
 DATA_PATH = os.path.join(project_root, "scraped")
 
 

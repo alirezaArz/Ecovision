@@ -43,8 +43,8 @@ INSTALLED_APPS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",  # آدرس سرور توسعه React شما
-    "http://127.0.0.1:5173", # برای اطمینان بیشتر این هم اضافه شود
+    "http://localhost:5173",
+    "http://127.0.0.1:5173", 
 ]
 
 MIDDLEWARE = [
