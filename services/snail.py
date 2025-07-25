@@ -7,8 +7,8 @@ from services.Scrapers import dnsd as dnsd
 from services.Scrapers import bonbast as bonbast
 from services.Scrapers import bloomberg
 from services.APIs import gecko as gecko
-from services.AI import colab as ollama
-from services.AI import gemeni as gemeni
+from temp import colab as ollama
+from services.External_AI_Models import gemeni as gemeni
 from services import analyze as analyze
 import json
 import os

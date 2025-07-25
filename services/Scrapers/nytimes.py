@@ -3,7 +3,7 @@ import json
 import os
 import random
 import time
-
+from datetime import datetime, timedelta, timezone
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -21,6 +21,8 @@ DATA_PATH = os.path.join(BASE_DIR, "scraped")
 
 def main():
     dic = {}
+    current_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+    dic["date"] = current_time
     driver = webdriver.Firefox()
     driver.get("https://www.nytimes.com/section/business/economy")
     time.sleep(random.randint(5, 20))
@@ -42,32 +44,23 @@ def main():
         print(f"nytimes had an error fetching elements : {e}")
 
     if titles_elements and descript_elements:
-        current_time = datetime.now().isoformat()
         num_items = min(len(titles_elements), len(descript_elements))
 
-        processed_data_list = []
         for i in range(num_items):
             item_data = {
-                "id": i + 1,
                 "title": titles_elements[i].text,
                 "summary": descript_elements[i].text,
-                "image": 'placeholder.svg',
-                "category": 'news',
-                "importance": 'medium',
-                "date": current_time
             }
-            processed_data_list.append(item_data)
+            dic[i] = item_data
 
-        if processed_data_list:
-            dic = {"newsData": processed_data_list}
-            save(dic)
-
+    save(dic)
     driver.quit()
-    return (dic)
 
 
 def search(inp_arg):
     dic = {}
+    current_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+    dic["date"] = current_time
     driver = webdriver.Firefox()
     driver.get("https://www.nytimes.com/")
     time.sleep(random.randint(5, 20))
@@ -127,11 +120,13 @@ def search(inp_arg):
     save(dic)
 
 
-def save(data):
-    if data:
+def save(new_data):
+    last_data = load()
+    if new_data:
+        last_data["Data"].append(new_data)
         try:
             with open(os.path.join(DATA_PATH, "ScNyt.json"), "w", encoding="utf-8") as s:
-                json.dump(data, s, ensure_ascii=False, indent=4)
+                json.dump(last_data, s, ensure_ascii=False, indent=4)
             print("nytimes done successfully")
         except Exception as e:
             print(f"nytimes: file failed at saving {e}")
@@ -141,7 +136,7 @@ def save(data):
         print("nytimes failed")
 
 
-def load(filename="ScNyt.json"):
+def load():
     try:
         with open(os.path.join(DATA_PATH, "ScNyt.json"), "r", encoding="utf-8") as l:
             data = json.load(l)

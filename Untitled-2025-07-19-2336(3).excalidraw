@@ -527,7 +527,7 @@
       "backgroundColor": "#ffc9c9",
       "fillStyle": "solid",
       "strokeWidth": 4,
-      "strokeStyle": "dashed",
+      "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
@@ -537,11 +537,11 @@
         "type": 2
       },
       "seed": 1276251256,
-      "version": 206,
-      "versionNonce": 707505784,
+      "version": 210,
+      "versionNonce": 385650388,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1753395843504,
+      "updated": 1753471168194,
       "link": null,
       "locked": false,
       "points": [
@@ -882,7 +882,7 @@
       "backgroundColor": "#ffc9c9",
       "fillStyle": "solid",
       "strokeWidth": 4,
-      "strokeStyle": "dashed",
+      "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
@@ -892,11 +892,11 @@
         "type": 2
       },
       "seed": 637414920,
-      "version": 1061,
-      "versionNonce": 1296017160,
+      "version": 1063,
+      "versionNonce": 138486612,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1753395877604,
+      "updated": 1753471158317,
       "link": null,
       "locked": false,
       "points": [
@@ -991,6 +991,171 @@
       "containerId": null,
       "originalText": "passing data\n to the user",
       "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "n35fshqfWEKhPwQ8hmKyC",
+      "type": "ellipse",
+      "x": 567.5858778085951,
+      "y": 611.4387255398185,
+      "width": 43.36443824132729,
+      "height": 42.207211650574884,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 4,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "ar",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1592197972,
+      "version": 134,
+      "versionNonce": 682042220,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "4B0DrZEp2xSgmFJcboXIo",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1753471587343,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "4B0DrZEp2xSgmFJcboXIo",
+      "type": "arrow",
+      "x": 554.2509951333731,
+      "y": 625.7961715586363,
+      "width": 653.237013919298,
+      "height": 127.6615987893831,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 4,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "as",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 287436884,
+      "version": 415,
+      "versionNonce": 1338962612,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1753472658179,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -324.1496961002167,
+          -62.44850484364076
+        ],
+        [
+          -653.237013919298,
+          65.21309394574234
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "n35fshqfWEKhPwQ8hmKyC",
+        "focus": 0,
+        "gap": 14
+      },
+      "endBinding": {
+        "elementId": "uzl99-U5GQto8CudV4RCx",
+        "focus": -0.2295179614929049,
+        "gap": 22.609004998984233
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "24uCR4MK9gIdrUF4IWtcQ",
+      "type": "rectangle",
+      "x": -769.2082138186578,
+      "y": 473.29239090110525,
+      "width": 707.3942347369868,
+      "height": 887.7104122189639,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 4,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 60,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b08",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1480698124,
+      "version": 228,
+      "versionNonce": 1754212620,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1753472652500,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "uzl99-U5GQto8CudV4RCx",
+      "type": "text",
+      "x": -695.232346133744,
+      "y": 526.4625457996369,
+      "width": 573.6373223488349,
+      "height": 805,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 4,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 60,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b09",
+      "roundness": null,
+      "seed": 1776607500,
+      "version": 1582,
+      "versionNonce": 2023716620,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "4B0DrZEp2xSgmFJcboXIo",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1753472657794,
+      "link": null,
+      "locked": false,
+      "text": "when API and scrapped datas are ready\nthey will get copyd in scrapped and \nresereve folderd, then the analyze.py\ndesides either send it to the gemini AI\nor sending that file to the entry folder\nof the local analyzation loop, then it will\nmake a notice in the primary loop that \nchecks the local ai output to get its\nresponse and after that it will call the \nNavigation.py to manage the output\n\n** Note that...\n1) when analyze.py chooses an AI model\nand sends the data for that, it will \nremove that data from the first place \nwhere it was...\n2) analyze.py will check for the gemeni\nconnection and tests it first, if gemini\ncouldn't response then it will choose\nthe local ai...\n3)local ai will run separedly as an external\nloop to let the snail.py to get data\nfrom other resorces.",
+      "fontSize": 28,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "when API and scrapped datas are ready\nthey will get copyd in scrapped and \nresereve folderd, then the analyze.py\ndesides either send it to the gemini AI\nor sending that file to the entry folder\nof the local analyzation loop, then it will\nmake a notice in the primary loop that \nchecks the local ai output to get its\nresponse and after that it will call the \nNavigation.py to manage the output\n\n** Note that...\n1) when analyze.py chooses an AI model\nand sends the data for that, it will \nremove that data from the first place \nwhere it was...\n2) analyze.py will check for the gemeni\nconnection and tests it first, if gemini\ncouldn't response then it will choose\nthe local ai...\n3)local ai will run separedly as an external \nloop to let the snail.py to get data\nfrom other resorces.",
+      "autoResize": false,
       "lineHeight": 1.25
     }
   ],

@@ -6,11 +6,11 @@ import sys
 import time
 from datetime import datetime, timedelta, timezone
 
-from services import extract as extract
+from services.External_AI_Models import extract as extract
 from services import navigation as navigation
 from services import systems as system
-from services.AI import colab as ollama
-from services.AI import gemeni as gemeni
+from temp import colab as ollama
+from services.External_AI_Models import gemeni as gemeni
 from services.APIs import gecko as gecko
 from services.Scrapers import bloomberg
 from services.Scrapers import bonbast as bonbast
@@ -99,6 +99,10 @@ class Analyze:
                 navigation.nav.saveOpinion("PriceOp", date, mdText)
             except Exception as e:
                 print(f"Failed to extract and save opinion: {e}")
+
+
+
+
 
 
 az = Analyze()

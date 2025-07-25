@@ -4,7 +4,7 @@ import os
 import random
 import sys
 import time
-
+from datetime import datetime, timedelta, timezone
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -21,6 +21,8 @@ options.add_argument("--headless")
 
 def search(inp_arg):
     dic = {}
+    current_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+    dic["date"] = current_time
     driver = webdriver.Firefox()
     driver.get("https://donya-e-eqtesad.com/newsstudios/search")
     time.sleep(random.randint(5, 20))
@@ -52,6 +54,8 @@ def search(inp_arg):
 
 def main():
     dic = {}
+    current_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+    dic["date"] = current_time
     driver = webdriver.Firefox()
     driver.get(
         "https://donya-e-eqtesad.com/%D8%A8%D8%AE%D8%B4-%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF-183")
@@ -72,11 +76,13 @@ def main():
     save(dic)
 
 
-def save(data):
-    if data:
+def save(new_data):
+    last_data = load()
+    if new_data:
+        last_data["Data"].append(new_data)
         try:
             with open(os.path.join(DATA_PATH, "ScDnsd.json"), "w", encoding="utf-8") as s:
-                json.dump(data, s, ensure_ascii=False, indent=4)
+                json.dump(last_data, s, ensure_ascii=False, indent=4)
             print("dnsd done successfully")
         except Exception as e:
             print(f"dnsd: file failed at saving {e}")

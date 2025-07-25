@@ -2,14 +2,13 @@
 import json
 import os
 import time
-
+from datetime import datetime, timedelta, timezone
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_PATH = os.path.join(BASE_DIR, "scraped")
 
@@ -19,6 +18,8 @@ options.add_argument("--headless")
 
 def main():
     dic = {}
+    current_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+    dic["date"] = current_time
     driver = webdriver.Firefox()
     driver.get("https://www.eghtesadnews.com/")
 
@@ -50,6 +51,8 @@ def main():
 
 def search(inp_arg):
     dic = {}
+    current_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+    dic["date"] = current_time
     driver = webdriver.Firefox()
     driver.get("https://www.eghtesadnews.com/newsstudios/search")
 
@@ -82,11 +85,13 @@ def search(inp_arg):
     save(dic)
 
 
-def save(data):
-    if data:
+def save(new_data):
+    last_data = load()
+    if new_data:
+        last_data["Data"].append(new_data)
         try:
             with open(os.path.join(DATA_PATH, "ScEghtsdNews.json"), "w", encoding="utf-8") as s:
-                json.dump(data, s, ensure_ascii=False, indent=4)
+                json.dump(last_data, s, ensure_ascii=False, indent=4)
             print("esdn done successfully")
         except:
             print("esdn: file failed at saving")

@@ -39,7 +39,8 @@ def main():
         change.remove('Code Currency Sell Buy')
 
     result = {}
-
+    result["date"] = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+    
     for item_line in change:
         parts = item_line.split(' ')
 
@@ -50,18 +51,20 @@ def main():
         sell = parts[-2]
         name_parts = parts[1:-2]
         name = " ".join(name_parts)
-
+        
         result[code] = {'name': name, 'buy': buy, 'sell': sell}
-    result["time"] = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+        
     addFullTime(result)
     save(result)
 
 
-def save(data):
-    if data:
+def save(new_data):
+    last_data = load()
+    if new_data:
+        last_data["Data"].append(new_data)
         try:
             with open(os.path.join(DATA_PATH, "ScBonbast.json"), "w", encoding="utf-8") as s:
-                json.dump(data, s, ensure_ascii=False, indent=4)
+                json.dump(last_data, s, ensure_ascii=False, indent=4)
             print("bonbast done successfully")
         except Exception as e:
             print(f"bonbast: file failed at saving {e}")
