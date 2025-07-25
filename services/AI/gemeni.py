@@ -19,7 +19,6 @@ def analyze(data: str):
             : {{ "0": {{ "title": "TITLE_HERE", "summary": "SUMMARY_HERE", "category": "CATEGORY_HERE", "importance": "IMPORTANCE_HERE" }} }}
               اطلاعات ورودی: {data},
             "remember, these are the only categories that you can assign, and each answer can only have one category: [Economy, Finance, Markets, Investing, Technology, Science]"
-            و در نهایت یک 
 '''
         )
         print("gemini response: ", response)
@@ -39,7 +38,6 @@ def priceDetermine(data:list):
         response = client.models.generate_content(
             model="gemini-2.0-flash", contents=f'''prompt = f"""
 به عنوان یک تحلیل‌گر متخصص بازار، با توجه به تحلیل اخباری که به تازگی انجام دادی، داده‌های زیر را بررسی کن.
-
 داده‌های هفته گذشته:
 - ارزهای دیجیتال: {data[0]}
 - ارزهای رایج (فیات): {data[1]}

@@ -197,10 +197,10 @@ def control_view(request):
                 snail.snail.instantrun('analyze')
             elif code == '502-run':  # Gemini AI Run
                 print('running gemini')
-                analyze.az.MainDataAnalyze('gemini')
+                analyze.az.MainDataAnalyze()
             elif code == '503-run':  # Local AI Run
                 print('running local-ai')
-                analyze.az.MainDataAnalyze('localai')
+                pass
             else:
                 return JsonResponse({'status': 'error', 'message': f"Unknown command code: {code}"}, status=400)
 

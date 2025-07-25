@@ -20,7 +20,8 @@ from services.Scrapers import nytimes as nytimes
 from services.Scrapers import yahoo
 from services.Data.markdowns import MkPriceOp as prcmarkdown
 
-class Analyze():
+
+class Analyze:
     def __init__(self):
         self.gemeni_inprocess = False
         self.localai_inprocess = False
@@ -35,84 +36,23 @@ class Analyze():
         data += str(esdn.load())
         data += str(nytimes.load())
         data += str(yahoo.load())
-        return (data)
+        return data
 
-    def MainDataAnalyze(self, core='none'):
+    def geminiAnalyze(self):
         self.entry = self.get_news_data()
-        if core == 'gemini' and not self.gemeni_inprocess:
-            try:
-                if not self.gemeni_inprocess:
-                    self.gemeni_inprocess = True
-                    self.result = gemeni.analyze(self.entry)
-                    if self.result != None:
-                        extract.ex.geminiMx1(self.result)
-                    else:
-                        print("analyze failed, canceled saving")
-            except Exception as e:
-                print(f'analyze failed code:1 {e}')
-            self.gemeni_inprocess = False
-
-        elif core == 'localai' and not self.localai_inprocess:
-            print(2)
-            try:
-                self.localai_active = True
-                self.result = ollama.get_ai_response(self.entry)
-                if self.result != None:
-                    extract.ex.geminiMx1(self.result)
-                else:
-                    print("analyze failed, canceled saving")
-            except Exception as e:
-                print(f"analyze failed code:2 {e}")
-            self.localai_inprocess = False
-
-        elif core == 'none':
-            if self.gemeni_active and self.localai_active:
-                try:
-                    if not self.gemeni_inprocess:
-                        self.gemeni_inprocess = True
-                        self.result = gemeni.analyze(self.entry)
-                        if self.result != None:
-                            extract.ex.geminiMx1(self.result)
-                        else:
-                            print("analyze failed, canceled saving")
-                except Exception as e:
-                    if not self.localai_active:
-                        self.localai_active = True
-                        self.result = ollama.get_ai_response(self.entry)
-                        self.localai_inprocess = False
-                        extract.ex.geminiMx1(self.result)
-                else:
-                    print('analyze failed code:3')
-                self.gemeni_inprocess = False
-                self.localai_inprocess = False
-
-            elif self.gemeni_active and not self.localai_inprocess:
-                try:
-                    self.gemeni_active = True
-                    self.result = gemeni.analyze(self.entry)
-                    if self.result != None:
-                        extract.ex.geminiMx1(self.result)
-
-                    else:
-                        print("analyze failed, canceled saving")
-                except Exception as e:
-                    print(f"analyze failed code:4, {e}")
-                    self.gemeni_inprocess = False
-                    self.localai_inprocess = False
-
-            elif self.localai_active and not self.localai_inprocess:
-                try:
-                    self.localai_active = True
-                    self.result = ollama.get_ai_response(self.entry)
-                    extract.ex.geminiMx1(self.result)
-                except Exception as e:
-                    print(f"analyze failed code:5 {e}")
-                self.gemeni_inprocess = False
-                self.localai_inprocess = False
+        try:
+            if not self.gemeni_inprocess:
+                self.gemeni_inprocess = True
+                self.result = gemeni.analyze(self.entry)
+            if self.result != None:
+                extract.ex.geminiMx1(self.result)
             else:
-                self.gemeni_inprocess = False
-                self.localai_inprocess = False
-                print("no AI core is active, please activate one")
+                print("analyze failed, canceled saving")
+        except Exception as e:
+            print(f"analyze failed code:1 {e}")
+        self.gemeni_inprocess = False
+
+
 
     def priceAnalyze(self):
         data = []
@@ -128,10 +68,22 @@ class Analyze():
             geckoData[-1]["time"], "%Y-%m-%d %H:%M:%S")
         target_duration = timedelta(weeks=1)
 
-        cryptoPast = min(geckoData[:-1], key=lambda item: abs((cryptoLastTime -
-                         datetime.strptime(item["time"], "%Y-%m-%d %H:%M:%S")) - target_duration))
-        bonbastPast = min(bonbastData[:-1], key=lambda item: abs(
-            (bonbastLastTime - datetime.strptime(item["time"], "%Y-%m-%d %H:%M:%S")) - target_duration))
+        cryptoPast = min(
+            geckoData[:-1],
+            key=lambda item: abs(
+                (cryptoLastTime -
+                 datetime.strptime(item["time"], "%Y-%m-%d %H:%M:%S"))
+                - target_duration
+            ),
+        )
+        bonbastPast = min(
+            bonbastData[:-1],
+            key=lambda item: abs(
+                (bonbastLastTime -
+                 datetime.strptime(item["time"], "%Y-%m-%d %H:%M:%S"))
+                - target_duration
+            ),
+        )
 
         data.append(cryptoPast)
         data.append(bonbastPast)
@@ -144,13 +96,9 @@ class Analyze():
                 date = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
                 mdText = GeminiResponse.text
                 prcmarkdown.priceOp(mdText, date)
-                navigation.nav.saveOpinion('PriceOp', date, mdText)
+                navigation.nav.saveOpinion("PriceOp", date, mdText)
             except Exception as e:
                 print(f"Failed to extract and save opinion: {e}")
 
 
 az = Analyze()
-
-
-
-
