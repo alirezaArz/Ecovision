@@ -1,7 +1,16 @@
 import ollama
+import json
+import os
 def answer(data):
+
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    DATA_PATH = os.path.join(BASE_DIR, "model.json")
+
+    with open(mode="r", file=DATA_PATH) as file:
+        odel = json.load(file)["model"]
+
     try:
-        response = ollama.chat(model='gemma:2b', messages=[{
+        response = ollama.chat(model=odel, messages=[{
 
             'role': 'user', 
             
