@@ -1,4 +1,3 @@
-from services import systems as system
 from services import navigation as navigation
 from services.Scrapers import yahoo
 from services.Scrapers import nytimes as nytimes
@@ -7,21 +6,16 @@ from services.Scrapers import dnsd as dnsd
 from services.Scrapers import bonbast as bonbast
 from services.Scrapers import bloomberg
 from services.APIs import gecko as gecko
-from temp import colab as ollama
 from services.External_AI_Models import gemeni as gemeni
 from services import analyze as analyze
-import json
 import os
 import random
 import sys
 import time
-from datetime import datetime
-import re
-
 from halo import Halo
+
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 DATA_PATH = os.path.join(project_root, "scraped")
-
 
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
