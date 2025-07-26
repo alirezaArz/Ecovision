@@ -7,7 +7,7 @@ from halo import Halo
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 InputPath = os.path.join(project_root, 'Local_AI_Models', 'InputData')
 OutPutPath = os.path.join(project_root, 'Local_AI_Models', 'OutputData')
-from services.Local_AI_Models import Ollama as ollama
+import Ollama as ollama
 class Core():
     def __init__(self):
         self.spinner = Halo(text='', spinner={
