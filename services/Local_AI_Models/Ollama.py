@@ -18,5 +18,4 @@ def answer():
     except Exception as e:
         print(f"couldn't get accessed to the local-ai, check ollama and try again: {e}")
 
-print(answer())
 

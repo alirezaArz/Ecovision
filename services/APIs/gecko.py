@@ -8,7 +8,6 @@ import requests
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_PATH = os.path.join(BASE_DIR, 'geckoData')
 
-print(f"this is path {DATA_PATH}")
 def save(name: str, response: json):
     try:
         last_result = read("price")

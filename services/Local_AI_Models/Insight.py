@@ -7,7 +7,7 @@ from halo import Halo
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 InputPath = os.path.join(project_root, 'Local_AI_Models', 'InputData')
 OutPutPath = os.path.join(project_root, 'Local_AI_Models', 'OutputData')
-
+from services.Local_AI_Models import Ollama as ollama
 class Core():
     def __init__(self):
         self.spinner = Halo(text='', spinner={
@@ -43,6 +43,24 @@ class Core():
                     json.dump(last_data, file, indent=4, ensure_ascii=False)
         else:
             print(f"input data's length is {data_length} and less than clear step!,canceled deleting")
+    
+    
+    
+    def readOutput(self,name='news'):
+        try:
+            with open(os.path.join(OutPutPath, f"{name}.json"), 'r', encoding='utf-8') as file:
+                data = json.load(file)
+                return (data)
+        except:
+            print(f"Nav : {name}.json is not where it sould be at {InputPath}")
+    
+    def saveOutput(self, data, name='news'):
+        last_data = self.readOutput()
+        last_data["Data"].append(data)
+        
+        with open(os.path.join(OutPutPath, f"{name}.json"), 'w', encoding='utf-8') as file:
+                    json.dump(last_data, file, indent=4, ensure_ascii=False)
+            
             
     def server(self):
         self.firstloop = True
@@ -65,19 +83,19 @@ class Core():
             if self.itemCount >= 1:
                 self.deniedloops = 0
                 print(f"{self.itemCount} new item(s) detected!")
-                time.sleep(7)
+                
+                self.saveOutput(self.inputData[0])
                 self.clearInput()
+                time.sleep(7)
                 
             else:
                 time.sleep(7)
                 self.deniedloops += 1
-                if self.deniedloops == 3:
+                if self.firstloop and self.deniedloops >= 3:
                     print(f"{self.deniedloops} denied loops!... shuting down the server.")
                     self.active = False
                     
                     
-            
-            
         self.spinner.stop()
     
     

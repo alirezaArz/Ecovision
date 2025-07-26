@@ -13,7 +13,6 @@ import random
 import sys
 import time
 from halo import Halo
-
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 DATA_PATH = os.path.join(project_root, "scraped")
 
