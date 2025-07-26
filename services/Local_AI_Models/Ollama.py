@@ -1,7 +1,5 @@
 import ollama
-def answer():
-    data = "Stocks wobble with Trump-Xi call, Musk feud in focus",
-
+def answer(data):
     try:
         response = ollama.chat(model='gemma:2b', messages=[{
 
