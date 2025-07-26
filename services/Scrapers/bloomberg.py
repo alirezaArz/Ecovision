@@ -1,7 +1,6 @@
 import json
 import os
 import time
-import sys # این خط رو اضافه کنید
 from datetime import datetime, timedelta, timezone
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
@@ -10,16 +9,9 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.firefox.service import Service # این خط رو نگه دارید
 
 options = Options()
 options.add_argument("--headless")
-
-# این بخش کد فقط برای سیستم‌عامل‌های شبیه لینوکس اجرا میشه
-if sys.platform.startswith('linux'):
-    # مسیر دقیق فایل اجرایی Firefox که شما پیدا کردید
-    FIREFOX_BINARY_LOCATION = "/snap/firefox/current/usr/lib/firefox/firefox"
-    options.binary_location = FIREFOX_BINARY_LOCATION
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_PATH = os.path.join(BASE_DIR, "scraped")
@@ -29,16 +21,9 @@ def main():
     dic = {}
     current_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
     dic["date"] = current_time
-    # اگر از webdriver_manager استفاده نمی‌کنید و geckodriver در PATH سیستم هست:
-    service = Service()
-    # در غیر این صورت اگر geckodriver را در کنار فایل پایتون کپی کرده‌اید:
-    # service = Service(executable_path=os.path.join(BASE_DIR, "geckodriver"))
-
-    driver = webdriver.Firefox(service=service, options=options)
-
+    driver = webdriver.Firefox()
     driver.get("https://www.bloomberg.com/economics")
 
-    # بقیه کدهای شما (بدون تغییر)
     try:
         iframe_element = WebDriverWait(driver, 20).until(
             EC.presence_of_element_located(
@@ -105,13 +90,7 @@ def search(inp_arg: str):
     dic = {}
     current_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
     dic["date"] = current_time
-    # اگر از webdriver_manager استفاده نمی‌کنید و geckodriver در PATH سیستم هست:
-    service = Service()
-    # در غیر این صورت اگر geckodriver را در کنار فایل پایتون کپی کرده‌اید:
-    # service = Service(executable_path=os.path.join(BASE_DIR, "geckodriver"))
-
-    driver = webdriver.Firefox(service=service, options=options)
-
+    driver = webdriver.Firefox()
     arg = inp_arg.replace(" ", "%20")
     driver.get(f"https://www.bloomberg.com/search?query={arg}")
 
