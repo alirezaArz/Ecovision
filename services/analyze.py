@@ -28,6 +28,13 @@ class Analyze:
         self.gemeni_active = False
         self.localai_active = False
 
+
+    def manage(self):
+        pass
+
+
+
+
     def get_news_data(self):
         data = ""
         # files = [ bloomberg, dnsd, esdn, nytimes, yahoo ]
