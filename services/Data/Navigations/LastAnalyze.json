@@ -1,67 +1,625 @@
 {
     "newsData": [
         {
-            "image": "images/economy/im5.jpg",
             "id": "0",
-            "title": "بر اساس گزارش مرکز آمار ایران، تورم نقطه به نقطه در پایان خرداد باثبت نرخ ۳۹.۴درصد، به بیشترین سطح از آذرماه۱۴۰۲ رسیده است.",
-            "summary": "نرخ تورم نقطه به نقطه در خرداد ماه به بالاترین سطح از آذرماه ۱۴۰۲ رسید و گروه خوراکی‌ها بیشترین تاثیر را در این افزایش داشت.",
+            "title": "Brazil Producers Look to Halt Pig Iron Output as US Tariff Threat Crimps Demand",
+            "summary": "Brazilian pig iron producers are considering halting output due to decreased demand caused by potential US tariffs.",
             "category": "Economy",
-            "importance": "medium",
-            "date": "2025-07-05T02:44:12.018537"
-        },
-        {
-            "image": "images/economy/im2.jpg",
-            "id": "1",
-            "title": "با درگیری بی\\u200c\\u200c\\u200cسابقه و تنش\\u200c\\u200c\\u200cزای ۱۲ روزه میان اسرائیل و ایران که با حملات موشکی متقابل، خسارات گسترده زیرساختی و تعطیلی\\u200c\\u200c\\u200cهای سراسری در سرزمین\\u200c\\u200c\\u200cهای اشغالی همراه بود، مقامات اقتصادی اسرائیل از یک ضربه بی\\u200c\\u200c\\u200cسابقه به پیکر اقتصاد سخن می\\u200cگویند.",
-            "summary": "جنگ ۱۲ روزه بین اسرائیل و ایران خسارات گسترده‌ای به اقتصاد اسرائیل وارد کرده است، از جمله کاهش تولید صنعتی، افزایش کسری بودجه و تعطیلی مشاغل.",
-            "category": "Economy",
-            "importance": "high",
-            "date": "2025-07-05T02:44:12.019656"
-        },
-        {
-            "image": "images/economy/im16.jpg",
-            "id": "2",
-            "title": "جنگ ۱۲ روزه میان ایران و اسرائیل، چالش\\u200cهای اقتصادی کسب\\u200cو\\u200cکارها و خانوارها را بیش از پیش تشدید کرده است.",
-            "summary": "جنگ ۱۲ روزه بین ایران و اسرائیل مشکلات اقتصادی را برای کسب و کارها و خانواده‌ها بیشتر کرده و نیاز به اصلاحات اقتصادی را برجسته ساخته است.",
-            "category": "Economy",
-            "importance": "high",
-            "date": "2025-07-05T02:44:12.044695"
-        },
-        {
             "image": "images/economy/im1.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "1",
+            "title": "Women’s Soccer Wins Fans’ Hearts But Not Sponsors’ Wallets",
+            "summary": "Women's soccer is gaining popularity among fans, but struggles to attract significant sponsorships.",
+            "category": "Economy",
+            "image": "images/economy/im6.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "2",
+            "title": "Trump Says 50-50 Odds of Trade Deal With European Union",
+            "summary": "Trump estimates a 50% chance of reaching a trade agreement with the European Union.",
+            "category": "Economy",
+            "image": "images/economy/im3.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
             "id": "3",
-            "title": "با گذشت بیش از یک هفته از تجاوز اسرائیل به خاک ایران، سوالات جدی درباره تاب\\u200cآوری اقتصاد اسرائیل به وجود آمده است.",
-            "summary": "حمله اسرائیل به ایران نگرانی‌هایی را درباره پایداری اقتصاد اسرائیل و افزایش فشار بر ساختارهای اقتصادی این رژیم ایجاد کرده است.",
-            "category": "Economy",
-            "importance": "high",
-            "date": "2025-07-05T02:44:12.058091"
-        },
-        {
-            "image": "images/economy/im27.jpg",
-            "id": "4",
-            "title": "وزیر اقتصاد از رشد ۵۳درصدی واردات کالاهای اساسی در هفته گذشته خبر داد و گفت: تلاش شبانه\\u200cروزی گمرک منجر به ترخیص ۹۸۰هزار تن کالا شد.",
-            "summary": "واردات کالاهای اساسی در هفته گذشته با رشد ۵۳ درصدی به ۹۸۰ هزار تن رسید.",
-            "category": "Economy",
-            "importance": "medium",
-            "date": "2025-07-05T02:44:12.069271"
-        },
-        {
-            "image": "images/markets/im6.jpg",
-            "id": "5",
-            "title": "تجاوز نظامی اسرائیل به ایران، معادلات بازارهای جهانی و داخلی را تغییر داد.",
-            "summary": "حمله نظامی اسرائیل به ایران معادلات بازارهای جهانی و داخلی، از جمله بازار ارز را تحت تاثیر قرار داده است.",
-            "category": "Markets",
-            "importance": "high",
-            "date": "2025-07-05T02:44:12.078646"
-        },
-        {
-            "image": "images/finance/im10.jpg",
-            "id": "6",
-            "title": "Circle stock soars after IPO as stablecoin giant makes market debut",
-            "summary": "Circle's stock price increases significantly following its IPO, marking the public debut of the stablecoin company.",
+            "title": "Genworth Expects to Collect $750 Million on UK PPI Court Ruling",
+            "summary": "Genworth anticipates receiving $750 million from a UK court ruling related to payment protection insurance (PPI).",
             "category": "Finance",
-            "importance": "medium",
-            "date": "2025-07-05T02:44:12.088796"
+            "image": "images/finance/im5.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "4",
+            "title": "Retaliatory Tariffs Padding Canada’s Finances as Expenses Rise",
+            "summary": "Retaliatory tariffs are boosting Canada's finances, helping to offset rising expenses.",
+            "category": "Economy",
+            "image": "images/economy/im30.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "5",
+            "title": "Euro-Zone Growth to Stall as Short-Lived Trade Boost Unwinds",
+            "summary": "Euro-zone growth is predicted to stagnate as the temporary trade boost fades.",
+            "category": "Economy",
+            "image": "images/economy/im29.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "6",
+            "title": "Citadel’s Ubide Says ‘Now or Never’ for EU Rival to Treasuries",
+            "summary": "Citadel's Ubide suggests it's a crucial moment for the EU to establish a rival to US Treasuries.",
+            "category": "Finance",
+            "image": "images/finance/im5.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "7",
+            "title": "High-Risk Currency Trading Is the New Meme Stock for This Retail Crowd",
+            "summary": "High-risk currency trading is becoming a popular trend among retail investors, similar to meme stocks.",
+            "category": "Finance",
+            "image": "images/finance/im15.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "8",
+            "title": "دولت در جنگ ۱۲روزه با اقداماتی نظیر تامین ارز برای واردات کالاهای اساسی، کاهش بوروکراسی ترخیص کالا، تدوین بسته حمایتی برای صنایع و بازگشت ارز ترجیحی برای برخی از کالاها موفق شد با سرعت قابل قبولی اختلالات مقطعی در زنجیره تامین را کنترل کند.",
+            "summary": "Government managed to control the momentary disruption in the supply chain with actions such as supplying currency for the import of basic goods, reducing bureaucracy for customs clearance, developing a support package for industries, and returning preferential currency for some goods.",
+            "category": "Economy",
+            "image": "images/economy/im6.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "9",
+            "title": "بر اساس گزارش مرکز آمار ایران، تورم نقطه به نقطه در پایان خرداد باثبت نرخ ۳۹.۴درصد، به بیشترین سطح از آذرماه۱۴۰۲ رسیده است.",
+            "summary": "According to the Iranian Statistics Center, the point-to-point inflation rate at the end of June, with a rate of 39.4%, has reached its highest level since December 2023.",
+            "category": "Economy",
+            "image": "images/economy/im25.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "10",
+            "title": "بررسیها نشان میدهد که دولت ایران در دوران جنگ ۱۲روزه، اقدامات حمایتی مختلفی با تمرکز بر تامین کالاهای اساسی انجام داد.",
+            "summary": "Studies show that during the 12-day war, the Iranian government took various support measures focusing on the supply of basic goods.",
+            "category": "Economy",
+            "image": "images/economy/im24.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "11",
+            "title": "در آخرین روز معاملاتی هفته گذشته، قیمت دلار آزاد با افزایش همراه شد، با این حال همچنان روند باثبات خود را حفظ کرد.",
+            "summary": "On the last trading day of last week, the free dollar price increased, but still maintained its stable trend.",
+            "category": "Finance",
+            "image": "images/finance/im8.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "12",
+            "title": "با درگیری بیسابقه و تنشزای ۱۲ روزه میان اسرائیل و ایران که با حملات موشکی متقابل، خسارات گسترده زیرساختی و تعطیلیهای سراسری در سرزمینهای اشغالی همراه بود، مقامات اقتصادی اسرائیل از یک ضربه بیسابقه به پیکر اقتصاد سخن میگویند.",
+            "summary": "With the unprecedented and tense 12-day conflict between Israel and Iran, which involved mutual missile attacks, widespread infrastructure damage, and nationwide shutdowns in the occupied territories, Israeli economic officials speak of an unprecedented blow to the economy.",
+            "category": "Economy",
+            "image": "images/economy/im12.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "13",
+            "title": "ماندگاری توافقهای آتشبس به فضای سیاسی و اقتصادی حاکم بر روابط کشورهای درگیر وابسته است.",
+            "summary": "The permanence of ceasefire agreements depends on the political and economic environment governing the relations between the countries involved.",
+            "category": "Economy",
+            "image": "images/economy/im15.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "14",
+            "title": "دنیای اقتصاد: در حالی که سایه بیثباتیهای سیاسی و اقتصادی بر اقتصاد آمریکا سنگینی میکند و فضای جهانی تحت تاثیر جنگهای تجاری و تنشهای منطقهای، دستخوش نااطمینانی فزایندهای شده، سرمایهگذاران بینالمللی بهدنبال مقاصدی تازه، با ریسک کمتر و بازده بالاتر هستند.",
+            "summary": "As political and economic instability weighs on the US economy and the global environment is increasingly uncertain due to trade wars and regional tensions, international investors are looking for new destinations with lower risk and higher returns.",
+            "category": "Finance",
+            "image": "images/finance/im5.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "15",
+            "title": "جنگ ۱۲ روزه میان ایران و اسرائیل، چالشهای اقتصادی کسبوکارها و خانوارها را بیش از پیش تشدید کرده است.",
+            "summary": "The 12-day war between Iran and Israel has further exacerbated the economic challenges of businesses and households.",
+            "category": "Economy",
+            "image": "images/economy/im13.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "16",
+            "title": "دیروز در حالی که برخی منابع از آغاز آتشبس میان ایران و اسرائیل خبر دادند، وزیر امور خارجه اعلام کرد اگر حملات اسرائیل متوقف شود، ایران نیز عملیات نظامی خود را متوقف خواهد کرد.",
+            "summary": "Yesterday, while some sources reported the start of a ceasefire between Iran and Israel, the Foreign Minister announced that if Israeli attacks stop, Iran will also stop its military operations.",
+            "category": "Economy",
+            "image": "images/economy/im20.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "17",
+            "title": "با گذشت بیش از یک هفته از تجاوز اسرائیل به خاک ایران، سوالات جدی درباره تابآوری اقتصاد اسرائیل به وجود آمده است.",
+            "summary": "More than a week after Israel's invasion of Iranian territory, serious questions have been raised about the resilience of the Israeli economy.",
+            "category": "Economy",
+            "image": "images/economy/im16.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "18",
+            "title": "با پیشرفت تکنولوژی، اکنون سیستمهای مبتنی بر هوشمصنوعی نیز به ابزاری بدل شدهاند که میتوانند در زمینه نظامی مزیتی قابلتوجه برای استفادهکنندگان آن به وجود بیاورند.",
+            "summary": "With the advancement of technology, artificial intelligence-based systems have become a tool that can create a significant advantage for its users in the military field.",
+            "category": "Technology",
+            "image": "images/technology/im10.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "19",
+            "title": "دنیای اقتصاد؛ با عنایت به شرایط ویژه کشور و نظر به اختلال به وجود آمده در خدماترسانی دو بانک عامل سپه و پاسارگاد، بانک مرکزی در راستای کمک به اشخاص متأثر از این وضعیت با هماهنگی دادستانی محترم کل کشور از آن مرجع درخواست نمود تا اعمال محدودیتهای موضوع بندهای (الف) تا (د ) ماده ۵ مکرر قانون چک در خصوص چکهای صادره عهده دو بانک مذکور با تاریخ سررسید و برگشت ۲۴ خرداد لغایت ۷ تیر ۱۴۰۴، به مدت یکماه از تاریخ سررسید تعلیق گردد.",
+            "summary": "Given the special circumstances of the country and the disruption in the services of the two operating banks, Sepah and Pasargad, in order to help those affected by this situation, the Central Bank, in coordination with the Prosecutor General of the country, requested that the restrictions subject to paragraphs (a) to (d) of Article 5 of the Check Law be suspended for one month from the due date for checks issued to the aforementioned banks with a due date and return of June 24 to July 7, 2025.",
+            "category": "Finance",
+            "image": "images/finance/im7.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "20",
+            "title": "آمریکا در زمان تعطیلی بازارهای جهانی به ایران حمله کرد، تا شاید اقتصاد جهان و بازارهای مهمی مانند سهام، نفت و طلا از ترکش نظامیگری در امان باشند.",
+            "summary": "The United States attacked Iran when global markets were closed, perhaps to protect the global economy and important markets such as stocks, oil, and gold from military shrapnel.",
+            "category": "Economy",
+            "image": "images/economy/im27.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "21",
+            "title": "وزیر اقتصاد از رشد ۵۳درصدی واردات کالاهای اساسی در هفته گذشته خبر داد و گفت: تلاش شبانهروزی گمرک منجر به ترخیص ۹۸۰هزار تن کالا شد.",
+            "summary": "The Minister of Economy announced a 53% increase in imports of basic goods last week and said: The round-the-clock efforts of the customs led to the clearance of 980 thousand tons of goods.",
+            "category": "Economy",
+            "image": "images/economy/im27.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "22",
+            "title": "با وجود آرامش موجود در بازار مصرف، تداوم درگیریها نگرانیهایی را نسبت به امنیت تامین کالاهای اساسی در جامعه برانگیخته است.",
+            "summary": "Despite the calm in the consumer market, the continuation of conflicts has raised concerns about the security of the supply of basic goods in the society.",
+            "category": "Economy",
+            "image": "images/economy/im7.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "23",
+            "title": "در شرایط بحرانی مانند تنشهای ژئوپلیتیک، اولویت اصلی در رویکرد اقتصادی دولتها باید حمایت از خانوارها و بنگاهها باشد، حتی اگر این حمایت منجر به افزایش کسری بودجه یا رشد پایه پولی شود.",
+            "summary": "In critical situations such as geopolitical tensions, the main priority in the economic approach of governments should be to support households and businesses, even if this support leads to an increase in the budget deficit or the growth of the monetary base.",
+            "category": "Economy",
+            "image": "images/economy/im7.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "24",
+            "title": "دنیای اقتصاد: در شرایط بحرانی، کشور با چالشها و تغییرات متعددی روبهرو میشود. به همین دلیل سیاستگذاران همواره به دنبال اعمال سیاستهایی جهت حمایت از مردم و فعالان اقتصادی هستند.",
+            "summary": "In a crisis situation, the country faces many challenges and changes. For this reason, policymakers are always looking to implement policies to support people and economic actors.",
+            "category": "Economy",
+            "image": "images/economy/im20.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "25",
+            "title": "در شرایط جنگ و افزایش تنشهای منطقهای و بینالمللی، اقتصاد هر کشوری با چالشهای بیسابقهای روبهرو میشود.",
+            "summary": "In the context of war and increasing regional and international tensions, the economy of each country faces unprecedented challenges.",
+            "category": "Economy",
+            "image": "images/economy/im21.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "26",
+            "title": "در شرایط جنگی، کشور با چالشها و تغییرات متعددی روبهرو میشود. در چنین شرایطی، سیاستگذاران با چالشهای جدی روبه رو هستند و لازم است تصمیمات فوری برای مدیریت بحران و افزایش تاب آوری کشور اتخاذ کنند.",
+            "summary": "In a war situation, the country faces many challenges and changes. In such circumstances, policymakers face serious challenges and need to make immediate decisions to manage the crisis and increase the country's resilience.",
+            "category": "Economy",
+            "image": "images/economy/im14.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "27",
+            "title": "در شرایط پرتنشی که کشور با آن مواجه است، سیاستگذاری پولی از اهمیت خاصی برخوردار است.",
+            "summary": "Monetary policy is of particular importance in the tense situation that the country is facing.",
+            "category": "Finance",
+            "image": "images/finance/im10.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "28",
+            "title": "دنیای اقتصاد: بررسیها نشان میدهد که در شرایط اضطراری مانند جنگ، خانوارهایی که کمترین درآمد را دارند (دهک اول و دوم) بیش از سایر خانوارها آسیبپذیر هستند.",
+            "summary": "Studies show that in emergency situations such as war, households with the lowest income (first and second deciles) are more vulnerable than other households.",
+            "category": "Economy",
+            "image": "images/economy/im23.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "29",
+            "title": "تجاوز نظامی اسرائیل به ایران، معادلات بازارهای جهانی و داخلی را تغییر داد. درحالیکه بسیاری از فعالان اقتصادی، با توجه به اخبار مثبت مذاکرات، روند دلار را کاهشی ارزیابی میکردند، این تجاوز نظامی معادلات بازار ارز تهران را نیز تغییر داد.",
+            "summary": "Israel's military aggression against Iran changed the equations of global and domestic markets. While many economic actors considered the dollar trend to be decreasing, given the positive news of the negotiations, this military aggression also changed the equations of the Tehran currency market.",
+            "category": "Finance",
+            "image": "images/finance/im1.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "30",
+            "title": "Stocks wobble with Trump-Xi call, Musk feud in focus",
+            "summary": "Stocks experience volatility as attention focuses on the Trump-Xi call and the Musk feud.",
+            "category": "Markets",
+            "image": "images/markets/im1.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "31",
+            "title": "Circle stock soars after IPO as stablecoin giant makes market debut",
+            "summary": "Circle's stock price surges after its initial public offering (IPO), marking the market debut of the stablecoin giant.",
+            "category": "Finance",
+            "image": "images/finance/im6.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "32",
+            "title": "US economy shows signs of 'paralysis' ahead of key jobs report",
+            "summary": "The US economy exhibits signs of 'paralysis' leading up to the release of a crucial jobs report.",
+            "category": "Economy",
+            "image": "images/economy/im9.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "33",
+            "title": "Trump and Xi break the ice, pledge to restart talks",
+            "summary": "Trump and Xi have a positive conversation and agree to resume negotiations.",
+            "category": "Economy",
+            "image": "images/economy/im19.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "34",
+            "title": "Fed's Kugler looks to hold rates steady and warns of higher inflation",
+            "summary": "A Federal Reserve official, Kugler, anticipates keeping interest rates steady while cautioning about the potential for increased inflation.",
+            "category": "Finance",
+            "image": "images/finance/im6.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "35",
+            "title": "Apple's loses bid to halt court ruling that blocks app store fees",
+            "summary": "Apple's attempt to suspend a court decision preventing app store fees is unsuccessful.",
+            "category": "Technology",
+            "image": "images/technology/im6.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "36",
+            "title": "Why Musk may be changing his tune on EV tax credits",
+            "summary": "Reasons behind Elon Musk's potential shift in stance regarding electric vehicle (EV) tax credits are explored.",
+            "category": "Finance",
+            "image": "images/finance/im2.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "37",
+            "title": "Robinhood exec talks retail investor strength, overnight trading",
+            "summary": "A Robinhood executive discusses the resilience of retail investors and the growing trend of overnight trading.",
+            "category": "Finance",
+            "image": "images/finance/im1.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "38",
+            "title": "Trump-Musk Alliance Unravels Over ‘Big Beautiful Bill’",
+            "summary": "The alliance between Trump and Musk dissolves due to disagreements over the 'Big Beautiful Bill'.",
+            "category": "Economy",
+            "image": "images/economy/im15.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "39",
+            "title": "Fed's Harker says its time for caution on monetary policy amid uncertainty",
+            "summary": "A Federal Reserve official, Harker, suggests exercising caution in monetary policy amid ongoing uncertainty.",
+            "category": "Finance",
+            "image": "images/finance/im11.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "40",
+            "title": "Fed's Schmid: uncomfortable with looking through tariff-driven price push",
+            "summary": "A Federal Reserve official, Schmid, expresses discomfort in overlooking price increases caused by tariffs.",
+            "category": "Finance",
+            "image": "images/finance/im1.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "41",
+            "title": "Is Official US Economic Data Getting Less Reliable?",
+            "summary": "An assessment of whether official US economic data is becoming less reliable is presented.",
+            "category": "Economy",
+            "image": "images/economy/im28.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "42",
+            "title": "Elon Musk gets more time to respond to US SEC lawsuit over Twitter stake",
+            "summary": "Elon Musk is granted additional time to respond to a lawsuit filed by the US Securities and Exchange Commission (SEC) regarding his stake in Twitter.",
+            "category": "Finance",
+            "image": "images/finance/im4.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "43",
+            "title": "Delta warns new tariffs could force it to stop buying foreign-made airplanes",
+            "summary": "Delta Air Lines cautions that new tariffs could compel the company to cease purchasing airplanes manufactured abroad.",
+            "category": "Economy",
+            "image": "images/economy/im24.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "44",
+            "title": "Mid-year check-in: How to audit your income & cash flow",
+            "summary": "Guidance is provided on conducting a mid-year assessment of one's income and cash flow.",
+            "category": "Finance",
+            "image": "images/finance/im8.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "45",
+            "title": "Breeze Airways CEO talks consumer demand as travelers seek value",
+            "summary": "The CEO of Breeze Airways discusses consumer demand as travelers prioritize value.",
+            "category": "Economy",
+            "image": "images/economy/im8.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "46",
+            "title": "How small businesses are handling tariff uncertainty, pressures",
+            "summary": "Small businesses are employing diverse strategies to navigate tariff uncertainty and related pressures.",
+            "category": "Economy",
+            "image": "images/economy/im22.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "47",
+            "title": "Pandemic homebuyers now struggle to break even on sales",
+            "summary": "Homebuyers during the pandemic era now encounter difficulties in recouping their investments upon selling their properties.",
+            "category": "Finance",
+            "image": "images/finance/im5.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "48",
+            "title": "Undervalued Growth Stocks",
+            "summary": "An overview of growth stocks that are currently undervalued is presented.",
+            "category": "Investing",
+            "image": "images/investing/im5.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "49",
+            "title": "When will mortgage rates go down to 5%?",
+            "summary": "A forecast is provided regarding the potential timeline for mortgage rates to decrease to 5%.",
+            "category": "Finance",
+            "image": "images/finance/im6.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "50",
+            "title": "Why tariffs are expected to increase car insurance costs",
+            "summary": "An explanation is given regarding the anticipated impact of tariffs on escalating car insurance expenses.",
+            "category": "Finance",
+            "image": "images/finance/im7.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "51",
+            "title": "Tesla car insurance: How to avoid the sticker shock",
+            "summary": "Tips and strategies are offered to mitigate the potential shock of high costs associated with Tesla car insurance.",
+            "category": "Finance",
+            "image": "images/finance/im7.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "52",
+            "title": "Does car insurance cover flood damage?",
+            "summary": "Clarification is provided regarding the extent to which car insurance covers damage caused by flooding.",
+            "category": "Finance",
+            "image": "images/finance/im8.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "53",
+            "title": "When is the Fed's next meeting?",
+            "summary": "Information is provided regarding the date and time of the Federal Reserve's upcoming meeting.",
+            "category": "Finance",
+            "image": "images/finance/im14.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "54",
+            "title": "What happens to credit card debt when you die?",
+            "summary": "An explanation is provided regarding the disposition of credit card debt upon an individual's death.",
+            "category": "Finance",
+            "image": "images/finance/im6.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "55",
+            "title": "When will I get my Social Security check?",
+            "summary": "Information is provided regarding the expected timing of Social Security check distribution.",
+            "category": "Finance",
+            "image": "images/finance/im15.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "56",
+            "title": "CBO warns Trump's tax bill could add $2.4T to deficit",
+            "summary": "The Congressional Budget Office (CBO) cautions that Trump's tax bill could increase the deficit by $2.4 trillion.",
+            "category": "Finance",
+            "image": "images/finance/im2.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "57",
+            "title": "The GOP's 'big, beautiful bill' would leave 10.9 million more uninsured: CBO",
+            "summary": "According to the CBO, the GOP's 'big, beautiful bill' would result in 10.9 million additional uninsured individuals.",
+            "category": "Economy",
+            "image": "images/economy/im10.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "58",
+            "title": "Musk's 'KILL the BILL' screed hits Trump tax bill's progress",
+            "summary": "Musk's strong criticism of the bill negatively affects the advancement of Trump's tax bill.",
+            "category": "Finance",
+            "image": "images/finance/im3.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "59",
+            "title": "Will Trump's tax bill actually incentivize corporate growth?",
+            "summary": "An assessment is conducted regarding the potential of Trump's tax bill to incentivize corporate growth.",
+            "category": "Finance",
+            "image": "images/finance/im15.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "60",
+            "title": "CrowdStrike forecasts downbeat second-quarter revenue, shares fall",
+            "summary": "CrowdStrike projects pessimistic second-quarter revenue, leading to a decline in its share price.",
+            "category": "Markets",
+            "image": "images/markets/im5.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "61",
+            "title": "China's rare earth export curbs hit the auto industry worldwide",
+            "summary": "China's restrictions on rare earth exports have a detrimental impact on the global auto industry.",
+            "category": "Economy",
+            "image": "images/economy/im10.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "62",
+            "title": "Hewlett Packard beats Q2 results estimates on AI demand; records $1.36 billion charge",
+            "summary": "Hewlett Packard surpasses second-quarter results estimates driven by demand for artificial intelligence (AI), while recording a $1.36 billion charge.",
+            "category": "Technology",
+            "image": "images/technology/im7.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "63",
+            "title": "Global Markets Rise, U.S. Futures Flat After Tech-Led Rally",
+            "summary": "Global markets experience gains, while US futures remain stable following a technology-driven rally.",
+            "category": "Markets",
+            "image": "images/markets/im9.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "64",
+            "title": "Analyst Report: Crowdstrike Holdings Inc",
+            "summary": "This entry signifies the presence of an analyst report specifically focused on Crowdstrike Holdings Inc.",
+            "category": "Finance",
+            "image": "images/finance/im15.jpg",
+            "importance": "Low",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "65",
+            "title": "Billionaires Are Selling Nvidia Stock and Buying a Stock-Split AI Stock Up 530% in 5 Years",
+            "summary": "Billionaires are divesting from Nvidia stock and investing in a stock-split AI stock that has surged 530% in five years.",
+            "category": "Finance",
+            "image": "images/finance/im13.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "66",
+            "title": "Tariff uncertainty is hammering one of America's favorite food escapes — snacks",
+            "summary": "Tariff uncertainty is negatively impacting the snack industry, a popular food category in America.",
+            "category": "Economy",
+            "image": "images/economy/im12.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "67",
+            "title": "Trump’s Fight With Regulators Is About Who Watches the Watchers",
+            "summary": "The focal point of Trump's conflict with regulators revolves around the issue of oversight and accountability.",
+            "category": "Economy",
+            "image": "images/economy/im30.jpg",
+            "importance": "Low",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "68",
+            "title": "1 Top Artificial Intelligence (AI) to Buy Hand Over Fist Before It Is Too Late",
+            "summary": "One outstanding Artificial Intelligence (AI) to invest in rapidly, before missing the opportunity",
+            "category": "Technology",
+            "image": "images/technology/im7.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
         }
     ]
 }

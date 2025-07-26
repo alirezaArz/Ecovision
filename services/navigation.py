@@ -154,12 +154,12 @@ class Nav():
             lastOP = self.OpRead(id)
             
             try:
-                output_filename = f"{id}<{name}>.md"
+                output_filename = f"{id}({name}).md"
                 with open(os.path.join(OpPath,id, '.md', output_filename), "w", encoding="utf-8") as f:
                     f.write(file)
                 print('.md file saved successfully, going for saving the date...')
                 
-                lastOP["dates"].append(f"{id}<{name}>")
+                lastOP["dates"].append(f"{id}({name})")
                 with open(os.path.join(OpPath,id, "items.json"), 'w', encoding='utf-8') as file:
                     json.dump(lastOP, file, indent=4, ensure_ascii=False)
                 print(".md file's date saved successfully")

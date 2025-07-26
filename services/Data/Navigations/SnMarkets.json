@@ -44,6 +44,51 @@
             "category": "Markets",
             "importance": "high",
             "date": "2025-07-05T02:44:12.078646"
+        },
+        {
+            "id": 26,
+            "title": "Stocks wobble with Trump-Xi call, Musk feud in focus",
+            "summary": "Stock market experiences volatility amid Trump-Xi conversation and Musk controversy.",
+            "category": "Markets",
+            "image": "images/markets/im10.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": 27,
+            "title": "Circle stock soars after IPO as stablecoin giant makes market debut",
+            "summary": "Circle's stock price increases significantly after its IPO.",
+            "category": "Markets",
+            "image": "images/markets/im3.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": "30",
+            "title": "Stocks wobble with Trump-Xi call, Musk feud in focus",
+            "summary": "Stocks experience volatility as attention focuses on the Trump-Xi call and the Musk feud.",
+            "category": "Markets",
+            "image": "images/markets/im1.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "60",
+            "title": "CrowdStrike forecasts downbeat second-quarter revenue, shares fall",
+            "summary": "CrowdStrike projects pessimistic second-quarter revenue, leading to a decline in its share price.",
+            "category": "Markets",
+            "image": "images/markets/im5.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "63",
+            "title": "Global Markets Rise, U.S. Futures Flat After Tech-Led Rally",
+            "summary": "Global markets experience gains, while US futures remain stable following a technology-driven rally.",
+            "category": "Markets",
+            "image": "images/markets/im9.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
         }
     ]
 }

@@ -7,7 +7,7 @@ from halo import Halo
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 InputPath = os.path.join(project_root, 'Local_AI_Models', 'InputData')
 OutPutPath = os.path.join(project_root, 'Local_AI_Models', 'OutputData')
-from services.Local_AI_Models import Ollama as ollama
+import Ollama as ollama
 class Core():
     def __init__(self):
         self.spinner = Halo(text='', spinner={
@@ -89,13 +89,13 @@ class Core():
                 analyzed_result = ollama.answer(self.inputData[0])
                 if analyzed_result:
                     self.saveOutput(analyzed_result)
-                self.clearInput()
+                    self.clearInput()
                 time.sleep(7)
                 
             else:
                 time.sleep(7)
                 self.deniedloops += 1
-                if self.firstloop and self.deniedloops >= 3:
+                if self.firstloop and self.deniedloops >= 12:
                     print(f"{self.deniedloops} denied loops!... shuting down the server.")
                     self.active = False
                     

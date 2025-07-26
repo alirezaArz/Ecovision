@@ -1,3 +1,49 @@
 {
-    "newsData": []
+    "newsData": [
+        {
+            "id": 44,
+            "title": "Undervalued Growth Stocks",
+            "summary": "Identification of growth stocks that are currently undervalued.",
+            "category": "Investing",
+            "image": "images/investing/im7.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": 54,
+            "title": "Analyst Report: Crowdstrike Holdings Inc",
+            "summary": "Analysis and research report on Crowdstrike Holdings Inc.",
+            "category": "Investing",
+            "image": "images/investing/im9.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": 55,
+            "title": "Billionaires Are Selling Nvidia Stock and Buying a Stock-Split AI Stock Up 530% in 5 Years",
+            "summary": "Billionaires are selling Nvidia stock and investing in another AI stock.",
+            "category": "Investing",
+            "image": "images/investing/im8.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": 58,
+            "title": "1 Top Artificial Intelligence (AI) to Buy Hand Over Fist Before It Is Too Late",
+            "summary": "Identifying a top AI stock to invest in before it becomes too expensive.",
+            "category": "Investing",
+            "image": "images/investing/im1.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": "48",
+            "title": "Undervalued Growth Stocks",
+            "summary": "An overview of growth stocks that are currently undervalued is presented.",
+            "category": "Investing",
+            "image": "images/investing/im5.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        }
+    ]
 }

@@ -117,7 +117,7 @@ def priceOp(ai_data, file_date):
     </html>
     """
 
-    output_filename = f"priceOp<{file_date}>.html"
+    output_filename = f"priceOp({file_date}).html"
     with open(os.path.join(OpPath, output_filename), "w", encoding="utf-8") as f:
         f.write(full_html_page)
 

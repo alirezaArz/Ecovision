@@ -26,6 +26,60 @@
             "category": "Technology",
             "importance": "medium",
             "date": "2025-07-05T02:22:30.768098"
+        },
+        {
+            "id": 32,
+            "title": "Apple's loses bid to halt court ruling that blocks app store fees",
+            "summary": "Apple's attempt to suspend a court decision preventing app store fees is unsuccessful.",
+            "category": "Technology",
+            "image": "images/technology/im4.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": 53,
+            "title": "Hewlett Packard beats Q2 results estimates on AI demand; records $1.36 billion charge",
+            "summary": "Hewlett Packard exceeds Q2 earnings expectations due to AI demand, but records a $1.36 billion charge.",
+            "category": "Technology",
+            "image": "images/technology/im9.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": "18",
+            "title": "با پیشرفت تکنولوژی، اکنون سیستمهای مبتنی بر هوشمصنوعی نیز به ابزاری بدل شدهاند که میتوانند در زمینه نظامی مزیتی قابلتوجه برای استفادهکنندگان آن به وجود بیاورند.",
+            "summary": "With the advancement of technology, artificial intelligence-based systems have become a tool that can create a significant advantage for its users in the military field.",
+            "category": "Technology",
+            "image": "images/technology/im10.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "35",
+            "title": "Apple's loses bid to halt court ruling that blocks app store fees",
+            "summary": "Apple's attempt to suspend a court decision preventing app store fees is unsuccessful.",
+            "category": "Technology",
+            "image": "images/technology/im6.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "62",
+            "title": "Hewlett Packard beats Q2 results estimates on AI demand; records $1.36 billion charge",
+            "summary": "Hewlett Packard surpasses second-quarter results estimates driven by demand for artificial intelligence (AI), while recording a $1.36 billion charge.",
+            "category": "Technology",
+            "image": "images/technology/im7.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "68",
+            "title": "1 Top Artificial Intelligence (AI) to Buy Hand Over Fist Before It Is Too Late",
+            "summary": "One outstanding Artificial Intelligence (AI) to invest in rapidly, before missing the opportunity",
+            "category": "Technology",
+            "image": "images/technology/im7.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
         }
     ]
 }

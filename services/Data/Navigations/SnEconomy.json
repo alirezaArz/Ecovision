@@ -197,6 +197,537 @@
             "category": "Economy",
             "importance": "medium",
             "date": "2025-07-05T02:44:12.069271"
+        },
+        {
+            "id": 1,
+            "title": "Brazil Producers Look to Halt Pig Iron Output as US Tariff Threat Crimps Demand",
+            "summary": "Brazilian pig iron producers consider halting output due to reduced demand caused by potential US tariffs.",
+            "category": "Economy",
+            "image": "images/economy/im4.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": 2,
+            "title": "Women’s Soccer Wins Fans’ Hearts But Not Sponsors’ Wallets",
+            "summary": "Despite growing popularity, women's soccer struggles to attract sponsors.",
+            "category": "Economy",
+            "image": "images/economy/im22.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": 3,
+            "title": "Trump Says 50-50 Odds of Trade Deal With European Union",
+            "summary": "Trump assesses the likelihood of a trade deal with the EU as uncertain.",
+            "category": "Economy",
+            "image": "images/economy/im13.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": 5,
+            "title": "Retaliatory Tariffs Padding Canada’s Finances as Expenses Rise",
+            "summary": "Retaliatory tariffs are providing revenue for Canada amidst increasing expenses.",
+            "category": "Economy",
+            "image": "images/economy/im20.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": 8,
+            "title": "Euro-Zone Growth to Stall as Short-Lived Trade Boost Unwinds",
+            "summary": "Euro-zone economic growth is expected to stagnate as the temporary boost from trade fades.",
+            "category": "Economy",
+            "image": "images/economy/im19.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": 11,
+            "title": "دولت در جنگ ۱۲روزه با اقداماتی نظیر تامین ارز برای واردات کالاهای اساسی، کاهش بوروکراسی ترخیص کالا، تدوین بسته حمایتی برای صنایع و بازگشت ارز ترجیحی برای برخی از کالاها موفق شد با سرعت قابل قبولی اختلالات مقطعی در زنجیره تامین را کنترل کند",
+            "summary": "The government managed to control temporary disruptions in the supply chain with acceptable speed by providing currency for the import of essential goods, reducing the bureaucracy of customs clearance, developing a support package for industries, and returning preferential currency for some goods.",
+            "category": "Economy",
+            "image": "images/economy/im11.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": 12,
+            "title": "بر اساس گزارش مرکز آمار ایران، تورم نقطه به نقطه در پایان خرداد باثبت نرخ ۳۹.۴درصد، به بیشترین سطح از آذرماه۱۴۰۲ رسیده است. نرخ تورم ماهانه در این‌ماه معادل ۳.۳درصد بوده که نسبت به ماه قبل افزایش ۰.۶واحد درصدی را نشان می‌دهد. نکته قابل توجه اینکه گروه خوراکی‌ها بیشترین اثرگذاری را در نرخ تورم خرداد ماه داشته است.",
+            "summary": "According to the Statistical Center of Iran, point-to-point inflation at the end of June, with a rate of 39.4%, has reached its highest level since December 2023. The monthly inflation rate this month was 3.3%, which shows an increase of 0.6 percentage points compared to the previous month. It is noteworthy that the food group had the greatest impact on the inflation rate in June.",
+            "category": "Economy",
+            "image": "images/economy/im22.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": 13,
+            "title": "بررسی‌ها نشان می‌دهد که دولت ایران در دوران جنگ ۱۲روزه، اقدامات حمایتی مختلفی با تمرکز بر تامین کالاهای اساسی انجام داد",
+            "summary": "Studies show that the Iranian government took various support measures during the 12-day war, focusing on the supply of essential goods.",
+            "category": "Economy",
+            "image": "images/economy/im28.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": 15,
+            "title": "با درگیری بی‌‌‌سابقه و تنش‌‌‌زای ۱۲ روزه میان اسرائیل و ایران که با حملات موشکی متقابل، خسارات گسترده زیرساختی و تعطیلی‌‌‌های سراسری در سرزمین‌‌‌های اشغالی همراه بود، مقامات اقتصادی اسرائیل از یک ضربه بی‌‌‌سابقه به پیکر اقتصاد سخن می‌گویند.",
+            "summary": "With the unprecedented and tense 12-day conflict between Israel and Iran, which was accompanied by mutual missile attacks, extensive infrastructure damage and nationwide shutdowns in the occupied territories, Israeli economic officials are talking about an unprecedented blow to the economy.",
+            "category": "Economy",
+            "image": "images/economy/im18.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": 16,
+            "title": "ماندگاری توافق‌های آتش‌بس به فضای سیاسی و اقتصادی حاکم بر روابط کشورهای درگیر وابسته است.",
+            "summary": "The durability of ceasefire agreements depends on the political and economic atmosphere governing the relations between the countries involved.",
+            "category": "Economy",
+            "image": "images/economy/im6.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": 17,
+            "title": "جنگ ۱۲ روزه میان ایران و اسرائیل، چالش‌های اقتصادی کسب‌و‌کارها و خانوارها را بیش از پیش تشدید کرده است.",
+            "summary": "The 12-day war between Iran and Israel has further exacerbated the economic challenges of businesses and households.",
+            "category": "Economy",
+            "image": "images/economy/im7.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": 19,
+            "title": "دیروز در حالی که برخی منابع از آغاز آتش‌بس میان ایران و اسرائیل خبر دادند، وزیر امور خارجه اعلام کرد اگر حملات اسرائیل متوقف شود، ایران نیز عملیات نظامی خود را متوقف خواهد کرد. در صورت بر قراری آتش بس و پایان جنگ، دولت ایران باید با فوریت سیاست‌های رفاهی هدفمند و کوتاه‌مدت را برای کاهش فشار بر خانوارها اجرا کند.",
+            "summary": "Yesterday, while some sources reported the start of a ceasefire between Iran and Israel, the Minister of Foreign Affairs announced that if Israel stops its attacks, Iran will also stop its military operations. If a ceasefire is established and the war ends, the Iranian government must immediately implement targeted and short-term welfare policies to reduce pressure on households.",
+            "category": "Economy",
+            "image": "images/economy/im11.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": 20,
+            "title": "با گذشت بیش از یک هفته از تجاوز اسرائیل به خاک ایران، سوالات جدی درباره تاب‌آوری اقتصاد اسرائیل به وجود آمده است.",
+            "summary": "More than a week after Israel's invasion of Iranian territory, serious questions have been raised about the resilience of the Israeli economy.",
+            "category": "Economy",
+            "image": "images/economy/im17.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": 21,
+            "title": "در شرایط بحرانی مانند تنش‌های ژئوپلیتیک، اولویت اصلی در رویکرد اقتصادی دولت‌ها باید حمایت از خانوارها و بنگاه‌ها باشد، حتی اگر این حمایت منجر به افزایش کسری بودجه یا رشد پایه پولی شود.",
+            "summary": "In critical situations such as geopolitical tensions, the main priority in the economic approach of governments should be to support households and businesses, even if this support leads to an increase in the budget deficit or the growth of the monetary base.",
+            "category": "Economy",
+            "image": "images/economy/im24.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": 22,
+            "title": "وزیر اقتصاد از رشد ۵۳درصدی واردات کالاهای اساسی در هفته گذشته خبر داد و گفت: تلاش شبانه‌روزی گمرک منجر به ترخیص ۹۸۰هزار تن کالا شد.",
+            "summary": "The Minister of Economy announced a 53% increase in the import of essential goods last week and said: The round-the-clock efforts of the customs led to the clearance of 980,000 tons of goods.",
+            "category": "Economy",
+            "image": "images/economy/im29.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": 23,
+            "title": "آمریکا در زمان تعطیلی بازارهای جهانی به ایران حمله کرد، تا شاید اقتصاد جهان و بازارهای مهمی مانند سهام، نفت و طلا از ترکش نظامی‌گری در امان باشند.",
+            "summary": "America attacked Iran at a time when global markets were closed, so that the world economy and important markets such as stocks, oil and gold would be safe from military shrapnel.",
+            "category": "Economy",
+            "image": "images/economy/im13.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": 24,
+            "title": "در شرایط جنگ و افزایش تنش‌های منطقه‌ای و بین‌المللی، اقتصاد هر کشوری با چالش‌های بی‌سابقه‌ای روبه‌رو می‌شود",
+            "summary": "In the context of war and increasing regional and international tensions, the economy of any country faces unprecedented challenges.",
+            "category": "Economy",
+            "image": "images/economy/im30.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": 28,
+            "title": "US economy shows signs of 'paralysis' ahead of key jobs report",
+            "summary": "The US economy displays signs of stagnation as a key jobs report approaches.",
+            "category": "Economy",
+            "image": "images/economy/im2.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": 29,
+            "title": "May jobs report expected to show hiring slowdown, flat unemployment",
+            "summary": "The May jobs report is projected to indicate a decline in hiring and stable unemployment rates.",
+            "category": "Economy",
+            "image": "images/economy/im11.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": 30,
+            "title": "Trump and Xi break the ice, pledge to restart talks",
+            "summary": "Trump and Xi agree to resume negotiations.",
+            "category": "Economy",
+            "image": "images/economy/im1.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": 35,
+            "title": "Trump-Musk Alliance Unravels Over ‘Big Beautiful Bill’",
+            "summary": "The alliance between Trump and Musk dissolves due to disagreements over a significant bill.",
+            "category": "Economy",
+            "image": "images/economy/im19.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": 38,
+            "title": "Is Official US Economic Data Getting Less Reliable?",
+            "summary": "An examination of the reliability of official US economic data.",
+            "category": "Economy",
+            "image": "images/economy/im21.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": 40,
+            "title": "Delta warns new tariffs could force it to stop buying foreign-made airplanes",
+            "summary": "Delta Air Lines cautions that new tariffs might compel the company to cease purchasing foreign-made aircraft.",
+            "category": "Economy",
+            "image": "images/economy/im7.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": 42,
+            "title": "How small businesses are handling tariff uncertainty, pressures",
+            "summary": "An analysis of how small businesses are dealing with uncertainty and pressures related to tariffs.",
+            "category": "Economy",
+            "image": "images/economy/im4.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": 52,
+            "title": "China's rare earth export curbs hit the auto industry worldwide",
+            "summary": "China's restrictions on rare earth exports negatively affect the global auto industry.",
+            "category": "Economy",
+            "image": "images/economy/im20.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": 56,
+            "title": "Tariff uncertainty is hammering one of America's favorite food escapes — snacks",
+            "summary": "Uncertainty surrounding tariffs is negatively affecting the snack industry in America.",
+            "category": "Economy",
+            "image": "images/economy/im12.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": 57,
+            "title": "Trump’s Fight With Regulators Is About Who Watches the Watchers",
+            "summary": "Trump's conflict with regulators concerns oversight and accountability.",
+            "category": "Economy",
+            "image": "images/economy/im9.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:06:16.303734"
+        },
+        {
+            "id": "0",
+            "title": "Brazil Producers Look to Halt Pig Iron Output as US Tariff Threat Crimps Demand",
+            "summary": "Brazilian pig iron producers are considering halting output due to decreased demand caused by potential US tariffs.",
+            "category": "Economy",
+            "image": "images/economy/im1.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "1",
+            "title": "Women’s Soccer Wins Fans’ Hearts But Not Sponsors’ Wallets",
+            "summary": "Women's soccer is gaining popularity among fans, but struggles to attract significant sponsorships.",
+            "category": "Economy",
+            "image": "images/economy/im6.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "2",
+            "title": "Trump Says 50-50 Odds of Trade Deal With European Union",
+            "summary": "Trump estimates a 50% chance of reaching a trade agreement with the European Union.",
+            "category": "Economy",
+            "image": "images/economy/im3.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "4",
+            "title": "Retaliatory Tariffs Padding Canada’s Finances as Expenses Rise",
+            "summary": "Retaliatory tariffs are boosting Canada's finances, helping to offset rising expenses.",
+            "category": "Economy",
+            "image": "images/economy/im30.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "5",
+            "title": "Euro-Zone Growth to Stall as Short-Lived Trade Boost Unwinds",
+            "summary": "Euro-zone growth is predicted to stagnate as the temporary trade boost fades.",
+            "category": "Economy",
+            "image": "images/economy/im29.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "8",
+            "title": "دولت در جنگ ۱۲روزه با اقداماتی نظیر تامین ارز برای واردات کالاهای اساسی، کاهش بوروکراسی ترخیص کالا، تدوین بسته حمایتی برای صنایع و بازگشت ارز ترجیحی برای برخی از کالاها موفق شد با سرعت قابل قبولی اختلالات مقطعی در زنجیره تامین را کنترل کند.",
+            "summary": "Government managed to control the momentary disruption in the supply chain with actions such as supplying currency for the import of basic goods, reducing bureaucracy for customs clearance, developing a support package for industries, and returning preferential currency for some goods.",
+            "category": "Economy",
+            "image": "images/economy/im6.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "9",
+            "title": "بر اساس گزارش مرکز آمار ایران، تورم نقطه به نقطه در پایان خرداد باثبت نرخ ۳۹.۴درصد، به بیشترین سطح از آذرماه۱۴۰۲ رسیده است.",
+            "summary": "According to the Iranian Statistics Center, the point-to-point inflation rate at the end of June, with a rate of 39.4%, has reached its highest level since December 2023.",
+            "category": "Economy",
+            "image": "images/economy/im25.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "10",
+            "title": "بررسیها نشان میدهد که دولت ایران در دوران جنگ ۱۲روزه، اقدامات حمایتی مختلفی با تمرکز بر تامین کالاهای اساسی انجام داد.",
+            "summary": "Studies show that during the 12-day war, the Iranian government took various support measures focusing on the supply of basic goods.",
+            "category": "Economy",
+            "image": "images/economy/im24.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "12",
+            "title": "با درگیری بیسابقه و تنشزای ۱۲ روزه میان اسرائیل و ایران که با حملات موشکی متقابل، خسارات گسترده زیرساختی و تعطیلیهای سراسری در سرزمینهای اشغالی همراه بود، مقامات اقتصادی اسرائیل از یک ضربه بیسابقه به پیکر اقتصاد سخن میگویند.",
+            "summary": "With the unprecedented and tense 12-day conflict between Israel and Iran, which involved mutual missile attacks, widespread infrastructure damage, and nationwide shutdowns in the occupied territories, Israeli economic officials speak of an unprecedented blow to the economy.",
+            "category": "Economy",
+            "image": "images/economy/im12.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "13",
+            "title": "ماندگاری توافقهای آتشبس به فضای سیاسی و اقتصادی حاکم بر روابط کشورهای درگیر وابسته است.",
+            "summary": "The permanence of ceasefire agreements depends on the political and economic environment governing the relations between the countries involved.",
+            "category": "Economy",
+            "image": "images/economy/im15.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "15",
+            "title": "جنگ ۱۲ روزه میان ایران و اسرائیل، چالشهای اقتصادی کسبوکارها و خانوارها را بیش از پیش تشدید کرده است.",
+            "summary": "The 12-day war between Iran and Israel has further exacerbated the economic challenges of businesses and households.",
+            "category": "Economy",
+            "image": "images/economy/im13.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "16",
+            "title": "دیروز در حالی که برخی منابع از آغاز آتشبس میان ایران و اسرائیل خبر دادند، وزیر امور خارجه اعلام کرد اگر حملات اسرائیل متوقف شود، ایران نیز عملیات نظامی خود را متوقف خواهد کرد.",
+            "summary": "Yesterday, while some sources reported the start of a ceasefire between Iran and Israel, the Foreign Minister announced that if Israeli attacks stop, Iran will also stop its military operations.",
+            "category": "Economy",
+            "image": "images/economy/im20.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "17",
+            "title": "با گذشت بیش از یک هفته از تجاوز اسرائیل به خاک ایران، سوالات جدی درباره تابآوری اقتصاد اسرائیل به وجود آمده است.",
+            "summary": "More than a week after Israel's invasion of Iranian territory, serious questions have been raised about the resilience of the Israeli economy.",
+            "category": "Economy",
+            "image": "images/economy/im16.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "20",
+            "title": "آمریکا در زمان تعطیلی بازارهای جهانی به ایران حمله کرد، تا شاید اقتصاد جهان و بازارهای مهمی مانند سهام، نفت و طلا از ترکش نظامیگری در امان باشند.",
+            "summary": "The United States attacked Iran when global markets were closed, perhaps to protect the global economy and important markets such as stocks, oil, and gold from military shrapnel.",
+            "category": "Economy",
+            "image": "images/economy/im27.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "21",
+            "title": "وزیر اقتصاد از رشد ۵۳درصدی واردات کالاهای اساسی در هفته گذشته خبر داد و گفت: تلاش شبانهروزی گمرک منجر به ترخیص ۹۸۰هزار تن کالا شد.",
+            "summary": "The Minister of Economy announced a 53% increase in imports of basic goods last week and said: The round-the-clock efforts of the customs led to the clearance of 980 thousand tons of goods.",
+            "category": "Economy",
+            "image": "images/economy/im27.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "22",
+            "title": "با وجود آرامش موجود در بازار مصرف، تداوم درگیریها نگرانیهایی را نسبت به امنیت تامین کالاهای اساسی در جامعه برانگیخته است.",
+            "summary": "Despite the calm in the consumer market, the continuation of conflicts has raised concerns about the security of the supply of basic goods in the society.",
+            "category": "Economy",
+            "image": "images/economy/im7.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "23",
+            "title": "در شرایط بحرانی مانند تنشهای ژئوپلیتیک، اولویت اصلی در رویکرد اقتصادی دولتها باید حمایت از خانوارها و بنگاهها باشد، حتی اگر این حمایت منجر به افزایش کسری بودجه یا رشد پایه پولی شود.",
+            "summary": "In critical situations such as geopolitical tensions, the main priority in the economic approach of governments should be to support households and businesses, even if this support leads to an increase in the budget deficit or the growth of the monetary base.",
+            "category": "Economy",
+            "image": "images/economy/im7.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "24",
+            "title": "دنیای اقتصاد: در شرایط بحرانی، کشور با چالشها و تغییرات متعددی روبهرو میشود. به همین دلیل سیاستگذاران همواره به دنبال اعمال سیاستهایی جهت حمایت از مردم و فعالان اقتصادی هستند.",
+            "summary": "In a crisis situation, the country faces many challenges and changes. For this reason, policymakers are always looking to implement policies to support people and economic actors.",
+            "category": "Economy",
+            "image": "images/economy/im20.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "25",
+            "title": "در شرایط جنگ و افزایش تنشهای منطقهای و بینالمللی، اقتصاد هر کشوری با چالشهای بیسابقهای روبهرو میشود.",
+            "summary": "In the context of war and increasing regional and international tensions, the economy of each country faces unprecedented challenges.",
+            "category": "Economy",
+            "image": "images/economy/im21.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "26",
+            "title": "در شرایط جنگی، کشور با چالشها و تغییرات متعددی روبهرو میشود. در چنین شرایطی، سیاستگذاران با چالشهای جدی روبه رو هستند و لازم است تصمیمات فوری برای مدیریت بحران و افزایش تاب آوری کشور اتخاذ کنند.",
+            "summary": "In a war situation, the country faces many challenges and changes. In such circumstances, policymakers face serious challenges and need to make immediate decisions to manage the crisis and increase the country's resilience.",
+            "category": "Economy",
+            "image": "images/economy/im14.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "28",
+            "title": "دنیای اقتصاد: بررسیها نشان میدهد که در شرایط اضطراری مانند جنگ، خانوارهایی که کمترین درآمد را دارند (دهک اول و دوم) بیش از سایر خانوارها آسیبپذیر هستند.",
+            "summary": "Studies show that in emergency situations such as war, households with the lowest income (first and second deciles) are more vulnerable than other households.",
+            "category": "Economy",
+            "image": "images/economy/im23.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "32",
+            "title": "US economy shows signs of 'paralysis' ahead of key jobs report",
+            "summary": "The US economy exhibits signs of 'paralysis' leading up to the release of a crucial jobs report.",
+            "category": "Economy",
+            "image": "images/economy/im9.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "33",
+            "title": "Trump and Xi break the ice, pledge to restart talks",
+            "summary": "Trump and Xi have a positive conversation and agree to resume negotiations.",
+            "category": "Economy",
+            "image": "images/economy/im19.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "38",
+            "title": "Trump-Musk Alliance Unravels Over ‘Big Beautiful Bill’",
+            "summary": "The alliance between Trump and Musk dissolves due to disagreements over the 'Big Beautiful Bill'.",
+            "category": "Economy",
+            "image": "images/economy/im15.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "41",
+            "title": "Is Official US Economic Data Getting Less Reliable?",
+            "summary": "An assessment of whether official US economic data is becoming less reliable is presented.",
+            "category": "Economy",
+            "image": "images/economy/im28.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "43",
+            "title": "Delta warns new tariffs could force it to stop buying foreign-made airplanes",
+            "summary": "Delta Air Lines cautions that new tariffs could compel the company to cease purchasing airplanes manufactured abroad.",
+            "category": "Economy",
+            "image": "images/economy/im24.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "45",
+            "title": "Breeze Airways CEO talks consumer demand as travelers seek value",
+            "summary": "The CEO of Breeze Airways discusses consumer demand as travelers prioritize value.",
+            "category": "Economy",
+            "image": "images/economy/im8.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "46",
+            "title": "How small businesses are handling tariff uncertainty, pressures",
+            "summary": "Small businesses are employing diverse strategies to navigate tariff uncertainty and related pressures.",
+            "category": "Economy",
+            "image": "images/economy/im22.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "57",
+            "title": "The GOP's 'big, beautiful bill' would leave 10.9 million more uninsured: CBO",
+            "summary": "According to the CBO, the GOP's 'big, beautiful bill' would result in 10.9 million additional uninsured individuals.",
+            "category": "Economy",
+            "image": "images/economy/im10.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "61",
+            "title": "China's rare earth export curbs hit the auto industry worldwide",
+            "summary": "China's restrictions on rare earth exports have a detrimental impact on the global auto industry.",
+            "category": "Economy",
+            "image": "images/economy/im10.jpg",
+            "importance": "High",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "66",
+            "title": "Tariff uncertainty is hammering one of America's favorite food escapes — snacks",
+            "summary": "Tariff uncertainty is negatively impacting the snack industry, a popular food category in America.",
+            "category": "Economy",
+            "image": "images/economy/im12.jpg",
+            "importance": "Medium",
+            "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "67",
+            "title": "Trump’s Fight With Regulators Is About Who Watches the Watchers",
+            "summary": "The focal point of Trump's conflict with regulators revolves around the issue of oversight and accountability.",
+            "category": "Economy",
+            "image": "images/economy/im30.jpg",
+            "importance": "Low",
+            "date": "2025-07-26T20:16:34.537142"
         }
     ]
 }

@@ -6,7 +6,7 @@ from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
@@ -21,7 +21,7 @@ def main():
     dic = {}
     current_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
     dic["date"] = current_time
-    driver = webdriver.Firefox()
+    driver = webdriver.Chrome()
     driver.get("https://www.bloomberg.com/economics")
 
     try:
@@ -163,7 +163,7 @@ def save(new_data):
 def load(filename="ScBloomberg.json"):
     try:
         with open(os.path.join(DATA_PATH, "ScBloomberg.json"), "r", encoding="utf-8") as l:
-                data = json.load(l)
+            data = json.load(l)
         return (data)
     except:
         print(
