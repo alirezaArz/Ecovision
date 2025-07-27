@@ -728,6 +728,312 @@
             "image": "images/economy/im30.jpg",
             "importance": "Low",
             "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "3",
+            "title": "Trump’s Tariffs Are the Highest in a Century. But After His Threats, They Seem Like a Relief.",
+            "summary": "The president imposed tariffs on Japan, one of America’s closest allies, that would have been alarming just months ago. And markets went up.",
+            "category": "Economy",
+            "image": "images/economy/im23.jpg",
+            "importance": "High",
+            "date": "2025-07-27T01:04:13.754327"
+        },
+        {
+            "id": "4",
+            "title": "In New Deal, Trump Keeps Tariffs While Indonesia Drops Trade Barriers",
+            "summary": "The administration provided some insight into the terms that were agreed upon between Indonesia and the United States, hinting at how other vague and hastily negotiated deals may turn out.",
+            "category": "Economy",
+            "image": "images/economy/im1.jpg",
+            "importance": "Medium",
+            "date": "2025-07-27T01:04:13.754327"
+        },
+        {
+            "id": "9",
+            "title": "Rising Inflation Underscores Risks in Trump’s New Tariff Threats",
+            "summary": "New data showing price increases last month could foreshadow even higher costs if the president imposes steep tariffs on Aug. 1.",
+            "category": "Economy",
+            "image": "images/economy/im10.jpg",
+            "importance": "High",
+            "date": "2025-07-27T01:04:13.754327"
+        },
+        {
+            "id": "11",
+            "title": "The Economy Has Been Resilient. The New Round of Tariffs May Hit Harder.",
+            "summary": "The economy’s resilience so far to President Trump’s global trade war risks emboldening him and unleashing the sort of economic devastation that economists have long feared.",
+            "category": "Economy",
+            "image": "images/economy/im25.jpg",
+            "importance": "High",
+            "date": "2025-07-27T01:04:13.754327"
+        },
+        {
+            "id": "13",
+            "title": "It’s No Bluff: The Tariff Rate Is Soaring Under Trump",
+            "summary": "The president has earned a reputation for bluffing on tariffs. But he has steadily and dramatically raised U.S. tariffs, transforming global trade.",
+            "category": "Economy",
+            "image": "images/economy/im26.jpg",
+            "importance": "High",
+            "date": "2025-07-27T01:04:13.754327"
+        },
+        {
+            "id": "14",
+            "title": "Under Attack by Trump’s Tariffs, Asian Countries Seek Out Better Friends",
+            "summary": "Most nations are still negotiating in hopes of avoiding punitive import taxes. At the same time, they’re looking for trading partners as a way around the United States.",
+            "category": "Economy",
+            "image": "images/economy/im20.jpg",
+            "importance": "Medium",
+            "date": "2025-07-27T01:04:13.754327"
+        },
+        {
+            "id": "15",
+            "title": "Tariffs or Deals? Trump Seems Content With Punishing Levies.",
+            "summary": "The president’s supporters portray him as a top dealmaker. But, at least for now, far more trading partners have gotten stiff tariffs than trade deals.",
+            "category": "Economy",
+            "image": "images/economy/im23.jpg",
+            "importance": "Medium",
+            "date": "2025-07-27T01:04:13.754327"
+        },
+        {
+            "id": "16",
+            "title": "As Trump Sows Tariff Confusion, Rules of Global Commerce Give Way to Chaos",
+            "summary": "Blunt letters dictating terms posted to social media and changes late in negotiations have left trading partners wondering what President Trump will do next.",
+            "category": "Economy",
+            "image": "images/economy/im21.jpg",
+            "importance": "Medium",
+            "date": "2025-07-27T01:04:13.754327"
+        },
+        {
+            "id": "19",
+            "title": "Trump Treats Tariffs More as a Form of Power Than as a Trade Tool",
+            "summary": "Instead of viewing tariffs as part of a broader trade policy, President Trump sees them as a valuable weapon he can wield on the world stage.",
+            "category": "Economy",
+            "image": "images/economy/im8.jpg",
+            "importance": "Medium",
+            "date": "2025-07-27T01:04:13.754327"
+        },
+        {
+            "id": "3",
+            "title": "Trump’s Tariffs Are the Highest in a Century. But After His Threats, They Seem Like a Relief.",
+            "summary": "The president imposed tariffs on Japan, one of America’s closest allies, that would have been alarming just months ago. And markets went up.",
+            "category": "Economy",
+            "image": "images/economy/im14.jpg",
+            "importance": "High",
+            "date": "2025-07-27T01:11:22.268115"
+        },
+        {
+            "id": "9",
+            "title": "Rising Inflation Underscores Risks in Trump’s New Tariff Threats",
+            "summary": "New data showing price increases last month could foreshadow even higher costs if the president imposes steep tariffs on Aug. 1.",
+            "category": "Economy",
+            "image": "images/economy/im3.jpg",
+            "importance": "High",
+            "date": "2025-07-27T01:11:22.268115"
+        },
+        {
+            "id": "11",
+            "title": "The Economy Has Been Resilient. The New Round of Tariffs May Hit Harder.",
+            "summary": "The economy’s resilience so far to President Trump’s global trade war risks emboldening him and unleashing the sort of economic devastation that economists have long feared.",
+            "category": "Economy",
+            "image": "images/economy/im7.jpg",
+            "importance": "High",
+            "date": "2025-07-27T01:11:22.268115"
+        },
+        {
+            "id": "13",
+            "title": "It’s No Bluff: The Tariff Rate Is Soaring Under Trump",
+            "summary": "The president has earned a reputation for bluffing on tariffs. But he has steadily and dramatically raised U.S. tariffs, transforming global trade.",
+            "category": "Economy",
+            "image": "images/economy/im11.jpg",
+            "importance": "High",
+            "date": "2025-07-27T01:11:22.268115"
+        },
+        {
+            "id": "15",
+            "title": "Tariffs or Deals? Trump Seems Content With Punishing Levies.",
+            "summary": "The president’s supporters portray him as a top dealmaker. But, at least for now, far more trading partners have gotten stiff tariffs than trade deals.",
+            "category": "Economy",
+            "image": "images/economy/im7.jpg",
+            "importance": "Medium",
+            "date": "2025-07-27T01:11:22.268115"
+        },
+        {
+            "id": "16",
+            "title": "As Trump Sows Tariff Confusion, Rules of Global Commerce Give Way to Chaos",
+            "summary": "Blunt letters dictating terms posted to social media and changes late in negotiations have left trading partners wondering what President Trump will do next.",
+            "category": "Economy",
+            "image": "images/economy/im2.jpg",
+            "importance": "Medium",
+            "date": "2025-07-27T01:11:22.268115"
+        },
+        {
+            "id": "19",
+            "title": "Trump Treats Tariffs More as a Form of Power Than as a Trade Tool",
+            "summary": "Instead of viewing tariffs as part of a broader trade policy, President Trump sees them as a valuable weapon he can wield on the world stage.",
+            "category": "Economy",
+            "image": "images/economy/im22.jpg",
+            "importance": "Medium",
+            "date": "2025-07-27T01:11:22.268115"
+        },
+        {
+            "id": "3",
+            "title": "Trump’s Tariffs Are the Highest in a Century. But After His Threats, They Seem Like a Relief.",
+            "summary": "The president imposed tariffs on Japan, one of America’s closest allies, that would have been alarming just months ago. And markets went up.",
+            "category": "Economy",
+            "image": "images/economy/im14.jpg",
+            "importance": "High",
+            "date": "2025-07-27T01:17:07.742417"
+        },
+        {
+            "id": "4",
+            "title": "In New Deal, Trump Keeps Tariffs While Indonesia Drops Trade Barriers",
+            "summary": "The administration provided some insight into the terms that were agreed upon between Indonesia and the United States, hinting at how other vague and hastily negotiated deals may turn out.",
+            "category": "Economy",
+            "image": "images/economy/im30.jpg",
+            "importance": "Medium",
+            "date": "2025-07-27T01:17:07.742417"
+        },
+        {
+            "id": "7",
+            "title": "As Trump Courts a More Assertive Beijing, China Hawks Are Losing Out",
+            "summary": "The Trump administration has dialed back aggressive measures against China and reversed its position on technology controls as the president angles for a Chinese trip later this year.",
+            "category": "Economy",
+            "image": "images/economy/im15.jpg",
+            "importance": "Medium",
+            "date": "2025-07-27T01:17:07.742417"
+        },
+        {
+            "id": "8",
+            "title": "Indonesia Confirms U.S. Trade Agreement, but Details Remain Scarce",
+            "summary": "President Trump said the agreement would partly walk back some of the steep tariffs he threatened on the country last week. Indonesia’s president called Mr. Trump a “tough negotiator.”",
+            "category": "Economy",
+            "image": "images/economy/im22.jpg",
+            "importance": "Medium",
+            "date": "2025-07-27T01:17:07.742417"
+        },
+        {
+            "id": "9",
+            "title": "Rising Inflation Underscores Risks in Trump’s New Tariff Threats",
+            "summary": "New data showing price increases last month could foreshadow even higher costs if the president imposes steep tariffs on Aug. 1.",
+            "category": "Economy",
+            "image": "images/economy/im1.jpg",
+            "importance": "High",
+            "date": "2025-07-27T01:17:07.742417"
+        },
+        {
+            "id": "10",
+            "title": "Another Casualty in the Tariff Wars: The Always-in-Season Tomato",
+            "summary": "The Trump administration is adding a 17 percent tariff to a year-round grocery store staple, while funneling more business to domestic tomato growers, largely in Florida.",
+            "category": "Economy",
+            "image": "images/economy/im22.jpg",
+            "importance": "Medium",
+            "date": "2025-07-27T01:17:07.742417"
+        },
+        {
+            "id": "11",
+            "title": "The Economy Has Been Resilient. The New Round of Tariffs May Hit Harder.",
+            "summary": "The economy’s resilience so far to President Trump’s global trade war risks emboldening him and unleashing the sort of economic devastation that economists have long feared.",
+            "category": "Economy",
+            "image": "images/economy/im1.jpg",
+            "importance": "High",
+            "date": "2025-07-27T01:17:07.742417"
+        },
+        {
+            "id": "13",
+            "title": "It’s No Bluff: The Tariff Rate Is Soaring Under Trump",
+            "summary": "The president has earned a reputation for bluffing on tariffs. But he has steadily and dramatically raised U.S. tariffs, transforming global trade.",
+            "category": "Economy",
+            "image": "images/economy/im2.jpg",
+            "importance": "High",
+            "date": "2025-07-27T01:17:07.742417"
+        },
+        {
+            "id": "14",
+            "title": "Under Attack by Trump’s Tariffs, Asian Countries Seek Out Better Friends",
+            "summary": "Most nations are still negotiating in hopes of avoiding punitive import taxes. At the same time, they’re looking for trading partners as a way around the United States.",
+            "category": "Economy",
+            "image": "images/economy/im6.jpg",
+            "importance": "Medium",
+            "date": "2025-07-27T01:17:07.742417"
+        },
+        {
+            "id": "15",
+            "title": "Tariffs or Deals? Trump Seems Content With Punishing Levies.",
+            "summary": "The president’s supporters portray him as a top dealmaker. But, at least for now, far more trading partners have gotten stiff tariffs than trade deals.",
+            "category": "Economy",
+            "image": "images/economy/im18.jpg",
+            "importance": "Medium",
+            "date": "2025-07-27T01:17:07.742417"
+        },
+        {
+            "id": "16",
+            "title": "As Trump Sows Tariff Confusion, Rules of Global Commerce Give Way to Chaos",
+            "summary": "Blunt letters dictating terms posted to social media and changes late in negotiations have left trading partners wondering what President Trump will do next.",
+            "category": "Economy",
+            "image": "images/economy/im10.jpg",
+            "importance": "Medium",
+            "date": "2025-07-27T01:17:07.742417"
+        },
+        {
+            "id": "18",
+            "title": "Trump Tariffs Aim to Settle Scores With Countries, No Matter Their Size",
+            "summary": "The president’s tariff announcements suggest he has not backed away from his initial strategy, where even smaller trading partners will face tariffs.",
+            "category": "Economy",
+            "image": "images/economy/im18.jpg",
+            "importance": "Medium",
+            "date": "2025-07-27T01:17:07.742417"
+        },
+        {
+            "id": "19",
+            "title": "Trump Treats Tariffs More as a Form of Power Than as a Trade Tool",
+            "summary": "Instead of viewing tariffs as part of a broader trade policy, President Trump sees them as a valuable weapon he can wield on the world stage.",
+            "category": "Economy",
+            "image": "images/economy/im30.jpg",
+            "importance": "Medium",
+            "date": "2025-07-27T01:17:07.742417"
+        },
+        {
+            "id": "20",
+            "title": "With Taxes and Tariffs in Place, Trump Takes Reins of U.S. Economy",
+            "summary": "President Trump has achieved much of his agenda, leaving the fate of the economy squarely in his hands.",
+            "category": "Economy",
+            "image": "images/economy/im21.jpg",
+            "importance": "High",
+            "date": "2025-07-27T01:17:07.742417"
+        },
+        {
+            "id": "22",
+            "title": "Trump’s New Trade Threats Set Off Global Scramble to Avoid Tariffs",
+            "summary": "Many countries thought they were negotiating in good faith. The White House renewed its “reciprocal” tariff plan anyway, giving countries until Aug. 1 to make offers.",
+            "category": "Economy",
+            "image": "images/economy/im14.jpg",
+            "importance": "Medium",
+            "date": "2025-07-27T01:17:07.742417"
+        },
+        {
+            "id": "24",
+            "title": "E.U., Mexico, Brazil: Who Has Trump Targeted With New Tariffs?",
+            "summary": "President Trump has told more than two dozen countries that they will face tariffs of at least 20 percent on Aug. 1 if they don’t reach agreements by then.",
+            "category": "Economy",
+            "image": "images/economy/im9.jpg",
+            "importance": "Medium",
+            "date": "2025-07-27T01:17:07.742417"
+        },
+        {
+            "id": "25",
+            "title": "Trump Revives Trade War, Threatening Steep Aug. 1 Tariffs on Allies",
+            "summary": "President Trump said Japan and South Korea would face tariffs of 25 percent unless they reached an agreement with the United States. Other countries received notice of higher levies.",
+            "category": "Economy",
+            "image": "images/economy/im16.jpg",
+            "importance": "Medium",
+            "date": "2025-07-27T01:17:07.742417"
+        },
+        {
+            "id": "26",
+            "title": "Trump Keeps Foreign Countries on Edge as Tariff Deadline Nears",
+            "summary": "The president is again threatening higher tariff rates on a dozen foreign nations, as a deadline elapses this week for making trade deals.",
+            "category": "Economy",
+            "image": "images/economy/im25.jpg",
+            "importance": "Medium",
+            "date": "2025-07-27T01:17:07.742417"
         }
     ]
 }

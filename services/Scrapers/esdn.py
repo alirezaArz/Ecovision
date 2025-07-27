@@ -6,10 +6,12 @@ from datetime import datetime, timedelta, timezone
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
+from services import analyze as analyze
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 DATA_PATH = os.path.join(BASE_DIR, "scraped")
 
 options = Options()
@@ -20,7 +22,7 @@ def main():
     dic = {}
     current_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
     dic["date"] = current_time
-    driver = webdriver.Firefox()
+    driver = webdriver.Chrome()
     driver.get("https://www.eghtesadnews.com/")
 
     time.sleep(3)
@@ -86,6 +88,7 @@ def search(inp_arg):
 
 
 def save(new_data):
+    analyze.az.sendtoQueue(new_data)
     last_data = load()
     if new_data:
         last_data["Data"].append(new_data)
@@ -109,3 +112,22 @@ def load(filename="ScEghtsdNews.json"):
     except:
         print(
             f"esdn : Eghtesat_news.json is not where it sould be at {DATA_PATH}")
+
+
+a2 = {
+            "date": "2025-07-26 22:13:26",
+            "0": {
+                "title": "How Trump’s Attacks on the Fed Chair Have Intensified",
+                "summary": "President Trump has targeted Jerome H. Powell on more than 70 separate occasions, more than half of them since April. His statements fall into four broad categories."
+            },
+            "1": {
+                "title": "Trump Spars With Powell Over Fed’s Costly Renovations in Rare Visit",
+                "summary": "The administration has repeatedly criticized Jerome H. Powell, the chair of the central bank, for his handling of the economy and the cost of work on the institution’s headquarters."
+            },
+            "2": {
+                "title": "‘Unprecedented’ Investment Fund Seals Deal for Japan and Expands Trump’s Influence",
+                "summary": "President Trump will get to decide where to invest Japanese money and the United States will keep 90 percent of the profits, the White House said."
+            }
+}
+
+#analyze.az.sendtoQueue(a2)

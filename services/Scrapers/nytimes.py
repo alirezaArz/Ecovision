@@ -7,9 +7,10 @@ from datetime import datetime, timedelta, timezone
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
+from services import analyze as analyze
 
 options = Options()
 options.add_argument("--headless")
@@ -23,7 +24,7 @@ def main():
     dic = {}
     current_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
     dic["date"] = current_time
-    driver = webdriver.Firefox()
+    driver = webdriver.Chrome()
     driver.get("https://www.nytimes.com/section/business/economy")
     time.sleep(random.randint(5, 20))
     driver.implicitly_wait(5)
@@ -121,6 +122,7 @@ def search(inp_arg):
 
 
 def save(new_data):
+    analyze.az.sendtoQueue(new_data)
     last_data = load()
     if new_data:
         last_data["Data"].append(new_data)
@@ -144,3 +146,4 @@ def load():
     except Exception as e:
         print(
             f"nytimes : ScNyt.json is not where it sould be at {DATA_PATH} ,,, : {e}")
+

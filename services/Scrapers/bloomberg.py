@@ -9,6 +9,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
+from services import analyze as analyze
 
 options = Options()
 options.add_argument("--headless")
@@ -145,6 +146,7 @@ def search(inp_arg: str):
 
 
 def save(new_data):
+    analyze.az.sendtoQueue(new_data)
     last_data = load()
     if new_data:
         last_data["Data"].append(new_data)

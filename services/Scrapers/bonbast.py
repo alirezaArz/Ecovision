@@ -9,6 +9,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
+from services import analyze as analyze
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_PATH = os.path.join(BASE_DIR, "scraped")
@@ -59,6 +60,7 @@ def main():
 
 
 def save(new_data):
+    analyze.az.sendtoQueue(new_data)
     last_data = load()
     if new_data:
         last_data["Data"].append(new_data)
