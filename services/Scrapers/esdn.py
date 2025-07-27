@@ -88,7 +88,7 @@ def search(inp_arg):
 
 
 def save(new_data):
-    analyze.az.sendtoQueue(new_data)
+    analyze.az.sendtoQueue(new_data, "nyTimes", new_data["date"])
     last_data = load()
     if new_data:
         last_data["Data"].append(new_data)
@@ -114,6 +114,8 @@ def load(filename="ScEghtsdNews.json"):
             f"esdn : Eghtesat_news.json is not where it sould be at {DATA_PATH}")
 
 
+#----------------------------- testing analyze manager --------------------------------
+
 a2 = {
             "date": "2025-07-26 22:13:26",
             "0": {
@@ -130,4 +132,4 @@ a2 = {
             }
 }
 
-#analyze.az.sendtoQueue(a2)
+#analyze.az.sendtoQueue(a2, "esdn", "2025-07-27 01:16:29")
