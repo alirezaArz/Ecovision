@@ -1,36 +1,18 @@
 {
-  "memoId": [0, 1, 2441, 2287],
-  "localPending": [1, 2441, 2287],
-  "Status": [
-    {
-      "id": 0,
-      "status": "done",
-      "deployed date": "2025-07-27 01:16:57",
-      "external model": "verified",
-      "local model": "undefined"
-    },
-    {
-      "id": 1,
-      "status": "pending",
-      "deployed date": "2025-07-27 11:38:01",
-      "external model": "undefined",
-      "local model": "pending"
-    },
-    {
-      "id": 2441,
-      "modifier": "esdn",
-      "status": "pending",
-      "modified date": "2025-07-27 01:16:29",
-      "external model": "undefined",
-      "local model": "pending"
-    },
-    {
-      "id": 2287,
-      "modifier": "esdn",
-      "status": "pending",
-      "modified date": "2025-07-27 01:16:29",
-      "external model": "undefined",
-      "local model": "pending"
-    }
-  ]
+    "memoId": [
+        1076
+    ],
+    "localPending": [
+        1076
+    ],
+    "Status": [
+        {
+            "id": 1076,
+            "modifier": "esdn",
+            "status": "pending",
+            "modified date": "2025-07-27 01:16:29",
+            "external model": "undefined",
+            "local model": "pending"
+        }
+    ]
 }

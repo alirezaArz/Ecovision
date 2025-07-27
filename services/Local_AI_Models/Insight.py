@@ -51,11 +51,15 @@ class Core():
                 data = json.load(file)
                 return (data)
         except:
-            print(f"Nav : {name}.json is not where it sould be at {InputPath}")
+            print(f"{name}.json is not where it sould be at {OutPutPath}")
     
-    def saveOutput(self, data, name='news'):
+    def saveOutput(self, data, Id, name='news'):
         last_data = self.readOutput()
-        last_data["Data"].append(data)
+        new_data = {
+            "id":Id,
+            "response": data
+        }
+        last_data["Data"].append(new_data)
         
         with open(os.path.join(OutPutPath, f"{name}.json"), 'w', encoding='utf-8') as file:
                     json.dump(last_data, file, indent=4, ensure_ascii=False)
@@ -87,8 +91,9 @@ class Core():
                 self.lastItemCount = self.itemCount
                 self.deniedloops = 0
                 analyzed_result = ollama.answer(self.inputData[0])
+                input_dataId = self.inputData[0]["id"]
                 if analyzed_result:
-                    self.saveOutput(analyzed_result)
+                    self.saveOutput(analyzed_result, input_dataId)
                     self.clearInput()
                 time.sleep(7)
                 

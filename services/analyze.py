@@ -15,6 +15,7 @@ project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 QueuePath = os.path.join(project_root, 'services', 'Data', 'analyze')
 InputPath = os.path.join(project_root, 'services',
                          'Local_AI_Models', 'InputData')
+OutPutPath = os.path.join(project_root,'services', 'Local_AI_Models', 'OutputData')
 
 
 class Analyze():
@@ -69,9 +70,31 @@ class Analyze():
                     else:
                         print("Nither local Ai or External Ai Are Active")
                 
+    def checkLocslOutput(self):
+        last_data = self.readOutput()
+        if last_data["Data"]:
+            for item in last_data["Data"]:
+                print(item)
+            
+        
             
             
             
+            
+    def readOutput(self,name='news'):
+        try:
+            with open(os.path.join(OutPutPath, f"{name}.json"), 'r', encoding='utf-8') as file:
+                data = json.load(file)
+                return (data)
+        except:
+            print(f"{name}.json is not where it sould be at {OutPutPath}")
+    
+    def saveOutput(self, data, name='news'):
+        last_data = self.readOutput()
+        last_data["Data"].append(data)
+        
+        with open(os.path.join(OutPutPath, f"{name}.json"), 'w', encoding='utf-8') as file:
+                    json.dump(last_data, file, indent=4, ensure_ascii=False)    
             
             
     def loadQueue(self):
@@ -132,6 +155,7 @@ class Analyze():
             print("Status saved")
         except Exception as e:
             print(f"there was an error while saving the Status.json : {e}")
+
 
     def addtoLocal(self, data, name="news"):
         print("going for local ")
