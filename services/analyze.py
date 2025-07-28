@@ -8,6 +8,7 @@ from datetime import datetime, timedelta, timezone
 from services.External_AI_Models import extract as extract
 from services import navigation as navigation
 from services.External_AI_Models import gemeni as gemeni
+from services import snail
 from services.APIs import gecko as gecko
 from services.Data.markdowns import MkPriceOp as prcmarkdown
 from services.Scrapers import bonbast as bonbast
@@ -15,7 +16,8 @@ project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 QueuePath = os.path.join(project_root, 'services', 'Data', 'analyze')
 InputPath = os.path.join(project_root, 'services',
                          'Local_AI_Models', 'InputData')
-OutPutPath = os.path.join(project_root,'services', 'Local_AI_Models', 'OutputData')
+OutPutPath = os.path.join(project_root, 'services',
+                          'Local_AI_Models', 'OutputData')
 
 
 class Analyze():
@@ -30,58 +32,97 @@ class Analyze():
         self.localPending = self.lastStatus["localPending"]
         self.status = self.lastStatus["Status"]
 
-    def manage(self):
+    def manage(self, target="none"):
+        if target != "none":
+            print(
+                f"analyze: manager has been started with AI target of {target}")
+        else:
+            print("analyze: manager has been started without any specific AI target")
         for item in self.status:
             itemId = self.status.index(item)
             if item["status"] == "in Queue" or item["status"] == "failed":
-                data = self.loadQueue()["Data"][itemId]
-                if data:
-                    if self.gemeni_active:
-                        while self.gemeni_inprocess:
-                            print("External Ai is buissy, wating for 10 seconds")
-                            time.sleep(10)
-                        item["status"] = "pending"
-                        item["external model"] = "pending"
-                        tryExternal = self.geminiAnalyze(data)
-                        print(f" try external = {tryExternal}")
-                        if tryExternal:
-                            item["status"] = "done"
-                            item["external model"] = "verified"
-                            self.saveStatus(self.status)
-                        else:
-                            item["status"] = "failed"
-                            item["external model"] = "failed"
-                            self.saveStatus(self.status)
-                            if self.localai_active:
+                raw_list = self.loadQueue()["Data"]
+                if raw_list:
+                    data = raw_list[itemId]
+                    if data:
+                        if (self.gemeni_active and target == "none") or target == "external":
+                            while self.gemeni_inprocess:
+                                print(
+                                    "External Ai is buissy, wating for 10 seconds")
+                                time.sleep(10)
+                            item["status"] = "pending"
+                            item["external model"] = "pending"
+                            tryExternal = self.geminiAnalyze(data)
+                            print(f" try external = {tryExternal}")
+                            if tryExternal:
+                                item["status"] = "done"
+                                item["external model"] = "verified"
+                                self.saveStatus(self.status)
+                            else:
+                                item["status"] = "failed"
+                                item["external model"] = "failed"
+                                self.saveStatus(self.status)
+                                if self.localai_active and target == "none":
+                                    if snail.snail.active:
+                                        item["status"] = "pending"
+                                        item["local model"] = "pending"
+                                        self.localPending.append(item["id"])
+                                        self.saveStatus(self.status)
+                                        self.addtoLocal(data)
+                                    else:
+                                        print(
+                                            "snail server is not active to wait for the local results")
+                                else:
+                                    print("local AI was not active")
+
+                        elif (self.localai_active and target == "none") or target == "local":
+                            if snail.snail.active:
                                 item["status"] = "pending"
                                 item["local model"] = "pending"
                                 self.localPending.append(item["id"])
                                 self.saveStatus(self.status)
                                 self.addtoLocal(data)
                             else:
-                                print("local AI was not active")
+                                print(
+                                    "snail server is not active to wait for the local results")
 
-                    elif self.localai_active:
-                        item["status"] = "pending"
-                        item["local model"] = "pending"
-                        self.localPending.append(item["id"])
-                        self.saveStatus(self.status)
-                        self.addtoLocal(data)
-                    else:
-                        print("Nither local Ai or External Ai Are Active")
-                
-    def checkLocslOutput(self):
+                        else:
+                            print("Nither local Ai or External Ai Are Active")
+                else:
+                    print("there are no item in Queue.json's Data list")
+
+    def checkLocalOutput(self):
         last_data = self.readOutput()
         if last_data["Data"]:
             for item in last_data["Data"]:
-                print(item)
+                print(f"found an item with id of: {item["id"]}")
+                print(item["response"])
+                self.clearcache(item["id"])
+                # snail.waiting for local should be False in clear function
             
+    def clearcache(self, id):
+        for item in self.status:
+            if item["id"] == id:
+                del self.status[self.status.index(item)]
+                del self.memoId[self.memoId.index(id)]
+                del self.localPending[self.localPending.index(id)]
+                self.saveStatus(self.status)
+                print(f" item {id} has been removed from status.json")
+                
+        self.clearQueue(id)
+        print(f" item {id} has been removed from Queue.json")
         
-            
-            
-            
-            
-    def readOutput(self,name='news'):
+        #self.clearOutput(id)
+        #print(f" item {id} has been removed from outputData -> news.json")
+        
+        snail.snail.active = False
+        print("stopped searching for local output data")
+        
+
+
+
+
+    def readOutput(self, name='news'):
         try:
             with open(os.path.join(OutPutPath, f"{name}.json"), 'r', encoding='utf-8') as file:
                 data = json.load(file)
@@ -89,14 +130,21 @@ class Analyze():
         except:
             print(f"{name}.json is not where it sould be at {OutPutPath}")
     
+    def clearOutput(self, id):
+        last_data = self.readOutput()
+        last_dataList = last_data["Data"]
+        for item in last_dataList:
+            if item["id"] == id:
+                del last_dataList[last_dataList.index(item)]
+        self.saveOutput(last_dataList)
+
     def saveOutput(self, data, name='news'):
         last_data = self.readOutput()
-        last_data["Data"].append(data)
-        
+        last_data["Data"] = data
+
         with open(os.path.join(OutPutPath, f"{name}.json"), 'w', encoding='utf-8') as file:
-                    json.dump(last_data, file, indent=4, ensure_ascii=False)    
-            
-            
+            json.dump(last_data, file, indent=4, ensure_ascii=False)
+
     def loadQueue(self):
         try:
             with open(os.path.join(QueuePath, "Queue.json"), 'r', encoding='utf-8') as file:
@@ -106,6 +154,18 @@ class Analyze():
             print(
                 f"there is an Error with Queue.json; {e}")
 
+
+    def clearQueue(self, id):
+        last_queue = self.loadQueue()
+        last_queueList = last_queue["Data"]
+        for item in last_queueList:
+            if item["id"] == id:
+                del last_queueList[last_queueList.index(item)]
+        with open(os.path.join(QueuePath, "Queue.json"), 'w', encoding='utf-8') as file:
+            json.dump(last_queue, file, indent=4, ensure_ascii=False)
+    
+    
+    
     def sendtoQueue(self, data, name, modifiedDate):
         new_id = random.randint(0, 10000)
         while new_id in self.memoId:
@@ -156,7 +216,6 @@ class Analyze():
         except Exception as e:
             print(f"there was an error while saving the Status.json : {e}")
 
-
     def addtoLocal(self, data, name="news"):
         print("going for local ")
         try:
@@ -166,6 +225,8 @@ class Analyze():
 
             with open(os.path.join(InputPath, f"{name}.json"), 'w', encoding='utf-8') as file:
                 json.dump(last_data, file, indent=4, ensure_ascii=False)
+            snail.snail.waitingForLocal = True
+            print("Snail: checking the local output")
             print(f"item with id of ({data["id"]}) has been sent to Local AI")
 
         except:

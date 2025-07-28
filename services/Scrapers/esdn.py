@@ -114,23 +114,24 @@ def load(filename="ScEghtsdNews.json"):
             f"esdn : Eghtesat_news.json is not where it sould be at {DATA_PATH}")
 
 
-#----------------------------- testing analyze manager --------------------------------
+# ----------------------------- testing analyze manager --------------------------------
 
 a2 = {
-            "date": "2025-07-26 22:13:26",
+    "date": "2025-07-26 22:13:26",
             "0": {
                 "title": "How Trump’s Attacks on the Fed Chair Have Intensified",
                 "summary": "President Trump has targeted Jerome H. Powell on more than 70 separate occasions, more than half of them since April. His statements fall into four broad categories."
             },
-            "1": {
+    "1": {
                 "title": "Trump Spars With Powell Over Fed’s Costly Renovations in Rare Visit",
                 "summary": "The administration has repeatedly criticized Jerome H. Powell, the chair of the central bank, for his handling of the economy and the cost of work on the institution’s headquarters."
             },
-            "2": {
+    "2": {
                 "title": "‘Unprecedented’ Investment Fund Seals Deal for Japan and Expands Trump’s Influence",
                 "summary": "President Trump will get to decide where to invest Japanese money and the United States will keep 90 percent of the profits, the White House said."
             }
 }
 
 # -------test--------
-#analyze.az.sendtoQueue(a2, "esdn", "2025-07-27 01:16:29")
+
+# analyze.az.sendtoQueue(a2, "esdn", "2025-07-27 01:16:29")

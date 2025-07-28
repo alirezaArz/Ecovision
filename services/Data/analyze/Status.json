@@ -1,18 +1,6 @@
 {
-    "memoId": [
-        1076
-    ],
+    "memoId": [],
     "localPending": [
-        1076
     ],
-    "Status": [
-        {
-            "id": 1076,
-            "modifier": "esdn",
-            "status": "pending",
-            "modified date": "2025-07-27 01:16:29",
-            "external model": "undefined",
-            "local model": "pending"
-        }
-    ]
+    "Status": []
 }
