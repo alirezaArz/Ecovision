@@ -26,14 +26,12 @@ class Snail():
         self.spinner = Halo(text='', spinner={
             "interval": 80,
             "frames": [
-                "[    ]",
-                "[   =]",
-                "[  ==]",
-                "[ ===]",
-                "[====]",
-                "[=== ]",
-                "[==  ]",
-                "[=   ]"
+                "◜",
+                "◠",
+                "◝",
+                "◞",
+                "◡",
+                "◟"
             ]
         })
         self.active = False
@@ -261,37 +259,40 @@ class Snail():
 # code that runs here, runs every time a timer hits 0
 # ------------------------------------------------------------
                 for cnt in range(self.CurrentWaitTime // 10):
-                    if analyze.az.waitingForLocal:
-                        print("Snail: checking the local output")
-                        analyze.az.checkLocalOutput()
-                    time.sleep(10)
+                    if self.active:
+                        if analyze.az.waitingForLocal:
+                            print("Snail: checking the local output")
+                            analyze.az.checkLocalOutput()
+                        time.sleep(10)
+                    else:
+                        analyze.az.snailActive = False
+                        break
+                    
+                if self.active:
+                    for item in self.durations:  
+                        self.durations[item] -= self.CurrentWaitTime
+                        if self.durations[item] == 0:
+                            if item == "bonbast":
+                                bonbast.main()
+                            elif item == "dnsd":
+                                dnsd.main()
+                            elif item == "nytimes":
+                                nytimes.main()
+                            elif item == "yahoo":
+                                yahoo.main()
+                            elif item == "gecko":
+                                gecko.price(
+                                    {'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
+                            elif item == "esdn":
+                                esdn.main()
+                            elif item == "bloomberg":
+                                bloomberg.main()
 
-                for item in self.durations:
-                    val = self.durations[item]
+                            if self.analyze_active == True:
+                                analyze.az.manage()
+                            self.durations[item] = self.durationsBackup[item]
 
-                    self.durations[item] -= self.CurrentWaitTime
-                    if self.durations[item] == 0:
-                        if item == "bonbast":
-                            bonbast.main()
-                        elif item == "dnsd":
-                            dnsd.main()
-                        elif item == "nytimes":
-                            nytimes.main()
-                        elif item == "yahoo":
-                            yahoo.main()
-                        elif item == "gecko":
-                            gecko.price(
-                                {'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
-                        elif item == "esdn":
-                            esdn.main()
-                        elif item == "bloomberg":
-                            bloomberg.main()
-
-                        if self.analyze_active == True:
-                            analyze.az.manage()
-                        self.durations[item] = self.durationsBackup[item]
-
-                print(f" remaining times: {self.durations}")
+                    print(f" remaining times: {self.durations}")
                 self.spinner.stop()
         except Exception as e:
             self.spinner.stop()

@@ -96,8 +96,7 @@ def control_view(request):
                     snail.snail.runserver()
                 elif status == 'off':
                     if snail.snail.active and snail.snail.durationsBackup:
-                        print(
-                            f'snail will be deactivated in {int(min(snail.snail.durations.values()) / 60)} minutres! after {snail.snail.next_process_name}!')
+                        print("deactivating the snail server...")
                     snail.snail.active = False
             # Instant Run Button
             elif code == '400':

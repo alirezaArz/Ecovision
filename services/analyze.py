@@ -92,9 +92,10 @@ class Analyze():
         last_data = self.readOutput()
         if last_data["Data"]:
             for item in last_data["Data"]:
-                print(f"found an item with id of: {item["id"]}")
-                print(item["response"])
-                self.clearcache(item["id"])
+                if item["id"] in self.localPending:
+                    print(f"found an item with id of: {item["id"]}")
+                    print(item["response"])
+                    self.clearcache(item["id"])
 
     def clearcache(self, id):
         for item in self.status:
@@ -108,8 +109,9 @@ class Analyze():
         self.clearQueue(id)
         print(f" item {id} has been removed from Queue.json")
 
-        #self.clearOutput(id)
-        #print(f" item {id} has been removed from outputData -> news.json")
+        # ------------------ this part has been commented out to test the output data of local analyze
+        # self.clearOutput(id)
+        # print(f" item {id} has been removed from outputData -> news.json")
 
         self.waitingForLocal = False
         self.privateLoopWating = False
