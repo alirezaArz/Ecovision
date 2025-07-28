@@ -38,11 +38,6 @@ class Snail():
         })
         self.active = False
         self.analyze_active = False
-        self.waitingForLocal = False
-        if analyze.az.localPending:
-            self.waitingForLocal = True
-            print("Snail: checking the local output")
-            
         self.bonbast_inprocess = False
         self.dnsd_inprocess = False
         self.nytimes_inprocess = False
@@ -161,7 +156,6 @@ class Snail():
                     print("bloomberg failed")
                     self.bloomberg_inprocess = False
 
-
         if name == 'bonbast':
             if not self.bonbast_inprocess:
                 try:
@@ -249,9 +243,12 @@ class Snail():
         self.durations = self.durationsBackup.copy()
         try:
             if self.durations == {}:
-                print(f'There was no active service in the list, server is shutting down...')
+                print(
+                    f'There was no active service in the list, server is shutting down...')
                 self.active = False
+                analyze.az.snailActive = False
             while self.active and self.durations:
+                analyze.az.snailActive = True
 
                 self.next_process_name = min(
                     self.durations, key=lambda k: self.durations[k])
@@ -264,7 +261,7 @@ class Snail():
 # code that runs here, runs every time a timer hits 0
 # ------------------------------------------------------------
                 for cnt in range(self.CurrentWaitTime // 10):
-                    if self.waitingForLocal:
+                    if analyze.az.waitingForLocal:
                         print("Snail: checking the local output")
                         analyze.az.checkLocalOutput()
                     time.sleep(10)
@@ -289,7 +286,7 @@ class Snail():
                             esdn.main()
                         elif item == "bloomberg":
                             bloomberg.main()
-                            
+
                         if self.analyze_active == True:
                             analyze.az.manage()
                         self.durations[item] = self.durationsBackup[item]
@@ -300,12 +297,13 @@ class Snail():
             self.spinner.stop()
             print(f'There was an error on starting the snail: {e}')
             self.active = False
+            analyze.az.snailActive = False
             time.sleep(random.randint(0, 3))
         finally:
             self.spinner.stop()
             self.active = False
+            analyze.az.snailActive = False
             print('snail has been deactivated')
-
 
 
 snail = Snail()
