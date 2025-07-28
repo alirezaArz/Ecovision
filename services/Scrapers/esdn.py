@@ -135,3 +135,8 @@ a2 = {
 # -------test--------
 
 #analyze.az.sendtoQueue(a2, "esdn", "2025-07-27 01:16:29")
+
+# to test the analyze proccess just  uncomment the comment above and after a second comment it again real quick
+
+
+
