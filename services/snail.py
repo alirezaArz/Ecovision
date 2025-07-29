@@ -35,7 +35,6 @@ class Snail():
             ]
         })
         self.active = False
-        self.analyze_active = False
         self.bonbast_inprocess = False
         self.dnsd_inprocess = False
         self.nytimes_inprocess = False
@@ -46,23 +45,61 @@ class Snail():
         self.durationsBackup = {
         }
 
-    def activate(self, name):
+    def val_to_second(self, val, unit):
+        result = 0
+        if unit == 'sec':
+            result = val
+        if unit == 'min':
+            result = val * 60
+        if unit == 'hr':
+            result = val * 3600
+        if unit == 'day':
+            result = val * 86400
+        if unit == 'week':
+            result = val * 604800
+        return result
+
+    def activate(self, name, cycle):
+        if cycle:
+            val = int(cycle["number"])
+            unit = cycle["unit"]
+            firstVal = val
+            val = self.val_to_second(val, unit)
+        else:
+            print(
+                f"no val has been detected for activating the {name} setting 3600 as default")
+            val = 3600
+            firstVal = val
+            unit = 'sec'
+
         if name == 'gecko' and name not in self.durationsBackup:
-            self.durationsBackup['gecko'] = 3000
+            self.durationsBackup['gecko'] = val
         elif name == 'bonbast' and name not in self.durationsBackup:
-            self.durationsBackup['bonbast'] = 3000
+            self.durationsBackup['bonbast'] = val
         elif name == 'dnsd' and name not in self.durationsBackup:
-            self.durationsBackup['dnsd'] = 3600
+            self.durationsBackup['dnsd'] = val
         elif name == 'nytimes' and name not in self.durationsBackup:
-            self.durationsBackup['nytimes'] = 3600
+            self.durationsBackup['nytimes'] = val
         elif name == 'yahoo' and name not in self.durationsBackup:
-            self.durationsBackup['yahoo'] = 3600
+            self.durationsBackup['yahoo'] = val
         elif name == 'esdn' and name not in self.durationsBackup:
-            self.durationsBackup['esdn'] = 3600
+            self.durationsBackup['esdn'] = val
         elif name == 'bloomberg' and name not in self.durationsBackup:
-            self.durationsBackup['bloomberg'] = 3600
+            self.durationsBackup['bloomberg'] = val
+        elif name == 'analyze' and name not in self.durationsBackup:
+            self.durationsBackup['analyze'] = val
+        elif name == 'priceAnalyze' and name not in self.durationsBackup:
+            self.durationsBackup['priceAnalyze'] = val
+        elif name == 'gemini' and name not in self.durationsBackup:
+            self.durationsBackup['gemini'] = val
+        elif name == 'localAi' and name not in self.durationsBackup:
+            self.durationsBackup['localAi'] = val
+
         self.durations = self.durationsBackup.copy()
-        print(f"{name} has been added to active services")
+        print(
+            f"{name} has been added to active services in a cycle of {firstVal} {unit}")
+        print(f" durations: {self.durationsBackup}")
+        self.LogNextDuration()
 
     def deactivate(self, name):
         if name == 'gecko' and name in self.durationsBackup:
@@ -79,8 +116,18 @@ class Snail():
             del self.durationsBackup['esdn']
         elif name == 'bloomberg' and name in self.durationsBackup:
             del self.durationsBackup['bloomberg']
+        elif name == 'analyze' and name in self.durationsBackup:
+            del self.durationsBackup['analyze']
+        elif name == 'priceAnalyze' and name in self.durationsBackup:
+            del self.durationsBackup['priceAnalyze']
+        elif name == 'gemini' and name in self.durationsBackup:
+            del self.durationsBackup['gemini']
+        elif name == 'localAi' and name in self.durationsBackup:
+            del self.durationsBackup['localAi']
         self.durations = self.durationsBackup.copy()
         print(f"{name} has been removed from active services")
+        print(f" durations: {self.durationsBackup}")
+        self.LogNextDuration()
 
     def instantrun(self, name='all'):
         self.spinner.start()
@@ -135,7 +182,7 @@ class Snail():
                 except:
                     print("yahoo failed")
                     self.yahoo_inprocess = False
-                    
+
             if not self.esdn_inprocess:
                 try:
                     self.esdn_inprocess = True
@@ -239,6 +286,31 @@ class Snail():
                 print("analyze failed")
         self.spinner.stop()
 
+    def LogNextDuration(self):
+        if self.durations:
+            durate_min = min(self.durations.values())
+            if durate_min < 60:
+                self.duration_min = durate_min
+                self.duration_min_unit = "seconsd"
+            elif 60 <= durate_min < 3600:
+                self.duration_min = durate_min / 60
+                self.duration_min_unit = "minutes"
+            elif 3600 <= durate_min < 86400:
+                self.duration_min = durate_min / 3600
+                self.duration_min_unit = "hours"
+            elif 86400 <= durate_min < 604800:
+                self.duration_min = durate_min / 86400
+                self.duration_min_unit = "days"
+            else:
+                self.duration_min = durate_min / 604800
+                self.duration_min_unit = "weeks"
+
+            self.next_process_name = min(
+                self.durations, key=lambda k: self.durations[k])
+
+            print(
+                f"\n next process in {self.duration_min} {self.duration_min_unit}! > {self.next_process_name}")
+
     def runserver(self):
         self.durations = self.durationsBackup.copy()
         try:
@@ -253,8 +325,7 @@ class Snail():
                 self.next_process_name = min(
                     self.durations, key=lambda k: self.durations[k])
                 self.CurrentWaitTime = self.durations[self.next_process_name]
-                print(
-                    f"\n next process in {int(min(self.durations.values()) / 60)} minutres! > {self.next_process_name}")
+                self.LogNextDuration()
                 self.spinner.start()
 
 # ---------------------------------------------------------- code space
@@ -269,9 +340,9 @@ class Snail():
                     else:
                         analyze.az.snailActive = False
                         break
-                    
+
                 if self.active:
-                    for item in self.durations:  
+                    for item in self.durations:
                         self.durations[item] -= self.CurrentWaitTime
                         if self.durations[item] == 0:
                             if item == "gecko":
@@ -289,9 +360,15 @@ class Snail():
                                 esdn.main()
                             elif item == "bloomberg":
                                 bloomberg.main()
-
-                            if self.analyze_active == True:
+                            elif item == "analyze":
                                 analyze.az.manage()
+                            elif item == "gemini":
+                                analyze.az.manage('external')
+                            elif item == "localAi":
+                                analyze.az.manage('local')
+                            elif item == "priceAnalyze":
+                                analyze.az.priceAnalyze()
+
                             self.durations[item] = self.durationsBackup[item]
 
                     print(f" remaining times: {self.durations}")

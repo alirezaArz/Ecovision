@@ -24,10 +24,14 @@ document.addEventListener('DOMContentLoaded', function() {
         return cookieValue;
     }
 
-    function sendCommand(code, status = null, triggerElement = null) { // Added triggerElement for context
+    function sendCommand(code, status = null, triggerElement = null, params = null) { // Added params argument
         const payload = { 'code': code };
         if (status !== null) {
             payload['status'] = status ? 'on' : 'off';
+        }
+        // Only include params if they exist
+        if (params) {
+            payload['params'] = params;
         }
 
         fetch(CONTROL_ENDPOINT, {
@@ -74,7 +78,23 @@ document.addEventListener('DOMContentLoaded', function() {
         toggle.addEventListener('change', function(event) {
             const dataCode = this.dataset.code;
             const isChecked = this.checked;
-            sendCommand(dataCode, isChecked, this); // Pass 'this' as triggerElement
+            let params = null;
+
+            // If the toggle is being turned ON, get the parameters
+            if (isChecked) {
+                const numberInput = document.getElementById(`number-input-${dataCode}`);
+                const unitSelect = document.getElementById(`time-unit-select-${dataCode}`);
+
+                if (numberInput && unitSelect && numberInput.value && numberInput.value.trim() !== '') {
+                    params = {
+                        number: numberInput.value,
+                        unit: unitSelect.value
+                    };
+                }
+            }
+            
+            // Send command with status and potentially params
+            sendCommand(dataCode, isChecked, this, params); 
         });
     });
 
@@ -82,7 +102,8 @@ document.addEventListener('DOMContentLoaded', function() {
     actionButtons.forEach(button => {
         button.addEventListener('click', function() {
             const dataCode = this.dataset.code;
-            sendCommand(dataCode, null, this); // Pass 'this' as triggerElement
+            // No params needed for global instant run
+            sendCommand(dataCode, null, this); 
         });
     });
 
@@ -90,7 +111,9 @@ document.addEventListener('DOMContentLoaded', function() {
     runButtons.forEach(button => {
         button.addEventListener('click', function() {
             const dataCode = this.dataset.code;
-            sendCommand(dataCode, null, this); // Pass 'this' as triggerElement
+            // The run button no longer sends parameters. It just triggers the run.
+            // The parameters are set when the toggle is activated.
+            sendCommand(dataCode, null, this); 
 
             // Visual feedback: change color for a short period
             this.classList.add('active-feedback');

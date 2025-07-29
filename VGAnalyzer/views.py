@@ -20,6 +20,7 @@ if project_root not in sys.path:
 def mainPage(request):
     return render(request, 'mainPage.html')
 
+
 @csrf_exempt
 def getCryptoData(request):
     crypto_data = systems.vgsy.getStatGeckoPrice()
@@ -34,12 +35,14 @@ def getNewsData(request, title="SnOutsite"):
 #           -------------------------***API Navigation***------------------------
 
 #    ------ EX LINK: http://127.0.0.1:8000/api/finance/?key=admin
+
+
 def api_nav(request, id):
     print(f"this is the request:{request} and id:{id}")
     key = request.GET.get('key', 'admin')
 
     if key == 'admin':
-        if id in ['crypto', 'economy','finance', 'investing', 'markets', 'science', 'tecnology', 'news']:
+        if id in ['crypto', 'economy', 'finance', 'investing', 'markets', 'science', 'tecnology', 'news']:
             if id == 'crypto':
                 return getCryptoData(request)
             elif id == 'economy':
@@ -60,14 +63,14 @@ def api_nav(request, id):
         return JsonResponse('bad request', safe=False)
 #           -------------------------***Admin Panel***------------------------
 
+
 def showOpiniononTmp(request, id):
     lastOp = navigation.nav.lastOP('PriceOp')
     if id == '.html':
-        return render( request, f'{lastOp}.html')
+        return render(request, f'{lastOp}.html')
     else:
         pass
         # sending the .md file to the user
-        
 
 
 def getOpinion(request):
@@ -86,7 +89,8 @@ def control_view(request):
         try:
             data = json.loads(request.body)
             code = data.get('code')
-            status = data.get('status')  # 'on' or 'off' (for toggles)
+            status = data.get('status')
+            params = data.get('params')
             response_message = f"Command for code {code} processed."
 
             # Global Toggle (Snail)
@@ -105,99 +109,105 @@ def control_view(request):
             # --- API Toggles ---
             elif code == '201':  # GeckoCoin Toggle
                 if status == 'on':
-                    snail.snail.activate('gecko')
+                    snail.snail.activate('gecko', params)
                 elif status == 'off':
                     snail.snail.deactivate('gecko')
 
             # --- Scraper Toggles ---
             elif code == '301':  # Bloomberg Toggle
                 if status == 'on':
-                    snail.snail.activate('bloomberg')
+                    snail.snail.activate('bloomberg', params)
                 elif status == 'off':
                     snail.snail.deactivate('bloomberg')
 
             elif code == '302':  # Bonbast Toggle
                 if status == 'on':
-                    snail.snail.activate('bonbast')
+                    snail.snail.activate('bonbast', params)
                 elif status == 'off':
                     snail.snail.deactivate('bonbast')
 
             elif code == '303':  # DNSD Toggle
                 if status == 'on':
-                    snail.snail.activate('dnsd')
+                    snail.snail.activate('dnsd', params)
                 elif status == 'off':
                     snail.snail.deactivate('dnsd')
 
             elif code == '304':  # ESDN Toggle
                 if status == 'on':
-                    snail.snail.activate('esdn')
+                    snail.snail.activate('esdn', params)
                 elif status == 'off':
                     snail.snail.deactivate('esdn')
 
             elif code == '305':  # NYTimes Toggle
                 if status == 'on':
-                    snail.snail.activate('nytimes')
+                    snail.snail.activate('nytimes', params)
                 elif status == 'off':
                     snail.snail.deactivate('nytimes')
 
             elif code == '306':  # Yahoo Toggle
                 if status == 'on':
-                    snail.snail.activate('yahoo')
+                    snail.snail.activate('yahoo', params)
                 elif status == 'off':
                     snail.snail.deactivate('yahoo')
             # --- Analyze Toggles ---
             elif code == '501':  # Analyze Toggle
                 if status == "on":
-                    snail.snail.analyze_active = True
-                    print("analyze activated")
+                    snail.snail.activate('analyze', params)
                 elif status == "off":
-                    snail.snail.analyze_active = False
-                    print("analyze deactivated")
+                    snail.snail.deactivate('analyze')
             elif code == '502':  # Gemini AI Toggle
                 if status == 'on':
-                    print("gemeni activated")
+                    snail.snail.activate('gemini', params)
                     analyze.az.gemeni_active = True
+                    print("gemeni activated")
                 elif status == 'off':
-                    print("gemeni deactivated")
+                    snail.snail.deactivate('gemini')
                     analyze.az.gemeni_active = False
+                    print("gemeni deactivated")
 
             elif code == '503':  # Local AI Toggle
                 if status == 'on':
-                    print("local-ai activated")
+                    snail.snail.activate('localAi', params)
                     analyze.az.localai_active = True
+                    print("local-ai activated")
                 elif status == 'off':
-                    print("local-ai deactivated")
+                    snail.snail.deactivate('localAi')
                     analyze.az.localai_active = False
+                    print("local-ai deactivated")
+            elif code == '504':  # Price Analyze Toggle
+                if status == 'on':
+                    snail.snail.activate('priceAnalyze', params)
+                    analyze.az.priceAnalyzeActive = True
+                    print("price Analyze Activated")
+                elif status == 'off':
+                    snail.snail.deactivate('priceAnalyze')
+                    analyze.az.priceAnalyzeActive = False
+                    print("price Analyze deactivated")
 
-            # --- Individual Run Buttons (No more checks for 'enabled' status here) ---
-            elif code == '201-run':  # GeckoCoin Run
+            # --- Individual Run Buttons (Now they just trigger the run) ---
+            elif code == '201-run':
                 snail.snail.instantrun('gecko')
-
-            elif code == '301-run':  # Bloomberg Run
+            elif code == '301-run':
                 snail.snail.instantrun('bloomberg')
-
-            elif code == '302-run':  # Bonbast Run
+            elif code == '302-run':
                 snail.snail.instantrun('bonbast')
-
-            elif code == '303-run':  # DNSD Run
+            elif code == '303-run':
                 snail.snail.instantrun('dnsd')
-
-            elif code == '304-run':  # ESDN Run
+            elif code == '304-run':
                 snail.snail.instantrun('esdn')
-
-            elif code == '305-run':  # NYTimes Run
+            elif code == '305-run':
                 snail.snail.instantrun('nytimes')
-
-            elif code == '306-run':  # Yahoo Run
+            elif code == '306-run':
                 snail.snail.instantrun('yahoo')
-
-            elif code == '501-run':  # Analyze Run
-                print('running analyze')
+            elif code == '501-run':
                 snail.snail.instantrun('analyze')
-            elif code == '502-run':  # Gemini AI Run
+            elif code == '502-run':
                 analyze.az.manage("external")
-            elif code == '503-run':  # Local AI Run
+            elif code == '503-run':
                 analyze.az.manage("local")
+            elif code == '504-run':
+                analyze.az.priceAnalyze(True)
+
             else:
                 return JsonResponse({'status': 'error', 'message': f"Unknown command code: {code}"}, status=400)
 

@@ -19,6 +19,8 @@ OutPutPath = os.path.join(project_root, 'services',
 
 class Analyze():
     def __init__(self):
+        self.priceAnalyzeActive = False
+        self.priceAnalyze_inprocess = False
         self.gemeni_inprocess = False
         self.localai_inprocess = False
         self.gemeni_active = False
@@ -253,51 +255,55 @@ class Analyze():
         self.gemeni_inprocess = False
         return True
 
-    def priceAnalyze(self):
-        data = []
-        geckoData = gecko.read("FullTimeCrypto")["CryptoData"]
-        bonbastData = bonbast.load("FullTimeCurrency.json")["PriceData"]
+    def priceAnalyze(self, target=False):
+        if self.priceAnalyzeActive or target:
+            if not self.priceAnalyze_inprocess:
+                self.priceAnalyze_inprocess = True
+                data = []
+                geckoData = gecko.read("FullTimeCrypto")["CryptoData"]
+                bonbastData = bonbast.load("FullTimeCurrency.json")["PriceData"]
 
-        cryptoLast = geckoData[-1]
-        bonbastLast = geckoData[-1]
+                cryptoLast = geckoData[-1]
+                bonbastLast = geckoData[-1]
 
-        cryptoLastTime = datetime.strptime(
-            geckoData[-1]["time"], "%Y-%m-%d %H:%M:%S")
-        bonbastLastTime = datetime.strptime(
-            geckoData[-1]["time"], "%Y-%m-%d %H:%M:%S")
-        target_duration = timedelta(weeks=1)
+                cryptoLastTime = datetime.strptime(
+                    geckoData[-1]["time"], "%Y-%m-%d %H:%M:%S")
+                bonbastLastTime = datetime.strptime(
+                    geckoData[-1]["time"], "%Y-%m-%d %H:%M:%S")
+                target_duration = timedelta(weeks=1)
 
-        cryptoPast = min(
-            geckoData[:-1],
-            key=lambda item: abs(
-                (cryptoLastTime -
-                 datetime.strptime(item["time"], "%Y-%m-%d %H:%M:%S"))
-                - target_duration
-            ),
-        )
-        bonbastPast = min(
-            bonbastData[:-1],
-            key=lambda item: abs(
-                (bonbastLastTime -
-                 datetime.strptime(item["time"], "%Y-%m-%d %H:%M:%S"))
-                - target_duration
-            ),
-        )
+                cryptoPast = min(
+                    geckoData[:-1],
+                    key=lambda item: abs(
+                        (cryptoLastTime -
+                        datetime.strptime(item["time"], "%Y-%m-%d %H:%M:%S"))
+                        - target_duration
+                    ),
+                )
+                bonbastPast = min(
+                    bonbastData[:-1],
+                    key=lambda item: abs(
+                        (bonbastLastTime -
+                        datetime.strptime(item["time"], "%Y-%m-%d %H:%M:%S"))
+                        - target_duration
+                    ),
+                )
 
-        data.append(cryptoPast)
-        data.append(bonbastPast)
-        data.append(cryptoLast)
-        data.append(bonbastLast)
+                data.append(cryptoPast)
+                data.append(bonbastPast)
+                data.append(cryptoLast)
+                data.append(bonbastLast)
 
-        GeminiResponse = gemeni.priceDetermine(data)
-        if GeminiResponse and GeminiResponse.candidates:
-            try:
-                date = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
-                mdText = GeminiResponse.text
-                prcmarkdown.priceOp(mdText, date)
-                navigation.nav.saveOpinion("PriceOp", date, mdText)
-            except Exception as e:
-                print(f"Failed to extract and save opinion: {e}")
+                GeminiResponse = gemeni.priceDetermine(data)
+                if GeminiResponse and GeminiResponse.candidates:
+                    try:
+                        date = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+                        mdText = GeminiResponse.text
+                        prcmarkdown.priceOp(mdText, date)
+                        navigation.nav.saveOpinion("PriceOp", date, mdText)
+                    except Exception as e:
+                        print(f"Failed to extract and save opinion: {e}")
+                self.priceAnalyze_inprocess = False
 
 
 az = Analyze()
