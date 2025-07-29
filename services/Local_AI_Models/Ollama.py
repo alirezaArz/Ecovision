@@ -10,16 +10,22 @@ def answer(data):
         odel = json.load(file)["model"]
 
     try:
-        response = ollama.chat(model=odel, messages=[{
-
-            'role': 'user', 
-            
-            'content': f"analyze this{data}",
-            "category": "news",
-            "importance": "medium",
-            "date": "2025-07-05T02:15:08.852514"
-        }
-            ])
+        response = ollama.chat(model=odel, messages=[
+    {
+        'role': 'system',
+        'content': (
+            "You are a financial analysis expert. When given data, you will analyze it and respond in the following format:\n"
+            '{ "0": { "title": "TITLE_HERE", "summary": "SUMMARY_HERE", '
+            '"category": "CATEGORY_HERE", "importance": "IMPORTANCE_HERE" } }\n'
+            "Allowed categories: [Economy, Finance, Markets, Investing, Technology, Science]\n"
+            "Allowed importance levels: [low, medium, high]"
+        )
+    },
+    {
+        'role': 'user',
+        'content': f"This is the data that you are given: {data}"
+    }
+])
         response = response.message.content
         return(response)
     except Exception as e:
