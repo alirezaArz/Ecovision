@@ -43,11 +43,13 @@ class Analyze():
         else:
             print("analyze: manager has been started without any specific AI target")
         for item in self.status:
-            itemId = self.status.index(item)
+            itemId = self.status["id"]
             if item["status"] == "in Queue" or item["status"] == "failed":
                 raw_list = self.loadQueue()["Data"]
                 if raw_list:
-                    data = raw_list[itemId]
+                    for item in raw_list:
+                        if item["id"] == itemId:
+                            data = item
                     if data:
                         if (self.gemeni_active and target == "none") or target == "external":
                             while self.gemeni_inprocess:
@@ -95,7 +97,7 @@ class Analyze():
                 if item["id"] in self.localPending:
                     print(f"found an item with id of: {item["id"]}")
                     print(item["response"])
-                    self.clearcache(item["id"])
+                    #self.clearcache(item["id"])
 
     def clearcache(self, id):
         for item in self.status:
@@ -161,7 +163,7 @@ class Analyze():
     def sendtoQueue(self, data, name, modifiedDate):
         new_id = random.randint(0, 10000)
         while new_id in self.memoId:
-            new_id = random.randint(0, 5000)
+            new_id = random.randint(0, 50000)
         self.memoId.append(new_id)
         try:
             last_data = self.loadQueue()

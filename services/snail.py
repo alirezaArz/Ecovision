@@ -47,7 +47,9 @@ class Snail():
         }
 
     def activate(self, name):
-        if name == 'bonbast' and name not in self.durationsBackup:
+        if name == 'gecko' and name not in self.durationsBackup:
+            self.durationsBackup['gecko'] = 3000
+        elif name == 'bonbast' and name not in self.durationsBackup:
             self.durationsBackup['bonbast'] = 3000
         elif name == 'dnsd' and name not in self.durationsBackup:
             self.durationsBackup['dnsd'] = 3600
@@ -55,8 +57,6 @@ class Snail():
             self.durationsBackup['nytimes'] = 3600
         elif name == 'yahoo' and name not in self.durationsBackup:
             self.durationsBackup['yahoo'] = 3600
-        elif name == 'gecko' and name not in self.durationsBackup:
-            self.durationsBackup['gecko'] = 3000
         elif name == 'esdn' and name not in self.durationsBackup:
             self.durationsBackup['esdn'] = 3600
         elif name == 'bloomberg' and name not in self.durationsBackup:
@@ -65,7 +65,9 @@ class Snail():
         print(f"{name} has been added to active services")
 
     def deactivate(self, name):
-        if name == 'bonbast' and name in self.durationsBackup:
+        if name == 'gecko' and name in self.durationsBackup:
+            del self.durationsBackup['gecko']
+        elif name == 'bonbast' and name in self.durationsBackup:
             del self.durationsBackup['bonbast']
         elif name == 'dnsd' and name in self.durationsBackup:
             del self.durationsBackup['dnsd']
@@ -73,8 +75,6 @@ class Snail():
             del self.durationsBackup['nytimes']
         elif name == 'yahoo' and name in self.durationsBackup:
             del self.durationsBackup['yahoo']
-        elif name == 'gecko' and name in self.durationsBackup:
-            del self.durationsBackup['gecko']
         elif name == 'esdn' and name in self.durationsBackup:
             del self.durationsBackup['esdn']
         elif name == 'bloomberg' and name in self.durationsBackup:
@@ -85,6 +85,17 @@ class Snail():
     def instantrun(self, name='all'):
         self.spinner.start()
         if name == 'all':
+            if not self.gecko_inprocess:
+                try:
+                    print("starting gecko")
+                    self.gecko_inprocess = True
+                    gecko.price({'bitcoin', 'ethereum', 'Cardano',
+                                'tether', 'Solana', 'dogecoin'}, {'usd'})
+                    self.gecko_inprocess = False
+                except:
+                    print("gecko failed")
+                    self.gecko_inprocess = False
+
             if not self.bonbast_inprocess:
                 try:
                     self.bonbast_inprocess = True
@@ -124,16 +135,7 @@ class Snail():
                 except:
                     print("yahoo failed")
                     self.yahoo_inprocess = False
-            if not self.gecko_inprocess:
-                try:
-                    print("starting gecko")
-                    self.gecko_inprocess = True
-                    gecko.price({'bitcoin', 'ethereum', 'Cardano',
-                                'tether', 'Solana', 'dogecoin'}, {'usd'})
-                    self.gecko_inprocess = False
-                except:
-                    print("gecko failed")
-                    self.gecko_inprocess = False
+                    
             if not self.esdn_inprocess:
                 try:
                     self.esdn_inprocess = True
@@ -153,6 +155,17 @@ class Snail():
                 except:
                     print("bloomberg failed")
                     self.bloomberg_inprocess = False
+        if name == 'gecko':
+            if not self.gecko_inprocess:
+                try:
+                    print("starting gecko")
+                    self.gecko_inprocess = True
+                    gecko.price({'bitcoin', 'ethereum', 'Cardano',
+                                'tether', 'Solana', 'dogecoin'}, {'usd'})
+                    self.gecko_inprocess = False
+                except:
+                    print("gecko failed")
+                    self.gecko_inprocess = False
 
         if name == 'bonbast':
             if not self.bonbast_inprocess:
@@ -196,17 +209,6 @@ class Snail():
                 except:
                     print("yahoo failed")
                     self.yahoo_inprocess = False
-        if name == 'gecko':
-            if not self.gecko_inprocess:
-                try:
-                    print("starting gecko")
-                    self.gecko_inprocess = True
-                    gecko.price({'bitcoin', 'ethereum', 'Cardano',
-                                'tether', 'Solana', 'dogecoin'}, {'usd'})
-                    self.gecko_inprocess = False
-                except:
-                    print("gecko failed")
-                    self.gecko_inprocess = False
         if name == 'esdn':
             if not self.esdn_inprocess:
                 try:
@@ -272,7 +274,10 @@ class Snail():
                     for item in self.durations:  
                         self.durations[item] -= self.CurrentWaitTime
                         if self.durations[item] == 0:
-                            if item == "bonbast":
+                            if item == "gecko":
+                                gecko.price(
+                                    {'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
+                            elif item == "bonbast":
                                 bonbast.main()
                             elif item == "dnsd":
                                 dnsd.main()
@@ -280,9 +285,6 @@ class Snail():
                                 nytimes.main()
                             elif item == "yahoo":
                                 yahoo.main()
-                            elif item == "gecko":
-                                gecko.price(
-                                    {'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
                             elif item == "esdn":
                                 esdn.main()
                             elif item == "bloomberg":
