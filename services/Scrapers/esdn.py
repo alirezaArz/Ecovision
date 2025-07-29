@@ -88,7 +88,7 @@ def search(inp_arg):
 
 
 def save(new_data):
-    analyze.az.sendtoQueue(new_data, "nyTimes", new_data["date"])
+    analyze.az.sendtoQueue(new_data, "esdn", new_data["date"])
     last_data = load()
     if new_data:
         last_data["Data"].append(new_data)

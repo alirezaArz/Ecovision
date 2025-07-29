@@ -54,6 +54,8 @@ class Core():
             print(f"{name}.json is not where it sould be at {OutPutPath}")
     
     def saveOutput(self, data, Id, name='news'):
+        
+        print("insight: saving the result")
         last_data = self.readOutput()
         new_data = {
             "id":Id,
