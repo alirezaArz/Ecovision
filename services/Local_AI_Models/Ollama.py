@@ -11,34 +11,51 @@ with open(mode="r", file=DATA_PATH) as file:
 def answer(data):
 
 
+    if odel == "mistral:7b-instruct-q4_K_M":
 
-    try:
-        response = ollama.chat(model=odel, messages=[
-    {
-        'role': 'system',
-        'content': (
-            "You are a financial analysis expert. When given data, you will analyze it and respond in the following format:\n"
-            '{ "0": { "title": "TITLE_HERE", "summary": "SUMMARY_HERE", '
-            '"category": "CATEGORY_HERE", "importance": "IMPORTANCE_HERE" } }\n'
-            "Allowed categories: [Economy, Finance, Markets, Investing, Technology, Science]\n"
-            "Allowed importance levels: [low, medium, high]"
-        )
-    },
-    {
-        'role': 'user',
-        'content': f"This is the data that you are given: {data}"
-    }
-])
+
+        try:
+            response = ollama.chat(model=odel, messages=[
+        {
+            'role': 'system',
+            'content': (
+                "You are a financial analysis expert. When given data, you will analyze it and respond in the following format:\n"
+                '{ "0": { "title": "TITLE_HERE", "summary": "SUMMARY_HERE", '
+                '"category": "CATEGORY_HERE", "importance": "IMPORTANCE_HERE" } }\n'
+                "Allowed categories: [Economy, Finance, Markets, Investing, Technology, Science]\n"
+                "Allowed importance levels: [low, medium, high]"
+            )
+        },
+        {
+            'role': 'user',
+            'content': f"This is the data that you are given: {data}"
+        }
+    ])
+            response = response.message.content
+            response = response.replace("\n", " ")
+            response = response.replace('\"', '"')
+        except Exception as e:
+            print(f"couldn't get accessed to the local-ai, check ollama and try again: {e}")
+    
+    else:
+        try:
+            response = ollama.chat(model=odel, messages=[{
+
+                'role': 'user', 
+
+                'content': f"analyze this{data}",
+                "category": "news",
+                "importance": "medium",
+                "date": "2025-07-05T02:15:08.852514"
+            }
+                ])
+            response = response.message.content
+        except Exception as e:
+            print(f"couldn't get accessed to the local-ai, check ollama and try again: {e}")
+
+
+    return(response)
         
-
-        response = response.message.content
-        response = response.replace("\n", " ")
-        response = response.replace('\"', '"')
-        
-
-        return(response)
-    except Exception as e:
-        print(f"couldn't get accessed to the local-ai, check ollama and try again: {e}")
 
 
 
