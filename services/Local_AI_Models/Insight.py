@@ -97,9 +97,15 @@ class Core():
                 if analyzed_result:
                     self.saveOutput(analyzed_result, input_dataId)
                     self.clearInput()
+                    self.inputData = self.checkInput()["Data"]
+                    self.itemCount = len(self.inputData)
+                    if self.itemCount == 0:
+                        print('all datas have been analyzed successfully!')
+                
                 time.sleep(7)
                 
             else:
+                
                 time.sleep(7)
                 self.deniedloops += 1
                 if self.firstloop and self.deniedloops >= 12:

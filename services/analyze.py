@@ -2,6 +2,8 @@ import json
 import os
 import random
 import time
+import re
+from services import systems as system
 from datetime import datetime, timedelta, timezone
 from services.External_AI_Models import extract as extract
 from services import navigation as navigation
@@ -10,6 +12,7 @@ from services.APIs import gecko as gecko
 from services.Data.markdowns import MkPriceOp as prcmarkdown
 from services.Scrapers import bonbast as bonbast
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+Navpath = os.path.join(project_root, 'services', 'Data', 'Navigations')
 QueuePath = os.path.join(project_root, 'services', 'Data', 'analyze')
 InputPath = os.path.join(project_root, 'services',
                          'Local_AI_Models', 'InputData')
@@ -24,7 +27,7 @@ class Analyze():
         self.gemeni_inprocess = False
         self.localai_inprocess = False
         self.gemeni_active = False
-        self.localai_active = True
+        self.localai_active = False
         self.privateLoopWating = False
         self.snailActive = False
         self.waitingForLocal = False
@@ -45,13 +48,16 @@ class Analyze():
         else:
             print("analyze: manager has been started without any specific AI target")
         for item in self.status:
-            itemId = self.status["id"]
+            itemId = item["id"]
             if item["status"] == "in Queue" or item["status"] == "failed":
                 raw_list = self.loadQueue()["Data"]
                 if raw_list:
-                    for item in raw_list:
-                        if item["id"] == itemId:
-                            data = item
+                    for element in raw_list:
+                        if element["id"] == itemId:
+                            data = element
+                        else:
+                            print(f"item with id of {item["id"]} doesn't have any property or data in queue.json")
+                            data = None
                     if data:
                         if (self.gemeni_active and target == "none") or target == "external":
                             while self.gemeni_inprocess:
@@ -61,7 +67,6 @@ class Analyze():
                             item["status"] = "pending"
                             item["external model"] = "pending"
                             tryExternal = self.geminiAnalyze(data)
-                            print(f" try external = {tryExternal}")
                             if tryExternal:
                                 item["status"] = "done"
                                 item["external model"] = "verified"
@@ -83,7 +88,8 @@ class Analyze():
                         elif (self.localai_active and target == "none") or target == "local":
                             item["status"] = "pending"
                             item["local model"] = "pending"
-                            self.localPending.append(item["id"])
+                            if item["id"] not in self.localPending:
+                                self.localPending.append(item["id"])
                             self.saveStatus(self.status)
                             self.addtoLocal(data)
 
@@ -98,8 +104,23 @@ class Analyze():
             for item in last_data["Data"]:
                 if item["id"] in self.localPending:
                     print(f"found an item with id of: {item["id"]}")
-                    print(item["response"])
-                    #self.clearcache(item["id"])
+                    new_list = []
+                    new_result = json.loads(item["response"])
+                    
+                    for it in new_result:
+                        if it != 'id':
+                            new_list.append(new_result[it])
+                    lastResult = system.vgsy.Navread("LastAnalyze")
+                    lastResult["newsData"][:] = new_list
+                    with open(os.path.join(Navpath, "LastAnalyze.json"), 'w', encoding='utf-8') as file:
+                        json.dump(lastResult, file, indent=4, ensure_ascii=False)
+            
+                    navigation.nav.separate()
+                    self.clearcache(item["id"])
+                else:
+                    print(f"there is an item with id of {item["id"]} that doesnt have any parrent in status local pendings")
+                    self.clearOutput(item["id"])
+                    
 
     def clearcache(self, id):
         for item in self.status:
@@ -114,8 +135,8 @@ class Analyze():
         print(f" item {id} has been removed from Queue.json")
 
         # ------------------ this part has been commented out to test the output data of local analyze
-        # self.clearOutput(id)
-        # print(f" item {id} has been removed from outputData -> news.json")
+        self.clearOutput(id)
+        print(f" item {id} has been removed from outputData -> news.json")
 
         self.waitingForLocal = False
         self.privateLoopWating = False
@@ -227,9 +248,10 @@ class Analyze():
             self.waitingForLocal = True
             print("Snail: checking the local output")
         else:
+            print(f"item with id of ({data["id"]}) has been sent to Local AI")
             self.privateLoopWating = True
             self.createPrivateLoop()
-        print(f"item with id of ({data["id"]}) has been sent to Local AI")
+        
 
     # /home/alireza/PYTHON/VGAnalyzer/services/Local_AI_Models/InputData/news.json
 
@@ -248,6 +270,10 @@ class Analyze():
             self.result = gemeni.analyze(data)
             if self.result != None:
                 extract.ex.geminiMx1(self.result)
+            else:
+                print(f"analyze failed canceled saving")
+                self.gemeni_inprocess = False
+                return False
         except Exception as e:
             print(f"analyze failed canceled saving: {e}")
             self.gemeni_inprocess = False
@@ -304,6 +330,6 @@ class Analyze():
                     except Exception as e:
                         print(f"Failed to extract and save opinion: {e}")
                 self.priceAnalyze_inprocess = False
-
+    
 
 az = Analyze()

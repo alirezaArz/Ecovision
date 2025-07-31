@@ -611,6 +611,207 @@
             "image": "images/finance/im1.jpg",
             "importance": "High",
             "date": "2025-07-27T01:17:07.742417"
+        },
+        {
+            "id": "0",
+            "title": "Powell’s Hawkish Tilt Sets Up Greater Tension With White House",
+            "summary": "Powell's stance creates potential friction between the Federal Reserve and the White House.",
+            "category": "Finance",
+            "image": "images/finance/im5.jpg",
+            "importance": "High",
+            "date": "2025-07-31T11:16:27.937835"
+        },
+        {
+            "id": "3",
+            "title": "Ferrari Earnings Rise as Luxury-Car Maker Shrugs Off Tariffs",
+            "summary": "Ferrari demonstrates resilience to tariffs with increased earnings.",
+            "category": "Finance",
+            "image": "images/finance/im7.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:16:27.937835"
+        },
+        {
+            "id": "4",
+            "title": "Dollar Wraps Up Best Month of Trump’s Term as Economy Holds Up",
+            "summary": "Dollar's performance indicates stability within the economy during Trump's presidency.",
+            "category": "Finance",
+            "image": "images/finance/im7.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:16:27.937835"
+        },
+        {
+            "id": "5",
+            "title": "Powell’s Message Raises the Stakes for Jobs Report",
+            "summary": "Powell's communication intensifies the significance of the upcoming jobs report.",
+            "category": "Finance",
+            "image": "images/finance/im10.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:16:27.937835"
+        },
+        {
+            "id": "10",
+            "title": "US Bond Traders Eye Inflation for Steer on September Rate Cut",
+            "summary": "US bond traders monitor inflation data to anticipate potential rate cuts in September.",
+            "category": "Finance",
+            "image": "images/finance/im13.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:16:27.937835"
+        },
+        {
+            "id": "0",
+            "title": "Powell’s Hawkish Tilt Sets Up Greater Tension With White House",
+            "summary": "Federal Reserve Chairman Jerome Powell's hawkish stance on monetary policy is likely to increase friction with the White House.",
+            "category": "Finance",
+            "image": "images/finance/im12.jpg",
+            "importance": "High",
+            "date": "2025-07-31T11:17:07.566724"
+        },
+        {
+            "id": "3",
+            "title": "Ferrari Earnings Rise as Luxury-Car Maker Shrugs Off Tariffs",
+            "summary": "Ferrari's earnings increase despite tariffs, demonstrating the luxury car maker's resilience.",
+            "category": "Finance",
+            "image": "images/finance/im14.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:17:07.566724"
+        },
+        {
+            "id": "4",
+            "title": "Dollar Wraps Up Best Month of Trump’s Term as Economy Holds Up",
+            "summary": "The US dollar performs strongly, marking its best month during Trump's presidency, as the economy remains stable.",
+            "category": "Finance",
+            "image": "images/finance/im3.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:17:07.566724"
+        },
+        {
+            "id": "5",
+            "title": "Powell’s Message Raises the Stakes for Jobs Report",
+            "summary": "Jerome Powell's recent communication increases the importance of the upcoming jobs report.",
+            "category": "Finance",
+            "image": "images/finance/im11.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:17:07.566724"
+        },
+        {
+            "id": "3",
+            "title": "Ferrari Earnings Rise as Luxury-Car Maker Shrugs Off Tariffs",
+            "summary": "Ferrari profits despite tariffs.",
+            "category": "Finance",
+            "image": "images/finance/im8.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:18:01.838000"
+        },
+        {
+            "id": "4",
+            "title": "Dollar Wraps Up Best Month of Trump’s Term as Economy Holds Up",
+            "summary": "Dollar strengthens amid stable economy.",
+            "category": "Finance",
+            "image": "images/finance/im7.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:18:01.838000"
+        },
+        {
+            "id": "10",
+            "title": "US Bond Traders Eye Inflation for Steer on September Rate Cut",
+            "summary": "Bond traders monitor inflation for rate cut clues.",
+            "category": "Finance",
+            "image": "images/finance/im13.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:18:01.838000"
+        },
+        {
+            "id": "12",
+            "title": "Bangladesh Holds Key Rate Steady Amid Tariff Uncertainty",
+            "summary": "Bangladesh keeps interest rates stable.",
+            "category": "Finance",
+            "image": "images/finance/im9.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:18:01.838000"
+        },
+        {
+            "id": "3",
+            "title": "Ferrari Earnings Rise as Luxury-Car Maker Shrugs Off Tariffs",
+            "summary": "Ferrari's earnings increase despite tariffs, demonstrating the brand's resilience.",
+            "category": "Finance",
+            "image": "images/finance/im13.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:18:08.184659"
+        },
+        {
+            "id": "4",
+            "title": "Dollar Wraps Up Best Month of Trump’s Term as Economy Holds Up",
+            "summary": "The US dollar performs strongly, recording its best month during Trump's presidency due to the stable economy.",
+            "category": "Finance",
+            "image": "images/finance/im10.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:18:08.184659"
+        },
+        {
+            "id": "12",
+            "title": "Bangladesh Holds Key Rate Steady Amid Tariff Uncertainty",
+            "summary": "Bangladesh maintains its key interest rate due to uncertainty surrounding tariffs.",
+            "category": "Finance",
+            "image": "images/finance/im7.jpg",
+            "importance": "Low",
+            "date": "2025-07-31T11:18:08.184659"
+        },
+        {
+            "id": "0",
+            "title": "Powell’s Hawkish Tilt Sets Up Greater Tension With White House",
+            "summary": "Powell's stance creates potential conflict with the White House.",
+            "category": "Finance",
+            "image": "images/finance/im7.jpg",
+            "importance": "High",
+            "date": "2025-07-31T11:18:57.236597"
+        },
+        {
+            "id": "3",
+            "title": "Ferrari Earnings Rise as Luxury-Car Maker Shrugs Off Tariffs",
+            "summary": "Ferrari's earnings increase despite tariffs.",
+            "category": "Finance",
+            "image": "images/finance/im8.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:18:57.236597"
+        },
+        {
+            "id": "4",
+            "title": "Dollar Wraps Up Best Month of Trump’s Term as Economy Holds Up",
+            "summary": "The dollar performs strongly as the economy remains stable.",
+            "category": "Finance",
+            "image": "images/finance/im13.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:18:57.236597"
+        },
+        {
+            "id": "5",
+            "title": "Powell’s Message Raises the Stakes for Jobs Report",
+            "summary": "Powell's communication increases the importance of the upcoming jobs report.",
+            "category": "Finance",
+            "image": "images/finance/im11.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:18:57.236597"
+        },
+        {
+            "id": "10",
+            "title": "US Bond Traders Eye Inflation for Steer on September Rate Cut",
+            "summary": "US bond traders are monitoring inflation for indications on a potential rate cut in September.",
+            "category": "Finance",
+            "image": "images/finance/im2.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:18:57.236597"
+        },
+        {
+            "title": "Trump Spars With Powell Over Fed’s Costly Renovations in Rare Visit",
+            "summary": "The administration has repeatedly criticized Jerome H. Powell, the chair of the central bank, for his handling of the economy and the cost of work on the institution’s headquarters.",
+            "category": "Finance",
+            "importance": "MEDIUM"
+        },
+        {
+            "title": "Trump Spars With Powell Over Fed’s Costly Renovations in Rare Visit",
+            "summary": "The administration has repeatedly criticized Jerome H. Powell, the chair of the central bank, for his handling of the economy and the cost of work on the institution’s headquarters.",
+            "category": "Finance",
+            "importance": "MEDIUM"
         }
     ]
 }

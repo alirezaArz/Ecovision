@@ -1034,6 +1034,315 @@
             "image": "images/economy/im25.jpg",
             "importance": "Medium",
             "date": "2025-07-27T01:17:07.742417"
+        },
+        {
+            "id": "1",
+            "title": "Trump Tariff Deadline Eve Arrives as Surprises Abound",
+            "summary": "Impending tariff deadline under Trump administration brings uncertainty.",
+            "category": "Economy",
+            "image": "images/economy/im11.jpg",
+            "importance": "High",
+            "date": "2025-07-31T11:16:27.937835"
+        },
+        {
+            "id": "2",
+            "title": "Crunch Time for World Leaders Over Trade on Eve of Trump Deadline",
+            "summary": "World leaders face critical decisions regarding trade before Trump's tariff deadline.",
+            "category": "Economy",
+            "image": "images/economy/im25.jpg",
+            "importance": "High",
+            "date": "2025-07-31T11:16:27.937835"
+        },
+        {
+            "id": "9",
+            "title": "South Africa Urged to Sweeten US Trade Deal Before Tariff Deadline",
+            "summary": "South Africa is encouraged to improve its trade agreement with the US to avoid tariffs.",
+            "category": "Economy",
+            "image": "images/economy/im2.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:16:27.937835"
+        },
+        {
+            "id": "11",
+            "title": "Kenya Inflation Quickens to Three-Month High as Food Prices Jump",
+            "summary": "Inflation in Kenya rises, driven by increasing food prices.",
+            "category": "Economy",
+            "image": "images/economy/im18.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:16:27.937835"
+        },
+        {
+            "id": "12",
+            "title": "Bangladesh Holds Key Rate Steady Amid Tariff Uncertainty",
+            "summary": "Bangladesh maintains its key interest rate due to uncertainties surrounding tariffs.",
+            "category": "Economy",
+            "image": "images/economy/im2.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:16:27.937835"
+        },
+        {
+            "id": "13",
+            "title": "Espionage Cost Australia $8 Billion in Fiscal ‘24, Spy Boss Says",
+            "summary": "Espionage resulted in significant economic losses for Australia.",
+            "category": "Economy",
+            "image": "images/economy/im6.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:16:27.937835"
+        },
+        {
+            "id": "14",
+            "title": "Toyota Suppliers Look to Pass on Tariff Costs With Price Hikes",
+            "summary": "Toyota's suppliers plan to increase prices to offset tariff expenses.",
+            "category": "Economy",
+            "image": "images/economy/im3.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:16:27.937835"
+        },
+        {
+            "id": "15",
+            "title": "Tata Steel to Explore New Markets as Tariffs Hit US Shipments",
+            "summary": "Tata Steel seeks new markets due to the impact of tariffs on US shipments.",
+            "category": "Economy",
+            "image": "images/economy/im23.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:16:27.937835"
+        },
+        {
+            "id": "1",
+            "title": "Trump Tariff Deadline Eve Arrives as Surprises Abound",
+            "summary": "Uncertainty surrounds the Trump administration's tariff deadline, with potential for unexpected developments.",
+            "category": "Economy",
+            "image": "images/economy/im3.jpg",
+            "importance": "High",
+            "date": "2025-07-31T11:17:07.566724"
+        },
+        {
+            "id": "2",
+            "title": "Crunch Time for World Leaders Over Trade on Eve of Trump Deadline",
+            "summary": "World leaders face a critical period regarding trade negotiations ahead of the Trump administration's tariff deadline.",
+            "category": "Economy",
+            "image": "images/economy/im14.jpg",
+            "importance": "High",
+            "date": "2025-07-31T11:17:07.566724"
+        },
+        {
+            "id": "11",
+            "title": "Kenya Inflation Quickens to Three-Month High as Food Prices Jump",
+            "summary": "Kenya's inflation rate rises to a three-month high due to increased food prices.",
+            "category": "Economy",
+            "image": "images/economy/im30.jpg",
+            "importance": "Low",
+            "date": "2025-07-31T11:17:07.566724"
+        },
+        {
+            "id": "12",
+            "title": "Bangladesh Holds Key Rate Steady Amid Tariff Uncertainty",
+            "summary": "Bangladesh maintains its key interest rate due to the uncertainty surrounding tariffs.",
+            "category": "Economy",
+            "image": "images/economy/im29.jpg",
+            "importance": "Low",
+            "date": "2025-07-31T11:17:07.566724"
+        },
+        {
+            "id": "13",
+            "title": "Espionage Cost Australia $8 Billion in Fiscal ‘24, Spy Boss Says",
+            "summary": "Espionage activities are estimated to have cost Australia $8 billion in fiscal year 2024, according to intelligence officials.",
+            "category": "Economy",
+            "image": "images/economy/im6.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:17:07.566724"
+        },
+        {
+            "id": "14",
+            "title": "Toyota Suppliers Look to Pass on Tariff Costs With Price Hikes",
+            "summary": "Toyota's suppliers are considering price increases to offset the costs associated with tariffs.",
+            "category": "Economy",
+            "image": "images/economy/im21.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:17:07.566724"
+        },
+        {
+            "id": "0",
+            "title": "Powell’s Hawkish Tilt Sets Up Greater Tension With White House",
+            "summary": "Tension rises between Powell and White House.",
+            "category": "Economy",
+            "image": "images/economy/im11.jpg",
+            "importance": "High",
+            "date": "2025-07-31T11:18:01.838000"
+        },
+        {
+            "id": "1",
+            "title": "Trump Tariff Deadline Eve Arrives as Surprises Abound",
+            "summary": "Trump's tariff deadline is approaching.",
+            "category": "Economy",
+            "image": "images/economy/im9.jpg",
+            "importance": "High",
+            "date": "2025-07-31T11:18:01.838000"
+        },
+        {
+            "id": "2",
+            "title": "Crunch Time for World Leaders Over Trade on Eve of Trump Deadline",
+            "summary": "World leaders face crucial trade decisions.",
+            "category": "Economy",
+            "image": "images/economy/im15.jpg",
+            "importance": "High",
+            "date": "2025-07-31T11:18:01.838000"
+        },
+        {
+            "id": "5",
+            "title": "Powell’s Message Raises the Stakes for Jobs Report",
+            "summary": "Powell's message impacts the significance of jobs report.",
+            "category": "Economy",
+            "image": "images/economy/im20.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:18:01.838000"
+        },
+        {
+            "id": "11",
+            "title": "Kenya Inflation Quickens to Three-Month High as Food Prices Jump",
+            "summary": "Kenya inflation rises due to food prices.",
+            "category": "Economy",
+            "image": "images/economy/im12.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:18:01.838000"
+        },
+        {
+            "id": "13",
+            "title": "Espionage Cost Australia $8 Billion in Fiscal ‘24, Spy Boss Says",
+            "summary": "Espionage cost Australia $8 Billion",
+            "category": "Economy",
+            "image": "images/economy/im20.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:18:01.838000"
+        },
+        {
+            "id": "14",
+            "title": "Toyota Suppliers Look to Pass on Tariff Costs With Price Hikes",
+            "summary": "Toyota Suppliers increase price because of tariffs",
+            "category": "Economy",
+            "image": "images/economy/im27.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:18:01.838000"
+        },
+        {
+            "id": "15",
+            "title": "Tata Steel to Explore New Markets as Tariffs Hit US Shipments",
+            "summary": "Tata Steel searches for new markets due to US tariffs",
+            "category": "Economy",
+            "image": "images/economy/im9.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:18:01.838000"
+        },
+        {
+            "id": "0",
+            "title": "Powell’s Hawkish Tilt Sets Up Greater Tension With White House",
+            "summary": "The Federal Reserve Chairman's hawkish stance on monetary policy is likely to increase friction with the White House.",
+            "category": "Economy",
+            "image": "images/economy/im27.jpg",
+            "importance": "High",
+            "date": "2025-07-31T11:18:08.184659"
+        },
+        {
+            "id": "1",
+            "title": "Trump Tariff Deadline Eve Arrives as Surprises Abound",
+            "summary": "Uncertainty and potential surprises surround the impending Trump tariff deadline.",
+            "category": "Economy",
+            "image": "images/economy/im24.jpg",
+            "importance": "High",
+            "date": "2025-07-31T11:18:08.184659"
+        },
+        {
+            "id": "2",
+            "title": "Crunch Time for World Leaders Over Trade on Eve of Trump Deadline",
+            "summary": "World leaders face critical negotiations regarding trade as the Trump tariff deadline approaches.",
+            "category": "Economy",
+            "image": "images/economy/im11.jpg",
+            "importance": "High",
+            "date": "2025-07-31T11:18:08.184659"
+        },
+        {
+            "id": "5",
+            "title": "Powell’s Message Raises the Stakes for Jobs Report",
+            "summary": "Jerome Powell's recent statements have increased the significance of the upcoming jobs report.",
+            "category": "Economy",
+            "image": "images/economy/im7.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:18:08.184659"
+        },
+        {
+            "id": "11",
+            "title": "Kenya Inflation Quickens to Three-Month High as Food Prices Jump",
+            "summary": "Inflation in Kenya rises to a three-month high due to increasing food prices.",
+            "category": "Economy",
+            "image": "images/economy/im15.jpg",
+            "importance": "Low",
+            "date": "2025-07-31T11:18:08.184659"
+        },
+        {
+            "id": "14",
+            "title": "Toyota Suppliers Look to Pass on Tariff Costs With Price Hikes",
+            "summary": "Toyota's suppliers intend to offset tariff costs by raising prices.",
+            "category": "Economy",
+            "image": "images/economy/im18.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:18:08.184659"
+        },
+        {
+            "id": "1",
+            "title": "Trump Tariff Deadline Eve Arrives as Surprises Abound",
+            "summary": "Uncertainty surrounds Trump's tariff deadline.",
+            "category": "Economy",
+            "image": "images/economy/im2.jpg",
+            "importance": "High",
+            "date": "2025-07-31T11:18:57.236597"
+        },
+        {
+            "id": "2",
+            "title": "Crunch Time for World Leaders Over Trade on Eve of Trump Deadline",
+            "summary": "World leaders face a crucial period regarding trade before Trump's deadline.",
+            "category": "Economy",
+            "image": "images/economy/im8.jpg",
+            "importance": "High",
+            "date": "2025-07-31T11:18:57.236597"
+        },
+        {
+            "id": "11",
+            "title": "Kenya Inflation Quickens to Three-Month High as Food Prices Jump",
+            "summary": "Kenya experiences a rise in inflation due to increased food prices.",
+            "category": "Economy",
+            "image": "images/economy/im13.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:18:57.236597"
+        },
+        {
+            "id": "14",
+            "title": "Toyota Suppliers Look to Pass on Tariff Costs With Price Hikes",
+            "summary": "Toyota's supplier considers tariff on the price",
+            "category": "Economy",
+            "image": "images/economy/im26.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:18:57.236597"
+        },
+        {
+            "id": "15",
+            "title": "Tata Steel to Explore New Markets as Tariffs Hit US Shipments",
+            "summary": "Tata Steel seeks new markets because of US tariffs.",
+            "category": "Economy",
+            "image": "images/economy/im22.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:18:57.236597"
+        },
+        {
+            "title": "How Trump’s Attacks on the Fed Chair Have Intensified",
+            "summary": "President Trump has targeted Jerome H. Powell on more than 70 separate occasions, more than half of them since April. His statements fall into four broad categories.",
+            "category": "Economy",
+            "importance": "HIGH"
+        },
+        {
+            "title": "How Trump’s Attacks on the Fed Chair Have Intensified",
+            "summary": "President Trump has targeted Jerome H. Powell on more than 70 separate occasions, more than half of them since April. His statements fall into four broad categories.",
+            "category": "Economy",
+            "importance": "HIGH"
         }
     ]
 }

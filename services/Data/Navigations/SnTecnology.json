@@ -80,6 +80,42 @@
             "image": "images/technology/im7.jpg",
             "importance": "High",
             "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "7",
+            "title": "The Politics of AI Look Brutal for Governments",
+            "summary": "Governments face challenges in navigating the political landscape of artificial intelligence.",
+            "category": "Technology",
+            "image": "images/technology/im2.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:16:27.937835"
+        },
+        {
+            "id": "7",
+            "title": "The Politics of AI Look Brutal for Governments",
+            "summary": "Governments are facing challenges in dealing with the political ramifications of artificial intelligence.",
+            "category": "Technology",
+            "image": "images/technology/im8.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:17:07.566724"
+        },
+        {
+            "id": "7",
+            "title": "The Politics of AI Look Brutal for Governments",
+            "summary": "Governments face challenges in AI politics.",
+            "category": "Technology",
+            "image": "images/technology/im3.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:18:01.838000"
+        },
+        {
+            "id": "7",
+            "title": "The Politics of AI Look Brutal for Governments",
+            "summary": "Governments face challenges related to the politics of AI.",
+            "category": "Technology",
+            "image": "images/technology/im10.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:18:57.236597"
         }
     ]
 }

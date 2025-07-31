@@ -214,9 +214,6 @@ def control_view(request):
             return JsonResponse({'status': 'success', 'message': response_message})
 
         except json.JSONDecodeError:
-            return JsonResponse({'status': 'error', 'message': 'Invalid JSON in request body.'}, status=400)
-        except Exception as e:
-            print(f"Error processing command: {e}")
-            return JsonResponse({'status': 'error', 'message': f'Server error: {str(e)}'}, status=500)
+            return JsonResponse({'status': 'error', 'message': 'Invalid JSON in request body.'}, status=400)    
     else:
         return JsonResponse({'status': 'error', 'message': 'Only POST requests are allowed for control_view.'}, status=405)

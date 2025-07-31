@@ -89,6 +89,54 @@
             "image": "images/markets/im9.jpg",
             "importance": "Medium",
             "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": "10",
+            "title": "US Bond Traders Eye Inflation for Steer on September Rate Cut",
+            "summary": "US bond traders are closely monitoring inflation data for indications of a potential rate cut in September.",
+            "category": "Markets",
+            "image": "images/markets/im9.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:17:07.566724"
+        },
+        {
+            "id": "15",
+            "title": "Tata Steel to Explore New Markets as Tariffs Hit US Shipments",
+            "summary": "Tata Steel is planning to explore new markets in response to the impact of tariffs on its US shipments.",
+            "category": "Markets",
+            "image": "images/markets/im4.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:17:07.566724"
+        },
+        {
+            "id": "10",
+            "title": "US Bond Traders Eye Inflation for Steer on September Rate Cut",
+            "summary": "US bond traders are closely monitoring inflation data for indications regarding a potential interest rate cut in September.",
+            "category": "Markets",
+            "image": "images/markets/im4.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:18:08.184659"
+        },
+        {
+            "id": "15",
+            "title": "Tata Steel to Explore New Markets as Tariffs Hit US Shipments",
+            "summary": "Tata Steel plans to explore new markets as tariffs negatively impact its shipments to the US.",
+            "category": "Markets",
+            "image": "images/markets/im4.jpg",
+            "importance": "Medium",
+            "date": "2025-07-31T11:18:08.184659"
+        },
+        {
+            "title": "‘Unprecedented’ Investment Fund Seals Deal for Japan and Expands Trump’s Influence",
+            "summary": "President Trump will get to decide where to invest Japanese money and the United States will keep 90 percent of the profits, the White House said.",
+            "category": "Markets",
+            "importance": "LOW"
+        },
+        {
+            "title": "‘Unprecedented’ Investment Fund Seals Deal for Japan and Expands Trump’s Influence",
+            "summary": "President Trump will get to decide where to invest Japanese money and the United States will keep 90 percent of the profits, the White House said.",
+            "category": "Markets",
+            "importance": "LOW"
         }
     ]
 }

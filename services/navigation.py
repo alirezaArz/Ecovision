@@ -71,6 +71,7 @@ class Nav():
 
             elif item["category"] == "Science":
                 self.saveNavigation(item, 'SnScience')
+        print("nav: data separated successfully!")
         self.output()
         self.outsite()
 
