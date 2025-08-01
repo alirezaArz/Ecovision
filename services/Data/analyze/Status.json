@@ -1,5 +1,16 @@
 {
-    "memoId": [],
+    "memoId": [
+        9317
+    ],
     "localPending": [],
-    "Status": []
+    "Status": [
+        {
+            "id": 9317,
+            "modifier": "bloomberg",
+            "status": "done",
+            "modified date": "2025-08-01 16:29:59",
+            "external model": "verified",
+            "local model": "undefined"
+        }
+    ]
 }

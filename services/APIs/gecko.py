@@ -71,7 +71,6 @@ def old_clean(name: str):
 
         with open(os.path.join(DATA_PATH, f"{name}"), 'w', encoding='utf-8') as file:
             json.dump(list_of_dicts, file, indent=4, ensure_ascii=False)
-        percentage()
 
 def is_online(test_url="https://www.google.com"):
     try:
@@ -91,7 +90,7 @@ def connect(url, params, id: str):
 
         if response.status_code == 200:
             save(id, response.json())
-
+            percentage()
             return response.json()
 
         elif response.status_code == 429:
@@ -213,8 +212,8 @@ def percentage():
         json.dump(answer, file, indent=4, ensure_ascii=False)
 
 
-#price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
-# percentage()
+price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
+percentage()
 # print(market_chart({'usd'}, 2))
 # print(is_online())
 # print(ticker({'bitcoin'}))

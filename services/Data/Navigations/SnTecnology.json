@@ -1,121 +1,112 @@
 {
-    "newsData": [
-        {
-            "id": 69,
-            "title": "Hewlett Packard beats Q2 results estimates on AI demand; records $1.36 billion charge",
-            "summary": "Hewlett Packard beats Q2 results estimates on AI demand; records $1.36 billion charge",
-            "category": "Technology",
-            "image": "images/technology/im6.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 74,
-            "title": "Top Artificial Intelligence (AI) to Buy Hand Over Fist Before It Is Too Late",
-            "summary": "Top Artificial Intelligence (AI) to Buy Hand Over Fist Before It Is Too Late",
-            "category": "Technology",
-            "image": "images/technology/im2.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "image": "images/technology/im9.jpg",
-            "id": "8",
-            "title": "با پیشرفت تکنولوژی، اکنون سیستم\\u200cهای مبتنی بر هوش\\u200cمصنوعی نیز به ابزاری بدل شده\\u200cاند که می\\u200cتوانند در زمینه نظامی مزیتی قابل\\u200cتوجه برای استفاده\\u200cکنندگان آن به وجود بیاورند.",
-            "summary": "سیستم‌های هوش مصنوعی به ابزاری در زمینه نظامی تبدیل شده‌اند که می‌توانند مزایای قابل توجهی را در شناسایی اهداف و تحلیل داده‌ها ارائه دهند.",
-            "category": "Technology",
-            "importance": "medium",
-            "date": "2025-07-05T02:22:30.768098"
-        },
-        {
-            "id": 32,
-            "title": "Apple's loses bid to halt court ruling that blocks app store fees",
-            "summary": "Apple's attempt to suspend a court decision preventing app store fees is unsuccessful.",
-            "category": "Technology",
-            "image": "images/technology/im4.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:06:16.303734"
-        },
-        {
-            "id": 53,
-            "title": "Hewlett Packard beats Q2 results estimates on AI demand; records $1.36 billion charge",
-            "summary": "Hewlett Packard exceeds Q2 earnings expectations due to AI demand, but records a $1.36 billion charge.",
-            "category": "Technology",
-            "image": "images/technology/im9.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:06:16.303734"
-        },
-        {
-            "id": "18",
-            "title": "با پیشرفت تکنولوژی، اکنون سیستمهای مبتنی بر هوشمصنوعی نیز به ابزاری بدل شدهاند که میتوانند در زمینه نظامی مزیتی قابلتوجه برای استفادهکنندگان آن به وجود بیاورند.",
-            "summary": "With the advancement of technology, artificial intelligence-based systems have become a tool that can create a significant advantage for its users in the military field.",
-            "category": "Technology",
-            "image": "images/technology/im10.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "35",
-            "title": "Apple's loses bid to halt court ruling that blocks app store fees",
-            "summary": "Apple's attempt to suspend a court decision preventing app store fees is unsuccessful.",
-            "category": "Technology",
-            "image": "images/technology/im6.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "62",
-            "title": "Hewlett Packard beats Q2 results estimates on AI demand; records $1.36 billion charge",
-            "summary": "Hewlett Packard surpasses second-quarter results estimates driven by demand for artificial intelligence (AI), while recording a $1.36 billion charge.",
-            "category": "Technology",
-            "image": "images/technology/im7.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "68",
-            "title": "1 Top Artificial Intelligence (AI) to Buy Hand Over Fist Before It Is Too Late",
-            "summary": "One outstanding Artificial Intelligence (AI) to invest in rapidly, before missing the opportunity",
-            "category": "Technology",
-            "image": "images/technology/im7.jpg",
-            "importance": "High",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "7",
-            "title": "The Politics of AI Look Brutal for Governments",
-            "summary": "Governments face challenges in navigating the political landscape of artificial intelligence.",
-            "category": "Technology",
-            "image": "images/technology/im2.jpg",
-            "importance": "Medium",
-            "date": "2025-07-31T11:16:27.937835"
-        },
-        {
-            "id": "7",
-            "title": "The Politics of AI Look Brutal for Governments",
-            "summary": "Governments are facing challenges in dealing with the political ramifications of artificial intelligence.",
-            "category": "Technology",
-            "image": "images/technology/im8.jpg",
-            "importance": "Medium",
-            "date": "2025-07-31T11:17:07.566724"
-        },
-        {
-            "id": "7",
-            "title": "The Politics of AI Look Brutal for Governments",
-            "summary": "Governments face challenges in AI politics.",
-            "category": "Technology",
-            "image": "images/technology/im3.jpg",
-            "importance": "Medium",
-            "date": "2025-07-31T11:18:01.838000"
-        },
-        {
-            "id": "7",
-            "title": "The Politics of AI Look Brutal for Governments",
-            "summary": "Governments face challenges related to the politics of AI.",
-            "category": "Technology",
-            "image": "images/technology/im10.jpg",
-            "importance": "Medium",
-            "date": "2025-07-31T11:18:57.236597"
-        }
-    ]
+  "newsData": [
+    {
+      "id": 69,
+      "title": "Hewlett Packard beats Q2 results estimates on AI demand; records $1.36 billion charge",
+      "summary": "Hewlett Packard beats Q2 results estimates on AI demand; records $1.36 billion charge",
+      "category": "Technology",
+      "image": "images/technology/im6.jpg",
+      "importance": "medium",
+      "date": "2025-07-01T20:54:31.882414"
+    },
+    {
+      "id": 74,
+      "title": "Top Artificial Intelligence (AI) to Buy Hand Over Fist Before It Is Too Late",
+      "summary": "Top Artificial Intelligence (AI) to Buy Hand Over Fist Before It Is Too Late",
+      "category": "Technology",
+      "image": "images/technology/im2.jpg",
+      "importance": "medium",
+      "date": "2025-07-01T20:54:31.882414"
+    },
+    {
+      "image": "images/technology/im9.jpg",
+      "id": "8",
+      "title": "با پیشرفت تکنولوژی، اکنون سیستم cهای مبتنی بر هوش cمصنوعی نیز به ابزاری بدل شده cاند که می cتوانند در زمینه نظامی مزیتی قابل cتوجه برای استفاده cکنندگان آن به وجود بیاورند.",
+      "summary": "سیستم‌های هوش مصنوعی به ابزاری در زمینه نظامی تبدیل شده‌اند که می‌توانند مزایای قابل توجهی را در شناسایی اهداف و تحلیل داده‌ها ارائه دهند.",
+      "category": "Technology",
+      "importance": "medium",
+      "date": "2025-07-05T02:22:30.768098"
+    },
+    {
+      "id": 32,
+      "title": "Apple's loses bid to halt court ruling that blocks app store fees",
+      "summary": "Apple's attempt to suspend a court decision preventing app store fees is unsuccessful.",
+      "category": "Technology",
+      "image": "images/technology/im4.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:06:16.303734"
+    },
+    {
+      "id": 53,
+      "title": "Hewlett Packard beats Q2 results estimates on AI demand; records $1.36 billion charge",
+      "summary": "Hewlett Packard exceeds Q2 earnings expectations due to AI demand, but records a $1.36 billion charge.",
+      "category": "Technology",
+      "image": "images/technology/im9.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:06:16.303734"
+    },
+    {
+      "id": "18",
+      "title": "با پیشرفت تکنولوژی، اکنون سیستمهای مبتنی بر هوشمصنوعی نیز به ابزاری بدل شدهاند که میتوانند در زمینه نظامی مزیتی قابلتوجه برای استفادهکنندگان آن به وجود بیاورند.",
+      "summary": "With the advancement of technology, artificial intelligence-based systems have become a tool that can create a significant advantage for its users in the military field.",
+      "category": "Technology",
+      "image": "images/technology/im10.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:16:34.537142"
+    },
+    {
+      "id": "62",
+      "title": "Hewlett Packard beats Q2 results estimates on AI demand; records $1.36 billion charge",
+      "summary": "Hewlett Packard surpasses second-quarter results estimates driven by demand for artificial intelligence (AI), while recording a $1.36 billion charge.",
+      "category": "Technology",
+      "image": "images/technology/im7.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:16:34.537142"
+    },
+    {
+      "id": "68",
+      "title": "1 Top Artificial Intelligence (AI) to Buy Hand Over Fist Before It Is Too Late",
+      "summary": "One outstanding Artificial Intelligence (AI) to invest in rapidly, before missing the opportunity",
+      "category": "Technology",
+      "image": "images/technology/im7.jpg",
+      "importance": "High",
+      "date": "2025-07-26T20:16:34.537142"
+    },
+    {
+      "id": "7",
+      "title": "The Politics of AI Look Brutal for Governments",
+      "summary": "Governments face challenges in navigating the political landscape of artificial intelligence.",
+      "category": "Technology",
+      "image": "images/technology/im2.jpg",
+      "importance": "Medium",
+      "date": "2025-07-31T11:16:27.937835"
+    },
+    {
+      "id": "7",
+      "title": "The Politics of AI Look Brutal for Governments",
+      "summary": "Governments are facing challenges in dealing with the political ramifications of artificial intelligence.",
+      "category": "Technology",
+      "image": "images/technology/im8.jpg",
+      "importance": "Medium",
+      "date": "2025-07-31T11:17:07.566724"
+    },
+    {
+      "id": "7",
+      "title": "The Politics of AI Look Brutal for Governments",
+      "summary": "Governments face challenges in AI politics.",
+      "category": "Technology",
+      "image": "images/technology/im3.jpg",
+      "importance": "Medium",
+      "date": "2025-07-31T11:18:01.838000"
+    },
+    {
+      "id": "7",
+      "title": "The Politics of AI Look Brutal for Governments",
+      "summary": "Governments face challenges related to the politics of AI.",
+      "category": "Technology",
+      "image": "images/technology/im10.jpg",
+      "importance": "Medium",
+      "date": "2025-07-31T11:18:57.236597"
+    }
+  ]
 }

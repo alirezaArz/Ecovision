@@ -1,22 +1,58 @@
 {
     "newsData": [
         {
-            "title": "How Trump’s Attacks on the Fed Chair Have Intensified",
-            "summary": "President Trump has targeted Jerome H. Powell on more than 70 separate occasions, more than half of them since April. His statements fall into four broad categories.",
+            "id": "0",
+            "title": "Trump’s Shock 39% Tariff Crashes Swiss Holiday",
+            "summary": "Tariffs imposed by Trump negatively impact the Swiss tourism industry.",
             "category": "Economy",
-            "importance": "HIGH"
+            "image": "images/economy/im21.jpg",
+            "importance": "High",
+            "date": "2025-08-01T16:30:56.743393"
         },
         {
-            "title": "Trump Spars With Powell Over Fed’s Costly Renovations in Rare Visit",
-            "summary": "The administration has repeatedly criticized Jerome H. Powell, the chair of the central bank, for his handling of the economy and the cost of work on the institution’s headquarters.",
+            "id": "1",
+            "title": "European Banks Weather Stress Test That Simulates Trade Shock",
+            "summary": "European banks demonstrate resilience in a stress test simulating a trade shock.",
             "category": "Finance",
-            "importance": "MEDIUM"
+            "image": "images/finance/im13.jpg",
+            "importance": "Medium",
+            "date": "2025-08-01T16:30:56.743393"
         },
         {
-            "title": "‘Unprecedented’ Investment Fund Seals Deal for Japan and Expands Trump’s Influence",
-            "summary": "President Trump will get to decide where to invest Japanese money and the United States will keep 90 percent of the profits, the White House said.",
+            "id": "2",
+            "title": "South Africa’s Fixed-Investment Plans Fall 47% on State Pullback",
+            "summary": "Fixed investment plans in South Africa decline significantly due to reduced state involvement.",
+            "category": "Economy",
+            "image": "images/economy/im3.jpg",
+            "importance": "Medium",
+            "date": "2025-08-01T16:30:56.743393"
+        },
+        {
+            "id": "3",
+            "title": "Tariffs? In This Economy? Good Luck With That",
+            "summary": "The article discusses the potential negative impacts of tariffs on the economy.",
+            "category": "Economy",
+            "image": "images/economy/im14.jpg",
+            "importance": "Medium",
+            "date": "2025-08-01T16:30:56.743393"
+        },
+        {
+            "id": "4",
+            "title": "Transport Stocks Face Worst Week Since April on Tariffs, Reports",
+            "summary": "Tariffs are causing significant losses for transport stocks.",
             "category": "Markets",
-            "importance": "LOW"
+            "image": "images/markets/im6.jpg",
+            "importance": "Medium",
+            "date": "2025-08-01T16:30:56.743393"
+        },
+        {
+            "id": "5",
+            "title": "Trash Haulers to Carmakers Are Feeling the Pain of Trump’s Tariffs",
+            "summary": "Various industries, from trash haulers to carmakers, are negatively affected by Trump's tariffs.",
+            "category": "Economy",
+            "image": "images/economy/im6.jpg",
+            "importance": "High",
+            "date": "2025-08-01T16:30:56.743393"
         }
     ]
 }

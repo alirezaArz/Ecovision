@@ -71,6 +71,7 @@ class Analyze():
                             if tryExternal:
                                 item["status"] = "done"
                                 item["external model"] = "verified"
+                                self.clearQueue(element["id"])
                                 self.saveStatus(self.status)
                             else:
                                 item["status"] = "failed"
@@ -127,8 +128,10 @@ class Analyze():
     def clearcache(self, id):
         for item in self.status:
             if item["id"] == id:
-                del self.status[self.status.index(item)]
-                del self.memoId[self.memoId.index(id)]
+                #del self.status[self.status.index(item)]
+                item["status"] = "done"
+                item["local model"] = "verified"
+                #del self.memoId[self.memoId.index(id)]
                 del self.localPending[self.localPending.index(id)]
                 self.saveStatus(self.status)
                 print(f" item {id} has been removed from status.json")
@@ -186,9 +189,9 @@ class Analyze():
             json.dump(last_queue, file, indent=4, ensure_ascii=False)
 
     def sendtoQueue(self, data, name, modifiedDate):
-        new_id = random.randint(0, 10000)
+        new_id = random.randint(0, 1000000000)
         while new_id in self.memoId:
-            new_id = random.randint(0, 50000)
+            new_id = random.randint(0, 1000000000)
         self.memoId.append(new_id)
         try:
             last_data = self.loadQueue()

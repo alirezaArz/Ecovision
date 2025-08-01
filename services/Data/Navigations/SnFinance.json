@@ -1,817 +1,715 @@
 {
-    "newsData": [
-        {
-            "id": 71,
-            "title": "Billionaires Are Selling Nvidia Stock and Buying a Stock-Split AI Stock Up 530% in 5 Years",
-            "summary": "Billionaires Are Selling Nvidia Stock and Buying a Stock-Split AI Stock Up 530% in 5 Years",
-            "category": "Finance",
-            "image": "images/finance/im11.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "image": "images/finance/im4.jpg",
-            "id": "6",
-            "title": "کارشناسان تاکید دارند بانک مرکزی در این شرایط باید برای حفظ ثبات اقتصادی و اعتماد عمومی، سیاست\\u200cهای انقباضی را در دستور کار خود قرار دهد",
-            "summary": "کارشناسان توصیه می‌کنند بانک مرکزی برای حفظ ثبات اقتصادی و اعتماد عمومی سیاست‌های انقباضی را در پیش گیرد.",
-            "category": "Finance",
-            "importance": "medium",
-            "date": "2025-07-05T02:22:30.749123"
-        },
-        {
-            "image": "images/finance/im10.jpg",
-            "id": "6",
-            "title": "Circle stock soars after IPO as stablecoin giant makes market debut",
-            "summary": "Circle's stock price increases significantly following its IPO, marking the public debut of the stablecoin company.",
-            "category": "Finance",
-            "importance": "medium",
-            "date": "2025-07-05T02:44:12.088796"
-        },
-        {
-            "image": "images/finance/im10.jpg",
-            "id": "6",
-            "title": "Circle stock soars after IPO as stablecoin giant makes market debut",
-            "summary": "Circle's stock price increases significantly following its IPO, marking the public debut of the stablecoin company.",
-            "category": "Finance",
-            "importance": "medium",
-            "date": "2025-07-05T02:44:12.088796"
-        },
-        {
-            "image": "images/finance/im10.jpg",
-            "id": "6",
-            "title": "Circle stock soars after IPO as stablecoin giant makes market debut",
-            "summary": "Circle's stock price increases significantly following its IPO, marking the public debut of the stablecoin company.",
-            "category": "Finance",
-            "importance": "medium",
-            "date": "2025-07-05T02:44:12.088796"
-        },
-        {
-            "id": 4,
-            "title": "Genworth Expects to Collect $750 Million on UK PPI Court Ruling",
-            "summary": "Genworth anticipates receiving $750 million following a favorable court ruling related to PPI in the UK.",
-            "category": "Finance",
-            "image": "images/finance/im15.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:06:16.303734"
-        },
-        {
-            "id": 6,
-            "title": "IMF Says Malawi in Arrears With Afreximbank Throughout Program",
-            "summary": "The IMF reports that Malawi is in arrears with Afreximbank throughout its program.",
-            "category": "Finance",
-            "image": "images/finance/im11.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:06:16.303734"
-        },
-        {
-            "id": 7,
-            "title": "India Gives $565 Million Credit Line to Maldives as Ties Reset",
-            "summary": "India extends a $565 million credit line to the Maldives as relations improve.",
-            "category": "Finance",
-            "image": "images/finance/im10.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:06:16.303734"
-        },
-        {
-            "id": 9,
-            "title": "Citadel’s Ubide Says ‘Now or Never’ for EU Rival to Treasuries",
-            "summary": "Citadel’s Ubide suggests it's a crucial moment for the EU to create a Treasury rival.",
-            "category": "Finance",
-            "image": "images/finance/im5.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:06:16.303734"
-        },
-        {
-            "id": 10,
-            "title": "High-Risk Currency Trading Is the New Meme Stock for This Retail Crowd",
-            "summary": "Retail investors are increasingly engaging in high-risk currency trading.",
-            "category": "Finance",
-            "image": "images/finance/im8.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:06:16.303734"
-        },
-        {
-            "id": 14,
-            "title": "در آخرین روز معاملاتی هفته گذشته، قیمت دلار آزاد با افزایش همراه شد، با این حال همچنان روند باثبات خود را حفظ کرد",
-            "summary": "On the last trading day of last week, the free dollar price increased, but it still maintained its stable trend.",
-            "category": "Finance",
-            "image": "images/finance/im2.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:06:16.303734"
-        },
-        {
-            "id": 18,
-            "title": "ساعاتی پس از اعلام آتش بس، رئیس کل بانک مرکزی برای تشریح اقدامات انجام شده طی روزهای جنگ در شبکه خبر حضور یافت.",
-            "summary": "Hours after the ceasefire was announced, the Governor of the Central Bank appeared on the news network to explain the measures taken during the war days.",
-            "category": "Finance",
-            "image": "images/finance/im5.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:06:16.303734"
-        },
-        {
-            "id": 25,
-            "title": "در شرایط پرتنشی که کشور با آن مواجه است، سیاستگذاری پولی از اهمیت خاصی برخوردار است.",
-            "summary": "In the tense situation that the country is facing, monetary policy is of particular importance.",
-            "category": "Finance",
-            "image": "images/finance/im1.jpg",
-            "importance": "High",
-            "date": "2025-07-26T20:06:16.303734"
-        },
-        {
-            "id": 31,
-            "title": "Fed's Kugler looks to hold rates steady and warns of higher inflation",
-            "summary": "Fed's Kugler favors maintaining stable interest rates while cautioning about potential inflation increases.",
-            "category": "Finance",
-            "image": "images/finance/im14.jpg",
-            "importance": "High",
-            "date": "2025-07-26T20:06:16.303734"
-        },
-        {
-            "id": 33,
-            "title": "Why Musk may be changing his tune on EV tax credits",
-            "summary": "Reasons behind Elon Musk's potential change in stance regarding electric vehicle tax credits.",
-            "category": "Finance",
-            "image": "images/finance/im12.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:06:16.303734"
-        },
-        {
-            "id": 34,
-            "title": "Robinhood exec talks retail investor strength, overnight trading",
-            "summary": "Robinhood executive discusses the influence of retail investors and the rise of overnight trading.",
-            "category": "Finance",
-            "image": "images/finance/im1.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:06:16.303734"
-        },
-        {
-            "id": 36,
-            "title": "Fed's Harker says its time for caution on monetary policy amid uncertainty",
-            "summary": "Fed's Harker advises a cautious approach to monetary policy amid current uncertainty.",
-            "category": "Finance",
-            "image": "images/finance/im12.jpg",
-            "importance": "High",
-            "date": "2025-07-26T20:06:16.303734"
-        },
-        {
-            "id": 37,
-            "title": "Fed's Schmid: uncomfortable with looking through tariff-driven price push",
-            "summary": "Fed's Schmid expresses concern about overlooking price increases caused by tariffs.",
-            "category": "Finance",
-            "image": "images/finance/im12.jpg",
-            "importance": "High",
-            "date": "2025-07-26T20:06:16.303734"
-        },
-        {
-            "id": 39,
-            "title": "Elon Musk gets more time to respond to US SEC lawsuit over Twitter stake",
-            "summary": "Elon Musk is granted additional time to respond to a lawsuit filed by the US SEC regarding his stake in Twitter.",
-            "category": "Finance",
-            "image": "images/finance/im13.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:06:16.303734"
-        },
-        {
-            "id": 41,
-            "title": "Mid-year check-in: How to audit your income & cash flow",
-            "summary": "Guidance on how to review and assess your income and cash flow at the mid-year point.",
-            "category": "Finance",
-            "image": "images/finance/im12.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:06:16.303734"
-        },
-        {
-            "id": 43,
-            "title": "Pandemic homebuyers now struggle to break even on sales",
-            "summary": "Homebuyers who purchased property during the pandemic now face challenges in breaking even when selling.",
-            "category": "Finance",
-            "image": "images/finance/im1.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:06:16.303734"
-        },
-        {
-            "id": 45,
-            "title": "When will mortgage rates go down to 5%?",
-            "summary": "Analysis of when mortgage rates may decrease to 5%.",
-            "category": "Finance",
-            "image": "images/finance/im9.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:06:16.303734"
-        },
-        {
-            "id": 46,
-            "title": "Why tariffs are expected to increase car insurance costs",
-            "summary": "Explanation of why tariffs are projected to lead to higher car insurance expenses.",
-            "category": "Finance",
-            "image": "images/finance/im13.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:06:16.303734"
-        },
-        {
-            "id": 47,
-            "title": "Tesla car insurance: How to avoid the sticker shock",
-            "summary": "Tips on how to avoid high costs of Tesla car insurance.",
-            "category": "Finance",
-            "image": "images/finance/im2.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:06:16.303734"
-        },
-        {
-            "id": 48,
-            "title": "CBO warns Trump's tax bill could add $2.4T to deficit",
-            "summary": "The Congressional Budget Office (CBO) warns that Trump's tax bill could increase the deficit by $2.4 trillion.",
-            "category": "Finance",
-            "image": "images/finance/im7.jpg",
-            "importance": "High",
-            "date": "2025-07-26T20:06:16.303734"
-        },
-        {
-            "id": 49,
-            "title": "The GOP's 'big, beautiful bill' would leave 10.9 million more uninsured: CBO",
-            "summary": "The CBO estimates that the Republican's bill would result in 10.9 million more uninsured individuals.",
-            "category": "Finance",
-            "image": "images/finance/im7.jpg",
-            "importance": "High",
-            "date": "2025-07-26T20:06:16.303734"
-        },
-        {
-            "id": 50,
-            "title": "Musk's 'KILL the BILL' screed hits Trump tax bill's progress",
-            "summary": "Musk's strong criticism of the tax bill impacts its progress.",
-            "category": "Finance",
-            "image": "images/finance/im15.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:06:16.303734"
-        },
-        {
-            "id": 51,
-            "title": "Will Trump's tax bill actually incentivize corporate growth?",
-            "summary": "An analysis of whether Trump's tax bill will genuinely encourage corporate growth.",
-            "category": "Finance",
-            "image": "images/finance/im1.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:06:16.303734"
-        },
-        {
-            "id": "3",
-            "title": "Genworth Expects to Collect $750 Million on UK PPI Court Ruling",
-            "summary": "Genworth anticipates receiving $750 million from a UK court ruling related to payment protection insurance (PPI).",
-            "category": "Finance",
-            "image": "images/finance/im5.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "6",
-            "title": "Citadel’s Ubide Says ‘Now or Never’ for EU Rival to Treasuries",
-            "summary": "Citadel's Ubide suggests it's a crucial moment for the EU to establish a rival to US Treasuries.",
-            "category": "Finance",
-            "image": "images/finance/im5.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "7",
-            "title": "High-Risk Currency Trading Is the New Meme Stock for This Retail Crowd",
-            "summary": "High-risk currency trading is becoming a popular trend among retail investors, similar to meme stocks.",
-            "category": "Finance",
-            "image": "images/finance/im15.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "11",
-            "title": "در آخرین روز معاملاتی هفته گذشته، قیمت دلار آزاد با افزایش همراه شد، با این حال همچنان روند باثبات خود را حفظ کرد.",
-            "summary": "On the last trading day of last week, the free dollar price increased, but still maintained its stable trend.",
-            "category": "Finance",
-            "image": "images/finance/im8.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "14",
-            "title": "دنیای اقتصاد: در حالی که سایه بیثباتیهای سیاسی و اقتصادی بر اقتصاد آمریکا سنگینی میکند و فضای جهانی تحت تاثیر جنگهای تجاری و تنشهای منطقهای، دستخوش نااطمینانی فزایندهای شده، سرمایهگذاران بینالمللی بهدنبال مقاصدی تازه، با ریسک کمتر و بازده بالاتر هستند.",
-            "summary": "As political and economic instability weighs on the US economy and the global environment is increasingly uncertain due to trade wars and regional tensions, international investors are looking for new destinations with lower risk and higher returns.",
-            "category": "Finance",
-            "image": "images/finance/im5.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "19",
-            "title": "دنیای اقتصاد؛ با عنایت به شرایط ویژه کشور و نظر به اختلال به وجود آمده در خدماترسانی دو بانک عامل سپه و پاسارگاد، بانک مرکزی در راستای کمک به اشخاص متأثر از این وضعیت با هماهنگی دادستانی محترم کل کشور از آن مرجع درخواست نمود تا اعمال محدودیتهای موضوع بندهای (الف) تا (د ) ماده ۵ مکرر قانون چک در خصوص چکهای صادره عهده دو بانک مذکور با تاریخ سررسید و برگشت ۲۴ خرداد لغایت ۷ تیر ۱۴۰۴، به مدت یکماه از تاریخ سررسید تعلیق گردد.",
-            "summary": "Given the special circumstances of the country and the disruption in the services of the two operating banks, Sepah and Pasargad, in order to help those affected by this situation, the Central Bank, in coordination with the Prosecutor General of the country, requested that the restrictions subject to paragraphs (a) to (d) of Article 5 of the Check Law be suspended for one month from the due date for checks issued to the aforementioned banks with a due date and return of June 24 to July 7, 2025.",
-            "category": "Finance",
-            "image": "images/finance/im7.jpg",
-            "importance": "High",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "27",
-            "title": "در شرایط پرتنشی که کشور با آن مواجه است، سیاستگذاری پولی از اهمیت خاصی برخوردار است.",
-            "summary": "Monetary policy is of particular importance in the tense situation that the country is facing.",
-            "category": "Finance",
-            "image": "images/finance/im10.jpg",
-            "importance": "High",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "29",
-            "title": "تجاوز نظامی اسرائیل به ایران، معادلات بازارهای جهانی و داخلی را تغییر داد. درحالیکه بسیاری از فعالان اقتصادی، با توجه به اخبار مثبت مذاکرات، روند دلار را کاهشی ارزیابی میکردند، این تجاوز نظامی معادلات بازار ارز تهران را نیز تغییر داد.",
-            "summary": "Israel's military aggression against Iran changed the equations of global and domestic markets. While many economic actors considered the dollar trend to be decreasing, given the positive news of the negotiations, this military aggression also changed the equations of the Tehran currency market.",
-            "category": "Finance",
-            "image": "images/finance/im1.jpg",
-            "importance": "High",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "31",
-            "title": "Circle stock soars after IPO as stablecoin giant makes market debut",
-            "summary": "Circle's stock price surges after its initial public offering (IPO), marking the market debut of the stablecoin giant.",
-            "category": "Finance",
-            "image": "images/finance/im6.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "34",
-            "title": "Fed's Kugler looks to hold rates steady and warns of higher inflation",
-            "summary": "A Federal Reserve official, Kugler, anticipates keeping interest rates steady while cautioning about the potential for increased inflation.",
-            "category": "Finance",
-            "image": "images/finance/im6.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "36",
-            "title": "Why Musk may be changing his tune on EV tax credits",
-            "summary": "Reasons behind Elon Musk's potential shift in stance regarding electric vehicle (EV) tax credits are explored.",
-            "category": "Finance",
-            "image": "images/finance/im2.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "37",
-            "title": "Robinhood exec talks retail investor strength, overnight trading",
-            "summary": "A Robinhood executive discusses the resilience of retail investors and the growing trend of overnight trading.",
-            "category": "Finance",
-            "image": "images/finance/im1.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "39",
-            "title": "Fed's Harker says its time for caution on monetary policy amid uncertainty",
-            "summary": "A Federal Reserve official, Harker, suggests exercising caution in monetary policy amid ongoing uncertainty.",
-            "category": "Finance",
-            "image": "images/finance/im11.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "40",
-            "title": "Fed's Schmid: uncomfortable with looking through tariff-driven price push",
-            "summary": "A Federal Reserve official, Schmid, expresses discomfort in overlooking price increases caused by tariffs.",
-            "category": "Finance",
-            "image": "images/finance/im1.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "42",
-            "title": "Elon Musk gets more time to respond to US SEC lawsuit over Twitter stake",
-            "summary": "Elon Musk is granted additional time to respond to a lawsuit filed by the US Securities and Exchange Commission (SEC) regarding his stake in Twitter.",
-            "category": "Finance",
-            "image": "images/finance/im4.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "44",
-            "title": "Mid-year check-in: How to audit your income & cash flow",
-            "summary": "Guidance is provided on conducting a mid-year assessment of one's income and cash flow.",
-            "category": "Finance",
-            "image": "images/finance/im8.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "47",
-            "title": "Pandemic homebuyers now struggle to break even on sales",
-            "summary": "Homebuyers during the pandemic era now encounter difficulties in recouping their investments upon selling their properties.",
-            "category": "Finance",
-            "image": "images/finance/im5.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "49",
-            "title": "When will mortgage rates go down to 5%?",
-            "summary": "A forecast is provided regarding the potential timeline for mortgage rates to decrease to 5%.",
-            "category": "Finance",
-            "image": "images/finance/im6.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "50",
-            "title": "Why tariffs are expected to increase car insurance costs",
-            "summary": "An explanation is given regarding the anticipated impact of tariffs on escalating car insurance expenses.",
-            "category": "Finance",
-            "image": "images/finance/im7.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "51",
-            "title": "Tesla car insurance: How to avoid the sticker shock",
-            "summary": "Tips and strategies are offered to mitigate the potential shock of high costs associated with Tesla car insurance.",
-            "category": "Finance",
-            "image": "images/finance/im7.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "52",
-            "title": "Does car insurance cover flood damage?",
-            "summary": "Clarification is provided regarding the extent to which car insurance covers damage caused by flooding.",
-            "category": "Finance",
-            "image": "images/finance/im8.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "53",
-            "title": "When is the Fed's next meeting?",
-            "summary": "Information is provided regarding the date and time of the Federal Reserve's upcoming meeting.",
-            "category": "Finance",
-            "image": "images/finance/im14.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "54",
-            "title": "What happens to credit card debt when you die?",
-            "summary": "An explanation is provided regarding the disposition of credit card debt upon an individual's death.",
-            "category": "Finance",
-            "image": "images/finance/im6.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "55",
-            "title": "When will I get my Social Security check?",
-            "summary": "Information is provided regarding the expected timing of Social Security check distribution.",
-            "category": "Finance",
-            "image": "images/finance/im15.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "56",
-            "title": "CBO warns Trump's tax bill could add $2.4T to deficit",
-            "summary": "The Congressional Budget Office (CBO) cautions that Trump's tax bill could increase the deficit by $2.4 trillion.",
-            "category": "Finance",
-            "image": "images/finance/im2.jpg",
-            "importance": "High",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "58",
-            "title": "Musk's 'KILL the BILL' screed hits Trump tax bill's progress",
-            "summary": "Musk's strong criticism of the bill negatively affects the advancement of Trump's tax bill.",
-            "category": "Finance",
-            "image": "images/finance/im3.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "59",
-            "title": "Will Trump's tax bill actually incentivize corporate growth?",
-            "summary": "An assessment is conducted regarding the potential of Trump's tax bill to incentivize corporate growth.",
-            "category": "Finance",
-            "image": "images/finance/im15.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "64",
-            "title": "Analyst Report: Crowdstrike Holdings Inc",
-            "summary": "This entry signifies the presence of an analyst report specifically focused on Crowdstrike Holdings Inc.",
-            "category": "Finance",
-            "image": "images/finance/im15.jpg",
-            "importance": "Low",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "65",
-            "title": "Billionaires Are Selling Nvidia Stock and Buying a Stock-Split AI Stock Up 530% in 5 Years",
-            "summary": "Billionaires are divesting from Nvidia stock and investing in a stock-split AI stock that has surged 530% in five years.",
-            "category": "Finance",
-            "image": "images/finance/im13.jpg",
-            "importance": "High",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "0",
-            "title": "How Trump’s Attacks on the Fed Chair Have Intensified",
-            "summary": "President Trump has targeted Jerome H. Powell on more than 70 separate occasions, more than half of them since April. His statements fall into four broad categories.",
-            "category": "Finance",
-            "image": "images/finance/im2.jpg",
-            "importance": "High",
-            "date": "2025-07-27T00:54:07.837273"
-        },
-        {
-            "id": "1",
-            "title": "Trump Spars With Powell Over Fed’s Costly Renovations in Rare Visit",
-            "summary": "The administration has repeatedly criticized Jerome H. Powell, the chair of the central bank, for his handling of the economy and the cost of work on the institution’s headquarters.",
-            "category": "Finance",
-            "image": "images/finance/im14.jpg",
-            "importance": "Medium",
-            "date": "2025-07-27T00:54:07.837273"
-        },
-        {
-            "id": "0",
-            "title": "How Trump’s Attacks on the Fed Chair Have Intensified",
-            "summary": "President Trump has targeted Jerome H. Powell on more than 70 separate occasions, more than half of them since April. His statements fall into four broad categories.",
-            "category": "Finance",
-            "image": "images/finance/im8.jpg",
-            "importance": "High",
-            "date": "2025-07-27T01:04:13.754327"
-        },
-        {
-            "id": "1",
-            "title": "Trump Spars With Powell Over Fed’s Costly Renovations in Rare Visit",
-            "summary": "The administration has repeatedly criticized Jerome H. Powell, the chair of the central bank, for his handling of the economy and the cost of work on the institution’s headquarters.",
-            "category": "Finance",
-            "image": "images/finance/im5.jpg",
-            "importance": "High",
-            "date": "2025-07-27T01:04:13.754327"
-        },
-        {
-            "id": "5",
-            "title": "White House Keeps Pressure on Powell Over Rate Cuts and Renovations",
-            "summary": "President Trump and his top aides have criticized Jerome H. Powell, the Fed chair, for his management of both the economy and a $2.5 billion revamp of the central bank’s headquarters.",
-            "category": "Finance",
-            "image": "images/finance/im1.jpg",
-            "importance": "High",
-            "date": "2025-07-27T01:04:13.754327"
-        },
-        {
-            "id": "0",
-            "title": "How Trump’s Attacks on the Fed Chair Have Intensified",
-            "summary": "President Trump has targeted Jerome H. Powell on more than 70 separate occasions, more than half of them since April. His statements fall into four broad categories.",
-            "category": "Finance",
-            "image": "images/finance/im12.jpg",
-            "importance": "High",
-            "date": "2025-07-27T01:11:22.268115"
-        },
-        {
-            "id": "1",
-            "title": "Trump Spars With Powell Over Fed’s Costly Renovations in Rare Visit",
-            "summary": "The administration has repeatedly criticized Jerome H. Powell, the chair of the central bank, for his handling of the economy and the cost of work on the institution’s headquarters.",
-            "category": "Finance",
-            "image": "images/finance/im9.jpg",
-            "importance": "High",
-            "date": "2025-07-27T01:11:22.268115"
-        },
-        {
-            "id": "5",
-            "title": "White House Keeps Pressure on Powell Over Rate Cuts and Renovations",
-            "summary": "President Trump and his top aides have criticized Jerome H. Powell, the Fed chair, for his management of both the economy and a $2.5 billion revamp of the central bank’s headquarters.",
-            "category": "Finance",
-            "image": "images/finance/im14.jpg",
-            "importance": "High",
-            "date": "2025-07-27T01:11:22.268115"
-        },
-        {
-            "id": "0",
-            "title": "How Trump’s Attacks on the Fed Chair Have Intensified",
-            "summary": "President Trump has targeted Jerome H. Powell on more than 70 separate occasions, more than half of them since April. His statements fall into four broad categories.",
-            "category": "Finance",
-            "image": "images/finance/im6.jpg",
-            "importance": "High",
-            "date": "2025-07-27T01:17:07.742417"
-        },
-        {
-            "id": "1",
-            "title": "Trump Spars With Powell Over Fed’s Costly Renovations in Rare Visit",
-            "summary": "The administration has repeatedly criticized Jerome H. Powell, the chair of the central bank, for his handling of the economy and the cost of work on the institution’s headquarters.",
-            "category": "Finance",
-            "image": "images/finance/im11.jpg",
-            "importance": "High",
-            "date": "2025-07-27T01:17:07.742417"
-        },
-        {
-            "id": "5",
-            "title": "White House Keeps Pressure on Powell Over Rate Cuts and Renovations",
-            "summary": "President Trump and his top aides have criticized Jerome H. Powell, the Fed chair, for his management of both the economy and a $2.5 billion revamp of the central bank’s headquarters.",
-            "category": "Finance",
-            "image": "images/finance/im1.jpg",
-            "importance": "High",
-            "date": "2025-07-27T01:17:07.742417"
-        },
-        {
-            "id": "0",
-            "title": "Powell’s Hawkish Tilt Sets Up Greater Tension With White House",
-            "summary": "Powell's stance creates potential friction between the Federal Reserve and the White House.",
-            "category": "Finance",
-            "image": "images/finance/im5.jpg",
-            "importance": "High",
-            "date": "2025-07-31T11:16:27.937835"
-        },
-        {
-            "id": "3",
-            "title": "Ferrari Earnings Rise as Luxury-Car Maker Shrugs Off Tariffs",
-            "summary": "Ferrari demonstrates resilience to tariffs with increased earnings.",
-            "category": "Finance",
-            "image": "images/finance/im7.jpg",
-            "importance": "Medium",
-            "date": "2025-07-31T11:16:27.937835"
-        },
-        {
-            "id": "4",
-            "title": "Dollar Wraps Up Best Month of Trump’s Term as Economy Holds Up",
-            "summary": "Dollar's performance indicates stability within the economy during Trump's presidency.",
-            "category": "Finance",
-            "image": "images/finance/im7.jpg",
-            "importance": "Medium",
-            "date": "2025-07-31T11:16:27.937835"
-        },
-        {
-            "id": "5",
-            "title": "Powell’s Message Raises the Stakes for Jobs Report",
-            "summary": "Powell's communication intensifies the significance of the upcoming jobs report.",
-            "category": "Finance",
-            "image": "images/finance/im10.jpg",
-            "importance": "Medium",
-            "date": "2025-07-31T11:16:27.937835"
-        },
-        {
-            "id": "10",
-            "title": "US Bond Traders Eye Inflation for Steer on September Rate Cut",
-            "summary": "US bond traders monitor inflation data to anticipate potential rate cuts in September.",
-            "category": "Finance",
-            "image": "images/finance/im13.jpg",
-            "importance": "Medium",
-            "date": "2025-07-31T11:16:27.937835"
-        },
-        {
-            "id": "0",
-            "title": "Powell’s Hawkish Tilt Sets Up Greater Tension With White House",
-            "summary": "Federal Reserve Chairman Jerome Powell's hawkish stance on monetary policy is likely to increase friction with the White House.",
-            "category": "Finance",
-            "image": "images/finance/im12.jpg",
-            "importance": "High",
-            "date": "2025-07-31T11:17:07.566724"
-        },
-        {
-            "id": "3",
-            "title": "Ferrari Earnings Rise as Luxury-Car Maker Shrugs Off Tariffs",
-            "summary": "Ferrari's earnings increase despite tariffs, demonstrating the luxury car maker's resilience.",
-            "category": "Finance",
-            "image": "images/finance/im14.jpg",
-            "importance": "Medium",
-            "date": "2025-07-31T11:17:07.566724"
-        },
-        {
-            "id": "4",
-            "title": "Dollar Wraps Up Best Month of Trump’s Term as Economy Holds Up",
-            "summary": "The US dollar performs strongly, marking its best month during Trump's presidency, as the economy remains stable.",
-            "category": "Finance",
-            "image": "images/finance/im3.jpg",
-            "importance": "Medium",
-            "date": "2025-07-31T11:17:07.566724"
-        },
-        {
-            "id": "5",
-            "title": "Powell’s Message Raises the Stakes for Jobs Report",
-            "summary": "Jerome Powell's recent communication increases the importance of the upcoming jobs report.",
-            "category": "Finance",
-            "image": "images/finance/im11.jpg",
-            "importance": "Medium",
-            "date": "2025-07-31T11:17:07.566724"
-        },
-        {
-            "id": "3",
-            "title": "Ferrari Earnings Rise as Luxury-Car Maker Shrugs Off Tariffs",
-            "summary": "Ferrari profits despite tariffs.",
-            "category": "Finance",
-            "image": "images/finance/im8.jpg",
-            "importance": "Medium",
-            "date": "2025-07-31T11:18:01.838000"
-        },
-        {
-            "id": "4",
-            "title": "Dollar Wraps Up Best Month of Trump’s Term as Economy Holds Up",
-            "summary": "Dollar strengthens amid stable economy.",
-            "category": "Finance",
-            "image": "images/finance/im7.jpg",
-            "importance": "Medium",
-            "date": "2025-07-31T11:18:01.838000"
-        },
-        {
-            "id": "10",
-            "title": "US Bond Traders Eye Inflation for Steer on September Rate Cut",
-            "summary": "Bond traders monitor inflation for rate cut clues.",
-            "category": "Finance",
-            "image": "images/finance/im13.jpg",
-            "importance": "Medium",
-            "date": "2025-07-31T11:18:01.838000"
-        },
-        {
-            "id": "12",
-            "title": "Bangladesh Holds Key Rate Steady Amid Tariff Uncertainty",
-            "summary": "Bangladesh keeps interest rates stable.",
-            "category": "Finance",
-            "image": "images/finance/im9.jpg",
-            "importance": "Medium",
-            "date": "2025-07-31T11:18:01.838000"
-        },
-        {
-            "id": "3",
-            "title": "Ferrari Earnings Rise as Luxury-Car Maker Shrugs Off Tariffs",
-            "summary": "Ferrari's earnings increase despite tariffs, demonstrating the brand's resilience.",
-            "category": "Finance",
-            "image": "images/finance/im13.jpg",
-            "importance": "Medium",
-            "date": "2025-07-31T11:18:08.184659"
-        },
-        {
-            "id": "4",
-            "title": "Dollar Wraps Up Best Month of Trump’s Term as Economy Holds Up",
-            "summary": "The US dollar performs strongly, recording its best month during Trump's presidency due to the stable economy.",
-            "category": "Finance",
-            "image": "images/finance/im10.jpg",
-            "importance": "Medium",
-            "date": "2025-07-31T11:18:08.184659"
-        },
-        {
-            "id": "12",
-            "title": "Bangladesh Holds Key Rate Steady Amid Tariff Uncertainty",
-            "summary": "Bangladesh maintains its key interest rate due to uncertainty surrounding tariffs.",
-            "category": "Finance",
-            "image": "images/finance/im7.jpg",
-            "importance": "Low",
-            "date": "2025-07-31T11:18:08.184659"
-        },
-        {
-            "id": "0",
-            "title": "Powell’s Hawkish Tilt Sets Up Greater Tension With White House",
-            "summary": "Powell's stance creates potential conflict with the White House.",
-            "category": "Finance",
-            "image": "images/finance/im7.jpg",
-            "importance": "High",
-            "date": "2025-07-31T11:18:57.236597"
-        },
-        {
-            "id": "3",
-            "title": "Ferrari Earnings Rise as Luxury-Car Maker Shrugs Off Tariffs",
-            "summary": "Ferrari's earnings increase despite tariffs.",
-            "category": "Finance",
-            "image": "images/finance/im8.jpg",
-            "importance": "Medium",
-            "date": "2025-07-31T11:18:57.236597"
-        },
-        {
-            "id": "4",
-            "title": "Dollar Wraps Up Best Month of Trump’s Term as Economy Holds Up",
-            "summary": "The dollar performs strongly as the economy remains stable.",
-            "category": "Finance",
-            "image": "images/finance/im13.jpg",
-            "importance": "Medium",
-            "date": "2025-07-31T11:18:57.236597"
-        },
-        {
-            "id": "5",
-            "title": "Powell’s Message Raises the Stakes for Jobs Report",
-            "summary": "Powell's communication increases the importance of the upcoming jobs report.",
-            "category": "Finance",
-            "image": "images/finance/im11.jpg",
-            "importance": "Medium",
-            "date": "2025-07-31T11:18:57.236597"
-        },
-        {
-            "id": "10",
-            "title": "US Bond Traders Eye Inflation for Steer on September Rate Cut",
-            "summary": "US bond traders are monitoring inflation for indications on a potential rate cut in September.",
-            "category": "Finance",
-            "image": "images/finance/im2.jpg",
-            "importance": "Medium",
-            "date": "2025-07-31T11:18:57.236597"
-        },
-        {
-            "title": "Trump Spars With Powell Over Fed’s Costly Renovations in Rare Visit",
-            "summary": "The administration has repeatedly criticized Jerome H. Powell, the chair of the central bank, for his handling of the economy and the cost of work on the institution’s headquarters.",
-            "category": "Finance",
-            "importance": "MEDIUM"
-        },
-        {
-            "title": "Trump Spars With Powell Over Fed’s Costly Renovations in Rare Visit",
-            "summary": "The administration has repeatedly criticized Jerome H. Powell, the chair of the central bank, for his handling of the economy and the cost of work on the institution’s headquarters.",
-            "category": "Finance",
-            "importance": "MEDIUM"
-        }
-    ]
+  "newsData": [
+    {
+      "id": 71,
+      "title": "Billionaires Are Selling Nvidia Stock and Buying a Stock-Split AI Stock Up 530% in 5 Years",
+      "summary": "Billionaires Are Selling Nvidia Stock and Buying a Stock-Split AI Stock Up 530% in 5 Years",
+      "category": "Finance",
+      "image": "images/finance/im11.jpg",
+      "importance": "medium",
+      "date": "2025-07-01T20:54:31.882414"
+    },
+    {
+      "image": "images/finance/im4.jpg",
+      "id": "6",
+      "title": "کارشناسان تاکید دارند بانک مرکزی در این شرایط باید برای حفظ ثبات اقتصادی و اعتماد عمومی، سیاست cهای انقباضی را در دستور کار خود قرار دهد",
+      "summary": "کارشناسان توصیه می‌کنند بانک مرکزی برای حفظ ثبات اقتصادی و اعتماد عمومی سیاست‌های انقباضی را در پیش گیرد.",
+      "category": "Finance",
+      "importance": "medium",
+      "date": "2025-07-05T02:22:30.749123"
+    },
+    {
+      "image": "images/finance/im10.jpg",
+      "id": "6",
+      "title": "Circle stock soars after IPO as stablecoin giant makes market debut",
+      "summary": "Circle's stock price increases significantly following its IPO, marking the public debut of the stablecoin company.",
+      "category": "Finance",
+      "importance": "medium",
+      "date": "2025-07-05T02:44:12.088796"
+    },
+    {
+      "id": 4,
+      "title": "Genworth Expects to Collect $750 Million on UK PPI Court Ruling",
+      "summary": "Genworth anticipates receiving $750 million following a favorable court ruling related to PPI in the UK.",
+      "category": "Finance",
+      "image": "images/finance/im15.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:06:16.303734"
+    },
+    {
+      "id": 6,
+      "title": "IMF Says Malawi in Arrears With Afreximbank Throughout Program",
+      "summary": "The IMF reports that Malawi is in arrears with Afreximbank throughout its program.",
+      "category": "Finance",
+      "image": "images/finance/im11.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:06:16.303734"
+    },
+    {
+      "id": 7,
+      "title": "India Gives $565 Million Credit Line to Maldives as Ties Reset",
+      "summary": "India extends a $565 million credit line to the Maldives as relations improve.",
+      "category": "Finance",
+      "image": "images/finance/im10.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:06:16.303734"
+    },
+    {
+      "id": 9,
+      "title": "Citadel’s Ubide Says ‘Now or Never’ for EU Rival to Treasuries",
+      "summary": "Citadel’s Ubide suggests it's a crucial moment for the EU to create a Treasury rival.",
+      "category": "Finance",
+      "image": "images/finance/im5.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:06:16.303734"
+    },
+    {
+      "id": 10,
+      "title": "High-Risk Currency Trading Is the New Meme Stock for This Retail Crowd",
+      "summary": "Retail investors are increasingly engaging in high-risk currency trading.",
+      "category": "Finance",
+      "image": "images/finance/im8.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:06:16.303734"
+    },
+    {
+      "id": 14,
+      "title": "در آخرین روز معاملاتی هفته گذشته، قیمت دلار آزاد با افزایش همراه شد، با این حال همچنان روند باثبات خود را حفظ کرد",
+      "summary": "On the last trading day of last week, the free dollar price increased, but it still maintained its stable trend.",
+      "category": "Finance",
+      "image": "images/finance/im2.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:06:16.303734"
+    },
+    {
+      "id": 18,
+      "title": "ساعاتی پس از اعلام آتش بس، رئیس کل بانک مرکزی برای تشریح اقدامات انجام شده طی روزهای جنگ در شبکه خبر حضور یافت.",
+      "summary": "Hours after the ceasefire was announced, the Governor of the Central Bank appeared on the news network to explain the measures taken during the war days.",
+      "category": "Finance",
+      "image": "images/finance/im5.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:06:16.303734"
+    },
+    {
+      "id": 25,
+      "title": "در شرایط پرتنشی که کشور با آن مواجه است، سیاستگذاری پولی از اهمیت خاصی برخوردار است.",
+      "summary": "In the tense situation that the country is facing, monetary policy is of particular importance.",
+      "category": "Finance",
+      "image": "images/finance/im1.jpg",
+      "importance": "High",
+      "date": "2025-07-26T20:06:16.303734"
+    },
+    {
+      "id": 31,
+      "title": "Fed's Kugler looks to hold rates steady and warns of higher inflation",
+      "summary": "Fed's Kugler favors maintaining stable interest rates while cautioning about potential inflation increases.",
+      "category": "Finance",
+      "image": "images/finance/im14.jpg",
+      "importance": "High",
+      "date": "2025-07-26T20:06:16.303734"
+    },
+    {
+      "id": 33,
+      "title": "Why Musk may be changing his tune on EV tax credits",
+      "summary": "Reasons behind Elon Musk's potential change in stance regarding electric vehicle tax credits.",
+      "category": "Finance",
+      "image": "images/finance/im12.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:06:16.303734"
+    },
+    {
+      "id": 34,
+      "title": "Robinhood exec talks retail investor strength, overnight trading",
+      "summary": "Robinhood executive discusses the influence of retail investors and the rise of overnight trading.",
+      "category": "Finance",
+      "image": "images/finance/im1.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:06:16.303734"
+    },
+    {
+      "id": 36,
+      "title": "Fed's Harker says its time for caution on monetary policy amid uncertainty",
+      "summary": "Fed's Harker advises a cautious approach to monetary policy amid current uncertainty.",
+      "category": "Finance",
+      "image": "images/finance/im12.jpg",
+      "importance": "High",
+      "date": "2025-07-26T20:06:16.303734"
+    },
+    {
+      "id": 37,
+      "title": "Fed's Schmid: uncomfortable with looking through tariff-driven price push",
+      "summary": "Fed's Schmid expresses concern about overlooking price increases caused by tariffs.",
+      "category": "Finance",
+      "image": "images/finance/im12.jpg",
+      "importance": "High",
+      "date": "2025-07-26T20:06:16.303734"
+    },
+    {
+      "id": 39,
+      "title": "Elon Musk gets more time to respond to US SEC lawsuit over Twitter stake",
+      "summary": "Elon Musk is granted additional time to respond to a lawsuit filed by the US SEC regarding his stake in Twitter.",
+      "category": "Finance",
+      "image": "images/finance/im13.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:06:16.303734"
+    },
+    {
+      "id": 41,
+      "title": "Mid-year check-in: How to audit your income & cash flow",
+      "summary": "Guidance on how to review and assess your income and cash flow at the mid-year point.",
+      "category": "Finance",
+      "image": "images/finance/im12.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:06:16.303734"
+    },
+    {
+      "id": 43,
+      "title": "Pandemic homebuyers now struggle to break even on sales",
+      "summary": "Homebuyers who purchased property during the pandemic now face challenges in breaking even when selling.",
+      "category": "Finance",
+      "image": "images/finance/im1.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:06:16.303734"
+    },
+    {
+      "id": 45,
+      "title": "When will mortgage rates go down to 5%?",
+      "summary": "Analysis of when mortgage rates may decrease to 5%.",
+      "category": "Finance",
+      "image": "images/finance/im9.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:06:16.303734"
+    },
+    {
+      "id": 46,
+      "title": "Why tariffs are expected to increase car insurance costs",
+      "summary": "Explanation of why tariffs are projected to lead to higher car insurance expenses.",
+      "category": "Finance",
+      "image": "images/finance/im13.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:06:16.303734"
+    },
+    {
+      "id": 47,
+      "title": "Tesla car insurance: How to avoid the sticker shock",
+      "summary": "Tips on how to avoid high costs of Tesla car insurance.",
+      "category": "Finance",
+      "image": "images/finance/im2.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:06:16.303734"
+    },
+    {
+      "id": 48,
+      "title": "CBO warns Trump's tax bill could add $2.4T to deficit",
+      "summary": "The Congressional Budget Office (CBO) warns that Trump's tax bill could increase the deficit by $2.4 trillion.",
+      "category": "Finance",
+      "image": "images/finance/im7.jpg",
+      "importance": "High",
+      "date": "2025-07-26T20:06:16.303734"
+    },
+    {
+      "id": 49,
+      "title": "The GOP's 'big, beautiful bill' would leave 10.9 million more uninsured: CBO",
+      "summary": "The CBO estimates that the Republican's bill would result in 10.9 million more uninsured individuals.",
+      "category": "Finance",
+      "image": "images/finance/im7.jpg",
+      "importance": "High",
+      "date": "2025-07-26T20:06:16.303734"
+    },
+    {
+      "id": 50,
+      "title": "Musk's 'KILL the BILL' screed hits Trump tax bill's progress",
+      "summary": "Musk's strong criticism of the tax bill impacts its progress.",
+      "category": "Finance",
+      "image": "images/finance/im15.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:06:16.303734"
+    },
+    {
+      "id": 51,
+      "title": "Will Trump's tax bill actually incentivize corporate growth?",
+      "summary": "An analysis of whether Trump's tax bill will genuinely encourage corporate growth.",
+      "category": "Finance",
+      "image": "images/finance/im1.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:06:16.303734"
+    },
+    {
+      "id": "3",
+      "title": "Genworth Expects to Collect $750 Million on UK PPI Court Ruling",
+      "summary": "Genworth anticipates receiving $750 million from a UK court ruling related to payment protection insurance (PPI).",
+      "category": "Finance",
+      "image": "images/finance/im5.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:16:34.537142"
+    },
+    {
+      "id": "6",
+      "title": "Citadel’s Ubide Says ‘Now or Never’ for EU Rival to Treasuries",
+      "summary": "Citadel's Ubide suggests it's a crucial moment for the EU to establish a rival to US Treasuries.",
+      "category": "Finance",
+      "image": "images/finance/im5.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:16:34.537142"
+    },
+    {
+      "id": "7",
+      "title": "High-Risk Currency Trading Is the New Meme Stock for This Retail Crowd",
+      "summary": "High-risk currency trading is becoming a popular trend among retail investors, similar to meme stocks.",
+      "category": "Finance",
+      "image": "images/finance/im15.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:16:34.537142"
+    },
+    {
+      "id": "11",
+      "title": "در آخرین روز معاملاتی هفته گذشته، قیمت دلار آزاد با افزایش همراه شد، با این حال همچنان روند باثبات خود را حفظ کرد.",
+      "summary": "On the last trading day of last week, the free dollar price increased, but still maintained its stable trend.",
+      "category": "Finance",
+      "image": "images/finance/im8.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:16:34.537142"
+    },
+    {
+      "id": "14",
+      "title": "دنیای اقتصاد: در حالی که سایه بیثباتیهای سیاسی و اقتصادی بر اقتصاد آمریکا سنگینی میکند و فضای جهانی تحت تاثیر جنگهای تجاری و تنشهای منطقهای، دستخوش نااطمینانی فزایندهای شده، سرمایهگذاران بینالمللی بهدنبال مقاصدی تازه، با ریسک کمتر و بازده بالاتر هستند.",
+      "summary": "As political and economic instability weighs on the US economy and the global environment is increasingly uncertain due to trade wars and regional tensions, international investors are looking for new destinations with lower risk and higher returns.",
+      "category": "Finance",
+      "image": "images/finance/im5.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:16:34.537142"
+    },
+    {
+      "id": "19",
+      "title": "دنیای اقتصاد؛ با عنایت به شرایط ویژه کشور و نظر به اختلال به وجود آمده در خدماترسانی دو بانک عامل سپه و پاسارگاد، بانک مرکزی در راستای کمک به اشخاص متأثر از این وضعیت با هماهنگی دادستانی محترم کل کشور از آن مرجع درخواست نمود تا اعمال محدودیتهای موضوع بندهای (الف) تا (د ) ماده ۵ مکرر قانون چک در خصوص چکهای صادره عهده دو بانک مذکور با تاریخ سررسید و برگشت ۲۴ خرداد لغایت ۷ تیر ۱۴۰۴، به مدت یکماه از تاریخ سررسید تعلیق گردد.",
+      "summary": "Given the special circumstances of the country and the disruption in the services of the two operating banks, Sepah and Pasargad, in order to help those affected by this situation, the Central Bank, in coordination with the Prosecutor General of the country, requested that the restrictions subject to paragraphs (a) to (d) of Article 5 of the Check Law be suspended for one month from the due date for checks issued to the aforementioned banks with a due date and return of June 24 to July 7, 2025.",
+      "category": "Finance",
+      "image": "images/finance/im7.jpg",
+      "importance": "High",
+      "date": "2025-07-26T20:16:34.537142"
+    },
+    {
+      "id": "27",
+      "title": "در شرایط پرتنشی که کشور با آن مواجه است، سیاستگذاری پولی از اهمیت خاصی برخوردار است.",
+      "summary": "Monetary policy is of particular importance in the tense situation that the country is facing.",
+      "category": "Finance",
+      "image": "images/finance/im10.jpg",
+      "importance": "High",
+      "date": "2025-07-26T20:16:34.537142"
+    },
+    {
+      "id": "29",
+      "title": "تجاوز نظامی اسرائیل به ایران، معادلات بازارهای جهانی و داخلی را تغییر داد. درحالیکه بسیاری از فعالان اقتصادی، با توجه به اخبار مثبت مذاکرات، روند دلار را کاهشی ارزیابی میکردند، این تجاوز نظامی معادلات بازار ارز تهران را نیز تغییر داد.",
+      "summary": "Israel's military aggression against Iran changed the equations of global and domestic markets. While many economic actors considered the dollar trend to be decreasing, given the positive news of the negotiations, this military aggression also changed the equations of the Tehran currency market.",
+      "category": "Finance",
+      "image": "images/finance/im1.jpg",
+      "importance": "High",
+      "date": "2025-07-26T20:16:34.537142"
+    },
+    {
+      "id": "31",
+      "title": "Circle stock soars after IPO as stablecoin giant makes market debut",
+      "summary": "Circle's stock price surges after its initial public offering (IPO), marking the market debut of the stablecoin giant.",
+      "category": "Finance",
+      "image": "images/finance/im6.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:16:34.537142"
+    },
+    {
+      "id": "34",
+      "title": "Fed's Kugler looks to hold rates steady and warns of higher inflation",
+      "summary": "A Federal Reserve official, Kugler, anticipates keeping interest rates steady while cautioning about the potential for increased inflation.",
+      "category": "Finance",
+      "image": "images/finance/im6.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:16:34.537142"
+    },
+    {
+      "id": "36",
+      "title": "Why Musk may be changing his tune on EV tax credits",
+      "summary": "Reasons behind Elon Musk's potential shift in stance regarding electric vehicle (EV) tax credits are explored.",
+      "category": "Finance",
+      "image": "images/finance/im2.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:16:34.537142"
+    },
+    {
+      "id": "37",
+      "title": "Robinhood exec talks retail investor strength, overnight trading",
+      "summary": "A Robinhood executive discusses the resilience of retail investors and the growing trend of overnight trading.",
+      "category": "Finance",
+      "image": "images/finance/im1.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:16:34.537142"
+    },
+    {
+      "id": "39",
+      "title": "Fed's Harker says its time for caution on monetary policy amid uncertainty",
+      "summary": "A Federal Reserve official, Harker, suggests exercising caution in monetary policy amid ongoing uncertainty.",
+      "category": "Finance",
+      "image": "images/finance/im11.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:16:34.537142"
+    },
+    {
+      "id": "40",
+      "title": "Fed's Schmid: uncomfortable with looking through tariff-driven price push",
+      "summary": "A Federal Reserve official, Schmid, expresses discomfort in overlooking price increases caused by tariffs.",
+      "category": "Finance",
+      "image": "images/finance/im1.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:16:34.537142"
+    },
+    {
+      "id": "42",
+      "title": "Elon Musk gets more time to respond to US SEC lawsuit over Twitter stake",
+      "summary": "Elon Musk is granted additional time to respond to a lawsuit filed by the US Securities and Exchange Commission (SEC) regarding his stake in Twitter.",
+      "category": "Finance",
+      "image": "images/finance/im4.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:16:34.537142"
+    },
+    {
+      "id": "44",
+      "title": "Mid-year check-in: How to audit your income & cash flow",
+      "summary": "Guidance is provided on conducting a mid-year assessment of one's income and cash flow.",
+      "category": "Finance",
+      "image": "images/finance/im8.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:16:34.537142"
+    },
+    {
+      "id": "47",
+      "title": "Pandemic homebuyers now struggle to break even on sales",
+      "summary": "Homebuyers during the pandemic era now encounter difficulties in recouping their investments upon selling their properties.",
+      "category": "Finance",
+      "image": "images/finance/im5.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:16:34.537142"
+    },
+    {
+      "id": "49",
+      "title": "When will mortgage rates go down to 5%?",
+      "summary": "A forecast is provided regarding the potential timeline for mortgage rates to decrease to 5%.",
+      "category": "Finance",
+      "image": "images/finance/im6.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:16:34.537142"
+    },
+    {
+      "id": "50",
+      "title": "Why tariffs are expected to increase car insurance costs",
+      "summary": "An explanation is given regarding the anticipated impact of tariffs on escalating car insurance expenses.",
+      "category": "Finance",
+      "image": "images/finance/im7.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:16:34.537142"
+    },
+    {
+      "id": "51",
+      "title": "Tesla car insurance: How to avoid the sticker shock",
+      "summary": "Tips and strategies are offered to mitigate the potential shock of high costs associated with Tesla car insurance.",
+      "category": "Finance",
+      "image": "images/finance/im7.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:16:34.537142"
+    },
+    {
+      "id": "52",
+      "title": "Does car insurance cover flood damage?",
+      "summary": "Clarification is provided regarding the extent to which car insurance covers damage caused by flooding.",
+      "category": "Finance",
+      "image": "images/finance/im8.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:16:34.537142"
+    },
+    {
+      "id": "53",
+      "title": "When is the Fed's next meeting?",
+      "summary": "Information is provided regarding the date and time of the Federal Reserve's upcoming meeting.",
+      "category": "Finance",
+      "image": "images/finance/im14.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:16:34.537142"
+    },
+    {
+      "id": "54",
+      "title": "What happens to credit card debt when you die?",
+      "summary": "An explanation is provided regarding the disposition of credit card debt upon an individual's death.",
+      "category": "Finance",
+      "image": "images/finance/im6.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:16:34.537142"
+    },
+    {
+      "id": "55",
+      "title": "When will I get my Social Security check?",
+      "summary": "Information is provided regarding the expected timing of Social Security check distribution.",
+      "category": "Finance",
+      "image": "images/finance/im15.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:16:34.537142"
+    },
+    {
+      "id": "56",
+      "title": "CBO warns Trump's tax bill could add $2.4T to deficit",
+      "summary": "The Congressional Budget Office (CBO) cautions that Trump's tax bill could increase the deficit by $2.4 trillion.",
+      "category": "Finance",
+      "image": "images/finance/im2.jpg",
+      "importance": "High",
+      "date": "2025-07-26T20:16:34.537142"
+    },
+    {
+      "id": "58",
+      "title": "Musk's 'KILL the BILL' screed hits Trump tax bill's progress",
+      "summary": "Musk's strong criticism of the bill negatively affects the advancement of Trump's tax bill.",
+      "category": "Finance",
+      "image": "images/finance/im3.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:16:34.537142"
+    },
+    {
+      "id": "59",
+      "title": "Will Trump's tax bill actually incentivize corporate growth?",
+      "summary": "An assessment is conducted regarding the potential of Trump's tax bill to incentivize corporate growth.",
+      "category": "Finance",
+      "image": "images/finance/im15.jpg",
+      "importance": "Medium",
+      "date": "2025-07-26T20:16:34.537142"
+    },
+    {
+      "id": "64",
+      "title": "Analyst Report: Crowdstrike Holdings Inc",
+      "summary": "This entry signifies the presence of an analyst report specifically focused on Crowdstrike Holdings Inc.",
+      "category": "Finance",
+      "image": "images/finance/im15.jpg",
+      "importance": "Low",
+      "date": "2025-07-26T20:16:34.537142"
+    },
+    {
+      "id": "65",
+      "title": "Billionaires Are Selling Nvidia Stock and Buying a Stock-Split AI Stock Up 530% in 5 Years",
+      "summary": "Billionaires are divesting from Nvidia stock and investing in a stock-split AI stock that has surged 530% in five years.",
+      "category": "Finance",
+      "image": "images/finance/im13.jpg",
+      "importance": "High",
+      "date": "2025-07-26T20:16:34.537142"
+    },
+    {
+      "id": "0",
+      "title": "How Trump’s Attacks on the Fed Chair Have Intensified",
+      "summary": "President Trump has targeted Jerome H. Powell on more than 70 separate occasions, more than half of them since April. His statements fall into four broad categories.",
+      "category": "Finance",
+      "image": "images/finance/im2.jpg",
+      "importance": "High",
+      "date": "2025-07-27T00:54:07.837273"
+    },
+    {
+      "id": "1",
+      "title": "Trump Spars With Powell Over Fed’s Costly Renovations in Rare Visit",
+      "summary": "The administration has repeatedly criticized Jerome H. Powell, the chair of the central bank, for his handling of the economy and the cost of work on the institution’s headquarters.",
+      "category": "Finance",
+      "image": "images/finance/im14.jpg",
+      "importance": "Medium",
+      "date": "2025-07-27T00:54:07.837273"
+    },
+    {
+      "id": "5",
+      "title": "White House Keeps Pressure on Powell Over Rate Cuts and Renovations",
+      "summary": "President Trump and his top aides have criticized Jerome H. Powell, the Fed chair, for his management of both the economy and a $2.5 billion revamp of the central bank’s headquarters.",
+      "category": "Finance",
+      "image": "images/finance/im1.jpg",
+      "importance": "High",
+      "date": "2025-07-27T01:04:13.754327"
+    },
+    {
+      "id": "0",
+      "title": "Powell’s Hawkish Tilt Sets Up Greater Tension With White House",
+      "summary": "Powell's stance creates potential friction between the Federal Reserve and the White House.",
+      "category": "Finance",
+      "image": "images/finance/im5.jpg",
+      "importance": "High",
+      "date": "2025-07-31T11:16:27.937835"
+    },
+    {
+      "id": "3",
+      "title": "Ferrari Earnings Rise as Luxury-Car Maker Shrugs Off Tariffs",
+      "summary": "Ferrari demonstrates resilience to tariffs with increased earnings.",
+      "category": "Finance",
+      "image": "images/finance/im7.jpg",
+      "importance": "Medium",
+      "date": "2025-07-31T11:16:27.937835"
+    },
+    {
+      "id": "4",
+      "title": "Dollar Wraps Up Best Month of Trump’s Term as Economy Holds Up",
+      "summary": "Dollar's performance indicates stability within the economy during Trump's presidency.",
+      "category": "Finance",
+      "image": "images/finance/im7.jpg",
+      "importance": "Medium",
+      "date": "2025-07-31T11:16:27.937835"
+    },
+    {
+      "id": "5",
+      "title": "Powell’s Message Raises the Stakes for Jobs Report",
+      "summary": "Powell's communication intensifies the significance of the upcoming jobs report.",
+      "category": "Finance",
+      "image": "images/finance/im10.jpg",
+      "importance": "Medium",
+      "date": "2025-07-31T11:16:27.937835"
+    },
+    {
+      "id": "10",
+      "title": "US Bond Traders Eye Inflation for Steer on September Rate Cut",
+      "summary": "US bond traders monitor inflation data to anticipate potential rate cuts in September.",
+      "category": "Finance",
+      "image": "images/finance/im13.jpg",
+      "importance": "Medium",
+      "date": "2025-07-31T11:16:27.937835"
+    },
+    {
+      "id": "0",
+      "title": "Powell’s Hawkish Tilt Sets Up Greater Tension With White House",
+      "summary": "Federal Reserve Chairman Jerome Powell's hawkish stance on monetary policy is likely to increase friction with the White House.",
+      "category": "Finance",
+      "image": "images/finance/im12.jpg",
+      "importance": "High",
+      "date": "2025-07-31T11:17:07.566724"
+    },
+    {
+      "id": "3",
+      "title": "Ferrari Earnings Rise as Luxury-Car Maker Shrugs Off Tariffs",
+      "summary": "Ferrari's earnings increase despite tariffs, demonstrating the luxury car maker's resilience.",
+      "category": "Finance",
+      "image": "images/finance/im14.jpg",
+      "importance": "Medium",
+      "date": "2025-07-31T11:17:07.566724"
+    },
+    {
+      "id": "4",
+      "title": "Dollar Wraps Up Best Month of Trump’s Term as Economy Holds Up",
+      "summary": "The US dollar performs strongly, marking its best month during Trump's presidency, as the economy remains stable.",
+      "category": "Finance",
+      "image": "images/finance/im3.jpg",
+      "importance": "Medium",
+      "date": "2025-07-31T11:17:07.566724"
+    },
+    {
+      "id": "5",
+      "title": "Powell’s Message Raises the Stakes for Jobs Report",
+      "summary": "Jerome Powell's recent communication increases the importance of the upcoming jobs report.",
+      "category": "Finance",
+      "image": "images/finance/im11.jpg",
+      "importance": "Medium",
+      "date": "2025-07-31T11:17:07.566724"
+    },
+    {
+      "id": "3",
+      "title": "Ferrari Earnings Rise as Luxury-Car Maker Shrugs Off Tariffs",
+      "summary": "Ferrari profits despite tariffs.",
+      "category": "Finance",
+      "image": "images/finance/im8.jpg",
+      "importance": "Medium",
+      "date": "2025-07-31T11:18:01.838000"
+    },
+    {
+      "id": "4",
+      "title": "Dollar Wraps Up Best Month of Trump’s Term as Economy Holds Up",
+      "summary": "Dollar strengthens amid stable economy.",
+      "category": "Finance",
+      "image": "images/finance/im7.jpg",
+      "importance": "Medium",
+      "date": "2025-07-31T11:18:01.838000"
+    },
+    {
+      "id": "10",
+      "title": "US Bond Traders Eye Inflation for Steer on September Rate Cut",
+      "summary": "Bond traders monitor inflation for rate cut clues.",
+      "category": "Finance",
+      "image": "images/finance/im13.jpg",
+      "importance": "Medium",
+      "date": "2025-07-31T11:18:01.838000"
+    },
+    {
+      "id": "12",
+      "title": "Bangladesh Holds Key Rate Steady Amid Tariff Uncertainty",
+      "summary": "Bangladesh keeps interest rates stable.",
+      "category": "Finance",
+      "image": "images/finance/im9.jpg",
+      "importance": "Medium",
+      "date": "2025-07-31T11:18:01.838000"
+    },
+    {
+      "id": "3",
+      "title": "Ferrari Earnings Rise as Luxury-Car Maker Shrugs Off Tariffs",
+      "summary": "Ferrari's earnings increase despite tariffs, demonstrating the brand's resilience.",
+      "category": "Finance",
+      "image": "images/finance/im13.jpg",
+      "importance": "Medium",
+      "date": "2025-07-31T11:18:08.184659"
+    },
+    {
+      "id": "4",
+      "title": "Dollar Wraps Up Best Month of Trump’s Term as Economy Holds Up",
+      "summary": "The US dollar performs strongly, recording its best month during Trump's presidency due to the stable economy.",
+      "category": "Finance",
+      "image": "images/finance/im10.jpg",
+      "importance": "Medium",
+      "date": "2025-07-31T11:18:08.184659"
+    },
+    {
+      "id": "12",
+      "title": "Bangladesh Holds Key Rate Steady Amid Tariff Uncertainty",
+      "summary": "Bangladesh maintains its key interest rate due to uncertainty surrounding tariffs.",
+      "category": "Finance",
+      "image": "images/finance/im7.jpg",
+      "importance": "Low",
+      "date": "2025-07-31T11:18:08.184659"
+    },
+    {
+      "id": "0",
+      "title": "Powell’s Hawkish Tilt Sets Up Greater Tension With White House",
+      "summary": "Powell's stance creates potential conflict with the White House.",
+      "category": "Finance",
+      "image": "images/finance/im7.jpg",
+      "importance": "High",
+      "date": "2025-07-31T11:18:57.236597"
+    },
+    {
+      "id": "3",
+      "title": "Ferrari Earnings Rise as Luxury-Car Maker Shrugs Off Tariffs",
+      "summary": "Ferrari's earnings increase despite tariffs.",
+      "category": "Finance",
+      "image": "images/finance/im8.jpg",
+      "importance": "Medium",
+      "date": "2025-07-31T11:18:57.236597"
+    },
+    {
+      "id": "4",
+      "title": "Dollar Wraps Up Best Month of Trump’s Term as Economy Holds Up",
+      "summary": "The dollar performs strongly as the economy remains stable.",
+      "category": "Finance",
+      "image": "images/finance/im13.jpg",
+      "importance": "Medium",
+      "date": "2025-07-31T11:18:57.236597"
+    },
+    {
+      "id": "5",
+      "title": "Powell’s Message Raises the Stakes for Jobs Report",
+      "summary": "Powell's communication increases the importance of the upcoming jobs report.",
+      "category": "Finance",
+      "image": "images/finance/im11.jpg",
+      "importance": "Medium",
+      "date": "2025-07-31T11:18:57.236597"
+    },
+    {
+      "id": "10",
+      "title": "US Bond Traders Eye Inflation for Steer on September Rate Cut",
+      "summary": "US bond traders are monitoring inflation for indications on a potential rate cut in September.",
+      "category": "Finance",
+      "image": "images/finance/im2.jpg",
+      "importance": "Medium",
+      "date": "2025-07-31T11:18:57.236597"
+    }
+  ]
 }

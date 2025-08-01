@@ -21,7 +21,7 @@ def analyze(data: str):
             "remember, these are the only categories that you can assign, and each answer can only have one category: [Economy, Finance, Markets, Investing, Technology, Science]"
 '''
         )
-        print("gemini response: ", response)
+        #print("gemini response: ", response)
         return response
 
     except Exception as e:

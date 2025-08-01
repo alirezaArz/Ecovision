@@ -16,7 +16,7 @@ class Nav():
         try:
             with open(os.path.join(Navpath, f"{name}.json"), 'r', encoding='utf-8') as file:
                 self.data = json.load(file)
-                return (self.data)
+                return self.data
         except:
             print(
                 f"Nav : {name}.json is not where it sould be at {Navpath}")
@@ -184,14 +184,6 @@ class Nav():
             
         except Exception as e:
             print(f"no valid value in {OpPath}/{id}/items.json['dates']")
-
-        
-        
-            
-            
-            
-            
         
         
 nav = Nav()
-# nav.separate()
