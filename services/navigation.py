@@ -52,7 +52,21 @@ class Nav():
 
     def separate(self):
         print("navigating data")
-        self.last_analyze = self.Navread('LastAnalyze')
+        #----------------------------------------------------------------
+
+        lastlist = self.Navread("LastAnalyze")["newsData"]
+        seen_titles = []
+        clean_list = []
+
+        for news in lastlist:
+            title = news["title"]
+            if title not in seen_titles:
+                seen_titles.append(title)
+                clean_list.append(news)
+
+        self.last_analyze = {"newsData":clean_list}  
+        #----------------------------------------------------------
+        
         for item in self.last_analyze["newsData"]:
             if item["category"] == "Economy":
                 self.saveNavigation(item, 'SnEconomy')
