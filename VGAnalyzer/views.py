@@ -158,12 +158,12 @@ def control_view(request):
             elif code == '502':  # Gemini AI Toggle
                 if status == 'on':
                     snail.snail.activate('gemini', params)
-                    analyze.az.gemeni_active = True
-                    print("gemeni activated")
+                    analyze.az.gemini_active = True
+                    print("gemini activated")
                 elif status == 'off':
                     snail.snail.deactivate('gemini')
-                    analyze.az.gemeni_active = False
-                    print("gemeni deactivated")
+                    analyze.az.gemini_active = False
+                    print("gemini deactivated")
 
             elif code == '503':  # Local AI Toggle
                 if status == 'on':
@@ -214,6 +214,6 @@ def control_view(request):
             return JsonResponse({'status': 'success', 'message': response_message})
 
         except json.JSONDecodeError:
-            return JsonResponse({'status': 'error', 'message': 'Invalid JSON in request body.'}, status=400)    
+            return JsonResponse({'status': 'error', 'message': 'Invalid JSON in request body.'}, status=400)
     else:
         return JsonResponse({'status': 'error', 'message': 'Only POST requests are allowed for control_view.'}, status=405)

@@ -6,7 +6,7 @@ from services.Scrapers import dnsd as dnsd
 from services.Scrapers import bonbast as bonbast
 from services.Scrapers import bloomberg
 from services.APIs import gecko as gecko
-from services.External_AI_Models import gemeni as gemeni
+from services.External_AI_Models import gemini as gemini
 from services import analyze as analyze
 import os
 import random
@@ -291,7 +291,7 @@ class Snail():
             durate_min = min(self.durations.values())
             if durate_min < 60:
                 self.duration_min = durate_min
-                self.duration_min_unit = "seconsd"
+                self.duration_min_unit = "seconds"
             elif 60 <= durate_min < 3600:
                 self.duration_min = durate_min / 60
                 self.duration_min_unit = "minutes"

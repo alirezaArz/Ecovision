@@ -12,7 +12,7 @@ from services.Scrapers import nytimes as nytimes
 from services.Scrapers import dnsd as dnsd
 from services.Scrapers import bonbast as bonbast
 from services.APIs import gecko as gecko
-from services.External_AI_Models import gemeni as gemeni
+from services.External_AI_Models import gemini as gemini
 
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 Navpath = os.path.join(project_root, 'Data', 'Navigations')

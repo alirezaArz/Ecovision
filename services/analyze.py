@@ -7,7 +7,7 @@ from services import systems as system
 from datetime import datetime, timedelta, timezone
 from services.External_AI_Models import extract as extract
 from services import navigation as navigation
-from services.External_AI_Models import gemeni as gemeni
+from services.External_AI_Models import gemini as gemini
 from services.APIs import gecko as gecko
 from services.Data.markdowns import MkPriceOp as prcmarkdown
 from services.Scrapers import bonbast as bonbast
@@ -24,9 +24,9 @@ class Analyze():
     def __init__(self):
         self.priceAnalyzeActive = False
         self.priceAnalyze_inprocess = False
-        self.gemeni_inprocess = False
+        self.gemini_inprocess = False
         self.localai_inprocess = False
-        self.gemeni_active = False
+        self.gemini_active = False
         self.localai_active = False
         self.privateLoopWating = False
         self.snailActive = False
@@ -56,11 +56,12 @@ class Analyze():
                         if element["id"] == itemId:
                             data = element
                         else:
-                            print(f"item with id of {item["id"]} doesn't have any property or data in queue.json")
+                            print(
+                                f"item with id of {item["id"]} doesn't have any property or data in queue.json")
                             data = None
                     if data:
-                        if (self.gemeni_active and target == "none") or target == "external":
-                            while self.gemeni_inprocess:
+                        if (self.gemini_active and target == "none") or target == "external":
+                            while self.gemini_inprocess:
                                 print(
                                     "External Ai is buissy, wating for 10 seconds")
                                 time.sleep(10)
@@ -106,21 +107,22 @@ class Analyze():
                     print(f"found an item with id of: {item["id"]}")
                     new_list = []
                     new_result = json.loads(item["response"])
-                    
+
                     for it in new_result:
                         if it != 'id':
                             new_list.append(new_result[it])
                     lastResult = system.vgsy.Navread("LastAnalyze")
                     lastResult["newsData"][:] = new_list
                     with open(os.path.join(Navpath, "LastAnalyze.json"), 'w', encoding='utf-8') as file:
-                        json.dump(lastResult, file, indent=4, ensure_ascii=False)
-            
+                        json.dump(lastResult, file, indent=4,
+                                  ensure_ascii=False)
+
                     navigation.nav.separate()
                     self.clearcache(item["id"])
                 else:
-                    print(f"there is an item with id of {item["id"]} that doesnt have any parrent in status local pendings")
+                    print(
+                        f"there is an item with id of {item["id"]} that doesnt have any parrent in status local pendings")
                     self.clearOutput(item["id"])
-                    
 
     def clearcache(self, id):
         for item in self.status:
@@ -251,7 +253,6 @@ class Analyze():
             print(f"item with id of ({data["id"]}) has been sent to Local AI")
             self.privateLoopWating = True
             self.createPrivateLoop()
-        
 
     # /home/alireza/PYTHON/VGAnalyzer/services/Local_AI_Models/InputData/news.json
 
@@ -264,21 +265,21 @@ class Analyze():
             self.checkLocalOutput()
 
     def geminiAnalyze(self, data):
-        self.gemeni_inprocess = True
+        self.gemini_inprocess = True
         try:
             print("data has been sent to External AI")
-            self.result = gemeni.analyze(data)
+            self.result = gemini.analyze(data)
             if self.result != None:
                 extract.ex.geminiMx1(self.result)
             else:
                 print(f"analyze failed canceled saving")
-                self.gemeni_inprocess = False
+                self.gemini_inprocess = False
                 return False
         except Exception as e:
             print(f"analyze failed canceled saving: {e}")
-            self.gemeni_inprocess = False
+            self.gemini_inprocess = False
             return False
-        self.gemeni_inprocess = False
+        self.gemini_inprocess = False
         return True
 
     def priceAnalyze(self, target=False):
@@ -287,7 +288,8 @@ class Analyze():
                 self.priceAnalyze_inprocess = True
                 data = []
                 geckoData = gecko.read("FullTimeCrypto")["CryptoData"]
-                bonbastData = bonbast.load("FullTimeCurrency.json")["PriceData"]
+                bonbastData = bonbast.load("FullTimeCurrency.json")[
+                    "PriceData"]
 
                 cryptoLast = geckoData[-1]
                 bonbastLast = geckoData[-1]
@@ -302,7 +304,7 @@ class Analyze():
                     geckoData[:-1],
                     key=lambda item: abs(
                         (cryptoLastTime -
-                        datetime.strptime(item["time"], "%Y-%m-%d %H:%M:%S"))
+                         datetime.strptime(item["time"], "%Y-%m-%d %H:%M:%S"))
                         - target_duration
                     ),
                 )
@@ -310,7 +312,7 @@ class Analyze():
                     bonbastData[:-1],
                     key=lambda item: abs(
                         (bonbastLastTime -
-                        datetime.strptime(item["time"], "%Y-%m-%d %H:%M:%S"))
+                         datetime.strptime(item["time"], "%Y-%m-%d %H:%M:%S"))
                         - target_duration
                     ),
                 )
@@ -320,16 +322,17 @@ class Analyze():
                 data.append(cryptoLast)
                 data.append(bonbastLast)
 
-                GeminiResponse = gemeni.priceDetermine(data)
+                GeminiResponse = gemini.priceDetermine(data)
                 if GeminiResponse and GeminiResponse.candidates:
                     try:
-                        date = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+                        date = datetime.now(timezone.utc).strftime(
+                            "%Y-%m-%d %H:%M:%S")
                         mdText = GeminiResponse.text
                         prcmarkdown.priceOp(mdText, date)
                         navigation.nav.saveOpinion("PriceOp", date, mdText)
                     except Exception as e:
                         print(f"Failed to extract and save opinion: {e}")
                 self.priceAnalyze_inprocess = False
-    
+
 
 az = Analyze()
