@@ -1,6 +1,0 @@
-django-cors-headers
-markdown
-django-browser-reload
-selenium
-halo
-openai

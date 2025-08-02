@@ -275,6 +275,15 @@
             "image": "images/markets/im9.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
+        },
+        {
+            "id": "6",
+            "title": "Trade War Turmoil, Rising Unemployment Send Markets Diving",
+            "summary": "Trade war and unemployment negatively impact markets.",
+            "category": "Markets",
+            "image": "images/markets/im5.jpg",
+            "importance": "High",
+            "date": "2025-08-02T21:14:39.185502"
         }
     ]
 }
