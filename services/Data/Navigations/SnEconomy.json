@@ -1886,6 +1886,33 @@
             "image": "images/economy/im24.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
+        },
+        {
+            "id": "1",
+            "title": "OPEC+ Agrees in Principle to Another Bumper Supply Increase",
+            "summary": "OPEC+ agrees to increase supply.",
+            "category": "Economy",
+            "image": "images/economy/im20.jpg",
+            "importance": "High",
+            "date": "2025-08-02T21:14:39.185502"
+        },
+        {
+            "id": "2",
+            "title": "Iran Says It’s Close to Resolving Gas Export Issues With Iraq",
+            "summary": "Iran is nearing resolution of gas export issues with Iraq.",
+            "category": "Economy",
+            "image": "images/economy/im6.jpg",
+            "importance": "Medium",
+            "date": "2025-08-02T21:14:39.185502"
+        },
+        {
+            "id": "3",
+            "title": "Charting the Global Economy: US Job Market Wavers in Cue for Fed",
+            "summary": "US Job Market is uncertain and relates to the Federal Reserve.",
+            "category": "Economy",
+            "image": "images/economy/im9.jpg",
+            "importance": "Medium",
+            "date": "2025-08-02T21:14:39.185502"
         }
     ]
 }

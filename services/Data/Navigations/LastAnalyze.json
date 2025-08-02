@@ -2,75 +2,66 @@
     "newsData": [
         {
             "id": "0",
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
+            "title": "BOE Is Probably About to Cut Rates Despite a Spike in Inflation",
+            "summary": "Bank of England is considering cutting rates even with rising inflation.",
+            "category": "Finance",
+            "image": "images/finance/im7.jpg",
             "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
+            "date": "2025-08-02T21:14:39.185502"
         },
         {
             "id": "1",
-            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
-            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
-            "category": "Finance",
-            "image": "images/finance/im13.jpg",
+            "title": "OPEC+ Agrees in Principle to Another Bumper Supply Increase",
+            "summary": "OPEC+ agrees to increase supply.",
+            "category": "Economy",
+            "image": "images/economy/im20.jpg",
             "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
+            "date": "2025-08-02T21:14:39.185502"
         },
         {
             "id": "2",
-            "title": "Trump, Claiming Weak Jobs Numbers Were ‘Rigged,’ Moves to Fire Labor Official",
-            "summary": "Economists said ousting the head of the Bureau of Labor Statistics could undermine confidence in government economic data.",
+            "title": "Iran Says It’s Close to Resolving Gas Export Issues With Iraq",
+            "summary": "Iran is nearing resolution of gas export issues with Iraq.",
             "category": "Economy",
-            "image": "images/economy/im17.jpg",
+            "image": "images/economy/im6.jpg",
             "importance": "Medium",
-            "date": "2025-08-01T22:48:00.988602"
+            "date": "2025-08-02T21:14:39.185502"
         },
         {
             "id": "3",
-            "title": "How Tariffs Raise Costs for Farmers, Making Food More Expensive",
-            "summary": "The latest round of tariffs is likely to make agricultural production even more expensive and, potentially, limit access to goods not produced in the United States.",
+            "title": "Charting the Global Economy: US Job Market Wavers in Cue for Fed",
+            "summary": "US Job Market is uncertain and relates to the Federal Reserve.",
             "category": "Economy",
-            "image": "images/economy/im29.jpg",
+            "image": "images/economy/im9.jpg",
             "importance": "Medium",
-            "date": "2025-08-01T22:48:00.988602"
+            "date": "2025-08-02T21:14:39.185502"
         },
         {
             "id": "4",
-            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
-            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
-            "category": "Economy",
-            "image": "images/economy/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
+            "title": "IMF Relaxes Argentina’s Reserves Target by $5 Billion in 2025",
+            "summary": "IMF is easing Argentina's reserve targets.",
+            "category": "Finance",
+            "image": "images/finance/im6.jpg",
+            "importance": "Medium",
+            "date": "2025-08-02T21:14:39.185502"
         },
         {
             "id": "5",
-            "title": "Federal Government Shed 12,000 Jobs in July",
-            "summary": "The U.S. government has lost 84,000 jobs since January as the Trump administration aggressively reduces the work force.",
-            "category": "Economy",
-            "image": "images/economy/im25.jpg",
+            "title": "Trump Momentum Drives Stablecoin Urgency in Asian Financial Hubs",
+            "summary": "Trump's momentum is driving stablecoin usage in Asian financial hubs.",
+            "category": "Finance",
+            "image": "images/finance/im13.jpg",
             "importance": "Medium",
-            "date": "2025-08-01T22:48:00.988602"
+            "date": "2025-08-02T21:14:39.185502"
         },
         {
             "id": "6",
-            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
-            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
-            "category": "Economy",
-            "image": "images/economy/im24.jpg",
+            "title": "Trade War Turmoil, Rising Unemployment Send Markets Diving",
+            "summary": "Trade war and unemployment negatively impact markets.",
+            "category": "Markets",
+            "image": "images/markets/im5.jpg",
             "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": "7",
-            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
-            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
-            "category": "Finance",
-            "image": "images/finance/im1.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
+            "date": "2025-08-02T21:14:39.185502"
         }
     ]
 }

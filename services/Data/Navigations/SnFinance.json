@@ -1034,6 +1034,33 @@
             "image": "images/finance/im1.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
+        },
+        {
+            "id": "0",
+            "title": "BOE Is Probably About to Cut Rates Despite a Spike in Inflation",
+            "summary": "Bank of England is considering cutting rates even with rising inflation.",
+            "category": "Finance",
+            "image": "images/finance/im7.jpg",
+            "importance": "High",
+            "date": "2025-08-02T21:14:39.185502"
+        },
+        {
+            "id": "4",
+            "title": "IMF Relaxes Argentina’s Reserves Target by $5 Billion in 2025",
+            "summary": "IMF is easing Argentina's reserve targets.",
+            "category": "Finance",
+            "image": "images/finance/im6.jpg",
+            "importance": "Medium",
+            "date": "2025-08-02T21:14:39.185502"
+        },
+        {
+            "id": "5",
+            "title": "Trump Momentum Drives Stablecoin Urgency in Asian Financial Hubs",
+            "summary": "Trump's momentum is driving stablecoin usage in Asian financial hubs.",
+            "category": "Finance",
+            "image": "images/finance/im13.jpg",
+            "importance": "Medium",
+            "date": "2025-08-02T21:14:39.185502"
         }
     ]
 }

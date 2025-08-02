@@ -1,7 +1,8 @@
 {
     "memoId": [
         9317,
-        123887059
+        123887059,
+        569336756
     ],
     "localPending": [],
     "Status": [
@@ -18,6 +19,14 @@
             "modifier": "nyTimes",
             "status": "done",
             "modified date": "2025-08-01 22:47:17",
+            "external model": "verified",
+            "local model": "undefined"
+        },
+        {
+            "id": 569336756,
+            "modifier": "bloomberg",
+            "status": "done",
+            "modified date": "2025-08-02 21:14:00",
             "external model": "verified",
             "local model": "undefined"
         }
