@@ -2,3 +2,4 @@ gmkey.json
 temp.py
 model.json
 /env
+__pycache__/
