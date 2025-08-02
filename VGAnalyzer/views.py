@@ -28,7 +28,7 @@ def getCryptoData(request):
 
 
 @csrf_exempt
-def getNewsData(request, title="SnOutsite"):
+def getNewsData(request, title="SnOutput"):
     news_data = systems.vgsy.Navread(title)
     return JsonResponse(news_data, safe=False)
 

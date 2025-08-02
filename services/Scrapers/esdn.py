@@ -20,7 +20,7 @@ options.add_argument("--headless")
 
 def main():
     dic = {}
-    current_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     dic["date"] = current_time
     driver = webdriver.Chrome()
     driver.get("https://www.eghtesadnews.com/")
@@ -53,7 +53,7 @@ def main():
 
 def search(inp_arg):
     dic = {}
-    current_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     dic["date"] = current_time
     driver = webdriver.Firefox()
     driver.get("https://www.eghtesadnews.com/newsstudios/search")
@@ -134,9 +134,6 @@ a2 = {
 
 # -------test--------
 
-#analyze.az.sendtoQueue(a2, "esdn", "2025-07-27 01:16:29")
+# analyze.az.sendtoQueue(a2, "esdn", "2025-07-27 01:16:29")
 
 # to test the analyze proccess just  uncomment the comment above and after a second comment it again real quick
-
-
-

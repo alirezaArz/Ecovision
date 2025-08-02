@@ -19,7 +19,7 @@ options.add_argument("--headless")
 
 def main():
     dic = {}
-    current_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     dic["date"] = current_time
     driver = webdriver.Firefox()
     driver.get("https://finance.yahoo.com/")

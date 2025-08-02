@@ -40,8 +40,8 @@ def main():
         change.remove('Code Currency Sell Buy')
 
     result = {}
-    result["date"] = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
-    
+    result["date"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
     for item_line in change:
         parts = item_line.split(' ')
 
@@ -52,9 +52,9 @@ def main():
         sell = parts[-2]
         name_parts = parts[1:-2]
         name = " ".join(name_parts)
-        
+
         result[code] = {'name': name, 'buy': buy, 'sell': sell}
-        
+
     addFullTime(result)
     save(result)
 
@@ -77,7 +77,7 @@ def save(new_data):
 
 def addFullTime(data):
     LastData = load("FullTimeCurrency.json")
-    
+
     if LastData["PriceData"]:
         if LastData["PriceData"][-1]["time"][:10] == data["time"][:10]:
             LastData["PriceData"][-1] = data
@@ -90,7 +90,6 @@ def addFullTime(data):
         json.dump(LastData, file, indent=4, ensure_ascii=False)
 
 
-
 def load(filename="ScBonbast.json"):
     try:
         with open(os.path.join(DATA_PATH, filename), "r", encoding="utf-8") as l:
@@ -99,4 +98,3 @@ def load(filename="ScBonbast.json"):
     except Exception as e:
         print(
             f"bonbast : {filename} is not where it sould be at {DATA_PATH}   ,,, : {e}")
-

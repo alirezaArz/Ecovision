@@ -128,10 +128,10 @@ class Analyze():
     def clearcache(self, id):
         for item in self.status:
             if item["id"] == id:
-                #del self.status[self.status.index(item)]
+                # del self.status[self.status.index(item)]
                 item["status"] = "done"
                 item["local model"] = "verified"
-                #del self.memoId[self.memoId.index(id)]
+                # del self.memoId[self.memoId.index(id)]
                 del self.localPending[self.localPending.index(id)]
                 self.saveStatus(self.status)
                 print(f" item {id} has been removed from status.json")
@@ -328,7 +328,7 @@ class Analyze():
                 GeminiResponse = gemini.priceDetermine(data)
                 if GeminiResponse and GeminiResponse.candidates:
                     try:
-                        date = datetime.now(timezone.utc).strftime(
+                        date = datetime.now().strftime(
                             "%Y-%m-%d %H:%M:%S")
                         mdText = GeminiResponse.text
                         prcmarkdown.priceOp(mdText, date)

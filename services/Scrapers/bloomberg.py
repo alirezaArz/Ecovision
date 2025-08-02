@@ -20,7 +20,7 @@ DATA_PATH = os.path.join(BASE_DIR, "scraped")
 
 def main():
     dic = {}
-    current_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     dic["date"] = current_time
     driver = webdriver.Chrome()
     driver.get("https://www.bloomberg.com/economics")
@@ -89,7 +89,7 @@ def main():
 
 def search(inp_arg: str):
     dic = {}
-    current_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     dic["date"] = current_time
     driver = webdriver.Firefox()
     arg = inp_arg.replace(" ", "%20")

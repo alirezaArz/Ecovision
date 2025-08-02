@@ -22,7 +22,7 @@ options.add_argument("--headless")
 
 def search(inp_arg):
     dic = {}
-    current_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     dic["date"] = current_time
     driver = webdriver.Chrome()
     driver.get("https://donya-e-eqtesad.com/newsstudios/search")
@@ -55,7 +55,7 @@ def search(inp_arg):
 
 def main():
     dic = {}
-    current_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     dic["date"] = current_time
     driver = webdriver.Chrome()
     driver.get(

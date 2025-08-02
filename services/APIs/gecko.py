@@ -8,18 +8,19 @@ import requests
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_PATH = os.path.join(BASE_DIR, 'geckoData')
 
+
 def save(name: str, response: json):
     try:
         last_result = read("price")
         response.update({"time": datetime.now(
-            timezone.utc).strftime("%Y-%m-%d %H:%M:%S")})
+        ).strftime("%Y-%m-%d %H:%M:%S")})
         last_result.append(response)
         sendingData = last_result
     except FileNotFoundError as e:
         print(f"no previous save! {e}")
         sendingData = []
         response.update({"time": datetime.now(
-            timezone.utc).strftime("%Y-%m-%d %H:%M:%S")})
+        ).strftime("%Y-%m-%d %H:%M:%S")})
         sendingData.append(response)
     addFullTime(response)
     with open(os.path.join(DATA_PATH, f"{name}"), 'w', encoding='utf-8') as file:
@@ -39,10 +40,9 @@ def addFullTime(data):
             LastData["CryptoData"].append(data)
     else:
         LastData["CryptoData"].append(data)
-        
+
     with open(os.path.join(DATA_PATH, "geckoFullTimeCrypto.json"), 'w', encoding='utf-8') as file:
         json.dump(LastData, file, indent=4, ensure_ascii=False)
-
 
 
 def read(name):
@@ -72,12 +72,14 @@ def old_clean(name: str):
         with open(os.path.join(DATA_PATH, f"{name}"), 'w', encoding='utf-8') as file:
             json.dump(list_of_dicts, file, indent=4, ensure_ascii=False)
 
+
 def is_online(test_url="https://www.google.com"):
     try:
         response = requests.get(test_url, timeout=5)
         return response.status_code == 200
     except requests.exceptions.RequestException:
         return False
+
 
 def connect(url, params, id: str):
     print("Gecko is running")
@@ -104,7 +106,8 @@ def connect(url, params, id: str):
             return ("unknown error", response.status_code)
 
     except requests.exceptions.ConnectionError as e:
-        print(f"unable to connect to the coingecko , check your connection and try again {e}")
+        print(
+            f"unable to connect to the coingecko , check your connection and try again {e}")
 
 
 def price(ids: set, vs_currencies: set):
@@ -212,8 +215,8 @@ def percentage():
         json.dump(answer, file, indent=4, ensure_ascii=False)
 
 
-price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
-percentage()
+# price({'bitcoin', 'ethereum', 'Cardano', 'tether', 'Solana', 'dogecoin'}, {'usd'})
+# percentage()
 # print(market_chart({'usd'}, 2))
 # print(is_online())
 # print(ticker({'bitcoin'}))

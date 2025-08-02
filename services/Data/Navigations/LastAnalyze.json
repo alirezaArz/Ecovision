@@ -2,57 +2,75 @@
     "newsData": [
         {
             "id": "0",
-            "title": "Trump’s Shock 39% Tariff Crashes Swiss Holiday",
-            "summary": "Tariffs imposed by Trump negatively impact the Swiss tourism industry.",
-            "category": "Economy",
-            "image": "images/economy/im21.jpg",
+            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
+            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
+            "category": "Markets",
+            "image": "images/markets/im9.jpg",
             "importance": "High",
-            "date": "2025-08-01T16:30:56.743393"
+            "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": "1",
-            "title": "European Banks Weather Stress Test That Simulates Trade Shock",
-            "summary": "European banks demonstrate resilience in a stress test simulating a trade shock.",
+            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
+            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
             "category": "Finance",
             "image": "images/finance/im13.jpg",
-            "importance": "Medium",
-            "date": "2025-08-01T16:30:56.743393"
+            "importance": "High",
+            "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": "2",
-            "title": "South Africa’s Fixed-Investment Plans Fall 47% on State Pullback",
-            "summary": "Fixed investment plans in South Africa decline significantly due to reduced state involvement.",
+            "title": "Trump, Claiming Weak Jobs Numbers Were ‘Rigged,’ Moves to Fire Labor Official",
+            "summary": "Economists said ousting the head of the Bureau of Labor Statistics could undermine confidence in government economic data.",
             "category": "Economy",
-            "image": "images/economy/im3.jpg",
+            "image": "images/economy/im17.jpg",
             "importance": "Medium",
-            "date": "2025-08-01T16:30:56.743393"
+            "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": "3",
-            "title": "Tariffs? In This Economy? Good Luck With That",
-            "summary": "The article discusses the potential negative impacts of tariffs on the economy.",
+            "title": "How Tariffs Raise Costs for Farmers, Making Food More Expensive",
+            "summary": "The latest round of tariffs is likely to make agricultural production even more expensive and, potentially, limit access to goods not produced in the United States.",
             "category": "Economy",
-            "image": "images/economy/im14.jpg",
+            "image": "images/economy/im29.jpg",
             "importance": "Medium",
-            "date": "2025-08-01T16:30:56.743393"
+            "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": "4",
-            "title": "Transport Stocks Face Worst Week Since April on Tariffs, Reports",
-            "summary": "Tariffs are causing significant losses for transport stocks.",
-            "category": "Markets",
-            "image": "images/markets/im6.jpg",
-            "importance": "Medium",
-            "date": "2025-08-01T16:30:56.743393"
+            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
+            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
+            "category": "Economy",
+            "image": "images/economy/im9.jpg",
+            "importance": "High",
+            "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": "5",
-            "title": "Trash Haulers to Carmakers Are Feeling the Pain of Trump’s Tariffs",
-            "summary": "Various industries, from trash haulers to carmakers, are negatively affected by Trump's tariffs.",
+            "title": "Federal Government Shed 12,000 Jobs in July",
+            "summary": "The U.S. government has lost 84,000 jobs since January as the Trump administration aggressively reduces the work force.",
             "category": "Economy",
-            "image": "images/economy/im6.jpg",
+            "image": "images/economy/im25.jpg",
+            "importance": "Medium",
+            "date": "2025-08-01T22:48:00.988602"
+        },
+        {
+            "id": "6",
+            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
+            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
+            "category": "Economy",
+            "image": "images/economy/im24.jpg",
             "importance": "High",
-            "date": "2025-08-01T16:30:56.743393"
+            "date": "2025-08-01T22:48:00.988602"
+        },
+        {
+            "id": "7",
+            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
+            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
+            "category": "Finance",
+            "image": "images/finance/im1.jpg",
+            "importance": "High",
+            "date": "2025-08-01T22:48:00.988602"
         }
     ]
 }

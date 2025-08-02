@@ -22,7 +22,7 @@ DATA_PATH = os.path.join(BASE_DIR, "scraped")
 
 def main():
     dic = {}
-    current_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     dic["date"] = current_time
     driver = webdriver.Chrome()
     driver.get("https://www.nytimes.com/section/business/economy")
@@ -60,7 +60,7 @@ def main():
 
 def search(inp_arg):
     dic = {}
-    current_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     dic["date"] = current_time
     driver = webdriver.Firefox()
     driver.get("https://www.nytimes.com/")
@@ -146,4 +146,3 @@ def load():
     except Exception as e:
         print(
             f"nytimes : ScNyt.json is not where it sould be at {DATA_PATH} ,,, : {e}")
-
