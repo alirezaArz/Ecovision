@@ -207,7 +207,6 @@ def control_view(request):
                 analyze.az.manage("local")
             elif code == '504-run':
                 analyze.az.priceAnalyze(True)
-
             else:
                 return JsonResponse({'status': 'error', 'message': f"Unknown command code: {code}"}, status=400)
 

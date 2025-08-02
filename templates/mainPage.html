@@ -1,182 +1,246 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>mainPage</title>
     <style>
-        body {
-            font-family: 'Comfortaa', sans-serif;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            padding: 40px 20px;
-            box-sizing: border-box;
-            /* پس‌زمینه نقطه‌چین */
-            background-color:rgb(10, 72, 86);
-            background-image: radial-gradient(circle,rgb(13, 128, 116) 1px, transparent 1px);
-            background-size: 25px 25px; /* تنظیم فاصله نقطه‌ها */
-        }
+      body {
+        font-family: "Comfortaa", sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        padding: 40px 20px;
+        box-sizing: border-box;
+        /* پس‌زمینه نقطه‌چین */
+        background-color: rgb(10, 72, 86);
+        background-image: radial-gradient(
+          circle,
+          rgb(13, 128, 116) 1px,
+          transparent 1px
+        );
+        background-size: 25px 25px; /* تنظیم فاصله نقطه‌ها */
+      }
 
-        .panel-wrapper {
-            max-width: 650px; /* حداکثر عرض کلی برای پنل‌ها */
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            gap: 35px; /* فاصله بین دو پنل اصلی */
-        }
+      .panel-wrapper {
+        max-width: 650px; /* حداکثر عرض کلی برای پنل‌ها */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 35px; /* فاصله بین دو پنل اصلی */
+      }
 
-        .panel {
-            background: linear-gradient(to top left,rgb(15, 65, 94),rgb(12, 166, 177));
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(11, 88, 107, 0.81);
-            transition: background-color 0.4s ease, transform 0.3s ease;
-            padding: 30px;
-            position: relative; /* برای موقعیت‌دهی مطلق برچسب‌ها */
-        }
-        .panel:hover {
+      .panel {
+        background: linear-gradient(
+          to top left,
+          rgb(15, 65, 94),
+          rgb(12, 166, 177)
+        );
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(11, 88, 107, 0.81);
+        transition: background-color 0.4s ease, transform 0.3s ease;
+        padding: 30px;
+        position: relative; /* برای موقعیت‌دهی مطلق برچسب‌ها */
+      }
+      .panel:hover {
         transform: translateY(-5px);
         box-shadow: 0 12px 25px rgba(10, 97, 118, 0.5);
+      }
+      .panel-label {
+        position: absolute;
+        background-color: #333; /* خاکستری تیره‌تر برای برچسب‌ها */
+        color: white;
+        padding: 8px 20px;
+        border-radius: 6px;
+        font-weight: bold;
+        font-size: 1.1em;
+        letter-spacing: 0.5px;
+        box-shadow: 0 2px 8px rgba(7, 69, 72, 0.44);
+        white-space: nowrap; /* جلوگیری از شکستن متن */
+      }
+
+      .panel-label.top-left {
+        top: -15px; /* تنظیم برای کمی همپوشانی */
+        left: 25px;
+      }
+
+      .panel-label.bottom-right {
+        bottom: -15px; /* تنظیم برای کمی همپوشانی */
+        right: 25px;
+      }
+
+      /* پنل بالا - APIs */
+      .api-elements-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* ۳ ستون به صورت پیش‌فرض */
+        gap: 15px; /* فاصله بین عناصر */
+        justify-items: center; /* وسط‌چین کردن آیتم‌ها در سلول‌های گرید */
+        align-items: center;
+      }
+
+      .api-button {
+        background-color: rgb(4, 173, 192); /* رنگ فیروزه‌ای */
+        font-family: "Comfortaa", sans-serif;
+        font-size: 1.5em;
+        border-radius: 8px;
+        height: 60px; /* ارتفاع ثابت برای یکنواختی */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-weight: bolder;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+        width: 100%; /* پر کردن سلول گرید */
+        min-width: 120px; /* حداقل عرض برای عناصر */
+        border: none; /* حذف حاشیه پیش‌فرض دکمه */
+        cursor: pointer; /* تغییر نشانگر ماوس */
+        transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease; /* انیمیشن نرم برای هاور */
+      }
+
+      .api-button:hover {
+        transform: translateY(-4px); /* کمی حرکت به بالا در زمان هاور */
+        box-shadow: 0 6px 18px rgba(8, 8, 8, 0.29); /* سایه قوی‌تر */
+        filter: brightness(1.1); /* کمی روشن‌تر شدن */
+      }
+
+      /* پنل پایین - Admin */
+      .admin-elements-container {
+        display: flex;
+        justify-content: center; /* وسط‌چین کردن دکمه‌ها */
+        align-items: center;
+        gap: 15px; /* فاصله بین دو دکمه */
+        padding-top: 10px; /* تنظیم فاصله از بالا در صورت نیاز */
+        height: 70px; /* ارتفاع برای هم‌ترازی با پنل قبلی */
+      }
+
+      /* تنظیمات واکنش‌گرا */
+      @media (max-width: 700px) {
+        .api-elements-grid {
+          grid-template-columns: repeat(
+            2,
+            1fr
+          ); /* ۲ ستون در صفحه‌های کوچک‌تر */
         }
         .panel-label {
-            position: absolute;
-            background-color: #333; /* خاکستری تیره‌تر برای برچسب‌ها */
-            color: white;
-            padding: 8px 20px;
-            border-radius: 6px;
-            font-weight: bold;
-            font-size: 1.1em;
-            letter-spacing: 0.5px;
-            box-shadow: 0 2px 8px rgba(7, 69, 72, 0.44);
-            white-space: nowrap; /* جلوگیری از شکستن متن */
+          font-size: 1em;
+          padding: 7px 18px;
         }
+      }
 
-        .panel-label.top-left {
-            top: -15px; /* تنظیم برای کمی همپوشانی */
-            left: 25px;
+      @media (max-width: 480px) {
+        body {
+          padding: 20px 10px;
         }
-
-        .panel-label.bottom-right {
-            bottom: -15px; /* تنظیم برای کمی همپوشانی */
-            right: 25px;
+        .panel {
+          padding: 20px;
         }
-
-        /* پنل بالا - APIs */
         .api-elements-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr); /* ۳ ستون به صورت پیش‌فرض */
-            gap: 15px; /* فاصله بین عناصر */
-            justify-items: center; /* وسط‌چین کردن آیتم‌ها در سلول‌های گرید */
-            align-items: center;
+          grid-template-columns: 1fr; /* یک ستون در صفحه‌های خیلی کوچک */
         }
-
         .api-button {
-            background-color:rgb(4, 173, 192); /* رنگ فیروزه‌ای */
-            font-family: 'Comfortaa', sans-serif;
-            font-size: 1.5em;
-            border-radius: 8px;
-            height: 60px; /* ارتفاع ثابت برای یکنواختی */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            font-weight: bolder;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
-            width: 100%; /* پر کردن سلول گرید */
-            min-width: 120px; /* حداقل عرض برای عناصر */
-            border: none; /* حذف حاشیه پیش‌فرض دکمه */
-            cursor: pointer; /* تغییر نشانگر ماوس */
-            transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease; /* انیمیشن نرم برای هاور */
+          height: 50px;
         }
-
-        .api-button:hover {
-            transform: translateY(-4px); /* کمی حرکت به بالا در زمان هاور */
-            box-shadow: 0 6px 18px rgba(8, 8, 8, 0.29); /* سایه قوی‌تر */
-            filter: brightness(1.1); /* کمی روشن‌تر شدن */
-        }
-
-        /* پنل پایین - Admin */
         .admin-elements-container {
-            display: flex;
-            justify-content: center; /* وسط‌چین کردن دکمه‌ها */
-            align-items: center;
-            gap: 15px; /* فاصله بین دو دکمه */
-            padding-top: 10px; /* تنظیم فاصله از بالا در صورت نیاز */
-            height: 70px; /* ارتفاع برای هم‌ترازی با پنل قبلی */
+          height: 60px;
         }
-        
-        /* تنظیمات واکنش‌گرا */
-        @media (max-width: 700px) {
-            .api-elements-grid {
-                grid-template-columns: repeat(2, 1fr); /* ۲ ستون در صفحه‌های کوچک‌تر */
-            }
-            .panel-label {
-                font-size: 1em;
-                padding: 7px 18px;
-            }
+        .panel-label.top-left {
+          top: -10px;
+          left: 15px;
         }
-
-        @media (max-width: 480px) {
-            body {
-                padding: 20px 10px;
-            }
-            .panel {
-                padding: 20px;
-            }
-            .api-elements-grid {
-                grid-template-columns: 1fr; /* یک ستون در صفحه‌های خیلی کوچک */
-            }
-            .api-button {
-                height: 50px;
-            }
-            .admin-elements-container {
-                height: 60px;
-            }
-            .panel-label.top-left {
-                top: -10px;
-                left: 15px;
-            }
-            .panel-label.bottom-right {
-                bottom: -10px;
-                right: 15px;
-            }
+        .panel-label.bottom-right {
+          bottom: -10px;
+          right: 15px;
         }
-        a {
-            text-decoration: none;
-            color: inherit;
-        }
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="panel-wrapper">
-        <div class="panel api-panel">
-            <span class="panel-label top-left">APIs</span>
-            <div class="api-elements-grid">
-                <button class="api-button" onclick="window.open('http://127.0.0.1:8000/api/economy/?key=admin', '_blank')">Economy</button>
-                <button class="api-button" onclick="window.open('http://127.0.0.1:8000/api/finance/?key=admin', '_blank')">Finance</button>
-                <button class="api-button" onclick="window.open('http://127.0.0.1:8000/api/markets/?key=admin', '_blank')">Markets</button>
-                <button class="api-button" onclick="window.open('http://127.0.0.1:8000/api/investing/?key=admin', '_blank')">Investing</button>
-                <button class="api-button" onclick="window.open('http://127.0.0.1:8000/api/tecnology/?key=admin', '_blank')">Technology</button>
-                <button class="api-button" onclick="window.open('http://127.0.0.1:8000/api/science/?key=admin', '_blank')">Science</button>
-                <button class="api-button" onclick="window.open('http://127.0.0.1:8000/api/news/?key=admin', '_blank')">All-news</button>
-                <button class="api-button" onclick="window.open('http://127.0.0.1:8000/crypto', '_blank')">Currencys</button>
-            </div>
+      <div class="panel api-panel">
+        <span class="panel-label top-left">APIs</span>
+        <div class="api-elements-grid">
+          <button
+            class="api-button"
+            onclick="window.open('http://127.0.0.1:8000/api/economy/?key=admin', '_blank')"
+          >
+            Economy
+          </button>
+          <button
+            class="api-button"
+            onclick="window.open('http://127.0.0.1:8000/api/finance/?key=admin', '_blank')"
+          >
+            Finance
+          </button>
+          <button
+            class="api-button"
+            onclick="window.open('http://127.0.0.1:8000/api/markets/?key=admin', '_blank')"
+          >
+            Markets
+          </button>
+          <button
+            class="api-button"
+            onclick="window.open('http://127.0.0.1:8000/api/investing/?key=admin', '_blank')"
+          >
+            Investing
+          </button>
+          <button
+            class="api-button"
+            onclick="window.open('http://127.0.0.1:8000/api/tecnology/?key=admin', '_blank')"
+          >
+            Technology
+          </button>
+          <button
+            class="api-button"
+            onclick="window.open('http://127.0.0.1:8000/api/science/?key=admin', '_blank')"
+          >
+            Science
+          </button>
+          <button
+            class="api-button"
+            onclick="window.open('http://127.0.0.1:8000/api/news/?key=admin', '_blank')"
+          >
+            All-news
+          </button>
+          <button
+            class="api-button"
+            onclick="window.open('http://127.0.0.1:8000/crypto', '_blank')"
+          >
+            Currencys
+          </button>
         </div>
+      </div>
 
-        <div class="panel admin-panel">
-            <span class="panel-label bottom-right">Admin</span>
-            <div class="admin-elements-container">
-            <button class="api-button" onclick="window.open('http://127.0.0.1:8000/admin/', '_blank')">Admin-page</button>
-            <button class="api-button" onclick="window.open('#', '_blank')">Data-management</button>
-            </div>
+      <div class="panel admin-panel">
+        <span class="panel-label bottom-right">Admin</span>
+        <div class="admin-elements-container">
+          <button
+            class="api-button"
+            onclick="window.open('http://127.0.0.1:8000/admin/', '_blank')"
+          >
+            Admin-page
+          </button>
+          <button
+            class="api-button"
+            onclick="window.open('http://127.0.0.1:8000/api/opinion.html/price', '_blank')"
+          >
+            price Opinion
+          </button>
         </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>

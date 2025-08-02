@@ -286,6 +286,7 @@ class Analyze():
         return True
 
     def priceAnalyze(self, target=False):
+        print("starting for price Opinion proccess...")
         if self.priceAnalyzeActive or target:
             if not self.priceAnalyze_inprocess:
                 self.priceAnalyze_inprocess = True
@@ -331,7 +332,8 @@ class Analyze():
                         date = datetime.now().strftime(
                             "%Y-%m-%d %H:%M:%S")
                         mdText = GeminiResponse.text
-                        prcmarkdown.priceOp(mdText, date)
+                        mdhtmlText = mdText[11:-4]
+                        prcmarkdown.priceOp(mdhtmlText, date)
                         navigation.nav.saveOpinion("PriceOp", date, mdText)
                     except Exception as e:
                         print(f"Failed to extract and save opinion: {e}")
@@ -339,3 +341,4 @@ class Analyze():
 
 
 az = Analyze()
+

@@ -367,8 +367,7 @@ class Snail():
                             elif item == "localAi":
                                 analyze.az.manage('local')
                             elif item == "priceAnalyze":
-                                analyze.az.priceAnalyze()
-
+                                analyze.az.priceAnalyze(True)
                             self.durations[item] = self.durationsBackup[item]
 
                     print(f" remaining times: {self.durations}")

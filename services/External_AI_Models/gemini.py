@@ -54,7 +54,7 @@ def priceDetermine(data:list):
 یافته‌های خود را به صورت یک گزارش مختصر و حرفه‌ای ارائه کن.
 """'''
         )
-        print("gemini response: ", response)
+        #print("gemini response: ", response)
         return response
 
     except:
