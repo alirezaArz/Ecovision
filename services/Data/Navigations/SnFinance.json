@@ -1061,6 +1061,51 @@
             "image": "images/finance/im13.jpg",
             "importance": "Medium",
             "date": "2025-08-02T21:14:39.185502"
+        },
+        {
+            "id": "4",
+            "title": "IMF Relaxes Argentina’s Reserves Target by $5 Billion in 2025",
+            "summary": "IMF eases Argentina's reserve target by $5 billion in 2025.",
+            "category": "Finance",
+            "image": "images/finance/im2.jpg",
+            "importance": "Medium",
+            "date": "2025-08-02T23:04:16.157177"
+        },
+        {
+            "id": "5",
+            "title": "Trump Momentum Drives Stablecoin Urgency in Asian Financial Hubs",
+            "summary": "Trump's momentum accelerates the need for stablecoins in Asian financial centers.",
+            "category": "Finance",
+            "image": "images/finance/im4.jpg",
+            "importance": "Medium",
+            "date": "2025-08-02T23:04:16.157177"
+        },
+        {
+            "id": "2",
+            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
+            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
+            "category": "Finance",
+            "image": "images/finance/im2.jpg",
+            "importance": "Medium",
+            "date": "2025-08-02T23:04:58.077845"
+        },
+        {
+            "id": "10",
+            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
+            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
+            "category": "Finance",
+            "image": "images/finance/im14.jpg",
+            "importance": "Medium",
+            "date": "2025-08-02T23:04:58.077845"
+        },
+        {
+            "id": "19",
+            "title": "See How Often Fed Governors Have Broken Ranks",
+            "summary": "Two top Fed officials voted against the central bank’s decision to leave rates unchanged, the first dual dissent in more than 30 years.",
+            "category": "Finance",
+            "image": "images/finance/im13.jpg",
+            "importance": "Medium",
+            "date": "2025-08-02T23:04:58.077845"
         }
     ]
 }

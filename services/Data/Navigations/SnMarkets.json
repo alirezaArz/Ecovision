@@ -284,6 +284,33 @@
             "image": "images/markets/im5.jpg",
             "importance": "High",
             "date": "2025-08-02T21:14:39.185502"
+        },
+        {
+            "id": "6",
+            "title": "Trade War Turmoil, Rising Unemployment Send Markets Diving",
+            "summary": "Trade war uncertainty and rising unemployment lead to market decline.",
+            "category": "Markets",
+            "image": "images/markets/im1.jpg",
+            "importance": "High",
+            "date": "2025-08-02T23:04:16.157177"
+        },
+        {
+            "id": "1",
+            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
+            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
+            "category": "Markets",
+            "image": "images/markets/im2.jpg",
+            "importance": "High",
+            "date": "2025-08-02T23:04:58.077845"
+        },
+        {
+            "id": "18",
+            "title": "Trump Targets Copper With Tariffs, Though Not as Aggressively as Expected",
+            "summary": "The president stopped short of putting a 50 percent tariff on refined copper, as he had threatened earlier this year. The market reaction was swift anyway and prices tumbled.",
+            "category": "Markets",
+            "image": "images/markets/im1.jpg",
+            "importance": "Medium",
+            "date": "2025-08-02T23:04:58.077845"
         }
     ]
 }

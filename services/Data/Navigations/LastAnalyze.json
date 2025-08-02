@@ -2,66 +2,156 @@
     "newsData": [
         {
             "id": "0",
-            "title": "BOE Is Probably About to Cut Rates Despite a Spike in Inflation",
-            "summary": "Bank of England is considering cutting rates even with rising inflation.",
-            "category": "Finance",
-            "image": "images/finance/im7.jpg",
+            "title": "Trade Fueled Inequality. Can Trump’s Tariffs Reduce It?",
+            "summary": "The president has pitched his trade policies at workers who feel left behind by globalization. But that doesn’t mean trade barriers will revive factories and close income gaps.",
+            "category": "Economy",
+            "image": "images/economy/im25.jpg",
             "importance": "High",
-            "date": "2025-08-02T21:14:39.185502"
+            "date": "2025-08-02T23:04:58.077845"
         },
         {
             "id": "1",
-            "title": "OPEC+ Agrees in Principle to Another Bumper Supply Increase",
-            "summary": "OPEC+ agrees to increase supply.",
-            "category": "Economy",
-            "image": "images/economy/im20.jpg",
+            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
+            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
+            "category": "Markets",
+            "image": "images/markets/im2.jpg",
             "importance": "High",
-            "date": "2025-08-02T21:14:39.185502"
+            "date": "2025-08-02T23:04:58.077845"
         },
         {
             "id": "2",
-            "title": "Iran Says It’s Close to Resolving Gas Export Issues With Iraq",
-            "summary": "Iran is nearing resolution of gas export issues with Iraq.",
-            "category": "Economy",
-            "image": "images/economy/im6.jpg",
+            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
+            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
+            "category": "Finance",
+            "image": "images/finance/im2.jpg",
             "importance": "Medium",
-            "date": "2025-08-02T21:14:39.185502"
+            "date": "2025-08-02T23:04:58.077845"
         },
         {
             "id": "3",
-            "title": "Charting the Global Economy: US Job Market Wavers in Cue for Fed",
-            "summary": "US Job Market is uncertain and relates to the Federal Reserve.",
+            "title": "Trump, Claiming Weak Jobs Numbers Were ‘Rigged,’ Fires Labor Official",
+            "summary": "Economists said ousting the head of the Bureau of Labor Statistics could undermine confidence in government economic data.",
             "category": "Economy",
-            "image": "images/economy/im9.jpg",
+            "image": "images/economy/im22.jpg",
             "importance": "Medium",
-            "date": "2025-08-02T21:14:39.185502"
-        },
-        {
-            "id": "4",
-            "title": "IMF Relaxes Argentina’s Reserves Target by $5 Billion in 2025",
-            "summary": "IMF is easing Argentina's reserve targets.",
-            "category": "Finance",
-            "image": "images/finance/im6.jpg",
-            "importance": "Medium",
-            "date": "2025-08-02T21:14:39.185502"
+            "date": "2025-08-02T23:04:58.077845"
         },
         {
             "id": "5",
-            "title": "Trump Momentum Drives Stablecoin Urgency in Asian Financial Hubs",
-            "summary": "Trump's momentum is driving stablecoin usage in Asian financial hubs.",
-            "category": "Finance",
-            "image": "images/finance/im13.jpg",
+            "title": "How Tariffs Raise Costs for Farmers, Making Food More Expensive",
+            "summary": "The latest round of tariffs is likely to make agricultural production even more expensive and, potentially, limit access to goods not produced in the United States.",
+            "category": "Economy",
+            "image": "images/economy/im11.jpg",
             "importance": "Medium",
-            "date": "2025-08-02T21:14:39.185502"
+            "date": "2025-08-02T23:04:58.077845"
         },
         {
             "id": "6",
-            "title": "Trade War Turmoil, Rising Unemployment Send Markets Diving",
-            "summary": "Trade war and unemployment negatively impact markets.",
-            "category": "Markets",
-            "image": "images/markets/im5.jpg",
+            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
+            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
+            "category": "Economy",
+            "image": "images/economy/im22.jpg",
             "importance": "High",
-            "date": "2025-08-02T21:14:39.185502"
+            "date": "2025-08-02T23:04:58.077845"
+        },
+        {
+            "id": "7",
+            "title": "Federal Government Shed 12,000 Jobs in July",
+            "summary": "The U.S. government has lost 84,000 jobs since January as the Trump administration aggressively reduces the work force.",
+            "category": "Economy",
+            "image": "images/economy/im23.jpg",
+            "importance": "Medium",
+            "date": "2025-08-02T23:04:58.077845"
+        },
+        {
+            "id": "8",
+            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
+            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
+            "category": "Economy",
+            "image": "images/economy/im15.jpg",
+            "importance": "Medium",
+            "date": "2025-08-02T23:04:58.077845"
+        },
+        {
+            "id": "10",
+            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
+            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
+            "category": "Finance",
+            "image": "images/finance/im14.jpg",
+            "importance": "Medium",
+            "date": "2025-08-02T23:04:58.077845"
+        },
+        {
+            "id": "11",
+            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
+            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
+            "category": "Markets",
+            "image": "images/markets/im6.jpg",
+            "importance": "High",
+            "date": "2025-08-02T23:04:58.077845"
+        },
+        {
+            "id": "12",
+            "title": "Switzerland Is Stunned by 39% U.S. Tariff, Among the Highest in the World",
+            "summary": "Swiss officials plan to negotiate urgently for a lower rate, before the punishing levy takes effect next week.",
+            "category": "Economy",
+            "image": "images/economy/im2.jpg",
+            "importance": "Medium",
+            "date": "2025-08-02T23:04:58.077845"
+        },
+        {
+            "id": "13",
+            "title": "Harm or Help? Why Companies Are Battling Tariffs Meant to Benefit Them.",
+            "summary": "Economists say the way the Trump administration is imposing tariffs is backfiring for some of the businesses they are meant to help.",
+            "category": "Economy",
+            "image": "images/economy/im4.jpg",
+            "importance": "Medium",
+            "date": "2025-08-02T23:04:58.077845"
+        },
+        {
+            "id": "14",
+            "title": "Cambodia Agrees to a Reduced Tariff and Breathes a Sigh of Relief",
+            "summary": "Initially 49%, it was lowered to 19%, easing worries of a damaging hit to the country’s garment and footwear production industries.",
+            "category": "Economy",
+            "image": "images/economy/im12.jpg",
+            "importance": "Medium",
+            "date": "2025-08-02T23:04:58.077845"
+        },
+        {
+            "id": "16",
+            "title": "Countries Promise Trump to Buy U.S. Gas, and Leave the Details for Later",
+            "summary": "U.S. trading partners are committing to buy more gas than they need or than the U.S. can produce, at least in the short term.",
+            "category": "Economy",
+            "image": "images/economy/im27.jpg",
+            "importance": "Medium",
+            "date": "2025-08-02T23:04:58.077845"
+        },
+        {
+            "id": "17",
+            "title": "South Korea Reaches Trade Deal With Trump",
+            "summary": "The agreement comes after other American allies, like Japan, clinched their own deals, partly to moderate President Trump’s tariff threats.",
+            "category": "Economy",
+            "image": "images/economy/im18.jpg",
+            "importance": "Medium",
+            "date": "2025-08-02T23:04:58.077845"
+        },
+        {
+            "id": "18",
+            "title": "Trump Targets Copper With Tariffs, Though Not as Aggressively as Expected",
+            "summary": "The president stopped short of putting a 50 percent tariff on refined copper, as he had threatened earlier this year. The market reaction was swift anyway and prices tumbled.",
+            "category": "Markets",
+            "image": "images/markets/im1.jpg",
+            "importance": "Medium",
+            "date": "2025-08-02T23:04:58.077845"
+        },
+        {
+            "id": "19",
+            "title": "See How Often Fed Governors Have Broken Ranks",
+            "summary": "Two top Fed officials voted against the central bank’s decision to leave rates unchanged, the first dual dissent in more than 30 years.",
+            "category": "Finance",
+            "image": "images/finance/im13.jpg",
+            "importance": "Medium",
+            "date": "2025-08-02T23:04:58.077845"
         }
     ]
 }
