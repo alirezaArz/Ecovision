@@ -257,7 +257,7 @@ class Analyze():
             self.privateLoopWating = True
             self.createPrivateLoop()
 
-    # /home/alireza/PYTHON/VGAnalyzer/services/Local_AI_Models/InputData/news.json
+    # /home/alireza/PYTHON/Ecovision/services/Local_AI_Models/InputData/news.json
 
     def createPrivateLoop(self):
         print("snail was not active; creating a private loop for getting local output")

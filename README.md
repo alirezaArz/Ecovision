@@ -15,7 +15,7 @@ for preparing you pc to setup the project run this command in your terminal:</p>
 this makes kind of HOT Reload or LIVE preview in the django and updates the htm in the browser while the file is being edited.</p>
 
 <h2>
-to run the react + nextjs   run this two  inside T:\JAVASCRIPT\VGAnalyzer\VGAnalyzer\frontend
+to run the react + nextjs   run this two  inside T:\JAVASCRIPT\Ecovision\Ecovision\frontend
 
   npm install   and   npm run dev
 </h2>
