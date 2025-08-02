@@ -19,32 +19,39 @@ options.add_argument("--headless")
 
 
 def main():
-    dic = {}
+    dic = []
     current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    dic["date"] = current_time
     driver = webdriver.Chrome()
     driver.get("https://www.eghtesadnews.com/")
 
-    time.sleep(3)
-    try:
-        div = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located(
-                (By.CSS_SELECTOR, '.content.webgardi-box'))
-        )
+    for box in ['.ft-right']:
+        time.sleep(3)
+        try:
+            div = WebDriverWait(driver, 10).until(
+                EC.presence_of_element_located(
+                    (By.CSS_SELECTOR, box))
+            )
 
-    except Exception as e:
-        print(f"esdn had an error at :{e}")
+        except Exception as e:
+            print(f"esdn had an error at :{e}")
 
-    titles = div.find_elements(By.TAG_NAME, "a")
-    titles = titles[1:-1]
+        titles = div.find_elements(By.TAG_NAME, "a")
+        titles = titles[1:-1]
 
-    for i in range(len(titles)):
-        titles[i] = titles[i].text
 
-    titles = [i.replace("\u200c", " ") for i in titles]
 
-    for i in range(len(titles)):
-        dic[i] = titles[i]
+        for i in range(len(titles)):
+            titles[i] = titles[i].text
+        
+
+        titles = [i.replace(chr(0x200C), " ") for i in titles]
+
+        dic = [title for title in titles if len(title) > 5]
+    
+    result = {}
+    for i in range(len(dic)):
+        result[str(i)] = dic[i]
+    result["time"] = current_time
 
     driver.quit()
 

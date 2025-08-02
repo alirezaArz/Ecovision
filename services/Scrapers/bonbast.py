@@ -6,7 +6,7 @@ import time
 from datetime import datetime, timedelta, timezone
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from services import analyze as analyze
@@ -16,7 +16,7 @@ DATA_PATH = os.path.join(BASE_DIR, "scraped")
 
 
 def main():
-    driver = webdriver.Firefox()
+    driver = webdriver.Chrome()
     driver.get("https://www.bon-bast.com/")
     time.sleep(random.randint(5, 20))
     driver.implicitly_wait(5)
@@ -40,7 +40,7 @@ def main():
         change.remove('Code Currency Sell Buy')
 
     result = {}
-    result["date"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    result["time"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     for item_line in change:
         parts = item_line.split(' ')

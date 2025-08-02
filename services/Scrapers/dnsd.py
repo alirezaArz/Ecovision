@@ -72,7 +72,7 @@ def main():
         print(f"dnsd had an error at search : {e}")
 
     for i in range(len(paras)):
-        dic[i] = paras[i].text
+        dic[i] = paras[i].text.replace(chr(0x200C), " ")
     driver.quit()
     save(dic)
 

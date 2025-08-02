@@ -5,7 +5,7 @@ from datetime import datetime, timedelta, timezone
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from services import analyze as analyze
@@ -21,7 +21,7 @@ def main():
     dic = {}
     current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     dic["date"] = current_time
-    driver = webdriver.Firefox()
+    driver = webdriver.Chrome()
     driver.get("https://finance.yahoo.com/")
 
     time.sleep(3)
