@@ -65,8 +65,17 @@ def main():
     except Exception as e:
         print(f"bloomberg had an error : {e}")
 
-    btn = sect.find_element(By.NAME, "outlined-button")
-    btn.click()
+
+    try:
+        btn = WebDriverWait(driver, 20).until(
+                EC.presence_of_element_located(
+                    (By.NAME, "outlined-button"))
+        )
+        #btn = sect.find_element(By.NAME, "outlined-button")
+        driver.execute_script("arguments[0].click();", btn)
+    except Exception as e:
+        print(f"couldnt press the loadmore button: {e}")
+
     time.sleep(3)
     for i in range(7):
         bdy.send_keys(Keys.ARROW_DOWN)
