@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     "django_browser_reload",
     'corsheaders',
+    'services',
 ]
 
 CORS_ALLOWED_ORIGINS = [

@@ -69,7 +69,7 @@ class Core():
             
     def server(self):
         self.firstloop = True
-        self.spinner.start()
+        #self.spinner.start()
         self.deniedloops = 0
         self.lastItemCount = 0
         
@@ -107,13 +107,13 @@ class Core():
             else:
                 
                 time.sleep(7)
-                self.deniedloops += 1
+                #self.deniedloops += 1
                 if self.firstloop and self.deniedloops >= 12:
                     print(f"{self.deniedloops} denied loops!... shuting down the server.")
                     self.active = False
                     
                     
-        self.spinner.stop()
+        #self.spinner.stop()
     
  
 insight = Core()

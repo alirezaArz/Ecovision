@@ -20,6 +20,10 @@ if project_root not in sys.path:
 def mainPage(request):
     return render(request, 'mainPage.html')
 
+def getstatus(request):
+    lastStatus = analyze.az.LastsStatus()
+    return JsonResponse(lastStatus, safe=False)
+
 
 @csrf_exempt
 def getCryptoData(request):
