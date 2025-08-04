@@ -3,7 +3,8 @@
         123887059,
         569336756,
         165677084,
-        394633069
+        394633069,
+        254979372
     ],
     "localPending": [],
     "Status": [
@@ -37,6 +38,14 @@
             "status": "done",
             "modified date": "2025-08-02 23:04:32",
             "external model": "verified",
+            "local model": "undefined"
+        },
+        {
+            "id": 254979372,
+            "modifier": "dnsd",
+            "status": "failed",
+            "modified date": "2025-08-04 11:45:37",
+            "external model": "failed",
             "local model": "undefined"
         }
     ]

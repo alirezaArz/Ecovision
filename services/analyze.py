@@ -333,8 +333,8 @@ class Analyze():
                             "%Y-%m-%d %H:%M:%S")
                         mdText = GeminiResponse.text
                         mdhtmlText = mdText[11:-4]
-                        prcmarkdown.priceOp(mdhtmlText, date)
-                        navigation.nav.saveOpinion("PriceOp", date, mdText)
+                        code = navigation.nav.saveOpinion("PriceOp", date, mdText)
+                        prcmarkdown.priceOp(mdhtmlText, code)
                     except Exception as e:
                         print(f"Failed to extract and save opinion: {e}")
                 self.priceAnalyze_inprocess = False

@@ -2,6 +2,7 @@ import json
 import datetime
 from datetime import timedelta
 import os
+import random
 
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 Navpath = os.path.join(project_root, 'services', 'Data', 'Navigations')
@@ -122,24 +123,31 @@ class Nav():
                 f"Nav : items.json is not where it sould be at {OpPath}/{id}")
 
     def lastOP(self, id):
-        lastOp = self.OpRead(id)["dates"][-1]
+        lastOp = self.OpRead(id)["items"][-1][0]
         return lastOp
 
-    def saveOpinion(self, id, name, file):
+    def saveOpinion(self, id, date, file):
         try:
             lastOP = self.OpRead(id)
 
             try:
+                name = random.randint(1, 1000000)
+                while name in lastOP["memo"]:
+                    name = random.randint(1, 1000000)
+                lastOP["memo"].append(name)
+                    
                 output_filename = f"{id}({name}).md"
+                newItem = [output_filename, date]
                 with open(os.path.join(OpPath, id, '.md', output_filename), "w", encoding="utf-8") as f:
                     f.write(file)
                 print('.md file saved successfully, going for saving the date...')
-
-                lastOP["dates"].append(f"{id}({name})")
+                lastOP["items"].append(newItem)
                 with open(os.path.join(OpPath, id, "items.json"), 'w', encoding='utf-8') as file:
-                    json.dump(lastOP, file, indent=4, ensure_ascii=False)
+                    json.dump(newItem, file, indent=4, ensure_ascii=False)
                 print(".md file's date saved successfully")
 
+                return name
+            
             except Exception as e:
                 print(
                     f"threre was an error while saving the .md file proccess: {e}")

@@ -6,7 +6,7 @@ OpPath = os.path.join(project_root,'markdowns', 'PriceOp', '.html')
 
 
 
-def priceOp(ai_data, file_date):
+def priceOp(ai_data, code):
     html_content = markdown.markdown(ai_data)
 
     full_html_page = f"""<!DOCTYPE html>
@@ -118,7 +118,7 @@ def priceOp(ai_data, file_date):
     </html>
     """
 
-    output_filename = f"PriceOp({file_date}).html"
+    output_filename = f"PriceOp({code}).html"
     with open(os.path.join(OpPath, output_filename), "w", encoding="utf-8") as f:
         f.write(full_html_page)
 
