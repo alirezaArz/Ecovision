@@ -75,12 +75,12 @@ class Core():
         
         while self.active:
             if self.firstloop:
-                print("running Local Analyzation Core...")
-                print("checking for input Data...")
+                print("local Ai: running Local Analyzation Core...")
+                print("local Ai: checking for input Data...")
                 self.inputData = self.checkInput()["Data"]
                 self.itemCount = len(self.inputData)
                 if self.itemCount == 0:
-                    print(f"There are no items inside News.json at {InputPath}")
+                    print(f"local Ai: There are no items inside News.json")
                 self.firstloop = False
             else:
                 self.inputData = self.checkInput()["Data"]
@@ -88,8 +88,7 @@ class Core():
             
             if self.itemCount >= 1:
                 if self.itemCount - self.lastItemCount > 0:
-                    print(self.itemCount - self.lastItemCount)
-                    print(f"{self.itemCount} new item(s) detected!")
+                    print(f"local Ai: {self.itemCount} new item(s) detected!")
                 self.lastItemCount = self.itemCount
                 self.deniedloops = 0
                 analyzed_result = ollama.answer(self.inputData[0])
@@ -100,7 +99,7 @@ class Core():
                     self.inputData = self.checkInput()["Data"]
                     self.itemCount = len(self.inputData)
                     if self.itemCount == 0:
-                        print('all datas have been analyzed successfully!')
+                        print('local Ai: all datas have been analyzed successfully!')
                 
                 time.sleep(7)
                 
@@ -109,7 +108,7 @@ class Core():
                 time.sleep(7)
                 #self.deniedloops += 1
                 if self.firstloop and self.deniedloops >= 12:
-                    print(f"{self.deniedloops} denied loops!... shuting down the server.")
+                    print(f"local Ai: {self.deniedloops} denied loops!... shuting down the server.")
                     self.active = False
                     
                     

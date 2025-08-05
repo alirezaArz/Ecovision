@@ -9,6 +9,8 @@ Navpath = os.path.join(project_root, 'services', 'Data', 'Navigations')
 OpPath = os.path.join(project_root, 'services', 'Data', 'markdowns')
 
 print(Navpath, OpPath)
+
+
 class Nav():
     def __init__(self):
         pass
@@ -109,8 +111,6 @@ class Nav():
             json.dump(self.lastOutPut, file, indent=4, ensure_ascii=False)
         print("output ready")
 
-
-
     def OpRead(self, id):
         # reading the items file for each opinions
         try:
@@ -135,19 +135,19 @@ class Nav():
                 while name in lastOP["memo"]:
                     name = random.randint(1, 1000000)
                 lastOP["memo"].append(name)
-                    
-                output_filename = f"{id}({name}).md"
+
+                output_filename = f"{id}({name})"
                 newItem = [output_filename, date]
-                with open(os.path.join(OpPath, id, '.md', output_filename), "w", encoding="utf-8") as f:
+                with open(os.path.join(OpPath, id, '.md', f"{output_filename}.md"), "w", encoding="utf-8") as f:
                     f.write(file)
                 print('.md file saved successfully, going for saving the date...')
                 lastOP["items"].append(newItem)
                 with open(os.path.join(OpPath, id, "items.json"), 'w', encoding='utf-8') as file:
-                    json.dump(newItem, file, indent=4, ensure_ascii=False)
+                    json.dump(lastOP, file, indent=4, ensure_ascii=False)
                 print(".md file's date saved successfully")
 
                 return name
-            
+
             except Exception as e:
                 print(
                     f"threre was an error while saving the .md file proccess: {e}")
@@ -157,4 +157,4 @@ class Nav():
 
 
 nav = Nav()
-#nav.output()
+# nav.output()
