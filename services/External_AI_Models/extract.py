@@ -38,7 +38,7 @@ class Extract():
             LastAnalyze = json.loads(json_string)
 
             output = []
-            current_date = datetime.now().isoformat()
+            current_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
             for item_key_str, original_item_data in LastAnalyze.items():
                 transformed_item = {}
