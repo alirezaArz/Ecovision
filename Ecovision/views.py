@@ -69,12 +69,15 @@ def api_nav(request, id):
 
 
 def showOpiniononTmp(request, id):
-    lastOp = navigation.nav.lastOP('PriceOp')
-    if id == '.html':
-        return render(request, f'{lastOp}.html')
-    else:
-        pass
-        # sending the .md file to the user
+    try:
+        lastOp = navigation.nav.lastOP('PriceOp')
+        if id == '.html':
+            return render(request, f'{lastOp}.html')
+        else:
+            pass
+            # sending the .md file to the user
+    except:
+        return JsonResponse({"error":{"handling":{"response":"no opinion is generated right now, please run 'price Data Analyze' in the admin page to generate one"}}})
 
 
 def getOpinion(request):
