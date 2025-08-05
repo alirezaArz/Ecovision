@@ -2048,6 +2048,87 @@
             "image": "images/economy/im18.jpg",
             "importance": "Medium",
             "date": "2025-08-02T23:04:58.077845"
+        },
+        {
+            "id": "0",
+            "title": "U.S. Imports Slid in June on Higher Tariffs",
+            "summary": "Imports from other countries fell around 4 percent from the previous month as President Trump’s steep tariffs discouraged businesses from ordering goods.",
+            "category": "Economy",
+            "image": "images/economy/im11.jpg",
+            "importance": "High",
+            "date": "2025-08-05T20:24:16.456064"
+        },
+        {
+            "id": "1",
+            "title": "Trump’s Demand to Trading Partners: Pledge Money or Get Higher Tariffs",
+            "summary": "President Trump is using an “Art of the Deal” approach to get other nations to hand over cash to lower their tariffs.",
+            "category": "Economy",
+            "image": "images/economy/im4.jpg",
+            "importance": "Medium",
+            "date": "2025-08-05T20:24:16.456064"
+        },
+        {
+            "id": "2",
+            "title": "Trade Fueled Inequality. Can Trump’s Tariffs Reduce It?",
+            "summary": "The president has pitched his trade policies at workers who feel left behind by globalization. But that doesn’t mean trade barriers will revive factories and close income gaps.",
+            "category": "Economy",
+            "image": "images/economy/im9.jpg",
+            "importance": "Medium",
+            "date": "2025-08-05T20:24:16.456064"
+        },
+        {
+            "id": "7",
+            "title": "How Tariffs Raise Costs for Farmers, Making Food More Expensive",
+            "summary": "The latest round of tariffs is likely to make agricultural production even more expensive and, potentially, limit access to goods not produced in the United States.",
+            "category": "Economy",
+            "image": "images/economy/im13.jpg",
+            "importance": "Medium",
+            "date": "2025-08-05T20:24:16.456064"
+        },
+        {
+            "id": "8",
+            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
+            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
+            "category": "Economy",
+            "image": "images/economy/im18.jpg",
+            "importance": "High",
+            "date": "2025-08-05T20:24:16.456064"
+        },
+        {
+            "id": "9",
+            "title": "Federal Government Shed 12,000 Jobs in July",
+            "summary": "The U.S. government has lost 84,000 jobs since January as the Trump administration aggressively reduces the work force.",
+            "category": "Economy",
+            "image": "images/economy/im30.jpg",
+            "importance": "Medium",
+            "date": "2025-08-05T20:24:16.456064"
+        },
+        {
+            "id": 1,
+            "title": "Trump says pharma tariffs could eventually reach 250%",
+            "summary": "Trump indicates that tariffs on pharmaceuticals could potentially increase to 250%.",
+            "category": "Economy",
+            "image": "images/economy/im3.jpg",
+            "importance": "High",
+            "date": "2025-08-05T20:30:03.504216"
+        },
+        {
+            "id": 5,
+            "title": "Countries scramble for deals as tariff deadline looms",
+            "summary": "Nations are urgently trying to secure agreements before an impending tariff deadline.",
+            "category": "Economy",
+            "image": "images/economy/im5.jpg",
+            "importance": "Medium",
+            "date": "2025-08-05T20:30:03.504216"
+        },
+        {
+            "id": 14,
+            "title": "Crucial exemption allows majority of Canadian and Mexican goods to be shipped to US without tariffs",
+            "summary": "A key exemption enables the majority of goods from Canada and Mexico to be shipped to the US without incurring tariffs.",
+            "category": "Economy",
+            "image": "images/economy/im2.jpg",
+            "importance": "Medium",
+            "date": "2025-08-05T20:30:03.504216"
         }
     ]
 }

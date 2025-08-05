@@ -23,7 +23,7 @@ def answer(data):
                 '{ "0": { "title": "TITLE_HERE", "summary": "SUMMARY_HERE", '
                 '"category": "CATEGORY_HERE", "importance": "IMPORTANCE_HERE" } }\n'
                 "Allowed categories: [Economy, Finance, Markets, Investing, Technology, Science]\n"
-                "Allowed importance levels: [low, medium, high]"
+                "Allowed importance levels: [Low, Medium, High]"
             )
         },
         {

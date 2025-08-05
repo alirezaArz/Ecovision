@@ -8,8 +8,6 @@ project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 Navpath = os.path.join(project_root, 'services', 'Data', 'Navigations')
 OpPath = os.path.join(project_root, 'services', 'Data', 'markdowns')
 
-print(Navpath, OpPath)
-
 
 class Nav():
     def __init__(self):
@@ -46,9 +44,9 @@ class Nav():
             if timenow - a > timedelta(days=3):
                 self.tobedeleted.append(newsdic)
 
-        for cy in ["low", "medium", "high"]:
+        for cy in [['High', 'high'], ['Medium','medium'],['Low', 'low']]:
             for willdelete in self.tobedeleted:
-                if willdelete["importance"] == cy:
+                if willdelete["importance"] == (cy[0] or cy[1]):
                     if len(self.lastdata["newsData"]) > 2:
                         if willdelete in self.lastdata["newsData"]:
                             self.lastdata["newsData"].remove(willdelete)
@@ -92,7 +90,7 @@ class Nav():
         self.output()
 
     def output(self):
-        self.importance = ['High', 'Medium', 'Low']
+        self.importance = [['High', 'high'], ['Medium','medium'],['Low', 'low']]
         self.apnd_count = 0
         self.lastOutPut = self.Navread("SnOutput")
         self.newOutPut = []
@@ -101,7 +99,7 @@ class Nav():
             adding_item = self.Navread(item)
             for imp in self.importance:
                 for state in reversed(adding_item["newsData"]):
-                    if state["importance"] == imp:
+                    if state["importance"] == (imp[0] or imp[1]):
                         state["id"] = self.apnd_count
                         self.newOutPut.append(state)
                         self.apnd_count += 1

@@ -1106,6 +1106,60 @@
             "image": "images/finance/im13.jpg",
             "importance": "Medium",
             "date": "2025-08-02T23:04:58.077845"
+        },
+        {
+            "id": 2,
+            "title": "Why Pfizer's CEO isn't too worried about tariffs on the drug industry",
+            "summary": "Insight into why the CEO of Pfizer is not overly concerned about the impact of tariffs on the pharmaceutical industry.",
+            "category": "Finance",
+            "image": "images/finance/im9.jpg",
+            "importance": "Medium",
+            "date": "2025-08-05T20:30:03.504216"
+        },
+        {
+            "id": 3,
+            "title": "Rivian drops on mixed earnings, tariff and EV tax credit warnings",
+            "summary": "Rivian's stock price declines due to mixed earnings results and warnings related to tariffs and EV tax credits.",
+            "category": "Finance",
+            "image": "images/finance/im13.jpg",
+            "importance": "Medium",
+            "date": "2025-08-05T20:30:03.504216"
+        },
+        {
+            "id": 4,
+            "title": "Lucid falls after missing earnings, cutting production forecast",
+            "summary": "Lucid's stock price falls after the company misses earnings expectations and reduces its production forecast.",
+            "category": "Finance",
+            "image": "images/finance/im13.jpg",
+            "importance": "Medium",
+            "date": "2025-08-05T20:30:03.504216"
+        },
+        {
+            "id": 6,
+            "title": "Opinion: Tariffs are denting profits, and maybe soon your portfolio",
+            "summary": "An opinion piece discussing the negative impact of tariffs on corporate profits and potentially investment portfolios.",
+            "category": "Finance",
+            "image": "images/finance/im13.jpg",
+            "importance": "Medium",
+            "date": "2025-08-05T20:30:03.504216"
+        },
+        {
+            "id": 15,
+            "title": "Lucid cuts annual production forecast as global trade tensions sting",
+            "summary": "Lucid reduces its annual production forecast, citing the negative impact of global trade tensions.",
+            "category": "Finance",
+            "image": "images/finance/im12.jpg",
+            "importance": "Medium",
+            "date": "2025-08-05T20:30:03.504216"
+        },
+        {
+            "id": 16,
+            "title": "Rivian loss bigger than expected on higher costs, lower credit income",
+            "summary": "Rivian reports a larger-than-anticipated loss due to increased costs and decreased credit income.",
+            "category": "Finance",
+            "image": "images/finance/im15.jpg",
+            "importance": "Medium",
+            "date": "2025-08-05T20:30:03.504216"
         }
     ]
 }

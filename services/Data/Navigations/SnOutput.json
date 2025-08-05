@@ -2,6 +2,33 @@
     "newsData": [
         {
             "id": 0,
+            "title": "Trump says pharma tariffs could eventually reach 250%",
+            "summary": "Trump indicates that tariffs on pharmaceuticals could potentially increase to 250%.",
+            "category": "Economy",
+            "image": "images/economy/im3.jpg",
+            "importance": "High",
+            "date": "2025-08-05T20:30:03.504216"
+        },
+        {
+            "id": 1,
+            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
+            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
+            "category": "Economy",
+            "image": "images/economy/im18.jpg",
+            "importance": "High",
+            "date": "2025-08-05T20:24:16.456064"
+        },
+        {
+            "id": 2,
+            "title": "U.S. Imports Slid in June on Higher Tariffs",
+            "summary": "Imports from other countries fell around 4 percent from the previous month as President Trump’s steep tariffs discouraged businesses from ordering goods.",
+            "category": "Economy",
+            "image": "images/economy/im11.jpg",
+            "importance": "High",
+            "date": "2025-08-05T20:24:16.456064"
+        },
+        {
+            "id": 3,
             "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
             "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
             "category": "Economy",
@@ -10,7 +37,7 @@
             "date": "2025-08-02T23:04:58.077845"
         },
         {
-            "id": 1,
+            "id": 4,
             "title": "Trade Fueled Inequality. Can Trump’s Tariffs Reduce It?",
             "summary": "The president has pitched his trade policies at workers who feel left behind by globalization. But that doesn’t mean trade barriers will revive factories and close income gaps.",
             "category": "Economy",
@@ -19,7 +46,7 @@
             "date": "2025-08-02T23:04:58.077845"
         },
         {
-            "id": 2,
+            "id": 5,
             "title": "Charting the Global Economy: US Job Market Wavers in Cue for Fed",
             "summary": "US Job Market's uncertainty is preparing the stage for the Federal Reserve's action's",
             "category": "Economy",
@@ -28,7 +55,7 @@
             "date": "2025-08-02T23:04:16.157177"
         },
         {
-            "id": 3,
+            "id": 6,
             "title": "OPEC+ Agrees in Principle to Another Bumper Supply Increase",
             "summary": "OPEC+ agrees to a significant increase in supply.",
             "category": "Economy",
@@ -37,7 +64,7 @@
             "date": "2025-08-02T23:04:16.157177"
         },
         {
-            "id": 4,
+            "id": 7,
             "title": "BOE Is Probably About to Cut Rates Despite a Spike in Inflation",
             "summary": "Bank of England is considering cutting rates even with rising inflation.",
             "category": "Economy",
@@ -46,7 +73,7 @@
             "date": "2025-08-02T23:04:16.157177"
         },
         {
-            "id": 5,
+            "id": 8,
             "title": "OPEC+ Agrees in Principle to Another Bumper Supply Increase",
             "summary": "OPEC+ agrees to increase supply.",
             "category": "Economy",
@@ -55,313 +82,277 @@
             "date": "2025-08-02T21:14:39.185502"
         },
         {
-            "id": 6,
-            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
-            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
-            "category": "Economy",
-            "image": "images/economy/im24.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 7,
-            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
-            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
-            "category": "Economy",
-            "image": "images/economy/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 8,
-            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
-            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
-            "category": "Economy",
-            "image": "images/economy/im24.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
             "id": 9,
-            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
-            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
+            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
+            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
             "category": "Economy",
-            "image": "images/economy/im9.jpg",
+            "image": "images/economy/im24.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 10,
-            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
-            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
+            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
+            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
             "category": "Economy",
-            "image": "images/economy/im24.jpg",
+            "image": "images/economy/im9.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 11,
-            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
-            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
+            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
+            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
             "category": "Economy",
-            "image": "images/economy/im9.jpg",
+            "image": "images/economy/im24.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 12,
-            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
-            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
+            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
+            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
             "category": "Economy",
-            "image": "images/economy/im24.jpg",
+            "image": "images/economy/im9.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 13,
-            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
-            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
+            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
+            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
             "category": "Economy",
-            "image": "images/economy/im9.jpg",
+            "image": "images/economy/im24.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 14,
-            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
-            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
+            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
+            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
             "category": "Economy",
-            "image": "images/economy/im24.jpg",
+            "image": "images/economy/im9.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 15,
-            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
-            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
+            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
+            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
             "category": "Economy",
-            "image": "images/economy/im9.jpg",
+            "image": "images/economy/im24.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 16,
-            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
-            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
+            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
+            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
             "category": "Economy",
-            "image": "images/economy/im24.jpg",
+            "image": "images/economy/im9.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 17,
-            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
-            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
+            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
+            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
             "category": "Economy",
-            "image": "images/economy/im9.jpg",
+            "image": "images/economy/im24.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 18,
-            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
-            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
+            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
+            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
             "category": "Economy",
-            "image": "images/economy/im24.jpg",
+            "image": "images/economy/im9.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 19,
-            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
-            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
+            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
+            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
             "category": "Economy",
-            "image": "images/economy/im9.jpg",
+            "image": "images/economy/im24.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 20,
-            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
-            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
+            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
+            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
             "category": "Economy",
-            "image": "images/economy/im24.jpg",
+            "image": "images/economy/im9.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 21,
-            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
-            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
+            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
+            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
             "category": "Economy",
-            "image": "images/economy/im9.jpg",
+            "image": "images/economy/im24.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 22,
-            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
-            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
+            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
+            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
             "category": "Economy",
-            "image": "images/economy/im24.jpg",
+            "image": "images/economy/im9.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 23,
-            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
-            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
+            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
+            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
             "category": "Economy",
-            "image": "images/economy/im9.jpg",
+            "image": "images/economy/im24.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 24,
-            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
-            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
+            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
+            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
             "category": "Economy",
-            "image": "images/economy/im24.jpg",
+            "image": "images/economy/im9.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 25,
-            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
-            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
+            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
+            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
             "category": "Economy",
-            "image": "images/economy/im9.jpg",
+            "image": "images/economy/im24.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 26,
-            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
-            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
+            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
+            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
             "category": "Economy",
-            "image": "images/economy/im24.jpg",
+            "image": "images/economy/im9.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 27,
-            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
-            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
+            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
+            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
             "category": "Economy",
-            "image": "images/economy/im9.jpg",
+            "image": "images/economy/im24.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 28,
-            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
-            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
+            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
+            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
             "category": "Economy",
-            "image": "images/economy/im24.jpg",
+            "image": "images/economy/im9.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 29,
-            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
-            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
+            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
+            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
             "category": "Economy",
-            "image": "images/economy/im9.jpg",
+            "image": "images/economy/im24.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 30,
-            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
-            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
+            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
+            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
             "category": "Economy",
-            "image": "images/economy/im24.jpg",
+            "image": "images/economy/im9.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 31,
-            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
-            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
+            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
+            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
             "category": "Economy",
-            "image": "images/economy/im9.jpg",
+            "image": "images/economy/im24.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 32,
-            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
-            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
+            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
+            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
             "category": "Economy",
-            "image": "images/economy/im24.jpg",
+            "image": "images/economy/im9.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 33,
-            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
-            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
+            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
+            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
             "category": "Economy",
-            "image": "images/economy/im9.jpg",
+            "image": "images/economy/im24.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 34,
-            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
-            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
+            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
+            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
             "category": "Economy",
-            "image": "images/economy/im24.jpg",
+            "image": "images/economy/im9.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 35,
-            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
-            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
+            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
+            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
             "category": "Economy",
-            "image": "images/economy/im9.jpg",
+            "image": "images/economy/im24.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 36,
-            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
-            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
+            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
+            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
             "category": "Economy",
-            "image": "images/economy/im24.jpg",
+            "image": "images/economy/im9.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 37,
-            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
-            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
+            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
+            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
             "category": "Economy",
-            "image": "images/economy/im9.jpg",
+            "image": "images/economy/im24.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 38,
-            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
-            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
+            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
+            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
             "category": "Economy",
-            "image": "images/economy/im24.jpg",
+            "image": "images/economy/im9.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 39,
-            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
-            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
-            "category": "Economy",
-            "image": "images/economy/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 40,
             "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
             "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
             "category": "Economy",
@@ -370,7 +361,7 @@
             "date": "2025-08-01T22:48:00.988602"
         },
         {
-            "id": 41,
+            "id": 40,
             "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
             "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
             "category": "Economy",
@@ -379,7 +370,43 @@
             "date": "2025-08-01T22:48:00.988602"
         },
         {
+            "id": 41,
+            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
+            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
+            "category": "Economy",
+            "image": "images/economy/im24.jpg",
+            "importance": "High",
+            "date": "2025-08-01T22:48:00.988602"
+        },
+        {
             "id": 42,
+            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
+            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
+            "category": "Economy",
+            "image": "images/economy/im9.jpg",
+            "importance": "High",
+            "date": "2025-08-01T22:48:00.988602"
+        },
+        {
+            "id": 43,
+            "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
+            "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
+            "category": "Economy",
+            "image": "images/economy/im24.jpg",
+            "importance": "High",
+            "date": "2025-08-01T22:48:00.988602"
+        },
+        {
+            "id": 44,
+            "title": "Overturning the Global Trade System, Trump Puts His Ideas to the Test",
+            "summary": "President Trump has long wanted to rework world trade. The tariffs set to go into effect next week will carry out that plan.",
+            "category": "Economy",
+            "image": "images/economy/im9.jpg",
+            "importance": "High",
+            "date": "2025-08-01T22:48:00.988602"
+        },
+        {
+            "id": 45,
             "title": "Crunch Time for World Leaders Over Trade on Eve of Trump Deadline",
             "summary": "World leaders face a crucial period regarding trade before Trump's deadline.",
             "category": "Economy",
@@ -388,7 +415,7 @@
             "date": "2025-07-31T11:18:57.236597"
         },
         {
-            "id": 43,
+            "id": 46,
             "title": "Trump Tariff Deadline Eve Arrives as Surprises Abound",
             "summary": "Uncertainty surrounds Trump's tariff deadline.",
             "category": "Economy",
@@ -397,7 +424,7 @@
             "date": "2025-07-31T11:18:57.236597"
         },
         {
-            "id": 44,
+            "id": 47,
             "title": "Crunch Time for World Leaders Over Trade on Eve of Trump Deadline",
             "summary": "World leaders face critical negotiations regarding trade as the Trump tariff deadline approaches.",
             "category": "Economy",
@@ -406,7 +433,7 @@
             "date": "2025-07-31T11:18:08.184659"
         },
         {
-            "id": 45,
+            "id": 48,
             "title": "Trump Tariff Deadline Eve Arrives as Surprises Abound",
             "summary": "Uncertainty and potential surprises surround the impending Trump tariff deadline.",
             "category": "Economy",
@@ -415,7 +442,7 @@
             "date": "2025-07-31T11:18:08.184659"
         },
         {
-            "id": 46,
+            "id": 49,
             "title": "Powell’s Hawkish Tilt Sets Up Greater Tension With White House",
             "summary": "The Federal Reserve Chairman's hawkish stance on monetary policy is likely to increase friction with the White House.",
             "category": "Economy",
@@ -424,7 +451,7 @@
             "date": "2025-07-31T11:18:08.184659"
         },
         {
-            "id": 47,
+            "id": 50,
             "title": "Crunch Time for World Leaders Over Trade on Eve of Trump Deadline",
             "summary": "World leaders face crucial trade decisions.",
             "category": "Economy",
@@ -433,7 +460,7 @@
             "date": "2025-07-31T11:18:01.838000"
         },
         {
-            "id": 48,
+            "id": 51,
             "title": "Trump Tariff Deadline Eve Arrives as Surprises Abound",
             "summary": "Trump's tariff deadline is approaching.",
             "category": "Economy",
@@ -442,7 +469,7 @@
             "date": "2025-07-31T11:18:01.838000"
         },
         {
-            "id": 49,
+            "id": 52,
             "title": "Powell’s Hawkish Tilt Sets Up Greater Tension With White House",
             "summary": "Tension rises between Powell and White House.",
             "category": "Economy",
@@ -451,7 +478,7 @@
             "date": "2025-07-31T11:18:01.838000"
         },
         {
-            "id": 50,
+            "id": 53,
             "title": "Crunch Time for World Leaders Over Trade on Eve of Trump Deadline",
             "summary": "World leaders face a critical period regarding trade negotiations ahead of the Trump administration's tariff deadline.",
             "category": "Economy",
@@ -460,7 +487,7 @@
             "date": "2025-07-31T11:17:07.566724"
         },
         {
-            "id": 51,
+            "id": 54,
             "title": "Trump Tariff Deadline Eve Arrives as Surprises Abound",
             "summary": "Uncertainty surrounds the Trump administration's tariff deadline, with potential for unexpected developments.",
             "category": "Economy",
@@ -469,7 +496,7 @@
             "date": "2025-07-31T11:17:07.566724"
         },
         {
-            "id": 52,
+            "id": 55,
             "title": "Crunch Time for World Leaders Over Trade on Eve of Trump Deadline",
             "summary": "World leaders face critical decisions regarding trade before Trump's tariff deadline.",
             "category": "Economy",
@@ -478,7 +505,7 @@
             "date": "2025-07-31T11:16:27.937835"
         },
         {
-            "id": 53,
+            "id": 56,
             "title": "Trump Tariff Deadline Eve Arrives as Surprises Abound",
             "summary": "Impending tariff deadline under Trump administration brings uncertainty.",
             "category": "Economy",
@@ -487,7 +514,7 @@
             "date": "2025-07-31T11:16:27.937835"
         },
         {
-            "id": 54,
+            "id": 57,
             "title": "With Taxes and Tariffs in Place, Trump Takes Reins of U.S. Economy",
             "summary": "President Trump has achieved much of his agenda, leaving the fate of the economy squarely in his hands.",
             "category": "Economy",
@@ -496,7 +523,7 @@
             "date": "2025-07-27T01:17:07.742417"
         },
         {
-            "id": 55,
+            "id": 58,
             "title": "It’s No Bluff: The Tariff Rate Is Soaring Under Trump",
             "summary": "The president has earned a reputation for bluffing on tariffs. But he has steadily and dramatically raised U.S. tariffs, transforming global trade.",
             "category": "Economy",
@@ -505,7 +532,7 @@
             "date": "2025-07-27T01:04:13.754327"
         },
         {
-            "id": 56,
+            "id": 59,
             "title": "The Economy Has Been Resilient. The New Round of Tariffs May Hit Harder.",
             "summary": "The economy’s resilience so far to President Trump’s global trade war risks emboldening him and unleashing the sort of economic devastation that economists have long feared.",
             "category": "Economy",
@@ -514,7 +541,7 @@
             "date": "2025-07-27T01:04:13.754327"
         },
         {
-            "id": 57,
+            "id": 60,
             "title": "Rising Inflation Underscores Risks in Trump’s New Tariff Threats",
             "summary": "New data showing price increases last month could foreshadow even higher costs if the president imposes steep tariffs on Aug. 1.",
             "category": "Economy",
@@ -523,7 +550,7 @@
             "date": "2025-07-27T01:04:13.754327"
         },
         {
-            "id": 58,
+            "id": 61,
             "title": "Trump’s Tariffs Are the Highest in a Century. But After His Threats, They Seem Like a Relief.",
             "summary": "The president imposed tariffs on Japan, one of America’s closest allies, that would have been alarming just months ago. And markets went up.",
             "category": "Economy",
@@ -532,7 +559,7 @@
             "date": "2025-07-27T01:04:13.754327"
         },
         {
-            "id": 59,
+            "id": 62,
             "title": "China's rare earth export curbs hit the auto industry worldwide",
             "summary": "China's restrictions on rare earth exports have a detrimental impact on the global auto industry.",
             "category": "Economy",
@@ -541,7 +568,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 60,
+            "id": 63,
             "title": "The GOP's 'big, beautiful bill' would leave 10.9 million more uninsured: CBO",
             "summary": "According to the CBO, the GOP's 'big, beautiful bill' would result in 10.9 million additional uninsured individuals.",
             "category": "Economy",
@@ -550,7 +577,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 61,
+            "id": 64,
             "title": "US economy shows signs of 'paralysis' ahead of key jobs report",
             "summary": "The US economy exhibits signs of 'paralysis' leading up to the release of a crucial jobs report.",
             "category": "Economy",
@@ -559,7 +586,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 62,
+            "id": 65,
             "title": "دنیای اقتصاد: بررسیها نشان میدهد که در شرایط اضطراری مانند جنگ، خانوارهایی که کمترین درآمد را دارند (دهک اول و دوم) بیش از سایر خانوارها آسیبپذیر هستند.",
             "summary": "Studies show that in emergency situations such as war, households with the lowest income (first and second deciles) are more vulnerable than other households.",
             "category": "Economy",
@@ -568,7 +595,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 63,
+            "id": 66,
             "title": "در شرایط جنگی، کشور با چالشها و تغییرات متعددی روبهرو میشود. در چنین شرایطی، سیاستگذاران با چالشهای جدی روبه رو هستند و لازم است تصمیمات فوری برای مدیریت بحران و افزایش تاب آوری کشور اتخاذ کنند.",
             "summary": "In a war situation, the country faces many challenges and changes. In such circumstances, policymakers face serious challenges and need to make immediate decisions to manage the crisis and increase the country's resilience.",
             "category": "Economy",
@@ -577,7 +604,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 64,
+            "id": 67,
             "title": "در شرایط جنگ و افزایش تنشهای منطقهای و بینالمللی، اقتصاد هر کشوری با چالشهای بیسابقهای روبهرو میشود.",
             "summary": "In the context of war and increasing regional and international tensions, the economy of each country faces unprecedented challenges.",
             "category": "Economy",
@@ -586,7 +613,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 65,
+            "id": 68,
             "title": "دنیای اقتصاد: در شرایط بحرانی، کشور با چالشها و تغییرات متعددی روبهرو میشود. به همین دلیل سیاستگذاران همواره به دنبال اعمال سیاستهایی جهت حمایت از مردم و فعالان اقتصادی هستند.",
             "summary": "In a crisis situation, the country faces many challenges and changes. For this reason, policymakers are always looking to implement policies to support people and economic actors.",
             "category": "Economy",
@@ -595,7 +622,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 66,
+            "id": 69,
             "title": "با وجود آرامش موجود در بازار مصرف، تداوم درگیریها نگرانیهایی را نسبت به امنیت تامین کالاهای اساسی در جامعه برانگیخته است.",
             "summary": "Despite the calm in the consumer market, the continuation of conflicts has raised concerns about the security of the supply of basic goods in the society.",
             "category": "Economy",
@@ -604,7 +631,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 67,
+            "id": 70,
             "title": "وزیر اقتصاد از رشد ۵۳درصدی واردات کالاهای اساسی در هفته گذشته خبر داد و گفت: تلاش شبانهروزی گمرک منجر به ترخیص ۹۸۰هزار تن کالا شد.",
             "summary": "The Minister of Economy announced a 53% increase in imports of basic goods last week and said: The round-the-clock efforts of the customs led to the clearance of 980 thousand tons of goods.",
             "category": "Economy",
@@ -613,7 +640,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 68,
+            "id": 71,
             "title": "آمریکا در زمان تعطیلی بازارهای جهانی به ایران حمله کرد، تا شاید اقتصاد جهان و بازارهای مهمی مانند سهام، نفت و طلا از ترکش نظامیگری در امان باشند.",
             "summary": "The United States attacked Iran when global markets were closed, perhaps to protect the global economy and important markets such as stocks, oil, and gold from military shrapnel.",
             "category": "Economy",
@@ -622,7 +649,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 69,
+            "id": 72,
             "title": "دیروز در حالی که برخی منابع از آغاز آتشبس میان ایران و اسرائیل خبر دادند، وزیر امور خارجه اعلام کرد اگر حملات اسرائیل متوقف شود، ایران نیز عملیات نظامی خود را متوقف خواهد کرد.",
             "summary": "Yesterday, while some sources reported the start of a ceasefire between Iran and Israel, the Foreign Minister announced that if Israeli attacks stop, Iran will also stop its military operations.",
             "category": "Economy",
@@ -631,7 +658,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 70,
+            "id": 73,
             "title": "با درگیری بیسابقه و تنشزای ۱۲ روزه میان اسرائیل و ایران که با حملات موشکی متقابل، خسارات گسترده زیرساختی و تعطیلیهای سراسری در سرزمینهای اشغالی همراه بود، مقامات اقتصادی اسرائیل از یک ضربه بیسابقه به پیکر اقتصاد سخن میگویند.",
             "summary": "With the unprecedented and tense 12-day conflict between Israel and Iran, which involved mutual missile attacks, widespread infrastructure damage, and nationwide shutdowns in the occupied territories, Israeli economic officials speak of an unprecedented blow to the economy.",
             "category": "Economy",
@@ -640,7 +667,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 71,
+            "id": 74,
             "title": "بررسیها نشان میدهد که دولت ایران در دوران جنگ ۱۲روزه، اقدامات حمایتی مختلفی با تمرکز بر تامین کالاهای اساسی انجام داد.",
             "summary": "Studies show that during the 12-day war, the Iranian government took various support measures focusing on the supply of basic goods.",
             "category": "Economy",
@@ -649,7 +676,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 72,
+            "id": 75,
             "title": "بر اساس گزارش مرکز آمار ایران، تورم نقطه به نقطه در پایان خرداد باثبت نرخ ۳۹.۴درصد، به بیشترین سطح از آذرماه۱۴۰۲ رسیده است.",
             "summary": "According to the Iranian Statistics Center, the point-to-point inflation rate at the end of June, with a rate of 39.4%, has reached its highest level since December 2023.",
             "category": "Economy",
@@ -658,7 +685,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 73,
+            "id": 76,
             "title": "دولت در جنگ ۱۲روزه با اقداماتی نظیر تامین ارز برای واردات کالاهای اساسی، کاهش بوروکراسی ترخیص کالا، تدوین بسته حمایتی برای صنایع و بازگشت ارز ترجیحی برای برخی از کالاها موفق شد با سرعت قابل قبولی اختلالات مقطعی در زنجیره تامین را کنترل کند.",
             "summary": "Government managed to control the momentary disruption in the supply chain with actions such as supplying currency for the import of basic goods, reducing bureaucracy for customs clearance, developing a support package for industries, and returning preferential currency for some goods.",
             "category": "Economy",
@@ -667,7 +694,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 74,
+            "id": 77,
             "title": "Euro-Zone Growth to Stall as Short-Lived Trade Boost Unwinds",
             "summary": "Euro-zone growth is predicted to stagnate as the temporary trade boost fades.",
             "category": "Economy",
@@ -676,7 +703,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 75,
+            "id": 78,
             "title": "Brazil Producers Look to Halt Pig Iron Output as US Tariff Threat Crimps Demand",
             "summary": "Brazilian pig iron producers are considering halting output due to decreased demand caused by potential US tariffs.",
             "category": "Economy",
@@ -685,7 +712,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 76,
+            "id": 79,
             "title": "Trump and Xi break the ice, pledge to restart talks",
             "summary": "Trump and Xi agree to resume negotiations.",
             "category": "Economy",
@@ -694,7 +721,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 77,
+            "id": 80,
             "title": "May jobs report expected to show hiring slowdown, flat unemployment",
             "summary": "The May jobs report is projected to indicate a decline in hiring and stable unemployment rates.",
             "category": "Economy",
@@ -703,7 +730,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 78,
+            "id": 81,
             "title": "US economy shows signs of 'paralysis' ahead of key jobs report",
             "summary": "The US economy displays signs of stagnation as a key jobs report approaches.",
             "category": "Economy",
@@ -712,7 +739,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 79,
+            "id": 82,
             "title": "در شرایط جنگ و افزایش تنش‌های منطقه‌ای و بین‌المللی، اقتصاد هر کشوری با چالش‌های بی‌سابقه‌ای روبه‌رو می‌شود",
             "summary": "In the context of war and increasing regional and international tensions, the economy of any country faces unprecedented challenges.",
             "category": "Economy",
@@ -721,7 +748,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 80,
+            "id": 83,
             "title": "آمریکا در زمان تعطیلی بازارهای جهانی به ایران حمله کرد، تا شاید اقتصاد جهان و بازارهای مهمی مانند سهام، نفت و طلا از ترکش نظامی‌گری در امان باشند.",
             "summary": "America attacked Iran at a time when global markets were closed, so that the world economy and important markets such as stocks, oil and gold would be safe from military shrapnel.",
             "category": "Economy",
@@ -730,7 +757,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 81,
+            "id": 84,
             "title": "در شرایط بحرانی مانند تنش‌های ژئوپلیتیک، اولویت اصلی در رویکرد اقتصادی دولت‌ها باید حمایت از خانوارها و بنگاه‌ها باشد، حتی اگر این حمایت منجر به افزایش کسری بودجه یا رشد پایه پولی شود.",
             "summary": "In critical situations such as geopolitical tensions, the main priority in the economic approach of governments should be to support households and businesses, even if this support leads to an increase in the budget deficit or the growth of the monetary base.",
             "category": "Economy",
@@ -739,7 +766,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 82,
+            "id": 85,
             "title": "با گذشت بیش از یک هفته از تجاوز اسرائیل به خاک ایران، سوالات جدی درباره تاب‌آوری اقتصاد اسرائیل به وجود آمده است.",
             "summary": "More than a week after Israel's invasion of Iranian territory, serious questions have been raised about the resilience of the Israeli economy.",
             "category": "Economy",
@@ -748,7 +775,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 83,
+            "id": 86,
             "title": "دیروز در حالی که برخی منابع از آغاز آتش‌بس میان ایران و اسرائیل خبر دادند، وزیر امور خارجه اعلام کرد اگر حملات اسرائیل متوقف شود، ایران نیز عملیات نظامی خود را متوقف خواهد کرد. در صورت بر قراری آتش بس و پایان جنگ، دولت ایران باید با فوریت سیاست‌های رفاهی هدفمند و کوتاه‌مدت را برای کاهش فشار بر خانوارها اجرا کند.",
             "summary": "Yesterday, while some sources reported the start of a ceasefire between Iran and Israel, the Minister of Foreign Affairs announced that if Israel stops its attacks, Iran will also stop its military operations. If a ceasefire is established and the war ends, the Iranian government must immediately implement targeted and short-term welfare policies to reduce pressure on households.",
             "category": "Economy",
@@ -757,7 +784,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 84,
+            "id": 87,
             "title": "جنگ ۱۲ روزه میان ایران و اسرائیل، چالش‌های اقتصادی کسب‌و‌کارها و خانوارها را بیش از پیش تشدید کرده است.",
             "summary": "The 12-day war between Iran and Israel has further exacerbated the economic challenges of businesses and households.",
             "category": "Economy",
@@ -766,7 +793,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 85,
+            "id": 88,
             "title": "با درگیری بی‌‌‌سابقه و تنش‌‌‌زای ۱۲ روزه میان اسرائیل و ایران که با حملات موشکی متقابل، خسارات گسترده زیرساختی و تعطیلی‌‌‌های سراسری در سرزمین‌‌‌های اشغالی همراه بود، مقامات اقتصادی اسرائیل از یک ضربه بی‌‌‌سابقه به پیکر اقتصاد سخن می‌گویند.",
             "summary": "With the unprecedented and tense 12-day conflict between Israel and Iran, which was accompanied by mutual missile attacks, extensive infrastructure damage and nationwide shutdowns in the occupied territories, Israeli economic officials are talking about an unprecedented blow to the economy.",
             "category": "Economy",
@@ -775,7 +802,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 86,
+            "id": 89,
             "title": "بررسی‌ها نشان می‌دهد که دولت ایران در دوران جنگ ۱۲روزه، اقدامات حمایتی مختلفی با تمرکز بر تامین کالاهای اساسی انجام داد",
             "summary": "Studies show that the Iranian government took various support measures during the 12-day war, focusing on the supply of essential goods.",
             "category": "Economy",
@@ -784,7 +811,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 87,
+            "id": 90,
             "title": "بر اساس گزارش مرکز آمار ایران، تورم نقطه به نقطه در پایان خرداد باثبت نرخ ۳۹.۴درصد، به بیشترین سطح از آذرماه۱۴۰۲ رسیده است. نرخ تورم ماهانه در این‌ماه معادل ۳.۳درصد بوده که نسبت به ماه قبل افزایش ۰.۶واحد درصدی را نشان می‌دهد. نکته قابل توجه اینکه گروه خوراکی‌ها بیشترین اثرگذاری را در نرخ تورم خرداد ماه داشته است.",
             "summary": "According to the Statistical Center of Iran, point-to-point inflation at the end of June, with a rate of 39.4%, has reached its highest level since December 2023. The monthly inflation rate this month was 3.3%, which shows an increase of 0.6 percentage points compared to the previous month. It is noteworthy that the food group had the greatest impact on the inflation rate in June.",
             "category": "Economy",
@@ -793,7 +820,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 88,
+            "id": 91,
             "title": "دولت در جنگ ۱۲روزه با اقداماتی نظیر تامین ارز برای واردات کالاهای اساسی، کاهش بوروکراسی ترخیص کالا، تدوین بسته حمایتی برای صنایع و بازگشت ارز ترجیحی برای برخی از کالاها موفق شد با سرعت قابل قبولی اختلالات مقطعی در زنجیره تامین را کنترل کند",
             "summary": "The government managed to control temporary disruptions in the supply chain with acceptable speed by providing currency for the import of essential goods, reducing the bureaucracy of customs clearance, developing a support package for industries, and returning preferential currency for some goods.",
             "category": "Economy",
@@ -802,7 +829,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 89,
+            "id": 92,
             "title": "Euro-Zone Growth to Stall as Short-Lived Trade Boost Unwinds",
             "summary": "Euro-zone economic growth is expected to stagnate as the temporary boost from trade fades.",
             "category": "Economy",
@@ -811,7 +838,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 90,
+            "id": 93,
             "title": "Trump Says 50-50 Odds of Trade Deal With European Union",
             "summary": "Trump assesses the likelihood of a trade deal with the EU as uncertain.",
             "category": "Economy",
@@ -820,7 +847,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 91,
+            "id": 94,
             "title": "Brazil Producers Look to Halt Pig Iron Output as US Tariff Threat Crimps Demand",
             "summary": "Brazilian pig iron producers consider halting output due to reduced demand caused by potential US tariffs.",
             "category": "Economy",
@@ -829,7 +856,61 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 92,
+            "id": 95,
+            "title": "Crucial exemption allows majority of Canadian and Mexican goods to be shipped to US without tariffs",
+            "summary": "A key exemption enables the majority of goods from Canada and Mexico to be shipped to the US without incurring tariffs.",
+            "category": "Economy",
+            "image": "images/economy/im2.jpg",
+            "importance": "Medium",
+            "date": "2025-08-05T20:30:03.504216"
+        },
+        {
+            "id": 96,
+            "title": "Countries scramble for deals as tariff deadline looms",
+            "summary": "Nations are urgently trying to secure agreements before an impending tariff deadline.",
+            "category": "Economy",
+            "image": "images/economy/im5.jpg",
+            "importance": "Medium",
+            "date": "2025-08-05T20:30:03.504216"
+        },
+        {
+            "id": 97,
+            "title": "Federal Government Shed 12,000 Jobs in July",
+            "summary": "The U.S. government has lost 84,000 jobs since January as the Trump administration aggressively reduces the work force.",
+            "category": "Economy",
+            "image": "images/economy/im30.jpg",
+            "importance": "Medium",
+            "date": "2025-08-05T20:24:16.456064"
+        },
+        {
+            "id": 98,
+            "title": "How Tariffs Raise Costs for Farmers, Making Food More Expensive",
+            "summary": "The latest round of tariffs is likely to make agricultural production even more expensive and, potentially, limit access to goods not produced in the United States.",
+            "category": "Economy",
+            "image": "images/economy/im13.jpg",
+            "importance": "Medium",
+            "date": "2025-08-05T20:24:16.456064"
+        },
+        {
+            "id": 99,
+            "title": "Trade Fueled Inequality. Can Trump’s Tariffs Reduce It?",
+            "summary": "The president has pitched his trade policies at workers who feel left behind by globalization. But that doesn’t mean trade barriers will revive factories and close income gaps.",
+            "category": "Economy",
+            "image": "images/economy/im9.jpg",
+            "importance": "Medium",
+            "date": "2025-08-05T20:24:16.456064"
+        },
+        {
+            "id": 100,
+            "title": "Trump’s Demand to Trading Partners: Pledge Money or Get Higher Tariffs",
+            "summary": "President Trump is using an “Art of the Deal” approach to get other nations to hand over cash to lower their tariffs.",
+            "category": "Economy",
+            "image": "images/economy/im4.jpg",
+            "importance": "Medium",
+            "date": "2025-08-05T20:24:16.456064"
+        },
+        {
+            "id": 101,
             "title": "South Korea Reaches Trade Deal With Trump",
             "summary": "The agreement comes after other American allies, like Japan, clinched their own deals, partly to moderate President Trump’s tariff threats.",
             "category": "Economy",
@@ -838,7 +919,7 @@
             "date": "2025-08-02T23:04:58.077845"
         },
         {
-            "id": 93,
+            "id": 102,
             "title": "Countries Promise Trump to Buy U.S. Gas, and Leave the Details for Later",
             "summary": "U.S. trading partners are committing to buy more gas than they need or than the U.S. can produce, at least in the short term.",
             "category": "Economy",
@@ -847,7 +928,7 @@
             "date": "2025-08-02T23:04:58.077845"
         },
         {
-            "id": 94,
+            "id": 103,
             "title": "Cambodia Agrees to a Reduced Tariff and Breathes a Sigh of Relief",
             "summary": "Initially 49%, it was lowered to 19%, easing worries of a damaging hit to the country’s garment and footwear production industries.",
             "category": "Economy",
@@ -856,7 +937,7 @@
             "date": "2025-08-02T23:04:58.077845"
         },
         {
-            "id": 95,
+            "id": 104,
             "title": "Harm or Help? Why Companies Are Battling Tariffs Meant to Benefit Them.",
             "summary": "Economists say the way the Trump administration is imposing tariffs is backfiring for some of the businesses they are meant to help.",
             "category": "Economy",
@@ -865,7 +946,7 @@
             "date": "2025-08-02T23:04:58.077845"
         },
         {
-            "id": 96,
+            "id": 105,
             "title": "Switzerland Is Stunned by 39% U.S. Tariff, Among the Highest in the World",
             "summary": "Swiss officials plan to negotiate urgently for a lower rate, before the punishing levy takes effect next week.",
             "category": "Economy",
@@ -874,7 +955,7 @@
             "date": "2025-08-02T23:04:58.077845"
         },
         {
-            "id": 97,
+            "id": 106,
             "title": "Big Downward Jobs Revisions Could Be a Warning Sign for the Economy",
             "summary": "Employers added far fewer jobs in May and June than previously reported. Such downgrades have historically meant trouble for the labor market.",
             "category": "Economy",
@@ -883,7 +964,7 @@
             "date": "2025-08-02T23:04:58.077845"
         },
         {
-            "id": 98,
+            "id": 107,
             "title": "Federal Government Shed 12,000 Jobs in July",
             "summary": "The U.S. government has lost 84,000 jobs since January as the Trump administration aggressively reduces the work force.",
             "category": "Economy",
@@ -892,7 +973,7 @@
             "date": "2025-08-02T23:04:58.077845"
         },
         {
-            "id": 99,
+            "id": 108,
             "title": "How Tariffs Raise Costs for Farmers, Making Food More Expensive",
             "summary": "The latest round of tariffs is likely to make agricultural production even more expensive and, potentially, limit access to goods not produced in the United States.",
             "category": "Economy",
@@ -901,7 +982,7 @@
             "date": "2025-08-02T23:04:58.077845"
         },
         {
-            "id": 100,
+            "id": 109,
             "title": "Trump, Claiming Weak Jobs Numbers Were ‘Rigged,’ Fires Labor Official",
             "summary": "Economists said ousting the head of the Bureau of Labor Statistics could undermine confidence in government economic data.",
             "category": "Economy",
@@ -910,7 +991,7 @@
             "date": "2025-08-02T23:04:58.077845"
         },
         {
-            "id": 101,
+            "id": 110,
             "title": "Iran Says It’s Close to Resolving Gas Export Issues With Iraq",
             "summary": "Iran announces progress in resolving gas export issues with Iraq.",
             "category": "Economy",
@@ -919,7 +1000,7 @@
             "date": "2025-08-02T23:04:16.157177"
         },
         {
-            "id": 102,
+            "id": 111,
             "title": "Charting the Global Economy: US Job Market Wavers in Cue for Fed",
             "summary": "US Job Market is uncertain and relates to the Federal Reserve.",
             "category": "Economy",
@@ -928,94 +1009,13 @@
             "date": "2025-08-02T21:14:39.185502"
         },
         {
-            "id": 103,
+            "id": 112,
             "title": "Iran Says It’s Close to Resolving Gas Export Issues With Iraq",
             "summary": "Iran is nearing resolution of gas export issues with Iraq.",
             "category": "Economy",
             "image": "images/economy/im6.jpg",
             "importance": "Medium",
             "date": "2025-08-02T21:14:39.185502"
-        },
-        {
-            "id": 104,
-            "title": "Federal Government Shed 12,000 Jobs in July",
-            "summary": "The U.S. government has lost 84,000 jobs since January as the Trump administration aggressively reduces the work force.",
-            "category": "Economy",
-            "image": "images/economy/im25.jpg",
-            "importance": "Medium",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 105,
-            "title": "How Tariffs Raise Costs for Farmers, Making Food More Expensive",
-            "summary": "The latest round of tariffs is likely to make agricultural production even more expensive and, potentially, limit access to goods not produced in the United States.",
-            "category": "Economy",
-            "image": "images/economy/im29.jpg",
-            "importance": "Medium",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 106,
-            "title": "Trump, Claiming Weak Jobs Numbers Were ‘Rigged,’ Moves to Fire Labor Official",
-            "summary": "Economists said ousting the head of the Bureau of Labor Statistics could undermine confidence in government economic data.",
-            "category": "Economy",
-            "image": "images/economy/im17.jpg",
-            "importance": "Medium",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 107,
-            "title": "Federal Government Shed 12,000 Jobs in July",
-            "summary": "The U.S. government has lost 84,000 jobs since January as the Trump administration aggressively reduces the work force.",
-            "category": "Economy",
-            "image": "images/economy/im25.jpg",
-            "importance": "Medium",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 108,
-            "title": "How Tariffs Raise Costs for Farmers, Making Food More Expensive",
-            "summary": "The latest round of tariffs is likely to make agricultural production even more expensive and, potentially, limit access to goods not produced in the United States.",
-            "category": "Economy",
-            "image": "images/economy/im29.jpg",
-            "importance": "Medium",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 109,
-            "title": "Trump, Claiming Weak Jobs Numbers Were ‘Rigged,’ Moves to Fire Labor Official",
-            "summary": "Economists said ousting the head of the Bureau of Labor Statistics could undermine confidence in government economic data.",
-            "category": "Economy",
-            "image": "images/economy/im17.jpg",
-            "importance": "Medium",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 110,
-            "title": "Federal Government Shed 12,000 Jobs in July",
-            "summary": "The U.S. government has lost 84,000 jobs since January as the Trump administration aggressively reduces the work force.",
-            "category": "Economy",
-            "image": "images/economy/im25.jpg",
-            "importance": "Medium",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 111,
-            "title": "How Tariffs Raise Costs for Farmers, Making Food More Expensive",
-            "summary": "The latest round of tariffs is likely to make agricultural production even more expensive and, potentially, limit access to goods not produced in the United States.",
-            "category": "Economy",
-            "image": "images/economy/im29.jpg",
-            "importance": "Medium",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 112,
-            "title": "Trump, Claiming Weak Jobs Numbers Were ‘Rigged,’ Moves to Fire Labor Official",
-            "summary": "Economists said ousting the head of the Bureau of Labor Statistics could undermine confidence in government economic data.",
-            "category": "Economy",
-            "image": "images/economy/im17.jpg",
-            "importance": "Medium",
-            "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 113,
@@ -1424,6 +1424,87 @@
         },
         {
             "id": 158,
+            "title": "Federal Government Shed 12,000 Jobs in July",
+            "summary": "The U.S. government has lost 84,000 jobs since January as the Trump administration aggressively reduces the work force.",
+            "category": "Economy",
+            "image": "images/economy/im25.jpg",
+            "importance": "Medium",
+            "date": "2025-08-01T22:48:00.988602"
+        },
+        {
+            "id": 159,
+            "title": "How Tariffs Raise Costs for Farmers, Making Food More Expensive",
+            "summary": "The latest round of tariffs is likely to make agricultural production even more expensive and, potentially, limit access to goods not produced in the United States.",
+            "category": "Economy",
+            "image": "images/economy/im29.jpg",
+            "importance": "Medium",
+            "date": "2025-08-01T22:48:00.988602"
+        },
+        {
+            "id": 160,
+            "title": "Trump, Claiming Weak Jobs Numbers Were ‘Rigged,’ Moves to Fire Labor Official",
+            "summary": "Economists said ousting the head of the Bureau of Labor Statistics could undermine confidence in government economic data.",
+            "category": "Economy",
+            "image": "images/economy/im17.jpg",
+            "importance": "Medium",
+            "date": "2025-08-01T22:48:00.988602"
+        },
+        {
+            "id": 161,
+            "title": "Federal Government Shed 12,000 Jobs in July",
+            "summary": "The U.S. government has lost 84,000 jobs since January as the Trump administration aggressively reduces the work force.",
+            "category": "Economy",
+            "image": "images/economy/im25.jpg",
+            "importance": "Medium",
+            "date": "2025-08-01T22:48:00.988602"
+        },
+        {
+            "id": 162,
+            "title": "How Tariffs Raise Costs for Farmers, Making Food More Expensive",
+            "summary": "The latest round of tariffs is likely to make agricultural production even more expensive and, potentially, limit access to goods not produced in the United States.",
+            "category": "Economy",
+            "image": "images/economy/im29.jpg",
+            "importance": "Medium",
+            "date": "2025-08-01T22:48:00.988602"
+        },
+        {
+            "id": 163,
+            "title": "Trump, Claiming Weak Jobs Numbers Were ‘Rigged,’ Moves to Fire Labor Official",
+            "summary": "Economists said ousting the head of the Bureau of Labor Statistics could undermine confidence in government economic data.",
+            "category": "Economy",
+            "image": "images/economy/im17.jpg",
+            "importance": "Medium",
+            "date": "2025-08-01T22:48:00.988602"
+        },
+        {
+            "id": 164,
+            "title": "Federal Government Shed 12,000 Jobs in July",
+            "summary": "The U.S. government has lost 84,000 jobs since January as the Trump administration aggressively reduces the work force.",
+            "category": "Economy",
+            "image": "images/economy/im25.jpg",
+            "importance": "Medium",
+            "date": "2025-08-01T22:48:00.988602"
+        },
+        {
+            "id": 165,
+            "title": "How Tariffs Raise Costs for Farmers, Making Food More Expensive",
+            "summary": "The latest round of tariffs is likely to make agricultural production even more expensive and, potentially, limit access to goods not produced in the United States.",
+            "category": "Economy",
+            "image": "images/economy/im29.jpg",
+            "importance": "Medium",
+            "date": "2025-08-01T22:48:00.988602"
+        },
+        {
+            "id": 166,
+            "title": "Trump, Claiming Weak Jobs Numbers Were ‘Rigged,’ Moves to Fire Labor Official",
+            "summary": "Economists said ousting the head of the Bureau of Labor Statistics could undermine confidence in government economic data.",
+            "category": "Economy",
+            "image": "images/economy/im17.jpg",
+            "importance": "Medium",
+            "date": "2025-08-01T22:48:00.988602"
+        },
+        {
+            "id": 167,
             "title": "Tata Steel to Explore New Markets as Tariffs Hit US Shipments",
             "summary": "Tata Steel seeks new markets because of US tariffs.",
             "category": "Economy",
@@ -1432,7 +1513,7 @@
             "date": "2025-07-31T11:18:57.236597"
         },
         {
-            "id": 159,
+            "id": 168,
             "title": "Toyota Suppliers Look to Pass on Tariff Costs With Price Hikes",
             "summary": "Toyota's supplier considers tariff on the price",
             "category": "Economy",
@@ -1441,7 +1522,7 @@
             "date": "2025-07-31T11:18:57.236597"
         },
         {
-            "id": 160,
+            "id": 169,
             "title": "Kenya Inflation Quickens to Three-Month High as Food Prices Jump",
             "summary": "Kenya experiences a rise in inflation due to increased food prices.",
             "category": "Economy",
@@ -1450,7 +1531,7 @@
             "date": "2025-07-31T11:18:57.236597"
         },
         {
-            "id": 161,
+            "id": 170,
             "title": "Toyota Suppliers Look to Pass on Tariff Costs With Price Hikes",
             "summary": "Toyota's suppliers intend to offset tariff costs by raising prices.",
             "category": "Economy",
@@ -1459,7 +1540,7 @@
             "date": "2025-07-31T11:18:08.184659"
         },
         {
-            "id": 162,
+            "id": 171,
             "title": "Powell’s Message Raises the Stakes for Jobs Report",
             "summary": "Jerome Powell's recent statements have increased the significance of the upcoming jobs report.",
             "category": "Economy",
@@ -1468,7 +1549,7 @@
             "date": "2025-07-31T11:18:08.184659"
         },
         {
-            "id": 163,
+            "id": 172,
             "title": "Tata Steel to Explore New Markets as Tariffs Hit US Shipments",
             "summary": "Tata Steel searches for new markets due to US tariffs",
             "category": "Economy",
@@ -1477,7 +1558,7 @@
             "date": "2025-07-31T11:18:01.838000"
         },
         {
-            "id": 164,
+            "id": 173,
             "title": "Toyota Suppliers Look to Pass on Tariff Costs With Price Hikes",
             "summary": "Toyota Suppliers increase price because of tariffs",
             "category": "Economy",
@@ -1486,7 +1567,7 @@
             "date": "2025-07-31T11:18:01.838000"
         },
         {
-            "id": 165,
+            "id": 174,
             "title": "Espionage Cost Australia $8 Billion in Fiscal ‘24, Spy Boss Says",
             "summary": "Espionage cost Australia $8 Billion",
             "category": "Economy",
@@ -1495,7 +1576,7 @@
             "date": "2025-07-31T11:18:01.838000"
         },
         {
-            "id": 166,
+            "id": 175,
             "title": "Kenya Inflation Quickens to Three-Month High as Food Prices Jump",
             "summary": "Kenya inflation rises due to food prices.",
             "category": "Economy",
@@ -1504,7 +1585,7 @@
             "date": "2025-07-31T11:18:01.838000"
         },
         {
-            "id": 167,
+            "id": 176,
             "title": "Powell’s Message Raises the Stakes for Jobs Report",
             "summary": "Powell's message impacts the significance of jobs report.",
             "category": "Economy",
@@ -1513,7 +1594,7 @@
             "date": "2025-07-31T11:18:01.838000"
         },
         {
-            "id": 168,
+            "id": 177,
             "title": "Toyota Suppliers Look to Pass on Tariff Costs With Price Hikes",
             "summary": "Toyota's suppliers are considering price increases to offset the costs associated with tariffs.",
             "category": "Economy",
@@ -1522,7 +1603,7 @@
             "date": "2025-07-31T11:17:07.566724"
         },
         {
-            "id": 169,
+            "id": 178,
             "title": "Espionage Cost Australia $8 Billion in Fiscal ‘24, Spy Boss Says",
             "summary": "Espionage activities are estimated to have cost Australia $8 billion in fiscal year 2024, according to intelligence officials.",
             "category": "Economy",
@@ -1531,7 +1612,7 @@
             "date": "2025-07-31T11:17:07.566724"
         },
         {
-            "id": 170,
+            "id": 179,
             "title": "Tata Steel to Explore New Markets as Tariffs Hit US Shipments",
             "summary": "Tata Steel seeks new markets due to the impact of tariffs on US shipments.",
             "category": "Economy",
@@ -1540,7 +1621,7 @@
             "date": "2025-07-31T11:16:27.937835"
         },
         {
-            "id": 171,
+            "id": 180,
             "title": "Toyota Suppliers Look to Pass on Tariff Costs With Price Hikes",
             "summary": "Toyota's suppliers plan to increase prices to offset tariff expenses.",
             "category": "Economy",
@@ -1549,7 +1630,7 @@
             "date": "2025-07-31T11:16:27.937835"
         },
         {
-            "id": 172,
+            "id": 181,
             "title": "Espionage Cost Australia $8 Billion in Fiscal ‘24, Spy Boss Says",
             "summary": "Espionage resulted in significant economic losses for Australia.",
             "category": "Economy",
@@ -1558,7 +1639,7 @@
             "date": "2025-07-31T11:16:27.937835"
         },
         {
-            "id": 173,
+            "id": 182,
             "title": "Bangladesh Holds Key Rate Steady Amid Tariff Uncertainty",
             "summary": "Bangladesh maintains its key interest rate due to uncertainties surrounding tariffs.",
             "category": "Economy",
@@ -1567,7 +1648,7 @@
             "date": "2025-07-31T11:16:27.937835"
         },
         {
-            "id": 174,
+            "id": 183,
             "title": "Kenya Inflation Quickens to Three-Month High as Food Prices Jump",
             "summary": "Inflation in Kenya rises, driven by increasing food prices.",
             "category": "Economy",
@@ -1576,7 +1657,7 @@
             "date": "2025-07-31T11:16:27.937835"
         },
         {
-            "id": 175,
+            "id": 184,
             "title": "South Africa Urged to Sweeten US Trade Deal Before Tariff Deadline",
             "summary": "South Africa is encouraged to improve its trade agreement with the US to avoid tariffs.",
             "category": "Economy",
@@ -1585,7 +1666,7 @@
             "date": "2025-07-31T11:16:27.937835"
         },
         {
-            "id": 176,
+            "id": 185,
             "title": "Trump Keeps Foreign Countries on Edge as Tariff Deadline Nears",
             "summary": "The president is again threatening higher tariff rates on a dozen foreign nations, as a deadline elapses this week for making trade deals.",
             "category": "Economy",
@@ -1594,7 +1675,7 @@
             "date": "2025-07-27T01:17:07.742417"
         },
         {
-            "id": 177,
+            "id": 186,
             "title": "Trump Revives Trade War, Threatening Steep Aug. 1 Tariffs on Allies",
             "summary": "President Trump said Japan and South Korea would face tariffs of 25 percent unless they reached an agreement with the United States. Other countries received notice of higher levies.",
             "category": "Economy",
@@ -1603,7 +1684,7 @@
             "date": "2025-07-27T01:17:07.742417"
         },
         {
-            "id": 178,
+            "id": 187,
             "title": "E.U., Mexico, Brazil: Who Has Trump Targeted With New Tariffs?",
             "summary": "President Trump has told more than two dozen countries that they will face tariffs of at least 20 percent on Aug. 1 if they don’t reach agreements by then.",
             "category": "Economy",
@@ -1612,7 +1693,7 @@
             "date": "2025-07-27T01:17:07.742417"
         },
         {
-            "id": 179,
+            "id": 188,
             "title": "Trump’s New Trade Threats Set Off Global Scramble to Avoid Tariffs",
             "summary": "Many countries thought they were negotiating in good faith. The White House renewed its “reciprocal” tariff plan anyway, giving countries until Aug. 1 to make offers.",
             "category": "Economy",
@@ -1621,7 +1702,7 @@
             "date": "2025-07-27T01:17:07.742417"
         },
         {
-            "id": 180,
+            "id": 189,
             "title": "Trump Tariffs Aim to Settle Scores With Countries, No Matter Their Size",
             "summary": "The president’s tariff announcements suggest he has not backed away from his initial strategy, where even smaller trading partners will face tariffs.",
             "category": "Economy",
@@ -1630,7 +1711,7 @@
             "date": "2025-07-27T01:17:07.742417"
         },
         {
-            "id": 181,
+            "id": 190,
             "title": "Another Casualty in the Tariff Wars: The Always-in-Season Tomato",
             "summary": "The Trump administration is adding a 17 percent tariff to a year-round grocery store staple, while funneling more business to domestic tomato growers, largely in Florida.",
             "category": "Economy",
@@ -1639,7 +1720,7 @@
             "date": "2025-07-27T01:17:07.742417"
         },
         {
-            "id": 182,
+            "id": 191,
             "title": "Indonesia Confirms U.S. Trade Agreement, but Details Remain Scarce",
             "summary": "President Trump said the agreement would partly walk back some of the steep tariffs he threatened on the country last week. Indonesia’s president called Mr. Trump a “tough negotiator.”",
             "category": "Economy",
@@ -1648,7 +1729,7 @@
             "date": "2025-07-27T01:17:07.742417"
         },
         {
-            "id": 183,
+            "id": 192,
             "title": "As Trump Courts a More Assertive Beijing, China Hawks Are Losing Out",
             "summary": "The Trump administration has dialed back aggressive measures against China and reversed its position on technology controls as the president angles for a Chinese trip later this year.",
             "category": "Economy",
@@ -1657,7 +1738,7 @@
             "date": "2025-07-27T01:17:07.742417"
         },
         {
-            "id": 184,
+            "id": 193,
             "title": "Trump Treats Tariffs More as a Form of Power Than as a Trade Tool",
             "summary": "Instead of viewing tariffs as part of a broader trade policy, President Trump sees them as a valuable weapon he can wield on the world stage.",
             "category": "Economy",
@@ -1666,7 +1747,7 @@
             "date": "2025-07-27T01:04:13.754327"
         },
         {
-            "id": 185,
+            "id": 194,
             "title": "As Trump Sows Tariff Confusion, Rules of Global Commerce Give Way to Chaos",
             "summary": "Blunt letters dictating terms posted to social media and changes late in negotiations have left trading partners wondering what President Trump will do next.",
             "category": "Economy",
@@ -1675,7 +1756,7 @@
             "date": "2025-07-27T01:04:13.754327"
         },
         {
-            "id": 186,
+            "id": 195,
             "title": "Tariffs or Deals? Trump Seems Content With Punishing Levies.",
             "summary": "The president’s supporters portray him as a top dealmaker. But, at least for now, far more trading partners have gotten stiff tariffs than trade deals.",
             "category": "Economy",
@@ -1684,7 +1765,7 @@
             "date": "2025-07-27T01:04:13.754327"
         },
         {
-            "id": 187,
+            "id": 196,
             "title": "Under Attack by Trump’s Tariffs, Asian Countries Seek Out Better Friends",
             "summary": "Most nations are still negotiating in hopes of avoiding punitive import taxes. At the same time, they’re looking for trading partners as a way around the United States.",
             "category": "Economy",
@@ -1693,7 +1774,7 @@
             "date": "2025-07-27T01:04:13.754327"
         },
         {
-            "id": 188,
+            "id": 197,
             "title": "In New Deal, Trump Keeps Tariffs While Indonesia Drops Trade Barriers",
             "summary": "The administration provided some insight into the terms that were agreed upon between Indonesia and the United States, hinting at how other vague and hastily negotiated deals may turn out.",
             "category": "Economy",
@@ -1702,7 +1783,7 @@
             "date": "2025-07-27T01:04:13.754327"
         },
         {
-            "id": 189,
+            "id": 198,
             "title": "Tariff uncertainty is hammering one of America's favorite food escapes — snacks",
             "summary": "Tariff uncertainty is negatively impacting the snack industry, a popular food category in America.",
             "category": "Economy",
@@ -1711,7 +1792,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 190,
+            "id": 199,
             "title": "How small businesses are handling tariff uncertainty, pressures",
             "summary": "Small businesses are employing diverse strategies to navigate tariff uncertainty and related pressures.",
             "category": "Economy",
@@ -1720,7 +1801,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 191,
+            "id": 200,
             "title": "Breeze Airways CEO talks consumer demand as travelers seek value",
             "summary": "The CEO of Breeze Airways discusses consumer demand as travelers prioritize value.",
             "category": "Economy",
@@ -1729,7 +1810,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 192,
+            "id": 201,
             "title": "Delta warns new tariffs could force it to stop buying foreign-made airplanes",
             "summary": "Delta Air Lines cautions that new tariffs could compel the company to cease purchasing airplanes manufactured abroad.",
             "category": "Economy",
@@ -1738,7 +1819,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 193,
+            "id": 202,
             "title": "Is Official US Economic Data Getting Less Reliable?",
             "summary": "An assessment of whether official US economic data is becoming less reliable is presented.",
             "category": "Economy",
@@ -1747,7 +1828,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 194,
+            "id": 203,
             "title": "Trump-Musk Alliance Unravels Over ‘Big Beautiful Bill’",
             "summary": "The alliance between Trump and Musk dissolves due to disagreements over the 'Big Beautiful Bill'.",
             "category": "Economy",
@@ -1756,7 +1837,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 195,
+            "id": 204,
             "title": "Trump and Xi break the ice, pledge to restart talks",
             "summary": "Trump and Xi have a positive conversation and agree to resume negotiations.",
             "category": "Economy",
@@ -1765,7 +1846,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 196,
+            "id": 205,
             "title": "ماندگاری توافقهای آتشبس به فضای سیاسی و اقتصادی حاکم بر روابط کشورهای درگیر وابسته است.",
             "summary": "The permanence of ceasefire agreements depends on the political and economic environment governing the relations between the countries involved.",
             "category": "Economy",
@@ -1774,7 +1855,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 197,
+            "id": 206,
             "title": "Retaliatory Tariffs Padding Canada’s Finances as Expenses Rise",
             "summary": "Retaliatory tariffs are boosting Canada's finances, helping to offset rising expenses.",
             "category": "Economy",
@@ -1783,7 +1864,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 198,
+            "id": 207,
             "title": "Trump Says 50-50 Odds of Trade Deal With European Union",
             "summary": "Trump estimates a 50% chance of reaching a trade agreement with the European Union.",
             "category": "Economy",
@@ -1792,7 +1873,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 199,
+            "id": 208,
             "title": "Women’s Soccer Wins Fans’ Hearts But Not Sponsors’ Wallets",
             "summary": "Women's soccer is gaining popularity among fans, but struggles to attract significant sponsorships.",
             "category": "Economy",
@@ -1801,7 +1882,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 200,
+            "id": 209,
             "title": "Trump’s Fight With Regulators Is About Who Watches the Watchers",
             "summary": "Trump's conflict with regulators concerns oversight and accountability.",
             "category": "Economy",
@@ -1810,7 +1891,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 201,
+            "id": 210,
             "title": "Tariff uncertainty is hammering one of America's favorite food escapes — snacks",
             "summary": "Uncertainty surrounding tariffs is negatively affecting the snack industry in America.",
             "category": "Economy",
@@ -1819,7 +1900,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 202,
+            "id": 211,
             "title": "China's rare earth export curbs hit the auto industry worldwide",
             "summary": "China's restrictions on rare earth exports negatively affect the global auto industry.",
             "category": "Economy",
@@ -1828,7 +1909,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 203,
+            "id": 212,
             "title": "How small businesses are handling tariff uncertainty, pressures",
             "summary": "An analysis of how small businesses are dealing with uncertainty and pressures related to tariffs.",
             "category": "Economy",
@@ -1837,7 +1918,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 204,
+            "id": 213,
             "title": "Delta warns new tariffs could force it to stop buying foreign-made airplanes",
             "summary": "Delta Air Lines cautions that new tariffs might compel the company to cease purchasing foreign-made aircraft.",
             "category": "Economy",
@@ -1846,7 +1927,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 205,
+            "id": 214,
             "title": "Is Official US Economic Data Getting Less Reliable?",
             "summary": "An examination of the reliability of official US economic data.",
             "category": "Economy",
@@ -1855,7 +1936,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 206,
+            "id": 215,
             "title": "Trump-Musk Alliance Unravels Over ‘Big Beautiful Bill’",
             "summary": "The alliance between Trump and Musk dissolves due to disagreements over a significant bill.",
             "category": "Economy",
@@ -1864,7 +1945,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 207,
+            "id": 216,
             "title": "وزیر اقتصاد از رشد ۵۳درصدی واردات کالاهای اساسی در هفته گذشته خبر داد و گفت: تلاش شبانه‌روزی گمرک منجر به ترخیص ۹۸۰هزار تن کالا شد.",
             "summary": "The Minister of Economy announced a 53% increase in the import of essential goods last week and said: The round-the-clock efforts of the customs led to the clearance of 980,000 tons of goods.",
             "category": "Economy",
@@ -1873,7 +1954,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 208,
+            "id": 217,
             "title": "ماندگاری توافق‌های آتش‌بس به فضای سیاسی و اقتصادی حاکم بر روابط کشورهای درگیر وابسته است.",
             "summary": "The durability of ceasefire agreements depends on the political and economic atmosphere governing the relations between the countries involved.",
             "category": "Economy",
@@ -1882,7 +1963,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 209,
+            "id": 218,
             "title": "Retaliatory Tariffs Padding Canada’s Finances as Expenses Rise",
             "summary": "Retaliatory tariffs are providing revenue for Canada amidst increasing expenses.",
             "category": "Economy",
@@ -1891,7 +1972,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 210,
+            "id": 219,
             "title": "Women’s Soccer Wins Fans’ Hearts But Not Sponsors’ Wallets",
             "summary": "Despite growing popularity, women's soccer struggles to attract sponsors.",
             "category": "Economy",
@@ -1900,7 +1981,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 211,
+            "id": 220,
             "title": "Kenya Inflation Quickens to Three-Month High as Food Prices Jump",
             "summary": "Inflation in Kenya rises to a three-month high due to increasing food prices.",
             "category": "Economy",
@@ -1909,7 +1990,7 @@
             "date": "2025-07-31T11:18:08.184659"
         },
         {
-            "id": 212,
+            "id": 221,
             "title": "Bangladesh Holds Key Rate Steady Amid Tariff Uncertainty",
             "summary": "Bangladesh maintains its key interest rate due to the uncertainty surrounding tariffs.",
             "category": "Economy",
@@ -1918,7 +1999,7 @@
             "date": "2025-07-31T11:17:07.566724"
         },
         {
-            "id": 213,
+            "id": 222,
             "title": "Kenya Inflation Quickens to Three-Month High as Food Prices Jump",
             "summary": "Kenya's inflation rate rises to a three-month high due to increased food prices.",
             "category": "Economy",
@@ -1927,7 +2008,7 @@
             "date": "2025-07-31T11:17:07.566724"
         },
         {
-            "id": 214,
+            "id": 223,
             "title": "Trump’s Fight With Regulators Is About Who Watches the Watchers",
             "summary": "The focal point of Trump's conflict with regulators revolves around the issue of oversight and accountability.",
             "category": "Economy",
@@ -1936,7 +2017,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 215,
+            "id": 224,
             "title": "BOE Is Probably About to Cut Rates Despite a Spike in Inflation",
             "summary": "Bank of England is considering cutting rates even with rising inflation.",
             "category": "Finance",
@@ -1945,313 +2026,223 @@
             "date": "2025-08-02T21:14:39.185502"
         },
         {
-            "id": 216,
-            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
-            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
-            "category": "Finance",
-            "image": "images/finance/im1.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 217,
-            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
-            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
-            "category": "Finance",
-            "image": "images/finance/im13.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 218,
-            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
-            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
-            "category": "Finance",
-            "image": "images/finance/im1.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 219,
-            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
-            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
-            "category": "Finance",
-            "image": "images/finance/im13.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 220,
-            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
-            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
-            "category": "Finance",
-            "image": "images/finance/im1.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 221,
-            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
-            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
-            "category": "Finance",
-            "image": "images/finance/im13.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 222,
-            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
-            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
-            "category": "Finance",
-            "image": "images/finance/im1.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 223,
-            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
-            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
-            "category": "Finance",
-            "image": "images/finance/im13.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 224,
-            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
-            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
-            "category": "Finance",
-            "image": "images/finance/im1.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
             "id": 225,
-            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
-            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
+            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
+            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
             "category": "Finance",
-            "image": "images/finance/im13.jpg",
+            "image": "images/finance/im1.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 226,
-            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
-            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
+            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
+            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
             "category": "Finance",
-            "image": "images/finance/im1.jpg",
+            "image": "images/finance/im13.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 227,
-            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
-            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
+            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
+            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
             "category": "Finance",
-            "image": "images/finance/im13.jpg",
+            "image": "images/finance/im1.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 228,
-            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
-            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
+            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
+            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
             "category": "Finance",
-            "image": "images/finance/im1.jpg",
+            "image": "images/finance/im13.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 229,
-            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
-            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
+            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
+            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
             "category": "Finance",
-            "image": "images/finance/im13.jpg",
+            "image": "images/finance/im1.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 230,
-            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
-            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
+            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
+            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
             "category": "Finance",
-            "image": "images/finance/im1.jpg",
+            "image": "images/finance/im13.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 231,
-            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
-            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
+            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
+            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
             "category": "Finance",
-            "image": "images/finance/im13.jpg",
+            "image": "images/finance/im1.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 232,
-            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
-            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
+            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
+            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
             "category": "Finance",
-            "image": "images/finance/im1.jpg",
+            "image": "images/finance/im13.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 233,
-            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
-            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
+            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
+            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
             "category": "Finance",
-            "image": "images/finance/im13.jpg",
+            "image": "images/finance/im1.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 234,
-            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
-            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
+            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
+            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
             "category": "Finance",
-            "image": "images/finance/im1.jpg",
+            "image": "images/finance/im13.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 235,
-            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
-            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
+            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
+            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
             "category": "Finance",
-            "image": "images/finance/im13.jpg",
+            "image": "images/finance/im1.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 236,
-            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
-            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
+            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
+            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
             "category": "Finance",
-            "image": "images/finance/im1.jpg",
+            "image": "images/finance/im13.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 237,
-            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
-            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
+            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
+            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
             "category": "Finance",
-            "image": "images/finance/im13.jpg",
+            "image": "images/finance/im1.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 238,
-            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
-            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
+            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
+            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
             "category": "Finance",
-            "image": "images/finance/im1.jpg",
+            "image": "images/finance/im13.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 239,
-            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
-            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
+            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
+            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
             "category": "Finance",
-            "image": "images/finance/im13.jpg",
+            "image": "images/finance/im1.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 240,
-            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
-            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
+            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
+            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
             "category": "Finance",
-            "image": "images/finance/im1.jpg",
+            "image": "images/finance/im13.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 241,
-            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
-            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
+            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
+            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
             "category": "Finance",
-            "image": "images/finance/im13.jpg",
+            "image": "images/finance/im1.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 242,
-            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
-            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
+            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
+            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
             "category": "Finance",
-            "image": "images/finance/im1.jpg",
+            "image": "images/finance/im13.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 243,
-            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
-            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
+            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
+            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
             "category": "Finance",
-            "image": "images/finance/im13.jpg",
+            "image": "images/finance/im1.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 244,
-            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
-            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
+            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
+            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
             "category": "Finance",
-            "image": "images/finance/im1.jpg",
+            "image": "images/finance/im13.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 245,
-            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
-            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
+            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
+            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
             "category": "Finance",
-            "image": "images/finance/im13.jpg",
+            "image": "images/finance/im1.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 246,
-            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
-            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
+            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
+            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
             "category": "Finance",
-            "image": "images/finance/im1.jpg",
+            "image": "images/finance/im13.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 247,
-            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
-            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
+            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
+            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
             "category": "Finance",
-            "image": "images/finance/im13.jpg",
+            "image": "images/finance/im1.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 248,
-            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
-            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
+            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
+            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
             "category": "Finance",
-            "image": "images/finance/im1.jpg",
+            "image": "images/finance/im13.jpg",
             "importance": "High",
             "date": "2025-08-01T22:48:00.988602"
         },
         {
             "id": 249,
-            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
-            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
-            "category": "Finance",
-            "image": "images/finance/im13.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 250,
             "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
             "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
             "category": "Finance",
@@ -2260,7 +2251,7 @@
             "date": "2025-08-01T22:48:00.988602"
         },
         {
-            "id": 251,
+            "id": 250,
             "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
             "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
             "category": "Finance",
@@ -2269,7 +2260,97 @@
             "date": "2025-08-01T22:48:00.988602"
         },
         {
+            "id": 251,
+            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
+            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
+            "category": "Finance",
+            "image": "images/finance/im1.jpg",
+            "importance": "High",
+            "date": "2025-08-01T22:48:00.988602"
+        },
+        {
             "id": 252,
+            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
+            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
+            "category": "Finance",
+            "image": "images/finance/im13.jpg",
+            "importance": "High",
+            "date": "2025-08-01T22:48:00.988602"
+        },
+        {
+            "id": 253,
+            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
+            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
+            "category": "Finance",
+            "image": "images/finance/im1.jpg",
+            "importance": "High",
+            "date": "2025-08-01T22:48:00.988602"
+        },
+        {
+            "id": 254,
+            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
+            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
+            "category": "Finance",
+            "image": "images/finance/im13.jpg",
+            "importance": "High",
+            "date": "2025-08-01T22:48:00.988602"
+        },
+        {
+            "id": 255,
+            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
+            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
+            "category": "Finance",
+            "image": "images/finance/im1.jpg",
+            "importance": "High",
+            "date": "2025-08-01T22:48:00.988602"
+        },
+        {
+            "id": 256,
+            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
+            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
+            "category": "Finance",
+            "image": "images/finance/im13.jpg",
+            "importance": "High",
+            "date": "2025-08-01T22:48:00.988602"
+        },
+        {
+            "id": 257,
+            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
+            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
+            "category": "Finance",
+            "image": "images/finance/im1.jpg",
+            "importance": "High",
+            "date": "2025-08-01T22:48:00.988602"
+        },
+        {
+            "id": 258,
+            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
+            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
+            "category": "Finance",
+            "image": "images/finance/im13.jpg",
+            "importance": "High",
+            "date": "2025-08-01T22:48:00.988602"
+        },
+        {
+            "id": 259,
+            "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
+            "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
+            "category": "Finance",
+            "image": "images/finance/im1.jpg",
+            "importance": "High",
+            "date": "2025-08-01T22:48:00.988602"
+        },
+        {
+            "id": 260,
+            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
+            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
+            "category": "Finance",
+            "image": "images/finance/im13.jpg",
+            "importance": "High",
+            "date": "2025-08-01T22:48:00.988602"
+        },
+        {
+            "id": 261,
             "title": "Powell’s Hawkish Tilt Sets Up Greater Tension With White House",
             "summary": "Powell's stance creates potential conflict with the White House.",
             "category": "Finance",
@@ -2278,7 +2359,7 @@
             "date": "2025-07-31T11:18:57.236597"
         },
         {
-            "id": 253,
+            "id": 262,
             "title": "Powell’s Hawkish Tilt Sets Up Greater Tension With White House",
             "summary": "Federal Reserve Chairman Jerome Powell's hawkish stance on monetary policy is likely to increase friction with the White House.",
             "category": "Finance",
@@ -2287,7 +2368,7 @@
             "date": "2025-07-31T11:17:07.566724"
         },
         {
-            "id": 254,
+            "id": 263,
             "title": "Powell’s Hawkish Tilt Sets Up Greater Tension With White House",
             "summary": "Powell's stance creates potential friction between the Federal Reserve and the White House.",
             "category": "Finance",
@@ -2296,7 +2377,7 @@
             "date": "2025-07-31T11:16:27.937835"
         },
         {
-            "id": 255,
+            "id": 264,
             "title": "White House Keeps Pressure on Powell Over Rate Cuts and Renovations",
             "summary": "President Trump and his top aides have criticized Jerome H. Powell, the Fed chair, for his management of both the economy and a $2.5 billion revamp of the central bank’s headquarters.",
             "category": "Finance",
@@ -2305,7 +2386,7 @@
             "date": "2025-07-27T01:04:13.754327"
         },
         {
-            "id": 256,
+            "id": 265,
             "title": "How Trump’s Attacks on the Fed Chair Have Intensified",
             "summary": "President Trump has targeted Jerome H. Powell on more than 70 separate occasions, more than half of them since April. His statements fall into four broad categories.",
             "category": "Finance",
@@ -2314,7 +2395,7 @@
             "date": "2025-07-27T00:54:07.837273"
         },
         {
-            "id": 257,
+            "id": 266,
             "title": "Billionaires Are Selling Nvidia Stock and Buying a Stock-Split AI Stock Up 530% in 5 Years",
             "summary": "Billionaires are divesting from Nvidia stock and investing in a stock-split AI stock that has surged 530% in five years.",
             "category": "Finance",
@@ -2323,7 +2404,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 258,
+            "id": 267,
             "title": "CBO warns Trump's tax bill could add $2.4T to deficit",
             "summary": "The Congressional Budget Office (CBO) cautions that Trump's tax bill could increase the deficit by $2.4 trillion.",
             "category": "Finance",
@@ -2332,7 +2413,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 259,
+            "id": 268,
             "title": "تجاوز نظامی اسرائیل به ایران، معادلات بازارهای جهانی و داخلی را تغییر داد. درحالیکه بسیاری از فعالان اقتصادی، با توجه به اخبار مثبت مذاکرات، روند دلار را کاهشی ارزیابی میکردند، این تجاوز نظامی معادلات بازار ارز تهران را نیز تغییر داد.",
             "summary": "Israel's military aggression against Iran changed the equations of global and domestic markets. While many economic actors considered the dollar trend to be decreasing, given the positive news of the negotiations, this military aggression also changed the equations of the Tehran currency market.",
             "category": "Finance",
@@ -2341,7 +2422,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 260,
+            "id": 269,
             "title": "در شرایط پرتنشی که کشور با آن مواجه است، سیاستگذاری پولی از اهمیت خاصی برخوردار است.",
             "summary": "Monetary policy is of particular importance in the tense situation that the country is facing.",
             "category": "Finance",
@@ -2350,7 +2431,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 261,
+            "id": 270,
             "title": "دنیای اقتصاد؛ با عنایت به شرایط ویژه کشور و نظر به اختلال به وجود آمده در خدماترسانی دو بانک عامل سپه و پاسارگاد، بانک مرکزی در راستای کمک به اشخاص متأثر از این وضعیت با هماهنگی دادستانی محترم کل کشور از آن مرجع درخواست نمود تا اعمال محدودیتهای موضوع بندهای (الف) تا (د ) ماده ۵ مکرر قانون چک در خصوص چکهای صادره عهده دو بانک مذکور با تاریخ سررسید و برگشت ۲۴ خرداد لغایت ۷ تیر ۱۴۰۴، به مدت یکماه از تاریخ سررسید تعلیق گردد.",
             "summary": "Given the special circumstances of the country and the disruption in the services of the two operating banks, Sepah and Pasargad, in order to help those affected by this situation, the Central Bank, in coordination with the Prosecutor General of the country, requested that the restrictions subject to paragraphs (a) to (d) of Article 5 of the Check Law be suspended for one month from the due date for checks issued to the aforementioned banks with a due date and return of June 24 to July 7, 2025.",
             "category": "Finance",
@@ -2359,7 +2440,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 262,
+            "id": 271,
             "title": "The GOP's 'big, beautiful bill' would leave 10.9 million more uninsured: CBO",
             "summary": "The CBO estimates that the Republican's bill would result in 10.9 million more uninsured individuals.",
             "category": "Finance",
@@ -2368,7 +2449,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 263,
+            "id": 272,
             "title": "CBO warns Trump's tax bill could add $2.4T to deficit",
             "summary": "The Congressional Budget Office (CBO) warns that Trump's tax bill could increase the deficit by $2.4 trillion.",
             "category": "Finance",
@@ -2377,7 +2458,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 264,
+            "id": 273,
             "title": "Fed's Schmid: uncomfortable with looking through tariff-driven price push",
             "summary": "Fed's Schmid expresses concern about overlooking price increases caused by tariffs.",
             "category": "Finance",
@@ -2386,7 +2467,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 265,
+            "id": 274,
             "title": "Fed's Harker says its time for caution on monetary policy amid uncertainty",
             "summary": "Fed's Harker advises a cautious approach to monetary policy amid current uncertainty.",
             "category": "Finance",
@@ -2395,7 +2476,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 266,
+            "id": 275,
             "title": "Fed's Kugler looks to hold rates steady and warns of higher inflation",
             "summary": "Fed's Kugler favors maintaining stable interest rates while cautioning about potential inflation increases.",
             "category": "Finance",
@@ -2404,7 +2485,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 267,
+            "id": 276,
             "title": "در شرایط پرتنشی که کشور با آن مواجه است، سیاستگذاری پولی از اهمیت خاصی برخوردار است.",
             "summary": "In the tense situation that the country is facing, monetary policy is of particular importance.",
             "category": "Finance",
@@ -2413,7 +2494,61 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 268,
+            "id": 277,
+            "title": "Rivian loss bigger than expected on higher costs, lower credit income",
+            "summary": "Rivian reports a larger-than-anticipated loss due to increased costs and decreased credit income.",
+            "category": "Finance",
+            "image": "images/finance/im15.jpg",
+            "importance": "Medium",
+            "date": "2025-08-05T20:30:03.504216"
+        },
+        {
+            "id": 278,
+            "title": "Lucid cuts annual production forecast as global trade tensions sting",
+            "summary": "Lucid reduces its annual production forecast, citing the negative impact of global trade tensions.",
+            "category": "Finance",
+            "image": "images/finance/im12.jpg",
+            "importance": "Medium",
+            "date": "2025-08-05T20:30:03.504216"
+        },
+        {
+            "id": 279,
+            "title": "Opinion: Tariffs are denting profits, and maybe soon your portfolio",
+            "summary": "An opinion piece discussing the negative impact of tariffs on corporate profits and potentially investment portfolios.",
+            "category": "Finance",
+            "image": "images/finance/im13.jpg",
+            "importance": "Medium",
+            "date": "2025-08-05T20:30:03.504216"
+        },
+        {
+            "id": 280,
+            "title": "Lucid falls after missing earnings, cutting production forecast",
+            "summary": "Lucid's stock price falls after the company misses earnings expectations and reduces its production forecast.",
+            "category": "Finance",
+            "image": "images/finance/im13.jpg",
+            "importance": "Medium",
+            "date": "2025-08-05T20:30:03.504216"
+        },
+        {
+            "id": 281,
+            "title": "Rivian drops on mixed earnings, tariff and EV tax credit warnings",
+            "summary": "Rivian's stock price declines due to mixed earnings results and warnings related to tariffs and EV tax credits.",
+            "category": "Finance",
+            "image": "images/finance/im13.jpg",
+            "importance": "Medium",
+            "date": "2025-08-05T20:30:03.504216"
+        },
+        {
+            "id": 282,
+            "title": "Why Pfizer's CEO isn't too worried about tariffs on the drug industry",
+            "summary": "Insight into why the CEO of Pfizer is not overly concerned about the impact of tariffs on the pharmaceutical industry.",
+            "category": "Finance",
+            "image": "images/finance/im9.jpg",
+            "importance": "Medium",
+            "date": "2025-08-05T20:30:03.504216"
+        },
+        {
+            "id": 283,
             "title": "See How Often Fed Governors Have Broken Ranks",
             "summary": "Two top Fed officials voted against the central bank’s decision to leave rates unchanged, the first dual dissent in more than 30 years.",
             "category": "Finance",
@@ -2422,7 +2557,7 @@
             "date": "2025-08-02T23:04:58.077845"
         },
         {
-            "id": 269,
+            "id": 284,
             "title": "Weak Jobs Report Raises Chances of a September Interest Rate Cut",
             "summary": "The Federal Reserve held rates steady in July but two governors dissented, saying they had concerns about labor market fragility.",
             "category": "Finance",
@@ -2431,7 +2566,7 @@
             "date": "2025-08-02T23:04:58.077845"
         },
         {
-            "id": 270,
+            "id": 285,
             "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
             "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
             "category": "Finance",
@@ -2440,7 +2575,7 @@
             "date": "2025-08-02T23:04:58.077845"
         },
         {
-            "id": 271,
+            "id": 286,
             "title": "Trump Momentum Drives Stablecoin Urgency in Asian Financial Hubs",
             "summary": "Trump's momentum accelerates the need for stablecoins in Asian financial centers.",
             "category": "Finance",
@@ -2449,7 +2584,7 @@
             "date": "2025-08-02T23:04:16.157177"
         },
         {
-            "id": 272,
+            "id": 287,
             "title": "IMF Relaxes Argentina’s Reserves Target by $5 Billion in 2025",
             "summary": "IMF eases Argentina's reserve target by $5 billion in 2025.",
             "category": "Finance",
@@ -2458,7 +2593,7 @@
             "date": "2025-08-02T23:04:16.157177"
         },
         {
-            "id": 273,
+            "id": 288,
             "title": "Trump Momentum Drives Stablecoin Urgency in Asian Financial Hubs",
             "summary": "Trump's momentum is driving stablecoin usage in Asian financial hubs.",
             "category": "Finance",
@@ -2467,7 +2602,7 @@
             "date": "2025-08-02T21:14:39.185502"
         },
         {
-            "id": 274,
+            "id": 289,
             "title": "IMF Relaxes Argentina’s Reserves Target by $5 Billion in 2025",
             "summary": "IMF is easing Argentina's reserve targets.",
             "category": "Finance",
@@ -2476,7 +2611,7 @@
             "date": "2025-08-02T21:14:39.185502"
         },
         {
-            "id": 275,
+            "id": 290,
             "title": "US Bond Traders Eye Inflation for Steer on September Rate Cut",
             "summary": "US bond traders are monitoring inflation for indications on a potential rate cut in September.",
             "category": "Finance",
@@ -2485,7 +2620,7 @@
             "date": "2025-07-31T11:18:57.236597"
         },
         {
-            "id": 276,
+            "id": 291,
             "title": "Powell’s Message Raises the Stakes for Jobs Report",
             "summary": "Powell's communication increases the importance of the upcoming jobs report.",
             "category": "Finance",
@@ -2494,7 +2629,7 @@
             "date": "2025-07-31T11:18:57.236597"
         },
         {
-            "id": 277,
+            "id": 292,
             "title": "Dollar Wraps Up Best Month of Trump’s Term as Economy Holds Up",
             "summary": "The dollar performs strongly as the economy remains stable.",
             "category": "Finance",
@@ -2503,7 +2638,7 @@
             "date": "2025-07-31T11:18:57.236597"
         },
         {
-            "id": 278,
+            "id": 293,
             "title": "Ferrari Earnings Rise as Luxury-Car Maker Shrugs Off Tariffs",
             "summary": "Ferrari's earnings increase despite tariffs.",
             "category": "Finance",
@@ -2512,7 +2647,7 @@
             "date": "2025-07-31T11:18:57.236597"
         },
         {
-            "id": 279,
+            "id": 294,
             "title": "Dollar Wraps Up Best Month of Trump’s Term as Economy Holds Up",
             "summary": "The US dollar performs strongly, recording its best month during Trump's presidency due to the stable economy.",
             "category": "Finance",
@@ -2521,7 +2656,7 @@
             "date": "2025-07-31T11:18:08.184659"
         },
         {
-            "id": 280,
+            "id": 295,
             "title": "Ferrari Earnings Rise as Luxury-Car Maker Shrugs Off Tariffs",
             "summary": "Ferrari's earnings increase despite tariffs, demonstrating the brand's resilience.",
             "category": "Finance",
@@ -2530,7 +2665,7 @@
             "date": "2025-07-31T11:18:08.184659"
         },
         {
-            "id": 281,
+            "id": 296,
             "title": "Bangladesh Holds Key Rate Steady Amid Tariff Uncertainty",
             "summary": "Bangladesh keeps interest rates stable.",
             "category": "Finance",
@@ -2539,7 +2674,7 @@
             "date": "2025-07-31T11:18:01.838000"
         },
         {
-            "id": 282,
+            "id": 297,
             "title": "US Bond Traders Eye Inflation for Steer on September Rate Cut",
             "summary": "Bond traders monitor inflation for rate cut clues.",
             "category": "Finance",
@@ -2548,7 +2683,7 @@
             "date": "2025-07-31T11:18:01.838000"
         },
         {
-            "id": 283,
+            "id": 298,
             "title": "Dollar Wraps Up Best Month of Trump’s Term as Economy Holds Up",
             "summary": "Dollar strengthens amid stable economy.",
             "category": "Finance",
@@ -2557,7 +2692,7 @@
             "date": "2025-07-31T11:18:01.838000"
         },
         {
-            "id": 284,
+            "id": 299,
             "title": "Ferrari Earnings Rise as Luxury-Car Maker Shrugs Off Tariffs",
             "summary": "Ferrari profits despite tariffs.",
             "category": "Finance",
@@ -2566,7 +2701,7 @@
             "date": "2025-07-31T11:18:01.838000"
         },
         {
-            "id": 285,
+            "id": 300,
             "title": "Powell’s Message Raises the Stakes for Jobs Report",
             "summary": "Jerome Powell's recent communication increases the importance of the upcoming jobs report.",
             "category": "Finance",
@@ -2575,7 +2710,7 @@
             "date": "2025-07-31T11:17:07.566724"
         },
         {
-            "id": 286,
+            "id": 301,
             "title": "Dollar Wraps Up Best Month of Trump’s Term as Economy Holds Up",
             "summary": "The US dollar performs strongly, marking its best month during Trump's presidency, as the economy remains stable.",
             "category": "Finance",
@@ -2584,7 +2719,7 @@
             "date": "2025-07-31T11:17:07.566724"
         },
         {
-            "id": 287,
+            "id": 302,
             "title": "Ferrari Earnings Rise as Luxury-Car Maker Shrugs Off Tariffs",
             "summary": "Ferrari's earnings increase despite tariffs, demonstrating the luxury car maker's resilience.",
             "category": "Finance",
@@ -2593,7 +2728,7 @@
             "date": "2025-07-31T11:17:07.566724"
         },
         {
-            "id": 288,
+            "id": 303,
             "title": "US Bond Traders Eye Inflation for Steer on September Rate Cut",
             "summary": "US bond traders monitor inflation data to anticipate potential rate cuts in September.",
             "category": "Finance",
@@ -2602,7 +2737,7 @@
             "date": "2025-07-31T11:16:27.937835"
         },
         {
-            "id": 289,
+            "id": 304,
             "title": "Powell’s Message Raises the Stakes for Jobs Report",
             "summary": "Powell's communication intensifies the significance of the upcoming jobs report.",
             "category": "Finance",
@@ -2611,7 +2746,7 @@
             "date": "2025-07-31T11:16:27.937835"
         },
         {
-            "id": 290,
+            "id": 305,
             "title": "Dollar Wraps Up Best Month of Trump’s Term as Economy Holds Up",
             "summary": "Dollar's performance indicates stability within the economy during Trump's presidency.",
             "category": "Finance",
@@ -2620,7 +2755,7 @@
             "date": "2025-07-31T11:16:27.937835"
         },
         {
-            "id": 291,
+            "id": 306,
             "title": "Ferrari Earnings Rise as Luxury-Car Maker Shrugs Off Tariffs",
             "summary": "Ferrari demonstrates resilience to tariffs with increased earnings.",
             "category": "Finance",
@@ -2629,7 +2764,7 @@
             "date": "2025-07-31T11:16:27.937835"
         },
         {
-            "id": 292,
+            "id": 307,
             "title": "Trump Spars With Powell Over Fed’s Costly Renovations in Rare Visit",
             "summary": "The administration has repeatedly criticized Jerome H. Powell, the chair of the central bank, for his handling of the economy and the cost of work on the institution’s headquarters.",
             "category": "Finance",
@@ -2638,7 +2773,7 @@
             "date": "2025-07-27T00:54:07.837273"
         },
         {
-            "id": 293,
+            "id": 308,
             "title": "Will Trump's tax bill actually incentivize corporate growth?",
             "summary": "An assessment is conducted regarding the potential of Trump's tax bill to incentivize corporate growth.",
             "category": "Finance",
@@ -2647,7 +2782,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 294,
+            "id": 309,
             "title": "Musk's 'KILL the BILL' screed hits Trump tax bill's progress",
             "summary": "Musk's strong criticism of the bill negatively affects the advancement of Trump's tax bill.",
             "category": "Finance",
@@ -2656,7 +2791,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 295,
+            "id": 310,
             "title": "When will I get my Social Security check?",
             "summary": "Information is provided regarding the expected timing of Social Security check distribution.",
             "category": "Finance",
@@ -2665,7 +2800,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 296,
+            "id": 311,
             "title": "What happens to credit card debt when you die?",
             "summary": "An explanation is provided regarding the disposition of credit card debt upon an individual's death.",
             "category": "Finance",
@@ -2674,7 +2809,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 297,
+            "id": 312,
             "title": "When is the Fed's next meeting?",
             "summary": "Information is provided regarding the date and time of the Federal Reserve's upcoming meeting.",
             "category": "Finance",
@@ -2683,7 +2818,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 298,
+            "id": 313,
             "title": "Does car insurance cover flood damage?",
             "summary": "Clarification is provided regarding the extent to which car insurance covers damage caused by flooding.",
             "category": "Finance",
@@ -2692,7 +2827,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 299,
+            "id": 314,
             "title": "Tesla car insurance: How to avoid the sticker shock",
             "summary": "Tips and strategies are offered to mitigate the potential shock of high costs associated with Tesla car insurance.",
             "category": "Finance",
@@ -2701,7 +2836,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 300,
+            "id": 315,
             "title": "Why tariffs are expected to increase car insurance costs",
             "summary": "An explanation is given regarding the anticipated impact of tariffs on escalating car insurance expenses.",
             "category": "Finance",
@@ -2710,7 +2845,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 301,
+            "id": 316,
             "title": "When will mortgage rates go down to 5%?",
             "summary": "A forecast is provided regarding the potential timeline for mortgage rates to decrease to 5%.",
             "category": "Finance",
@@ -2719,7 +2854,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 302,
+            "id": 317,
             "title": "Pandemic homebuyers now struggle to break even on sales",
             "summary": "Homebuyers during the pandemic era now encounter difficulties in recouping their investments upon selling their properties.",
             "category": "Finance",
@@ -2728,7 +2863,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 303,
+            "id": 318,
             "title": "Mid-year check-in: How to audit your income & cash flow",
             "summary": "Guidance is provided on conducting a mid-year assessment of one's income and cash flow.",
             "category": "Finance",
@@ -2737,7 +2872,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 304,
+            "id": 319,
             "title": "Elon Musk gets more time to respond to US SEC lawsuit over Twitter stake",
             "summary": "Elon Musk is granted additional time to respond to a lawsuit filed by the US Securities and Exchange Commission (SEC) regarding his stake in Twitter.",
             "category": "Finance",
@@ -2746,7 +2881,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 305,
+            "id": 320,
             "title": "Fed's Schmid: uncomfortable with looking through tariff-driven price push",
             "summary": "A Federal Reserve official, Schmid, expresses discomfort in overlooking price increases caused by tariffs.",
             "category": "Finance",
@@ -2755,7 +2890,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 306,
+            "id": 321,
             "title": "Fed's Harker says its time for caution on monetary policy amid uncertainty",
             "summary": "A Federal Reserve official, Harker, suggests exercising caution in monetary policy amid ongoing uncertainty.",
             "category": "Finance",
@@ -2764,7 +2899,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 307,
+            "id": 322,
             "title": "Robinhood exec talks retail investor strength, overnight trading",
             "summary": "A Robinhood executive discusses the resilience of retail investors and the growing trend of overnight trading.",
             "category": "Finance",
@@ -2773,7 +2908,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 308,
+            "id": 323,
             "title": "Why Musk may be changing his tune on EV tax credits",
             "summary": "Reasons behind Elon Musk's potential shift in stance regarding electric vehicle (EV) tax credits are explored.",
             "category": "Finance",
@@ -2782,7 +2917,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 309,
+            "id": 324,
             "title": "Fed's Kugler looks to hold rates steady and warns of higher inflation",
             "summary": "A Federal Reserve official, Kugler, anticipates keeping interest rates steady while cautioning about the potential for increased inflation.",
             "category": "Finance",
@@ -2791,7 +2926,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 310,
+            "id": 325,
             "title": "Circle stock soars after IPO as stablecoin giant makes market debut",
             "summary": "Circle's stock price surges after its initial public offering (IPO), marking the market debut of the stablecoin giant.",
             "category": "Finance",
@@ -2800,7 +2935,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 311,
+            "id": 326,
             "title": "دنیای اقتصاد: در حالی که سایه بیثباتیهای سیاسی و اقتصادی بر اقتصاد آمریکا سنگینی میکند و فضای جهانی تحت تاثیر جنگهای تجاری و تنشهای منطقهای، دستخوش نااطمینانی فزایندهای شده، سرمایهگذاران بینالمللی بهدنبال مقاصدی تازه، با ریسک کمتر و بازده بالاتر هستند.",
             "summary": "As political and economic instability weighs on the US economy and the global environment is increasingly uncertain due to trade wars and regional tensions, international investors are looking for new destinations with lower risk and higher returns.",
             "category": "Finance",
@@ -2809,7 +2944,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 312,
+            "id": 327,
             "title": "در آخرین روز معاملاتی هفته گذشته، قیمت دلار آزاد با افزایش همراه شد، با این حال همچنان روند باثبات خود را حفظ کرد.",
             "summary": "On the last trading day of last week, the free dollar price increased, but still maintained its stable trend.",
             "category": "Finance",
@@ -2818,7 +2953,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 313,
+            "id": 328,
             "title": "High-Risk Currency Trading Is the New Meme Stock for This Retail Crowd",
             "summary": "High-risk currency trading is becoming a popular trend among retail investors, similar to meme stocks.",
             "category": "Finance",
@@ -2827,7 +2962,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 314,
+            "id": 329,
             "title": "Citadel’s Ubide Says ‘Now or Never’ for EU Rival to Treasuries",
             "summary": "Citadel's Ubide suggests it's a crucial moment for the EU to establish a rival to US Treasuries.",
             "category": "Finance",
@@ -2836,7 +2971,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 315,
+            "id": 330,
             "title": "Genworth Expects to Collect $750 Million on UK PPI Court Ruling",
             "summary": "Genworth anticipates receiving $750 million from a UK court ruling related to payment protection insurance (PPI).",
             "category": "Finance",
@@ -2845,7 +2980,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 316,
+            "id": 331,
             "title": "Will Trump's tax bill actually incentivize corporate growth?",
             "summary": "An analysis of whether Trump's tax bill will genuinely encourage corporate growth.",
             "category": "Finance",
@@ -2854,7 +2989,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 317,
+            "id": 332,
             "title": "Musk's 'KILL the BILL' screed hits Trump tax bill's progress",
             "summary": "Musk's strong criticism of the tax bill impacts its progress.",
             "category": "Finance",
@@ -2863,7 +2998,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 318,
+            "id": 333,
             "title": "Tesla car insurance: How to avoid the sticker shock",
             "summary": "Tips on how to avoid high costs of Tesla car insurance.",
             "category": "Finance",
@@ -2872,7 +3007,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 319,
+            "id": 334,
             "title": "Why tariffs are expected to increase car insurance costs",
             "summary": "Explanation of why tariffs are projected to lead to higher car insurance expenses.",
             "category": "Finance",
@@ -2881,7 +3016,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 320,
+            "id": 335,
             "title": "When will mortgage rates go down to 5%?",
             "summary": "Analysis of when mortgage rates may decrease to 5%.",
             "category": "Finance",
@@ -2890,7 +3025,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 321,
+            "id": 336,
             "title": "Pandemic homebuyers now struggle to break even on sales",
             "summary": "Homebuyers who purchased property during the pandemic now face challenges in breaking even when selling.",
             "category": "Finance",
@@ -2899,7 +3034,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 322,
+            "id": 337,
             "title": "Mid-year check-in: How to audit your income & cash flow",
             "summary": "Guidance on how to review and assess your income and cash flow at the mid-year point.",
             "category": "Finance",
@@ -2908,7 +3043,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 323,
+            "id": 338,
             "title": "Elon Musk gets more time to respond to US SEC lawsuit over Twitter stake",
             "summary": "Elon Musk is granted additional time to respond to a lawsuit filed by the US SEC regarding his stake in Twitter.",
             "category": "Finance",
@@ -2917,7 +3052,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 324,
+            "id": 339,
             "title": "Robinhood exec talks retail investor strength, overnight trading",
             "summary": "Robinhood executive discusses the influence of retail investors and the rise of overnight trading.",
             "category": "Finance",
@@ -2926,7 +3061,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 325,
+            "id": 340,
             "title": "Why Musk may be changing his tune on EV tax credits",
             "summary": "Reasons behind Elon Musk's potential change in stance regarding electric vehicle tax credits.",
             "category": "Finance",
@@ -2935,7 +3070,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 326,
+            "id": 341,
             "title": "ساعاتی پس از اعلام آتش بس، رئیس کل بانک مرکزی برای تشریح اقدامات انجام شده طی روزهای جنگ در شبکه خبر حضور یافت.",
             "summary": "Hours after the ceasefire was announced, the Governor of the Central Bank appeared on the news network to explain the measures taken during the war days.",
             "category": "Finance",
@@ -2944,7 +3079,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 327,
+            "id": 342,
             "title": "در آخرین روز معاملاتی هفته گذشته، قیمت دلار آزاد با افزایش همراه شد، با این حال همچنان روند باثبات خود را حفظ کرد",
             "summary": "On the last trading day of last week, the free dollar price increased, but it still maintained its stable trend.",
             "category": "Finance",
@@ -2953,7 +3088,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 328,
+            "id": 343,
             "title": "High-Risk Currency Trading Is the New Meme Stock for This Retail Crowd",
             "summary": "Retail investors are increasingly engaging in high-risk currency trading.",
             "category": "Finance",
@@ -2962,7 +3097,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 329,
+            "id": 344,
             "title": "Citadel’s Ubide Says ‘Now or Never’ for EU Rival to Treasuries",
             "summary": "Citadel’s Ubide suggests it's a crucial moment for the EU to create a Treasury rival.",
             "category": "Finance",
@@ -2971,7 +3106,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 330,
+            "id": 345,
             "title": "India Gives $565 Million Credit Line to Maldives as Ties Reset",
             "summary": "India extends a $565 million credit line to the Maldives as relations improve.",
             "category": "Finance",
@@ -2980,7 +3115,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 331,
+            "id": 346,
             "title": "IMF Says Malawi in Arrears With Afreximbank Throughout Program",
             "summary": "The IMF reports that Malawi is in arrears with Afreximbank throughout its program.",
             "category": "Finance",
@@ -2989,7 +3124,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 332,
+            "id": 347,
             "title": "Genworth Expects to Collect $750 Million on UK PPI Court Ruling",
             "summary": "Genworth anticipates receiving $750 million following a favorable court ruling related to PPI in the UK.",
             "category": "Finance",
@@ -2998,7 +3133,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 333,
+            "id": 348,
             "title": "Bangladesh Holds Key Rate Steady Amid Tariff Uncertainty",
             "summary": "Bangladesh maintains its key interest rate due to uncertainty surrounding tariffs.",
             "category": "Finance",
@@ -3007,7 +3142,7 @@
             "date": "2025-07-31T11:18:08.184659"
         },
         {
-            "id": 334,
+            "id": 349,
             "title": "Analyst Report: Crowdstrike Holdings Inc",
             "summary": "This entry signifies the presence of an analyst report specifically focused on Crowdstrike Holdings Inc.",
             "category": "Finance",
@@ -3016,148 +3151,13 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 335,
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
+            "id": 350,
+            "title": "Stocks fall as Wall Street pulls back after rally",
+            "summary": "Wall Street experiences a pullback after a rally, causing stocks to fall.",
             "category": "Markets",
             "image": "images/markets/im2.jpg",
             "importance": "High",
-            "date": "2025-08-02T23:04:58.077845"
-        },
-        {
-            "id": 336,
-            "title": "Trade War Turmoil, Rising Unemployment Send Markets Diving",
-            "summary": "Trade war uncertainty and rising unemployment lead to market decline.",
-            "category": "Markets",
-            "image": "images/markets/im1.jpg",
-            "importance": "High",
-            "date": "2025-08-02T23:04:16.157177"
-        },
-        {
-            "id": 337,
-            "title": "Trade War Turmoil, Rising Unemployment Send Markets Diving",
-            "summary": "Trade war and unemployment negatively impact markets.",
-            "category": "Markets",
-            "image": "images/markets/im5.jpg",
-            "importance": "High",
-            "date": "2025-08-02T21:14:39.185502"
-        },
-        {
-            "id": 338,
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 339,
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 340,
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 341,
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 342,
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 343,
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 344,
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 345,
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 346,
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 347,
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 348,
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 349,
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 350,
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
+            "date": "2025-08-05T20:30:03.504216"
         },
         {
             "id": 351,
@@ -3166,16 +3166,16 @@
             "category": "Markets",
             "image": "images/markets/im9.jpg",
             "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
+            "date": "2025-08-05T20:24:16.456064"
         },
         {
             "id": 352,
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
+            "title": "Trade War Turmoil, Rising Unemployment Send Markets Diving",
+            "summary": "Trade war and unemployment negatively impact markets.",
             "category": "Markets",
-            "image": "images/markets/im9.jpg",
+            "image": "images/markets/im5.jpg",
             "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
+            "date": "2025-08-02T21:14:39.185502"
         },
         {
             "id": 353,
@@ -3188,24 +3188,6 @@
         },
         {
             "id": 354,
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 355,
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": 356,
             "title": "Trump Targets Copper With Tariffs, Though Not as Aggressively as Expected",
             "summary": "The president stopped short of putting a 50 percent tariff on refined copper, as he had threatened earlier this year. The market reaction was swift anyway and prices tumbled.",
             "category": "Markets",
@@ -3214,25 +3196,7 @@
             "date": "2025-08-02T23:04:58.077845"
         },
         {
-            "id": 357,
-            "title": "Tata Steel to Explore New Markets as Tariffs Hit US Shipments",
-            "summary": "Tata Steel plans to explore new markets as tariffs negatively impact its shipments to the US.",
-            "category": "Markets",
-            "image": "images/markets/im4.jpg",
-            "importance": "Medium",
-            "date": "2025-07-31T11:18:08.184659"
-        },
-        {
-            "id": 358,
-            "title": "US Bond Traders Eye Inflation for Steer on September Rate Cut",
-            "summary": "US bond traders are closely monitoring inflation data for indications regarding a potential interest rate cut in September.",
-            "category": "Markets",
-            "image": "images/markets/im4.jpg",
-            "importance": "Medium",
-            "date": "2025-07-31T11:18:08.184659"
-        },
-        {
-            "id": 359,
+            "id": 355,
             "title": "Tata Steel to Explore New Markets as Tariffs Hit US Shipments",
             "summary": "Tata Steel is planning to explore new markets in response to the impact of tariffs on its US shipments.",
             "category": "Markets",
@@ -3241,7 +3205,7 @@
             "date": "2025-07-31T11:17:07.566724"
         },
         {
-            "id": 360,
+            "id": 356,
             "title": "US Bond Traders Eye Inflation for Steer on September Rate Cut",
             "summary": "US bond traders are closely monitoring inflation data for indications of a potential rate cut in September.",
             "category": "Markets",
@@ -3250,7 +3214,7 @@
             "date": "2025-07-31T11:17:07.566724"
         },
         {
-            "id": 361,
+            "id": 357,
             "title": "Global Markets Rise, U.S. Futures Flat After Tech-Led Rally",
             "summary": "Global markets experience gains, while US futures remain stable following a technology-driven rally.",
             "category": "Markets",
@@ -3259,7 +3223,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 362,
+            "id": 358,
             "title": "CrowdStrike forecasts downbeat second-quarter revenue, shares fall",
             "summary": "CrowdStrike projects pessimistic second-quarter revenue, leading to a decline in its share price.",
             "category": "Markets",
@@ -3268,16 +3232,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 363,
-            "title": "Stocks wobble with Trump-Xi call, Musk feud in focus",
-            "summary": "Stocks experience volatility as attention focuses on the Trump-Xi call and the Musk feud.",
-            "category": "Markets",
-            "image": "images/markets/im1.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": 364,
+            "id": 359,
             "title": "Circle stock soars after IPO as stablecoin giant makes market debut",
             "summary": "Circle's stock price increases significantly after its IPO.",
             "category": "Markets",
@@ -3286,7 +3241,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 365,
+            "id": 360,
             "title": "Stocks wobble with Trump-Xi call, Musk feud in focus",
             "summary": "Stock market experiences volatility amid Trump-Xi conversation and Musk controversy.",
             "category": "Markets",
@@ -3295,7 +3250,16 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 366,
+            "id": 361,
+            "title": "How major US stock indexes fared Tuesday, 8/5/2025",
+            "summary": "Overview of the performance of major US stock indexes on Tuesday, August 5, 2025.",
+            "category": "Markets",
+            "image": "images/markets/im1.jpg",
+            "importance": "Low",
+            "date": "2025-08-05T20:30:03.504216"
+        },
+        {
+            "id": 362,
             "title": "‘Unprecedented’ Investment Fund Seals Deal for Japan and Expands Trump’s Influence",
             "summary": "President Trump will get to decide where to invest Japanese money and the United States will keep 90 percent of the profits, the White House said.",
             "category": "Investing",
@@ -3304,7 +3268,7 @@
             "date": "2025-07-27T00:54:07.837273"
         },
         {
-            "id": 367,
+            "id": 363,
             "title": "Undervalued Growth Stocks",
             "summary": "An overview of growth stocks that are currently undervalued is presented.",
             "category": "Investing",
@@ -3313,7 +3277,7 @@
             "date": "2025-07-26T20:16:34.537142"
         },
         {
-            "id": 368,
+            "id": 364,
             "title": "1 Top Artificial Intelligence (AI) to Buy Hand Over Fist Before It Is Too Late",
             "summary": "Identifying a top AI stock to invest in before it becomes too expensive.",
             "category": "Investing",
@@ -3322,7 +3286,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 369,
+            "id": 365,
             "title": "Billionaires Are Selling Nvidia Stock and Buying a Stock-Split AI Stock Up 530% in 5 Years",
             "summary": "Billionaires are selling Nvidia stock and investing in another AI stock.",
             "category": "Investing",
@@ -3331,7 +3295,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 370,
+            "id": 366,
             "title": "Analyst Report: Crowdstrike Holdings Inc",
             "summary": "Analysis and research report on Crowdstrike Holdings Inc.",
             "category": "Investing",
@@ -3340,7 +3304,7 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 371,
+            "id": 367,
             "title": "Undervalued Growth Stocks",
             "summary": "Identification of growth stocks that are currently undervalued.",
             "category": "Investing",
@@ -3349,13 +3313,49 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": 372,
+            "id": 368,
             "title": "1 Top Artificial Intelligence (AI) to Buy Hand Over Fist Before It Is Too Late",
             "summary": "One outstanding Artificial Intelligence (AI) to invest in rapidly, before missing the opportunity",
             "category": "Technology",
             "image": "images/technology/im7.jpg",
             "importance": "High",
             "date": "2025-07-26T20:16:34.537142"
+        },
+        {
+            "id": 369,
+            "title": "Super Micro's quarterly revenue misses estimates",
+            "summary": "Super Micro's quarterly revenue falls short of estimated figures.",
+            "category": "Technology",
+            "image": "images/technology/im9.jpg",
+            "importance": "Medium",
+            "date": "2025-08-05T20:30:03.504216"
+        },
+        {
+            "id": 370,
+            "title": "Match Group posts revenue above estimates as it looks to lure Gen Z with AI Push",
+            "summary": "Match Group reports revenue exceeding expectations as it aims to attract Gen Z users through AI initiatives.",
+            "category": "Technology",
+            "image": "images/technology/im7.jpg",
+            "importance": "Medium",
+            "date": "2025-08-05T20:30:03.504216"
+        },
+        {
+            "id": 371,
+            "title": "Snap records slowest revenue growth in over a year amid tough competition for ads",
+            "summary": "Snap experiences its slowest revenue growth in more than a year due to intense competition in the advertising market.",
+            "category": "Technology",
+            "image": "images/technology/im8.jpg",
+            "importance": "Medium",
+            "date": "2025-08-05T20:30:03.504216"
+        },
+        {
+            "id": 372,
+            "title": "Chipmaker AMD forecasts third-quarter revenue above estimates",
+            "summary": "AMD, a chip manufacturer, projects third-quarter revenue that exceeds expectations.",
+            "category": "Technology",
+            "image": "images/technology/im6.jpg",
+            "importance": "Medium",
+            "date": "2025-08-05T20:30:03.504216"
         },
         {
             "id": 373,

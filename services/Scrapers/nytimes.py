@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_PATH = os.path.join(BASE_DIR, "scraped")
 
 
-def main():
+def main(command=False):
     dic = {}
     current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     dic["date"] = current_time
@@ -54,7 +54,7 @@ def main():
             }
             dic[i] = item_data
 
-    save(dic)
+    save(dic, command)
     driver.quit()
 
 
@@ -121,8 +121,8 @@ def search(inp_arg):
     save(dic)
 
 
-def save(new_data):
-    analyze.az.sendtoQueue(new_data, "nyTimes", new_data["date"])
+def save(new_data, command=False):
+    analyze.az.sendtoQueue(new_data, "nyTimes", new_data["date"], command)
     last_data = load()
     if new_data:
         last_data["Data"].append(new_data)

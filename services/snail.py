@@ -157,7 +157,7 @@ class Snail():
                 try:
                     self.dnsd_inprocess = True
                     print("starting dnsd")
-                    dnsd.main()
+                    dnsd.main(True)
                     self.dnsd_inprocess = False
                 except:
                     print("dnsd failed")
@@ -167,7 +167,7 @@ class Snail():
                 try:
                     self.nytimes_inprocess = True
                     print("starting nytimes")
-                    nytimes.main()
+                    nytimes.main(True)
                     self.nytimes_inprocess = False
                 except:
                     print("nytimes failed")
@@ -177,7 +177,7 @@ class Snail():
                 try:
                     self.yahoo_inprocess = True
                     print("starting yahoo")
-                    yahoo.main()
+                    yahoo.main(True)
                     self.yahoo_inprocess = False
                 except:
                     print("yahoo failed")
@@ -187,7 +187,7 @@ class Snail():
                 try:
                     self.esdn_inprocess = True
                     print("starting esdn")
-                    esdn.main()
+                    esdn.main(True)
                     self.esdn_inprocess = False
                 except:
                     print("esdn failed")
@@ -197,7 +197,7 @@ class Snail():
                 try:
                     self.bloomberg_inprocess = True
                     print("starting bloomberg")
-                    bloomberg.main()
+                    bloomberg.main(True)
                     self.bloomberg_inprocess = False
                 except:
                     print("bloomberg failed")
@@ -230,7 +230,7 @@ class Snail():
                 try:
                     self.dnsd_inprocess = True
                     print("starting dnsd")
-                    dnsd.main()
+                    dnsd.main(True)
                     self.dnsd_inprocess = False
                 except:
                     print("dnsd failed")
@@ -241,7 +241,7 @@ class Snail():
                 try:
                     self.nytimes_inprocess = True
                     print("starting nytimes")
-                    nytimes.main()
+                    nytimes.main(True)
                     self.nytimes_inprocess = False
                 except:
                     print("nytimes failed")
@@ -251,7 +251,7 @@ class Snail():
                 try:
                     self.yahoo_inprocess = True
                     print("starting yahoo")
-                    yahoo.main()
+                    yahoo.main(True)
                     self.yahoo_inprocess = False
                 except:
                     print("yahoo failed")
@@ -261,7 +261,7 @@ class Snail():
                 try:
                     self.esdn_inprocess = True
                     print("starting esdn")
-                    esdn.main()
+                    esdn.main(True)
                     self.esdn_inprocess = False
                 except:
                     print("esdn failed")
@@ -272,7 +272,7 @@ class Snail():
                 try:
                     self.bloomberg_inprocess = True
                     print("starting bloomberg")
-                    bloomberg.main()
+                    bloomberg.main(True)
                     self.bloomberg_inprocess = False
                 except:
                     print("bloomberg failed")

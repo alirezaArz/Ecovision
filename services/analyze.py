@@ -50,6 +50,9 @@ class Analyze():
         for item in self.status:
             itemId = item["id"]
             if item["status"] == "in Queue" or item["status"] == "failed":
+                if item["status"] == "failed":
+                    print(f"recovering an failed item with id of {itemId}")
+                    
                 raw_list = self.loadQueue()["Data"]
                 if raw_list:
                     for element in raw_list:
@@ -188,11 +191,16 @@ class Analyze():
         with open(os.path.join(QueuePath, "Queue.json"), 'w', encoding='utf-8') as file:
             json.dump(last_queue, file, indent=4, ensure_ascii=False)
 
-    def sendtoQueue(self, data, name, modifiedDate):
+    def sendtoQueue(self, data, name, modifiedDate, command):
         new_id = random.randint(0, 1000000000)
         while new_id in self.memoId:
             new_id = random.randint(0, 1000000000)
         self.memoId.append(new_id)
+        
+        commander = "server"
+        if command:
+            commander = "Admin"
+
         try:
             last_data = self.loadQueue()
             self.status.append({
@@ -200,6 +208,7 @@ class Analyze():
                 "modifier": name,
                 "status": "in Queue",
                 "modified date": modifiedDate,
+                "commander": commander,
                 "external model": "undefined",
                 "local model": "undefined"
 
@@ -320,12 +329,33 @@ class Analyze():
                         - target_duration
                     ),
                 )
+                lasteconomic = navigation.nav.Navread("SnEconomy")
+                lastfinance = navigation.nav.Navread("SnFinance")
+                lastinvesting = navigation.nav.Navread("SnInvesting")
+                lastmarkets = navigation.nav.Navread("SnMarkets")
+                last_imp_news = []
+                for i in lasteconomic, lastfinance, lastinvesting, lastmarkets:
+                    last_imp_news.append([])
+                    count = 0
+                    for item in reversed(i["newsData"]):
+                        if count < 5:
+                            if item["importance"] == "High" or "high":
+                                new_item = [item["title"], item["summary"]]
+                                last_imp_news[-1].append(new_item)
+                                count += 1
+                    if count < 5:
+                        for item in reversed(i["newsData"]):
+                            if count < 5:
+                                if item["importance"] == "Medium" or "medium":
+                                    new_item = [item["title"], item["summary"]]
+                                    last_imp_news[-1].append(new_item)
+                                    count += 1
 
                 data.append(cryptoPast)
                 data.append(bonbastPast)
                 data.append(cryptoLast)
                 data.append(bonbastLast)
-
+                data.append(last_imp_news)
                 GeminiResponse = gemini.priceDetermine(data)
                 if GeminiResponse and GeminiResponse.candidates:
                     try:
@@ -333,7 +363,8 @@ class Analyze():
                             "%Y-%m-%d %H:%M:%S")
                         mdText = GeminiResponse.text
                         mdhtmlText = mdText[11:-4]
-                        code = navigation.nav.saveOpinion("PriceOp", date, mdText)
+                        code = navigation.nav.saveOpinion(
+                            "PriceOp", date, mdText)
                         prcmarkdown.priceOp(mdhtmlText, code)
                     except Exception as e:
                         print(f"Failed to extract and save opinion: {e}")
@@ -341,4 +372,3 @@ class Analyze():
 
 
 az = Analyze()
-

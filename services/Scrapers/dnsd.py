@@ -53,7 +53,7 @@ def search(inp_arg):
     save(dic)
 
 
-def main():
+def main(command=False):
     dic = {}
     current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     dic["date"] = current_time
@@ -74,11 +74,11 @@ def main():
     for i in range(len(paras)):
         dic[i] = paras[i].text.replace(chr(0x200C), " ")
     driver.quit()
-    save(dic)
+    save(dic, command)
 
 
-def save(new_data):
-    analyze.az.sendtoQueue(new_data, "dnsd", new_data["date"])
+def save(new_data, command=False):
+    analyze.az.sendtoQueue(new_data, "dnsd", new_data["date"], command)
     last_data = load()
     if new_data:
         last_data["Data"].append(new_data)

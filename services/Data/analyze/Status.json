@@ -4,7 +4,9 @@
         569336756,
         165677084,
         394633069,
-        254979372
+        254979372,
+        343846563,
+        534300039
     ],
     "localPending": [],
     "Status": [
@@ -46,6 +48,24 @@
             "status": "failed",
             "modified date": "2025-08-04 11:45:37",
             "external model": "failed",
+            "local model": "undefined"
+        },
+        {
+            "id": 343846563,
+            "modifier": "nyTimes",
+            "status": "done",
+            "modified date": "2025-08-05 20:22:09",
+            "commander": "Admin",
+            "external model": "verified",
+            "local model": "undefined"
+        },
+        {
+            "id": 534300039,
+            "modifier": "yahoo",
+            "status": "done",
+            "modified date": "2025-08-05 20:27:44",
+            "commander": "Admin",
+            "external model": "verified",
             "local model": "undefined"
         }
     ]

@@ -44,7 +44,7 @@ class Extract():
                 transformed_item = {}
 
                 try:
-                    transformed_item["id"] = str(item_key_str)
+                    transformed_item["id"] = int(item_key_str)
                 except ValueError:
                     transformed_item["id"] = item_key_str
 
@@ -65,7 +65,7 @@ class Extract():
                 elif transformed_item["category"] == "Technology":
                     transformed_item["image"] = (f'images/technology/im{random.randint(1, 10)}.jpg')
                 else:
-                    transformed_item["image"] = (f'images/default/im{random.randint(1, 5)}.jpg') # فرض کنید یک پوشه default دارید
+                    transformed_item["image"] = (f'images/default/im{random.randint(1, 5)}.jpg')
                 
                 transformed_item["importance"] = original_item_data.get("importance", "medium").replace('\u200c', '')
                 transformed_item["date"] = current_date

@@ -17,7 +17,7 @@ options = Options()
 options.add_argument("--headless")
 
 
-def main():
+def main(command=False):
     dic = {}
     current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     dic["date"] = current_time
@@ -47,11 +47,11 @@ def main():
         dic[i] = titles[i].text
 
     driver.quit()
-    save(dic)
+    save(dic, command)
 
 
-def save(new_data):
-    analyze.az.sendtoQueue(new_data, "yahoo", new_data["date"])
+def save(new_data, command=False):
+    analyze.az.sendtoQueue(new_data, "yahoo", new_data["date"], command)
     last_data = load()
     if new_data:
         last_data["Data"].append(new_data)

@@ -46,15 +46,6 @@
             "date": "2025-07-26T20:06:16.303734"
         },
         {
-            "id": "30",
-            "title": "Stocks wobble with Trump-Xi call, Musk feud in focus",
-            "summary": "Stocks experience volatility as attention focuses on the Trump-Xi call and the Musk feud.",
-            "category": "Markets",
-            "image": "images/markets/im1.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
             "id": "60",
             "title": "CrowdStrike forecasts downbeat second-quarter revenue, shares fall",
             "summary": "CrowdStrike projects pessimistic second-quarter revenue, leading to a decline in its share price.",
@@ -91,183 +82,6 @@
             "date": "2025-07-31T11:17:07.566724"
         },
         {
-            "id": "10",
-            "title": "US Bond Traders Eye Inflation for Steer on September Rate Cut",
-            "summary": "US bond traders are closely monitoring inflation data for indications regarding a potential interest rate cut in September.",
-            "category": "Markets",
-            "image": "images/markets/im4.jpg",
-            "importance": "Medium",
-            "date": "2025-07-31T11:18:08.184659"
-        },
-        {
-            "id": "15",
-            "title": "Tata Steel to Explore New Markets as Tariffs Hit US Shipments",
-            "summary": "Tata Steel plans to explore new markets as tariffs negatively impact its shipments to the US.",
-            "category": "Markets",
-            "image": "images/markets/im4.jpg",
-            "importance": "Medium",
-            "date": "2025-07-31T11:18:08.184659"
-        },
-        {
-            "title": "‘Unprecedented’ Investment Fund Seals Deal for Japan and Expands Trump’s Influence",
-            "summary": "President Trump will get to decide where to invest Japanese money and the United States will keep 90 percent of the profits, the White House said.",
-            "category": "Markets",
-            "importance": "LOW"
-        },
-        {
-            "id": "0",
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": "0",
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": "0",
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": "0",
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": "0",
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": "0",
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": "0",
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": "0",
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": "0",
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": "0",
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": "0",
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": "0",
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": "0",
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": "0",
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": "0",
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": "0",
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": "0",
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
             "id": "0",
             "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
             "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
@@ -286,24 +100,6 @@
             "date": "2025-08-02T21:14:39.185502"
         },
         {
-            "id": "6",
-            "title": "Trade War Turmoil, Rising Unemployment Send Markets Diving",
-            "summary": "Trade war uncertainty and rising unemployment lead to market decline.",
-            "category": "Markets",
-            "image": "images/markets/im1.jpg",
-            "importance": "High",
-            "date": "2025-08-02T23:04:16.157177"
-        },
-        {
-            "id": "1",
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im2.jpg",
-            "importance": "High",
-            "date": "2025-08-02T23:04:58.077845"
-        },
-        {
             "id": "18",
             "title": "Trump Targets Copper With Tariffs, Though Not as Aggressively as Expected",
             "summary": "The president stopped short of putting a 50 percent tariff on refined copper, as he had threatened earlier this year. The market reaction was swift anyway and prices tumbled.",
@@ -311,6 +107,33 @@
             "image": "images/markets/im1.jpg",
             "importance": "Medium",
             "date": "2025-08-02T23:04:58.077845"
+        },
+        {
+            "id": "3",
+            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
+            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
+            "category": "Markets",
+            "image": "images/markets/im9.jpg",
+            "importance": "High",
+            "date": "2025-08-05T20:24:16.456064"
+        },
+        {
+            "id": 0,
+            "title": "Stocks fall as Wall Street pulls back after rally",
+            "summary": "Wall Street experiences a pullback after a rally, causing stocks to fall.",
+            "category": "Markets",
+            "image": "images/markets/im2.jpg",
+            "importance": "High",
+            "date": "2025-08-05T20:30:03.504216"
+        },
+        {
+            "id": 11,
+            "title": "How major US stock indexes fared Tuesday, 8/5/2025",
+            "summary": "Overview of the performance of major US stock indexes on Tuesday, August 5, 2025.",
+            "category": "Markets",
+            "image": "images/markets/im1.jpg",
+            "importance": "Low",
+            "date": "2025-08-05T20:30:03.504216"
         }
     ]
 }
