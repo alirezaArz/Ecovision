@@ -238,6 +238,10 @@ python manage.py ecolog
 
 ## Project Structure
 
+### Functionality map
+<img alt="Static Badge" src="projectSTR.svg" width="100%">
+
+### File structure
 ```
 Ecovision
 ├── services
