@@ -45,7 +45,7 @@ def main(command=False):
         driver.switch_to.default_content()
         print("bloomberg : Switched back to default content.")
 
-        print("bloomberg : switched back from the fuckframe.")
+        print("bloomberg : switched back from the mainframe.")
         WebDriverWait(driver, 10).until(
             EC.invisibility_of_element_located(
                 (By.ID, "sp_message_iframe_1135992"))
@@ -126,7 +126,7 @@ def search(inp_arg: str):
         driver.switch_to.default_content()
         print("bloomberg : Switched back to default content.")
 
-        print("bloomberg : switched back from the fuckframe.")
+        print("bloomberg : switched back from the mainframe.")
         WebDriverWait(driver, 10).until(
             EC.invisibility_of_element_located(
                 (By.ID, "sp_message_iframe_1135992"))
