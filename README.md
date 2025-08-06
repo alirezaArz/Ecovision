@@ -353,8 +353,9 @@ BSD-3-Clause license
 
 We welcome contributions\! You can list contributors here, perhaps with links to their GitHub profiles. For example:
 
-  * [alrz](https://github.com/alirezaArz)
-  * [darksider-5](https://github.com/darksider-05)
-  * [hosseinshokrgozar85](https://github.com/hosseinshokrgozar85)
+  * [Alvaand](https://github.com/alirezaArz)
+  * [Darksider-5](https://github.com/darksider-05)
+  * [Hosseinshokrgozar85](https://github.com/hosseinshokrgozar85)
+  * [Bahram]()
 
 ---
