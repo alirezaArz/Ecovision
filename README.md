@@ -191,11 +191,11 @@ With these steps completed, Ecovision will be ready to utilize your local Ollama
 
 ## **Running the Development Servers**
 
-Ecovision involves both a Django backend (which includes AI scripts) and a React frontend. Here's how to start them.
+Ecovision involves both a Django backend (which includes Main & Local-AI servers) and a React frontend. Here's how to start them.
 
-#### **Running the Django Backend & AI Scripts**
+#### **Running the Django Backend & Services**
 
-From the main `Ecovision` directory, execute the following command to launch the Django server and simultaneously activate the integrated AI scripts:
+From the main `Ecovision` directory, execute the following command to launch the Django server and simultaneously activate the integrated Local-AI server:
 
 ```bash
 python manage.py starteco
