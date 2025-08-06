@@ -346,7 +346,7 @@ This software uses the following open source packages:
 
 ## ⚖️ License
 
-MIT license
+BSD-3-Clause license 
 
 
 ## 👥 Contributors
