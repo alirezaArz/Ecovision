@@ -305,8 +305,7 @@ Ecovision
 │   ├── analyze.py
 │   ├── navigation.py
 │   ├── snail.py
-│   ├── systems.py
-│   └── tempCodeRunnerFile.py
+│   └── systems.py
 ├── static
 │   ├── js
 │   │   └── admin_script.js
@@ -315,10 +314,7 @@ Ecovision
 │   ├── admin_panel.html
 │   └── mainPage.html
 ├── .gitignore
-├── EcovisionLogo.png
 ├── README.md
-├── Untitled-2025-07-19-2336(3).excalidraw
-├── Untitled-2025-07-19-2336.excalidraw(2).svg
 ├── db.sqlite3
 ├── manage.py
 ├── requirements.txt
