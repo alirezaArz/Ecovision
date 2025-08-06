@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="#"><img src="EcovisionLogo.png" alt="Ecovision" width="205" style="border-radius: 10%;"></a>
+  <a href="#"><img src="ecovisonlogo.png" alt="Ecovision" width="50%" style="border-radius: 10%;"></a>
   <br>
   Ecovision
   <br>
