@@ -1,5 +1,10 @@
 Django==4.2.11
+django-browser-reload
+django-cors-headers
 django-debug-toolbar==4.3.0
 markdown
 pillow==10.2.0
 requests==2.31.0
+re
+halo
+
