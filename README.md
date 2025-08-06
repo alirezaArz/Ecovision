@@ -22,9 +22,11 @@
   <a href="#🚀-how-to-use">How To Use</a> •
   <a href="#⚖️-license">License</a> •
   <a href="#👥-contributors">Contributors</a>
-<img src="previewPages.gif" width="70%"></img>
 </p>
 
+<p align="center">
+  <img src="previewPages.gif" width="100%" style="margin-top: 20px; margin-bottom: 20px;">
+</p>
 
 
 ## 🌟 Key Features
