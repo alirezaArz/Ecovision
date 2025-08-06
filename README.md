@@ -239,7 +239,9 @@ python manage.py ecolog
 ## Project Structure
 
 ### Functionality map
-<img alt="Static Badge" src="projectSTR.svg" width="100%">
+<div align="center">
+<img alt="Static Badge" src="projectSTR.svg" width="60%">
+</div>
 
 ### File structure
 ```
