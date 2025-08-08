@@ -8,62 +8,40 @@ DATA_PATH = os.path.join(BASE_DIR, "model.json")
 with open(mode="r", file=DATA_PATH) as file:
     odel = json.load(file)["model"]
 
+
 def answer(data):
 
-
-    if odel == "mistral:7b-instruct-q4_K_M":
-
-
-        try:
-            response = ollama.chat(model=odel, messages=[
-        {
-            'role': 'system',
-            'content': (
-                "You are a financial analysis expert. When given data, you will analyze it and respond in the following format:\n"
-                '{ "0": { "title": "TITLE_HERE", "summary": "SUMMARY_HERE", '
-                '"category": "CATEGORY_HERE", "importance": "IMPORTANCE_HERE" } }\n'
-                "Allowed categories: [Economy, Finance, Markets, Investing, Technology, Science]\n"
-                "Allowed importance levels: [Low, Medium, High]"
-            )
-        },
-        {
-            'role': 'user',
-            'content': f"This is the data that you are given: {data}"
-        }
-    ])
-            response = response.message.content
-            response = response.replace("\n", " ")
-            response = response.replace('\"', '"')
-        except Exception as e:
-            print(f"couldn't get accessed to the local-ai, check ollama and try again: {e}")
-    
-    else:
-        try:
-            response = ollama.chat(model=odel, messages=[{
-
-                'role': 'user', 
-
-                'content': f"analyze this{data}",
-                "category": "news",
-                "importance": "medium",
-                "date": "2025-07-05T02:15:08.852514"
+    try:
+        response = ollama.chat(model=odel, messages=[
+            {
+                'role': 'system',
+                'content': (
+                    "You are a financial analysis expert. When given data, you will analyze it and respond in the following format:\n"
+                    '{ "0": { "title": "TITLE_HERE", "summary": "SUMMARY_HERE", '
+                    '"category": "CATEGORY_HERE", "importance": "IMPORTANCE_HERE" } }\n'
+                    "Allowed categories: [Economy, Finance, Markets, Investing, Technology, Science]\n"
+                    "Allowed importance levels: [low, medium, high]*importance should be lowercased*"
+                )
+            },
+            {
+                'role': 'user',
+                'content': f"This is the data that you are given: {data}"
             }
-                ])
-            response = response.message.content
-        except Exception as e:
-            print(f"couldn't get accessed to the local-ai, check ollama and try again: {e}")
+        ])
+        response = response.message.content
+        response = response.replace("\n", " ")
+        response = response.replace('\"', '"')
+    except Exception as e:
+        print(
+            f"couldn't get accessed to the local-ai, check ollama and try again: {e}")
+
+    return (response)
 
 
-    return(response)
-        
-
-
-
-
-def priceDetermine(data:list):
+def priceDetermine(data: list):
 
     try:
-        response =ollama.chat(model=odel, messages=[
+        response = ollama.chat(model=odel, messages=[
             {
                 'role': 'user',
                 'content': (

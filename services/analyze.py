@@ -102,10 +102,10 @@ class Analyze():
                             print("Nither local Ai or External Ai Are Active")
                 else:
                     print("there are no item in Queue.json's Data list")
-            elif item["status"] == "pending":
-                if not self.privateLoopWating:
-                    self.privateLoopWating = True
-                    self.createPrivateLoop()
+            #elif item["status"] == "pending":
+              #  if not self.privateLoopWating:
+               #     self.privateLoopWating = True
+                #    self.createPrivateLoop()
 
     def checkLocalOutput(self):
         last_data = self.readOutput()
@@ -114,7 +114,11 @@ class Analyze():
                 if item["id"] in self.localPending:
                     print(f"found an item with id of: {item["id"]}")
                     new_list = []
-                    new_result = json.loads(item["response"])
+                    try:
+                        new_result = json.loads(item["response"])
+                    except Exception as e:
+                        new_result = item["response"]
+                        print(f"json.load had a bug {e}")
                     for it in new_result:
                         if it != 'id':
                             new_list.append(new_result[it])

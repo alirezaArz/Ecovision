@@ -3,10 +3,11 @@
         522816757,
         957678748,
         384765421,
-        260164917
+        260164917,
+        841966315
     ],
     "localPending": [
-        957678748
+        841966315
     ],
     "Status": [
         {
@@ -17,15 +18,6 @@
             "commander": "Admin",
             "external model": "undefined",
             "local model": "verified"
-        },
-        {
-            "id": 957678748,
-            "modifier": "nyTimes",
-            "status": "pending",
-            "modified date": "2025-08-08 14:19:39",
-            "commander": "Admin",
-            "external model": "undefined",
-            "local model": "pending"
         },
         {
             "id": 384765421,
@@ -44,6 +36,15 @@
             "commander": "Admin",
             "external model": "verified",
             "local model": "undefined"
+        },
+        {
+            "id": 841966315,
+            "modifier": "nyTimes",
+            "status": "pending",
+            "modified date": "2025-08-08 14:46:57",
+            "commander": "Admin",
+            "external model": "undefined",
+            "local model": "pending"
         }
     ]
 }
