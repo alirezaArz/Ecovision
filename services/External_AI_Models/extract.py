@@ -55,17 +55,17 @@ class Extract():
                 if transformed_item["category"] == "Economy":
                     transformed_item["image"] = (f'images/economy/im{random.randint(1, 30)}.jpg')
                 elif transformed_item["category"] == "Finance":
-                    transformed_item["image"] = (f'images/finance/im{random.randint(1, 15)}.jpg')
+                    transformed_item["image"] = (f'images/finance/im{random.randint(1, 30)}.jpg')
                 elif transformed_item["category"] == "Investing":
-                    transformed_item["image"] = (f'images/investing/im{random.randint(1, 10)}.jpg')
+                    transformed_item["image"] = (f'images/investing/im{random.randint(1, 30)}.jpg')
                 elif transformed_item["category"] == "Markets":
-                    transformed_item["image"] = (f'images/markets/im{random.randint(1, 10)}.jpg')
+                    transformed_item["image"] = (f'images/markets/im{random.randint(1, 30)}.jpg')
                 elif transformed_item["category"] == "Science":
-                    transformed_item["image"] = (f'images/science/im{random.randint(1, 10)}.jpg')
+                    transformed_item["image"] = (f'images/science/im{random.randint(1, 30)}.jpg')
                 elif transformed_item["category"] == "Technology":
-                    transformed_item["image"] = (f'images/technology/im{random.randint(1, 10)}.jpg')
+                    transformed_item["image"] = (f'images/technology/im{random.randint(1, 30)}.jpg')
                 else:
-                    transformed_item["image"] = (f'images/default/im{random.randint(1, 5)}.jpg')
+                    transformed_item["image"] = (f'images/default/im{random.randint(1, 30)}.jpg')
                 
                 transformed_item["importance"] = original_item_data.get("importance", "medium").replace('\u200c', '')
                 transformed_item["date"] = current_date

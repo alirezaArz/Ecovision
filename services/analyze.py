@@ -52,7 +52,7 @@ class Analyze():
             if item["status"] == "in Queue" or item["status"] == "failed":
                 if item["status"] == "failed":
                     print(f"recovering an failed item with id of {itemId}")
-                    
+
                 raw_list = self.loadQueue()["Data"]
                 if raw_list:
                     for element in raw_list:
@@ -102,6 +102,10 @@ class Analyze():
                             print("Nither local Ai or External Ai Are Active")
                 else:
                     print("there are no item in Queue.json's Data list")
+            elif item["status"] == "pending":
+                if not self.privateLoopWating:
+                    self.privateLoopWating = True
+                    self.createPrivateLoop()
 
     def checkLocalOutput(self):
         last_data = self.readOutput()
@@ -111,10 +115,30 @@ class Analyze():
                     print(f"found an item with id of: {item["id"]}")
                     new_list = []
                     new_result = json.loads(item["response"])
-
                     for it in new_result:
                         if it != 'id':
                             new_list.append(new_result[it])
+                        if it["category"] == "Economy":
+                            it["image"] = (
+                                f'images/economy/im{random.randint(1, 30)}.jpg')
+                        elif it["category"] == "Finance":
+                            it["image"] = (
+                                f'images/finance/im{random.randint(1, 30)}.jpg')
+                        elif it["category"] == "Investing":
+                            it["image"] = (
+                                f'images/investing/im{random.randint(1, 30)}.jpg')
+                        elif it["category"] == "Markets":
+                            it["image"] = (
+                                f'images/markets/im{random.randint(1, 30)}.jpg')
+                        elif it["category"] == "Science":
+                            it["image"] = (
+                                f'images/science/im{random.randint(1, 30)}.jpg')
+                        elif it["category"] == "Technology":
+                            it["image"] = (
+                                f'images/technology/im{random.randint(1, 30)}.jpg')
+                        else:
+                            it["image"] = (
+                                f'images/default/im{random.randint(1, 30)}.jpg')
                     lastResult = system.vgsy.Navread("LastAnalyze")
                     lastResult["newsData"][:] = new_list
                     with open(os.path.join(Navpath, "LastAnalyze.json"), 'w', encoding='utf-8') as file:
@@ -196,7 +220,7 @@ class Analyze():
         while new_id in self.memoId:
             new_id = random.randint(0, 1000000000)
         self.memoId.append(new_id)
-        
+
         commander = "server"
         if command:
             commander = "Admin"
