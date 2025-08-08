@@ -22,6 +22,8 @@ class Core():
             ]
         })
         self.active = True
+        self.list = []
+        self.saveList()
     
     def checkInput(self,name='news'):
         try:
@@ -65,7 +67,11 @@ class Core():
         
         with open(os.path.join(OutPutPath, f"{name}.json"), 'w', encoding='utf-8') as file:
                     json.dump(last_data, file, indent=4, ensure_ascii=False)
-            
+    def saveList(self, lst, name='news'):
+        last_data = self.readOutput()
+        last_data["list"] = lst
+        with open(os.path.join(OutPutPath, f"{name}.json"), 'w', encoding='utf-8') as file:
+                    json.dump(last_data, file, indent=4, ensure_ascii=False)
             
     def server(self):
         self.firstloop = True
@@ -93,6 +99,8 @@ class Core():
                 self.deniedloops = 0
                 analyzed_result = ollama.answer(self.inputData[0])
                 input_dataId = self.inputData[0]["id"]
+                self.list.append(input_dataId)
+                self.saveList(self.list)
                 if analyzed_result:
                     self.saveOutput(analyzed_result, input_dataId)
                     self.clearInput()

@@ -6,9 +6,7 @@
         260164917,
         841966315
     ],
-    "localPending": [
-        841966315
-    ],
+    "localPending": [],
     "Status": [
         {
             "id": 522816757,
@@ -40,11 +38,10 @@
         {
             "id": 841966315,
             "modifier": "nyTimes",
-            "status": "pending",
-            "modified date": "2025-08-08 14:46:57",
+            "status": "done",
             "commander": "Admin",
             "external model": "undefined",
-            "local model": "pending"
+            "local model": "verified"
         }
     ]
 }

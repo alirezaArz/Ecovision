@@ -170,6 +170,38 @@
             "image": "images/markets/im1.jpg",
             "importance": "High",
             "date": "2025-08-08 14:29:26"
+        },
+        {
+            "title": "New Tariff on ‘Transshipped’ Goods Mystifies Importers",
+            "summary": "The Trump administration levied a hefty tariff on goods that are moved through other countries, but it has not yet fully explained its plans.",
+            "category": "Markets",
+            "importance": "High",
+            "id": 0,
+            "image": "images/markets/im22.jpg"
+        },
+        {
+            "title": "Some safe-haven assets have soared against the U.S. dollar.",
+            "summary": "This was featured in live coverage.",
+            "category": "Markets",
+            "importance": "Low",
+            "id": 2,
+            "image": "images/markets/im22.jpg"
+        },
+        {
+            "title": "Swiss Businesses Fear Being ‘Annihilated’ by One of the World’s Highest Tariffs",
+            "summary": "Goods shipped from the country face a 39 percent tariff in the U.S., which companies warn will have dire consequences if President Trump cannot be quickly dissuaded.",
+            "category": "Markets",
+            "importance": "Medium",
+            "id": 3,
+            "image": "images/markets/im23.jpg"
+        },
+        {
+            "title": "Here’s What Could Get More Expensive Under Trump’s Tariffs",
+            "summary": "The tariffs are driving up prices on everyday goods as businesses warn they can no longer absorb costs, leaving consumers to foot the bill.",
+            "category": "Markets",
+            "importance": "High",
+            "id": 4,
+            "image": "images/markets/im9.jpg"
         }
     ]
 }

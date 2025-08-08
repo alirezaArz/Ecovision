@@ -114,35 +114,38 @@ class Analyze():
                 if item["id"] in self.localPending:
                     print(f"found an item with id of: {item["id"]}")
                     new_list = []
-                    try:
-                        new_result = json.loads(item["response"])
-                    except Exception as e:
-                        new_result = item["response"]
-                        print(f"json.load had a bug {e}")
-                    for it in new_result:
-                        if it != 'id':
-                            new_list.append(new_result[it])
-                        if it["category"] == "Economy":
-                            it["image"] = (
+                    response = item["response"]
+                    response = json.loads(response)
+                    print(response)
+                    cnt = 0
+                    for it in response:
+                        new_item  = response[it]
+                        new_item["id"] = cnt
+                        if new_item["category"] == "Economy":
+                            new_item["image"] = (
                                 f'images/economy/im{random.randint(1, 30)}.jpg')
-                        elif it["category"] == "Finance":
-                            it["image"] = (
+                        elif new_item["category"] == "Finance":
+                            new_item["image"] = (
                                 f'images/finance/im{random.randint(1, 30)}.jpg')
-                        elif it["category"] == "Investing":
-                            it["image"] = (
+                        elif new_item["category"] == "Investing":
+                            new_item["image"] = (
                                 f'images/investing/im{random.randint(1, 30)}.jpg')
-                        elif it["category"] == "Markets":
-                            it["image"] = (
+                        elif new_item["category"] == "Markets":
+                            new_item["image"] = (
                                 f'images/markets/im{random.randint(1, 30)}.jpg')
-                        elif it["category"] == "Science":
-                            it["image"] = (
+                        elif new_item["category"] == "Science":
+                            new_item["image"] = (
                                 f'images/science/im{random.randint(1, 30)}.jpg')
-                        elif it["category"] == "Technology":
-                            it["image"] = (
+                        elif new_item["category"] == "Technology":
+                            new_item["image"] = (
                                 f'images/technology/im{random.randint(1, 30)}.jpg')
                         else:
-                            it["image"] = (
+                            new_item["image"] = (
                                 f'images/default/im{random.randint(1, 30)}.jpg')
+                        new_list.append(new_item)
+                        cnt += 1
+                    cnt = 0
+                        
                     lastResult = system.vgsy.Navread("LastAnalyze")
                     lastResult["newsData"][:] = new_list
                     with open(os.path.join(Navpath, "LastAnalyze.json"), 'w', encoding='utf-8') as file:
