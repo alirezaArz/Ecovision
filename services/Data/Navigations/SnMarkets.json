@@ -134,6 +134,42 @@
             "image": "images/markets/im1.jpg",
             "importance": "Low",
             "date": "2025-08-05T20:30:03.504216"
+        },
+        {
+            "id": 1,
+            "title": "What Does Trump’s Swiss Surprise Mean for Gold?",
+            "summary": "Analysis of the potential impact of Trump's actions in Switzerland on the price of gold.",
+            "category": "Markets",
+            "image": "images/markets/im20.jpg",
+            "importance": "Medium",
+            "date": "2025-08-08 14:28:01"
+        },
+        {
+            "id": 2,
+            "title": "Sugar Rises on Concern Over Cane Yields in Top Grower Brazil",
+            "summary": "Sugar prices increase due to concerns about sugarcane yields in Brazil.",
+            "category": "Markets",
+            "image": "images/markets/im18.jpg",
+            "importance": "Medium",
+            "date": "2025-08-08 14:28:01"
+        },
+        {
+            "id": 6,
+            "title": "Stocks End Mixed, as Investors Take Steeper Tariffs in Stride",
+            "summary": "The S&P 500 ended the day 0.1 percent lower, a muted move compared to the upheaval when tariffs were first announced in early April.",
+            "category": "Markets",
+            "image": "images/markets/im14.jpg",
+            "importance": "Medium",
+            "date": "2025-08-08 14:29:26"
+        },
+        {
+            "id": 18,
+            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
+            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
+            "category": "Markets",
+            "image": "images/markets/im1.jpg",
+            "importance": "High",
+            "date": "2025-08-08 14:29:26"
         }
     ]
 }

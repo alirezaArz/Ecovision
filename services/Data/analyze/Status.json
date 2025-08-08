@@ -1,7 +1,9 @@
 {
     "memoId": [
         522816757,
-        957678748
+        957678748,
+        384765421,
+        260164917
     ],
     "localPending": [
         957678748
@@ -24,6 +26,24 @@
             "commander": "Admin",
             "external model": "undefined",
             "local model": "pending"
+        },
+        {
+            "id": 384765421,
+            "modifier": "bloomberg",
+            "status": "done",
+            "modified date": "2025-08-08 14:26:36",
+            "commander": "Admin",
+            "external model": "verified",
+            "local model": "undefined"
+        },
+        {
+            "id": 260164917,
+            "modifier": "nyTimes",
+            "status": "done",
+            "modified date": "2025-08-08 14:28:39",
+            "commander": "Admin",
+            "external model": "verified",
+            "local model": "undefined"
         }
     ]
 }

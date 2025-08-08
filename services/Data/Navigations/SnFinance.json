@@ -1160,6 +1160,33 @@
             "image": "images/finance/im15.jpg",
             "importance": "Medium",
             "date": "2025-08-05T20:30:03.504216"
+        },
+        {
+            "id": 0,
+            "title": "Industrial Takeovers Top $200 Billion Even as Tariffs Chill Investment",
+            "summary": "Industrial takeovers reach $200 billion despite tariffs impacting investment.",
+            "category": "Finance",
+            "image": "images/finance/im4.jpg",
+            "importance": "High",
+            "date": "2025-08-08 14:28:01"
+        },
+        {
+            "id": 1,
+            "title": "‘A Loyalist Inside the Building’: Trump’s Temporary Fed Pick Could Have a Lasting Effect",
+            "summary": "Stephen I. Miran may spend only a few months on the central bank’s board of governors, but in that time he can influence the discussions around interest rates and who will become the institution’s next leader.",
+            "category": "Finance",
+            "image": "images/finance/im6.jpg",
+            "importance": "Medium",
+            "date": "2025-08-08 14:29:26"
+        },
+        {
+            "id": 19,
+            "title": "Fed Governor Steps Down Early, Giving Trump Opportunity to Shape Central Bank",
+            "summary": "The resignation comes as President Trump has openly pressured the central bank to lower interest rates and called for Jerome H. Powell, the chair, to step down.",
+            "category": "Finance",
+            "image": "images/finance/im21.jpg",
+            "importance": "High",
+            "date": "2025-08-08 14:29:26"
         }
     ]
 }

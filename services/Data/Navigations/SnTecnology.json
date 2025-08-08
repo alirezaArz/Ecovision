@@ -143,6 +143,15 @@
             "image": "images/technology/im9.jpg",
             "importance": "Medium",
             "date": "2025-08-05T20:30:03.504216"
+        },
+        {
+            "id": 8,
+            "title": "Apple C.E.O. Gifts Trump Gold",
+            "summary": "Tim Cook presented a glass plaque on a gold base to President Trump and pledged an additional $100 billion investment in the U.S. as Trump threatened a 100 percent tariff on foreign semiconductors.",
+            "category": "Technology",
+            "image": "images/technology/im19.jpg",
+            "importance": "Medium",
+            "date": "2025-08-08 14:29:26"
         }
     ]
 }
