@@ -54,14 +54,20 @@ class Analyze():
                     print(f"recovering an failed item with id of {itemId}")
 
                 raw_list = self.loadQueue()["Data"]
+                data = None
                 if raw_list:
+                    self.foundinQueue = False
                     for element in raw_list:
-                        if element["id"] == itemId:
+                        if int(element["id"]) == int(itemId):
                             data = element
-                        else:
-                            print(
-                                f"item with id of {item["id"]} doesn't have any property or data in queue.json")
-                            data = None
+                            self.foundinQueue = True
+                            break
+                    if self.foundinQueue:
+                        print(" item has been fount in Queue.json")
+                    else:
+                        print(
+                            f"item with id of {item["id"]} doesn't have any property or data in queue.json")
+                    self.foundinQueue = False
                     if data:
                         if (self.gemini_active and target == "none") or target == "external":
                             while self.gemini_inprocess:
@@ -85,7 +91,7 @@ class Analyze():
                                     item["local model"] = "pending"
                                     self.localPending.append(item["id"])
                                     self.saveStatus(self.status)
-                                    self.addtoLocal(data)
+                                    self.addtoLocal(data, itemId)
 
                                 else:
                                     print("local AI was not active")
@@ -96,16 +102,28 @@ class Analyze():
                             if item["id"] not in self.localPending:
                                 self.localPending.append(item["id"])
                             self.saveStatus(self.status)
-                            self.addtoLocal(data)
+                            self.addtoLocal(data, itemId)
 
                         else:
                             print("Nither local Ai or External Ai Are Active")
                 else:
                     print("there are no item in Queue.json's Data list")
-            #elif item["status"] == "pending":
-              #  if not self.privateLoopWating:
-               #     self.privateLoopWating = True
-                #    self.createPrivateLoop()
+            elif item["status"] == "pending":
+                print(
+                    f"The analysis of **item {item["id"]}** was interrupted, so it has been returned to the processing queue.")
+                localList = self.checkOutList()
+                if item["id"] in localList:
+                    if not self.privateLoopWating:
+                        self.privateLoopWating = True
+                        self.createPrivateLoop()
+                else:
+                    del self.localPending[self.localPending.index(item["id"])]
+                    item["status"] = "failed"
+                    for s in ["external model", "local model"]:
+                        if item[s] == "pending":
+                            item[s] = "failed"
+                    self.saveStatus(self.status)
+                    self.manage()
 
     def checkLocalOutput(self):
         last_data = self.readOutput()
@@ -119,7 +137,7 @@ class Analyze():
                     print(response)
                     cnt = 0
                     for it in response:
-                        new_item  = response[it]
+                        new_item = response[it]
                         new_item["id"] = cnt
                         if new_item["category"] == "Economy":
                             new_item["image"] = (
@@ -145,7 +163,7 @@ class Analyze():
                         new_list.append(new_item)
                         cnt += 1
                     cnt = 0
-                        
+
                     lastResult = system.vgsy.Navread("LastAnalyze")
                     lastResult["newsData"][:] = new_list
                     with open(os.path.join(Navpath, "LastAnalyze.json"), 'w', encoding='utf-8') as file:
@@ -180,6 +198,15 @@ class Analyze():
         self.waitingForLocal = False
         self.privateLoopWating = False
         print("stopped searching for local output data")
+
+    def checkOutList(self, name="news"):
+        try:
+            with open(os.path.join(OutPutPath, f"{name}.json"), 'r', encoding='utf-8') as file:
+                data = json.load(file)
+                result = data["list"]
+                return (result)
+        except:
+            print(f"{name}.json is not where it sould be at {OutPutPath}")
 
     def readOutput(self, name='news'):
         try:
@@ -278,26 +305,33 @@ class Analyze():
         except Exception as e:
             print(f"there was an error while saving the Status.json : {e}")
 
-    def addtoLocal(self, data, name="news"):
-        print("going for local ")
-        try:
-            with open(os.path.join(InputPath, f"{name}.json"), 'r', encoding='utf-8') as file:
-                last_data = json.load(file)
-                last_data["Data"].append(data)
-                with open(os.path.join(InputPath, f"{name}.json"), 'w', encoding='utf-8') as file:
-                    json.dump(last_data, file, indent=4, ensure_ascii=False)
-        except:
-            print(f"{name}.json is not where it sould be at {InputPath}")
-
-        if self.snailActive:
-            self.waitingForLocal = True
-            print("Snail: checking the local output")
+    def addtoLocal(self, data, id, name="news"):
+        localoutput = self.readOutput()
+        if id in localoutput:
+            print("")
+            self.checkLocalOutput()
         else:
-            print(f"item with id of ({data["id"]}) has been sent to Local AI")
-            self.privateLoopWating = True
-            self.createPrivateLoop()
+            print("going for local ")
+            try:
+                with open(os.path.join(InputPath, f"{name}.json"), 'r', encoding='utf-8') as file:
+                    last_data = json.load(file)
+                    last_data["Data"].append(data)
+                    with open(os.path.join(InputPath, f"{name}.json"), 'w', encoding='utf-8') as file:
+                        json.dump(last_data, file, indent=4,
+                                  ensure_ascii=False)
+            except:
+                print(f"{name}.json is not where it sould be at {InputPath}")
 
-    # /home/alireza/PYTHON/Ecovision/services/Local_AI_Models/InputData/news.json
+            if self.snailActive:
+                self.waitingForLocal = True
+                print("Snail: checking the local output")
+            else:
+                print(
+                    f"item with id of ({data["id"]}) has been sent to Local AI")
+                self.privateLoopWating = True
+                self.createPrivateLoop()
+
+        # /home/alireza/PYTHON/Ecovision/services/Local_AI_Models/InputData/news.json
 
     def createPrivateLoop(self):
         print("snail was not active; creating a private loop for getting local output")

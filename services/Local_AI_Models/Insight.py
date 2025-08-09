@@ -23,7 +23,7 @@ class Core():
         })
         self.active = True
         self.list = []
-        self.saveList()
+        self.saveList(self.list)
     
     def checkInput(self,name='news'):
         try:

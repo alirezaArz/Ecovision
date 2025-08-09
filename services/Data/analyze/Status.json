@@ -4,9 +4,12 @@
         957678748,
         384765421,
         260164917,
-        841966315
+        841966315,
+        311873580
     ],
-    "localPending": [],
+    "localPending": [
+        311873580
+    ],
     "Status": [
         {
             "id": 522816757,
@@ -42,6 +45,15 @@
             "commander": "Admin",
             "external model": "undefined",
             "local model": "verified"
+        },
+        {
+            "id": 311873580,
+            "modifier": "bloomberg",
+            "status": "pending",
+            "modified date": "2025-08-08 20:02:03",
+            "commander": "Admin",
+            "external model": "undefined",
+            "local model": "pending"
         }
     ]
 }

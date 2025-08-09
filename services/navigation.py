@@ -44,9 +44,9 @@ class Nav():
             if timenow - a > timedelta(days=3):
                 self.tobedeleted.append(newsdic)
 
-        for cy in [['High', 'high'], ['Medium','medium'],['Low', 'low']]:
+        for cy in ['high','medium','low']:
             for willdelete in self.tobedeleted:
-                if willdelete["importance"] == (cy[0] or cy[1]):
+                if (willdelete["importance"]).lower() == cy:
                     if len(self.lastdata["newsData"]) > 2:
                         if willdelete in self.lastdata["newsData"]:
                             self.lastdata["newsData"].remove(willdelete)
@@ -90,7 +90,7 @@ class Nav():
         self.output()
 
     def output(self):
-        self.importance = [['High', 'high'], ['Medium','medium'],['Low', 'low']]
+        self.importance = ['high','medium','low']
         self.apnd_count = 0
         self.lastOutPut = self.Navread("SnOutput")
         self.newOutPut = []
@@ -99,7 +99,7 @@ class Nav():
             adding_item = self.Navread(item)
             for imp in self.importance:
                 for state in reversed(adding_item["newsData"]):
-                    if state["importance"] == (imp[0] or imp[1]):
+                    if (state["importance"]).lower() == imp:
                         state["id"] = self.apnd_count
                         self.newOutPut.append(state)
                         self.apnd_count += 1
