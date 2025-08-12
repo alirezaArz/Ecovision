@@ -4,3 +4,6 @@ model.json
 env/
 temp/
 __pycache__/
+dist/
+out/
+/home/alireza/PYTHON/Ecovision/Ecovision/frontend/dist
