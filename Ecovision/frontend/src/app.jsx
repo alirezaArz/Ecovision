@@ -22,10 +22,12 @@ class App extends Component {
     Promise.all([
       fetch('http://127.0.0.1:8000/news/').then(res => {
         if (!res.ok) throw new Error(`News API Error: ${res.status} ${res.statusText}`);
+        console.log('Fetching news from:', 'http://127.0.0.1:8000/news/');
         return res.json();
       }),
       fetch('http://127.0.0.1:8000/crypto/').then(res => {
         if (!res.ok) throw new Error(`Crypto API Error: ${res.status} ${res.statusText}`);
+        console.log('Fetching news from:', 'http://127.0.0.1:8000/crypto/');
         return res.json();
       })
     ])
@@ -47,6 +49,7 @@ class App extends Component {
     })
     .catch(error => {
       console.error("Error fetching data:", error);
+      alert("خطا در ارتباط با سرور: " + error.message);
       this.setState({ error: error.message, isLoading: false });
     });
   }
