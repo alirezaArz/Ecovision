@@ -27,11 +27,11 @@
     "active": true,
     "targets": "all",
     "icon": [
-      "icons/32x32.png",
-      "icons/128x128.png",
-      "icons/128x128@2x.png",
+      "icons/ecovision_32x32.png",
+      "icons/ecovision_128x128.png",
+      "icons/ecovision_128x128.png",
       "icons/icon.icns",
-      "icons/icon.ico"
+      "icons/ecovision.ico"
     ]
   }
 }
