@@ -1,4 +1,4 @@
-import google.generativeai as genai
+from google import genai
 import json
 import os
 #  run this command     pip install -q -U google-genai     then...
@@ -21,8 +21,9 @@ def analyze(data: str):
             "remember, these are the only categories that you can assign, and each answer can only have one category: [Economy, Finance, Markets, Investing, Technology, Science]"
 '''
         )
-        #print("gemini response: ", response)
-        return response
+        
+        print("gemini response: ", response.text)
+        return [response, response.text]
 
     except Exception as e:
         print(f"couldn't get accessed to the gemini, check your network and try again: {e}")

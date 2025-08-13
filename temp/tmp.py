@@ -1,144 +1,103 @@
-sdk_http_response=HttpResponse(
-  headers=<dict len=11>
-) candidates=[Candidate(
-  avg_logprobs=-0.034773110291227656,
-  content=Content(
-    parts=[
-      Part(
-        text="""```json
+import json
+from datetime import datetime
+import re
+
+data =['''   ```json
 {
   "0": {
-    "title": "آخرین مهلت تعیین تکلیف درخواست های صدور مجوز",
-    "summary": "سوم شهریور ماه، آخرین مهلت تعیین تکلیف درخواست های صدور مجوز مواجه با تأخیر، قبل از آغاز دور جدید صدور خودکار مجوزهای معطل مانده، اعلام شده است.",
+    "title": "Small Businesses Brace for the Punishing Side Effects of Trump’s Tariffs",
+    "summary": "Large firms with big bank balances, workers already in jobs and households near the top of the income ladder will have an easier time navigating the economic waves.",
+    "category": "Economy",
+    "importance": "High"
+  },
+  "1": {
+    "title": "Car Companies Are Paying Tariffs So You Don’t Have To",
+    "summary": "But automakers can’t absorb the cost forever and will soon begin to raise new car prices, analysts say.",
     "category": "Economy",
     "importance": "Medium"
   },
-  "1": {
-    "title": "حذف چهار صفر از پول ملی و تغییر واحد رسمی به تومان",
-    "summary": "رئیس کل بانک مرکزی از اجرای طرح حذف چهار صفر از پول ملی و تغییر واحد رسمی به «تومان» با واحد خرد «قِران» خبر داد.",
-    "category": "Finance",
-    "importance": "High"
-  },
-  "2": {
-    "title": "راه اندازی تالار دوم بازار ارز تجاری",
-    "summary": "بانک مرکزی به زودی «تالار دوم بازار ارز تجاری» را در مرکز مبادله ایران راه اندازی می کند. هدف اصلی، حل مشکلات صادرکنندگان خرد و تسهیل بازگشت ارز صادراتی به کشور اعلام شده است.",
-    "category": "Finance",
-    "importance": "High"
-  },
-  "3": {
-    "title": "عملکرد مصوبه مولدسازی دارایی های مازاد دولت",
-    "summary": "مرکز پژوهش های مجلس عملکرد مصوبه مولدسازی دارایی های مازاد دولت را بررسی کرده است. از ۲۹۷۰ ملک مصوب، فقط ۲۷درصد به مرحله اخذ مجوز تعیین قیمت یا مزایده رسیده و ارزش کل فروش، معاوضه و تهاتر طی دو سال، حدود ۲ هزار میلیارد تومان معادل ۳درصد ارزش بالقوه این املاک بوده است.",
+  "4": {
+    "title": "New Tariff on ‘Transshipped’ Goods Mystifies Importers",
+    "summary": "The Trump administration levied a hefty tariff on goods that are moved through other countries, but it has not yet fully explained its plans.",
     "category": "Economy",
     "importance": "Medium"
   },
   "7": {
-    "title": "استفاده از سپرده های ارزی به عنوان وثیقه تسهیلات",
-    "summary": "سپرده های ارزی اشخاص می تواند به عنوان وثیقه تسهیلات اعطائی جهت تأمین سرمایه ثابت و در گردش واحدهای تولیدی استفاده شوند.",
-    "category": "Finance",
-    "importance": "Medium"
+    "title": "Swiss Businesses Fear Being ‘Annihilated’ by One of the World’s Highest Tariffs",
+    "summary": "Goods shipped from the country face a 39 percent tariff in the U.S., which companies warn will have dire consequences if President Trump cannot be quickly dissuaded.",
+    "category": "Economy",
+    "importance": "High"
   },
   "8": {
-    "title": "مذاکره ایران با FATF",
-    "summary": "پس از تصویب مشروط لایحه پالرمو در مجمع تشخیص مصلحت نظام و دعوت FATF از رئیس مرکز اطلاعات مالی ایران برای مذاکره حضوری، بحث های مختلفی در این زمینه به وجود آمده است.  موفقیت در این مسیر مستلزم اصلاح قوانین داخلی، تقویت نهادهای مالی و همکاری بین دستگاه هایی مانند بانک مرکزی، وزارت اقتصاد و قوه قضائیه با هدف کاهش هزینه های اقتصادی است.",
-    "category": "Finance",
-    "importance": "High"
-  },
-  "12": {
-    "title": "افزایش نرخ فقر در شرایط رکود تورمی",
-    "summary": "وزیر تعاون، کار و رفاه اجتماعی در پاسخ به پرسش خبرنگار روزنامه «دنیای اقتصاد»، مبنی بر چرایی افزایش نرخ فقر با وجود افزایش اعتبارات حمایتی گفت: «ما در شرایط رکود تورمی به سر می بریم. تورم باعث فقر می شود و بودجه های حمایتی در واقع بخشی از این مشکل را حل می کند و جلوی تشدید شدن آن را می گیرد. اما برای آنکه ما بتوانیم این روند را بهبود ببخشیم، باید وضعیت اقتصاد کلان تغییر کند.»",
+    "title": "Here’s What Could Get More Expensive Under Trump’s Tariffs",
+    "summary": "The tariffs are driving up prices on everyday goods as businesses warn they can no longer absorb costs, leaving consumers to foot the bill.",
     "category": "Economy",
     "importance": "High"
   },
-  "13": {
-    "title": "اولویت مسائل اقتصادی از دیدگاه مردم",
-    "summary": "نتایج نظرسنجی «دنیای اقتصاد» در فضای مجازی حاکی از آن است که حل مسائل اقتصادی مهم ترین درخواست مردم از دولت است.  ۸۹درصد میزان موافقت خود با سیاست های اقتصادی دولت را «کم» یا «خیلی کم» ارزیابی کرده اند. ۷۲درصد شرکت کنندگان نیز از عملکرد کلی دولت چهاردهم در سال اول، «ناراضی» یا «بسیار ناراضی» هستند.",
+  "9": {
+    "title": "Effect of U.S. Tariffs on British Companies Is ‘Milder Than Feared,’ Central Bank Says",
+    "summary": "Britain’s economy is driven by domestic factors more than global ones right now, the governor of the Bank of England said on Thursday, when the central bank cut interest rates.",
     "category": "Economy",
-    "importance": "High"
+    "importance": "Medium"
+  },
+  "10": {
+    "title": "Stocks End Mixed, as Investors Take Steeper Tariffs in Stride",
+    "summary": "The S&P 500 ended the day 0.1 percent lower, a muted move compared to the upheaval when tariffs were first announced in early April.",
+    "category": "Markets",
+    "importance": "Medium"
+  },
+  "11": {
+    "title": "Southeast Asia Looks for Clarity From U.S. on ‘Rules of Origin’",
+    "summary": "Thailand, Vietnam and other countries in the region face much higher tariffs on exports with Chinese-made components. But questions remain on how the U.S. defines a locally made product.",
+    "category": "Economy",
+    "importance": "Medium"
   },
   "14": {
-    "title": "راه اندازی درگاه حذف حساب های مازاد",
-    "summary": "بانک مرکزی قرار است درگاه حذف حساب های مازاد را راه اندازی کند.  اصلاحات سیاستی در جریان صدور حساب های انبوه بانکی می تواند از انباشت حساب های بانکی جلوگیری کند.",
-    "category": "Finance",
+    "title": "China’s Exports Surged Again in July, but Not to America",
+    "summary": "China is shipping more goods to Southeast Asia and other regions that often re-export them to the United States. China still sells three times as much to the United States as it buys.",
+    "category": "Economy",
     "importance": "Medium"
   },
   "15": {
-    "title": "تاثیر خروج از لیست سیاه FATF بر اقتصاد ایران",
-    "summary": "جعفر قادری، رئیس کمیسیون ویژه حمایت از تولید مجلس شورای اسلامی، با اشاره به تصویب کنوانسیون پالرمو و دعوت رسمی ایران به مذاکرات FATF این اقدام را گامی موثر در مراودات بین المللی ایران دانست و اعلام کرد که خروج از لیست سیاه FATF می تواند تاثیر قابل توجهی بر اقتصاد ایران داشته باشد.",
+    "title": "Staggering U.S. Tariffs Begin as Trump Widens Trade War",
+    "summary": "The duties, which the president announced last week, took effect for about 90 countries just after midnight.",
     "category": "Economy",
     "importance": "High"
   },
-  "18": {
-    "title": "افزایش سهم مدارس غیردولتی در ایران",
-    "summary": "در ایران سهم دانش آموزان مدارس غیردولتی در کشور از حدود ۱۱درصد در سال تحصیلی ۱۳۹۶-۱۳۹۵ به ۱۵درصد در سال جاری رسیده است؛ رقمی بالاتر از ایالات متحده (۹درصد) و بریتانیا (۶.۵درصد).  افت کیفیت آموزش دولتی، تراکم بالای دانش آموزان در کلاس ها، ضعف در امنیت فرهنگی و تربیتی و ناتوانی در پوشش مهارت های مورد نیاز، خانواده ها را به سمت پرداخت شهریه های سنگین مدارس خصوصی سوق داده است.",
+  "17": {
+    "title": "Trump to Double India’s Tariff as Punishment for Buying Russian Oil",
+    "summary": "Tariffs on Indian exports to the United States will surge to 50 percent by late August, as part of an effort by President Trump to pressure Russia into resolving its war in Ukraine.",
     "category": "Economy",
     "importance": "Medium"
   },
-  "20": {
-    "title": "تعرفه های جدید ایالات متحده بر واردات شمش طلا",
-    "summary": "ایالات متحده به تازگی تصمیم گرفته است که بر واردات شمش های طلای یک کیلوگرمی و ۱۰۰ اونسی، تعرفه های جدیدی اعمال کند؛ اقدامی که می تواند بازار جهانی طلا را دچار آشفتگی کند و به صنعت پالایش طلای سوئیس که بزرگ ترین مرکز تصفیه طلا در جهان است، ضربه بزرگی بزند.",
-    "category": "Markets",
-    "importance": "Medium"
-  },
-    "22": {
-    "title": "دعوت رسمی FATF از رئیس مرکز اطلاعات مالی ایران",
-    "summary": "در روزهای گذشته خبری مبنی بر دعوت رسمی FATF از رئیس مرکز اطلاعات مالی ایران به منظور بررسی وضعیت ایران در زمینه مبارزه با پول شویی منتشر شد. ایران در دیدار با گروه ویژه اقدام مالی در مادرید، درباره تصویب لایحه پالرمو و اقدامات خود در زمینه مبارزه با پول شویی و لایحه CFT توضیحاتی ارائه خواهد داد.",
-    "category": "Finance",
-    "importance": "High"
-  },
-    "23": {
-    "title": "تاثیر تصویب قانون پالرمو و گشایش‌های FATF بر توسعه اقتصادی",
-    "summary": "علی مدنی زاده، وزیر امور اقتصادی و دارایی اعلام کرد که با تصویب قانون پالرمو و گشایش های اخیر در زمینه FATF، گره های مهمی گشوده شده که مسیر توسعه اقتصادی کشور را هموارتر خواهد کرد. بررسی ها نشان می دهد که خروج ایران از لیست سیاه، راه را برای جهش رشد اقتصادی هموار می سازد.",
+  "19": {
+    "title": "U.S. Imports Slid in June on Higher Tariffs",
+    "summary": "Imports from other countries fell around 4 percent from the previous month as President Trump’s steep tariffs discouraged businesses from ordering goods.",
     "category": "Economy",
-    "importance": "High"
-  },
-  "24": {
-    "title": "فرمان اجرایی کاخ سفید در مورد تعرفه های گمرکی شمش طلا",
-    "summary": "کاخ سفید قصد دارد فرمانی اجرایی صادر کند تا موضع ایالات متحده در مورد تعرفه های گمرکی بر شمش های طلا را روشن کند.  این تصمیم پس از آن گرفته شد که اداره گمرک و حفاظت مرزی آمریکا اعلام کرد شمش های طلای یک کیلوگرمی و ۱۰۰اونسی مشمول تعرفه های گمرکی هستند، خبری که بازار جهانی طلا را شوکه کرد.",
-    "category": "Markets",
-    "importance": "Medium"
-  },
-  "27": {
-    "title": "ضرورت جذب سرمایه گذاری مردمی و بخش خصوصی",
-    "summary": "با توجه به چشم انداز مبهم منابع سنتی تامین مالی، ضرورت حرکت به سوی جذب سرمایه گذاری های مردمی و بخش خصوصی بیش از هر زمان دیگری احساس می شود. تداوم اتکا به منابع دولتی دیگر پاسخگوی نیازهای زیرساختی کشور نیست.",
-    "category": "Investing",
-    "importance": "Medium"
-  },
-  "28": {
-    "title": "دشواری دسترسی به وام های خرد در ایران",
-    "summary": "دسترسی به وام های خرد در ایران به دلیل بوروکراسی پیچیده، وثیقه های سنگین و ارزیابی های سخت گیرانه دشوار شده است. در این میان گرچه لندتک ها و پلتفرم های وام دهی با ارائه تسهیلات کالایی و اعتبارسنجی ساده تر به گزینه ای جذاب برای متقاضیان تبدیل شده اند، اما همچنان نیاز به اصلاحات بانکی احساس می شود.",
-    "category": "Finance",
-    "importance": "Medium"
-  },
-  "29": {
-    "title": "کاهش ارزش پزوی آرژانتین",
-    "summary": "در ماه ژوئیه، ارزش پزوی آرژانتین در مقابل دلار بیش از ۱۲درصد کاهش یافت که بیشترین کاهش ارزش پول این کشور از زمان روی کار آمدن خاویر میلی، رئیس جمهور این کشور بود.",
-    "category": "Finance",
     "importance": "Medium"
   }
 }
-```"""
-      ),
-    ],
-    role='model'
-  ),
-  finish_reason=<FinishReason.STOP: 'STOP'>
-)] create_time=None response_id=None model_version='gemini-2.0-flash' prompt_feedback=None usage_metadata=GenerateContentResponseUsageMetadata(
-  candidates_token_count=2266,
-  candidates_tokens_details=[
-    ModalityTokenCount(
-      modality=<MediaModality.TEXT: 'TEXT'>,
-      token_count=2266
-    ),
-  ],
-  prompt_token_count=3767,
-  prompt_tokens_details=[
-    ModalityTokenCount(
-      modality=<MediaModality.TEXT: 'TEXT'>,
-      token_count=3767
-    ),
-  ],
-  total_token_count=6033
-) automatic_function_calling_history=[] parsed=None
+```''', None]
 
-text_content = sdk_http_response[0].candidates[0].content.parts[0].text
-print(text_content)
+match = re.search(r'(\{.*\})', data[0], flags=re.DOTALL)
+json_str = match.group(1)
+jsdata = json.loads(json_str)
+    
+cnt = 0
+result = []
+for item in jsdata.values():
+  current_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+  outpt = {
+    "id": cnt,
+    "title": item["title"],
+    "summary": item["summary"],
+    "category": item["category"],
+    "importance":  item["importance"],
+    "date": current_date
+  }
+  result.append(outpt)
+  cnt += 1
+  
+print(result)
+  
+  

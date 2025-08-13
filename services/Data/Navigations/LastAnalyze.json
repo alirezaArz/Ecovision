@@ -2,156 +2,91 @@
     "newsData": [
         {
             "id": 0,
-            "title": "تعیین تکلیف درخواست های صدور مجوز",
-            "summary": "سوم شهریور آخرین مهلت تعیین تکلیف درخواست های صدور مجوز قبل از صدور خودکار مجوزهای معطل مانده اعلام شده است.",
-            "category": "Economy",
-            "image": "images/economy/im13.jpg",
+            "title": "Fed Search Continues With Private Sector Candidates",
+            "summary": "The search for candidates to fill positions at the Federal Reserve continues, with focus on individuals from the private sector.",
+            "category": "Finance",
             "importance": "Medium",
-            "date": "2025-08-13 20:42:07"
+            "date": "2025-08-13 21:49:22"
         },
         {
             "id": 1,
-            "title": "حذف چهار صفر از پول ملی",
-            "summary": "رئیس کل بانک مرکزی از اجرای طرح حذف چهار صفر از پول ملی و تغییر واحد رسمی به «تومان» با واحد خرد «قِران» خبر داد.",
+            "title": "Nigeria Gives Insurers a Year to Boost Capital Fivefold",
+            "summary": "Nigerian insurance companies have been given a year to increase their capital by fivefold.",
             "category": "Finance",
-            "image": "images/finance/im25.jpg",
-            "importance": "High",
-            "date": "2025-08-13 20:42:07"
+            "importance": "Medium",
+            "date": "2025-08-13 21:49:22"
         },
         {
             "id": 2,
-            "title": "راه اندازی تالار دوم بازار ارز تجاری",
-            "summary": "بانک مرکزی به زودی «تالار دوم بازار ارز تجاری» را در مرکز مبادله ایران راه اندازی می کند. هدف، حل مشکلات صادرکنندگان خرد و تسهیل بازگشت ارز صادراتی است. نرخ ارز بر اساس عرضه و تقاضا تعیین می شود.",
+            "title": "Bets on Outsize Fed Cut Gain Steam as CPI Data Backs Doves",
+            "summary": "Expectations for a significant interest rate cut by the Federal Reserve are increasing, supported by CPI data.",
             "category": "Finance",
-            "image": "images/finance/im18.jpg",
             "importance": "High",
-            "date": "2025-08-13 20:42:07"
+            "date": "2025-08-13 21:49:22"
         },
         {
             "id": 3,
-            "title": "عملکرد مصوبه مولدسازی دارایی های مازاد دولت",
-            "summary": "بررسی مرکز پژوهش های مجلس نشان می دهد از ۲۹۷۰ ملک مصوب، فقط ۲۷درصد به مرحله اخذ مجوز تعیین قیمت یا مزایده رسیده و ارزش کل فروش، معاوضه و تهاتر حدود ۳درصد ارزش بالقوه این املاک بوده است.",
-            "category": "Economy",
-            "image": "images/economy/im30.jpg",
+            "title": "FirstRand Sees Opportunity in Kenya as Capital Rules Tighten",
+            "summary": "FirstRand bank identifies an opportunity in the Kenyan market due to stricter capital regulations.",
+            "category": "Finance",
             "importance": "Medium",
-            "date": "2025-08-13 20:42:07"
+            "date": "2025-08-13 21:49:22"
+        },
+        {
+            "id": 4,
+            "title": "US Stock Rally Masks Traders’ Nagging Tariff Concerns, Survey Show",
+            "summary": "Despite a rally in US stocks, a survey indicates that traders are still concerned about tariffs.",
+            "category": "Markets",
+            "importance": "Medium",
+            "date": "2025-08-13 21:49:22"
+        },
+        {
+            "id": 5,
+            "title": "Brazil Retail Sales Slip Again, Signaling Economy Is Cooling Off",
+            "summary": "Retail sales in Brazil continue to decline, suggesting a slowdown in the Brazilian economy.",
+            "category": "Economy",
+            "importance": "Medium",
+            "date": "2025-08-13 21:49:22"
+        },
+        {
+            "id": 6,
+            "title": "Brazil Court Eases Way for Telecom Firm Oi to Seek Chapter 11",
+            "summary": "A Brazilian court has made it easier for the telecom company Oi to file for Chapter 11 bankruptcy.",
+            "category": "Finance",
+            "importance": "Medium",
+            "date": "2025-08-13 21:49:22"
         },
         {
             "id": 7,
-            "title": "استفاده از سپرده های ارزی به عنوان وثیقه تسهیلات",
-            "summary": "سپرده های ارزی اشخاص می تواند به عنوان وثیقه تسهیلات اعطائی جهت تأمین سرمایه ثابت و در گردش واحدهای تولیدی استفاده شوند.",
-            "category": "Finance",
-            "image": "images/finance/im10.jpg",
+            "title": "Poland Inks $3.8 Billion Deal to Update F16 Jets in Defense Push",
+            "summary": "Poland has signed a $3.8 billion deal to upgrade its F16 jets.",
+            "category": "Technology",
             "importance": "Medium",
-            "date": "2025-08-13 20:42:07"
+            "date": "2025-08-13 21:49:22"
         },
         {
             "id": 8,
-            "title": "بحث های FATF و پالرمو",
-            "summary": "پس از تصویب مشروط لایحه پالرمو و دعوت FATF از رئیس مرکز اطلاعات مالی ایران برای مذاکره حضوری، بحث های مختلفی در این زمینه به وجود آمده است. این موضوع نیازمند اصلاح قوانین داخلی، تقویت نهادهای مالی و همکاری بین دستگاه ها است.",
+            "title": "Russia Offers Classes for Handling Drone Hits at Energy Sites",
+            "summary": "Russia is offering classes on how to handle drone strikes at energy facilities.",
+            "category": "Technology",
+            "importance": "Medium",
+            "date": "2025-08-13 21:49:22"
+        },
+        {
+            "id": 9,
+            "title": "Saudi Wealth Fund’s Assets Under Management Jump, Returns Dip",
+            "summary": "The Saudi wealth fund's assets under management have increased, but returns have decreased.",
             "category": "Finance",
-            "image": "images/finance/im27.jpg",
-            "importance": "High",
-            "date": "2025-08-13 20:42:07"
+            "importance": "Medium",
+            "date": "2025-08-13 21:49:22"
         },
         {
-            "id": 12,
-            "title": "افزایش نرخ فقر در شرایط رکود تورمی",
-            "summary": "وزیر تعاون، کار و رفاه اجتماعی در پاسخ به چرایی افزایش نرخ فقر با وجود افزایش اعتبارات حمایتی گفت: «ما در شرایط رکود تورمی به سر می بریم. تورم در یک دهه گذشته، نسبت به دوره های گذشته بسیار بالاتر بوده است. این تورم باعث فقر می شود و بودجه های حمایتی در واقع بخشی از این مشکل را حل می کند و جلوی تشدید شدن آن را می گیرد.",
+            "id": 10,
+            "title": "OPEC+ Reshaped the Calculus for Oil Markets and Spawned a Record Glut",
+            "summary": "OPEC+ actions have altered the dynamics of oil markets, leading to a record surplus.",
             "category": "Economy",
-            "image": "images/economy/im22.jpg",
             "importance": "Medium",
-            "date": "2025-08-13 20:42:07"
-        },
-        {
-            "id": 13,
-            "title": "اولویت مسائل اقتصادی از نگاه مردم",
-            "summary": "نظرسنجی «دنیای اقتصاد» نشان می دهد که حل مسائل اقتصادی مهم ترین درخواست مردم از دولت است. ۸۹درصد میزان موافقت خود با سیاست های اقتصادی دولت را «کم» یا «خیلی کم» ارزیابی کرده اند.",
-            "category": "Economy",
-            "image": "images/economy/im3.jpg",
-            "importance": "High",
-            "date": "2025-08-13 20:42:07"
-        },
-        {
-            "id": 14,
-            "title": "راه اندازی درگاه حذف حساب های مازاد",
-            "summary": "بانک مرکزی قرار است درگاه حذف حساب های مازاد را راه اندازی کند. به نظر می رسد اقدام مهم تر، اصلاحات سیاستی در جریان صدور حساب های انبوه بانکی است.",
-            "category": "Finance",
-            "image": "images/finance/im21.jpg",
-            "importance": "Medium",
-            "date": "2025-08-13 20:42:07"
-        },
-        {
-            "id": 15,
-            "title": "تاثیر پیوستن به FATF بر اقتصاد ایران",
-            "summary": "رئیس کمیسیون ویژه حمایت از تولید مجلس شورای اسلامی اعلام کرد که خروج از لیست سیاه FATF می تواند تاثیر قابل توجهی بر اقتصاد ایران داشته باشد.",
-            "category": "Economy",
-            "image": "images/economy/im14.jpg",
-            "importance": "High",
-            "date": "2025-08-13 20:42:07"
-        },
-        {
-            "id": 18,
-            "title": "افزایش سهم مدارس غیردولتی",
-            "summary": "سهم دانش آموزان مدارس غیردولتی در کشور از حدود ۱۱درصد در سال تحصیلی ۱۳۹۶-۱۳۹۵ به ۱۵درصد در سال جاری رسیده است. افت کیفیت آموزش دولتی، تراکم بالای دانش آموزان در کلاس ها و ضعف در امنیت فرهنگی و تربیتی از دلایل این موضوع است.",
-            "category": "Economy",
-            "image": "images/economy/im12.jpg",
-            "importance": "Medium",
-            "date": "2025-08-13 20:42:07"
-        },
-        {
-            "id": 20,
-            "title": "تعرفه جدید واردات شمش طلا در آمریکا",
-            "summary": "ایالات متحده تصمیم گرفته است بر واردات شمش های طلای یک کیلوگرمی و ۱۰۰ اونسی، تعرفه های جدیدی اعمال کند که می تواند بازار جهانی طلا را دچار آشفتگی کند.",
-            "category": "Markets",
-            "image": "images/markets/im23.jpg",
-            "importance": "Medium",
-            "date": "2025-08-13 20:42:07"
-        },
-        {
-            "id": 22,
-            "title": "دعوت FATF از ایران",
-            "summary": "خبری مبنی بر دعوت رسمی FATF از رئیس مرکز اطلاعات مالی ایران به منظور بررسی وضعیت ایران در زمینه مبارزه با پول شویی منتشر شد. ایران در دیدار با گروه ویژه اقدام مالی در مادرید، درباره تصویب لایحه پالرمو و اقدامات خود در زمینه مبارزه با پول شویی و لایحه CFT توضیحاتی ارائه خواهد داد.",
-            "category": "Finance",
-            "image": "images/finance/im17.jpg",
-            "importance": "High",
-            "date": "2025-08-13 20:42:07"
-        },
-        {
-            "id": 23,
-            "title": "تصویب قانون پالرمو و تاثیر آن بر توسعه اقتصادی",
-            "summary": "علی مدنی زاده، وزیر امور اقتصادی و دارایی اعلام کرد که با تصویب قانون پالرمو و گشایش های اخیر در زمینه FATF، گره های مهمی گشوده شده که مسیر توسعه اقتصادی کشور را هموارتر خواهد کرد.",
-            "category": "Economy",
-            "image": "images/economy/im8.jpg",
-            "importance": "High",
-            "date": "2025-08-13 20:42:07"
-        },
-        {
-            "id": 27,
-            "title": "جذب سرمایه گذاری های مردمی و بخش خصوصی",
-            "summary": "با توجه به چشم انداز مبهم منابع سنتی تامین مالی، ضرورت حرکت به سوی جذب سرمایه گذاری های مردمی و بخش خصوصی بیش از هر زمان دیگری احساس می شود.",
-            "category": "Investing",
-            "image": "images/investing/im15.jpg",
-            "importance": "Medium",
-            "date": "2025-08-13 20:42:07"
-        },
-        {
-            "id": 28,
-            "title": "دسترسی به وام های خرد",
-            "summary": "دسترسی به وام های خرد در ایران به دلیل بوروکراسی پیچیده، وثیقه های سنگین و ارزیابی های سخت گیرانه دشوار شده است. ",
-            "category": "Finance",
-            "image": "images/finance/im25.jpg",
-            "importance": "Medium",
-            "date": "2025-08-13 20:42:07"
-        },
-        {
-            "id": 29,
-            "title": "کاهش ارزش پزوی آرژانتین",
-            "summary": "در ماه ژوئیه، ارزش پزوی آرژانتین در مقابل دلار بیش از ۱۲درصد کاهش یافت که بیشترین کاهش ارزش پول این کشور از زمان روی کار آمدن خاویر میلی، رئیس جمهور این کشور بود.",
-            "category": "Markets",
-            "image": "images/markets/im3.jpg",
-            "importance": "Medium",
-            "date": "2025-08-13 20:42:07"
+            "date": "2025-08-13 21:49:22"
         }
     ]
 }

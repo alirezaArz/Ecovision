@@ -302,7 +302,7 @@ class Analyze():
             last_data["localPending"] = self.localPending
             with open(os.path.join(QueuePath, "Status.json"), 'w', encoding='utf-8') as file:
                 json.dump(last_data, file, indent=4, ensure_ascii=False)
-            print("Status saved")
+            #print("Status saved")
         except Exception as e:
             print(f"there was an error while saving the Status.json : {e}")
 
@@ -348,7 +348,7 @@ class Analyze():
             print("data has been sent to External AI")
             self.result = gemini.analyze(data)
             if self.result != None:
-                extract.ex.geminiMx1(self.result)
+                extract.ex.extract(self.result)
             else:
                 print(f"analyze failed canceled saving")
                 self.gemini_inprocess = False

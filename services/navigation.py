@@ -107,7 +107,7 @@ class Nav():
         self.lastOutPut["newsData"][:] = self.newOutPut
         with open(os.path.join(Navpath, "SnOutput.json"), 'w', encoding='utf-8') as file:
             json.dump(self.lastOutPut, file, indent=4, ensure_ascii=False)
-        print("output ready")
+        #print("output ready")
 
     def OpRead(self, id):
         # reading the items file for each opinions

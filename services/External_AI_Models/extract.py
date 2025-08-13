@@ -4,7 +4,6 @@ import random
 import sys
 import time
 from datetime import datetime
-from datetime import datetime
 import re
 from services import systems as system
 from services import navigation as navigation
@@ -20,6 +19,41 @@ Navpath = os.path.join(project_root, 'Data', 'Navigations')
 class Extract():
     def __init__(self):
         pass
+    
+    
+    def extract(self, data):
+        try:
+            match = re.search(r'(\{.*\})', data[1], flags=re.DOTALL)
+            json_str = match.group(1)
+            jsdata = json.loads(json_str)
+            
+            cnt = 0
+            result = []
+            for item in jsdata.values():
+                current_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                outpt = {
+                    "id": cnt,
+                    "title": item["title"],
+                    "summary": item["summary"],
+                    "category": item["category"],
+                    "importance":  item["importance"],
+                    "date": current_date
+                }
+                result.append(outpt)
+                cnt += 1
+                
+            lastResult = system.vgsy.Navread("LastAnalyze")
+            lastResult["newsData"][:] = result
+            with open(os.path.join(Navpath, "LastAnalyze.json"), 'w', encoding='utf-8') as file:
+                 json.dump(lastResult, file, indent=4, ensure_ascii=False)
+            
+            navigation.nav.separate()
+            print("LastAnalyze saved successfully")
+        except:
+            self.geminiMx1(data[0])
+        
+                    
+        
 
     def geminiMx1(self, data):
         try:
