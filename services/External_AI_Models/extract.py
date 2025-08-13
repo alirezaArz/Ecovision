@@ -47,8 +47,8 @@ class Extract():
             with open(os.path.join(Navpath, "LastAnalyze.json"), 'w', encoding='utf-8') as file:
                  json.dump(lastResult, file, indent=4, ensure_ascii=False)
             
-            navigation.nav.separate()
             print("LastAnalyze saved successfully")
+            navigation.nav.separate()
         except:
             self.geminiMx1(data[0])
         

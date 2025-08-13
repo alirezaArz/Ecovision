@@ -22,7 +22,7 @@ def analyze(data: str):
 '''
         )
         
-        print("gemini response: ", response.text)
+        #print("gemini response: ", response.text)
         return [response, response.text]
 
     except Exception as e:
