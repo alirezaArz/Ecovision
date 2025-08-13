@@ -44,10 +44,17 @@ INSTALLED_APPS = [
     'services',
 ]
 
+#CORS_ALLOW_ALL_ORIGINS = True
+
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "http://127.0.0.1:5173", 
+    "http://127.0.0.1:5173",
+    "http://localhost:8000",
+    "http://127.0.0.1:8000",
+    "tauri://localhost",
+    "file://",
 ]
+
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
@@ -66,10 +73,10 @@ ROOT_URLCONF = 'Ecovision.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        
+
         'DIRS': [os.path.join(BASE_DIR, 'templates'),
-            os.path.join(project_root,'services','Data' ,'markdowns','PriceOp', '.html')],
-        
+                 os.path.join(project_root, 'services', 'Data', 'markdowns', 'PriceOp', '.html')],
+
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
