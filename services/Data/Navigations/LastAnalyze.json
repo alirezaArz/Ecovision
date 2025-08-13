@@ -1,44 +1,157 @@
 {
     "newsData": [
         {
-            "title": "New Tariff on ‘Transshipped’ Goods Mystifies Importers",
-            "summary": "The Trump administration levied a hefty tariff on goods that are moved through other countries, but it has not yet fully explained its plans.",
-            "category": "Markets",
-            "importance": "High",
             "id": 0,
-            "image": "images/markets/im22.jpg"
-        },
-        {
-            "title": "‘A Loyalist Inside the Building’: Trump’s Temporary Fed Pick Could Have a Lasting Effect",
-            "summary": "Stephen I. Miran may spend only a few months on the central bank’s board of governors, but in that time he can influence the discussions around interest rates and who will become the institution’s next leader.",
+            "title": "تعیین تکلیف درخواست های صدور مجوز",
+            "summary": "سوم شهریور آخرین مهلت تعیین تکلیف درخواست های صدور مجوز قبل از صدور خودکار مجوزهای معطل مانده اعلام شده است.",
             "category": "Economy",
+            "image": "images/economy/im13.jpg",
             "importance": "Medium",
+            "date": "2025-08-13 20:42:07"
+        },
+        {
             "id": 1,
-            "image": "images/economy/im17.jpg"
-        },
-        {
-            "title": "Some safe-haven assets have soared against the U.S. dollar.",
-            "summary": "This was featured in live coverage.",
-            "category": "Markets",
-            "importance": "Low",
-            "id": 2,
-            "image": "images/markets/im22.jpg"
-        },
-        {
-            "title": "Swiss Businesses Fear Being ‘Annihilated’ by One of the World’s Highest Tariffs",
-            "summary": "Goods shipped from the country face a 39 percent tariff in the U.S., which companies warn will have dire consequences if President Trump cannot be quickly dissuaded.",
-            "category": "Markets",
-            "importance": "Medium",
-            "id": 3,
-            "image": "images/markets/im23.jpg"
-        },
-        {
-            "title": "Here’s What Could Get More Expensive Under Trump’s Tariffs",
-            "summary": "The tariffs are driving up prices on everyday goods as businesses warn they can no longer absorb costs, leaving consumers to foot the bill.",
-            "category": "Markets",
+            "title": "حذف چهار صفر از پول ملی",
+            "summary": "رئیس کل بانک مرکزی از اجرای طرح حذف چهار صفر از پول ملی و تغییر واحد رسمی به «تومان» با واحد خرد «قِران» خبر داد.",
+            "category": "Finance",
+            "image": "images/finance/im25.jpg",
             "importance": "High",
-            "id": 4,
-            "image": "images/markets/im9.jpg"
+            "date": "2025-08-13 20:42:07"
+        },
+        {
+            "id": 2,
+            "title": "راه اندازی تالار دوم بازار ارز تجاری",
+            "summary": "بانک مرکزی به زودی «تالار دوم بازار ارز تجاری» را در مرکز مبادله ایران راه اندازی می کند. هدف، حل مشکلات صادرکنندگان خرد و تسهیل بازگشت ارز صادراتی است. نرخ ارز بر اساس عرضه و تقاضا تعیین می شود.",
+            "category": "Finance",
+            "image": "images/finance/im18.jpg",
+            "importance": "High",
+            "date": "2025-08-13 20:42:07"
+        },
+        {
+            "id": 3,
+            "title": "عملکرد مصوبه مولدسازی دارایی های مازاد دولت",
+            "summary": "بررسی مرکز پژوهش های مجلس نشان می دهد از ۲۹۷۰ ملک مصوب، فقط ۲۷درصد به مرحله اخذ مجوز تعیین قیمت یا مزایده رسیده و ارزش کل فروش، معاوضه و تهاتر حدود ۳درصد ارزش بالقوه این املاک بوده است.",
+            "category": "Economy",
+            "image": "images/economy/im30.jpg",
+            "importance": "Medium",
+            "date": "2025-08-13 20:42:07"
+        },
+        {
+            "id": 7,
+            "title": "استفاده از سپرده های ارزی به عنوان وثیقه تسهیلات",
+            "summary": "سپرده های ارزی اشخاص می تواند به عنوان وثیقه تسهیلات اعطائی جهت تأمین سرمایه ثابت و در گردش واحدهای تولیدی استفاده شوند.",
+            "category": "Finance",
+            "image": "images/finance/im10.jpg",
+            "importance": "Medium",
+            "date": "2025-08-13 20:42:07"
+        },
+        {
+            "id": 8,
+            "title": "بحث های FATF و پالرمو",
+            "summary": "پس از تصویب مشروط لایحه پالرمو و دعوت FATF از رئیس مرکز اطلاعات مالی ایران برای مذاکره حضوری، بحث های مختلفی در این زمینه به وجود آمده است. این موضوع نیازمند اصلاح قوانین داخلی، تقویت نهادهای مالی و همکاری بین دستگاه ها است.",
+            "category": "Finance",
+            "image": "images/finance/im27.jpg",
+            "importance": "High",
+            "date": "2025-08-13 20:42:07"
+        },
+        {
+            "id": 12,
+            "title": "افزایش نرخ فقر در شرایط رکود تورمی",
+            "summary": "وزیر تعاون، کار و رفاه اجتماعی در پاسخ به چرایی افزایش نرخ فقر با وجود افزایش اعتبارات حمایتی گفت: «ما در شرایط رکود تورمی به سر می بریم. تورم در یک دهه گذشته، نسبت به دوره های گذشته بسیار بالاتر بوده است. این تورم باعث فقر می شود و بودجه های حمایتی در واقع بخشی از این مشکل را حل می کند و جلوی تشدید شدن آن را می گیرد.",
+            "category": "Economy",
+            "image": "images/economy/im22.jpg",
+            "importance": "Medium",
+            "date": "2025-08-13 20:42:07"
+        },
+        {
+            "id": 13,
+            "title": "اولویت مسائل اقتصادی از نگاه مردم",
+            "summary": "نظرسنجی «دنیای اقتصاد» نشان می دهد که حل مسائل اقتصادی مهم ترین درخواست مردم از دولت است. ۸۹درصد میزان موافقت خود با سیاست های اقتصادی دولت را «کم» یا «خیلی کم» ارزیابی کرده اند.",
+            "category": "Economy",
+            "image": "images/economy/im3.jpg",
+            "importance": "High",
+            "date": "2025-08-13 20:42:07"
+        },
+        {
+            "id": 14,
+            "title": "راه اندازی درگاه حذف حساب های مازاد",
+            "summary": "بانک مرکزی قرار است درگاه حذف حساب های مازاد را راه اندازی کند. به نظر می رسد اقدام مهم تر، اصلاحات سیاستی در جریان صدور حساب های انبوه بانکی است.",
+            "category": "Finance",
+            "image": "images/finance/im21.jpg",
+            "importance": "Medium",
+            "date": "2025-08-13 20:42:07"
+        },
+        {
+            "id": 15,
+            "title": "تاثیر پیوستن به FATF بر اقتصاد ایران",
+            "summary": "رئیس کمیسیون ویژه حمایت از تولید مجلس شورای اسلامی اعلام کرد که خروج از لیست سیاه FATF می تواند تاثیر قابل توجهی بر اقتصاد ایران داشته باشد.",
+            "category": "Economy",
+            "image": "images/economy/im14.jpg",
+            "importance": "High",
+            "date": "2025-08-13 20:42:07"
+        },
+        {
+            "id": 18,
+            "title": "افزایش سهم مدارس غیردولتی",
+            "summary": "سهم دانش آموزان مدارس غیردولتی در کشور از حدود ۱۱درصد در سال تحصیلی ۱۳۹۶-۱۳۹۵ به ۱۵درصد در سال جاری رسیده است. افت کیفیت آموزش دولتی، تراکم بالای دانش آموزان در کلاس ها و ضعف در امنیت فرهنگی و تربیتی از دلایل این موضوع است.",
+            "category": "Economy",
+            "image": "images/economy/im12.jpg",
+            "importance": "Medium",
+            "date": "2025-08-13 20:42:07"
+        },
+        {
+            "id": 20,
+            "title": "تعرفه جدید واردات شمش طلا در آمریکا",
+            "summary": "ایالات متحده تصمیم گرفته است بر واردات شمش های طلای یک کیلوگرمی و ۱۰۰ اونسی، تعرفه های جدیدی اعمال کند که می تواند بازار جهانی طلا را دچار آشفتگی کند.",
+            "category": "Markets",
+            "image": "images/markets/im23.jpg",
+            "importance": "Medium",
+            "date": "2025-08-13 20:42:07"
+        },
+        {
+            "id": 22,
+            "title": "دعوت FATF از ایران",
+            "summary": "خبری مبنی بر دعوت رسمی FATF از رئیس مرکز اطلاعات مالی ایران به منظور بررسی وضعیت ایران در زمینه مبارزه با پول شویی منتشر شد. ایران در دیدار با گروه ویژه اقدام مالی در مادرید، درباره تصویب لایحه پالرمو و اقدامات خود در زمینه مبارزه با پول شویی و لایحه CFT توضیحاتی ارائه خواهد داد.",
+            "category": "Finance",
+            "image": "images/finance/im17.jpg",
+            "importance": "High",
+            "date": "2025-08-13 20:42:07"
+        },
+        {
+            "id": 23,
+            "title": "تصویب قانون پالرمو و تاثیر آن بر توسعه اقتصادی",
+            "summary": "علی مدنی زاده، وزیر امور اقتصادی و دارایی اعلام کرد که با تصویب قانون پالرمو و گشایش های اخیر در زمینه FATF، گره های مهمی گشوده شده که مسیر توسعه اقتصادی کشور را هموارتر خواهد کرد.",
+            "category": "Economy",
+            "image": "images/economy/im8.jpg",
+            "importance": "High",
+            "date": "2025-08-13 20:42:07"
+        },
+        {
+            "id": 27,
+            "title": "جذب سرمایه گذاری های مردمی و بخش خصوصی",
+            "summary": "با توجه به چشم انداز مبهم منابع سنتی تامین مالی، ضرورت حرکت به سوی جذب سرمایه گذاری های مردمی و بخش خصوصی بیش از هر زمان دیگری احساس می شود.",
+            "category": "Investing",
+            "image": "images/investing/im15.jpg",
+            "importance": "Medium",
+            "date": "2025-08-13 20:42:07"
+        },
+        {
+            "id": 28,
+            "title": "دسترسی به وام های خرد",
+            "summary": "دسترسی به وام های خرد در ایران به دلیل بوروکراسی پیچیده، وثیقه های سنگین و ارزیابی های سخت گیرانه دشوار شده است. ",
+            "category": "Finance",
+            "image": "images/finance/im25.jpg",
+            "importance": "Medium",
+            "date": "2025-08-13 20:42:07"
+        },
+        {
+            "id": 29,
+            "title": "کاهش ارزش پزوی آرژانتین",
+            "summary": "در ماه ژوئیه، ارزش پزوی آرژانتین در مقابل دلار بیش از ۱۲درصد کاهش یافت که بیشترین کاهش ارزش پول این کشور از زمان روی کار آمدن خاویر میلی، رئیس جمهور این کشور بود.",
+            "category": "Markets",
+            "image": "images/markets/im3.jpg",
+            "importance": "Medium",
+            "date": "2025-08-13 20:42:07"
         }
     ]
 }

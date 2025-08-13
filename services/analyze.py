@@ -38,20 +38,20 @@ class Analyze():
         if self.localPending:
             self.waitingForLocal = True
 
-            print("Snail: checking the local output")
+            #print("Snail: checking the local output")
         self.status = self.lastStatus["Status"]
 
     def manage(self, target="none"):
         if target != "none":
             print(
-                f"analyze: manager has been started with AI target of {target}")
+                f"analyze has been started: AI target >> {target}")
         else:
-            print("analyze: manager has been started without any specific AI target")
+            print("aanalyze has been started: AI target >> {system decision}")
         for item in self.status:
             itemId = item["id"]
             if item["status"] == "in Queue" or item["status"] == "failed":
                 if item["status"] == "failed":
-                    print(f"recovering an failed item with id of {itemId}")
+                    print(f"recovering item {itemId}")
 
                 raw_list = self.loadQueue()["Data"]
                 data = None
@@ -63,7 +63,8 @@ class Analyze():
                             self.foundinQueue = True
                             break
                     if self.foundinQueue:
-                        print(" item has been fount in Queue.json")
+                        pass
+                        #print(" item has been fount in Queue.json")
                     else:
                         print(
                             f"item with id of {item["id"]} doesn't have any property or data in queue.json")
@@ -130,11 +131,11 @@ class Analyze():
         if last_data["Data"]:
             for item in last_data["Data"]:
                 if item["id"] in self.localPending:
-                    print(f"found an item with id of: {item["id"]}")
+                    #print(f"found an item with id of: {item["id"]}")
                     new_list = []
                     response = item["response"]
                     response = json.loads(response)
-                    print(response)
+                    #print(response)
                     cnt = 0
                     for it in response:
                         new_item = response[it]
@@ -174,7 +175,7 @@ class Analyze():
                     self.clearcache(item["id"])
                 else:
                     print(
-                        f"there is an item with id of {item["id"]} that doesnt have any parrent in status local pendings")
+                        f"removing item {item["id"]}, no related id found in localpending")
                     self.clearOutput(item["id"])
 
     def clearcache(self, id):
@@ -186,18 +187,18 @@ class Analyze():
                 # del self.memoId[self.memoId.index(id)]
                 del self.localPending[self.localPending.index(id)]
                 self.saveStatus(self.status)
-                print(f" item {id} has been removed from status.json")
+                print(f"running clear cache for item {id}")
 
         self.clearQueue(id)
-        print(f" item {id} has been removed from Queue.json")
+        #print(f" item {id} has been removed from Queue.json")
 
         # ------------------ this part has been commented out to test the output data of local analyze
         self.clearOutput(id)
-        print(f" item {id} has been removed from outputData -> news.json")
+        #print(f" item {id} has been removed from outputData -> news.json")
 
         self.waitingForLocal = False
         self.privateLoopWating = False
-        print("stopped searching for local output data")
+        #print("stopped searching for local output data")
 
     def checkOutList(self, name="news"):
         try:
@@ -311,7 +312,6 @@ class Analyze():
             print("")
             self.checkLocalOutput()
         else:
-            print("going for local ")
             try:
                 with open(os.path.join(InputPath, f"{name}.json"), 'r', encoding='utf-8') as file:
                     last_data = json.load(file)
@@ -319,6 +319,7 @@ class Analyze():
                     with open(os.path.join(InputPath, f"{name}.json"), 'w', encoding='utf-8') as file:
                         json.dump(last_data, file, indent=4,
                                   ensure_ascii=False)
+                    print("data has been sent to local AI")
             except:
                 print(f"{name}.json is not where it sould be at {InputPath}")
 
@@ -334,9 +335,9 @@ class Analyze():
         # /home/alireza/PYTHON/Ecovision/services/Local_AI_Models/InputData/news.json
 
     def createPrivateLoop(self):
-        print("snail was not active; creating a private loop for getting local output")
+        #print("snail was not active; creating a private loop for getting local output")
         time.sleep(2)
-        print("PrivateLoop: checking the local output")
+        #print("PrivateLoop: checking the local output")
         while self.privateLoopWating:
             time.sleep(10)
             self.checkLocalOutput()
@@ -360,7 +361,7 @@ class Analyze():
         return True
 
     def priceAnalyze(self, target=False):
-        print("starting for price Opinion proccess...")
+        #print("starting for price Opinion proccess...")
         if self.priceAnalyzeActive or target:
             if not self.priceAnalyze_inprocess:
                 self.priceAnalyze_inprocess = True

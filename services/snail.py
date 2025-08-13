@@ -134,156 +134,157 @@ class Snail():
         if name == 'all':
             if not self.gecko_inprocess:
                 try:
-                    print("starting gecko")
+                    #print("starting gecko")
                     self.gecko_inprocess = True
                     gecko.price({'bitcoin', 'ethereum', 'Cardano',
                                 'tether', 'Solana', 'dogecoin'}, {'usd'})
                     self.gecko_inprocess = False
                 except:
-                    print("gecko failed")
+                    #print("gecko failed")
                     self.gecko_inprocess = False
 
             if not self.bonbast_inprocess:
                 try:
                     self.bonbast_inprocess = True
-                    print("starting bonbast")
+                    #print("starting bonbast")
                     bonbast.main()
                     self.bonbast_inprocess = False
                 except:
-                    print("bonbast failed")
+                    #print("bonbast failed")
                     self.bonbast_inprocess = False
 
             if not self.dnsd_inprocess:
                 try:
                     self.dnsd_inprocess = True
-                    print("starting dnsd")
+                    #print("starting dnsd")
                     dnsd.main(True)
                     self.dnsd_inprocess = False
                 except:
-                    print("dnsd failed")
+                    #print("dnsd failed")
                     self.dnsd_inprocess = False
 
             if not self.nytimes_inprocess:
                 try:
                     self.nytimes_inprocess = True
-                    print("starting nytimes")
+                    #print("starting nytimes")
                     nytimes.main(True)
                     self.nytimes_inprocess = False
                 except:
-                    print("nytimes failed")
+                    #print("nytimes failed")
                     self.nytimes_inprocess = False
 
             if not self.yahoo_inprocess:
                 try:
                     self.yahoo_inprocess = True
-                    print("starting yahoo")
+                    #print("starting yahoo")
                     yahoo.main(True)
                     self.yahoo_inprocess = False
                 except:
-                    print("yahoo failed")
+                    #print("yahoo failed")
                     self.yahoo_inprocess = False
 
             if not self.esdn_inprocess:
                 try:
                     self.esdn_inprocess = True
-                    print("starting esdn")
+                    #print("starting esdn")
                     esdn.main(True)
                     self.esdn_inprocess = False
                 except:
-                    print("esdn failed")
+                    #print("esdn failed")
                     self.esdn_inprocess = False
 
             if not self.bloomberg_inprocess:
                 try:
                     self.bloomberg_inprocess = True
-                    print("starting bloomberg")
+                    #print("starting bloomberg")
                     bloomberg.main(True)
                     self.bloomberg_inprocess = False
                 except:
-                    print("bloomberg failed")
+                    #print("bloomberg failed")
                     self.bloomberg_inprocess = False
         if name == 'gecko':
             if not self.gecko_inprocess:
                 try:
-                    print("starting gecko")
+                    #print("starting gecko")
                     self.gecko_inprocess = True
                     gecko.price({'bitcoin', 'ethereum', 'Cardano',
                                 'tether', 'Solana', 'dogecoin'}, {'usd'})
                     self.gecko_inprocess = False
                 except:
-                    print("gecko failed")
+                    #print("gecko failed")
                     self.gecko_inprocess = False
 
         if name == 'bonbast':
             if not self.bonbast_inprocess:
                 try:
                     self.bonbast_inprocess = True
-                    print("starting bonbast")
+                    #print("starting bonbast")
                     bonbast.main()
                     self.bonbast_inprocess = False
                 except:
-                    print("bonbast failed")
+                    #print("bonbast failed")
                     self.bonbast_inprocess = False
 
         if name == 'dnsd':
             if not self.dnsd_inprocess:
                 try:
                     self.dnsd_inprocess = True
-                    print("starting dnsd")
+                    #print("starting dnsd")
                     dnsd.main(True)
                     self.dnsd_inprocess = False
                 except:
-                    print("dnsd failed")
+                    #print("dnsd failed")
                     self.dnsd_inprocess = False
 
         if name == 'nytimes':
             if not self.nytimes_inprocess:
                 try:
                     self.nytimes_inprocess = True
-                    print("starting nytimes")
+                    #print("starting nytimes")
                     nytimes.main(True)
                     self.nytimes_inprocess = False
                 except:
-                    print("nytimes failed")
+                    #print("nytimes failed")
                     self.nytimes_inprocess = False
         if name == 'yahoo':
             if not self.yahoo_inprocess:
                 try:
                     self.yahoo_inprocess = True
-                    print("starting yahoo")
+                    #print("starting yahoo")
                     yahoo.main(True)
                     self.yahoo_inprocess = False
                 except:
-                    print("yahoo failed")
+                    #print("yahoo failed")
                     self.yahoo_inprocess = False
         if name == 'esdn':
             if not self.esdn_inprocess:
                 try:
                     self.esdn_inprocess = True
-                    print("starting esdn")
+                    #print("starting esdn")
                     esdn.main(True)
                     self.esdn_inprocess = False
                 except:
-                    print("esdn failed")
+                    #print("esdn failed")
                     self.esdn_inprocess = False
 
         if name == "bloomberg":
             if not self.bloomberg_inprocess:
                 try:
                     self.bloomberg_inprocess = True
-                    print("starting bloomberg")
+                    #print("starting bloomberg")
                     bloomberg.main(True)
                     self.bloomberg_inprocess = False
                 except:
-                    print("bloomberg failed")
+                    #print("bloomberg failed")
                     self.bloomberg_inprocess = False
 
         if name == 'analyze':
             try:
-                print("starting analyze")
+                #print("starting analyze")
                 analyze.az.manage()
             except:
-                print("analyze failed")
+                pass
+                #print("analyze failed")
         self.spinner.stop()
 
     def LogNextDuration(self):

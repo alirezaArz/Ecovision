@@ -1,59 +1,17 @@
 {
     "memoId": [
-        522816757,
-        957678748,
-        384765421,
-        260164917,
-        841966315,
-        311873580
+        765819474
     ],
-    "localPending": [
-        311873580
-    ],
+    "localPending": [],
     "Status": [
         {
-            "id": 522816757,
-            "modifier": "bloomberg",
+            "id": 765819474,
+            "modifier": "dnsd",
             "status": "done",
-            "modified date": "2025-08-08 13:44:16",
-            "commander": "Admin",
-            "external model": "undefined",
-            "local model": "verified"
-        },
-        {
-            "id": 384765421,
-            "modifier": "bloomberg",
-            "status": "done",
-            "modified date": "2025-08-08 14:26:36",
+            "modified date": "2025-08-13 19:31:53",
             "commander": "Admin",
             "external model": "verified",
             "local model": "undefined"
-        },
-        {
-            "id": 260164917,
-            "modifier": "nyTimes",
-            "status": "done",
-            "modified date": "2025-08-08 14:28:39",
-            "commander": "Admin",
-            "external model": "verified",
-            "local model": "undefined"
-        },
-        {
-            "id": 841966315,
-            "modifier": "nyTimes",
-            "status": "done",
-            "commander": "Admin",
-            "external model": "undefined",
-            "local model": "verified"
-        },
-        {
-            "id": 311873580,
-            "modifier": "bloomberg",
-            "status": "pending",
-            "modified date": "2025-08-08 20:02:03",
-            "commander": "Admin",
-            "external model": "undefined",
-            "local model": "pending"
         }
     ]
 }

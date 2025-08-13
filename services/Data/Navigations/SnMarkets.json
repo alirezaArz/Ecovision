@@ -1,207 +1,22 @@
 {
     "newsData": [
         {
-            "id": 30,
-            "title": "تغییر معادلات بازارهای جهانی و داخلی در پی تجاوز نظامی اسرائیل به ایران",
-            "summary": "تجاوز نظامی اسرائیل به ایران، معادلات بازارهای جهانی و داخلی را تغییر داد و نوسان مقطعی در بازار ارز تهران غیرقابل اجتناب است.",
+            "id": 20,
+            "title": "تعرفه جدید واردات شمش طلا در آمریکا",
+            "summary": "ایالات متحده تصمیم گرفته است بر واردات شمش های طلای یک کیلوگرمی و ۱۰۰ اونسی، تعرفه های جدیدی اعمال کند که می تواند بازار جهانی طلا را دچار آشفتگی کند.",
             "category": "Markets",
-            "image": "images/markets/im8.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "id": 70,
-            "title": "Global Markets Rise, U.S. Futures Flat After Tech-Led Rally",
-            "summary": "Global Markets Rise, U.S. Futures Flat After Tech-Led Rally",
-            "category": "Markets",
-            "image": "images/markets/im10.jpg",
-            "importance": "medium",
-            "date": "2025-07-01T20:54:31.882414"
-        },
-        {
-            "image": "images/markets/im6.jpg",
-            "id": "5",
-            "title": "تجاوز نظامی اسرائیل به ایران، معادلات بازارهای جهانی و داخلی را تغییر داد.",
-            "summary": "حمله نظامی اسرائیل به ایران معادلات بازارهای جهانی و داخلی، از جمله بازار ارز را تحت تاثیر قرار داده است.",
-            "category": "Markets",
-            "importance": "high",
-            "date": "2025-07-05T02:44:12.078646"
-        },
-        {
-            "id": 26,
-            "title": "Stocks wobble with Trump-Xi call, Musk feud in focus",
-            "summary": "Stock market experiences volatility amid Trump-Xi conversation and Musk controversy.",
-            "category": "Markets",
-            "image": "images/markets/im10.jpg",
+            "image": "images/markets/im23.jpg",
             "importance": "Medium",
-            "date": "2025-07-26T20:06:16.303734"
+            "date": "2025-08-13 20:42:07"
         },
         {
-            "id": 27,
-            "title": "Circle stock soars after IPO as stablecoin giant makes market debut",
-            "summary": "Circle's stock price increases significantly after its IPO.",
+            "id": 29,
+            "title": "کاهش ارزش پزوی آرژانتین",
+            "summary": "در ماه ژوئیه، ارزش پزوی آرژانتین در مقابل دلار بیش از ۱۲درصد کاهش یافت که بیشترین کاهش ارزش پول این کشور از زمان روی کار آمدن خاویر میلی، رئیس جمهور این کشور بود.",
             "category": "Markets",
             "image": "images/markets/im3.jpg",
             "importance": "Medium",
-            "date": "2025-07-26T20:06:16.303734"
-        },
-        {
-            "id": "60",
-            "title": "CrowdStrike forecasts downbeat second-quarter revenue, shares fall",
-            "summary": "CrowdStrike projects pessimistic second-quarter revenue, leading to a decline in its share price.",
-            "category": "Markets",
-            "image": "images/markets/im5.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "63",
-            "title": "Global Markets Rise, U.S. Futures Flat After Tech-Led Rally",
-            "summary": "Global markets experience gains, while US futures remain stable following a technology-driven rally.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "Medium",
-            "date": "2025-07-26T20:16:34.537142"
-        },
-        {
-            "id": "10",
-            "title": "US Bond Traders Eye Inflation for Steer on September Rate Cut",
-            "summary": "US bond traders are closely monitoring inflation data for indications of a potential rate cut in September.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "Medium",
-            "date": "2025-07-31T11:17:07.566724"
-        },
-        {
-            "id": "15",
-            "title": "Tata Steel to Explore New Markets as Tariffs Hit US Shipments",
-            "summary": "Tata Steel is planning to explore new markets in response to the impact of tariffs on its US shipments.",
-            "category": "Markets",
-            "image": "images/markets/im4.jpg",
-            "importance": "Medium",
-            "date": "2025-07-31T11:17:07.566724"
-        },
-        {
-            "id": "0",
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-01T22:48:00.988602"
-        },
-        {
-            "id": "6",
-            "title": "Trade War Turmoil, Rising Unemployment Send Markets Diving",
-            "summary": "Trade war and unemployment negatively impact markets.",
-            "category": "Markets",
-            "image": "images/markets/im5.jpg",
-            "importance": "High",
-            "date": "2025-08-02T21:14:39.185502"
-        },
-        {
-            "id": "18",
-            "title": "Trump Targets Copper With Tariffs, Though Not as Aggressively as Expected",
-            "summary": "The president stopped short of putting a 50 percent tariff on refined copper, as he had threatened earlier this year. The market reaction was swift anyway and prices tumbled.",
-            "category": "Markets",
-            "image": "images/markets/im1.jpg",
-            "importance": "Medium",
-            "date": "2025-08-02T23:04:58.077845"
-        },
-        {
-            "id": "3",
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im9.jpg",
-            "importance": "High",
-            "date": "2025-08-05T20:24:16.456064"
-        },
-        {
-            "id": 0,
-            "title": "Stocks fall as Wall Street pulls back after rally",
-            "summary": "Wall Street experiences a pullback after a rally, causing stocks to fall.",
-            "category": "Markets",
-            "image": "images/markets/im2.jpg",
-            "importance": "High",
-            "date": "2025-08-05T20:30:03.504216"
-        },
-        {
-            "id": 11,
-            "title": "How major US stock indexes fared Tuesday, 8/5/2025",
-            "summary": "Overview of the performance of major US stock indexes on Tuesday, August 5, 2025.",
-            "category": "Markets",
-            "image": "images/markets/im1.jpg",
-            "importance": "Low",
-            "date": "2025-08-05T20:30:03.504216"
-        },
-        {
-            "id": 1,
-            "title": "What Does Trump’s Swiss Surprise Mean for Gold?",
-            "summary": "Analysis of the potential impact of Trump's actions in Switzerland on the price of gold.",
-            "category": "Markets",
-            "image": "images/markets/im20.jpg",
-            "importance": "Medium",
-            "date": "2025-08-08 14:28:01"
-        },
-        {
-            "id": 2,
-            "title": "Sugar Rises on Concern Over Cane Yields in Top Grower Brazil",
-            "summary": "Sugar prices increase due to concerns about sugarcane yields in Brazil.",
-            "category": "Markets",
-            "image": "images/markets/im18.jpg",
-            "importance": "Medium",
-            "date": "2025-08-08 14:28:01"
-        },
-        {
-            "id": 6,
-            "title": "Stocks End Mixed, as Investors Take Steeper Tariffs in Stride",
-            "summary": "The S&P 500 ended the day 0.1 percent lower, a muted move compared to the upheaval when tariffs were first announced in early April.",
-            "category": "Markets",
-            "image": "images/markets/im14.jpg",
-            "importance": "Medium",
-            "date": "2025-08-08 14:29:26"
-        },
-        {
-            "id": 18,
-            "title": "Stock Market Posts Worst Week in Months on Renewed Economic Fears",
-            "summary": "Data showing cracks in the U.S. labor market and President Trump’s newest barrage of tariffs shook investors around the world, weighing on stocks, the dollar and more.",
-            "category": "Markets",
-            "image": "images/markets/im1.jpg",
-            "importance": "High",
-            "date": "2025-08-08 14:29:26"
-        },
-        {
-            "title": "New Tariff on ‘Transshipped’ Goods Mystifies Importers",
-            "summary": "The Trump administration levied a hefty tariff on goods that are moved through other countries, but it has not yet fully explained its plans.",
-            "category": "Markets",
-            "importance": "High",
-            "id": 0,
-            "image": "images/markets/im22.jpg"
-        },
-        {
-            "title": "Some safe-haven assets have soared against the U.S. dollar.",
-            "summary": "This was featured in live coverage.",
-            "category": "Markets",
-            "importance": "Low",
-            "id": 2,
-            "image": "images/markets/im22.jpg"
-        },
-        {
-            "title": "Swiss Businesses Fear Being ‘Annihilated’ by One of the World’s Highest Tariffs",
-            "summary": "Goods shipped from the country face a 39 percent tariff in the U.S., which companies warn will have dire consequences if President Trump cannot be quickly dissuaded.",
-            "category": "Markets",
-            "importance": "Medium",
-            "id": 3,
-            "image": "images/markets/im23.jpg"
-        },
-        {
-            "title": "Here’s What Could Get More Expensive Under Trump’s Tariffs",
-            "summary": "The tariffs are driving up prices on everyday goods as businesses warn they can no longer absorb costs, leaving consumers to foot the bill.",
-            "category": "Markets",
-            "importance": "High",
-            "id": 4,
-            "image": "images/markets/im9.jpg"
+            "date": "2025-08-13 20:42:07"
         }
     ]
 }
