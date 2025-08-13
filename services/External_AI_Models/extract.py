@@ -31,11 +31,26 @@ class Extract():
             result = []
             for item in jsdata.values():
                 current_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                if item["category"] == "Economy":
+                    image = (f'images/economy/im{random.randint(1, 30)}.jpg')
+                elif item["category"] == "Finance":
+                    image = (f'images/finance/im{random.randint(1, 30)}.jpg')
+                elif item["category"] == "Investing":
+                    image = (f'images/investing/im{random.randint(1, 30)}.jpg')
+                elif item["category"] == "Markets":
+                    image = (f'images/markets/im{random.randint(1, 30)}.jpg')
+                elif item["category"] == "Science":
+                    image = (f'images/science/im{random.randint(1, 30)}.jpg')
+                elif item["category"] == "Technology":
+                    image = (f'images/technology/im{random.randint(1, 30)}.jpg')
+                else:
+                    image = (f'images/default/im{random.randint(1, 30)}.jpg')
                 outpt = {
                     "id": cnt,
                     "title": item["title"],
                     "summary": item["summary"],
                     "category": item["category"],
+                    "image": image,
                     "importance":  item["importance"],
                     "date": current_date
                 }

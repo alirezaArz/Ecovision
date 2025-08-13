@@ -1,37 +1,40 @@
 {
     "newsData": [
         {
-            "id": 11,
+            "id": 0,
             "title": "Apple C.E.O. Gifts Trump Gold",
             "summary": "Tim Cook presented a glass plaque on a gold base to President Trump and pledged an additional $100 billion investment in the U.S. as Trump threatened a 100 percent tariff on foreign semiconductors.",
             "category": "Technology",
-            "image": "images/technology/im14.jpg",
+            "image": "images/technology/im30.jpg",
             "importance": "Medium",
-            "date": "2025-08-13 21:14:01"
+            "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 10,
+            "id": 1,
             "title": "Apple C.E.O. Gifts Trump Gold",
             "summary": "Tim Cook presented a glass plaque on a gold base to President Trump and pledged an additional $100 billion investment in the U.S. as Trump threatened a 100 percent tariff on foreign semiconductors.",
             "category": "Technology",
+            "image": "images/technology/im22.jpg",
             "importance": "Medium",
-            "date": "2025-08-13 21:49:16"
+            "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 7,
+            "id": 2,
             "title": "Poland Inks $3.8 Billion Deal to Update F16 Jets in Defense Push",
             "summary": "Poland has signed a $3.8 billion deal to upgrade its F16 jets.",
             "category": "Technology",
+            "image": "images/technology/im20.jpg",
             "importance": "Medium",
-            "date": "2025-08-13 21:49:22"
+            "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 8,
+            "id": 3,
             "title": "Russia Offers Classes for Handling Drone Hits at Energy Sites",
             "summary": "Russia is offering classes on how to handle drone strikes at energy facilities.",
             "category": "Technology",
+            "image": "images/technology/im24.jpg",
             "importance": "Medium",
-            "date": "2025-08-13 21:49:22"
+            "date": "2025-08-14 01:57:06"
         }
     ]
 }

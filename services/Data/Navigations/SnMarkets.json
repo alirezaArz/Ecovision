@@ -1,194 +1,202 @@
 {
     "newsData": [
         {
-            "id": 20,
+            "id": 0,
             "title": "تعرفه جدید واردات شمش طلا در آمریکا",
             "summary": "ایالات متحده تصمیم گرفته است بر واردات شمش های طلای یک کیلوگرمی و ۱۰۰ اونسی، تعرفه های جدیدی اعمال کند که می تواند بازار جهانی طلا را دچار آشفتگی کند.",
             "category": "Markets",
-            "image": "images/markets/im23.jpg",
+            "image": "images/markets/im6.jpg",
             "importance": "Medium",
-            "date": "2025-08-13 20:42:07"
+            "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 29,
+            "id": 1,
             "title": "کاهش ارزش پزوی آرژانتین",
             "summary": "در ماه ژوئیه، ارزش پزوی آرژانتین در مقابل دلار بیش از ۱۲درصد کاهش یافت که بیشترین کاهش ارزش پول این کشور از زمان روی کار آمدن خاویر میلی، رئیس جمهور این کشور بود.",
             "category": "Markets",
-            "image": "images/markets/im3.jpg",
+            "image": "images/markets/im28.jpg",
             "importance": "Medium",
-            "date": "2025-08-13 20:42:07"
+            "date": "2025-08-14 01:57:06"
         },
         {
             "id": 2,
             "title": "European Gas Extends Slide on News of US-Russia Truce Plan",
             "summary": "European gas prices continue to fall following reports of a potential truce between the US and Russia.",
             "category": "Markets",
-            "image": "images/markets/im25.jpg",
+            "image": "images/markets/im2.jpg",
             "importance": "Medium",
-            "date": "2025-08-13 21:13:35"
+            "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 2,
+            "id": 3,
             "title": "تعرفه های جدید آمریکا بر واردات شمش طلا",
             "summary": "ایالات متحده تعرفه های جدیدی بر واردات شمش های طلای یک کیلوگرمی و ۱۰۰ اونسی اعمال می کند که می تواند بازار جهانی طلا را دچار آشفتگی کند.",
             "category": "Markets",
-            "image": "images/markets/im12.jpg",
+            "image": "images/markets/im7.jpg",
             "importance": "Medium",
-            "date": "2025-08-13 21:13:53"
+            "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 6,
+            "id": 4,
             "title": "فرمان اجرایی کاخ سفید درباره تعرفه های گمرکی طلا",
             "summary": "کاخ سفید قصد دارد فرمانی اجرایی صادر کند تا موضع ایالات متحده در مورد تعرفه های گمرکی بر شمش های طلا را روشن کند.",
             "category": "Markets",
-            "image": "images/markets/im12.jpg",
+            "image": "images/markets/im4.jpg",
             "importance": "Medium",
-            "date": "2025-08-13 21:13:53"
+            "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 10,
+            "id": 5,
             "title": "تغییر مسیر بازار ارز با انتشار اخبار سیاسی و اقتصادی",
             "summary": "انتشار اخبار احتمال مذاکرات ایران و آمریکا و پیش فروش سکه توسط بانک مرکزی، انتظارات افزایشی بازار ارز را مهار کرد.",
             "category": "Markets",
-            "image": "images/markets/im25.jpg",
+            "image": "images/markets/im5.jpg",
             "importance": "Medium",
-            "date": "2025-08-13 21:13:53"
+            "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 21,
+            "id": 6,
             "title": "افزایش قیمت دلار به بالاترین سطح یک ماه اخیر",
             "summary": "قیمت دلار آزاد با عبور از مرز ۹۰ هزار تومان به بالاترین سطح قیمتی خود در یک ماه اخیر رسید که ناشی از افزایش تنش های سیاسی است.",
             "category": "Markets",
             "image": "images/markets/im17.jpg",
             "importance": "Medium",
-            "date": "2025-08-13 21:13:53"
+            "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 9,
+            "id": 7,
             "title": "Stocks End Mixed, as Investors Take Steeper Tariffs in Stride",
             "summary": "The S&P 500 ended the day 0.1 percent lower, a muted move compared to the upheaval when tariffs were first announced in early April.",
             "category": "Markets",
-            "image": "images/markets/im2.jpg",
+            "image": "images/markets/im13.jpg",
             "importance": "Medium",
-            "date": "2025-08-13 21:14:01"
+            "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 6,
+            "id": 8,
             "title": "تعرفه های جدید آمریکا بر واردات شمش طلا",
             "summary": "ایالات متحده تصمیم گرفته است تعرفه های جدیدی بر واردات شمش های طلای یک کیلوگرمی و ۱۰۰ اونسی اعمال کند که می تواند بازار جهانی طلا را دچار آشفتگی کند.",
             "category": "Markets",
-            "image": "images/markets/im20.jpg",
+            "image": "images/markets/im22.jpg",
             "importance": "Medium",
-            "date": "2025-08-13 21:14:12"
+            "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 12,
+            "id": 9,
             "title": "تاثیر اخبار سیاسی و اقتصادی بر بازار ارز",
             "summary": "انتشار اخبار مربوط به احتمال آغاز مذاکرات ایران و آمریکا و پیش فروش سکه توسط بانک مرکزی، موجب تعدیل قیمت ارز شد.",
             "category": "Markets",
-            "image": "images/markets/im7.jpg",
+            "image": "images/markets/im14.jpg",
             "importance": "Medium",
-            "date": "2025-08-13 21:14:12"
+            "date": "2025-08-14 01:57:06"
         },
         {
             "id": 10,
             "title": "Stocks End Mixed, as Investors Take Steeper Tariffs in Stride",
             "summary": "The S&P 500 ended the day 0.1 percent lower, a muted move compared to the upheaval when tariffs were first announced in early April.",
             "category": "Markets",
-            "image": "images/markets/im14.jpg",
+            "image": "images/markets/im25.jpg",
             "importance": "Medium",
-            "date": "2025-08-13 21:14:19"
+            "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 8,
+            "id": 11,
             "title": "تعرفه های جدید آمریکا بر واردات شمش طلا",
             "summary": "ایالات متحده تصمیم گرفته است که بر واردات شمش های طلای یک کیلوگرمی و ۱۰۰ اونسی، تعرفه های جدیدی اعمال کند.",
             "category": "Markets",
-            "image": "images/markets/im22.jpg",
+            "image": "images/markets/im17.jpg",
             "importance": "Medium",
-            "date": "2025-08-13 21:14:36"
+            "date": "2025-08-14 01:57:06"
         },
         {
             "id": 12,
             "title": "فرمان اجرایی کاخ سفید درباره تعرفه های گمرکی طلا",
             "summary": "کاخ سفید قصد دارد فرمانی اجرایی صادر کند تا موضع ایالات متحده در مورد تعرفه های گمرکی بر شمش های طلا را روشن کند.",
             "category": "Markets",
-            "image": "images/markets/im7.jpg",
+            "image": "images/markets/im22.jpg",
             "importance": "Medium",
-            "date": "2025-08-13 21:14:36"
+            "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 17,
+            "id": 13,
             "title": "تغییر مسیر بازار ارز با انتشار دو خبر",
             "summary": "انتشار دو خبر «احتمال آغاز مذاکرات غیرمستقیم ایران و آمریکا» و «شروع پیش فروش سکه توسط بانک مرکزی» مسیر بازار ارز را تغییر داد.",
             "category": "Markets",
-            "image": "images/markets/im10.jpg",
+            "image": "images/markets/im6.jpg",
             "importance": "High",
-            "date": "2025-08-13 21:14:36"
+            "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 0,
+            "id": 14,
             "title": "Carry Traders Ramp Up Bets in Emerging Markets as Fed Cuts Loom",
             "summary": "Carry traders are increasing their investments in emerging markets in anticipation of interest rate cuts by the Federal Reserve.",
             "category": "Markets",
+            "image": "images/markets/im22.jpg",
             "importance": "High",
-            "date": "2025-08-13 21:48:46"
-        },
-        {
-            "id": 2,
-            "title": "US Treasury Rally Stalls as Key Consumer Price Data Looms Large",
-            "summary": "The rally in US Treasury bonds is slowing down as investors await important consumer price data.",
-            "category": "Markets",
-            "importance": "Medium",
-            "date": "2025-08-13 21:48:46"
-        },
-        {
-            "id": 6,
-            "title": "US Treasuries Rally as July Inflation Data Boosts Rate-Cut Bets",
-            "summary": "US Treasuries are rallying due to inflation data, increasing expectations of rate cuts.",
-            "category": "Markets",
-            "importance": "High",
-            "date": "2025-08-13 21:48:55"
-        },
-        {
-            "id": 12,
-            "title": "تعرفه های جدید آمریکا بر واردات شمش طلا",
-            "summary": "ایالات متحده تصمیم گرفته است بر واردات شمش های طلای یک کیلوگرمی و ۱۰۰ اونسی تعرفه های جدیدی اعمال کند.",
-            "category": "Markets",
-            "importance": "Medium",
-            "date": "2025-08-13 21:49:09"
+            "date": "2025-08-14 01:57:06"
         },
         {
             "id": 15,
-            "title": "فرمان اجرایی کاخ سفید برای تعرفه گمرکی بر شمش های طلا",
-            "summary": "کاخ سفید قصد دارد فرمانی اجرایی صادر کند تا موضع ایالات متحده در مورد تعرفه های گمرکی بر شمش های طلا را روشن کند.",
+            "title": "US Treasury Rally Stalls as Key Consumer Price Data Looms Large",
+            "summary": "The rally in US Treasury bonds is slowing down as investors await important consumer price data.",
             "category": "Markets",
+            "image": "images/markets/im16.jpg",
             "importance": "Medium",
-            "date": "2025-08-13 21:49:09"
+            "date": "2025-08-14 01:57:06"
+        },
+        {
+            "id": 16,
+            "title": "US Treasuries Rally as July Inflation Data Boosts Rate-Cut Bets",
+            "summary": "US Treasuries are rallying due to inflation data, increasing expectations of rate cuts.",
+            "category": "Markets",
+            "image": "images/markets/im30.jpg",
+            "importance": "High",
+            "date": "2025-08-14 01:57:06"
+        },
+        {
+            "id": 17,
+            "title": "تعرفه های جدید آمریکا بر واردات شمش طلا",
+            "summary": "ایالات متحده تصمیم گرفته است بر واردات شمش های طلای یک کیلوگرمی و ۱۰۰ اونسی تعرفه های جدیدی اعمال کند.",
+            "category": "Markets",
+            "image": "images/markets/im30.jpg",
+            "importance": "Medium",
+            "date": "2025-08-14 01:57:06"
         },
         {
             "id": 18,
+            "title": "فرمان اجرایی کاخ سفید برای تعرفه گمرکی بر شمش های طلا",
+            "summary": "کاخ سفید قصد دارد فرمانی اجرایی صادر کند تا موضع ایالات متحده در مورد تعرفه های گمرکی بر شمش های طلا را روشن کند.",
+            "category": "Markets",
+            "image": "images/markets/im8.jpg",
+            "importance": "Medium",
+            "date": "2025-08-14 01:57:06"
+        },
+        {
+            "id": 19,
             "title": "کاهش ارزش پزوی آرژانتین",
             "summary": "در ماه ژوئیه، ارزش پزوی آرژانتین در مقابل دلار بیش از ۱۲درصد کاهش یافت، که بیشترین کاهش ارزش پول این کشور از زمان روی کار آمدن خاویر میلی بود.",
             "category": "Markets",
+            "image": "images/markets/im11.jpg",
             "importance": "Medium",
-            "date": "2025-08-13 21:49:09"
+            "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 8,
+            "id": 20,
             "title": "Stocks End Mixed, as Investors Take Steeper Tariffs in Stride",
             "summary": "The S&P 500 ended the day 0.1 percent lower, a muted move compared to the upheaval when tariffs were first announced in early April.",
             "category": "Markets",
+            "image": "images/markets/im20.jpg",
             "importance": "Medium",
-            "date": "2025-08-13 21:49:16"
+            "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 4,
+            "id": 21,
             "title": "US Stock Rally Masks Traders’ Nagging Tariff Concerns, Survey Show",
             "summary": "Despite a rally in US stocks, a survey indicates that traders are still concerned about tariffs.",
             "category": "Markets",
+            "image": "images/markets/im26.jpg",
             "importance": "Medium",
-            "date": "2025-08-13 21:49:22"
+            "date": "2025-08-14 01:57:06"
         }
     ]
 }
