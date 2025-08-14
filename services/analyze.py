@@ -11,6 +11,7 @@ from services.External_AI_Models import gemini as gemini
 from services.APIs import gecko as gecko
 from services.Data.markdowns import MkPriceOp as prcmarkdown
 from services.Scrapers import bonbast as bonbast
+from termcolor import colored
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 Navpath = os.path.join(project_root, 'services', 'Data', 'Navigations')
 QueuePath = os.path.join(project_root, 'services', 'Data', 'analyze')
@@ -38,7 +39,7 @@ class Analyze():
         if self.localPending:
             self.waitingForLocal = True
 
-            #print("Snail: checking the local output")
+            # print("Snail: checking the local output")
         self.status = self.lastStatus["Status"]
 
     def manage(self, target="none"):
@@ -51,7 +52,7 @@ class Analyze():
             itemId = item["id"]
             if item["status"] == "in Queue" or item["status"] == "failed":
                 if item["status"] == "failed":
-                    print(f"recovering item {itemId}")
+                    print(colored(f"recovering item {itemId}", "blue"))
 
                 raw_list = self.loadQueue()["Data"]
                 data = None
@@ -64,10 +65,10 @@ class Analyze():
                             break
                     if self.foundinQueue:
                         pass
-                        #print(" item has been fount in Queue.json")
+                        # print(" item has been fount in Queue.json")
                     else:
-                        print(
-                            f"item with id of {item["id"]} doesn't have any property or data in queue.json")
+                        print(colored(
+                            f"item with id of {item["id"]} doesn't have any property or data in queue.json", "yellow"))
                     self.foundinQueue = False
                     if data:
                         if (self.gemini_active and target == "none") or target == "external":
@@ -95,7 +96,8 @@ class Analyze():
                                     self.addtoLocal(data, itemId)
 
                                 else:
-                                    print("local AI was not active")
+                                    pass
+                                    # print("local AI was not active")
 
                         elif (self.localai_active and target == "none") or target == "local":
                             item["status"] = "pending"
@@ -106,12 +108,13 @@ class Analyze():
                             self.addtoLocal(data, itemId)
 
                         else:
-                            print("Nither local Ai or External Ai Are Active")
+                            print(
+                                colored("Nither local Ai or External Ai Are Active", "red"))
                 else:
-                    print("there are no item in Queue.json's Data list")
+                    print(colored("there are no item in Queue.json's Data list", "red"))
             elif item["status"] == "pending":
-                print(
-                    f"The analysis of **item {item["id"]}** was interrupted, so it has been returned to the processing queue.")
+                print(colored(
+                    f"The analysis of **item {item["id"]}** was interrupted, so it has been returned to the processing queue.", "yellow"))
                 localList = self.checkOutList()
                 if item["id"] in localList:
                     if not self.privateLoopWating:
@@ -131,11 +134,11 @@ class Analyze():
         if last_data["Data"]:
             for item in last_data["Data"]:
                 if item["id"] in self.localPending:
-                    #print(f"found an item with id of: {item["id"]}")
+                    # print(f"found an item with id of: {item["id"]}")
                     new_list = []
                     response = item["response"]
                     response = json.loads(response)
-                    #print(response)
+                    # print(response)
                     cnt = 0
                     for it in response:
                         new_item = response[it]
@@ -174,8 +177,8 @@ class Analyze():
                     navigation.nav.separate()
                     self.clearcache(item["id"])
                 else:
-                    print(
-                        f"removing item {item["id"]}, no related id found in localpending")
+                    print(colored(
+                        f"removing item {item["id"]}, no related id found in localpending", "yellow"))
                     self.clearOutput(item["id"])
 
     def clearcache(self, id):
@@ -190,15 +193,15 @@ class Analyze():
                 print(f"running clear cache for item {id}")
 
         self.clearQueue(id)
-        #print(f" item {id} has been removed from Queue.json")
+        # print(f" item {id} has been removed from Queue.json")
 
         # ------------------ this part has been commented out to test the output data of local analyze
         self.clearOutput(id)
-        #print(f" item {id} has been removed from outputData -> news.json")
+        # print(f" item {id} has been removed from outputData -> news.json")
 
         self.waitingForLocal = False
         self.privateLoopWating = False
-        #print("stopped searching for local output data")
+        # print("stopped searching for local output data")
 
     def checkOutList(self, name="news"):
         try:
@@ -207,7 +210,8 @@ class Analyze():
                 result = data["list"]
                 return (result)
         except:
-            print(f"{name}.json is not where it sould be at {OutPutPath}")
+            print(
+                colored(f"{name}.json is not where it sould be at {OutPutPath}", "red"))
 
     def readOutput(self, name='news'):
         try:
@@ -215,7 +219,8 @@ class Analyze():
                 data = json.load(file)
                 return (data)
         except:
-            print(f"{name}.json is not where it sould be at {OutPutPath}")
+            print(
+                colored(f"{name}.json is not where it sould be at {OutPutPath}", "red"))
 
     def clearOutput(self, id):
         last_data = self.readOutput()
@@ -238,8 +243,8 @@ class Analyze():
                 last_data = json.load(file)
                 return last_data
         except Exception as e:
-            print(
-                f"there is an Error with Queue.json; {e}")
+            print(colored(
+                f"there is an Error with Queue.json; {e}", "red"))
 
     def clearQueue(self, id):
         last_queue = self.loadQueue()
@@ -275,8 +280,8 @@ class Analyze():
             self.saveStatus(self.status)
 
         except Exception as e:
-            print(
-                f"Nav :there is an Error with Queue.json; {e}")
+            print(colored(
+                f"Nav :there is an Error with Queue.json; {e}", "red"))
             return
         data["id"] = new_id
         last_data["Data"].append(data)
@@ -291,8 +296,8 @@ class Analyze():
                 last_status = json.load(file)
                 return last_status
         except Exception as e:
-            print(
-                f"Nav :there is an Error with Status.json; {e}")
+            print(colored(
+                f"Nav :there is an Error with Status.json; {e}", "red"))
 
     def saveStatus(self, status):
         try:
@@ -302,14 +307,14 @@ class Analyze():
             last_data["localPending"] = self.localPending
             with open(os.path.join(QueuePath, "Status.json"), 'w', encoding='utf-8') as file:
                 json.dump(last_data, file, indent=4, ensure_ascii=False)
-            #print("Status saved")
+            # print("Status saved")
         except Exception as e:
-            print(f"there was an error while saving the Status.json : {e}")
+            print(
+                colored(f"there was an error while saving the Status.json : {e}", "red"))
 
     def addtoLocal(self, data, id, name="news"):
         localoutput = self.readOutput()
         if id in localoutput:
-            print("")
             self.checkLocalOutput()
         else:
             try:
@@ -321,7 +326,8 @@ class Analyze():
                                   ensure_ascii=False)
                     print("data has been sent to local AI")
             except:
-                print(f"{name}.json is not where it sould be at {InputPath}")
+                print(
+                    colored(f"{name}.json is not where it sould be at {InputPath}", "red"))
 
             if self.snailActive:
                 self.waitingForLocal = True
@@ -335,9 +341,9 @@ class Analyze():
         # /home/alireza/PYTHON/Ecovision/services/Local_AI_Models/InputData/news.json
 
     def createPrivateLoop(self):
-        #print("snail was not active; creating a private loop for getting local output")
+        # print("snail was not active; creating a private loop for getting local output")
         time.sleep(2)
-        #print("PrivateLoop: checking the local output")
+        # print("PrivateLoop: checking the local output")
         while self.privateLoopWating:
             time.sleep(10)
             self.checkLocalOutput()
@@ -350,18 +356,18 @@ class Analyze():
             if self.result != None:
                 extract.ex.extract(self.result)
             else:
-                print(f"analyze failed canceled saving")
+                print(colored(f"analyze failed canceled saving", "red"))
                 self.gemini_inprocess = False
                 return False
         except Exception as e:
-            print(f"analyze failed canceled saving: {e}")
+            print(colored(f"analyze failed canceled saving: {e}", "red"))
             self.gemini_inprocess = False
             return False
         self.gemini_inprocess = False
         return True
 
     def priceAnalyze(self, target=False):
-        #print("starting for price Opinion proccess...")
+        # print("starting for price Opinion proccess...")
         if self.priceAnalyzeActive or target:
             if not self.priceAnalyze_inprocess:
                 self.priceAnalyze_inprocess = True
@@ -433,7 +439,8 @@ class Analyze():
                             "PriceOp", date, mdText)
                         prcmarkdown.priceOp(mdhtmlText, code)
                     except Exception as e:
-                        print(f"Failed to extract and save opinion: {e}")
+                        print(
+                            colored(f"Failed to extract and save opinion: {e}", "red"))
                 self.priceAnalyze_inprocess = False
 
 

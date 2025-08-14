@@ -12,7 +12,7 @@ from services.Scrapers import dnsd as dnsd
 from services.Scrapers import bonbast as bonbast
 from services.APIs import gecko as gecko
 from services.External_AI_Models import gemini as gemini
-
+from termcolor import colored
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 Navpath = os.path.join(project_root, 'Data', 'Navigations')
 
@@ -62,7 +62,7 @@ class Extract():
             with open(os.path.join(Navpath, "LastAnalyze.json"), 'w', encoding='utf-8') as file:
                  json.dump(lastResult, file, indent=4, ensure_ascii=False)
             
-            print("LastAnalyze saved successfully")
+            print(colored("LastAnalyze saved successfully", "green"))
             navigation.nav.separate()
         except:
             self.geminiMx1(data[0])
@@ -126,7 +126,7 @@ class Extract():
                  json.dump(lastResult, file, indent=4, ensure_ascii=False)
             
             navigation.nav.separate()
-            print("LastAnalyze saved successfully by Mx1")
+            print(colored("LastAnalyze saved successfully by Mx1", "green"))
 
         except Exception as e:
             print(f"Unable to extract the AI's response with method Mx1: {e}, directing to Mx2...")
@@ -191,7 +191,7 @@ class Extract():
 
                 with open(os.path.join(Navpath, f"LastAnalyze.json"), 'w', encoding='utf-8') as file:
                     json.dump(lastResult, file, indent=4, ensure_ascii=False)
-                print("AI's response extracted successfully by Mx2")
+                print(colored("LastAnalyze saved successfully by Mx2", "green"))
                 navigation.nav.separate()
             else:
                 print("failed to extract the AI's response with Mx2! No matches found.")

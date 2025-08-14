@@ -1,16 +1,36 @@
 import google.generativeai as genai
 import json
 import os
+from termcolor import colored
 #  run this command     pip install -q -U google-genai     then...
 # create a file with the name of  (gmkey.json) in the same folder with this file and inside that  type this    {    'key': ''your gemeni API key"    }
-
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_PATH = os.path.join(BASE_DIR, 'gmkey.json')
+iskey = False
+
+
+def get_key():
+
+    DATA_PATH = os.path.join(BASE_DIR, 'gmkey.json')
+    with open(DATA_PATH, 'r', encoding='utf-8') as file:
+        key = json.load(file)
+    return key
+
+
+try:
+    rlmodel = get_key()
+    iskey = True
+except Exception as e:
+    print(colored(f"[WARNING] the gmkey.json file is either empty or missing: {e}", "yellow"))
+    iskey = False
 
 
 def analyze(data: str):
-    with open(DATA_PATH, 'r', encoding='utf-8') as file:
-        key = json.load(file)
+    try:
+        key = get_key()
+    except Exception as e:
+        print(colored(
+            f"[WARNING] the gmkey.json file is missing ,continueing with last one: {e}", "yellow"))
+
     try:
         client = genai.Client(api_key=key['key'])
         response = client.models.generate_content(
@@ -21,18 +41,22 @@ def analyze(data: str):
             "remember, these are the only categories that you can assign, and each answer can only have one category: [Economy, Finance, Markets, Investing, Technology, Science]"
 '''
         )
-        
-        #print("gemini response: ", response.text)
+
+        # print("gemini response: ", response.text)
         return [response, response.text]
 
     except Exception as e:
-        print(f"couldn't get accessed to the gemini, check your network and try again: {e}")
+        print(colored(
+            f"couldn't get accessed to the gemini, check your network and try again: {e}", "yellow"))
         return None
 
 
-def priceDetermine(data:list):
-    with open(DATA_PATH, 'r', encoding='utf-8') as file:
-        key = json.load(file)
+def priceDetermine(data: list):
+    try:
+        key = get_key()
+    except Exception as e:
+        print(colored(
+            f"[WARNING] the gmkey.json file is missing ,continueing with last one: {e}", "yellow"))
 
     try:
         client = genai.Client(api_key=key['key'])
@@ -60,9 +84,9 @@ def priceDetermine(data:list):
 یافته‌های خود را به صورت یک گزارش مختصر و حرفه‌ای ارائه کن.
 """'''
         )
-        #print("gemini response: ", response)
+        # print("gemini response: ", response)
         return response
 
     except:
-        print("couldn't get accessed to the gemini, check your network and try again")
+        print(colored("couldn't get accessed to the gemini, check your network and try again", "yellow"))
         return None

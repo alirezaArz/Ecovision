@@ -1,18 +1,31 @@
 import ollama
 import json
 import os
+from termcolor import colored
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_PATH = os.path.join(BASE_DIR, "model.json")
+ismodel = False
+def get_model():
+    DATA_PATH = os.path.join(BASE_DIR, "model.json")
+    with open(mode="r", file=DATA_PATH) as file:
+        model = json.load(file)["model"]
+    return model
 
-with open(mode="r", file=DATA_PATH) as file:
-    odel = json.load(file)["model"]
-
+try:
+    rlmodel = get_model()
+    ismodel = True
+except Exception as e:
+        print(colored(f"[WARNING] the model.json file is either empty or missing: {e}", "yellow"))
+        ismodel = False
 
 def answer(data):
-
     try:
-        response = ollama.chat(model=odel, messages=[
+        rlmodel = get_model()
+    except Exception as e:
+        print(colored(f"[WARNING] the model.json file is missing ,continueing with last one: {e}", "yellow"))
+    
+    try:
+        response = ollama.chat(model=rlmodel, messages=[
             {
                 'role': 'system',
                 'content': (
@@ -41,7 +54,12 @@ def answer(data):
 def priceDetermine(data: list):
 
     try:
-        response = ollama.chat(model=odel, messages=[
+        rlmodel = get_model()
+    except Exception as e:
+        print(colored(f"[WARNING] the model.json file is missing ,continueing with last one: {e}", "yellow"))
+    
+    try:
+        response = ollama.chat(model=rlmodel, messages=[
             {
                 'role': 'user',
                 'content': (

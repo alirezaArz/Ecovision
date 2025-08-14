@@ -3,7 +3,7 @@ import datetime
 from datetime import timedelta, datetime
 import os
 import random
-
+from termcolor import colored
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 Navpath = os.path.join(project_root, 'services', 'Data', 'Navigations')
 OpPath = os.path.join(project_root, 'services', 'Data', 'markdowns')
@@ -19,8 +19,8 @@ class Nav():
                 self.data = json.load(file)
                 return self.data
         except:
-            print(
-                f"Nav : {name}.json is not where it sould be at {Navpath}")
+            print(colored(
+                f"Nav : {name}.json is not where it sould be at {Navpath}", "red"))
 
     def saveNavigation(self, data, adress):
         try:
@@ -33,7 +33,7 @@ class Nav():
             with open(os.path.join(Navpath, f"{adress}.json"), 'w', encoding='utf-8') as file:
                 json.dump(self.lastdata, file, indent=4, ensure_ascii=False)
         except Exception as e:
-            print(f"Nav: an error on saveNavigation : {e}")
+            print(colored(f"Nav: an error on saveNavigation : {e}", "red"))
 
     def deleteCycle(self):
 
@@ -86,7 +86,7 @@ class Nav():
 
             elif item["category"] == "Science":
                 self.saveNavigation(item, 'SnScience')
-        print("nav: data separated successfully!")
+        print(colored("nav: data separated successfully!", "green"))
         self.antispam()
         self.output()
 
@@ -109,7 +109,7 @@ class Nav():
         with open(os.path.join(Navpath, "SnOutput.json"), 'w', encoding='utf-8') as file:
             json.dump(self.lastOutPut, file, indent=4, ensure_ascii=False)
         self.antispam()
-        # print("output ready")
+        print(colored("output saved", "green"))
 
     def OpRead(self, id):
         # reading the items file for each opinions
@@ -119,8 +119,8 @@ class Nav():
                 return (self.data)
 
         except:
-            print(
-                f"Nav : items.json is not where it sould be at {OpPath}/{id}")
+            print(colored(
+                f"Nav : items.json is not where it sould be at {OpPath}/{id}", "red"))
 
     def lastOP(self, id):
         lastOp = self.OpRead(id)["items"][-1][0]
@@ -140,23 +140,25 @@ class Nav():
                 newItem = [output_filename, date]
                 with open(os.path.join(OpPath, id, '.md', f"{output_filename}.md"), "w", encoding="utf-8") as f:
                     f.write(file)
-                print('.md file saved successfully, going for saving the date...')
+                print(
+                    colored('.md file saved successfully, going for saving the date...', "green"))
                 lastOP["items"].append(newItem)
                 with open(os.path.join(OpPath, id, "items.json"), 'w', encoding='utf-8') as file:
                     json.dump(lastOP, file, indent=4, ensure_ascii=False)
-                print(".md file's date saved successfully")
+                print(colored(".md file's date saved successfully", "green"))
 
                 return name
 
             except Exception as e:
-                print(
-                    f"threre was an error while saving the .md file proccess: {e}")
+                print(colored(
+                    f"threre was an error while saving the .md file proccess: {e}", "red"))
 
         except Exception as e:
-            print(f"no valid value in {OpPath}/{id}/items.json['dates']")
+            print(
+                colored(f"no valid value in {OpPath}/{id}/items.json['dates']", "red"))
 
     def antispam(self):
-        for cs in ['SnInvesting','SnEconomy', 'SnFinance', 'SnMarkets','SnTecnology', 'SnScience','SnOutput']:
+        for cs in ['SnInvesting', 'SnEconomy', 'SnFinance', 'SnMarkets', 'SnTecnology', 'SnScience', 'SnOutput']:
             lastdata = self.Navread(cs)
             etdata = lastdata["newsData"]
             memo = set()
@@ -166,18 +168,16 @@ class Nav():
                 key = (item["title"], item["summary"])
                 if key not in memo:
                     memo.add(key)
-                    new_list.append(item) 
+                    new_list.append(item)
                 else:
                     cnt += 1
             if cnt > 0:
-                print(f"found {cnt} duplicated items in {cs}.json")
+                print(
+                    colored(f"found {cnt} duplicated items in {cs}.json", "yellow"))
 
             lastdata["newsData"][:] = new_list
             with open(os.path.join(Navpath, f"{cs}.json"), 'w', encoding='utf-8') as file:
                 json.dump(lastdata, file, indent=4, ensure_ascii=False)
-
-                            
-                        
 
 
 nav = Nav()
