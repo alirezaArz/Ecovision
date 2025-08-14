@@ -16,7 +16,10 @@
         741328002,
         940715931,
         994154068,
-        902718295
+        902718295,
+        452009306,
+        530200019,
+        168231063
     ],
     "localPending": [],
     "Status": [
@@ -143,6 +146,33 @@
             "modified date": "2025-08-13 18:09:08",
             "commander": "Admin",
             "external model": "verified",
+            "local model": "undefined"
+        },
+        {
+            "id": 452009306,
+            "modifier": "dnsd",
+            "status": "failed",
+            "modified date": "2025-08-14 17:46:06",
+            "commander": "Admin",
+            "external model": "failed",
+            "local model": "undefined"
+        },
+        {
+            "id": 530200019,
+            "modifier": "nyTimes",
+            "status": "failed",
+            "modified date": "2025-08-14 17:46:41",
+            "commander": "Admin",
+            "external model": "failed",
+            "local model": "undefined"
+        },
+        {
+            "id": 168231063,
+            "modifier": "bloomberg",
+            "status": "failed",
+            "modified date": "2025-08-14 17:47:41",
+            "commander": "Admin",
+            "external model": "failed",
             "local model": "undefined"
         }
     ]

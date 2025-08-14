@@ -1,4 +1,4 @@
-from google import genai
+import google.generativeai as genai
 import json
 import os
 #  run this command     pip install -q -U google-genai     then...
