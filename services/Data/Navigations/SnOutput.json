@@ -73,22 +73,6 @@
             "date": "2025-08-13 21:48:55"
         },
         {
-            "id": 9,
-            "title": "Trump Extends China Tariff Truce by Three Months",
-            "summary": "President Trump’s order continues a reprieve from the threat of escalating tariffs and export controls, which rocked the global economy earlier this year.",
-            "category": "Economy",
-            "importance": "High",
-            "date": "2025-08-13 21:48:49"
-        },
-        {
-            "id": 10,
-            "title": "Trump, Seeking Friendlier Economic Data, Names New Statistics Chief",
-            "summary": "President Trump fired the Bureau of Labor Statistics chief earlier this month after a downbeat jobs report. The move has raised concerns about the credibility of economic data going forward.",
-            "category": "Economy",
-            "importance": "High",
-            "date": "2025-08-13 21:48:49"
-        },
-        {
             "id": 11,
             "title": "فساد و رانت جویی در نظام ارزی چند نرخی",
             "summary": "اقتصاد ایران با دست کم پنج نرخ ارز مختلف اداره می شود. اختلاف شدید میان نرخ ها در بازار ارز، انگیزه های سوءاستفاده و ایجاد شبکه های غیررسمی را تقویت می کند.",
@@ -141,15 +125,6 @@
             "image": "images/economy/im19.jpg",
             "importance": "High",
             "date": "2025-08-13 21:14:36"
-        },
-        {
-            "id": 17,
-            "title": "Staggering U.S. Tariffs Begin as Trump Widens Trade War",
-            "summary": "The duties, which the president announced last week, took effect for about 90 countries just after midnight.",
-            "category": "Economy",
-            "image": "images/economy/im10.jpg",
-            "importance": "High",
-            "date": "2025-08-13 21:14:19"
         },
         {
             "id": 18,
@@ -251,33 +226,6 @@
             "date": "2025-08-13 21:14:01"
         },
         {
-            "id": 29,
-            "title": "Staggering U.S. Tariffs Begin as Trump Widens Trade War",
-            "summary": "The duties, which the president announced last week, took effect for about 90 countries just after midnight.",
-            "category": "Economy",
-            "image": "images/economy/im17.jpg",
-            "importance": "High",
-            "date": "2025-08-13 21:14:01"
-        },
-        {
-            "id": 30,
-            "title": "Here’s What Could Get More Expensive Under Trump’s Tariffs",
-            "summary": "The tariffs are driving up prices on everyday goods as businesses warn they can no longer absorb costs, leaving consumers to foot the bill.",
-            "category": "Economy",
-            "image": "images/economy/im10.jpg",
-            "importance": "High",
-            "date": "2025-08-13 21:14:01"
-        },
-        {
-            "id": 31,
-            "title": "Swiss Businesses Fear Being ‘Annihilated’ by One of the World’s Highest Tariffs",
-            "summary": "Goods shipped from the country face a 39 percent tariff in the U.S., which companies warn will have dire consequences if President Trump cannot be quickly dissuaded.",
-            "category": "Economy",
-            "image": "images/economy/im11.jpg",
-            "importance": "High",
-            "date": "2025-08-13 21:14:01"
-        },
-        {
             "id": 32,
             "title": "Car Companies Are Paying Tariffs So You Don’t Have To",
             "summary": "But automakers can’t absorb the cost forever and will soon begin to raise new car prices, analysts say.",
@@ -366,14 +314,6 @@
             "date": "2025-08-13 21:49:22"
         },
         {
-            "id": 42,
-            "title": "Trump to Double India’s Tariff as Punishment for Buying Russian Oil",
-            "summary": "Tariffs on Indian exports to the United States will surge to 50 percent by late August, as part of an effort by President Trump to pressure Russia into resolving its war in Ukraine.",
-            "category": "Economy",
-            "importance": "Medium",
-            "date": "2025-08-13 21:49:16"
-        },
-        {
             "id": 43,
             "title": "China’s Exports Surged Again in July, but Not to America",
             "summary": "China is shipping more goods to Southeast Asia and other regions that often re-export them to the United States. China still sells three times as much to the United States as it buys.",
@@ -398,41 +338,9 @@
             "date": "2025-08-13 21:49:16"
         },
         {
-            "id": 46,
-            "title": "Here’s What Could Get More Expensive Under Trump’s Tariffs",
-            "summary": "The tariffs are driving up prices on everyday goods as businesses warn they can no longer absorb costs, leaving consumers to foot the bill.",
-            "category": "Economy",
-            "importance": "Medium",
-            "date": "2025-08-13 21:49:16"
-        },
-        {
-            "id": 47,
-            "title": "Swiss Businesses Fear Being ‘Annihilated’ by One of the World’s Highest Tariffs",
-            "summary": "Goods shipped from the country face a 39 percent tariff in the U.S., which companies warn will have dire consequences if President Trump cannot be quickly dissuaded.",
-            "category": "Economy",
-            "importance": "Medium",
-            "date": "2025-08-13 21:49:16"
-        },
-        {
             "id": 48,
             "title": "New Tariff on ‘Transshipped’ Goods Mystifies Importers",
             "summary": "The Trump administration levied a hefty tariff on goods that are moved through other countries, but it has not yet fully explained its plans.",
-            "category": "Economy",
-            "importance": "Medium",
-            "date": "2025-08-13 21:49:16"
-        },
-        {
-            "id": 49,
-            "title": "Car Companies Are Paying Tariffs So You Don’t Have To",
-            "summary": "But automakers can’t absorb the cost forever and will soon begin to raise new car prices, analysts say.",
-            "category": "Economy",
-            "importance": "Medium",
-            "date": "2025-08-13 21:49:16"
-        },
-        {
-            "id": 50,
-            "title": "Small Businesses Brace for the Punishing Side Effects of Trump’s Tariffs",
-            "summary": "Large firms with big bank balances, workers already in jobs and households near the top of the income ladder will have an easier time navigating the economic waves.",
             "category": "Economy",
             "importance": "Medium",
             "date": "2025-08-13 21:49:16"
@@ -588,69 +496,6 @@
             "date": "2025-08-13 21:14:36"
         },
         {
-            "id": 69,
-            "title": "U.S. Imports Slid in June on Higher Tariffs",
-            "summary": "Imports from other countries fell around 4 percent from the previous month as President Trump’s steep tariffs discouraged businesses from ordering goods.",
-            "category": "Economy",
-            "image": "images/economy/im12.jpg",
-            "importance": "Medium",
-            "date": "2025-08-13 21:14:19"
-        },
-        {
-            "id": 70,
-            "title": "Trump to Double India’s Tariff as Punishment for Buying Russian Oil",
-            "summary": "Tariffs on Indian exports to the United States will surge to 50 percent by late August, as part of an effort by President Trump to pressure Russia into resolving its war in Ukraine.",
-            "category": "Economy",
-            "image": "images/economy/im25.jpg",
-            "importance": "Medium",
-            "date": "2025-08-13 21:14:19"
-        },
-        {
-            "id": 71,
-            "title": "China’s Exports Surged Again in July, but Not to America",
-            "summary": "China is shipping more goods to Southeast Asia and other regions that often re-export them to the United States. China still sells three times as much to the United States as it buys.",
-            "category": "Economy",
-            "image": "images/economy/im8.jpg",
-            "importance": "Medium",
-            "date": "2025-08-13 21:14:19"
-        },
-        {
-            "id": 72,
-            "title": "Southeast Asia Looks for Clarity From U.S. on ‘Rules of Origin’",
-            "summary": "Thailand, Vietnam and other countries in the region face much higher tariffs on exports with Chinese-made components. But questions remain on how the U.S. defines a locally made product.",
-            "category": "Economy",
-            "image": "images/economy/im15.jpg",
-            "importance": "Medium",
-            "date": "2025-08-13 21:14:19"
-        },
-        {
-            "id": 73,
-            "title": "Effect of U.S. Tariffs on British Companies Is ‘Milder Than Feared,’ Central Bank Says",
-            "summary": "Britain’s economy is driven by domestic factors more than global ones right now, the governor of the Bank of England said on Thursday, when the central bank cut interest rates.",
-            "category": "Economy",
-            "image": "images/economy/im11.jpg",
-            "importance": "Medium",
-            "date": "2025-08-13 21:14:19"
-        },
-        {
-            "id": 74,
-            "title": "New Tariff on ‘Transshipped’ Goods Mystifies Importers",
-            "summary": "The Trump administration levied a hefty tariff on goods that are moved through other countries, but it has not yet fully explained its plans.",
-            "category": "Economy",
-            "image": "images/economy/im2.jpg",
-            "importance": "Medium",
-            "date": "2025-08-13 21:14:19"
-        },
-        {
-            "id": 75,
-            "title": "Car Companies Are Paying Tariffs So You Don’t Have To",
-            "summary": "But automakers can’t absorb the cost forever and will soon begin to raise new car prices, analysts say.",
-            "category": "Economy",
-            "image": "images/economy/im7.jpg",
-            "importance": "Medium",
-            "date": "2025-08-13 21:14:19"
-        },
-        {
             "id": 76,
             "title": "چالش های طرح های شیرین سازی آب دریا",
             "summary": "طرح های شیرین سازی و انتقال آب دریا در ایران با چالش های اساسی اقتصادی و فنی مواجه است و کارآیی آن را زیر سوال می برد.",
@@ -667,42 +512,6 @@
             "image": "images/economy/im12.jpg",
             "importance": "Medium",
             "date": "2025-08-13 21:14:12"
-        },
-        {
-            "id": 78,
-            "title": "China’s Exports Surged Again in July, but Not to America",
-            "summary": "China is shipping more goods to Southeast Asia and other regions that often re-export them to the United States. China still sells three times as much to the United States as it buys.",
-            "category": "Economy",
-            "image": "images/economy/im10.jpg",
-            "importance": "Medium",
-            "date": "2025-08-13 21:14:01"
-        },
-        {
-            "id": 79,
-            "title": "Southeast Asia Looks for Clarity From U.S. on ‘Rules of Origin’",
-            "summary": "Thailand, Vietnam and other countries in the region face much higher tariffs on exports with Chinese-made components. But questions remain on how the U.S. defines a locally made product.",
-            "category": "Economy",
-            "image": "images/economy/im6.jpg",
-            "importance": "Medium",
-            "date": "2025-08-13 21:14:01"
-        },
-        {
-            "id": 80,
-            "title": "Effect of U.S. Tariffs on British Companies Is ‘Milder Than Feared,’ Central Bank Says",
-            "summary": "Britain’s economy is driven by domestic factors more than global ones right now, the governor of the Bank of England said on Thursday, when the central bank cut interest rates.",
-            "category": "Economy",
-            "image": "images/economy/im28.jpg",
-            "importance": "Medium",
-            "date": "2025-08-13 21:14:01"
-        },
-        {
-            "id": 81,
-            "title": "New Tariff on ‘Transshipped’ Goods Mystifies Importers",
-            "summary": "The Trump administration levied a hefty tariff on goods that are moved through other countries, but it has not yet fully explained its plans.",
-            "category": "Economy",
-            "image": "images/economy/im23.jpg",
-            "importance": "Medium",
-            "date": "2025-08-13 21:14:01"
         },
         {
             "id": 82,
@@ -1182,15 +991,6 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 135,
-            "title": "چالش های نظام بانکی کشور",
-            "summary": "نظام بانکی کشور در سال های اخیر با چالش های متعددی در حوزه های مختلف از جمله کنترل رشد نقدینگی، سیاست ارزی، سلامت شبکه بانکی و تخصیص اعتبارات مواجه بوده است.",
-            "category": "Finance",
-            "image": "images/finance/im10.jpg",
-            "importance": "Medium",
-            "date": "2025-08-14 01:55:16"
-        },
-        {
             "id": 136,
             "title": "کاهش ارزش پزوی آرژانتین",
             "summary": "در ماه ژوئیه، ارزش پزوی آرژانتین در مقابل دلار بیش از ۱۲درصد کاهش یافت که بیشترین کاهش از زمان روی کار آمدن خاویر میلی بود.",
@@ -1344,15 +1144,6 @@
             "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 153,
-            "title": "Stocks End Mixed, as Investors Take Steeper Tariffs in Stride",
-            "summary": "The S&P 500 ended the day 0.1 percent lower, a muted move compared to the upheaval when tariffs were first announced in early April.",
-            "category": "Markets",
-            "image": "images/markets/im25.jpg",
-            "importance": "Medium",
-            "date": "2025-08-14 01:57:06"
-        },
-        {
             "id": 154,
             "title": "تاثیر اخبار سیاسی و اقتصادی بر بازار ارز",
             "summary": "انتشار اخبار مربوط به احتمال آغاز مذاکرات ایران و آمریکا و پیش فروش سکه توسط بانک مرکزی، موجب تعدیل قیمت ارز شد.",
@@ -1371,15 +1162,6 @@
             "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 156,
-            "title": "Stocks End Mixed, as Investors Take Steeper Tariffs in Stride",
-            "summary": "The S&P 500 ended the day 0.1 percent lower, a muted move compared to the upheaval when tariffs were first announced in early April.",
-            "category": "Markets",
-            "image": "images/markets/im13.jpg",
-            "importance": "Medium",
-            "date": "2025-08-14 01:57:06"
-        },
-        {
             "id": 157,
             "title": "افزایش قیمت دلار به بالاترین سطح یک ماه اخیر",
             "summary": "قیمت دلار آزاد با عبور از مرز ۹۰ هزار تومان به بالاترین سطح قیمتی خود در یک ماه اخیر رسید که ناشی از افزایش تنش های سیاسی است.",
@@ -1394,15 +1176,6 @@
             "summary": "انتشار اخبار احتمال مذاکرات ایران و آمریکا و پیش فروش سکه توسط بانک مرکزی، انتظارات افزایشی بازار ارز را مهار کرد.",
             "category": "Markets",
             "image": "images/markets/im5.jpg",
-            "importance": "Medium",
-            "date": "2025-08-14 01:57:06"
-        },
-        {
-            "id": 159,
-            "title": "فرمان اجرایی کاخ سفید درباره تعرفه های گمرکی طلا",
-            "summary": "کاخ سفید قصد دارد فرمانی اجرایی صادر کند تا موضع ایالات متحده در مورد تعرفه های گمرکی بر شمش های طلا را روشن کند.",
-            "category": "Markets",
-            "image": "images/markets/im4.jpg",
             "importance": "Medium",
             "date": "2025-08-14 01:57:06"
         },
@@ -1452,24 +1225,6 @@
             "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 165,
-            "title": "ضرورت جذب سرمایه گذاری های مردمی و بخش خصوصی",
-            "summary": "با توجه به چشم انداز مبهم منابع سنتی تامین مالی، ضرورت حرکت به سوی جذب سرمایه گذاری های مردمی و بخش خصوصی بیش از هر زمان دیگری احساس می شود.",
-            "category": "Investing",
-            "image": "images/investing/im20.jpg",
-            "importance": "Medium",
-            "date": "2025-08-14 01:57:06"
-        },
-        {
-            "id": 166,
-            "title": "ضرورت جذب سرمایه گذاری های مردمی و بخش خصوصی",
-            "summary": "با توجه به چشم انداز مبهم منابع سنتی تامین مالی، ضرورت حرکت به سوی جذب سرمایه گذاری های مردمی و بخش خصوصی بیش از هر زمان دیگری احساس می شود.",
-            "category": "Investing",
-            "image": "images/investing/im23.jpg",
-            "importance": "Medium",
-            "date": "2025-08-14 01:57:06"
-        },
-        {
             "id": 167,
             "title": "جذب سرمایه گذاری های مردمی و بخش خصوصی",
             "summary": "با توجه به چشم انداز مبهم منابع سنتی تامین مالی، ضرورت حرکت به سوی جذب سرمایه گذاری های مردمی و بخش خصوصی بیش از هر زمان دیگری احساس می شود.",
@@ -1502,15 +1257,6 @@
             "summary": "Tim Cook presented a glass plaque on a gold base to President Trump and pledged an additional $100 billion investment in the U.S. as Trump threatened a 100 percent tariff on foreign semiconductors.",
             "category": "Technology",
             "image": "images/technology/im22.jpg",
-            "importance": "Medium",
-            "date": "2025-08-14 01:57:06"
-        },
-        {
-            "id": 171,
-            "title": "Apple C.E.O. Gifts Trump Gold",
-            "summary": "Tim Cook presented a glass plaque on a gold base to President Trump and pledged an additional $100 billion investment in the U.S. as Trump threatened a 100 percent tariff on foreign semiconductors.",
-            "category": "Technology",
-            "image": "images/technology/im30.jpg",
             "importance": "Medium",
             "date": "2025-08-14 01:57:06"
         }

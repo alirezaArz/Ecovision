@@ -44,7 +44,7 @@ class Nav():
             if timenow - a > timedelta(days=3):
                 self.tobedeleted.append(newsdic)
 
-        for cy in ['high','medium','low']:
+        for cy in ['high', 'medium', 'low']:
             for willdelete in self.tobedeleted:
                 if (willdelete["importance"]).lower() == cy:
                     if len(self.lastdata["newsData"]) > 2:
@@ -87,10 +87,11 @@ class Nav():
             elif item["category"] == "Science":
                 self.saveNavigation(item, 'SnScience')
         print("nav: data separated successfully!")
+        self.antispam()
         self.output()
 
     def output(self):
-        self.importance = ['high','medium','low']
+        self.importance = ['high', 'medium', 'low']
         self.apnd_count = 0
         self.lastOutPut = self.Navread("SnOutput")
         self.newOutPut = []
@@ -107,7 +108,8 @@ class Nav():
         self.lastOutPut["newsData"][:] = self.newOutPut
         with open(os.path.join(Navpath, "SnOutput.json"), 'w', encoding='utf-8') as file:
             json.dump(self.lastOutPut, file, indent=4, ensure_ascii=False)
-        #print("output ready")
+        self.antispam()
+        # print("output ready")
 
     def OpRead(self, id):
         # reading the items file for each opinions
@@ -153,5 +155,29 @@ class Nav():
         except Exception as e:
             print(f"no valid value in {OpPath}/{id}/items.json['dates']")
 
-nav = Nav()
+    def antispam(self):
+        for cs in ['SnInvesting','SnEconomy', 'SnFinance', 'SnMarkets','SnTecnology', 'SnScience','SnOutput']:
+            lastdata = self.Navread(cs)
+            etdata = lastdata["newsData"]
+            memo = set()
+            new_list = []
+            cnt = 0
+            for item in etdata:
+                key = (item["title"], item["summary"])
+                if key not in memo:
+                    memo.add(key)
+                    new_list.append(item) 
+                else:
+                    cnt += 1
+            if cnt > 0:
+                print(f"found {cnt} duplicated items in {cs}.json")
 
+            lastdata["newsData"][:] = new_list
+            with open(os.path.join(Navpath, f"{cs}.json"), 'w', encoding='utf-8') as file:
+                json.dump(lastdata, file, indent=4, ensure_ascii=False)
+
+                            
+                        
+
+
+nav = Nav()
