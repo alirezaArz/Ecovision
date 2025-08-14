@@ -342,6 +342,7 @@ This software uses the following open source packages:
 
 - [Node.js](https://nodejs.org/)
 - [React](https://react.dev/)
+- [Tauri](https://v2.tauri.app/)
 - [Django](https://www.djangoproject.com/)
 - [Selenium](https://www.selenium.dev/)
 - [Gemini](https://ai.google.dev/gemini-api/docs)
