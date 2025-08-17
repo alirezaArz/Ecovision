@@ -1,4 +1,4 @@
-import google.generativeai as genai
+import google as genai
 import json
 import os
 from termcolor import colored
