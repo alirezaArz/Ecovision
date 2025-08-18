@@ -2,91 +2,138 @@
     "newsData": [
         {
             "id": 0,
-            "title": "Fed Search Continues With Private Sector Candidates",
-            "summary": "The search for candidates to fill positions at the Federal Reserve continues, with focus on individuals from the private sector.",
-            "category": "Finance",
-            "importance": "Medium",
-            "date": "2025-08-13 21:49:22"
+            "title": "Trump Warns of Economic Disaster if Court Strikes Down Tariffs",
+            "summary": "The president has crowed about the billions of dollars collected so far from tariffs. That money could be at risk if the White House loses the legal battle.",
+            "category": "Economy",
+            "image": "images/economy/im10.jpg",
+            "importance": "High",
+            "date": "2025-08-18 20:49:08"
         },
         {
             "id": 1,
-            "title": "Nigeria Gives Insurers a Year to Boost Capital Fivefold",
-            "summary": "Nigerian insurance companies have been given a year to increase their capital by fivefold.",
-            "category": "Finance",
+            "title": "Trump, Seeking Friendlier Economic Data, Names New Statistics Chief",
+            "summary": "President Trump fired the Bureau of Labor Statistics chief earlier this month after a downbeat jobs report. The move has raised concerns about the credibility of economic data going forward.",
+            "category": "Economy",
+            "image": "images/economy/im10.jpg",
             "importance": "Medium",
-            "date": "2025-08-13 21:49:22"
+            "date": "2025-08-18 20:49:08"
         },
         {
             "id": 2,
-            "title": "Bets on Outsize Fed Cut Gain Steam as CPI Data Backs Doves",
-            "summary": "Expectations for a significant interest rate cut by the Federal Reserve are increasing, supported by CPI data.",
-            "category": "Finance",
+            "title": "Trump Extends China Tariff Truce by Three Months",
+            "summary": "President Trump’s order continues a reprieve from the threat of escalating tariffs and export controls, which rocked the global economy earlier this year.",
+            "category": "Economy",
+            "image": "images/economy/im17.jpg",
             "importance": "High",
-            "date": "2025-08-13 21:49:22"
+            "date": "2025-08-18 20:49:08"
         },
         {
             "id": 3,
-            "title": "FirstRand Sees Opportunity in Kenya as Capital Rules Tighten",
-            "summary": "FirstRand bank identifies an opportunity in the Kenyan market due to stricter capital regulations.",
-            "category": "Finance",
+            "title": "Small Businesses Brace for the Punishing Side Effects of Trump’s Tariffs",
+            "summary": "Large firms with big bank balances, workers already in jobs and households near the top of the income ladder will have an easier time navigating the economic waves.",
+            "category": "Economy",
+            "image": "images/economy/im5.jpg",
             "importance": "Medium",
-            "date": "2025-08-13 21:49:22"
+            "date": "2025-08-18 20:49:08"
         },
         {
             "id": 4,
-            "title": "US Stock Rally Masks Traders’ Nagging Tariff Concerns, Survey Show",
-            "summary": "Despite a rally in US stocks, a survey indicates that traders are still concerned about tariffs.",
-            "category": "Markets",
+            "title": "Car Companies Are Paying Tariffs So You Don’t Have To",
+            "summary": "But automakers can’t absorb the cost forever and will soon begin to raise new car prices, analysts say.",
+            "category": "Economy",
+            "image": "images/economy/im2.jpg",
             "importance": "Medium",
-            "date": "2025-08-13 21:49:22"
+            "date": "2025-08-18 20:49:08"
         },
         {
             "id": 5,
-            "title": "Brazil Retail Sales Slip Again, Signaling Economy Is Cooling Off",
-            "summary": "Retail sales in Brazil continue to decline, suggesting a slowdown in the Brazilian economy.",
+            "title": "New Tariff on ‘Transshipped’ Goods Mystifies Importers",
+            "summary": "The Trump administration levied a hefty tariff on goods that are moved through other countries, but it has not yet fully explained its plans.",
             "category": "Economy",
+            "image": "images/economy/im1.jpg",
             "importance": "Medium",
-            "date": "2025-08-13 21:49:22"
+            "date": "2025-08-18 20:49:08"
         },
         {
             "id": 6,
-            "title": "Brazil Court Eases Way for Telecom Firm Oi to Seek Chapter 11",
-            "summary": "A Brazilian court has made it easier for the telecom company Oi to file for Chapter 11 bankruptcy.",
+            "title": "‘A Loyalist Inside the Building’: Trump’s Temporary Fed Pick Could Have a Lasting Effect",
+            "summary": "Stephen I. Miran may spend only a few months on the central bank’s board of governors, but in that time he can influence the discussions around interest rates and who will become the institution’s next leader.",
             "category": "Finance",
+            "image": "images/finance/im26.jpg",
             "importance": "Medium",
-            "date": "2025-08-13 21:49:22"
+            "date": "2025-08-18 20:49:08"
         },
         {
             "id": 7,
-            "title": "Poland Inks $3.8 Billion Deal to Update F16 Jets in Defense Push",
-            "summary": "Poland has signed a $3.8 billion deal to upgrade its F16 jets.",
-            "category": "Technology",
+            "title": "Swiss Businesses Fear Being ‘Annihilated’ by One of the World’s Highest Tariffs",
+            "summary": "Goods shipped from the country face a 39 percent tariff in the U.S., which companies warn will have dire consequences if President Trump cannot be quickly dissuaded.",
+            "category": "Economy",
+            "image": "images/economy/im22.jpg",
             "importance": "Medium",
-            "date": "2025-08-13 21:49:22"
+            "date": "2025-08-18 20:49:08"
         },
         {
             "id": 8,
-            "title": "Russia Offers Classes for Handling Drone Hits at Energy Sites",
-            "summary": "Russia is offering classes on how to handle drone strikes at energy facilities.",
-            "category": "Technology",
+            "title": "Here’s What Could Get More Expensive Under Trump’s Tariffs",
+            "summary": "The tariffs are driving up prices on everyday goods as businesses warn they can no longer absorb costs, leaving consumers to foot the bill.",
+            "category": "Economy",
+            "image": "images/economy/im16.jpg",
             "importance": "Medium",
-            "date": "2025-08-13 21:49:22"
+            "date": "2025-08-18 20:49:08"
         },
         {
             "id": 9,
-            "title": "Saudi Wealth Fund’s Assets Under Management Jump, Returns Dip",
-            "summary": "The Saudi wealth fund's assets under management have increased, but returns have decreased.",
-            "category": "Finance",
+            "title": "Effect of U.S. Tariffs on British Companies Is ‘Milder Than Feared,’ Central Bank Says",
+            "summary": "Britain’s economy is driven by domestic factors more than global ones right now, the governor of the Bank of England said on Thursday, when the central bank cut interest rates.",
+            "category": "Economy",
+            "image": "images/economy/im29.jpg",
             "importance": "Medium",
-            "date": "2025-08-13 21:49:22"
+            "date": "2025-08-18 20:49:08"
         },
         {
             "id": 10,
-            "title": "OPEC+ Reshaped the Calculus for Oil Markets and Spawned a Record Glut",
-            "summary": "OPEC+ actions have altered the dynamics of oil markets, leading to a record surplus.",
-            "category": "Economy",
+            "title": "Stocks End Mixed, as Investors Take Steeper Tariffs in Stride",
+            "summary": "The S&P 500 ended the day 0.1 percent lower, a muted move compared to the upheaval when tariffs were first announced in early April.",
+            "category": "Markets",
+            "image": "images/markets/im18.jpg",
             "importance": "Medium",
-            "date": "2025-08-13 21:49:22"
+            "date": "2025-08-18 20:49:08"
+        },
+        {
+            "id": 11,
+            "title": "Southeast Asia Looks for Clarity From U.S. on ‘Rules of Origin’",
+            "summary": "Thailand, Vietnam and other countries in the region face much higher tariffs on exports with Chinese-made components. But questions remain on how the U.S. defines a locally made product.",
+            "category": "Economy",
+            "image": "images/economy/im14.jpg",
+            "importance": "Medium",
+            "date": "2025-08-18 20:49:08"
+        },
+        {
+            "id": 12,
+            "title": "Apple C.E.O. Gifts Trump Gold",
+            "summary": "Tim Cook presented a glass plaque on a gold base to President Trump and pledged an additional $100 billion investment in the U.S. as Trump threatened a 100 percent tariff on foreign semiconductors.",
+            "category": "Technology",
+            "image": "images/technology/im9.jpg",
+            "importance": "Medium",
+            "date": "2025-08-18 20:49:08"
+        },
+        {
+            "id": 13,
+            "title": "China’s Exports Surged Again in July, but Not to America",
+            "summary": "China is shipping more goods to Southeast Asia and other regions that often re-export them to the United States. China still sells three times as much to the United States as it buys.",
+            "category": "Economy",
+            "image": "images/economy/im21.jpg",
+            "importance": "Medium",
+            "date": "2025-08-18 20:49:08"
+        },
+        {
+            "id": 14,
+            "title": "Staggering U.S. Tariffs Begin as Trump Widens Trade War",
+            "summary": "The duties, which the president announced last week, took effect for about 90 countries just after midnight.",
+            "category": "Economy",
+            "image": "images/economy/im26.jpg",
+            "importance": "High",
+            "date": "2025-08-18 20:49:08"
         }
     ]
 }

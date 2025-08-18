@@ -1,12 +1,12 @@
-import google as genai
+from google import genai
 import json
 import os
 from termcolor import colored
-#  run this command     pip install -q -U google-genai     then...
-# create a file with the name of  (gmkey.json) in the same folder with this file and inside that  type this    {    'key': ''your gemeni API key"    }
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 iskey = False
 
+# **NOTE **  the ``no module called Client found`` has been solved  (solution in next line)
+#  just run this : { pip install -U google-generativeai google-genai }
 
 def get_key():
 

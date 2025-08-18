@@ -1,10 +1,11 @@
-Django==4.2.11
+Django
 django-browser-reload
 django-cors-headers
-django-debug-toolbar==4.3.0
+django-debug-toolbar
 markdown
-pillow==10.2.0
-requests==2.31.0
-re
+Pillow
+requests
 halo
 termcolor
+google-generativeai
+google-genai

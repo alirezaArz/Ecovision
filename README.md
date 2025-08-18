@@ -94,6 +94,8 @@ Let's get the project files onto your machine and install the necessary dependen
 
     ```bash
     pip install -r requirements.txt
+    pip install -U google-generativeai google-genai
+    
     ```
 
 4.  **Install Frontend Dependencies:**

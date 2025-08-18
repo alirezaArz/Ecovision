@@ -161,19 +161,19 @@
         {
             "id": 452009306,
             "modifier": "dnsd",
-            "status": "failed",
+            "status": "done",
             "modified date": "2025-08-14 17:46:06",
             "commander": "Admin",
-            "external model": "failed",
+            "external model": "verified",
             "local model": "failed"
         },
         {
             "id": 530200019,
             "modifier": "nyTimes",
-            "status": "failed",
+            "status": "done",
             "modified date": "2025-08-14 17:46:41",
             "commander": "Admin",
-            "external model": "failed",
+            "external model": "verified",
             "local model": "undefined"
         },
         {
@@ -188,91 +188,91 @@
         {
             "id": 241883173,
             "modifier": "dnsd",
-            "status": "failed",
+            "status": "done",
             "modified date": "2025-08-17 18:04:07",
             "commander": "Admin",
-            "external model": "failed",
+            "external model": "verified",
             "local model": "undefined"
         },
         {
             "id": 339322475,
             "modifier": "nyTimes",
-            "status": "failed",
+            "status": "done",
             "modified date": "2025-08-17 18:04:37",
             "commander": "Admin",
-            "external model": "failed",
+            "external model": "verified",
             "local model": "undefined"
         },
         {
             "id": 768281171,
             "modifier": "dnsd",
-            "status": "in Queue",
+            "status": "failed",
             "modified date": "2025-08-17 18:05:54",
             "commander": "Admin",
-            "external model": "undefined",
+            "external model": "failed",
             "local model": "undefined"
         },
         {
             "id": 760698494,
             "modifier": "nyTimes",
-            "status": "in Queue",
+            "status": "failed",
             "modified date": "2025-08-17 18:06:31",
             "commander": "Admin",
-            "external model": "undefined",
+            "external model": "failed",
             "local model": "undefined"
         },
         {
             "id": 901618785,
             "modifier": "yahoo",
-            "status": "in Queue",
+            "status": "failed",
             "modified date": "2025-08-17 18:07:12",
             "commander": "Admin",
-            "external model": "undefined",
+            "external model": "failed",
             "local model": "undefined"
         },
         {
             "id": 20854200,
             "modifier": "bloomberg",
-            "status": "in Queue",
+            "status": "failed",
             "modified date": "2025-08-17 18:10:08",
             "commander": "Admin",
-            "external model": "undefined",
+            "external model": "failed",
             "local model": "undefined"
         },
         {
             "id": 991497913,
             "modifier": "dnsd",
-            "status": "in Queue",
+            "status": "failed",
             "modified date": "2025-08-17 18:21:06",
             "commander": "Admin",
-            "external model": "undefined",
+            "external model": "failed",
             "local model": "undefined"
         },
         {
             "id": 413694672,
             "modifier": "nyTimes",
-            "status": "in Queue",
+            "status": "failed",
             "modified date": "2025-08-17 18:21:38",
             "commander": "Admin",
-            "external model": "undefined",
+            "external model": "failed",
             "local model": "undefined"
         },
         {
             "id": 67577915,
             "modifier": "yahoo",
-            "status": "in Queue",
+            "status": "failed",
             "modified date": "2025-08-17 18:22:01",
             "commander": "Admin",
-            "external model": "undefined",
+            "external model": "failed",
             "local model": "undefined"
         },
         {
             "id": 947637886,
             "modifier": "bloomberg",
-            "status": "in Queue",
+            "status": "failed",
             "modified date": "2025-08-17 18:22:51",
             "commander": "Admin",
-            "external model": "undefined",
+            "external model": "failed",
             "local model": "undefined"
         }
     ]
