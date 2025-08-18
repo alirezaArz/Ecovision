@@ -7,5 +7,4 @@ Pillow
 requests
 halo
 termcolor
-google-generativeai
-google-genai
+
