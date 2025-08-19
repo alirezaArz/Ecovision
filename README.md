@@ -340,6 +340,8 @@ Ecovision
 
 ## Credits
 
+- Check out our android version [here](https://github.com/darksider-05/Ecovision-app)
+
 This software uses the following open source packages:
 
 - [Node.js](https://nodejs.org/)

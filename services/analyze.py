@@ -113,21 +113,22 @@ class Analyze():
                 else:
                     print(colored("there are no item in Queue.json's Data list", "red"))
             elif item["status"] == "pending":
-                print(colored(
-                    f"The analysis of **item {item["id"]}** was interrupted, so it has been returned to the processing queue.", "yellow"))
-                localList = self.checkOutList()
-                if item["id"] in localList:
-                    if not self.privateLoopWating:
-                        self.privateLoopWating = True
-                        self.createPrivateLoop()
-                else:
-                    del self.localPending[self.localPending.index(item["id"])]
-                    item["status"] = "failed"
-                    for s in ["external model", "local model"]:
-                        if item[s] == "pending":
-                            item[s] = "failed"
-                    self.saveStatus(self.status)
-                    self.manage()
+                if item["local model"] == "pending" and (item["external model"] != "pending"):
+                    print(colored(
+                        f"The analysis of **item {item["id"]}** was interrupted, so it has been returned to the processing queue.", "yellow"))
+                    localList = self.checkOutList()
+                    if item["id"] in localList:
+                        if not self.privateLoopWating:
+                            self.privateLoopWating = True
+                            self.createPrivateLoop()
+                    else:
+                        del self.localPending[self.localPending.index(item["id"])]
+                        item["status"] = "failed"
+                        for s in ["external model", "local model"]:
+                            if item[s] == "pending":
+                                item[s] = "failed"
+                        self.saveStatus(self.status)
+                        self.manage()
 
     def checkLocalOutput(self):
         last_data = self.readOutput()
