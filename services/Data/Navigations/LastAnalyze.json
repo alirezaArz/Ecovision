@@ -2,138 +2,183 @@
     "newsData": [
         {
             "id": 0,
-            "title": "Trump Warns of Economic Disaster if Court Strikes Down Tariffs",
-            "summary": "The president has crowed about the billions of dollars collected so far from tariffs. That money could be at risk if the White House loses the legal battle.",
+            "title": "تاثیر محدودیت شغلی بر تحصیلات زنان",
+            "summary": "محدود کردن فرصت های شغلی برای زنان، به طور مستقیم بر تصمیم آنها برای ادامه تحصیل در دانشگاه تاثیر می گذارد. کاهش استخدام زنان در بخش دولتی منجر به کاهش نرخ حضور زنان در دانشگاه شده است.",
             "category": "Economy",
-            "image": "images/economy/im10.jpg",
+            "image": "images/economy/im14.jpg",
             "importance": "High",
-            "date": "2025-08-18 20:49:08"
+            "date": "2025-08-22 07:10:28"
         },
         {
             "id": 1,
-            "title": "Trump, Seeking Friendlier Economic Data, Names New Statistics Chief",
-            "summary": "President Trump fired the Bureau of Labor Statistics chief earlier this month after a downbeat jobs report. The move has raised concerns about the credibility of economic data going forward.",
-            "category": "Economy",
-            "image": "images/economy/im10.jpg",
+            "title": "عصر سلطه مالی و چالش های بانک های مرکزی",
+            "summary": "بازارهای جهانی وارد دوره ای شده اند که به دلیل حجم بالای بدهی دولت ها و افزایش هزینه های استقراض، بانک های مرکزی تحت فشار قرار می گیرند تا نرخ بهره را پایین نگه دارند.",
+            "category": "Finance",
+            "image": "images/finance/im4.jpg",
             "importance": "Medium",
-            "date": "2025-08-18 20:49:08"
+            "date": "2025-08-22 07:10:28"
         },
         {
             "id": 2,
-            "title": "Trump Extends China Tariff Truce by Three Months",
-            "summary": "President Trump’s order continues a reprieve from the threat of escalating tariffs and export controls, which rocked the global economy earlier this year.",
+            "title": "ارز و ایفای تعهدات ارزی، ریشه مشکلات فعالان اقتصادی",
+            "summary": "وزیر امور اقتصادی و دارایی ریشه اصلی مشکلات فعالان اقتصادی را در ارز و ایفای تعهدات ارزی دانست.",
             "category": "Economy",
-            "image": "images/economy/im17.jpg",
-            "importance": "High",
-            "date": "2025-08-18 20:49:08"
+            "image": "images/economy/im12.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:28"
         },
         {
             "id": 3,
-            "title": "Small Businesses Brace for the Punishing Side Effects of Trump’s Tariffs",
-            "summary": "Large firms with big bank balances, workers already in jobs and households near the top of the income ladder will have an easier time navigating the economic waves.",
+            "title": "چالش های صنعت و معدن ایران",
+            "summary": "صنعت ایران با بحران هایی چون ناترازی انرژی، تهدیدهای زیست محیطی و عقب ماندگی از تحولات فناورانه روبرو است. لزوم تغییر سیاست ها، استفاده از فناوری های نوین و تعادل میان توسعه اقتصادی و حفاظت محیط زیست مورد تاکید قرار گرفته است.",
             "category": "Economy",
-            "image": "images/economy/im5.jpg",
-            "importance": "Medium",
-            "date": "2025-08-18 20:49:08"
+            "image": "images/economy/im29.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:28"
         },
         {
             "id": 4,
-            "title": "Car Companies Are Paying Tariffs So You Don’t Have To",
-            "summary": "But automakers can’t absorb the cost forever and will soon begin to raise new car prices, analysts say.",
-            "category": "Economy",
-            "image": "images/economy/im2.jpg",
+            "title": "ممنوعیت پرداخت سرمایه مضاربه بدون اسناد معتبر",
+            "summary": "بانک مرکزی با ابلاغ بخشنامه ای، پرداخت سرمایه مضاربه بدون اسناد معتبر را ممنوع و نظارت بر ورود و خروج کالا و تعیین نوع فعالیت تجاری را الزامی کرد.",
+            "category": "Finance",
+            "image": "images/finance/im25.jpg",
             "importance": "Medium",
-            "date": "2025-08-18 20:49:08"
+            "date": "2025-08-22 07:10:28"
         },
         {
             "id": 5,
-            "title": "New Tariff on ‘Transshipped’ Goods Mystifies Importers",
-            "summary": "The Trump administration levied a hefty tariff on goods that are moved through other countries, but it has not yet fully explained its plans.",
-            "category": "Economy",
-            "image": "images/economy/im1.jpg",
-            "importance": "Medium",
-            "date": "2025-08-18 20:49:08"
-        },
-        {
-            "id": 6,
-            "title": "‘A Loyalist Inside the Building’: Trump’s Temporary Fed Pick Could Have a Lasting Effect",
-            "summary": "Stephen I. Miran may spend only a few months on the central bank’s board of governors, but in that time he can influence the discussions around interest rates and who will become the institution’s next leader.",
-            "category": "Finance",
-            "image": "images/finance/im26.jpg",
-            "importance": "Medium",
-            "date": "2025-08-18 20:49:08"
-        },
-        {
-            "id": 7,
-            "title": "Swiss Businesses Fear Being ‘Annihilated’ by One of the World’s Highest Tariffs",
-            "summary": "Goods shipped from the country face a 39 percent tariff in the U.S., which companies warn will have dire consequences if President Trump cannot be quickly dissuaded.",
+            "title": "افزایش حقوق و دستمزد و حذف یارانه سه دهک پردرآمد",
+            "summary": "در سال گذشته، حداقل دستمزدها حدود ۱۰ درصد بیش از تورم افزایش یافته و قدرت خرید ۲۴ میلیون شاغل حفظ شده است. یارانه سه دهک پردرآمد حذف شده تا حمایت بیشتری از خانوارهای کم درآمد انجام شود.",
             "category": "Economy",
             "image": "images/economy/im22.jpg",
             "importance": "Medium",
-            "date": "2025-08-18 20:49:08"
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 6,
+            "title": "کاهش واقعی هزینه خانوار و نشانه های عقبگرد رفاه",
+            "summary": "متوسط هزینه سالانه خانوار شهری در سال۱۴۰۳ کاهش واقعی را تجربه کرده است. سهم مسکن، سوخت و روشنایی در سبد هزینه خانوار افزایش یافته و واگرایی میان درآمد و هزینه خانوار از اوایل دهه۱۳۹۰ وجود دارد.",
+            "category": "Economy",
+            "image": "images/economy/im22.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 7,
+            "title": "الکترونیکی شدن فرایند صدور مجوزها در بانک مرکزی",
+            "summary": "بانک مرکزی ایران اعلام کرد: فرایند ثبت و صدور تمامی مجوزهای صادره توسط این نهاد از این پس به صورت الکترونیکی و از طریق درگاه ملی مجوزهای کشور انجام می شود.",
+            "category": "Finance",
+            "image": "images/finance/im15.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:28"
         },
         {
             "id": 8,
-            "title": "Here’s What Could Get More Expensive Under Trump’s Tariffs",
-            "summary": "The tariffs are driving up prices on everyday goods as businesses warn they can no longer absorb costs, leaving consumers to foot the bill.",
-            "category": "Economy",
-            "image": "images/economy/im16.jpg",
-            "importance": "Medium",
-            "date": "2025-08-18 20:49:08"
+            "title": "آخرین وضعیت پرونده ایران در FATF",
+            "summary": "رئیس مرکز اطلاعات مالی اعلام کرد در صورت تقسیم کار ملی و همراهی دستگاه ها، می توان ظرف یک تا یک ونیم سال از لیست سیاه FATF خارج شد. اولویت ایران تعلیق اقدامات تقابلی است.",
+            "category": "Finance",
+            "image": "images/finance/im25.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:28"
         },
         {
             "id": 9,
-            "title": "Effect of U.S. Tariffs on British Companies Is ‘Milder Than Feared,’ Central Bank Says",
-            "summary": "Britain’s economy is driven by domestic factors more than global ones right now, the governor of the Bank of England said on Thursday, when the central bank cut interest rates.",
+            "title": "سهم پایین بخش کشاورزی از ارزش افزوده اقتصاد",
+            "summary": "بخش کشاورزی، با سهم ۱۴.۶ درصدی از اشتغال کشور، تنها ۷.۴ درصد از ارزش افزوده اقتصاد کشور را تولید می کند و اغلب شاغلان در این بخش، افراد در سنین بالای ۴۰سال هستند.",
             "category": "Economy",
-            "image": "images/economy/im29.jpg",
+            "image": "images/economy/im20.jpg",
             "importance": "Medium",
-            "date": "2025-08-18 20:49:08"
+            "date": "2025-08-22 07:10:28"
         },
         {
             "id": 10,
-            "title": "Stocks End Mixed, as Investors Take Steeper Tariffs in Stride",
-            "summary": "The S&P 500 ended the day 0.1 percent lower, a muted move compared to the upheaval when tariffs were first announced in early April.",
-            "category": "Markets",
-            "image": "images/markets/im18.jpg",
+            "title": "رشد اقتصادی ضعیف سوئیس و فشار بر بانک مرکزی",
+            "summary": "اقتصاد سوئیس در فصل دوم سال جاری تنها ۰.۱ درصد رشد کرد که نشان از کندی جدی موتور رشد این کشور دارد و فشارها بر بانک مرکزی سوئیس را افزایش داده است.",
+            "category": "Economy",
+            "image": "images/economy/im11.jpg",
             "importance": "Medium",
-            "date": "2025-08-18 20:49:08"
+            "date": "2025-08-22 07:10:28"
         },
         {
             "id": 11,
-            "title": "Southeast Asia Looks for Clarity From U.S. on ‘Rules of Origin’",
-            "summary": "Thailand, Vietnam and other countries in the region face much higher tariffs on exports with Chinese-made components. But questions remain on how the U.S. defines a locally made product.",
+            "title": "رکود تورمی حاکم بر اقتصاد کشور",
+            "summary": "شاخص های کلان نشان می دهد که رکود تورمی بر اقتصاد کشور حاکم است. تورم نقطه  به نقطه در سقف ۲ساله خود قرار گرفته و شامخ نشان دهنده انقباض اقتصادی است.",
             "category": "Economy",
-            "image": "images/economy/im14.jpg",
-            "importance": "Medium",
-            "date": "2025-08-18 20:49:08"
+            "image": "images/economy/im24.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:28"
         },
         {
             "id": 12,
-            "title": "Apple C.E.O. Gifts Trump Gold",
-            "summary": "Tim Cook presented a glass plaque on a gold base to President Trump and pledged an additional $100 billion investment in the U.S. as Trump threatened a 100 percent tariff on foreign semiconductors.",
-            "category": "Technology",
-            "image": "images/technology/im9.jpg",
+            "title": "تلاش برای حل چالش چند نرخی بودن ارز",
+            "summary": "چند نرخی بودن بازار ارز یکی از چالش های دیرینه اقتصاد ایران است که باعث سردرگمی و افزایش نااطمینانی برای فعالان اقتصادی شده است.",
+            "category": "Finance",
+            "image": "images/finance/im25.jpg",
             "importance": "Medium",
-            "date": "2025-08-18 20:49:08"
+            "date": "2025-08-22 07:10:28"
         },
         {
             "id": 13,
-            "title": "China’s Exports Surged Again in July, but Not to America",
-            "summary": "China is shipping more goods to Southeast Asia and other regions that often re-export them to the United States. China still sells three times as much to the United States as it buys.",
+            "title": "رشد اقتصادی اوکراین در سال ۲۰۲۴",
+            "summary": "اقتصاد اوکراین در سال ۲۰۲۴ پس از دو سال پرتنش همچنان در مسیر رشد باقی مانده است و تولید ناخالص داخلی حقیقی حدود ۲.۹ درصد افزایش یافته است.",
             "category": "Economy",
-            "image": "images/economy/im21.jpg",
+            "image": "images/economy/im4.jpg",
             "importance": "Medium",
-            "date": "2025-08-18 20:49:08"
+            "date": "2025-08-22 07:10:28"
         },
         {
             "id": 14,
-            "title": "Staggering U.S. Tariffs Begin as Trump Widens Trade War",
-            "summary": "The duties, which the president announced last week, took effect for about 90 countries just after midnight.",
+            "title": "اعلام آخرین مهلت تعیین تکلیف درخواست های صدور مجوز",
+            "summary": "سوم شهریور ماه، به عنوان آخرین مهلت تعیین تکلیف درخواست های صدور مجوز مواجه با تأخیر، قبل از آغاز دور جدید صدور خودکار مجوزهای معطل مانده، اعلام شده است.",
             "category": "Economy",
-            "image": "images/economy/im26.jpg",
+            "image": "images/economy/im27.jpg",
+            "importance": "Low",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 15,
+            "title": "خبر رئیس کل بانک مرکزی از اجرای طرح حذف چهار صفر از پول ملی",
+            "summary": "رئیس کل بانک مرکزی از اجرای طرح حذف چهار صفر از پول ملی و تغییر واحد رسمی به «تومان» با واحد خرد «قِران» خبر داد.",
+            "category": "Finance",
+            "image": "images/finance/im28.jpg",
             "importance": "High",
-            "date": "2025-08-18 20:49:08"
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 16,
+            "title": "راه اندازی تالار دوم بازار ارز تجاری",
+            "summary": "بانک مرکزی به زودی «تالار دوم بازار ارز تجاری» را در مرکز مبادله ایران راه اندازی می کند. هدف اصلی، حل مشکلات صادرکنندگان خرد و تسهیل بازگشت ارز صادراتی به کشور اعلام شده است.",
+            "category": "Finance",
+            "image": "images/finance/im4.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 17,
+            "title": "عملکرد ضعیف مصوبه مولدسازی دارایی های مازاد دولت",
+            "summary": "از ۲۹۷۰ ملک مصوب مولدسازی، فقط ۲۷درصد به مرحله اخذ مجوز تعیین قیمت یا مزایده رسیده و ارزش کل فروش، معاوضه و تهاتر طی دو سال، حدود ۳درصد ارزش بالقوه این املاک بوده است.",
+            "category": "Economy",
+            "image": "images/economy/im19.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 18,
+            "title": "حرکت اقتصاد آمریکا به سمت سرمایه داری دولتی",
+            "summary": "اقتصاد آمریکا که زمانی نماد بازار آزاد بود، اکنون در حال حرکت به سمت «سرمایه داری دولتی» است؛ سیستمی که در آن دولت به طور فزاینده ای در تصمیمات شرکت های خصوصی دخالت می کند.",
+            "category": "Economy",
+            "image": "images/economy/im23.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 19,
+            "title": "امکان استفاده از سپرده های ارزی به عنوان وثیقه",
+            "summary": "سپرده های ارزی اشخاص می تواند به عنوان وثیقه تسهیلات اعطائی جهت تأمین سرمایه ثابت و در گردش واحدهای تولیدی استفاده شوند. همچنین در زمان تسویه تسهیلات، موسسات اعتباری باید اصل و سود سپرده ارزی را با همان ارز سپرده گذاری شده پرداخت کنند.",
+            "category": "Finance",
+            "image": "images/finance/im13.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:28"
         }
     ]
 }

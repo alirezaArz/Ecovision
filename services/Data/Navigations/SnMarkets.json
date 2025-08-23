@@ -197,6 +197,96 @@
             "image": "images/markets/im29.jpg",
             "importance": "Medium",
             "date": "2025-08-18 20:48:31"
+        },
+        {
+            "id": 0,
+            "title": "US Stocks Fall as Hotter-Than-Expected PPI Halts Record Run",
+            "summary": "US stocks decline due to higher than expected producer price index (PPI), ending a record run.",
+            "category": "Markets",
+            "image": "images/markets/im19.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:09:20"
+        },
+        {
+            "id": 1,
+            "title": "Why Goldman Sachs says the 'Goldilocks' stock market may get hit",
+            "summary": "Goldman Sachs warns of potential downturn in the stock market.",
+            "category": "Markets",
+            "image": "images/markets/im21.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:46"
+        },
+        {
+            "id": 6,
+            "title": "What To Expect in Markets This Week: Fed Chair Remarks, Home Sales, Walmart and Home Depot Earnings",
+            "summary": "Preview of key market events, including Fed Chair's speech and retail earnings.",
+            "category": "Markets",
+            "image": "images/markets/im15.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:46"
+        },
+        {
+            "id": 9,
+            "title": "Markets don't need Fed rate cuts to move higher, strategist says",
+            "summary": "A strategist claims that the markets can increase without Federal Reserve rate reductions.",
+            "category": "Markets",
+            "image": "images/markets/im1.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:46"
+        },
+        {
+            "id": 4,
+            "title": "China’s $11 Trillion Stock Market Is a Headache for Both Xi and Trump",
+            "summary": "Challenges posed by China's stock market to both Chinese and US leadership.",
+            "category": "Markets",
+            "image": "images/markets/im29.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:52"
+        },
+        {
+            "id": 11,
+            "title": "US Corporate Bond Spreads Sink to 27-Year Low as ‘FOMO’ Sets In",
+            "summary": "Decline in US corporate bond spreads to a 27-year low, driven by 'Fear of Missing Out' (FOMO).",
+            "category": "Markets",
+            "image": "images/markets/im24.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:09:52"
+        },
+        {
+            "id": 1,
+            "title": "Why Goldman Sachs says the 'Goldilocks' stock market may get hit",
+            "summary": "Goldman Sachs warns that the current 'Goldilocks' stock market scenario might face challenges.",
+            "category": "Markets",
+            "image": "images/markets/im25.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:12"
+        },
+        {
+            "id": 4,
+            "title": "What To Expect in Markets This Week: Fed Chair Remarks, Home Sales, Walmart and Home Depot Earnings",
+            "summary": "Preview of key market events for the week, including Federal Reserve Chair's comments and earnings reports from major retailers.",
+            "category": "Markets",
+            "image": "images/markets/im15.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:12"
+        },
+        {
+            "id": 7,
+            "title": "Markets don't need Fed rate cuts to move higher, strategist says",
+            "summary": "A strategist argues that stock market gains are possible even without interest rate cuts by the Federal Reserve.",
+            "category": "Markets",
+            "image": "images/markets/im21.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:12"
+        },
+        {
+            "id": 4,
+            "title": "China’s $11 Trillion Stock Market Is a Headache for Both Xi and Trump",
+            "summary": "Challenges posed by China's stock market to both Xi Jinping and Donald Trump.",
+            "category": "Markets",
+            "image": "images/markets/im26.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:17"
         }
     ]
 }

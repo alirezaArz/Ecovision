@@ -796,6 +796,429 @@
             "image": "images/economy/im5.jpg",
             "importance": "High",
             "date": "2025-08-18 20:48:56"
+        },
+        {
+            "id": 2,
+            "title": "US Producer Prices Rise by Most in Three Years on Services",
+            "summary": "US producer prices increase significantly due to a surge in service costs.",
+            "category": "Economy",
+            "image": "images/economy/im18.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:09:20"
+        },
+        {
+            "id": 3,
+            "title": "US Jobless Claims Edge Lower, Continuing Claims Remain Elevated",
+            "summary": "US jobless claims slightly decrease, but continuing claims remain high.",
+            "category": "Economy",
+            "image": "images/economy/im20.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:20"
+        },
+        {
+            "id": 4,
+            "title": "Monsoon Rains Recharge Indian Dams, Boosting Winter Crop Outlook",
+            "summary": "Monsoon rains replenish Indian dams, improving prospects for winter crops.",
+            "category": "Economy",
+            "image": "images/economy/im25.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:20"
+        },
+        {
+            "id": 0,
+            "title": "رشد اندک اقتصاد سوئیس و فشار بر بانک مرکزی",
+            "summary": "اقتصاد سوئیس در فصل دوم سال جاری ۰.۱ درصد رشد کرد که نشان از کندی موتور رشد این کشور دارد و فشارها بر بانک مرکزی برای بازگرداندن نرخ بهره به محدوده منفی را افزایش داده است.",
+            "category": "Economy",
+            "image": "images/economy/im14.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 1,
+            "title": "رکود تورمی در اقتصاد ایران",
+            "summary": "شاخص های کلان نشان می دهد که رکود تورمی بر اقتصاد کشور حاکم است. تورم نقطه به نقطه در تیر ماه به ۴۱.۲درصد و تورم ماهانه به ۳.۵درصد رسیده است. شامخ نیز به ۴۷.۳ رسیده که نشان دهنده انقباض اقتصادی است.",
+            "category": "Economy",
+            "image": "images/economy/im21.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 5,
+            "title": "وضعیت بخش کشاورزی در اقتصاد ایران",
+            "summary": "بخش کشاورزی با سهم ۱۴.۶ درصدی از اشتغال کشور، تنها ۷.۴ درصد از ارزش افزوده اقتصاد کشور را تولید می کند. اغلب شاغلان در این بخش، افراد در سنین بالای ۴۰سال هستند و رشد این بخش در فصل بهار منفی بوده است.",
+            "category": "Economy",
+            "image": "images/economy/im21.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 6,
+            "title": "رشد اقتصاد اوکراین در سال ۲۰۲۴",
+            "summary": "اقتصاد اوکراین در سال ۲۰۲۴ پس از دو سال پرتنش همچنان در مسیر رشد باقی مانده است. تولید ناخالص داخلی حقیقی حدود ۲.۹ درصد افزایش یافته است.",
+            "category": "Economy",
+            "image": "images/economy/im13.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 9,
+            "title": "عملکرد مصوبه مولدسازی دارایی های مازاد دولت",
+            "summary": "از ۲۹۷۰ ملک مصوب، فقط ۲۷درصد به مرحله اخذ مجوز تعیین قیمت یا مزایده رسیده و ارزش کل فروش، معاوضه و تهاتر طی دو سال، حدود ۳درصد ارزش بالقوه این املاک بوده است.",
+            "category": "Economy",
+            "image": "images/economy/im24.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 10,
+            "title": "تغییر رویکرد اقتصادی دولت آمریکا به سمت سرمایه داری دولتی",
+            "summary": "اقتصاد آمریکا در حال حرکت به سمت «سرمایه داری دولتی» است؛ سیستمی که در آن دولت به طور فزاینده ای در تصمیمات شرکت های خصوصی دخالت می کند.",
+            "category": "Economy",
+            "image": "images/economy/im28.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 11,
+            "title": "تاکید بر گسترش همکاری های دوجانبه با چین",
+            "summary": "وزیر امور اقتصادی و دارایی در دیدار با سفیر چین در تهران، بر گسترش همکاری های دوجانبه و چندجانبه با استفاده از ظرفیت سازمان همکاری شانگهای تأکید کرد.",
+            "category": "Economy",
+            "image": "images/economy/im10.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 13,
+            "title": "نظرسنجی «دنیای اقتصاد»: حل مسائل اقتصادی مهم ترین درخواست مردم",
+            "summary": "نتایج نظرسنجی «دنیای اقتصاد» نشان می دهد که حل مسائل اقتصادی مهم ترین درخواست مردم از دولت است و میزان موافقت با سیاست های اقتصادی دولت «کم» یا «خیلی کم» ارزیابی شده است.",
+            "category": "Economy",
+            "image": "images/economy/im10.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 15,
+            "title": "توقیف خودروها و یک واحد تجاری کوروش کمپانی",
+            "summary": "سخنگوی قوه قضائیه در نشست خبری خود اعلام کرد: تعداد ۶ دستگاه خودرو از انبار متهمان کوروش کمپانی توقیف شده که در مزایده قرار گرفته است. یک واحد تجاری نیز توقیف شد و مبلغ ١٧ میلیارد تومان از فروش ملک در حساب موجود است.",
+            "category": "Economy",
+            "image": "images/economy/im30.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 0,
+            "title": "July inflation data has economists on edge",
+            "summary": "Inflation data in July is causing concern among economists.",
+            "category": "Economy",
+            "image": "images/economy/im5.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:09:46"
+        },
+        {
+            "id": 4,
+            "title": "How worrying is the rebound in UK inflation?",
+            "summary": "An analysis of the level of concern caused by rising inflation in the UK.",
+            "category": "Economy",
+            "image": "images/economy/im1.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:46"
+        },
+        {
+            "id": 5,
+            "title": "Borderlands Mexico: US trade with Mexico tops $73B in June",
+            "summary": "Trade between the US and Mexico exceeded $73 billion in June.",
+            "category": "Economy",
+            "image": "images/economy/im12.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:46"
+        },
+        {
+            "id": 7,
+            "title": "Home-Improvement Chains' Earnings Could Show How Affluent Americans Are Spending",
+            "summary": "Earnings reports from home-improvement chains might reveal spending patterns of affluent Americans.",
+            "category": "Economy",
+            "image": "images/economy/im18.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:46"
+        },
+        {
+            "id": 1,
+            "title": "Singapore Prioritizes Jobs Amid Fragmenting World, Rise of AI",
+            "summary": "Singapore's focus on job preservation in the context of global fragmentation and AI advancements.",
+            "category": "Economy",
+            "image": "images/economy/im23.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:52"
+        },
+        {
+            "id": 3,
+            "title": "Israel’s Economy Unexpectedly Shrinks as Iran War Takes Toll",
+            "summary": "Unexpected contraction of Israel's economy due to the impact of the conflict with Iran.",
+            "category": "Economy",
+            "image": "images/economy/im21.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:09:52"
+        },
+        {
+            "id": 7,
+            "title": "Health of US Consumer Is the Focus as Retailers Prepare Earnings",
+            "summary": "Importance of US consumer health as retailers prepare to release earnings reports.",
+            "category": "Economy",
+            "image": "images/economy/im5.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:52"
+        },
+        {
+            "id": 8,
+            "title": "China’s Latest Data Sound Alarm for Xi on Consumer Fragility",
+            "summary": "Recent Chinese economic data signals concerns about consumer weakness.",
+            "category": "Economy",
+            "image": "images/economy/im29.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:09:52"
+        },
+        {
+            "id": 9,
+            "title": "Charting the Global Economy: US Retail Sales Point to Resilience",
+            "summary": "Analysis of US retail sales data indicating resilience in the economy.",
+            "category": "Economy",
+            "image": "images/economy/im21.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:52"
+        },
+        {
+            "id": 10,
+            "title": "Italians as Well Off as Brits Expose UK’s Era of Stagnation",
+            "summary": "Comparison of living standards in Italy and the UK, highlighting UK's stagnation.",
+            "category": "Economy",
+            "image": "images/economy/im26.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:52"
+        },
+        {
+            "id": 0,
+            "title": "رکود تورمی در اقتصاد ایران",
+            "summary": "بررسی شاخص های کلان نشان می دهد که رکود تورمی بر اقتصاد کشور حاکم است. تورم نقطه به نقطه در تیر ماه به ۴۱.۲ درصد رسیده و شامخ به ۴۷.۳ رسیده که نشان دهنده انقباض اقتصادی است.",
+            "category": "Economy",
+            "image": "images/economy/im8.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:00"
+        },
+        {
+            "id": 3,
+            "title": "وضعیت بخش کشاورزی در ایران",
+            "summary": "بخش کشاورزی با سهم ۱۴.۶ درصدی از اشتغال کشور، تنها ۷.۴ درصد از ارزش افزوده اقتصاد کشور را تولید می کند و اغلب شاغلان در این بخش، افراد در سنین بالای ۴۰ سال هستند.",
+            "category": "Economy",
+            "image": "images/economy/im13.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:00"
+        },
+        {
+            "id": 5,
+            "title": "عملکرد مصوبه مولدسازی دارایی های مازاد دولت",
+            "summary": "از ۲۹۷۰ ملک مصوب مولدسازی، فقط ۲۷ درصد به مرحله اخذ مجوز تعیین قیمت یا مزایده رسیده و ارزش کل فروش، معاوضه و تهاتر طی دو سال، حدود ۳ درصد ارزش بالقوه این املاک بوده است.",
+            "category": "Economy",
+            "image": "images/economy/im21.jpg",
+            "importance": "Low",
+            "date": "2025-08-22 07:10:00"
+        },
+        {
+            "id": 6,
+            "title": "نارضایتی از سیاست های اقتصادی دولت",
+            "summary": "نتایج نظرسنجی «دنیای اقتصاد» نشان می دهد که حل مسائل اقتصادی مهم ترین درخواست مردم از دولت است و ۸۹ درصد میزان موافقت خود با سیاست های اقتصادی دولت را «کم» یا «خیلی کم» ارزیابی کرده اند.",
+            "category": "Economy",
+            "image": "images/economy/im24.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:00"
+        },
+        {
+            "id": 0,
+            "title": "July inflation data has economists on edge",
+            "summary": "Economists are concerned about the latest inflation figures for July.",
+            "category": "Economy",
+            "image": "images/economy/im4.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:12"
+        },
+        {
+            "id": 3,
+            "title": "How worrying is the rebound in UK inflation?",
+            "summary": "Analysis of the concerns surrounding the resurgence of inflation in the UK.",
+            "category": "Economy",
+            "image": "images/economy/im18.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:12"
+        },
+        {
+            "id": 5,
+            "title": "Home-Improvement Chains' Earnings Could Show How Affluent Americans Are Spending",
+            "summary": "Earnings reports from home improvement chains might provide insights into spending patterns of affluent Americans.",
+            "category": "Economy",
+            "image": "images/economy/im24.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:12"
+        },
+        {
+            "id": 1,
+            "title": "Singapore Prioritizes Jobs Amid Fragmenting World, Rise of AI",
+            "summary": "Singapore's focus on job creation in the context of global fragmentation and AI advancements.",
+            "category": "Economy",
+            "image": "images/economy/im3.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:17"
+        },
+        {
+            "id": 3,
+            "title": "Israel’s Economy Unexpectedly Shrinks as Iran War Takes Toll",
+            "summary": "Unexpected contraction of Israel's economy due to the impact of the Iran war.",
+            "category": "Economy",
+            "image": "images/economy/im18.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:17"
+        },
+        {
+            "id": 7,
+            "title": "Health of US Consumer Is the Focus as Retailers Prepare Earnings",
+            "summary": "Importance of US consumer health as retailers prepare to announce earnings.",
+            "category": "Economy",
+            "image": "images/economy/im12.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:17"
+        },
+        {
+            "id": 8,
+            "title": "China’s Latest Data Sound Alarm for Xi on Consumer Fragility",
+            "summary": "Concerns about consumer fragility in China raised by latest economic data.",
+            "category": "Economy",
+            "image": "images/economy/im24.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:17"
+        },
+        {
+            "id": 9,
+            "title": "Charting the Global Economy: US Retail Sales Point to Resilience",
+            "summary": "Resilience of the US economy indicated by retail sales data.",
+            "category": "Economy",
+            "image": "images/economy/im1.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:17"
+        },
+        {
+            "id": 10,
+            "title": "Italians as Well Off as Brits Expose UK’s Era of Stagnation",
+            "summary": "Comparison of Italian and British economic well-being highlighting UK's stagnation.",
+            "category": "Economy",
+            "image": "images/economy/im24.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:17"
+        },
+        {
+            "id": 0,
+            "title": "تاثیر محدودیت شغلی بر تحصیلات زنان",
+            "summary": "محدود کردن فرصت های شغلی برای زنان، به طور مستقیم بر تصمیم آنها برای ادامه تحصیل در دانشگاه تاثیر می گذارد. کاهش استخدام زنان در بخش دولتی منجر به کاهش نرخ حضور زنان در دانشگاه شده است.",
+            "category": "Economy",
+            "image": "images/economy/im14.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 2,
+            "title": "ارز و ایفای تعهدات ارزی، ریشه مشکلات فعالان اقتصادی",
+            "summary": "وزیر امور اقتصادی و دارایی ریشه اصلی مشکلات فعالان اقتصادی را در ارز و ایفای تعهدات ارزی دانست.",
+            "category": "Economy",
+            "image": "images/economy/im12.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 3,
+            "title": "چالش های صنعت و معدن ایران",
+            "summary": "صنعت ایران با بحران هایی چون ناترازی انرژی، تهدیدهای زیست محیطی و عقب ماندگی از تحولات فناورانه روبرو است. لزوم تغییر سیاست ها، استفاده از فناوری های نوین و تعادل میان توسعه اقتصادی و حفاظت محیط زیست مورد تاکید قرار گرفته است.",
+            "category": "Economy",
+            "image": "images/economy/im29.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 5,
+            "title": "افزایش حقوق و دستمزد و حذف یارانه سه دهک پردرآمد",
+            "summary": "در سال گذشته، حداقل دستمزدها حدود ۱۰ درصد بیش از تورم افزایش یافته و قدرت خرید ۲۴ میلیون شاغل حفظ شده است. یارانه سه دهک پردرآمد حذف شده تا حمایت بیشتری از خانوارهای کم درآمد انجام شود.",
+            "category": "Economy",
+            "image": "images/economy/im22.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 6,
+            "title": "کاهش واقعی هزینه خانوار و نشانه های عقبگرد رفاه",
+            "summary": "متوسط هزینه سالانه خانوار شهری در سال۱۴۰۳ کاهش واقعی را تجربه کرده است. سهم مسکن، سوخت و روشنایی در سبد هزینه خانوار افزایش یافته و واگرایی میان درآمد و هزینه خانوار از اوایل دهه۱۳۹۰ وجود دارد.",
+            "category": "Economy",
+            "image": "images/economy/im22.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 9,
+            "title": "سهم پایین بخش کشاورزی از ارزش افزوده اقتصاد",
+            "summary": "بخش کشاورزی، با سهم ۱۴.۶ درصدی از اشتغال کشور، تنها ۷.۴ درصد از ارزش افزوده اقتصاد کشور را تولید می کند و اغلب شاغلان در این بخش، افراد در سنین بالای ۴۰سال هستند.",
+            "category": "Economy",
+            "image": "images/economy/im20.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 10,
+            "title": "رشد اقتصادی ضعیف سوئیس و فشار بر بانک مرکزی",
+            "summary": "اقتصاد سوئیس در فصل دوم سال جاری تنها ۰.۱ درصد رشد کرد که نشان از کندی جدی موتور رشد این کشور دارد و فشارها بر بانک مرکزی سوئیس را افزایش داده است.",
+            "category": "Economy",
+            "image": "images/economy/im11.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 11,
+            "title": "رکود تورمی حاکم بر اقتصاد کشور",
+            "summary": "شاخص های کلان نشان می دهد که رکود تورمی بر اقتصاد کشور حاکم است. تورم نقطه  به نقطه در سقف ۲ساله خود قرار گرفته و شامخ نشان دهنده انقباض اقتصادی است.",
+            "category": "Economy",
+            "image": "images/economy/im24.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 13,
+            "title": "رشد اقتصادی اوکراین در سال ۲۰۲۴",
+            "summary": "اقتصاد اوکراین در سال ۲۰۲۴ پس از دو سال پرتنش همچنان در مسیر رشد باقی مانده است و تولید ناخالص داخلی حقیقی حدود ۲.۹ درصد افزایش یافته است.",
+            "category": "Economy",
+            "image": "images/economy/im4.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 14,
+            "title": "اعلام آخرین مهلت تعیین تکلیف درخواست های صدور مجوز",
+            "summary": "سوم شهریور ماه، به عنوان آخرین مهلت تعیین تکلیف درخواست های صدور مجوز مواجه با تأخیر، قبل از آغاز دور جدید صدور خودکار مجوزهای معطل مانده، اعلام شده است.",
+            "category": "Economy",
+            "image": "images/economy/im27.jpg",
+            "importance": "Low",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 17,
+            "title": "عملکرد ضعیف مصوبه مولدسازی دارایی های مازاد دولت",
+            "summary": "از ۲۹۷۰ ملک مصوب مولدسازی، فقط ۲۷درصد به مرحله اخذ مجوز تعیین قیمت یا مزایده رسیده و ارزش کل فروش، معاوضه و تهاتر طی دو سال، حدود ۳درصد ارزش بالقوه این املاک بوده است.",
+            "category": "Economy",
+            "image": "images/economy/im19.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 18,
+            "title": "حرکت اقتصاد آمریکا به سمت سرمایه داری دولتی",
+            "summary": "اقتصاد آمریکا که زمانی نماد بازار آزاد بود، اکنون در حال حرکت به سمت «سرمایه داری دولتی» است؛ سیستمی که در آن دولت به طور فزاینده ای در تصمیمات شرکت های خصوصی دخالت می کند.",
+            "category": "Economy",
+            "image": "images/economy/im23.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:28"
         }
     ]
 }

@@ -17,6 +17,33 @@
             "image": "images/investing/im23.jpg",
             "importance": "Medium",
             "date": "2025-08-14 01:57:06"
+        },
+        {
+            "id": 6,
+            "title": "Lure of ‘Free Money’ in Secondaries Nears a Mania",
+            "summary": "Growing interest and potential mania in secondary market investments.",
+            "category": "Investing",
+            "image": "images/investing/im10.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:52"
+        },
+        {
+            "id": 10,
+            "title": "3 AI chip stocks that are best positioned right now",
+            "summary": "Recommendations for three artificial intelligence (AI) chip stocks with strong potential.",
+            "category": "Investing",
+            "image": "images/investing/im5.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:12"
+        },
+        {
+            "id": 6,
+            "title": "Lure of ‘Free Money’ in Secondaries Nears a Mania",
+            "summary": "Potential mania in the secondary market driven by the allure of 'free money'.",
+            "category": "Investing",
+            "image": "images/investing/im9.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:17"
         }
     ]
 }

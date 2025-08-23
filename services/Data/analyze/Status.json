@@ -29,7 +29,8 @@
         991497913,
         413694672,
         67577915,
-        947637886
+        947637886,
+        585696870
     ],
     "localPending": [],
     "Status": [
@@ -179,10 +180,10 @@
         {
             "id": 168231063,
             "modifier": "bloomberg",
-            "status": "failed",
+            "status": "done",
             "modified date": "2025-08-14 17:47:41",
             "commander": "Admin",
-            "external model": "failed",
+            "external model": "verified",
             "local model": "undefined"
         },
         {
@@ -206,73 +207,82 @@
         {
             "id": 768281171,
             "modifier": "dnsd",
-            "status": "failed",
+            "status": "done",
             "modified date": "2025-08-17 18:05:54",
             "commander": "Admin",
-            "external model": "failed",
+            "external model": "verified",
             "local model": "undefined"
         },
         {
             "id": 760698494,
             "modifier": "nyTimes",
-            "status": "failed",
+            "status": "done",
             "modified date": "2025-08-17 18:06:31",
             "commander": "Admin",
-            "external model": "failed",
+            "external model": "verified",
             "local model": "undefined"
         },
         {
             "id": 901618785,
             "modifier": "yahoo",
-            "status": "failed",
+            "status": "done",
             "modified date": "2025-08-17 18:07:12",
             "commander": "Admin",
-            "external model": "failed",
+            "external model": "verified",
             "local model": "undefined"
         },
         {
             "id": 20854200,
             "modifier": "bloomberg",
-            "status": "failed",
+            "status": "done",
             "modified date": "2025-08-17 18:10:08",
             "commander": "Admin",
-            "external model": "failed",
+            "external model": "verified",
             "local model": "undefined"
         },
         {
             "id": 991497913,
             "modifier": "dnsd",
-            "status": "failed",
+            "status": "done",
             "modified date": "2025-08-17 18:21:06",
             "commander": "Admin",
-            "external model": "failed",
+            "external model": "verified",
             "local model": "undefined"
         },
         {
             "id": 413694672,
             "modifier": "nyTimes",
-            "status": "failed",
+            "status": "done",
             "modified date": "2025-08-17 18:21:38",
             "commander": "Admin",
-            "external model": "failed",
+            "external model": "verified",
             "local model": "undefined"
         },
         {
             "id": 67577915,
             "modifier": "yahoo",
-            "status": "failed",
+            "status": "done",
             "modified date": "2025-08-17 18:22:01",
             "commander": "Admin",
-            "external model": "failed",
+            "external model": "verified",
             "local model": "undefined"
         },
         {
             "id": 947637886,
             "modifier": "bloomberg",
-            "status": "failed",
+            "status": "done",
             "modified date": "2025-08-17 18:22:51",
             "commander": "Admin",
-            "external model": "failed",
+            "external model": "verified",
+            "local model": "undefined"
+        },
+        {
+            "id": 585696870,
+            "modifier": "dnsd",
+            "status": "done",
+            "modified date": "2025-08-22 07:08:47",
+            "commander": "Admin",
+            "external model": "verified",
             "local model": "undefined"
         }
     ]

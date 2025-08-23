@@ -26,6 +26,60 @@
             "image": "images/technology/im24.jpg",
             "importance": "Medium",
             "date": "2025-08-14 01:57:06"
+        },
+        {
+            "id": 2,
+            "title": "EU push to protect digital rules holds up trade statement with US",
+            "summary": "EU's efforts to safeguard digital regulations are hindering a trade agreement with the US.",
+            "category": "Technology",
+            "image": "images/technology/im30.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:46"
+        },
+        {
+            "id": 11,
+            "title": "OpenAI, Palantir, and Meta execs join fight for America’s tech edge",
+            "summary": "Executives from OpenAI, Palantir, and Meta collaborate to boost America's technological advantage.",
+            "category": "Technology",
+            "image": "images/technology/im29.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:09:46"
+        },
+        {
+            "id": 12,
+            "title": "3 AI chip stocks that are best positioned right now",
+            "summary": "Highlights the best positioned AI chip stocks.",
+            "category": "Technology",
+            "image": "images/technology/im19.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:46"
+        },
+        {
+            "id": 2,
+            "title": "AI Boom Seen Driving Next Decade of Emerging Markets Performance",
+            "summary": "The potential impact of AI on the economic growth of emerging markets in the coming decade.",
+            "category": "Technology",
+            "image": "images/technology/im4.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:09:52"
+        },
+        {
+            "id": 9,
+            "title": "OpenAI, Palantir, and Meta execs join fight for America’s tech edge",
+            "summary": "Executives from OpenAI, Palantir, and Meta are collaborating to bolster America's technological leadership.",
+            "category": "Technology",
+            "image": "images/technology/im24.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:12"
+        },
+        {
+            "id": 2,
+            "title": "AI Boom Seen Driving Next Decade of Emerging Markets Performance",
+            "summary": "Potential impact of AI on the performance of emerging markets in the next decade.",
+            "category": "Technology",
+            "image": "images/technology/im16.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:17"
         }
     ]
 }

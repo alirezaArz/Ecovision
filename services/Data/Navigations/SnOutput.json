@@ -2,6 +2,132 @@
     "newsData": [
         {
             "id": 0,
+            "title": "رکود تورمی حاکم بر اقتصاد کشور",
+            "summary": "شاخص های کلان نشان می دهد که رکود تورمی بر اقتصاد کشور حاکم است. تورم نقطه  به نقطه در سقف ۲ساله خود قرار گرفته و شامخ نشان دهنده انقباض اقتصادی است.",
+            "category": "Economy",
+            "image": "images/economy/im24.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 1,
+            "title": "کاهش واقعی هزینه خانوار و نشانه های عقبگرد رفاه",
+            "summary": "متوسط هزینه سالانه خانوار شهری در سال۱۴۰۳ کاهش واقعی را تجربه کرده است. سهم مسکن، سوخت و روشنایی در سبد هزینه خانوار افزایش یافته و واگرایی میان درآمد و هزینه خانوار از اوایل دهه۱۳۹۰ وجود دارد.",
+            "category": "Economy",
+            "image": "images/economy/im22.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 2,
+            "title": "چالش های صنعت و معدن ایران",
+            "summary": "صنعت ایران با بحران هایی چون ناترازی انرژی، تهدیدهای زیست محیطی و عقب ماندگی از تحولات فناورانه روبرو است. لزوم تغییر سیاست ها، استفاده از فناوری های نوین و تعادل میان توسعه اقتصادی و حفاظت محیط زیست مورد تاکید قرار گرفته است.",
+            "category": "Economy",
+            "image": "images/economy/im29.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 3,
+            "title": "تاثیر محدودیت شغلی بر تحصیلات زنان",
+            "summary": "محدود کردن فرصت های شغلی برای زنان، به طور مستقیم بر تصمیم آنها برای ادامه تحصیل در دانشگاه تاثیر می گذارد. کاهش استخدام زنان در بخش دولتی منجر به کاهش نرخ حضور زنان در دانشگاه شده است.",
+            "category": "Economy",
+            "image": "images/economy/im14.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 4,
+            "title": "China’s Latest Data Sound Alarm for Xi on Consumer Fragility",
+            "summary": "Concerns about consumer fragility in China raised by latest economic data.",
+            "category": "Economy",
+            "image": "images/economy/im24.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:17"
+        },
+        {
+            "id": 5,
+            "title": "Israel’s Economy Unexpectedly Shrinks as Iran War Takes Toll",
+            "summary": "Unexpected contraction of Israel's economy due to the impact of the Iran war.",
+            "category": "Economy",
+            "image": "images/economy/im18.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:17"
+        },
+        {
+            "id": 6,
+            "title": "July inflation data has economists on edge",
+            "summary": "Economists are concerned about the latest inflation figures for July.",
+            "category": "Economy",
+            "image": "images/economy/im4.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:12"
+        },
+        {
+            "id": 7,
+            "title": "نارضایتی از سیاست های اقتصادی دولت",
+            "summary": "نتایج نظرسنجی «دنیای اقتصاد» نشان می دهد که حل مسائل اقتصادی مهم ترین درخواست مردم از دولت است و ۸۹ درصد میزان موافقت خود با سیاست های اقتصادی دولت را «کم» یا «خیلی کم» ارزیابی کرده اند.",
+            "category": "Economy",
+            "image": "images/economy/im24.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:00"
+        },
+        {
+            "id": 8,
+            "title": "رکود تورمی در اقتصاد ایران",
+            "summary": "بررسی شاخص های کلان نشان می دهد که رکود تورمی بر اقتصاد کشور حاکم است. تورم نقطه به نقطه در تیر ماه به ۴۱.۲ درصد رسیده و شامخ به ۴۷.۳ رسیده که نشان دهنده انقباض اقتصادی است.",
+            "category": "Economy",
+            "image": "images/economy/im8.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:00"
+        },
+        {
+            "id": 9,
+            "title": "China’s Latest Data Sound Alarm for Xi on Consumer Fragility",
+            "summary": "Recent Chinese economic data signals concerns about consumer weakness.",
+            "category": "Economy",
+            "image": "images/economy/im29.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:09:52"
+        },
+        {
+            "id": 10,
+            "title": "Israel’s Economy Unexpectedly Shrinks as Iran War Takes Toll",
+            "summary": "Unexpected contraction of Israel's economy due to the impact of the conflict with Iran.",
+            "category": "Economy",
+            "image": "images/economy/im21.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:09:52"
+        },
+        {
+            "id": 11,
+            "title": "July inflation data has economists on edge",
+            "summary": "Inflation data in July is causing concern among economists.",
+            "category": "Economy",
+            "image": "images/economy/im5.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:09:46"
+        },
+        {
+            "id": 12,
+            "title": "رکود تورمی در اقتصاد ایران",
+            "summary": "شاخص های کلان نشان می دهد که رکود تورمی بر اقتصاد کشور حاکم است. تورم نقطه به نقطه در تیر ماه به ۴۱.۲درصد و تورم ماهانه به ۳.۵درصد رسیده است. شامخ نیز به ۴۷.۳ رسیده که نشان دهنده انقباض اقتصادی است.",
+            "category": "Economy",
+            "image": "images/economy/im21.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 13,
+            "title": "US Producer Prices Rise by Most in Three Years on Services",
+            "summary": "US producer prices increase significantly due to a surge in service costs.",
+            "category": "Economy",
+            "image": "images/economy/im18.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:09:20"
+        },
+        {
+            "id": 14,
             "title": "اولویت مسائل اقتصادی از دیدگاه مردم",
             "summary": "نتایج نظرسنجی نشان می دهد که حل مسائل اقتصادی مهم ترین درخواست مردم از دولت است و ۸۹درصد میزان موافقت خود با سیاست های اقتصادی دولت را «کم» یا «خیلی کم» ارزیابی کرده اند.",
             "category": "Economy",
@@ -10,7 +136,7 @@
             "date": "2025-08-18 20:48:56"
         },
         {
-            "id": 1,
+            "id": 15,
             "title": "بررسی وضعیت رکود تورمی در اقتصاد ایران",
             "summary": "شاخص های کلان نشان می دهد که رکود تورمی بر اقتصاد کشور حاکم است؛ تورم نقطه به نقطه در سقف ۲ ساله و شامخ نشان دهنده انقباض اقتصادی است. پژوهش ها به بررسی راه های خروج از رکود تورمی پرداخته اند.",
             "category": "Economy",
@@ -19,7 +145,7 @@
             "date": "2025-08-18 20:48:56"
         },
         {
-            "id": 2,
+            "id": 16,
             "title": "رشد اندک اقتصاد سوئیس و فشار بر بانک مرکزی",
             "summary": "اقتصاد سوئیس در فصل دوم سال جاری تنها ۰.۱ درصد رشد کرد که نشان از کندی رشد دارد و فشارها بر بانک مرکزی برای بازگرداندن نرخ بهره به محدوده منفی را افزایش داده است.",
             "category": "Economy",
@@ -28,7 +154,7 @@
             "date": "2025-08-18 20:48:56"
         },
         {
-            "id": 3,
+            "id": 17,
             "title": "Trump Warns of Economic Disaster if Court Strikes Down Tariffs",
             "summary": "The president has crowed about the billions of dollars collected so far from tariffs. That money could be at risk if the White House loses the legal battle.",
             "category": "Economy",
@@ -37,7 +163,7 @@
             "date": "2025-08-18 20:48:39"
         },
         {
-            "id": 4,
+            "id": 18,
             "title": "اولویت مسائل اقتصادی از نگاه مردم",
             "summary": "نتایج نظرسنجی «دنیای اقتصاد» در فضای مجازی حاکی از آن است که حل مسائل اقتصادی مهم ترین درخواست مردم از دولت است. ۸۹درصد میزان موافقت خود با سیاست های اقتصادی دولت را «کم» یا «خیلی کم» ارزیابی کرده اند. ۷۲درصد شرکت کنندگان نیز از عملکرد کلی دولت چهاردهم در سال اول، «ناراضی» یا «بسیار ناراضی» هستند.",
             "category": "Economy",
@@ -46,7 +172,7 @@
             "date": "2025-08-18 20:48:31"
         },
         {
-            "id": 5,
+            "id": 19,
             "title": "خروج از لیست سیاه FATF و تأثیر آن بر توسعه اقتصادی",
             "summary": "علی مدنی زاده، وزیر امور اقتصادی و دارایی، اعلام کرد که با تصویب قانون پالرمو و گشایش های اخیر در زمینه FATF، گره های مهمی گشوده شده که مسیر توسعه اقتصادی کشور را هموارتر خواهد کرد. بررسی ها نشان می دهد که خروج ایران از لیست سیاه، راه را برای جهش رشد اقتصادی هموار می سازد.",
             "category": "Economy",
@@ -54,7 +180,7 @@
             "date": "2025-08-13 21:49:09"
         },
         {
-            "id": 6,
+            "id": 20,
             "title": "نارضایتی از عملکرد اقتصادی دولت",
             "summary": "نظرسنجی «دنیای اقتصاد» نشان می دهد حل مسائل اقتصادی مهم ترین درخواست مردم از دولت است و اکثریت پاسخ دهندگان از سیاست های اقتصادی دولت ناراضی هستند.",
             "category": "Economy",
@@ -62,7 +188,7 @@
             "date": "2025-08-13 21:49:09"
         },
         {
-            "id": 7,
+            "id": 21,
             "title": "رکود تورمی و افزایش نرخ فقر",
             "summary": "وزیر تعاون، کار و رفاه اجتماعی عنوان کرد که افزایش نرخ فقر به دلیل رکود تورمی است و بودجه های حمایتی فقط جلوی تشدید آن را می گیرد. بهبود وضعیت نیازمند تغییر در اقتصاد کلان است.",
             "category": "Economy",
@@ -70,7 +196,7 @@
             "date": "2025-08-13 21:49:09"
         },
         {
-            "id": 8,
+            "id": 22,
             "title": "US Core CPI Picks Up on Services; Goods Inflation More Subdued",
             "summary": "Core CPI in the US is rising, driven by services, while goods inflation is more moderate.",
             "category": "Economy",
@@ -78,7 +204,7 @@
             "date": "2025-08-13 21:48:55"
         },
         {
-            "id": 9,
+            "id": 23,
             "title": "Here Are the Key Takeaways From the US CPI Report for July",
             "summary": "Report about the key takeaways from the US CPI report for July",
             "category": "Economy",
@@ -86,7 +212,7 @@
             "date": "2025-08-13 21:48:55"
         },
         {
-            "id": 10,
+            "id": 24,
             "title": "UK’s Reeves Seeks Fresh Planning Overhaul in Growth Push",
             "summary": "Reeves is pushing for planning overhaul to stimulate growth in the UK.",
             "category": "Economy",
@@ -94,7 +220,7 @@
             "date": "2025-08-13 21:48:55"
         },
         {
-            "id": 11,
+            "id": 25,
             "title": "Trump Extends China Tariff Truce by Three Months",
             "summary": "President Trump’s order continues a reprieve from the threat of escalating tariffs and export controls, which rocked the global economy earlier this year.",
             "category": "Economy",
@@ -102,7 +228,7 @@
             "date": "2025-08-13 21:48:49"
         },
         {
-            "id": 12,
+            "id": 26,
             "title": "Trump, Seeking Friendlier Economic Data, Names New Statistics Chief",
             "summary": "President Trump fired the Bureau of Labor Statistics chief earlier this month after a downbeat jobs report. The move has raised concerns about the credibility of economic data going forward.",
             "category": "Economy",
@@ -110,7 +236,7 @@
             "date": "2025-08-13 21:48:49"
         },
         {
-            "id": 13,
+            "id": 27,
             "title": "فساد و رانت جویی در نظام ارزی چند نرخی",
             "summary": "اقتصاد ایران با دست کم پنج نرخ ارز مختلف اداره می شود. اختلاف شدید میان نرخ ها در بازار ارز، انگیزه های سوءاستفاده و ایجاد شبکه های غیررسمی را تقویت می کند.",
             "category": "Economy",
@@ -119,7 +245,7 @@
             "date": "2025-08-13 21:14:36"
         },
         {
-            "id": 14,
+            "id": 28,
             "title": "اثر تصویب قانون پالرمو بر توسعه اقتصادی",
             "summary": "وزیر امور اقتصادی و دارایی اعلام کرد که با تصویب قانون پالرمو و گشایش های اخیر در زمینه FATF، گره های مهمی گشوده شده که مسیر توسعه اقتصادی کشور را هموارتر خواهد کرد.",
             "category": "Economy",
@@ -128,7 +254,7 @@
             "date": "2025-08-13 21:14:36"
         },
         {
-            "id": 15,
+            "id": 29,
             "title": "تاثیر FATF بر اقتصاد ایران",
             "summary": "رئیس کمیسیون ویژه حمایت از تولید مجلس: خروج از لیست سیاه FATF می تواند تاثیر قابل توجهی بر اقتصاد ایران داشته باشد.",
             "category": "Economy",
@@ -137,7 +263,7 @@
             "date": "2025-08-13 21:14:36"
         },
         {
-            "id": 16,
+            "id": 30,
             "title": "اولویت مسائل اقتصادی از دید مردم",
             "summary": "نتایج نظرسنجی «دنیای اقتصاد» نشان می دهد حل مسائل اقتصادی مهم ترین درخواست مردم از دولت است. ۸۹درصد میزان موافقت خود با سیاست های اقتصادی دولت را «کم» یا «خیلی کم» ارزیابی کرده اند.",
             "category": "Economy",
@@ -146,7 +272,7 @@
             "date": "2025-08-13 21:14:36"
         },
         {
-            "id": 17,
+            "id": 31,
             "title": "افزایش نرخ فقر در شرایط رکود تورمی",
             "summary": "وزیر تعاون، کار و رفاه اجتماعی: در شرایط رکود تورمی به سر می بریم. تورم باعث فقر می شود و بودجه های حمایتی بخشی از این مشکل را حل می کند.",
             "category": "Economy",
@@ -155,7 +281,7 @@
             "date": "2025-08-13 21:14:36"
         },
         {
-            "id": 18,
+            "id": 32,
             "title": "ناترازی کلیدواژه اصلی برای توصیف وضع امروز اقتصاد ایران",
             "summary": "ولی الله سیف، رئیس کل پیشین بانک مرکزی گفت :«ناترازی» به کلیدواژه اصلی برای توصیف وضع امروز اقتصاد ایران بدل شده است.",
             "category": "Economy",
@@ -164,7 +290,7 @@
             "date": "2025-08-13 21:14:36"
         },
         {
-            "id": 19,
+            "id": 33,
             "title": "Small Businesses Brace for the Punishing Side Effects of Trump’s Tariffs",
             "summary": "Large firms with big bank balances, workers already in jobs and households near the top of the income ladder will have an easier time navigating the economic waves.",
             "category": "Economy",
@@ -173,7 +299,7 @@
             "date": "2025-08-13 21:14:19"
         },
         {
-            "id": 20,
+            "id": 34,
             "title": "چند نرخی بودن ارز و رانت",
             "summary": "اقتصاد ایران با دست کم پنج نرخ ارز مختلف اداره می شود که منجر به فساد، رانت جویی، تضعیف ذخایر ارزی و جهش های ارزی شده است.",
             "category": "Economy",
@@ -182,7 +308,7 @@
             "date": "2025-08-13 21:14:12"
         },
         {
-            "id": 21,
+            "id": 35,
             "title": "تاثیر FATF بر اقتصاد ایران",
             "summary": "تصویب کنوانسیون پالرمو و دعوت رسمی ایران به مذاکرات FATF می تواند تاثیر قابل توجهی بر اقتصاد ایران داشته باشد و بهانه ای برای سخت گیری در مراودات مالی باقی نمی گذارد.",
             "category": "Economy",
@@ -191,7 +317,7 @@
             "date": "2025-08-13 21:14:12"
         },
         {
-            "id": 22,
+            "id": 36,
             "title": "اولویت مردم: حل مسائل اقتصادی",
             "summary": "نظرسنجی «دنیای اقتصاد» نشان می دهد که حل مسائل اقتصادی مهم ترین درخواست مردم از دولت است و اکثریت با سیاست های اقتصادی دولت مخالف هستند.",
             "category": "Economy",
@@ -200,7 +326,7 @@
             "date": "2025-08-13 21:14:12"
         },
         {
-            "id": 23,
+            "id": 37,
             "title": "تاثیر تورم بر فقر",
             "summary": "احمد میدری، وزیر تعاون، کار و رفاه اجتماعی، افزایش نرخ فقر را ناشی از رکود تورمی و تورم بالا در دهه گذشته دانست و بودجه های حمایتی را راه حلی برای جلوگیری از تشدید آن عنوان کرد.",
             "category": "Economy",
@@ -209,7 +335,7 @@
             "date": "2025-08-13 21:14:12"
         },
         {
-            "id": 24,
+            "id": 38,
             "title": "ناترازی در اقتصاد ایران",
             "summary": "ولی الله سیف، رئیس کل پیشین بانک مرکزی، ناترازی را کلیدواژه اصلی برای توصیف وضعیت امروز اقتصاد ایران دانست.",
             "category": "Economy",
@@ -218,7 +344,7 @@
             "date": "2025-08-13 21:14:12"
         },
         {
-            "id": 25,
+            "id": 39,
             "title": "Trump’s Demand to Trading Partners: Pledge Money or Get Higher Tariffs",
             "summary": "President Trump is using an “Art of the Deal” approach to get other nations to hand over cash to lower their tariffs.",
             "category": "Economy",
@@ -227,7 +353,7 @@
             "date": "2025-08-13 21:14:01"
         },
         {
-            "id": 26,
+            "id": 40,
             "title": "U.S. Imports Slid in June on Higher Tariffs",
             "summary": "Imports from other countries fell around 4 percent from the previous month as President Trump’s steep tariffs discouraged businesses from ordering goods.",
             "category": "Economy",
@@ -236,7 +362,7 @@
             "date": "2025-08-13 21:14:01"
         },
         {
-            "id": 27,
+            "id": 41,
             "title": "Trump to Double India’s Tariff as Punishment for Buying Russian Oil",
             "summary": "Tariffs on Indian exports to the United States will surge to 50 percent by late August, as part of an effort by President Trump to pressure Russia into resolving its war in Ukraine.",
             "category": "Economy",
@@ -245,7 +371,7 @@
             "date": "2025-08-13 21:14:01"
         },
         {
-            "id": 28,
+            "id": 42,
             "title": "Staggering U.S. Tariffs Begin as Trump Widens Trade War",
             "summary": "The duties, which the president announced last week, took effect for about 90 countries just after midnight.",
             "category": "Economy",
@@ -254,7 +380,7 @@
             "date": "2025-08-13 21:14:01"
         },
         {
-            "id": 29,
+            "id": 43,
             "title": "Here’s What Could Get More Expensive Under Trump’s Tariffs",
             "summary": "The tariffs are driving up prices on everyday goods as businesses warn they can no longer absorb costs, leaving consumers to foot the bill.",
             "category": "Economy",
@@ -263,7 +389,7 @@
             "date": "2025-08-13 21:14:01"
         },
         {
-            "id": 30,
+            "id": 44,
             "title": "Swiss Businesses Fear Being ‘Annihilated’ by One of the World’s Highest Tariffs",
             "summary": "Goods shipped from the country face a 39 percent tariff in the U.S., which companies warn will have dire consequences if President Trump cannot be quickly dissuaded.",
             "category": "Economy",
@@ -272,7 +398,7 @@
             "date": "2025-08-13 21:14:01"
         },
         {
-            "id": 31,
+            "id": 45,
             "title": "Car Companies Are Paying Tariffs So You Don’t Have To",
             "summary": "But automakers can’t absorb the cost forever and will soon begin to raise new car prices, analysts say.",
             "category": "Economy",
@@ -281,7 +407,7 @@
             "date": "2025-08-13 21:14:01"
         },
         {
-            "id": 32,
+            "id": 46,
             "title": "بحران آب و صادرات محصولات گلخانه ای",
             "summary": "یارانه های پنهان در بخش کشاورزی باعث رشد صادرات محصولات گلخانه ای شده، اما این روند بحران آب در داخل را تشدید کرده است.",
             "category": "Economy",
@@ -290,7 +416,7 @@
             "date": "2025-08-13 21:13:53"
         },
         {
-            "id": 33,
+            "id": 47,
             "title": "مدیریت اقتصاد ایران با نرخ های ارز مختلف",
             "summary": "اقتصاد ایران با دست کم پنج نرخ ارز مختلف اداره می شود که منجر به فساد، رانت جویی و تضعیف ذخایر ارزی شده است.",
             "category": "Economy",
@@ -299,7 +425,7 @@
             "date": "2025-08-13 21:13:53"
         },
         {
-            "id": 34,
+            "id": 48,
             "title": "تاثیر تصویب قانون پالرمو بر اقتصاد ایران",
             "summary": "تصویب قانون پالرمو و گشایش های اخیر در زمینه FATF، گره های مهمی گشوده که مسیر توسعه اقتصادی کشور را هموارتر خواهد کرد و راه را برای جهش رشد اقتصادی هموار می سازد.",
             "category": "Economy",
@@ -308,7 +434,7 @@
             "date": "2025-08-13 21:13:53"
         },
         {
-            "id": 35,
+            "id": 49,
             "title": "افزایش سهم مدارس غیردولتی در ایران",
             "summary": "سهم دانش آموزان مدارس غیردولتی در ایران به ۱۵درصد رسیده که بالاتر از ایالات متحده و بریتانیا است. این رشد در شرایطی رخ داده که قدرت خرید خانوارها افت کرده و نرخ فقر افزایش یافته است.",
             "category": "Economy",
@@ -317,7 +443,7 @@
             "date": "2025-08-13 21:13:53"
         },
         {
-            "id": 36,
+            "id": 50,
             "title": "تصویب قانون پالرمو و تاثیر آن بر توسعه اقتصادی",
             "summary": "علی مدنی زاده، وزیر امور اقتصادی و دارایی اعلام کرد که با تصویب قانون پالرمو و گشایش های اخیر در زمینه FATF، گره های مهمی گشوده شده که مسیر توسعه اقتصادی کشور را هموارتر خواهد کرد.",
             "category": "Economy",
@@ -326,7 +452,7 @@
             "date": "2025-08-13 20:42:07"
         },
         {
-            "id": 37,
+            "id": 51,
             "title": "تاثیر پیوستن به FATF بر اقتصاد ایران",
             "summary": "رئیس کمیسیون ویژه حمایت از تولید مجلس شورای اسلامی اعلام کرد که خروج از لیست سیاه FATF می تواند تاثیر قابل توجهی بر اقتصاد ایران داشته باشد.",
             "category": "Economy",
@@ -335,7 +461,7 @@
             "date": "2025-08-13 20:42:07"
         },
         {
-            "id": 38,
+            "id": 52,
             "title": "اولویت مسائل اقتصادی از نگاه مردم",
             "summary": "نظرسنجی «دنیای اقتصاد» نشان می دهد که حل مسائل اقتصادی مهم ترین درخواست مردم از دولت است. ۸۹درصد میزان موافقت خود با سیاست های اقتصادی دولت را «کم» یا «خیلی کم» ارزیابی کرده اند.",
             "category": "Economy",
@@ -344,7 +470,286 @@
             "date": "2025-08-13 20:42:07"
         },
         {
-            "id": 39,
+            "id": 53,
+            "title": "حرکت اقتصاد آمریکا به سمت سرمایه داری دولتی",
+            "summary": "اقتصاد آمریکا که زمانی نماد بازار آزاد بود، اکنون در حال حرکت به سمت «سرمایه داری دولتی» است؛ سیستمی که در آن دولت به طور فزاینده ای در تصمیمات شرکت های خصوصی دخالت می کند.",
+            "category": "Economy",
+            "image": "images/economy/im23.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 54,
+            "title": "عملکرد ضعیف مصوبه مولدسازی دارایی های مازاد دولت",
+            "summary": "از ۲۹۷۰ ملک مصوب مولدسازی، فقط ۲۷درصد به مرحله اخذ مجوز تعیین قیمت یا مزایده رسیده و ارزش کل فروش، معاوضه و تهاتر طی دو سال، حدود ۳درصد ارزش بالقوه این املاک بوده است.",
+            "category": "Economy",
+            "image": "images/economy/im19.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 55,
+            "title": "رشد اقتصادی اوکراین در سال ۲۰۲۴",
+            "summary": "اقتصاد اوکراین در سال ۲۰۲۴ پس از دو سال پرتنش همچنان در مسیر رشد باقی مانده است و تولید ناخالص داخلی حقیقی حدود ۲.۹ درصد افزایش یافته است.",
+            "category": "Economy",
+            "image": "images/economy/im4.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 56,
+            "title": "رشد اقتصادی ضعیف سوئیس و فشار بر بانک مرکزی",
+            "summary": "اقتصاد سوئیس در فصل دوم سال جاری تنها ۰.۱ درصد رشد کرد که نشان از کندی جدی موتور رشد این کشور دارد و فشارها بر بانک مرکزی سوئیس را افزایش داده است.",
+            "category": "Economy",
+            "image": "images/economy/im11.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 57,
+            "title": "سهم پایین بخش کشاورزی از ارزش افزوده اقتصاد",
+            "summary": "بخش کشاورزی، با سهم ۱۴.۶ درصدی از اشتغال کشور، تنها ۷.۴ درصد از ارزش افزوده اقتصاد کشور را تولید می کند و اغلب شاغلان در این بخش، افراد در سنین بالای ۴۰سال هستند.",
+            "category": "Economy",
+            "image": "images/economy/im20.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 58,
+            "title": "افزایش حقوق و دستمزد و حذف یارانه سه دهک پردرآمد",
+            "summary": "در سال گذشته، حداقل دستمزدها حدود ۱۰ درصد بیش از تورم افزایش یافته و قدرت خرید ۲۴ میلیون شاغل حفظ شده است. یارانه سه دهک پردرآمد حذف شده تا حمایت بیشتری از خانوارهای کم درآمد انجام شود.",
+            "category": "Economy",
+            "image": "images/economy/im22.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 59,
+            "title": "ارز و ایفای تعهدات ارزی، ریشه مشکلات فعالان اقتصادی",
+            "summary": "وزیر امور اقتصادی و دارایی ریشه اصلی مشکلات فعالان اقتصادی را در ارز و ایفای تعهدات ارزی دانست.",
+            "category": "Economy",
+            "image": "images/economy/im12.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 60,
+            "title": "Italians as Well Off as Brits Expose UK’s Era of Stagnation",
+            "summary": "Comparison of Italian and British economic well-being highlighting UK's stagnation.",
+            "category": "Economy",
+            "image": "images/economy/im24.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:17"
+        },
+        {
+            "id": 61,
+            "title": "Charting the Global Economy: US Retail Sales Point to Resilience",
+            "summary": "Resilience of the US economy indicated by retail sales data.",
+            "category": "Economy",
+            "image": "images/economy/im1.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:17"
+        },
+        {
+            "id": 62,
+            "title": "Health of US Consumer Is the Focus as Retailers Prepare Earnings",
+            "summary": "Importance of US consumer health as retailers prepare to announce earnings.",
+            "category": "Economy",
+            "image": "images/economy/im12.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:17"
+        },
+        {
+            "id": 63,
+            "title": "Singapore Prioritizes Jobs Amid Fragmenting World, Rise of AI",
+            "summary": "Singapore's focus on job creation in the context of global fragmentation and AI advancements.",
+            "category": "Economy",
+            "image": "images/economy/im3.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:17"
+        },
+        {
+            "id": 64,
+            "title": "Home-Improvement Chains' Earnings Could Show How Affluent Americans Are Spending",
+            "summary": "Earnings reports from home improvement chains might provide insights into spending patterns of affluent Americans.",
+            "category": "Economy",
+            "image": "images/economy/im24.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:12"
+        },
+        {
+            "id": 65,
+            "title": "How worrying is the rebound in UK inflation?",
+            "summary": "Analysis of the concerns surrounding the resurgence of inflation in the UK.",
+            "category": "Economy",
+            "image": "images/economy/im18.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:12"
+        },
+        {
+            "id": 66,
+            "title": "وضعیت بخش کشاورزی در ایران",
+            "summary": "بخش کشاورزی با سهم ۱۴.۶ درصدی از اشتغال کشور، تنها ۷.۴ درصد از ارزش افزوده اقتصاد کشور را تولید می کند و اغلب شاغلان در این بخش، افراد در سنین بالای ۴۰ سال هستند.",
+            "category": "Economy",
+            "image": "images/economy/im13.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:00"
+        },
+        {
+            "id": 67,
+            "title": "Italians as Well Off as Brits Expose UK’s Era of Stagnation",
+            "summary": "Comparison of living standards in Italy and the UK, highlighting UK's stagnation.",
+            "category": "Economy",
+            "image": "images/economy/im26.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:52"
+        },
+        {
+            "id": 68,
+            "title": "Charting the Global Economy: US Retail Sales Point to Resilience",
+            "summary": "Analysis of US retail sales data indicating resilience in the economy.",
+            "category": "Economy",
+            "image": "images/economy/im21.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:52"
+        },
+        {
+            "id": 69,
+            "title": "Health of US Consumer Is the Focus as Retailers Prepare Earnings",
+            "summary": "Importance of US consumer health as retailers prepare to release earnings reports.",
+            "category": "Economy",
+            "image": "images/economy/im5.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:52"
+        },
+        {
+            "id": 70,
+            "title": "Singapore Prioritizes Jobs Amid Fragmenting World, Rise of AI",
+            "summary": "Singapore's focus on job preservation in the context of global fragmentation and AI advancements.",
+            "category": "Economy",
+            "image": "images/economy/im23.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:52"
+        },
+        {
+            "id": 71,
+            "title": "Home-Improvement Chains' Earnings Could Show How Affluent Americans Are Spending",
+            "summary": "Earnings reports from home-improvement chains might reveal spending patterns of affluent Americans.",
+            "category": "Economy",
+            "image": "images/economy/im18.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:46"
+        },
+        {
+            "id": 72,
+            "title": "Borderlands Mexico: US trade with Mexico tops $73B in June",
+            "summary": "Trade between the US and Mexico exceeded $73 billion in June.",
+            "category": "Economy",
+            "image": "images/economy/im12.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:46"
+        },
+        {
+            "id": 73,
+            "title": "How worrying is the rebound in UK inflation?",
+            "summary": "An analysis of the level of concern caused by rising inflation in the UK.",
+            "category": "Economy",
+            "image": "images/economy/im1.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:46"
+        },
+        {
+            "id": 74,
+            "title": "توقیف خودروها و یک واحد تجاری کوروش کمپانی",
+            "summary": "سخنگوی قوه قضائیه در نشست خبری خود اعلام کرد: تعداد ۶ دستگاه خودرو از انبار متهمان کوروش کمپانی توقیف شده که در مزایده قرار گرفته است. یک واحد تجاری نیز توقیف شد و مبلغ ١٧ میلیارد تومان از فروش ملک در حساب موجود است.",
+            "category": "Economy",
+            "image": "images/economy/im30.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 75,
+            "title": "نظرسنجی «دنیای اقتصاد»: حل مسائل اقتصادی مهم ترین درخواست مردم",
+            "summary": "نتایج نظرسنجی «دنیای اقتصاد» نشان می دهد که حل مسائل اقتصادی مهم ترین درخواست مردم از دولت است و میزان موافقت با سیاست های اقتصادی دولت «کم» یا «خیلی کم» ارزیابی شده است.",
+            "category": "Economy",
+            "image": "images/economy/im10.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 76,
+            "title": "تاکید بر گسترش همکاری های دوجانبه با چین",
+            "summary": "وزیر امور اقتصادی و دارایی در دیدار با سفیر چین در تهران، بر گسترش همکاری های دوجانبه و چندجانبه با استفاده از ظرفیت سازمان همکاری شانگهای تأکید کرد.",
+            "category": "Economy",
+            "image": "images/economy/im10.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 77,
+            "title": "تغییر رویکرد اقتصادی دولت آمریکا به سمت سرمایه داری دولتی",
+            "summary": "اقتصاد آمریکا در حال حرکت به سمت «سرمایه داری دولتی» است؛ سیستمی که در آن دولت به طور فزاینده ای در تصمیمات شرکت های خصوصی دخالت می کند.",
+            "category": "Economy",
+            "image": "images/economy/im28.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 78,
+            "title": "عملکرد مصوبه مولدسازی دارایی های مازاد دولت",
+            "summary": "از ۲۹۷۰ ملک مصوب، فقط ۲۷درصد به مرحله اخذ مجوز تعیین قیمت یا مزایده رسیده و ارزش کل فروش، معاوضه و تهاتر طی دو سال، حدود ۳درصد ارزش بالقوه این املاک بوده است.",
+            "category": "Economy",
+            "image": "images/economy/im24.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 79,
+            "title": "رشد اقتصاد اوکراین در سال ۲۰۲۴",
+            "summary": "اقتصاد اوکراین در سال ۲۰۲۴ پس از دو سال پرتنش همچنان در مسیر رشد باقی مانده است. تولید ناخالص داخلی حقیقی حدود ۲.۹ درصد افزایش یافته است.",
+            "category": "Economy",
+            "image": "images/economy/im13.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 80,
+            "title": "وضعیت بخش کشاورزی در اقتصاد ایران",
+            "summary": "بخش کشاورزی با سهم ۱۴.۶ درصدی از اشتغال کشور، تنها ۷.۴ درصد از ارزش افزوده اقتصاد کشور را تولید می کند. اغلب شاغلان در این بخش، افراد در سنین بالای ۴۰سال هستند و رشد این بخش در فصل بهار منفی بوده است.",
+            "category": "Economy",
+            "image": "images/economy/im21.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 81,
+            "title": "رشد اندک اقتصاد سوئیس و فشار بر بانک مرکزی",
+            "summary": "اقتصاد سوئیس در فصل دوم سال جاری ۰.۱ درصد رشد کرد که نشان از کندی موتور رشد این کشور دارد و فشارها بر بانک مرکزی برای بازگرداندن نرخ بهره به محدوده منفی را افزایش داده است.",
+            "category": "Economy",
+            "image": "images/economy/im14.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 82,
+            "title": "Monsoon Rains Recharge Indian Dams, Boosting Winter Crop Outlook",
+            "summary": "Monsoon rains replenish Indian dams, improving prospects for winter crops.",
+            "category": "Economy",
+            "image": "images/economy/im25.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:20"
+        },
+        {
+            "id": 83,
+            "title": "US Jobless Claims Edge Lower, Continuing Claims Remain Elevated",
+            "summary": "US jobless claims slightly decrease, but continuing claims remain high.",
+            "category": "Economy",
+            "image": "images/economy/im20.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:20"
+        },
+        {
+            "id": 84,
             "title": "توضیحات وزیر کار درباره افزایش نرخ فقر در رکود تورمی",
             "summary": "وزیر کار در پاسخ به پرسش درباره افزایش نرخ فقر با وجود افزایش اعتبارات حمایتی گفت: «ما در شرایط رکود تورمی به سر می بریم. تورم باعث فقر می شود و بودجه های حمایتی بخشی از این مشکل را حل می کند.»",
             "category": "Economy",
@@ -353,7 +758,7 @@
             "date": "2025-08-18 20:48:56"
         },
         {
-            "id": 40,
+            "id": 85,
             "title": "ناترازی به کلیدواژه اصلی برای توصیف وضع امروز اقتصاد ایران",
             "summary": "ولی الله سیف، رئیس کل پیشین بانک مرکزی گفت: «ناترازی» به کلیدواژه اصلی برای توصیف وضع امروز اقتصاد ایران بدل شده است.",
             "category": "Economy",
@@ -362,7 +767,7 @@
             "date": "2025-08-18 20:48:56"
         },
         {
-            "id": 41,
+            "id": 86,
             "title": "تأکید بر گسترش همکاری های اقتصادی با چین",
             "summary": "وزیر امور اقتصادی و دارایی بر گسترش همکاری های دوجانبه و چندجانبه با استفاده از ظرفیت سازمان همکاری شانگهای تأکید کرد.",
             "category": "Economy",
@@ -371,7 +776,7 @@
             "date": "2025-08-18 20:48:56"
         },
         {
-            "id": 42,
+            "id": 87,
             "title": "تغییر رویکرد اقتصادی آمریکا به سمت سرمایه داری دولتی",
             "summary": "اقتصاد آمریکا در حال حرکت به سمت «سرمایه داری دولتی» است؛ سیستمی که در آن دولت در تصمیمات شرکت های خصوصی دخالت می کند.",
             "category": "Economy",
@@ -380,7 +785,7 @@
             "date": "2025-08-18 20:48:56"
         },
         {
-            "id": 43,
+            "id": 88,
             "title": "عملکرد ضعیف مصوبه مولدسازی دارایی های مازاد دولت",
             "summary": "از ۲۹۷۰ ملک مصوب مولدسازی، فقط ۲۷درصد به مرحله فروش رسیده و ارزش کل فروش حدود ۳درصد ارزش بالقوه این املاک بوده است.",
             "category": "Economy",
@@ -389,7 +794,7 @@
             "date": "2025-08-18 20:48:56"
         },
         {
-            "id": 44,
+            "id": 89,
             "title": "رشد اقتصاد اوکراین در سال ۲۰۲۴",
             "summary": "اقتصاد اوکراین در سال ۲۰۲۴ پس از دو سال پرتنش، همچنان در مسیر رشد باقی مانده و تولید ناخالص داخلی حقیقی حدود ۲.۹ درصد افزایش یافته است.",
             "category": "Economy",
@@ -398,7 +803,7 @@
             "date": "2025-08-18 20:48:56"
         },
         {
-            "id": 45,
+            "id": 90,
             "title": "عملکرد ضعیف بخش کشاورزی در اقتصاد ایران",
             "summary": "بخش کشاورزی با سهم ۱۴.۶ درصدی از اشتغال، تنها ۷.۴ درصد از ارزش افزوده اقتصاد را تولید می کند و با رشد منفی در فصل بهار مواجه است.",
             "category": "Economy",
@@ -407,7 +812,7 @@
             "date": "2025-08-18 20:48:56"
         },
         {
-            "id": 46,
+            "id": 91,
             "title": "رشد سهم مدارس غیردولتی در ایران",
             "summary": "در حالی که در بسیاری از کشورهای توسعه یافته سهم مدارس خصوصی کاهش یافته، در ایران سهم دانش آموزان مدارس غیردولتی از حدود ۱۱درصد در سال تحصیلی ۱۳۹۶-۱۳۹۵ به ۱۵درصد در سال جاری رسیده است. این رشد در شرایطی رخ داده که قدرت خرید خانوارها به شدت افت کرده و نرخ فقر به حدود ۳۰درصد رسیده است.",
             "category": "Economy",
@@ -416,7 +821,7 @@
             "date": "2025-08-18 20:48:31"
         },
         {
-            "id": 47,
+            "id": 92,
             "title": "توضیح وزیر کار در مورد افزایش نرخ فقر",
             "summary": "وزیر تعاون، کار و رفاه اجتماعی در پاسخ به پرسش خبرنگار روزنامه «دنیای اقتصاد»، مبنی بر چرایی افزایش نرخ فقر با وجود افزایش اعتبارات حمایتی گفت: «ما در شرایط رکود تورمی به سر می بریم. تورم در یک دهه گذشته، نسبت به دوره های گذشته بسیار بالاتر بوده است. این تورم باعث فقر می شود و بودجه های حمایتی در واقع بخشی از این مشکل را حل می کند.",
             "category": "Economy",
@@ -425,7 +830,7 @@
             "date": "2025-08-18 20:48:31"
         },
         {
-            "id": 48,
+            "id": 93,
             "title": "عملکرد ضعیف مصوبه مولدسازی دارایی های مازاد دولت",
             "summary": "مرکز پژوهش های مجلس عملکرد مصوبه مولدسازی دارایی های مازاد دولت را بررسی کرده است. فقط ۲۷درصد املاک مصوب به مرحله مزایده رسیده و ارزش فروش حدود ۳درصد ارزش بالقوه این املاک بوده است.",
             "category": "Economy",
@@ -434,7 +839,7 @@
             "date": "2025-08-18 20:48:31"
         },
         {
-            "id": 49,
+            "id": 94,
             "title": "تعیین تکلیف مجوزهای معطل مانده تا سوم شهریور",
             "summary": "سوم شهریور ماه، به عنوان آخرین مهلت تعیین تکلیف درخواست های صدور مجوز مواجه با تأخیر، قبل از آغاز دور جدید صدور خودکار مجوزهای معطل مانده، اعلام شده است.",
             "category": "Economy",
@@ -443,7 +848,7 @@
             "date": "2025-08-18 20:48:31"
         },
         {
-            "id": 50,
+            "id": 95,
             "title": "OPEC+ Reshaped the Calculus for Oil Markets and Spawned a Record Glut",
             "summary": "OPEC+ actions have altered the dynamics of oil markets, leading to a record surplus.",
             "category": "Economy",
@@ -451,7 +856,7 @@
             "date": "2025-08-13 21:49:22"
         },
         {
-            "id": 51,
+            "id": 96,
             "title": "Brazil Retail Sales Slip Again, Signaling Economy Is Cooling Off",
             "summary": "Retail sales in Brazil continue to decline, suggesting a slowdown in the Brazilian economy.",
             "category": "Economy",
@@ -459,7 +864,7 @@
             "date": "2025-08-13 21:49:22"
         },
         {
-            "id": 52,
+            "id": 97,
             "title": "رشد مدارس خصوصی در ایران",
             "summary": "در حالی که در بسیاری از کشورها سهم مدارس خصوصی کاهش یافته، در ایران سهم دانش آموزان مدارس غیردولتی افزایش یافته است. این موضوع به دلیل افت کیفیت آموزش دولتی و سایر مسائل مرتبط است.",
             "category": "Economy",
@@ -467,7 +872,7 @@
             "date": "2025-08-13 21:49:09"
         },
         {
-            "id": 53,
+            "id": 98,
             "title": "توقیف اموال کوروش کمپانی و پرداخت مطالبات",
             "summary": "سخنگوی قوه قضائیه از توقیف خودروها و یک واحد تجاری متعلق به متهمان کوروش کمپانی خبر داد و اعلام کرد که پرداخت مطالبات مال باختگان در دستور کار است.",
             "category": "Economy",
@@ -475,7 +880,7 @@
             "date": "2025-08-13 21:49:09"
         },
         {
-            "id": 54,
+            "id": 99,
             "title": "عملکرد ضعیف مصوبه مولدسازی دارایی های مازاد دولت",
             "summary": "بررسی مرکز پژوهش های مجلس نشان می دهد از ۲۹۷۰ ملک مصوب برای مولدسازی، تنها ۲۷ درصد به مرحله قیمت گذاری یا مزایده رسیده و ارزش فروش معادل ۳ درصد ارزش بالقوه املاک بوده است.",
             "category": "Economy",
@@ -483,7 +888,7 @@
             "date": "2025-08-13 21:49:09"
         },
         {
-            "id": 55,
+            "id": 100,
             "title": "مهلت تعیین تکلیف درخواست های صدور مجوز",
             "summary": "سوم شهریور آخرین مهلت تعیین تکلیف درخواست های صدور مجوزهای با تاخیر قبل از صدور خودکار مجوزهای معطل مانده اعلام شد.",
             "category": "Economy",
@@ -491,7 +896,7 @@
             "date": "2025-08-13 21:49:09"
         },
         {
-            "id": 56,
+            "id": 101,
             "title": "OPEC Sees Tighter Oil Outlook Next Year as Demand Accelerates",
             "summary": "OPEC Expects Tighter Oil Outlook Next Year as Demand Accelerates.",
             "category": "Economy",
@@ -499,7 +904,7 @@
             "date": "2025-08-13 21:48:55"
         },
         {
-            "id": 57,
+            "id": 102,
             "title": "Brazil’s Inflation Undershoot Forecasts With Rates Held High",
             "summary": "Inflation in Brazil is lower than expected, despite high interest rates.",
             "category": "Economy",
@@ -507,7 +912,7 @@
             "date": "2025-08-13 21:48:55"
         },
         {
-            "id": 58,
+            "id": 103,
             "title": "Fuel-Price Backlash Shakes Leading African Oil Producer",
             "summary": "Rising fuel prices are causing instability in a major African oil-producing nation.",
             "category": "Economy",
@@ -515,7 +920,7 @@
             "date": "2025-08-13 21:48:55"
         },
         {
-            "id": 59,
+            "id": 104,
             "title": "Moutai Posts Worst Growth in Years as Chinese Cut Back on Liquor",
             "summary": "Moutai is experiencing its slowest growth in years due to reduced liquor consumption in China.",
             "category": "Economy",
@@ -523,7 +928,7 @@
             "date": "2025-08-13 21:48:55"
         },
         {
-            "id": 60,
+            "id": 105,
             "title": "Estonia’s Project for Digital Nomads Brings in Record Revenue",
             "summary": "Estonia's digital nomad project is generating significant revenue.",
             "category": "Economy",
@@ -531,7 +936,7 @@
             "date": "2025-08-13 21:48:55"
         },
         {
-            "id": 61,
+            "id": 106,
             "title": "The Bank of England Has Rarely Been This Split Over Inflation",
             "summary": "The Bank of England is experiencing unusually high levels of disagreement among its members regarding inflation.",
             "category": "Economy",
@@ -539,7 +944,7 @@
             "date": "2025-08-13 21:48:46"
         },
         {
-            "id": 62,
+            "id": 107,
             "title": "Charting the Global Economy: A Split Bank of England Cuts Rates",
             "summary": "The Bank of England, amid internal disagreement, has decided to cut interest rates, influencing the global economic landscape.",
             "category": "Economy",
@@ -547,7 +952,7 @@
             "date": "2025-08-13 21:48:46"
         },
         {
-            "id": 63,
+            "id": 108,
             "title": "Egyptian Inflation Cools for a Second Month as Rate Cuts Weighed",
             "summary": "Inflation in Egypt is decreasing for the second consecutive month, leading to considerations of potential interest rate cuts.",
             "category": "Economy",
@@ -555,7 +960,7 @@
             "date": "2025-08-13 21:48:46"
         },
         {
-            "id": 64,
+            "id": 109,
             "title": "چالش های اقتصادی و فنی طرح های شیرین سازی و انتقال آب دریا",
             "summary": "طرح های شیرین سازی و انتقال آب دریا در ایران، با وجود پتانسیل توسعه سواحل جنوبی و تامین آب مستقل از نوسانات جوی، با چالش های اساسی اقتصادی و فنی مواجه است.",
             "category": "Economy",
@@ -564,7 +969,7 @@
             "date": "2025-08-13 21:14:36"
         },
         {
-            "id": 65,
+            "id": 110,
             "title": "کاهش سرمایه گذاری شرکت ها؛ مانع رشد اقتصاد جهانی",
             "summary": "سازمان همکاری اقتصادی و توسعه (OECD) اعلام کرده است که کاهش سرمایه گذاری شرکت ها به یکی از مهم ترین موانع رشد پایدار اقتصاد جهانی بدل شده است.",
             "category": "Economy",
@@ -573,7 +978,7 @@
             "date": "2025-08-13 21:14:36"
         },
         {
-            "id": 66,
+            "id": 111,
             "title": "آزادسازی اقتصادی مقدم بر خصوصی سازی",
             "summary": "واگذاری مالکیت یا حتی مدیریت، اگر در بستری غیررقابتی باقی بماند، راه به جایی نمی برد. آزادسازی اقتصادی، مقدم بر خصوصی سازی است.",
             "category": "Economy",
@@ -582,7 +987,7 @@
             "date": "2025-08-13 21:14:36"
         },
         {
-            "id": 67,
+            "id": 112,
             "title": "پزشکیان و انتقاد از آسیب های معیشتی ناشی از تحریم ها",
             "summary": "پزشکیان در دوران تبلیغات انتخاباتی با انتقاد از عملکرد تصمیم گیران در گذشته، به آسیب های معیشتی ناشی از تحریم ها انتقاد کرد.",
             "category": "Economy",
@@ -591,7 +996,7 @@
             "date": "2025-08-13 21:14:36"
         },
         {
-            "id": 68,
+            "id": 113,
             "title": "چالش های پیش روی خبرنگاران اقتصادی",
             "summary": "عدم انتشار به موقع شاخص های اقتصادی یکی از مهم ترین دغدغه های خبرنگاران اقتصادی است.",
             "category": "Economy",
@@ -600,7 +1005,7 @@
             "date": "2025-08-13 21:14:36"
         },
         {
-            "id": 69,
+            "id": 114,
             "title": "افزایش سهم مدارس غیردولتی",
             "summary": "سهم دانش آموزان مدارس غیردولتی در کشور از حدود ۱۱درصد در سال تحصیلی ۱۳۹۶-۱۳۹۵ به ۱۵درصد در سال جاری رسیده است. افت کیفیت آموزش دولتی از عوامل این امر است.",
             "category": "Economy",
@@ -609,7 +1014,7 @@
             "date": "2025-08-13 21:14:36"
         },
         {
-            "id": 70,
+            "id": 115,
             "title": "چالش های طرح های شیرین سازی آب دریا",
             "summary": "طرح های شیرین سازی و انتقال آب دریا در ایران با چالش های اساسی اقتصادی و فنی مواجه است و کارآیی آن را زیر سوال می برد.",
             "category": "Economy",
@@ -618,7 +1023,7 @@
             "date": "2025-08-13 21:14:12"
         },
         {
-            "id": 71,
+            "id": 116,
             "title": "رشد مدارس غیردولتی در ایران",
             "summary": "در حالی که در بسیاری از کشورهای توسعه یافته سهم مدارس خصوصی کاهش یافته، در ایران سهم دانش آموزان مدارس غیردولتی افزایش یافته که ناشی از افت کیفیت آموزش دولتی و عوامل دیگر است.",
             "category": "Economy",
@@ -627,7 +1032,7 @@
             "date": "2025-08-13 21:14:12"
         },
         {
-            "id": 72,
+            "id": 117,
             "title": "China’s Exports Surged Again in July, but Not to America",
             "summary": "China is shipping more goods to Southeast Asia and other regions that often re-export them to the United States. China still sells three times as much to the United States as it buys.",
             "category": "Economy",
@@ -636,7 +1041,7 @@
             "date": "2025-08-13 21:14:01"
         },
         {
-            "id": 73,
+            "id": 118,
             "title": "Southeast Asia Looks for Clarity From U.S. on ‘Rules of Origin’",
             "summary": "Thailand, Vietnam and other countries in the region face much higher tariffs on exports with Chinese-made components. But questions remain on how the U.S. defines a locally made product.",
             "category": "Economy",
@@ -645,7 +1050,7 @@
             "date": "2025-08-13 21:14:01"
         },
         {
-            "id": 74,
+            "id": 119,
             "title": "Effect of U.S. Tariffs on British Companies Is ‘Milder Than Feared,’ Central Bank Says",
             "summary": "Britain’s economy is driven by domestic factors more than global ones right now, the governor of the Bank of England said on Thursday, when the central bank cut interest rates.",
             "category": "Economy",
@@ -654,7 +1059,7 @@
             "date": "2025-08-13 21:14:01"
         },
         {
-            "id": 75,
+            "id": 120,
             "title": "New Tariff on ‘Transshipped’ Goods Mystifies Importers",
             "summary": "The Trump administration levied a hefty tariff on goods that are moved through other countries, but it has not yet fully explained its plans.",
             "category": "Economy",
@@ -663,7 +1068,7 @@
             "date": "2025-08-13 21:14:01"
         },
         {
-            "id": 76,
+            "id": 121,
             "title": "What Lobsters and Chickens Tell Us About Europe’s Trade Logic",
             "summary": "The European Union struck a trade deal that protected political priorities, like chicken and beef standards, while allowing headline-grabbing concessions. Consider lobsters.",
             "category": "Economy",
@@ -672,7 +1077,7 @@
             "date": "2025-08-13 21:14:01"
         },
         {
-            "id": 77,
+            "id": 122,
             "title": "افزایش سهم سبد مواد غذایی از حداقل حقوق",
             "summary": "آمارهای تورم خوراکی در تیرماه ۱۴۰۴ نشان می دهد سهم سبد مواد غذایی از حداقل حقوق به ۵۹ درصد رسیده و گروه نان و غلات بیشترین افزایش قیمت را داشته است.",
             "category": "Economy",
@@ -681,7 +1086,7 @@
             "date": "2025-08-13 21:13:53"
         },
         {
-            "id": 78,
+            "id": 123,
             "title": "تأثیر تحریم ها بر خروج سرمایه",
             "summary": "با تشدید تحریم ها طی دهه های اخیر، قوانین داخلی در رابطه با خروج سرمایه وضع شده اند که موجب افزایش محدودیت ها و تشدید نااطمینانی ها خواهد شد.",
             "category": "Economy",
@@ -690,7 +1095,7 @@
             "date": "2025-08-13 21:13:53"
         },
         {
-            "id": 79,
+            "id": 124,
             "title": "وضعیت بازار کار و افزایش فقر",
             "summary": "وجود حداکثری ریسک های اقتصادی و سیاسی در یک سال گذشته، امکان ایجاد فرصت های شغلی جدید و کاهش فقر توسط دولت را از بین برد.",
             "category": "Economy",
@@ -699,7 +1104,7 @@
             "date": "2025-08-13 21:13:53"
         },
         {
-            "id": 80,
+            "id": 125,
             "title": "چالش های طرح های شیرین سازی و انتقال آب دریا",
             "summary": "طرح های شیرین سازی و انتقال آب دریا در ایران با چالش های اقتصادی و فنی مواجه است و کارآیی آن زیر سوال است.",
             "category": "Economy",
@@ -708,7 +1113,7 @@
             "date": "2025-08-13 21:13:53"
         },
         {
-            "id": 81,
+            "id": 126,
             "title": "موانع رشد پایدار اقتصاد جهانی",
             "summary": "سازمان همکاری اقتصادی و توسعه (OECD) اعلام کرده است که کاهش سرمایه گذاری شرکت ها به یکی از مهم ترین موانع رشد پایدار اقتصاد جهانی بدل شده است.",
             "category": "Economy",
@@ -717,7 +1122,7 @@
             "date": "2025-08-13 21:13:53"
         },
         {
-            "id": 82,
+            "id": 127,
             "title": "رویکرد اقتصادی دولت پزشکیان",
             "summary": "دولت پزشکیان با تشدید ریسک های سیاسی و تنش های خارجی روبرو شد اما به دنبال تنش زدایی بود. او از آسیب های معیشتی ناشی از تحریم ها انتقاد کرد و در مورد تحقق رشد ۸درصدی تردید داشت.",
             "category": "Economy",
@@ -726,7 +1131,7 @@
             "date": "2025-08-13 21:13:53"
         },
         {
-            "id": 83,
+            "id": 128,
             "title": "چالش های خبرنگاران اقتصادی در ایران",
             "summary": "عدم انتشار به موقع شاخص های اقتصادی یکی از مهم ترین دغدغه های خبرنگاران اقتصادی در ایران است. ارائه منظم آمار اقتصادی بهترین کمک به شفافیت وضعیت اقتصادی است.",
             "category": "Economy",
@@ -735,7 +1140,7 @@
             "date": "2025-08-13 21:13:53"
         },
         {
-            "id": 84,
+            "id": 129,
             "title": "Swiss Planemaker Pilatus Pauses US Deliveries, Citing Tariffs",
             "summary": "Pilatus, a Swiss aircraft manufacturer, suspends deliveries to the US due to tariffs.",
             "category": "Economy",
@@ -744,7 +1149,7 @@
             "date": "2025-08-13 21:13:35"
         },
         {
-            "id": 85,
+            "id": 130,
             "title": "France’s Wine Output Set to Climb 17% Though Wildfires a Threat",
             "summary": "French wine production is projected to increase significantly despite the risk of wildfires.",
             "category": "Economy",
@@ -753,7 +1158,7 @@
             "date": "2025-08-13 21:13:35"
         },
         {
-            "id": 86,
+            "id": 131,
             "title": "افزایش سهم مدارس غیردولتی",
             "summary": "سهم دانش آموزان مدارس غیردولتی در کشور از حدود ۱۱درصد در سال تحصیلی ۱۳۹۶-۱۳۹۵ به ۱۵درصد در سال جاری رسیده است. افت کیفیت آموزش دولتی، تراکم بالای دانش آموزان در کلاس ها و ضعف در امنیت فرهنگی و تربیتی از دلایل این موضوع است.",
             "category": "Economy",
@@ -762,7 +1167,7 @@
             "date": "2025-08-13 20:42:07"
         },
         {
-            "id": 87,
+            "id": 132,
             "title": "افزایش نرخ فقر در شرایط رکود تورمی",
             "summary": "وزیر تعاون، کار و رفاه اجتماعی در پاسخ به چرایی افزایش نرخ فقر با وجود افزایش اعتبارات حمایتی گفت: «ما در شرایط رکود تورمی به سر می بریم. تورم در یک دهه گذشته، نسبت به دوره های گذشته بسیار بالاتر بوده است. این تورم باعث فقر می شود و بودجه های حمایتی در واقع بخشی از این مشکل را حل می کند و جلوی تشدید شدن آن را می گیرد.",
             "category": "Economy",
@@ -771,7 +1176,7 @@
             "date": "2025-08-13 20:42:07"
         },
         {
-            "id": 88,
+            "id": 133,
             "title": "عملکرد مصوبه مولدسازی دارایی های مازاد دولت",
             "summary": "بررسی مرکز پژوهش های مجلس نشان می دهد از ۲۹۷۰ ملک مصوب، فقط ۲۷درصد به مرحله اخذ مجوز تعیین قیمت یا مزایده رسیده و ارزش کل فروش، معاوضه و تهاتر حدود ۳درصد ارزش بالقوه این املاک بوده است.",
             "category": "Economy",
@@ -780,7 +1185,7 @@
             "date": "2025-08-13 20:42:07"
         },
         {
-            "id": 89,
+            "id": 134,
             "title": "تعیین تکلیف درخواست های صدور مجوز",
             "summary": "سوم شهریور آخرین مهلت تعیین تکلیف درخواست های صدور مجوز قبل از صدور خودکار مجوزهای معطل مانده اعلام شده است.",
             "category": "Economy",
@@ -789,7 +1194,25 @@
             "date": "2025-08-13 20:42:07"
         },
         {
-            "id": 90,
+            "id": 135,
+            "title": "اعلام آخرین مهلت تعیین تکلیف درخواست های صدور مجوز",
+            "summary": "سوم شهریور ماه، به عنوان آخرین مهلت تعیین تکلیف درخواست های صدور مجوز مواجه با تأخیر، قبل از آغاز دور جدید صدور خودکار مجوزهای معطل مانده، اعلام شده است.",
+            "category": "Economy",
+            "image": "images/economy/im27.jpg",
+            "importance": "Low",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 136,
+            "title": "عملکرد مصوبه مولدسازی دارایی های مازاد دولت",
+            "summary": "از ۲۹۷۰ ملک مصوب مولدسازی، فقط ۲۷ درصد به مرحله اخذ مجوز تعیین قیمت یا مزایده رسیده و ارزش کل فروش، معاوضه و تهاتر طی دو سال، حدود ۳ درصد ارزش بالقوه این املاک بوده است.",
+            "category": "Economy",
+            "image": "images/economy/im21.jpg",
+            "importance": "Low",
+            "date": "2025-08-22 07:10:00"
+        },
+        {
+            "id": 137,
             "title": "توقیف اموال کوروش کمپانی",
             "summary": "سخنگوی قوه قضائیه در نشست خبری خود اعلام کرد: تعداد ۶ دستگاه خودرو از انبار متهمان کوروش کمپانی توقیف شده که در مزایده قرار گرفته است. یک واحد تجاری نیز توقیف شد و مبلغ ١٧ میلیارد تومان از فروش ملک در حساب موجود است و پرداخت مطالبات مال باختگان در دستور کار است.",
             "category": "Economy",
@@ -798,7 +1221,142 @@
             "date": "2025-08-18 20:48:31"
         },
         {
-            "id": 91,
+            "id": 138,
+            "title": "خبر رئیس کل بانک مرکزی از اجرای طرح حذف چهار صفر از پول ملی",
+            "summary": "رئیس کل بانک مرکزی از اجرای طرح حذف چهار صفر از پول ملی و تغییر واحد رسمی به «تومان» با واحد خرد «قِران» خبر داد.",
+            "category": "Finance",
+            "image": "images/finance/im28.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 139,
+            "title": "آخرین وضعیت پرونده ایران در FATF",
+            "summary": "رئیس مرکز اطلاعات مالی اعلام کرد در صورت تقسیم کار ملی و همراهی دستگاه ها، می توان ظرف یک تا یک ونیم سال از لیست سیاه FATF خارج شد. اولویت ایران تعلیق اقدامات تقابلی است.",
+            "category": "Finance",
+            "image": "images/finance/im25.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 140,
+            "title": "Central Bankers Flock to Jackson Hole at Pivotal Moment",
+            "summary": "Significance of the Jackson Hole Economic Symposium for central bankers.",
+            "category": "Finance",
+            "image": "images/finance/im14.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:17"
+        },
+        {
+            "id": 141,
+            "title": "Bond Market’s Rate-Cut Bets Enter Decisive Stretch With Powell",
+            "summary": "Analysis of bond market expectations for rate cuts and Powell's influence.",
+            "category": "Finance",
+            "image": "images/finance/im18.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:17"
+        },
+        {
+            "id": 142,
+            "title": "Central Bankers Flock to Jackson Hole at Pivotal Moment",
+            "summary": "Central bankers gather at Jackson Hole during a critical time for the global economy.",
+            "category": "Finance",
+            "image": "images/finance/im1.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:12"
+        },
+        {
+            "id": 143,
+            "title": "گشایش های اخیر در زمینه FATF",
+            "summary": "وزیر امور اقتصادی و دارایی اعلام کرد که با تصویب قانون پالرمو و گشایش های اخیر در زمینه FATF، گره های مهمی گشوده شده که مسیر توسعه اقتصادی کشور را هموارتر خواهد کرد.",
+            "category": "Finance",
+            "image": "images/finance/im3.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:00"
+        },
+        {
+            "id": 144,
+            "title": "تاثیر FATF بر اقتصاد ایران",
+            "summary": "رئیس کمیسیون ویژه حمایت از تولید مجلس شورای اسلامی، تصویب کنوانسیون پالرمو و دعوت رسمی ایران به مذاکرات FATF را گامی موثر در مراودات بین المللی ایران دانست و اعلام کرد که خروج از لیست سیاه FATF می تواند تاثیر قابل توجهی بر اقتصاد ایران داشته باشد.",
+            "category": "Finance",
+            "image": "images/finance/im5.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:00"
+        },
+        {
+            "id": 145,
+            "title": "آخرین وضعیت پرونده ایران در FATF",
+            "summary": "رئیس مرکز اطلاعات مالی از امکان خروج ایران از لیست سیاه FATF ظرف یک تا یک و نیم سال آینده خبر داد و تاکید کرد که اولویت ایران تعلیق اقدامات تقابلی است.",
+            "category": "Finance",
+            "image": "images/finance/im28.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:00"
+        },
+        {
+            "id": 146,
+            "title": "Central Bankers Flock to Jackson Hole at Pivotal Moment",
+            "summary": "Central bankers' meeting in Jackson Hole at a crucial juncture for monetary policy.",
+            "category": "Finance",
+            "image": "images/finance/im7.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:09:52"
+        },
+        {
+            "id": 147,
+            "title": "Bond Market’s Rate-Cut Bets Enter Decisive Stretch With Powell",
+            "summary": "Analysis of bond market expectations regarding rate cuts, focusing on Powell's influence.",
+            "category": "Finance",
+            "image": "images/finance/im14.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:09:52"
+        },
+        {
+            "id": 148,
+            "title": "راه اندازی تالار دوم بازار ارز تجاری",
+            "summary": "بانک مرکزی به زودی «تالار دوم بازار ارز تجاری» را در مرکز مبادله ایران راه اندازی می کند. هدف اصلی، حل مشکلات صادرکنندگان خرد و تسهیل بازگشت ارز صادراتی به کشور است.",
+            "category": "Finance",
+            "image": "images/finance/im30.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 149,
+            "title": "اجرای طرح حذف چهار صفر از پول ملی",
+            "summary": "رئیس کل بانک مرکزی از اجرای طرح حذف چهار صفر از پول ملی و تغییر واحد رسمی به «تومان» با واحد خرد «قِران» خبر داد.",
+            "category": "Finance",
+            "image": "images/finance/im11.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 150,
+            "title": "آخرین وضعیت پرونده ایران در FATF",
+            "summary": "در صورت تقسیم کار ملی و همراهی دستگاه ها، می توان ظرف یک تا یک ونیم سال از لیست سیاه FATF خارج شد. اولویت ایران تعلیق اقدامات تقابلی است و دلیل اصلی باقی ماندن ایران در این وضعیت عدم تصویب کنوانسیون CFT است.",
+            "category": "Finance",
+            "image": "images/finance/im5.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 151,
+            "title": "چالش چند نرخی بودن بازار ارز در ایران",
+            "summary": "چند نرخی بودن بازار ارز یکی از چالش های دیرینه اقتصاد ایران است که باعث سردرگمی، تشکیل صف های طولانی تخصیص ارز و افزایش نااطمینانی برای فعالان اقتصادی شده است.",
+            "category": "Finance",
+            "image": "images/finance/im17.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 152,
+            "title": "Treasuries Fall as Wholesale Inflation Dents Fed Rate-Cut Bets",
+            "summary": "Treasuries decline as wholesale inflation reduces expectations of Federal Reserve rate cuts.",
+            "category": "Finance",
+            "image": "images/finance/im2.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:09:20"
+        },
+        {
+            "id": 153,
             "title": "گشایش های اخیر در زمینه FATF، مسیر توسعه اقتصادی کشور را هموارتر خواهد کرد",
             "summary": "علی مدنی زاده، وزیر امور اقتصادی و دارایی اعلام کرد که با تصویب قانون پالرمو و گشایش های اخیر در زمینه FATF، گره های مهمی گشوده شده که مسیر توسعه اقتصادی کشور را هموارتر خواهد کرد.",
             "category": "Finance",
@@ -807,7 +1365,7 @@
             "date": "2025-08-18 20:48:56"
         },
         {
-            "id": 92,
+            "id": 154,
             "title": "تاثیر خروج از لیست سیاه FATF بر اقتصاد ایران",
             "summary": "تصویب کنوانسیون پالرمو و دعوت رسمی ایران به مذاکرات FATF گامی موثر در مراودات بین المللی ایران است و خروج از لیست سیاه می تواند تاثیر قابل توجهی بر اقتصاد ایران داشته باشد.",
             "category": "Finance",
@@ -816,7 +1374,7 @@
             "date": "2025-08-18 20:48:56"
         },
         {
-            "id": 93,
+            "id": 155,
             "title": "دعوت FATF از ایران و اهمیت رویکرد فنی به این موضوع",
             "summary": "بحث های ایران برای خروج از لیست سیاه FATF باید از دعواهای سیاسی فراتر رود و بر نظر کارشناسان حقوقی و مالی متمرکز شود. موفقیت مستلزم اصلاح قوانین داخلی و تقویت نهادهای مالی است.",
             "category": "Finance",
@@ -825,7 +1383,7 @@
             "date": "2025-08-18 20:48:56"
         },
         {
-            "id": 94,
+            "id": 156,
             "title": "راه اندازی تالار دوم بازار ارز تجاری",
             "summary": "بانک مرکزی «تالار دوم بازار ارز تجاری» را در مرکز مبادله ایران راه اندازی می کند تا مشکلات صادرکنندگان خرد حل و بازگشت ارز صادراتی تسهیل شود. نرخ ارز بر اساس عرضه و تقاضا تعیین می شود.",
             "category": "Finance",
@@ -834,7 +1392,7 @@
             "date": "2025-08-18 20:48:56"
         },
         {
-            "id": 95,
+            "id": 157,
             "title": "آخرین تحولات پرونده FATF برای ایران",
             "summary": "با تقسیم کار ملی و همراهی دستگاه ها، می توان ظرف یک تا یک ونیم سال از لیست سیاه FATF خارج شد. اولویت ایران تعلیق اقدامات تقابلی است که بر اعتبار اتباع ایرانی تاثیر دارد. عدم تصویب کنوانسیون CFT دلیل اصلی باقی ماندن ایران در این وضعیت است.",
             "category": "Finance",
@@ -843,7 +1401,7 @@
             "date": "2025-08-18 20:48:56"
         },
         {
-            "id": 96,
+            "id": 158,
             "title": "دعوت FATF از رئیس مرکز اطلاعات مالی ایران",
             "summary": "بر اساس اعلام مرکز اطلاعات مالی، گروه ویژه اقدام مالی موسوم به FATF بعد از ۶ سال، از رئیس مرکز اطلاعات مالی کشور برای مذاکره حضوری رسماً دعوت به عمل آورد.",
             "category": "Finance",
@@ -852,7 +1410,7 @@
             "date": "2025-08-18 20:48:31"
         },
         {
-            "id": 97,
+            "id": 159,
             "title": "تأثیر تصویب قانون پالرمو بر توسعه اقتصادی کشور",
             "summary": "علی مدنی زاده، وزیر امور اقتصادی و دارایی اعلام کرد که با تصویب قانون پالرمو و گشایش های اخیر در زمینه FATF، گره های مهمی گشوده شده که مسیر توسعه اقتصادی کشور را هموارتر خواهد کرد.",
             "category": "Finance",
@@ -861,7 +1419,7 @@
             "date": "2025-08-18 20:48:31"
         },
         {
-            "id": 98,
+            "id": 160,
             "title": "دعوت رسمی FATF از رئیس مرکز اطلاعات مالی ایران به منظور بررسی وضعیت ایران در زمینه مبارزه با پول شویی",
             "summary": "ایران در دیدار با گروه ویژه اقدام مالی در مادرید، درباره تصویب لایحه پالرمو و اقدامات خود در زمینه مبارزه با پول شویی و لایحه CFT توضیحاتی ارائه خواهد داد.",
             "category": "Finance",
@@ -870,7 +1428,7 @@
             "date": "2025-08-18 20:48:31"
         },
         {
-            "id": 99,
+            "id": 161,
             "title": "دعوت FATF از ایران برای انجام مذاکرات",
             "summary": "جعفر قادری، رئیس کمیسیون ویژه حمایت از تولید مجلس شورای اسلامی، با اشاره به تصویب کنوانسیون پالرمو و دعوت رسمی ایران به مذاکرات FATF این اقدام را گامی موثر در مراودات بین المللی ایران دانست و اعلام کرد که خروج از لیست سیاه FATF می تواند تاثیر قابل توجهی بر اقتصاد ایران داشته باشد.",
             "category": "Finance",
@@ -879,7 +1437,7 @@
             "date": "2025-08-18 20:48:31"
         },
         {
-            "id": 100,
+            "id": 162,
             "title": "اهمیت رویکرد فنی به FATF",
             "summary": "پس از تصویب مشروط لایحه پالرمو در مجمع تشخیص مصلحت نظام و دعوت FATF از رئیس مرکز اطلاعات مالی ایران برای مذاکره حضوری، بحث های مختلفی در این زمینه به وجود آمده است.  تصمیمات ایران برای خروج از لیست سیاه گروه ویژه اقدام مالی، باید از دعواهای سیاسی و رسانه ای فراتر رود و بر نظر کارشناسان حقوقی و مالی متمرکز باشد.",
             "category": "Finance",
@@ -888,7 +1446,7 @@
             "date": "2025-08-18 20:48:31"
         },
         {
-            "id": 101,
+            "id": 163,
             "title": "راه اندازی تالار دوم بازار ارز تجاری در مرکز مبادله ایران",
             "summary": "بانک مرکزی به زودی «تالار دوم بازار ارز تجاری» را در مرکز مبادله ایران راه اندازی می کند. هدف اصلی، حل مشکلات صادرکنندگان خرد و تسهیل بازگشت ارز صادراتی به کشور اعلام شده است. نرخ ارز در این تالار بر اساس عرضه و تقاضا تعیین می شود.",
             "category": "Finance",
@@ -897,7 +1455,7 @@
             "date": "2025-08-18 20:48:31"
         },
         {
-            "id": 102,
+            "id": 164,
             "title": "Bets on Outsize Fed Cut Gain Steam as CPI Data Backs Doves",
             "summary": "Expectations for a significant interest rate cut by the Federal Reserve are increasing, supported by CPI data.",
             "category": "Finance",
@@ -906,7 +1464,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 103,
+            "id": 165,
             "title": "دعوت FATF از ایران برای مذاکره در مورد پولشویی",
             "summary": "FATF به طور رسمی از رئیس مرکز اطلاعات مالی ایران دعوت کرد تا در مورد تلاش های این کشور برای مبارزه با پولشویی مذاکره کند. ایران در این دیدار توضیحاتی درباره تصویب لایحه پالرمو و اقدامات خود در زمینه مبارزه با پولشویی و لایحه CFT ارائه خواهد داد.",
             "category": "Finance",
@@ -915,7 +1473,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 104,
+            "id": 166,
             "title": "گشایش هایی در مسیر پیوستن به FATF",
             "summary": "مدنی زاده از گره گشایی هایی در مسیر پیوستن به FATF خبر داد و قادری تصویب کنوانسیون پالرمو را گامی موثر در مراودات بین المللی ایران دانست.",
             "category": "Finance",
@@ -924,7 +1482,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 105,
+            "id": 167,
             "title": "FATF و بررسی وضعیت ایران در زمینه پولشویی",
             "summary": "پس از تصویب مشروط لایحه پالرمو، FATF از رئیس مرکز اطلاعات مالی ایران برای مذاکره حضوری دعوت کرد. موفقیت در این زمینه مستلزم اصلاح قوانین داخلی و همکاری بین دستگاه ها است.",
             "category": "Finance",
@@ -933,7 +1491,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 106,
+            "id": 168,
             "title": "راه اندازی تالار دوم بازار ارز تجاری در مرکز مبادله ایران",
             "summary": "بانک مرکزی در حال راه اندازی «تالار دوم بازار ارز تجاری» با هدف حل مشکلات صادرکنندگان خرد و تسهیل بازگشت ارز صادراتی. نرخ ارز بر اساس عرضه و تقاضا تعیین می شود.",
             "category": "Finance",
@@ -942,7 +1500,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 107,
+            "id": 169,
             "title": "حذف چهار صفر از پول ملی و تغییر واحد رسمی به تومان",
             "summary": "رئیس کل بانک مرکزی از اجرای طرح حذف چهار صفر از پول ملی و تغییر واحد رسمی به «تومان» با واحد خرد «قِران» خبر داد.",
             "category": "Finance",
@@ -951,7 +1509,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 108,
+            "id": 170,
             "title": "دعوت رسمی FATF از رئیس مرکز اطلاعات مالی",
             "summary": "بر اساس اعلام مرکز اطلاعات مالی، گروه ویژه اقدام مالی موسوم به FATF بعد از ۶ سال، از رئیس مرکز اطلاعات مالی کشور برای مذاکره حضوری رسماً دعوت به عمل آورد.",
             "category": "Finance",
@@ -960,7 +1518,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 109,
+            "id": 171,
             "title": "دعوت رسمی FATF از ایران برای مذاکره",
             "summary": "خبری مبنی بر دعوت رسمی FATF از رئیس مرکز اطلاعات مالی ایران به منظور بررسی وضعیت ایران در زمینه مبارزه با پول شویی منتشر شد.",
             "category": "Finance",
@@ -969,7 +1527,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 110,
+            "id": 172,
             "title": "دعوت FATF از ایران برای مذاکره",
             "summary": "پس از تصویب مشروط لایحه پالرمو، FATF از رئیس مرکز اطلاعات مالی ایران برای مذاکره حضوری دعوت کرد. تصمیم گیری ها باید فراتر از دعواهای سیاسی باشد و بر نظر کارشناسان متمرکز شود.",
             "category": "Finance",
@@ -978,7 +1536,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 111,
+            "id": 173,
             "title": "دعوت FATF از ایران برای مذاکره",
             "summary": "گروه ویژه اقدام مالی (FATF) پس از ۶ سال، از رئیس مرکز اطلاعات مالی ایران برای مذاکره حضوری رسماً دعوت به عمل آورد.",
             "category": "Finance",
@@ -987,7 +1545,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 112,
+            "id": 174,
             "title": "چالش های نظام بانکی",
             "summary": "نظام بانکی کشور در سال های اخیر با چالش های متعددی از جمله کنترل رشد نقدینگی، سیاست ارزی، سلامت شبکه بانکی و تخصیص اعتبارات مواجه بوده است.",
             "category": "Finance",
@@ -996,7 +1554,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 113,
+            "id": 175,
             "title": "دعوت FATF از ایران برای مذاکره درباره پولشویی",
             "summary": "گروه ویژه اقدام مالی (FATF) از رئیس مرکز اطلاعات مالی ایران برای بررسی وضعیت ایران در زمینه مبارزه با پول شویی رسماً دعوت به عمل آورد.",
             "category": "Finance",
@@ -1005,7 +1563,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 114,
+            "id": 176,
             "title": "Fed’s Musalem Says Inflation Still a Bigger Problem Than Jobs",
             "summary": "Fed official Musalem emphasizes that inflation remains a more pressing concern than unemployment.",
             "category": "Finance",
@@ -1014,7 +1572,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 115,
+            "id": 177,
             "title": "Meta’s $29 Billion Deal Marks Pivotal Moment for Private Credit",
             "summary": "Meta's large deal signifies a key development in the private credit market.",
             "category": "Finance",
@@ -1023,7 +1581,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 116,
+            "id": 178,
             "title": "دعوت FATF از ایران",
             "summary": "خبری مبنی بر دعوت رسمی FATF از رئیس مرکز اطلاعات مالی ایران به منظور بررسی وضعیت ایران در زمینه مبارزه با پول شویی منتشر شد. ایران در دیدار با گروه ویژه اقدام مالی در مادرید، درباره تصویب لایحه پالرمو و اقدامات خود در زمینه مبارزه با پول شویی و لایحه CFT توضیحاتی ارائه خواهد داد.",
             "category": "Finance",
@@ -1032,7 +1590,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 117,
+            "id": 179,
             "title": "بحث های FATF و پالرمو",
             "summary": "پس از تصویب مشروط لایحه پالرمو و دعوت FATF از رئیس مرکز اطلاعات مالی ایران برای مذاکره حضوری، بحث های مختلفی در این زمینه به وجود آمده است. این موضوع نیازمند اصلاح قوانین داخلی، تقویت نهادهای مالی و همکاری بین دستگاه ها است.",
             "category": "Finance",
@@ -1041,7 +1599,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 118,
+            "id": 180,
             "title": "راه اندازی تالار دوم بازار ارز تجاری",
             "summary": "بانک مرکزی به زودی «تالار دوم بازار ارز تجاری» را در مرکز مبادله ایران راه اندازی می کند. هدف، حل مشکلات صادرکنندگان خرد و تسهیل بازگشت ارز صادراتی است. نرخ ارز بر اساس عرضه و تقاضا تعیین می شود.",
             "category": "Finance",
@@ -1050,7 +1608,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 119,
+            "id": 181,
             "title": "حذف چهار صفر از پول ملی",
             "summary": "رئیس کل بانک مرکزی از اجرای طرح حذف چهار صفر از پول ملی و تغییر واحد رسمی به «تومان» با واحد خرد «قِران» خبر داد.",
             "category": "Finance",
@@ -1059,7 +1617,169 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 120,
+            "id": 182,
+            "title": "امکان استفاده از سپرده های ارزی به عنوان وثیقه",
+            "summary": "سپرده های ارزی اشخاص می تواند به عنوان وثیقه تسهیلات اعطائی جهت تأمین سرمایه ثابت و در گردش واحدهای تولیدی استفاده شوند. همچنین در زمان تسویه تسهیلات، موسسات اعتباری باید اصل و سود سپرده ارزی را با همان ارز سپرده گذاری شده پرداخت کنند.",
+            "category": "Finance",
+            "image": "images/finance/im13.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 183,
+            "title": "راه اندازی تالار دوم بازار ارز تجاری",
+            "summary": "بانک مرکزی به زودی «تالار دوم بازار ارز تجاری» را در مرکز مبادله ایران راه اندازی می کند. هدف اصلی، حل مشکلات صادرکنندگان خرد و تسهیل بازگشت ارز صادراتی به کشور اعلام شده است.",
+            "category": "Finance",
+            "image": "images/finance/im4.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 184,
+            "title": "تلاش برای حل چالش چند نرخی بودن ارز",
+            "summary": "چند نرخی بودن بازار ارز یکی از چالش های دیرینه اقتصاد ایران است که باعث سردرگمی و افزایش نااطمینانی برای فعالان اقتصادی شده است.",
+            "category": "Finance",
+            "image": "images/finance/im25.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 185,
+            "title": "الکترونیکی شدن فرایند صدور مجوزها در بانک مرکزی",
+            "summary": "بانک مرکزی ایران اعلام کرد: فرایند ثبت و صدور تمامی مجوزهای صادره توسط این نهاد از این پس به صورت الکترونیکی و از طریق درگاه ملی مجوزهای کشور انجام می شود.",
+            "category": "Finance",
+            "image": "images/finance/im15.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 186,
+            "title": "ممنوعیت پرداخت سرمایه مضاربه بدون اسناد معتبر",
+            "summary": "بانک مرکزی با ابلاغ بخشنامه ای، پرداخت سرمایه مضاربه بدون اسناد معتبر را ممنوع و نظارت بر ورود و خروج کالا و تعیین نوع فعالیت تجاری را الزامی کرد.",
+            "category": "Finance",
+            "image": "images/finance/im25.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 187,
+            "title": "عصر سلطه مالی و چالش های بانک های مرکزی",
+            "summary": "بازارهای جهانی وارد دوره ای شده اند که به دلیل حجم بالای بدهی دولت ها و افزایش هزینه های استقراض، بانک های مرکزی تحت فشار قرار می گیرند تا نرخ بهره را پایین نگه دارند.",
+            "category": "Finance",
+            "image": "images/finance/im4.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 188,
+            "title": "Home Depot, Target, Walmart: Retail earnings to watch this week",
+            "summary": "Focus on the upcoming earnings reports from major retail companies like Home Depot, Target, and Walmart.",
+            "category": "Finance",
+            "image": "images/finance/im24.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:12"
+        },
+        {
+            "id": 189,
+            "title": "Boom in Bespoke ETFs Drives Growth of Niche ‘A-La-Carte’ Options",
+            "summary": "The increasing popularity of customized ETFs is fueling the expansion of niche investment options.",
+            "category": "Finance",
+            "image": "images/finance/im26.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:12"
+        },
+        {
+            "id": 190,
+            "title": "راه اندازی تالار دوم بازار ارز تجاری",
+            "summary": "بانک مرکزی به زودی تالار دوم بازار ارز تجاری را در مرکز مبادله ایران راه اندازی می کند. هدف اصلی، حل مشکلات صادرکنندگان خرد و تسهیل بازگشت ارز صادراتی به کشور اعلام شده است.",
+            "category": "Finance",
+            "image": "images/finance/im13.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:00"
+        },
+        {
+            "id": 191,
+            "title": "چالش های چند نرخی بودن ارز در ایران",
+            "summary": "چند نرخی بودن بازار ارز یکی از چالش های دیرینه اقتصاد ایران به شمار می رود که باعث سردرگمی، تشکیل صف های طولانی تخصیص ارز و افزایش نااطمینانی برای فعالان اقتصادی شده است.",
+            "category": "Finance",
+            "image": "images/finance/im4.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:00"
+        },
+        {
+            "id": 192,
+            "title": "Home Depot, Target, Walmart: Retail earnings to watch this week",
+            "summary": "Retail earnings of these company's are worth analyzing this week.",
+            "category": "Finance",
+            "image": "images/finance/im1.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:46"
+        },
+        {
+            "id": 193,
+            "title": "Central Bankers Flock to Jackson Hole at Pivotal Moment",
+            "summary": "Central bankers converge at Jackson Hole during a critical period.",
+            "category": "Finance",
+            "image": "images/finance/im15.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:46"
+        },
+        {
+            "id": 194,
+            "title": "Boom in Bespoke ETFs Drives Growth of Niche ‘A-La-Carte’ Options",
+            "summary": "Customized ETFs are fueling the expansion of specialized investment choices.",
+            "category": "Finance",
+            "image": "images/finance/im11.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:46"
+        },
+        {
+            "id": 195,
+            "title": "کاخ سفید قصد دارد فرمانی اجرایی صادر کند تا موضع ایالات متحده در مورد تعرفه های گمرکی بر شمش های طلا را روشن کند",
+            "summary": "کاخ سفید قصد دارد فرمانی اجرایی صادر کند تا موضع ایالات متحده در مورد تعرفه های گمرکی بر شمش های طلا را روشن کند.",
+            "category": "Finance",
+            "image": "images/finance/im8.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 196,
+            "title": "مدنی زاده، وزیر امور اقتصادی و دارایی اعلام کرد که با تصویب قانون پالرمو و گشایش های اخیر در زمینه FATF، گره های مهمی گشوده شده",
+            "summary": "علی مدنی زاده، وزیر امور اقتصادی و دارایی اعلام کرد که با تصویب قانون پالرمو و گشایش های اخیر در زمینه FATF، گره های مهمی گشوده شده که مسیر توسعه اقتصادی کشور را هموارتر خواهد کرد.",
+            "category": "Finance",
+            "image": "images/finance/im9.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 197,
+            "title": "رئیس کمیسیون ویژه حمایت از تولید مجلس: گره گشایی هایی در مسیر پیوستن به  FATF",
+            "summary": "رئیس کمیسیون ویژه حمایت از تولید مجلس شورای اسلامی، در گفت وگویی با اشاره به تصویب کنوانسیون پالرمو و دعوت رسمی ایران به مذاکرات FATF این اقدام را گامی موثر در مراودات بین المللی ایران دانست.",
+            "category": "Finance",
+            "image": "images/finance/im14.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 198,
+            "title": "بدهی بابک زنجانی به بانک مرکزی",
+            "summary": "بابک زنجانی همچنان به سیستم بانکی بدهکار است و به بانک مرکزی ۱.۸ میلیارد دلار بدهی دارد که از این رقم فقط ۱۵ میلیون دلار را پرداخت کرده است.",
+            "category": "Finance",
+            "image": "images/finance/im3.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 199,
+            "title": "S&P Rating Upgrade Brings Much-Needed Relief to Indian Bonds",
+            "summary": "An S&P rating upgrade provides support to Indian bonds.",
+            "category": "Finance",
+            "image": "images/finance/im9.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:20"
+        },
+        {
+            "id": 200,
             "title": "فرمان اجرایی کاخ سفید درباره تعرفه های گمرکی بر شمش های طلا",
             "summary": "کاخ سفید قصد دارد فرمانی اجرایی صادر کند تا موضع ایالات متحده در مورد تعرفه های گمرکی بر شمش های طلا را روشن کند. این تصمیم پس از آن گرفته شد که اداره گمرک و حفاظت مرزی آمریکا اعلام کرد شمش های طلای یک کیلوگرمی و ۱۰۰اونسی مشمول تعرفه های گمرکی هستند",
             "category": "Finance",
@@ -1068,7 +1788,7 @@
             "date": "2025-08-18 20:48:56"
         },
         {
-            "id": 121,
+            "id": 201,
             "title": "اقدام بانک مرکزی برای حذف حساب های مازاد",
             "summary": "بانک مرکزی قرار است درگاه حذف حساب های مازاد را راه اندازی کند. به نظر می رسد اقدام مهم تر، اصلاحات سیاستی در جریان صدور حساب های انبوه بانکی است.",
             "category": "Finance",
@@ -1077,7 +1797,7 @@
             "date": "2025-08-18 20:48:56"
         },
         {
-            "id": 122,
+            "id": 202,
             "title": "اجرای طرح حذف چهار صفر از پول ملی",
             "summary": "رئیس کل بانک مرکزی از اجرای طرح حذف چهار صفر از پول ملی و تغییر واحد رسمی به «تومان» خبر داد.",
             "category": "Finance",
@@ -1086,7 +1806,7 @@
             "date": "2025-08-18 20:48:56"
         },
         {
-            "id": 123,
+            "id": 203,
             "title": "چالش های سیاست چند نرخی ارز در ایران",
             "summary": "چند نرخی بودن بازار ارز، باعث سردرگمی، تشکیل صف های طولانی تخصیص ارز و افزایش نااطمینانی برای فعالان اقتصادی شده است.",
             "category": "Finance",
@@ -1095,7 +1815,7 @@
             "date": "2025-08-18 20:48:56"
         },
         {
-            "id": 124,
+            "id": 204,
             "title": "‘A Loyalist Inside the Building’: Trump’s Temporary Fed Pick Could Have a Lasting Effect",
             "summary": "Stephen I. Miran may spend only a few months on the central bank’s board of governors, but in that time he can influence the discussions around interest rates and who will become the institution’s next leader.",
             "category": "Finance",
@@ -1104,7 +1824,7 @@
             "date": "2025-08-18 20:48:39"
         },
         {
-            "id": 125,
+            "id": 205,
             "title": "دشواری دسترسی به وام های خرد در ایران",
             "summary": "دسترسی به وام های خرد در ایران به دلیل بوروکراسی پیچیده، وثیقه های سنگین و ارزیابی های سخت گیرانه دشوار شده است.",
             "category": "Finance",
@@ -1113,7 +1833,7 @@
             "date": "2025-08-18 20:48:31"
         },
         {
-            "id": 126,
+            "id": 206,
             "title": "راه اندازی درگاه حذف حساب های مازاد در بانک مرکزی",
             "summary": "بانک مرکزی قرار است درگاه حذف حساب های مازاد را راه اندازی کند. به نظر می رسد اقدام مهم تر، اصلاحات سیاستی در جریان صدور حساب های انبوه بانکی است.",
             "category": "Finance",
@@ -1122,7 +1842,7 @@
             "date": "2025-08-18 20:48:31"
         },
         {
-            "id": 127,
+            "id": 207,
             "title": "امکان استفاده از سپرده های ارزی به عنوان وثیقه تسهیلات",
             "summary": "سپرده های ارزی اشخاص می تواند به عنوان وثیقه تسهیلات اعطائی جهت تأمین سرمایه ثابت و در گردش واحدهای تولیدی استفاده شوند.",
             "category": "Finance",
@@ -1131,7 +1851,7 @@
             "date": "2025-08-18 20:48:31"
         },
         {
-            "id": 128,
+            "id": 208,
             "title": "Saudi Wealth Fund’s Assets Under Management Jump, Returns Dip",
             "summary": "The Saudi wealth fund's assets under management have increased, but returns have decreased.",
             "category": "Finance",
@@ -1140,7 +1860,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 129,
+            "id": 209,
             "title": "Brazil Court Eases Way for Telecom Firm Oi to Seek Chapter 11",
             "summary": "A Brazilian court has made it easier for the telecom company Oi to file for Chapter 11 bankruptcy.",
             "category": "Finance",
@@ -1149,7 +1869,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 130,
+            "id": 210,
             "title": "FirstRand Sees Opportunity in Kenya as Capital Rules Tighten",
             "summary": "FirstRand bank identifies an opportunity in the Kenyan market due to stricter capital regulations.",
             "category": "Finance",
@@ -1158,7 +1878,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 131,
+            "id": 211,
             "title": "Nigeria Gives Insurers a Year to Boost Capital Fivefold",
             "summary": "Nigerian insurance companies have been given a year to increase their capital by fivefold.",
             "category": "Finance",
@@ -1167,7 +1887,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 132,
+            "id": 212,
             "title": "Fed Search Continues With Private Sector Candidates",
             "summary": "The search for candidates to fill positions at the Federal Reserve continues, with focus on individuals from the private sector.",
             "category": "Finance",
@@ -1176,7 +1896,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 133,
+            "id": 213,
             "title": "مشکلات دسترسی به وام های خرد در ایران",
             "summary": "دسترسی به وام های خرد در ایران به دلیل بوروکراسی پیچیده، وثیقه های سنگین و ارزیابی های سخت گیرانه دشوار شده است.",
             "category": "Finance",
@@ -1185,7 +1905,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 134,
+            "id": 214,
             "title": "راه اندازی درگاه حذف حساب های مازاد",
             "summary": "بانک مرکزی درگاه حذف حساب های مازاد را راه اندازی می کند. به نظر می رسد اصلاحات سیاستی در جریان صدور حساب های انبوه بانکی مهم تر باشد.",
             "category": "Finance",
@@ -1194,7 +1914,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 135,
+            "id": 215,
             "title": "امکان استفاده از سپرده های ارزی به عنوان وثیقه تسهیلات",
             "summary": "سپرده های ارزی اشخاص می تواند به عنوان وثیقه تسهیلات برای تامین سرمایه واحدهای تولیدی استفاده شود و در زمان تسویه تسهیلات باید با همان ارز پرداخت شود.",
             "category": "Finance",
@@ -1203,7 +1923,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 136,
+            "id": 216,
             "title": "Nagel Says Rates at ‘Very Good Level’ and ECB Can Act Flexibly",
             "summary": "Nagel states that rates are at a 'Very Good Level’ and ECB Can Act Flexibly.",
             "category": "Finance",
@@ -1212,7 +1932,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 137,
+            "id": 217,
             "title": "Fed’s Barkin Says Balance Between Jobs, Inflation Risks Unclear",
             "summary": "Barkin highlights the uncertainty surrounding the balance between jobs and inflation risks.",
             "category": "Finance",
@@ -1221,7 +1941,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 138,
+            "id": 218,
             "title": "One-Time Bond Pariahs Go Neck and Neck With Germany, France",
             "summary": "Bonds from previously high-risk countries are now performing similarly to those of Germany and France.",
             "category": "Finance",
@@ -1230,7 +1950,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 139,
+            "id": 219,
             "title": "روند نرخ بهره بین بانکی",
             "summary": "نرخ بهره بین بانکی در انتهای هفته اول مرداد به ۲۳.۷۶ درصد رسید. پیش بینی می شود این نرخ تا پایان مرداد ماه، احتمالا در حوالی ۲۳.۵ تا ۲۳.۸ درصد نوسان خواهد داشت.",
             "category": "Finance",
@@ -1239,7 +1959,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 140,
+            "id": 220,
             "title": "کاهش ارزش پزوی آرژانتین",
             "summary": "در ماه ژوئیه، ارزش پزوی آرژانتین در مقابل دلار بیش از ۱۲درصد کاهش یافت.",
             "category": "Finance",
@@ -1248,7 +1968,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 141,
+            "id": 221,
             "title": "دشواری دسترسی به وام های خرد",
             "summary": "دسترسی به وام های خرد در ایران به دلیل بوروکراسی پیچیده، وثیقه های سنگین و ارزیابی های سخت گیرانه دشوار شده است.",
             "category": "Finance",
@@ -1257,7 +1977,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 142,
+            "id": 222,
             "title": "راه اندازی درگاه حذف حساب های مازاد",
             "summary": "بانک مرکزی قرار است درگاه حذف حساب های مازاد را راه اندازی کند. اصلاحات سیاستی در جریان صدور حساب های انبوه بانکی مهم تر است.",
             "category": "Finance",
@@ -1266,7 +1986,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 143,
+            "id": 223,
             "title": "بخشنامه جدید بانک مرکزی در مورد وثیقه گذاری",
             "summary": "بانک مرکزی امکان وثیقه گذاری ۳۵ نوع دارایی را فراهم کرد",
             "category": "Finance",
@@ -1275,7 +1995,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 144,
+            "id": 224,
             "title": "اصلاحات در صدور حساب های بانکی",
             "summary": "بانک مرکزی در حال راه اندازی درگاه حذف حساب های مازاد است و اصلاحات سیاستی در جریان صدور حساب های انبوه بانکی می تواند از انباشت حساب های بانکی جلوگیری کند.",
             "category": "Finance",
@@ -1284,7 +2004,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 145,
+            "id": 225,
             "title": "ممنوعیت دریافت سود اضافه در تسهیلات تک قسطی",
             "summary": "بانک مرکزی با ابلاغ بخشنامه ای به شبکه بانکی، دریافت سود اضافه در تسهیلات تک قسطی را ممنوع کرد.",
             "category": "Finance",
@@ -1293,7 +2013,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 146,
+            "id": 226,
             "title": "بخشنامه بانک مرکزی درباره اموال و دارایی های قابل توثیق",
             "summary": "بانک مرکزی «آیین نامه اجرایی ماده (۷) قانون تأمین مالی تولید و زیرساخت ها (موضوع اموال و دارایی های قابل توثیق)» را به شبکه بانکی ابلاغ کرد که امکان وثیقه  گذاری ۳۵ نوع دارایی فراهم می شود.",
             "category": "Finance",
@@ -1302,7 +2022,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 147,
+            "id": 227,
             "title": "روند نرخ بهره بین بانکی",
             "summary": "نرخ بهره بین بانکی در انتهای هفته اول مرداد به ۲۳.۷۶ درصد رسید و پیش بینی می شود در حوالی ۲۳.۵ تا ۲۳.۸ درصد نوسان خواهد داشت.",
             "category": "Finance",
@@ -1311,7 +2031,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 148,
+            "id": 228,
             "title": "چالش های نظام بانکی کشور",
             "summary": "نظام بانکی کشور در سال های اخیر با چالش های متعددی در حوزه های مختلف از جمله کنترل رشد نقدینگی، سیاست ارزی، سلامت شبکه بانکی و تخصیص اعتبارات مواجه بوده است.",
             "category": "Finance",
@@ -1320,7 +2040,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 149,
+            "id": 229,
             "title": "کاهش ارزش پزوی آرژانتین",
             "summary": "در ماه ژوئیه، ارزش پزوی آرژانتین در مقابل دلار بیش از ۱۲درصد کاهش یافت که بیشترین کاهش از زمان روی کار آمدن خاویر میلی بود.",
             "category": "Finance",
@@ -1329,7 +2049,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 150,
+            "id": 230,
             "title": "چالش های دسترسی به وام های خرد در ایران",
             "summary": "دسترسی به وام های خرد در ایران به دلیل بوروکراسی پیچیده و وثیقه های سنگین دشوار شده است و نیاز به اصلاحات بانکی وجود دارد.",
             "category": "Finance",
@@ -1338,7 +2058,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 151,
+            "id": 231,
             "title": "Industrial Takeovers Top $200 Billion Even as Tariffs Chill Investment",
             "summary": "Despite the negative impact of tariffs on investment, industrial takeovers have exceeded $200 billion.",
             "category": "Finance",
@@ -1347,7 +2067,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 152,
+            "id": 232,
             "title": "دسترسی به وام های خرد",
             "summary": "دسترسی به وام های خرد در ایران به دلیل بوروکراسی پیچیده، وثیقه های سنگین و ارزیابی های سخت گیرانه دشوار شده است. ",
             "category": "Finance",
@@ -1356,7 +2076,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 153,
+            "id": 233,
             "title": "راه اندازی درگاه حذف حساب های مازاد",
             "summary": "بانک مرکزی قرار است درگاه حذف حساب های مازاد را راه اندازی کند. به نظر می رسد اقدام مهم تر، اصلاحات سیاستی در جریان صدور حساب های انبوه بانکی است.",
             "category": "Finance",
@@ -1365,7 +2085,7 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 154,
+            "id": 234,
             "title": "استفاده از سپرده های ارزی به عنوان وثیقه تسهیلات",
             "summary": "سپرده های ارزی اشخاص می تواند به عنوان وثیقه تسهیلات اعطائی جهت تأمین سرمایه ثابت و در گردش واحدهای تولیدی استفاده شوند.",
             "category": "Finance",
@@ -1374,7 +2094,43 @@
             "date": "2025-08-14 01:55:16"
         },
         {
-            "id": 155,
+            "id": 235,
+            "title": "China’s $11 Trillion Stock Market Is a Headache for Both Xi and Trump",
+            "summary": "Challenges posed by China's stock market to both Xi Jinping and Donald Trump.",
+            "category": "Markets",
+            "image": "images/markets/im26.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:17"
+        },
+        {
+            "id": 236,
+            "title": "What To Expect in Markets This Week: Fed Chair Remarks, Home Sales, Walmart and Home Depot Earnings",
+            "summary": "Preview of key market events for the week, including Federal Reserve Chair's comments and earnings reports from major retailers.",
+            "category": "Markets",
+            "image": "images/markets/im15.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:12"
+        },
+        {
+            "id": 237,
+            "title": "US Corporate Bond Spreads Sink to 27-Year Low as ‘FOMO’ Sets In",
+            "summary": "Decline in US corporate bond spreads to a 27-year low, driven by 'Fear of Missing Out' (FOMO).",
+            "category": "Markets",
+            "image": "images/markets/im24.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:09:52"
+        },
+        {
+            "id": 238,
+            "title": "US Stocks Fall as Hotter-Than-Expected PPI Halts Record Run",
+            "summary": "US stocks decline due to higher than expected producer price index (PPI), ending a record run.",
+            "category": "Markets",
+            "image": "images/markets/im19.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:09:20"
+        },
+        {
+            "id": 239,
             "title": "US Treasuries Rally as July Inflation Data Boosts Rate-Cut Bets",
             "summary": "US Treasuries are rallying due to inflation data, increasing expectations of rate cuts.",
             "category": "Markets",
@@ -1383,7 +2139,7 @@
             "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 156,
+            "id": 240,
             "title": "Carry Traders Ramp Up Bets in Emerging Markets as Fed Cuts Loom",
             "summary": "Carry traders are increasing their investments in emerging markets in anticipation of interest rate cuts by the Federal Reserve.",
             "category": "Markets",
@@ -1392,7 +2148,7 @@
             "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 157,
+            "id": 241,
             "title": "تغییر مسیر بازار ارز با انتشار دو خبر",
             "summary": "انتشار دو خبر «احتمال آغاز مذاکرات غیرمستقیم ایران و آمریکا» و «شروع پیش فروش سکه توسط بانک مرکزی» مسیر بازار ارز را تغییر داد.",
             "category": "Markets",
@@ -1401,7 +2157,61 @@
             "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 159,
+            "id": 242,
+            "title": "Markets don't need Fed rate cuts to move higher, strategist says",
+            "summary": "A strategist argues that stock market gains are possible even without interest rate cuts by the Federal Reserve.",
+            "category": "Markets",
+            "image": "images/markets/im21.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:12"
+        },
+        {
+            "id": 243,
+            "title": "Why Goldman Sachs says the 'Goldilocks' stock market may get hit",
+            "summary": "Goldman Sachs warns that the current 'Goldilocks' stock market scenario might face challenges.",
+            "category": "Markets",
+            "image": "images/markets/im25.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:12"
+        },
+        {
+            "id": 244,
+            "title": "China’s $11 Trillion Stock Market Is a Headache for Both Xi and Trump",
+            "summary": "Challenges posed by China's stock market to both Chinese and US leadership.",
+            "category": "Markets",
+            "image": "images/markets/im29.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:52"
+        },
+        {
+            "id": 245,
+            "title": "Markets don't need Fed rate cuts to move higher, strategist says",
+            "summary": "A strategist claims that the markets can increase without Federal Reserve rate reductions.",
+            "category": "Markets",
+            "image": "images/markets/im1.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:46"
+        },
+        {
+            "id": 246,
+            "title": "What To Expect in Markets This Week: Fed Chair Remarks, Home Sales, Walmart and Home Depot Earnings",
+            "summary": "Preview of key market events, including Fed Chair's speech and retail earnings.",
+            "category": "Markets",
+            "image": "images/markets/im15.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:46"
+        },
+        {
+            "id": 247,
+            "title": "Why Goldman Sachs says the 'Goldilocks' stock market may get hit",
+            "summary": "Goldman Sachs warns of potential downturn in the stock market.",
+            "category": "Markets",
+            "image": "images/markets/im21.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:46"
+        },
+        {
+            "id": 249,
             "title": "فرمان اجرایی کاخ سفید درباره تعرفه های گمرکی شمش طلا",
             "summary": "کاخ سفید قصد دارد فرمانی اجرایی صادر کند تا موضع ایالات متحده در مورد تعرفه های گمرکی بر شمش های طلا را روشن کند.",
             "category": "Markets",
@@ -1410,7 +2220,7 @@
             "date": "2025-08-18 20:48:31"
         },
         {
-            "id": 160,
+            "id": 250,
             "title": "اعمال تعرفه های جدید بر واردات شمش طلا توسط آمریکا",
             "summary": "ایالات متحده به تازگی تصمیم گرفته است که بر واردات شمش های طلای یک کیلوگرمی و ۱۰۰ اونسی، تعرفه های جدیدی اعمال کند.",
             "category": "Markets",
@@ -1419,7 +2229,7 @@
             "date": "2025-08-18 20:48:31"
         },
         {
-            "id": 161,
+            "id": 251,
             "title": "US Stock Rally Masks Traders’ Nagging Tariff Concerns, Survey Show",
             "summary": "Despite a rally in US stocks, a survey indicates that traders are still concerned about tariffs.",
             "category": "Markets",
@@ -1428,7 +2238,7 @@
             "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 162,
+            "id": 252,
             "title": "کاهش ارزش پزوی آرژانتین",
             "summary": "در ماه ژوئیه، ارزش پزوی آرژانتین در مقابل دلار بیش از ۱۲درصد کاهش یافت، که بیشترین کاهش ارزش پول این کشور از زمان روی کار آمدن خاویر میلی بود.",
             "category": "Markets",
@@ -1437,7 +2247,7 @@
             "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 163,
+            "id": 253,
             "title": "فرمان اجرایی کاخ سفید برای تعرفه گمرکی بر شمش های طلا",
             "summary": "کاخ سفید قصد دارد فرمانی اجرایی صادر کند تا موضع ایالات متحده در مورد تعرفه های گمرکی بر شمش های طلا را روشن کند.",
             "category": "Markets",
@@ -1446,7 +2256,7 @@
             "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 164,
+            "id": 254,
             "title": "تعرفه های جدید آمریکا بر واردات شمش طلا",
             "summary": "ایالات متحده تصمیم گرفته است بر واردات شمش های طلای یک کیلوگرمی و ۱۰۰ اونسی تعرفه های جدیدی اعمال کند.",
             "category": "Markets",
@@ -1455,7 +2265,7 @@
             "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 165,
+            "id": 255,
             "title": "US Treasury Rally Stalls as Key Consumer Price Data Looms Large",
             "summary": "The rally in US Treasury bonds is slowing down as investors await important consumer price data.",
             "category": "Markets",
@@ -1464,7 +2274,7 @@
             "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 166,
+            "id": 256,
             "title": "تعرفه های جدید آمریکا بر واردات شمش طلا",
             "summary": "ایالات متحده تصمیم گرفته است که بر واردات شمش های طلای یک کیلوگرمی و ۱۰۰ اونسی، تعرفه های جدیدی اعمال کند.",
             "category": "Markets",
@@ -1473,7 +2283,7 @@
             "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 167,
+            "id": 257,
             "title": "تاثیر اخبار سیاسی و اقتصادی بر بازار ارز",
             "summary": "انتشار اخبار مربوط به احتمال آغاز مذاکرات ایران و آمریکا و پیش فروش سکه توسط بانک مرکزی، موجب تعدیل قیمت ارز شد.",
             "category": "Markets",
@@ -1482,7 +2292,7 @@
             "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 168,
+            "id": 258,
             "title": "تعرفه های جدید آمریکا بر واردات شمش طلا",
             "summary": "ایالات متحده تصمیم گرفته است تعرفه های جدیدی بر واردات شمش های طلای یک کیلوگرمی و ۱۰۰ اونسی اعمال کند که می تواند بازار جهانی طلا را دچار آشفتگی کند.",
             "category": "Markets",
@@ -1491,7 +2301,7 @@
             "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 169,
+            "id": 259,
             "title": "Stocks End Mixed, as Investors Take Steeper Tariffs in Stride",
             "summary": "The S&P 500 ended the day 0.1 percent lower, a muted move compared to the upheaval when tariffs were first announced in early April.",
             "category": "Markets",
@@ -1500,7 +2310,7 @@
             "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 170,
+            "id": 260,
             "title": "افزایش قیمت دلار به بالاترین سطح یک ماه اخیر",
             "summary": "قیمت دلار آزاد با عبور از مرز ۹۰ هزار تومان به بالاترین سطح قیمتی خود در یک ماه اخیر رسید که ناشی از افزایش تنش های سیاسی است.",
             "category": "Markets",
@@ -1509,7 +2319,7 @@
             "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 171,
+            "id": 261,
             "title": "تغییر مسیر بازار ارز با انتشار اخبار سیاسی و اقتصادی",
             "summary": "انتشار اخبار احتمال مذاکرات ایران و آمریکا و پیش فروش سکه توسط بانک مرکزی، انتظارات افزایشی بازار ارز را مهار کرد.",
             "category": "Markets",
@@ -1518,7 +2328,7 @@
             "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 172,
+            "id": 262,
             "title": "فرمان اجرایی کاخ سفید درباره تعرفه های گمرکی طلا",
             "summary": "کاخ سفید قصد دارد فرمانی اجرایی صادر کند تا موضع ایالات متحده در مورد تعرفه های گمرکی بر شمش های طلا را روشن کند.",
             "category": "Markets",
@@ -1527,7 +2337,7 @@
             "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 173,
+            "id": 263,
             "title": "تعرفه های جدید آمریکا بر واردات شمش طلا",
             "summary": "ایالات متحده تعرفه های جدیدی بر واردات شمش های طلای یک کیلوگرمی و ۱۰۰ اونسی اعمال می کند که می تواند بازار جهانی طلا را دچار آشفتگی کند.",
             "category": "Markets",
@@ -1536,7 +2346,7 @@
             "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 174,
+            "id": 264,
             "title": "European Gas Extends Slide on News of US-Russia Truce Plan",
             "summary": "European gas prices continue to fall following reports of a potential truce between the US and Russia.",
             "category": "Markets",
@@ -1545,7 +2355,7 @@
             "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 175,
+            "id": 265,
             "title": "کاهش ارزش پزوی آرژانتین",
             "summary": "در ماه ژوئیه، ارزش پزوی آرژانتین در مقابل دلار بیش از ۱۲درصد کاهش یافت که بیشترین کاهش ارزش پول این کشور از زمان روی کار آمدن خاویر میلی، رئیس جمهور این کشور بود.",
             "category": "Markets",
@@ -1554,7 +2364,7 @@
             "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 176,
+            "id": 266,
             "title": "تعرفه جدید واردات شمش طلا در آمریکا",
             "summary": "ایالات متحده تصمیم گرفته است بر واردات شمش های طلای یک کیلوگرمی و ۱۰۰ اونسی، تعرفه های جدیدی اعمال کند که می تواند بازار جهانی طلا را دچار آشفتگی کند.",
             "category": "Markets",
@@ -1563,7 +2373,34 @@
             "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 177,
+            "id": 267,
+            "title": "Lure of ‘Free Money’ in Secondaries Nears a Mania",
+            "summary": "Potential mania in the secondary market driven by the allure of 'free money'.",
+            "category": "Investing",
+            "image": "images/investing/im9.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:17"
+        },
+        {
+            "id": 268,
+            "title": "3 AI chip stocks that are best positioned right now",
+            "summary": "Recommendations for three artificial intelligence (AI) chip stocks with strong potential.",
+            "category": "Investing",
+            "image": "images/investing/im5.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:12"
+        },
+        {
+            "id": 269,
+            "title": "Lure of ‘Free Money’ in Secondaries Nears a Mania",
+            "summary": "Growing interest and potential mania in secondary market investments.",
+            "category": "Investing",
+            "image": "images/investing/im10.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:52"
+        },
+        {
+            "id": 270,
             "title": "ضرورت جذب سرمایه گذاری های مردمی و بخش خصوصی",
             "summary": "با توجه به چشم انداز مبهم منابع سنتی تامین مالی، ضرورت حرکت به سوی جذب سرمایه گذاری های مردمی و بخش خصوصی بیش از هر زمان دیگری احساس می شود.",
             "category": "Investing",
@@ -1572,7 +2409,7 @@
             "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 178,
+            "id": 271,
             "title": "جذب سرمایه گذاری های مردمی و بخش خصوصی",
             "summary": "با توجه به چشم انداز مبهم منابع سنتی تامین مالی، ضرورت حرکت به سوی جذب سرمایه گذاری های مردمی و بخش خصوصی بیش از هر زمان دیگری احساس می شود.",
             "category": "Investing",
@@ -1581,7 +2418,61 @@
             "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 179,
+            "id": 272,
+            "title": "OpenAI, Palantir, and Meta execs join fight for America’s tech edge",
+            "summary": "Executives from OpenAI, Palantir, and Meta are collaborating to bolster America's technological leadership.",
+            "category": "Technology",
+            "image": "images/technology/im24.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:12"
+        },
+        {
+            "id": 273,
+            "title": "AI Boom Seen Driving Next Decade of Emerging Markets Performance",
+            "summary": "The potential impact of AI on the economic growth of emerging markets in the coming decade.",
+            "category": "Technology",
+            "image": "images/technology/im4.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:09:52"
+        },
+        {
+            "id": 274,
+            "title": "OpenAI, Palantir, and Meta execs join fight for America’s tech edge",
+            "summary": "Executives from OpenAI, Palantir, and Meta collaborate to boost America's technological advantage.",
+            "category": "Technology",
+            "image": "images/technology/im29.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:09:46"
+        },
+        {
+            "id": 275,
+            "title": "AI Boom Seen Driving Next Decade of Emerging Markets Performance",
+            "summary": "Potential impact of AI on the performance of emerging markets in the next decade.",
+            "category": "Technology",
+            "image": "images/technology/im16.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:17"
+        },
+        {
+            "id": 276,
+            "title": "3 AI chip stocks that are best positioned right now",
+            "summary": "Highlights the best positioned AI chip stocks.",
+            "category": "Technology",
+            "image": "images/technology/im19.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:46"
+        },
+        {
+            "id": 277,
+            "title": "EU push to protect digital rules holds up trade statement with US",
+            "summary": "EU's efforts to safeguard digital regulations are hindering a trade agreement with the US.",
+            "category": "Technology",
+            "image": "images/technology/im30.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:46"
+        },
+        {
+            "id": 278,
             "title": "Russia Offers Classes for Handling Drone Hits at Energy Sites",
             "summary": "Russia is offering classes on how to handle drone strikes at energy facilities.",
             "category": "Technology",
@@ -1590,7 +2481,7 @@
             "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 180,
+            "id": 279,
             "title": "Poland Inks $3.8 Billion Deal to Update F16 Jets in Defense Push",
             "summary": "Poland has signed a $3.8 billion deal to upgrade its F16 jets.",
             "category": "Technology",
@@ -1599,7 +2490,7 @@
             "date": "2025-08-14 01:57:06"
         },
         {
-            "id": 181,
+            "id": 280,
             "title": "Apple C.E.O. Gifts Trump Gold",
             "summary": "Tim Cook presented a glass plaque on a gold base to President Trump and pledged an additional $100 billion investment in the U.S. as Trump threatened a 100 percent tariff on foreign semiconductors.",
             "category": "Technology",

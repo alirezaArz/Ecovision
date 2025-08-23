@@ -575,6 +575,303 @@
             "image": "images/finance/im18.jpg",
             "importance": "Medium",
             "date": "2025-08-18 20:48:56"
+        },
+        {
+            "id": 1,
+            "title": "Treasuries Fall as Wholesale Inflation Dents Fed Rate-Cut Bets",
+            "summary": "Treasuries decline as wholesale inflation reduces expectations of Federal Reserve rate cuts.",
+            "category": "Finance",
+            "image": "images/finance/im2.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:09:20"
+        },
+        {
+            "id": 5,
+            "title": "S&P Rating Upgrade Brings Much-Needed Relief to Indian Bonds",
+            "summary": "An S&P rating upgrade provides support to Indian bonds.",
+            "category": "Finance",
+            "image": "images/finance/im9.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:20"
+        },
+        {
+            "id": 2,
+            "title": "بدهی بابک زنجانی به بانک مرکزی",
+            "summary": "بابک زنجانی همچنان به سیستم بانکی بدهکار است و به بانک مرکزی ۱.۸ میلیارد دلار بدهی دارد که از این رقم فقط ۱۵ میلیون دلار را پرداخت کرده است.",
+            "category": "Finance",
+            "image": "images/finance/im3.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 3,
+            "title": "چالش چند نرخی بودن بازار ارز در ایران",
+            "summary": "چند نرخی بودن بازار ارز یکی از چالش های دیرینه اقتصاد ایران است که باعث سردرگمی، تشکیل صف های طولانی تخصیص ارز و افزایش نااطمینانی برای فعالان اقتصادی شده است.",
+            "category": "Finance",
+            "image": "images/finance/im17.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 4,
+            "title": "آخرین وضعیت پرونده ایران در FATF",
+            "summary": "در صورت تقسیم کار ملی و همراهی دستگاه ها، می توان ظرف یک تا یک ونیم سال از لیست سیاه FATF خارج شد. اولویت ایران تعلیق اقدامات تقابلی است و دلیل اصلی باقی ماندن ایران در این وضعیت عدم تصویب کنوانسیون CFT است.",
+            "category": "Finance",
+            "image": "images/finance/im5.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 7,
+            "title": "اجرای طرح حذف چهار صفر از پول ملی",
+            "summary": "رئیس کل بانک مرکزی از اجرای طرح حذف چهار صفر از پول ملی و تغییر واحد رسمی به «تومان» با واحد خرد «قِران» خبر داد.",
+            "category": "Finance",
+            "image": "images/finance/im11.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 8,
+            "title": "راه اندازی تالار دوم بازار ارز تجاری",
+            "summary": "بانک مرکزی به زودی «تالار دوم بازار ارز تجاری» را در مرکز مبادله ایران راه اندازی می کند. هدف اصلی، حل مشکلات صادرکنندگان خرد و تسهیل بازگشت ارز صادراتی به کشور است.",
+            "category": "Finance",
+            "image": "images/finance/im30.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 14,
+            "title": "رئیس کمیسیون ویژه حمایت از تولید مجلس: گره گشایی هایی در مسیر پیوستن به  FATF",
+            "summary": "رئیس کمیسیون ویژه حمایت از تولید مجلس شورای اسلامی، در گفت وگویی با اشاره به تصویب کنوانسیون پالرمو و دعوت رسمی ایران به مذاکرات FATF این اقدام را گامی موثر در مراودات بین المللی ایران دانست.",
+            "category": "Finance",
+            "image": "images/finance/im14.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 16,
+            "title": "مدنی زاده، وزیر امور اقتصادی و دارایی اعلام کرد که با تصویب قانون پالرمو و گشایش های اخیر در زمینه FATF، گره های مهمی گشوده شده",
+            "summary": "علی مدنی زاده، وزیر امور اقتصادی و دارایی اعلام کرد که با تصویب قانون پالرمو و گشایش های اخیر در زمینه FATF، گره های مهمی گشوده شده که مسیر توسعه اقتصادی کشور را هموارتر خواهد کرد.",
+            "category": "Finance",
+            "image": "images/finance/im9.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 17,
+            "title": "کاخ سفید قصد دارد فرمانی اجرایی صادر کند تا موضع ایالات متحده در مورد تعرفه های گمرکی بر شمش های طلا را روشن کند",
+            "summary": "کاخ سفید قصد دارد فرمانی اجرایی صادر کند تا موضع ایالات متحده در مورد تعرفه های گمرکی بر شمش های طلا را روشن کند.",
+            "category": "Finance",
+            "image": "images/finance/im8.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:35"
+        },
+        {
+            "id": 3,
+            "title": "Boom in Bespoke ETFs Drives Growth of Niche ‘A-La-Carte’ Options",
+            "summary": "Customized ETFs are fueling the expansion of specialized investment choices.",
+            "category": "Finance",
+            "image": "images/finance/im11.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:46"
+        },
+        {
+            "id": 8,
+            "title": "Central Bankers Flock to Jackson Hole at Pivotal Moment",
+            "summary": "Central bankers converge at Jackson Hole during a critical period.",
+            "category": "Finance",
+            "image": "images/finance/im15.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:46"
+        },
+        {
+            "id": 10,
+            "title": "Home Depot, Target, Walmart: Retail earnings to watch this week",
+            "summary": "Retail earnings of these company's are worth analyzing this week.",
+            "category": "Finance",
+            "image": "images/finance/im1.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:09:46"
+        },
+        {
+            "id": 0,
+            "title": "Bond Market’s Rate-Cut Bets Enter Decisive Stretch With Powell",
+            "summary": "Analysis of bond market expectations regarding rate cuts, focusing on Powell's influence.",
+            "category": "Finance",
+            "image": "images/finance/im14.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:09:52"
+        },
+        {
+            "id": 5,
+            "title": "Central Bankers Flock to Jackson Hole at Pivotal Moment",
+            "summary": "Central bankers' meeting in Jackson Hole at a crucial juncture for monetary policy.",
+            "category": "Finance",
+            "image": "images/finance/im7.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:09:52"
+        },
+        {
+            "id": 1,
+            "title": "چالش های چند نرخی بودن ارز در ایران",
+            "summary": "چند نرخی بودن بازار ارز یکی از چالش های دیرینه اقتصاد ایران به شمار می رود که باعث سردرگمی، تشکیل صف های طولانی تخصیص ارز و افزایش نااطمینانی برای فعالان اقتصادی شده است.",
+            "category": "Finance",
+            "image": "images/finance/im4.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:00"
+        },
+        {
+            "id": 2,
+            "title": "آخرین وضعیت پرونده ایران در FATF",
+            "summary": "رئیس مرکز اطلاعات مالی از امکان خروج ایران از لیست سیاه FATF ظرف یک تا یک و نیم سال آینده خبر داد و تاکید کرد که اولویت ایران تعلیق اقدامات تقابلی است.",
+            "category": "Finance",
+            "image": "images/finance/im28.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:00"
+        },
+        {
+            "id": 4,
+            "title": "راه اندازی تالار دوم بازار ارز تجاری",
+            "summary": "بانک مرکزی به زودی تالار دوم بازار ارز تجاری را در مرکز مبادله ایران راه اندازی می کند. هدف اصلی، حل مشکلات صادرکنندگان خرد و تسهیل بازگشت ارز صادراتی به کشور اعلام شده است.",
+            "category": "Finance",
+            "image": "images/finance/im13.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:00"
+        },
+        {
+            "id": 7,
+            "title": "تاثیر FATF بر اقتصاد ایران",
+            "summary": "رئیس کمیسیون ویژه حمایت از تولید مجلس شورای اسلامی، تصویب کنوانسیون پالرمو و دعوت رسمی ایران به مذاکرات FATF را گامی موثر در مراودات بین المللی ایران دانست و اعلام کرد که خروج از لیست سیاه FATF می تواند تاثیر قابل توجهی بر اقتصاد ایران داشته باشد.",
+            "category": "Finance",
+            "image": "images/finance/im5.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:00"
+        },
+        {
+            "id": 8,
+            "title": "گشایش های اخیر در زمینه FATF",
+            "summary": "وزیر امور اقتصادی و دارایی اعلام کرد که با تصویب قانون پالرمو و گشایش های اخیر در زمینه FATF، گره های مهمی گشوده شده که مسیر توسعه اقتصادی کشور را هموارتر خواهد کرد.",
+            "category": "Finance",
+            "image": "images/finance/im3.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:00"
+        },
+        {
+            "id": 2,
+            "title": "Boom in Bespoke ETFs Drives Growth of Niche ‘A-La-Carte’ Options",
+            "summary": "The increasing popularity of customized ETFs is fueling the expansion of niche investment options.",
+            "category": "Finance",
+            "image": "images/finance/im26.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:12"
+        },
+        {
+            "id": 6,
+            "title": "Central Bankers Flock to Jackson Hole at Pivotal Moment",
+            "summary": "Central bankers gather at Jackson Hole during a critical time for the global economy.",
+            "category": "Finance",
+            "image": "images/finance/im1.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:12"
+        },
+        {
+            "id": 8,
+            "title": "Home Depot, Target, Walmart: Retail earnings to watch this week",
+            "summary": "Focus on the upcoming earnings reports from major retail companies like Home Depot, Target, and Walmart.",
+            "category": "Finance",
+            "image": "images/finance/im24.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:12"
+        },
+        {
+            "id": 0,
+            "title": "Bond Market’s Rate-Cut Bets Enter Decisive Stretch With Powell",
+            "summary": "Analysis of bond market expectations for rate cuts and Powell's influence.",
+            "category": "Finance",
+            "image": "images/finance/im18.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:17"
+        },
+        {
+            "id": 5,
+            "title": "Central Bankers Flock to Jackson Hole at Pivotal Moment",
+            "summary": "Significance of the Jackson Hole Economic Symposium for central bankers.",
+            "category": "Finance",
+            "image": "images/finance/im14.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:17"
+        },
+        {
+            "id": 1,
+            "title": "عصر سلطه مالی و چالش های بانک های مرکزی",
+            "summary": "بازارهای جهانی وارد دوره ای شده اند که به دلیل حجم بالای بدهی دولت ها و افزایش هزینه های استقراض، بانک های مرکزی تحت فشار قرار می گیرند تا نرخ بهره را پایین نگه دارند.",
+            "category": "Finance",
+            "image": "images/finance/im4.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 4,
+            "title": "ممنوعیت پرداخت سرمایه مضاربه بدون اسناد معتبر",
+            "summary": "بانک مرکزی با ابلاغ بخشنامه ای، پرداخت سرمایه مضاربه بدون اسناد معتبر را ممنوع و نظارت بر ورود و خروج کالا و تعیین نوع فعالیت تجاری را الزامی کرد.",
+            "category": "Finance",
+            "image": "images/finance/im25.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 7,
+            "title": "الکترونیکی شدن فرایند صدور مجوزها در بانک مرکزی",
+            "summary": "بانک مرکزی ایران اعلام کرد: فرایند ثبت و صدور تمامی مجوزهای صادره توسط این نهاد از این پس به صورت الکترونیکی و از طریق درگاه ملی مجوزهای کشور انجام می شود.",
+            "category": "Finance",
+            "image": "images/finance/im15.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 8,
+            "title": "آخرین وضعیت پرونده ایران در FATF",
+            "summary": "رئیس مرکز اطلاعات مالی اعلام کرد در صورت تقسیم کار ملی و همراهی دستگاه ها، می توان ظرف یک تا یک ونیم سال از لیست سیاه FATF خارج شد. اولویت ایران تعلیق اقدامات تقابلی است.",
+            "category": "Finance",
+            "image": "images/finance/im25.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 12,
+            "title": "تلاش برای حل چالش چند نرخی بودن ارز",
+            "summary": "چند نرخی بودن بازار ارز یکی از چالش های دیرینه اقتصاد ایران است که باعث سردرگمی و افزایش نااطمینانی برای فعالان اقتصادی شده است.",
+            "category": "Finance",
+            "image": "images/finance/im25.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 15,
+            "title": "خبر رئیس کل بانک مرکزی از اجرای طرح حذف چهار صفر از پول ملی",
+            "summary": "رئیس کل بانک مرکزی از اجرای طرح حذف چهار صفر از پول ملی و تغییر واحد رسمی به «تومان» با واحد خرد «قِران» خبر داد.",
+            "category": "Finance",
+            "image": "images/finance/im28.jpg",
+            "importance": "High",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 16,
+            "title": "راه اندازی تالار دوم بازار ارز تجاری",
+            "summary": "بانک مرکزی به زودی «تالار دوم بازار ارز تجاری» را در مرکز مبادله ایران راه اندازی می کند. هدف اصلی، حل مشکلات صادرکنندگان خرد و تسهیل بازگشت ارز صادراتی به کشور اعلام شده است.",
+            "category": "Finance",
+            "image": "images/finance/im4.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:28"
+        },
+        {
+            "id": 19,
+            "title": "امکان استفاده از سپرده های ارزی به عنوان وثیقه",
+            "summary": "سپرده های ارزی اشخاص می تواند به عنوان وثیقه تسهیلات اعطائی جهت تأمین سرمایه ثابت و در گردش واحدهای تولیدی استفاده شوند. همچنین در زمان تسویه تسهیلات، موسسات اعتباری باید اصل و سود سپرده ارزی را با همان ارز سپرده گذاری شده پرداخت کنند.",
+            "category": "Finance",
+            "image": "images/finance/im13.jpg",
+            "importance": "Medium",
+            "date": "2025-08-22 07:10:28"
         }
     ]
 }
